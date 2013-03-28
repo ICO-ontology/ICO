@@ -23,31 +23,22 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="&obo;ico.owl">
         <dc:creator>Asiyah Yu Lin</dc:creator>
-        <dc:subject xml:lang="en">An ontology for the informed consent and informed consent process in the medical field.</dc:subject>
-        <dc:creator>Yongqun &quot;Oliver&quot; He</dc:creator>
-        <owl:versionInfo xml:lang="en">Draft version; 1.0.6</owl:versionInfo>
         <dc:creator>Marcy Harris</dc:creator>
         <dc:creator>Alla Karnovsky</dc:creator>
         <dc:creator>Frank Manion </dc:creator>
+        <dc:subject xml:lang="en">An ontology for the informed consent and informed consent process in the medical field.</dc:subject>
         <dc:title xml:lang="en">Informed Consent Ontology (ICO)</dc:title>
-        <dc:date xml:lang="en">March 27, 2013</dc:date>
+        <dc:date xml:lang="en">March 28, 2013</dc:date>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:description xml:lang="en">The Informed Consent Ontology (ICO) is a biomedical ontology in the domain of informed consent and informed consent. ICO aims to standardize informed consent process, integrate various related data, and support computer-assisted reasoning. </dc:description>
-        <rdfs:isDefinedBy rdf:resource="http://bfo.googlecode.com/svn/trunk/src/ontology/owl-group/specification/"/>
+        <dc:creator>Yongqun &quot;Oliver&quot; He</dc:creator>
+        <owl:versionInfo xml:lang="en">Draft version; 1.0.6</owl:versionInfo>
         <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
-        <foaf:homepage rdf:resource="http://code.google.com/p/bfo/"/>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
-        <rdfs:seeAlso rdf:resource="http://goo.gl/bIlrEE"/>
-        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-devel"/>
-        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-discuss"/>
-        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-owl-devel"/>
-        <foaf:homepage rdf:resource="http://ifomis.org/bfo"/>
         <owl:imports rdf:resource="&obo;bfo.owl"/>
         <rdfs:isDefinedBy rdf:resource="&obo;bfo/2012-07-20/Reference"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo/2012-07-20/ReleaseNotes"/>
         <rdfs:isDefinedBy rdf:resource="&obo;bfo/dev/bfo.clif"/>
         <owl:imports rdf:resource="&obo;ico/OBI_import.owl"/>
-        <foaf:mbox rdf:resource="mailto:bfo-owl-devel@googlegroups.com"/>
     </owl:Ontology>
     
 
@@ -1054,6 +1045,9 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000219">
+        <rdfs:comment>
+            <rdf:Description/>
+        </rdfs:comment>
         <rdfs:comment>
             <rdf:Description/>
         </rdfs:comment>
