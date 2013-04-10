@@ -23,21 +23,19 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="&obo;ico.owl">
         <dc:creator>Asiyah Yu Lin</dc:creator>
-        <dc:date xml:lang="en">April 10, 2013</dc:date>
         <dc:creator>Marcy Harris</dc:creator>
-        <dc:creator>Alla Karnovsky</dc:creator>
         <dc:creator>Frank Manion </dc:creator>
+        <dc:creator>Alla Karnovsky</dc:creator>
+        <dc:creator>Yongqun &quot;Oliver&quot; He</dc:creator>
         <dc:subject xml:lang="en">An ontology for the informed consent and informed consent process in the medical field.</dc:subject>
+        <dc:date xml:lang="en">April 10, 2013</dc:date>
         <owl:versionInfo xml:lang="en">Draft version; 1.0.7</owl:versionInfo>
         <dc:title xml:lang="en">Informed Consent Ontology (ICO)</dc:title>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:description xml:lang="en">The Informed Consent Ontology (ICO) is a biomedical ontology in the domain of informed consent and informed consent. ICO aims to standardize informed consent process, integrate various related data, and support computer-assisted reasoning. </dc:description>
-        <dc:creator>Yongqun &quot;Oliver&quot; He</dc:creator>
         <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
-        <owl:imports rdf:resource="&obo;bfo.owl"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo/2012-07-20/Reference"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo/dev/bfo.clif"/>
+        <owl:imports rdf:resource="&obo;bfo/2010-05-25/ruttenberg-bfo2.owl"/>
         <owl:imports rdf:resource="&obo;ico/OBI_OntoFox_import.owl"/>
         <owl:imports rdf:resource="&obo;ico/OBI_import.owl"/>
     </owl:Ontology>
@@ -117,14 +115,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
-
-    <rdf:Description rdf:about="&obo;BFO_0000015">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000038 -->
 
     <rdf:Description rdf:about="&obo;BFO_0000038">
@@ -144,7 +134,7 @@
     <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
 
     <rdf:Description rdf:about="&obo;GO_0008150">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000007"/>
         <obo:IAO_0000412 rdf:resource="&obo;go.owl"/>
     </rdf:Description>
     
@@ -513,8 +503,8 @@
         <rdfs:label xml:lang="en">informed consent form for clinical study</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000001"/>
         <obo:IAO_0000115>an informed consent form that is used for a clincal study.</obo:IAO_0000115>
-        <obo:IAO_0000119>WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -860,7 +850,6 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
 
     <rdf:Description rdf:about="&obo;OBI_0000011">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
     </rdf:Description>
     
@@ -877,15 +866,6 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
 
     <rdf:Description rdf:about="&obo;OBI_0000245">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000339 -->
-
-    <rdf:Description rdf:about="&obo;OBI_0000339">
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
     </rdf:Description>
     
@@ -1124,6 +1104,9 @@
     <rdf:Description rdf:about="&obo;OBI_0000810">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000339">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0100026">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000121"/>
     </rdf:Description>
@@ -1307,9 +1290,6 @@
     <rdf:Description rdf:about="&obo;BFO_0000004">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000157">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000219">
         <rdfs:comment>
             <rdf:Description/>
@@ -1323,6 +1303,9 @@
         <rdfs:comment>
             <rdf:Description/>
         </rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000157">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000156">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -1399,11 +1382,11 @@
     <rdf:Description rdf:about="&obo;BFO_0000168">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000181">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000167">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000181">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000162">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
