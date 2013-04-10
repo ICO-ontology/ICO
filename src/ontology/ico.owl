@@ -23,21 +23,22 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="&obo;ico.owl">
         <dc:creator>Asiyah Yu Lin</dc:creator>
+        <dc:date xml:lang="en">April 10, 2013</dc:date>
         <dc:creator>Marcy Harris</dc:creator>
         <dc:creator>Alla Karnovsky</dc:creator>
         <dc:creator>Frank Manion </dc:creator>
         <dc:subject xml:lang="en">An ontology for the informed consent and informed consent process in the medical field.</dc:subject>
+        <owl:versionInfo xml:lang="en">Draft version; 1.0.7</owl:versionInfo>
         <dc:title xml:lang="en">Informed Consent Ontology (ICO)</dc:title>
-        <dc:date xml:lang="en">March 28, 2013</dc:date>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:description xml:lang="en">The Informed Consent Ontology (ICO) is a biomedical ontology in the domain of informed consent and informed consent. ICO aims to standardize informed consent process, integrate various related data, and support computer-assisted reasoning. </dc:description>
         <dc:creator>Yongqun &quot;Oliver&quot; He</dc:creator>
-        <owl:versionInfo xml:lang="en">Draft version; 1.0.6</owl:versionInfo>
         <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <owl:imports rdf:resource="&obo;bfo.owl"/>
         <rdfs:isDefinedBy rdf:resource="&obo;bfo/2012-07-20/Reference"/>
         <rdfs:isDefinedBy rdf:resource="&obo;bfo/dev/bfo.clif"/>
+        <owl:imports rdf:resource="&obo;ico/OBI_OntoFox_import.owl"/>
         <owl:imports rdf:resource="&obo;ico/OBI_import.owl"/>
     </owl:Ontology>
     
@@ -51,23 +52,29 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
     <rdf:Description rdf:about="&obo;IAO_0000115">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000412">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000119">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
-    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
     <rdf:Description rdf:about="&obo;IAO_0000117">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
     <rdf:Description rdf:about="&obo;IAO_0000118">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
@@ -75,14 +82,27 @@
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
+    <rdf:Description rdf:about="&obo;IAO_0000119">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000412">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
     
 
 
@@ -105,6 +125,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000038 -->
+
+    <rdf:Description rdf:about="&obo;BFO_0000038">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <rdf:Description rdf:about="&obo;BFO_0000040">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
 
     <rdf:Description rdf:about="&obo;GO_0008150">
@@ -118,6 +154,14 @@
 
     <rdf:Description rdf:about="&obo;IAO_0000027">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000033 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000033">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
     </rdf:Description>
     
 
@@ -590,10 +634,241 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000040 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000040">
+        <rdfs:label xml:lang="en">human subject consenter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
+        <obo:IAO_0000115>a human that serves as a human subject for a study who signs an informed consent form.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000041 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000041">
+        <rdfs:label xml:lang="en">informed consent rule specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000033"/>
+        <obo:IAO_0000115>a directive information entity that specifies the policy (permission or obligation) agreed between the human subject consenter signing an informed consent form and the investigator/organization leading a research study or providing health care.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000042 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000042">
+        <rdfs:label xml:lang="en">obligation informed consent rule specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000041"/>
+        <obo:IAO_0000115>an informed consent rule specification that specifies the course of action legally required to be taken. An example is that the organization leading a study is obliged to destroy the patient&apos;s biospecimens after 10 years as required in an informed consent form.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000043 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000043">
+        <rdfs:label xml:lang="en">permission informed consent rule specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000041"/>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000115>an informed consent rule specification that specifies an optional course of action that is an option for a participant to take. An example is that a human subject consenter is given the option to withdraw from a consented study any time as specified in an informed consent form.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000044 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000044">
+        <rdfs:label xml:lang="en">informed consent identification code</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a data item that shows a unique identification code for an informed consent</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000045 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000045">
+        <rdfs:label xml:lang="en">investigator</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
+        <obo:IAO_0000115>a human that has the role of investigator in a research study. </obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000046 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000046">
+        <rdfs:label xml:lang="en">human patient</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000115>a human that has the role of patient. </obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000047 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000047">
+        <rdfs:label xml:lang="en">human population</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <obo:IAO_0000115>a population of human beings</obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000048 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000048">
+        <rdfs:label xml:lang="en">nonprofit organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>an organization that is operated without a goal of making an financial profit </obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000049 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000049">
+        <rdfs:label xml:lang="en">profit organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
+        <obo:IAO_0000115>an organization that is operated with a goal of making an financial profit </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000050 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000050">
+        <rdfs:label xml:lang="en">animal research investigation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000066"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>an investigation that involves animal research</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000051 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000051">
+        <rdfs:label xml:lang="en">cancer research investigation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000066"/>
+        <obo:IAO_0000115>an investigation that targets cancer research</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000052 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000052">
+        <rdfs:label xml:lang="en">metastatic melanoma research investigation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000051"/>
+        <obo:IAO_0000115>a cancer research investigation that specifically targets metastatic melanoma research. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000053 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000053">
+        <rdfs:label xml:lang="en">drug testing research investigation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000066"/>
+        <obo:IAO_0000115>an investigation that targets on a drug testing</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000054 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000054">
+        <rdfs:label xml:lang="en">human research investigation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000066"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>an investigation that involves human research</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000055 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000055">
+        <rdfs:label xml:lang="en">genetic study</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000066"/>
+        <obo:IAO_0000115>an investigation that contains genetic analysis. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000056 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000056">
+        <rdfs:label xml:lang="en">nonprofit research investigation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000066"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>an investigation that is conducted with a nonprofit purpose</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000057 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000057">
+        <rdfs:label xml:lang="en">profit research investigation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000066"/>
+        <obo:IAO_0000115>an investigation that is conducted with a profit purpose</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000058 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000058">
+        <rdfs:label xml:lang="en">informed consented study period</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a one-dimensional temporal region that is a period of an informed consented study</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <rdf:Description rdf:about="&obo;NCBITaxon_9606">
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
 
     <rdf:Description rdf:about="&obo;OBI_0000011">
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000066 -->
+
+    <rdf:Description rdf:about="&obo;OBI_0000066">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
     </rdf:Description>
     
@@ -645,20 +920,17 @@
     <rdf:Description rdf:about="&obo;IAO_0000104">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000038">
+    <rdf:Description rdf:about="&obo;BFO_0000174">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000314">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000174">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    <rdf:Description rdf:about="&obo;OBI_0001628">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000175">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0001628">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000172">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -713,27 +985,27 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000181">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000108">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000181">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000182">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000107">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000116">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000107">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    <rdf:Description rdf:about="&obo;OBI_0001615">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000184">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0001615">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000185">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -759,38 +1031,32 @@
     <rdf:Description rdf:about="&obo;IAO_0010000">
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000218">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000101">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;NCBITaxon_9606">
-        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+    <rdf:Description rdf:about="&obo;OBI_0000218">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000040">
+    <rdf:Description rdf:about="&obo;BFO_0000017">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000119">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000017">
+    <rdf:Description rdf:about="&obo;BFO_0000118">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000018">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000118">
+    <rdf:Description rdf:about="&obo;BFO_0000016">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000016">
+    <rdf:Description rdf:about="&obo;BFO_0000115">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000572">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000115">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000019">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -822,17 +1088,17 @@
     <rdf:Description rdf:about="&obo;BFO_0000026">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000027">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000471">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000202">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    <rdf:Description rdf:about="&obo;BFO_0000027">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000028">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000202">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000029">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -870,29 +1136,29 @@
     <rdf:Description rdf:about="&obo;BFO_0000123">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000124">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000272">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000078">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000121">
+    <rdf:Description rdf:about="&obo;BFO_0000124">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;PATO_0000047">
         <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000020">
+    <rdf:Description rdf:about="&obo;BFO_0000121">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000023">
+    <rdf:Description rdf:about="&obo;IAO_0000078">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000020">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0001285">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000023">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000024">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -966,19 +1232,19 @@
     <rdf:Description rdf:about="&obo;BFO_0000003">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000142">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0500000">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000001">
+    <rdf:Description rdf:about="&obo;BFO_0000142">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0500001">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000141">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000001">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000144">
@@ -990,14 +1256,11 @@
     <rdf:Description rdf:about="&obo;BFO_0000145">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000066">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    <rdf:Description rdf:about="&obo;IAO_0000602">
+        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0200188">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000602">
-        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000084">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -1014,22 +1277,22 @@
     <rdf:Description rdf:about="&obo;BFO_0000087">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000080">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000147">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000148">
+    <rdf:Description rdf:about="&obo;BFO_0000080">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000081">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000009">
+    <rdf:Description rdf:about="&obo;BFO_0000148">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000082">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000009">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000008">
@@ -1042,6 +1305,9 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000004">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000157">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000219">
@@ -1057,9 +1323,6 @@
         <rdfs:comment>
             <rdf:Description/>
         </rdfs:comment>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000157">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000156">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -1118,20 +1381,17 @@
     <rdf:Description rdf:about="&obo;OBI_0000102">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000103">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000159">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000103">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000750">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000166">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000033">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000165">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -1175,11 +1435,11 @@
     <rdf:Description rdf:about="&obo;OBI_0000947">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000066">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;PATO_0001237">
         <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000066">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000067">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -1194,15 +1454,15 @@
     <rdf:Description rdf:about="&obo;BFO_0000169">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;PATO_0000011">
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;NCBITaxon_2157">
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;PATO_0000011">
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.2.5.1928) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
 
