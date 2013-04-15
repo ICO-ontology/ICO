@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ico/OBI_OntoFox_import.owl" uri="OBI_OntoFox_import.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1366050669953" name="http://purl.obolibrary.org/obo/ico.owl" uri="ico.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1366050669953" name="http://purl.obolibrary.org/obo/ico/OBI_OntoFox_import.owl" uri="OBI_OntoFox_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1366050669953" name="http://purl.obolibrary.org/obo/ico/OBI_import.owl" uri="OBI_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1366053885890" name="http://purl.obolibrary.org/obo/ico.owl" uri="ico.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1366053885890" name="http://purl.obolibrary.org/obo/ico/OBI_OntoFox_import.owl" uri="OBI_OntoFox_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1366053885890" name="http://purl.obolibrary.org/obo/ico/OBI_import.owl" uri="OBI_import.owl"/>
     </group>
 </catalog>
