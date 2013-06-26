@@ -26,14 +26,14 @@
         <dc:creator>Alla Karnovsky</dc:creator>
         <dc:creator>Frank Manion </dc:creator>
         <dc:subject xml:lang="en">An ontology for the informed consent and informed consent process in the medical field.</dc:subject>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.13</owl:versionInfo>
+        <dc:creator>Yongqun &quot;Oliver&quot; He</dc:creator>
+        <dc:creator>Marcy Harris (MRH)</dc:creator>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.14</owl:versionInfo>
         <dc:creator xml:lang="en">Elizabeth Eisenhauer</dc:creator>
         <dc:title xml:lang="en">Informed Consent Ontology (ICO)</dc:title>
         <dc:date xml:lang="en">June 26, 2013</dc:date>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:description xml:lang="en">The Informed Consent Ontology (ICO) is a biomedical ontology in the domain of informed consent and informed consent. ICO aims to standardize informed consent process, integrate various related data, and support computer-assisted reasoning. </dc:description>
-        <dc:creator>Yongqun &quot;Oliver&quot; He</dc:creator>
-        <dc:creator>Marcy Harris (MRH)</dc:creator>
         <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <owl:imports rdf:resource="&obo;bfo/2010-05-25/ruttenberg-bfo2.owl"/>
@@ -131,6 +131,16 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000067 -->
+
+    <owl:ObjectProperty rdf:about="&obo;ICO_0000067">
+        <rdfs:label xml:lang="en">form signed by</rdfs:label>
+        <obo:IAO_0000117>YH, EE</obo:IAO_0000117>
+        <obo:IAO_0000115>an object property that represents a relation between a form and the person or organization who acts as a signer and signs the form.</obo:IAO_0000115>
+    </owl:ObjectProperty>
     
 
 
@@ -438,6 +448,17 @@
 
     <owl:Class rdf:about="&obo;ICO_0000018">
         <rdfs:label>informed consent form signed by human subject</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;ICO_0000015"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;ICO_0000067"/>
+                        <owl:someValuesFrom rdf:resource="&obo;ICO_0000040"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000015"/>
         <obo:IAO_0000115>an informed consent form that has been signed by a human subject</obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
