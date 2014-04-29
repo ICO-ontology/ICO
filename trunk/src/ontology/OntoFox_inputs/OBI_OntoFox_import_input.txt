@@ -9,8 +9,20 @@ OBI
 http://purl.obolibrary.org/obo/OBI_0100051 #specimen
 includeAllChildren
 
+http://purl.obolibrary.org/obo/OBI_0500026 #eligibility criterion
+includeAllChildren
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 #entity
+
+http://purl.obolibrary.org/obo/OBI_0500026 #eligibility criterion
+subClassOf http://purl.obolibrary.org/obo/IAO_0000033
+
+http://purl.obolibrary.org/obo/OBI_0000011
+subClassOf http://purl.obolibrary.org/obo/BFO_0000007
+
+http://purl.obolibrary.org/obo/OBI_0000339
+subClassOf http://purl.obolibrary.org/obo/BFO_0000007
 
 [Source term retrieval setting]
 includeAllIntermediates 
