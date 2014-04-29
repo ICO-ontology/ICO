@@ -23,17 +23,12 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="&obo;ico.owl">
         <dc:creator>Asiyah Yu Lin</dc:creator>
-        <dc:creator>Alla Karnovsky</dc:creator>
         <dc:creator>Frank Manion </dc:creator>
-        <dc:subject xml:lang="en">An ontology for the informed consent and informed consent process in the medical field.</dc:subject>
+        <dc:creator>Alla Karnovsky</dc:creator>
         <dc:creator>Yongqun &quot;Oliver&quot; He</dc:creator>
         <dc:creator>Marcy Harris (MRH)</dc:creator>
         <owl:versionInfo xml:lang="en">Arbor version; 1.0.15</owl:versionInfo>
-        <dc:date xml:lang="en">December 12, 2013</dc:date>
         <dc:creator xml:lang="en">Elizabeth Eisenhauer</dc:creator>
-        <dc:title xml:lang="en">Informed Consent Ontology (ICO)</dc:title>
-        <dc:format xml:lang="en">OWL-DL</dc:format>
-        <dc:description xml:lang="en">The Informed Consent Ontology (ICO) is a biomedical ontology in the domain of informed consent and informed consent. ICO aims to standardize informed consent process, integrate various related data, and support computer-assisted reasoning. </dc:description>
         <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <owl:imports rdf:resource="&obo;bfo/2010-05-25/ruttenberg-bfo2.owl"/>
@@ -507,8 +502,8 @@
     <owl:Class rdf:about="&obo;ICO_0000024">
         <rdfs:label>partially filled informed consent form</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000001"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000115>an informed consent form that has been partically filled with required contents.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -563,8 +558,8 @@
         <rdfs:label xml:lang="en">informed consent form for clinical study</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000001"/>
         <obo:IAO_0000115>an informed consent form that is used for a clincal study.</obo:IAO_0000115>
-        <obo:IAO_0000119>WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -620,7 +615,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000034 -->
 
     <owl:Class rdf:about="&obo;ICO_0000034">
-        <rdfs:label xml:lang="en">&apos;informed parental consent form for clinical research involving children&apos;</rdfs:label>
+        <rdfs:label xml:lang="en">&#39;informed parental consent form for clinical research involving children&#39;</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000029"/>
         <obo:IAO_0000119>WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <obo:IAO_0000115>an informed consent form for clinical study that involves children.</obo:IAO_0000115>
@@ -711,7 +706,7 @@
     <owl:Class rdf:about="&obo;ICO_0000042">
         <rdfs:label xml:lang="en">obligation informed consent rule specification</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000041"/>
-        <obo:IAO_0000115>an informed consent rule specification that specifies the course of action legally required to be taken. An example is that the organization leading a study is obliged to destroy the patient&apos;s biospecimens after 10 years as required in an informed consent form.</obo:IAO_0000115>
+        <obo:IAO_0000115>an informed consent rule specification that specifies the course of action legally required to be taken. An example is that the organization leading a study is obliged to destroy the patient&#39;s biospecimens after 10 years as required in an informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
     </owl:Class>
     
@@ -746,6 +741,17 @@
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
         <obo:IAO_0000115>a human that has the role of investigator in a research study. </obo:IAO_0000115>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000046 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000046">
+        <rdfs:label>authorization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <obo:IAO_0000119 xml:lang="en">NCIt C41192</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">The process of makeing the decision of the competent authorities in form of a letter, document, or verbal or electronic form, that confirms that somebody has permission to do something or be somewhere, e.g. to realize a given project.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1059,8 +1065,19 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
         <obo:IAO_0000115>a human that serves as a human subject for a study who signs an informed consent form.</obo:IAO_0000115>
-        <obo:IAO_0000118>human paticient</obo:IAO_0000118>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000118>human paticient</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000074 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000074">
+        <rdfs:label>Authorization for release of confidential health information</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000046"/>
+        <obo:IAO_0000119 xml:lang="en">NCIt C70679</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">an authorization that signed by a patient, or his legal representative, or clinical study participant for the use or disclosure of oral, written, or electronic form of confidential health information that identifies the individual and relates to the medical history, diagnosis, treatment, or prognosis of his condition. </obo:IAO_0000115>
     </owl:Class>
     
 
@@ -2160,5 +2177,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.2.5.1928) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.2.2.1782) http://owlapi.sourceforge.net -->
 
