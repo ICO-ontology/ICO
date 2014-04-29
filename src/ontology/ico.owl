@@ -22,12 +22,13 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="&obo;ico.owl">
-        <dc:creator>Asiyah Yu Lin</dc:creator>
-        <dc:creator>Frank Manion </dc:creator>
         <dc:creator>Alla Karnovsky</dc:creator>
+        <dc:creator>Frank Manion </dc:creator>
         <dc:creator>Yongqun &quot;Oliver&quot; He</dc:creator>
+        <dc:creator>Asiyah Yu Lin</dc:creator>
         <dc:creator>Marcy Harris (MRH)</dc:creator>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.15</owl:versionInfo>
+        <dc:date xml:lang="en">2014-04-29</dc:date>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.17</owl:versionInfo>
         <dc:creator xml:lang="en">Elizabeth Eisenhauer</dc:creator>
         <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
@@ -46,23 +47,29 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
     <rdf:Description rdf:about="&obo;IAO_0000115">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000412">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000119">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
-    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
     <rdf:Description rdf:about="&obo;IAO_0000117">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
     <rdf:Description rdf:about="&obo;IAO_0000118">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
@@ -70,14 +77,27 @@
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
+    <rdf:Description rdf:about="&obo;IAO_0000119">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000412">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
     
 
 
@@ -502,8 +522,8 @@
     <owl:Class rdf:about="&obo;ICO_0000024">
         <rdfs:label>partially filled informed consent form</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000001"/>
-        <obo:IAO_0000115>an informed consent form that has been partically filled with required contents.</obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>an informed consent form that has been partically filled with required contents.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -615,7 +635,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000034 -->
 
     <owl:Class rdf:about="&obo;ICO_0000034">
-        <rdfs:label xml:lang="en">&#39;informed parental consent form for clinical research involving children&#39;</rdfs:label>
+        <rdfs:label xml:lang="en">&apos;informed parental consent form for clinical research involving children&apos;</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000029"/>
         <obo:IAO_0000119>WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <obo:IAO_0000115>an informed consent form for clinical study that involves children.</obo:IAO_0000115>
@@ -706,7 +726,7 @@
     <owl:Class rdf:about="&obo;ICO_0000042">
         <rdfs:label xml:lang="en">obligation informed consent rule specification</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000041"/>
-        <obo:IAO_0000115>an informed consent rule specification that specifies the course of action legally required to be taken. An example is that the organization leading a study is obliged to destroy the patient&#39;s biospecimens after 10 years as required in an informed consent form.</obo:IAO_0000115>
+        <obo:IAO_0000115>an informed consent rule specification that specifies the course of action legally required to be taken. An example is that the organization leading a study is obliged to destroy the patient&apos;s biospecimens after 10 years as required in an informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
     </owl:Class>
     
@@ -816,8 +836,8 @@
     <owl:Class rdf:about="&obo;ICO_0000052">
         <rdfs:label xml:lang="en">metastatic melanoma research investigation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000051"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000115>a cancer research investigation that specifically targets metastatic melanoma research. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -2177,5 +2197,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.2.2.1782) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
 
