@@ -122,6 +122,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000057 -->
+
+    <rdf:Description rdf:about="&obo;BFO_0000057">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000087 -->
 
     <rdf:Description rdf:about="&obo;BFO_0000087">
@@ -194,6 +203,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <rdf:Description rdf:about="&obo;BFO_0000023">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000038 -->
 
     <rdf:Description rdf:about="&obo;BFO_0000038">
@@ -214,6 +232,15 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
 
     <rdf:Description rdf:about="&obo;IAO_0000027">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000030">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
@@ -630,7 +657,7 @@
 
     <owl:Class rdf:about="&obo;ICO_0000032">
         <rdfs:label xml:lang="en">informed assent form for child or minor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;ICO_0000001"/>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000085"/>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <obo:IAO_0000115>an informed consent form that is used for a study involving a child or minority</obo:IAO_0000115>
@@ -776,6 +803,17 @@
 
     <owl:Class rdf:about="&obo;ICO_0000045">
         <rdfs:label xml:lang="en">investigator</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000202"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
         <obo:IAO_0000115>a human that has the role of investigator in a research study. </obo:IAO_0000115>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
@@ -1190,6 +1228,94 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000080 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000080">
+        <rdfs:label xml:lang="en">research assistant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
+        <dc:creator>YL</dc:creator>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000081 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000081">
+        <rdfs:label xml:lang="en">legal guardian role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000118 xml:lang="en"> legally authorized representative role</obo:IAO_0000118>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in an individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">NCTI C51828</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000082 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000082">
+        <rdfs:label xml:lang="en">legal guardian</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;ICO_0000081"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
+        <obo:IAO_0000118 xml:lang="en"> legally authorized representative</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000083 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000083">
+        <rdfs:label xml:lang="en">contact information</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">Information that is about the means of contacting a person or group.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">NCIT  C60776</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000084 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000084">
+        <rdfs:label xml:lang="en">assent process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000810"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">a informed consent process in which a parent or a legally authorized representative on be half of a minor children and adults lacking capacity to consent for themselves to psrticipant.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000085 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000085">
+        <rdfs:label xml:lang="en">informed assent form</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000001"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
     <rdf:Description rdf:about="&obo;NCBITaxon_9606">
@@ -1232,10 +1358,32 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000202 -->
+
+    <rdf:Description rdf:about="&obo;OBI_0000202">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
 
     <rdf:Description rdf:about="&obo;OBI_0000245">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000810 -->
+
+    <rdf:Description rdf:about="&obo;OBI_0000810">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </rdf:Description>
     
 
@@ -1398,12 +1546,12 @@
     <rdf:Description rdf:about="&obo;BFO_0000018">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000015">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0001506">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000015">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000572">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
@@ -1488,10 +1636,6 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000023">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000895">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
@@ -1526,12 +1670,12 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0001479">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000639">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0001479">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000088">
@@ -1671,10 +1815,6 @@
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000052">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000057">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
@@ -1987,9 +2127,6 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000202">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000129">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
@@ -2005,9 +2142,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000125">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000810">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000140">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
@@ -2245,10 +2379,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000953">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000030">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000947">
