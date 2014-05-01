@@ -12,8 +12,8 @@
     <!ENTITY NCIT "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#" >
 ]>
 
-<rdf:RDF xmlns="external.owl#"
-     xml:base="external.owl"
+<rdf:RDF xmlns="&obo;ico/external.owl#"
+     xml:base="&obo;ico/external.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -23,7 +23,7 @@
      xmlns:j.0="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:NCIT="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#">
-    <owl:Ontology rdf:about="external.owl">
+    <owl:Ontology rdf:about="&obo;ico/external.owl">
     </owl:Ontology>
 
     <!-- 

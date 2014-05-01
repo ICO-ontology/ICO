@@ -22,20 +22,20 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="&obo;ico.owl">
-        <dc:creator>Asiyah Yu Lin</dc:creator>
+        <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
         <dc:creator>Frank Manion </dc:creator>
         <dc:creator>Alla Karnovsky</dc:creator>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.17</owl:versionInfo>
         <dc:creator>Yongqun &quot;Oliver&quot; He</dc:creator>
         <dc:creator>Marcy Harris (MRH)</dc:creator>
         <dc:date xml:lang="en">2014-04-29</dc:date>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.17</owl:versionInfo>
         <dc:creator xml:lang="en">Elizabeth Eisenhauer</dc:creator>
-        <owl:imports rdf:resource="file:/C:/Documents%20and%20Settings/yuln/My%20Documents/ico-ontology/src/ontology/external/external.owl"/>
         <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <owl:imports rdf:resource="&obo;bfo/2010-05-25/ruttenberg-bfo2.owl"/>
         <owl:imports rdf:resource="&obo;ico/OBI_OntoFox_import.owl"/>
         <owl:imports rdf:resource="&obo;ico/OBI_import.owl"/>
+        <owl:imports rdf:resource="&obo;ico/external.owl"/>
     </owl:Ontology>
     
 
@@ -48,27 +48,38 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
     <rdf:Description rdf:about="&obo;IAO_0000115">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
     <rdf:Description rdf:about="&obo;IAO_0000116">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000412">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000119">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
-    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
     <rdf:Description rdf:about="&obo;IAO_0000117">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
     <rdf:Description rdf:about="&obo;IAO_0000118">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
@@ -76,14 +87,27 @@
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
+    <rdf:Description rdf:about="&obo;IAO_0000119">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000412">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
     
 
 
@@ -174,15 +198,6 @@
 
     <rdf:Description rdf:about="&obo;BFO_0000038">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
-
-    <rdf:Description rdf:about="&obo;BFO_0000040">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     
 
@@ -525,8 +540,8 @@
     <owl:Class rdf:about="&obo;ICO_0000024">
         <rdfs:label>partially filled informed consent form</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000001"/>
-        <obo:IAO_0000115>an informed consent form that has been partically filled with required contents.</obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>an informed consent form that has been partically filled with required contents.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -638,7 +653,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000034 -->
 
     <owl:Class rdf:about="&obo;ICO_0000034">
-        <rdfs:label xml:lang="en">&#39;informed parental consent form for clinical research involving children&#39;</rdfs:label>
+        <rdfs:label xml:lang="en">&apos;informed parental consent form for clinical research involving children&apos;</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000029"/>
         <obo:IAO_0000119>WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <obo:IAO_0000115>an informed consent form for clinical study that involves children.</obo:IAO_0000115>
@@ -729,7 +744,7 @@
     <owl:Class rdf:about="&obo;ICO_0000042">
         <rdfs:label xml:lang="en">obligation informed consent rule specification</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000041"/>
-        <obo:IAO_0000115>an informed consent rule specification that specifies the course of action legally required to be taken. An example is that the organization leading a study is obliged to destroy the patient&#39;s biospecimens after 10 years as required in an informed consent form.</obo:IAO_0000115>
+        <obo:IAO_0000115>an informed consent rule specification that specifies the course of action legally required to be taken. An example is that the organization leading a study is obliged to destroy the patient&apos;s biospecimens after 10 years as required in an informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
     </owl:Class>
     
@@ -774,7 +789,7 @@
         <rdfs:label>authorization</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <obo:IAO_0000119 xml:lang="en">NCIt C41192</obo:IAO_0000119>
-        <obo:IAO_0000116 xml:lang="en">The alternative term of &#39;permission&#39; has semantic similarity with authorization in the sense of &#39;approval to do something&#39; and &#39;the act of giving a formal (usualy written) authorization. The semnatic similarity measuremment of permission and authorization is done using WordNet::Similarity (http://marimba.d.umn.edu/cgi-bin/similarity/).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">The alternative term of &apos;permission&apos; has semantic similarity with authorization in the sense of &apos;approval to do something&apos; and &apos;the act of giving a formal (usualy written) authorization. The semnatic similarity measuremment of permission and authorization is done using WordNet::Similarity (http://marimba.d.umn.edu/cgi-bin/similarity/).</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">The process of makeing the decision of the competent authorities in form of a letter, document, or verbal or electronic form, that confirms that somebody has permission to do something or be somewhere, e.g. to realize a given project.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">permission</obo:IAO_0000118>
@@ -786,7 +801,7 @@
 
     <owl:Class rdf:about="&obo;ICO_0000047">
         <rdfs:label xml:lang="en">human population</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000181"/>
         <obo:IAO_0000115>a population of human beings</obo:IAO_0000115>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
     </owl:Class>
@@ -842,8 +857,8 @@
     <owl:Class rdf:about="&obo;ICO_0000052">
         <rdfs:label xml:lang="en">metastatic melanoma research investigation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000051"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000115>a cancer research investigation that specifically targets metastatic melanoma research. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -1161,6 +1176,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000079 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000079">
+        <rdfs:label xml:lang="en">Institutional Review Board</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
+        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;code=C16741&amp;ns=NCI_Thesaurus</rdfs:seeAlso>
+        <obo:IAO_0000115 xml:lang="en">A specially constituted independent review body comprised of medical, scientific and non-scientific members established and designated by an entity to ensure the protection of the rights, safety and well-being of human subjects recruited to participate in biomedical or behavioral research according to the requirements outlined in Title 38, part 16 (same as Title 45, part 46 and Title 21, part 56) of the U.S. Code of Federal Regulations. IRB responsibility include but not limited to the reviewing, approving, and providing continuing review of trial protocol and amendments and of the methods and material(s) to be used in obtaining and documenting informed consent of the trial. Other equivalent committees with the same or similar functions are also considered to be IRBs.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">IRB</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">NCIT C16741</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
     <rdf:Description rdf:about="&obo;NCBITaxon_9606">
@@ -1191,6 +1220,14 @@
 
     <rdf:Description rdf:about="&obo;OBI_0000097">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
+
+    <rdf:Description rdf:about="&obo;OBI_0000181">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
     </rdf:Description>
     
 
@@ -1289,7 +1326,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000031">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000030">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -1347,6 +1383,10 @@
     <rdf:Description rdf:about="&obo;OBI_0000293">
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000040">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000876">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
@@ -1361,6 +1401,9 @@
     <rdf:Description rdf:about="&obo;OBI_0001506">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000015">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000572">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
@@ -2192,9 +2235,6 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000181">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000047">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
@@ -2245,5 +2285,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.2.2.1782) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
 
