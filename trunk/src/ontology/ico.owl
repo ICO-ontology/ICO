@@ -700,10 +700,12 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000035 -->
 
     <owl:Class rdf:about="&obo;ICO_0000035">
-        <rdfs:label xml:lang="en">date</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
-        <obo:IAO_0000115>a data item that indicates a date</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">date specification in informed consent form</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <obo:IAO_0000116 xml:lang="en">5/7/2014 Asiyah Yu Lin: It is the date specification that appears on the informed consent form, which is may different with the actual date.</obo:IAO_0000116>
+        <obo:IAO_0000117>YL</obo:IAO_0000117>
         <dc:creator>Yongqun He</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a data item that indicates a date that specified on an informed consent form</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -712,7 +714,8 @@
 
     <owl:Class rdf:about="&obo;ICO_0000036">
         <rdfs:label xml:lang="en">informed consent form signing date</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;ICO_0000035"/>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000416"/>
+        <obo:IAO_0000116>5/7/2014 Asiyah Yu Lin:  look at the OBI example of sample collection date http://purl.obolibrary.org/obo/OBI_0001619 </obo:IAO_0000116>
         <obo:IAO_0000115>a date when an informed consent form is signed</obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
     </owl:Class>
@@ -1325,6 +1328,34 @@
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
         <dc:creator xml:lang="en">YL</dc:creator>
         <obo:IAO_0000115 xml:lang="en">a role that inheres in a patient or the legal guadian when he/she participates the consenting process.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000087 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000087">
+        <rdfs:label xml:lang="en">study duration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000416"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;IAO_0000413"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000064"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The measured temporal interval of a study.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000088 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000088">
+        <rdfs:label xml:lang="en">participation duration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000416"/>
+        <obo:IAO_0000115 xml:lang="en">The termporal measurement datum that represent the time of someone (for example the study subject) participating the study or the research.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
     </owl:Class>
     
 

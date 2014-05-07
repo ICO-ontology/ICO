@@ -56,10 +56,10 @@
     <owl:AnnotationProperty rdf:about="&obo;IAO_0010000">
         <rdfs:label>axiom id</rdfs:label>
     </owl:AnnotationProperty>
-    
+  
 
 
-     
+
 <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -74,16 +74,15 @@
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
         <obo:IAO_0000115 xml:lang="en">A chronological written account of a patient's examination and treatment that includes the patient's medical history and complaints, the physician's physical findings, the results of diagnostic tests and procedures, and medications and therapeutic procedures.</obo:IAO_0000115>
         <dc:source>NCIT</dc:source>
-    </owl:Class>
-	
-	 <!-- http://purl.obolibrary.org/obo/IAO_0000416 -->
-     <owl:Class rdf:about="&obo;IAO_0000146">
-        <rdfs:label xml:lang="en">time measurement datum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
-        <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measuring a temporal interval.</obo:IAO_0000115>
-		<obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
-        <dc:source>IAO</dc:source>
-    </owl:Class>
+     </owl:Class>
+
+     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70707 -->
+	 <owl:Class rdf:about="&NCIT;C70707">
+	    <rdfs:label xml:lang="en">Planned Duration of Study Subject Participation</rdfs:label>
+	    <rdfs:subClassOf rdf:resource="&obo;ICO_0000088"/>
+	    <obo:IAO_0000115 xml:lang="en">Total estimated length of time of subject's participation in a clinical study; from the time of enrollment to the completion of follow-up as documented in the study protocol.</obo:IAO_0000115>
+	    <dc:source>NCIT</dc:source>
+	 </owl:Class>
 </rdf:RDF>
 
 
