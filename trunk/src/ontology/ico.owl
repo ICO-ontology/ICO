@@ -25,10 +25,10 @@
         <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
         <dc:creator>Frank Manion </dc:creator>
         <dc:creator>Alla Karnovsky</dc:creator>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.17</owl:versionInfo>
         <dc:creator>Yongqun &quot;Oliver&quot; He</dc:creator>
         <dc:creator>Marcy Harris (MRH)</dc:creator>
         <dc:date xml:lang="en">2014-04-29</dc:date>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.20</owl:versionInfo>
         <dc:creator xml:lang="en">Elizabeth Eisenhauer</dc:creator>
         <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
@@ -156,6 +156,14 @@
         <obo:IAO_0000117>YH, EE</obo:IAO_0000117>
         <obo:IAO_0000115>an object property that represents a relation between a form and the person or organization who acts as a signer and signs the form.</obo:IAO_0000115>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
+
+    <rdf:Description rdf:about="&obo;OBI_0000293">
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     
 
 
@@ -1291,12 +1299,6 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000810"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000085"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000082"/>
             </owl:Restriction>
@@ -1312,6 +1314,17 @@
     <owl:Class rdf:about="&obo;ICO_0000085">
         <rdfs:label xml:lang="en">informed assent form</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000086 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000086">
+        <rdfs:label xml:lang="en">consenter role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <dc:creator xml:lang="en">YL</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a role that inheres in a patient or the legal guadian when he/she participates the consenting process.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1379,8 +1392,19 @@
     <rdf:Description rdf:about="&obo;OBI_0000810">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;ICO_0000086"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
@@ -1526,9 +1550,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000873">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000293">
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000040">
