@@ -24,10 +24,10 @@
     <owl:Ontology rdf:about="&obo;ico.owl">
         <dc:date xml:lang="en">2014-05-07</dc:date>
         <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
-        <dc:creator>Frank Manion </dc:creator>
         <dc:creator>Alla Karnovsky</dc:creator>
         <owl:versionInfo xml:lang="en">Arbor version; 1.0.22</owl:versionInfo>
         <dc:creator xml:lang="en">Elizabeth Eisenhauer</dc:creator>
+        <dc:creator>Frank Manion </dc:creator>
         <dc:creator>Yongqun &quot;Oliver&quot; He</dc:creator>
         <dc:creator>Marcy Harris (MRH)</dc:creator>
         <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
@@ -49,38 +49,49 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
-
+    <owl:AnnotationProperty rdf:about="&dc;creator">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&obo;ICO_0000091">
+        <rdfs:label xml:lang="en">term_mapping_to_UMLS</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&rdfs;seeAlso"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&obo;ICO_0000093">
+        <rdfs:label xml:lang="en">term_mapping_to_HL7v3</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&rdfs;seeAlso"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&obo;ICO_0000092">
+        <rdfs:label xml:lang="en">term_mapping_to_NCIT</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&rdfs;seeAlso"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&dc;license"/>
     <rdf:Description rdf:about="&obo;IAO_0000115">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
-
     <rdf:Description rdf:about="&obo;IAO_0000116">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
-
+    <rdf:Description rdf:about="&obo;IAO_0000412">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;IAO_0000232">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;IAO_0000119">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000117">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
-
+    <rdf:Description rdf:about="&dc;date">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000118">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
@@ -88,63 +99,14 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-    <rdf:Description rdf:about="&obo;IAO_0000119">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
-
-    <rdf:Description rdf:about="&obo;IAO_0000232">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
-
-    <rdf:Description rdf:about="&obo;IAO_0000412">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ICO_0000091 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;ICO_0000091">
-        <rdfs:label xml:lang="en">term_mapping_to_UMLS</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="&rdfs;seeAlso"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ICO_0000092 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;ICO_0000092">
-        <rdfs:label xml:lang="en">term_mapping_to_NCIT</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="&rdfs;seeAlso"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ICO_0000093 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;ICO_0000093">
-        <rdfs:label xml:lang="en">term_mapping_to_HL7v3</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="&rdfs;seeAlso"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/creator -->
-
-    <owl:AnnotationProperty rdf:about="&dc;creator"/>
     
 
 
@@ -156,6 +118,14 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <rdf:Description rdf:about="&obo;BFO_0000050">
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     
 
 
@@ -186,6 +156,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000413 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000413">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ICO_0000067 -->
 
     <owl:ObjectProperty rdf:about="&obo;ICO_0000067">
@@ -199,6 +178,7 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
 
     <rdf:Description rdf:about="&obo;OBI_0000293">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     
@@ -207,6 +187,7 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
 
     <rdf:Description rdf:about="&obo;OBI_0000299">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     
@@ -215,6 +196,7 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->
 
     <rdf:Description rdf:about="&obo;OBI_0000312">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     
@@ -286,6 +268,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
 
     <rdf:Description rdf:about="&obo;IAO_0000027">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
@@ -295,6 +278,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
 
     <rdf:Description rdf:about="&obo;IAO_0000030">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
@@ -304,6 +288,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000033 -->
 
     <rdf:Description rdf:about="&obo;IAO_0000033">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
@@ -322,6 +307,15 @@
 
     <rdf:Description rdf:about="&obo;IAO_0000310">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000416 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000416">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     
@@ -424,6 +418,12 @@
     <owl:Class rdf:about="&obo;ICO_0000007">
         <rdfs:label>part of informed consent form</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000118>informed consent form element</obo:IAO_0000118>
         <obo:IAO_0000115>a document that is a part of an informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000117>AK, FM, YH</obo:IAO_0000117>
@@ -489,9 +489,15 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000013 -->
 
     <owl:Class rdf:about="&obo;ICO_0000013">
-        <rdfs:label>informed consent form for human sample collection</rdfs:label>
+        <rdfs:label>informed consent form for human biospecimen collection</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000001"/>
-        <obo:IAO_0000115>an informed consent form that involves human sample collection</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000659"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>an informed consent form that documents voluntary decision to deposit a human biospecimen. </obo:IAO_0000115>
         <obo:IAO_0000117>AK, FM, YH</obo:IAO_0000117>
     </owl:Class>
     
@@ -667,6 +673,12 @@
     <owl:Class rdf:about="&obo;ICO_0000028">
         <rdfs:label>part of informed consent form for human blood sample collection</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>a part of informed consent form that is designed for human blood sample collection. </obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
     </owl:Class>
@@ -679,8 +691,8 @@
         <rdfs:label xml:lang="en">informed consent form for clinical study</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000001"/>
         <obo:IAO_0000115>an informed consent form that is used for a clincal study.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -954,8 +966,8 @@
     <owl:Class rdf:about="&obo;ICO_0000052">
         <rdfs:label xml:lang="en">metastatic melanoma research investigation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000051"/>
-        <obo:IAO_0000115>a cancer research investigation that specifically targets metastatic melanoma research. </obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a cancer research investigation that specifically targets metastatic melanoma research. </obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1203,8 +1215,8 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
         <obo:IAO_0000115>a human that serves as a human subject for a study who signs an informed consent form.</obo:IAO_0000115>
-        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000118>human paticient</obo:IAO_0000118>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -1487,7 +1499,18 @@
         <rdfs:label xml:lang="en">UMHS medical record</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45258"/>
         <obo:IAO_0000117 xml:lang="en">YL.</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">the medical record that used in University of Michigan Hospital System</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the medical record that is used in University of Michigan Health System</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000099 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000099">
+        <rdfs:label>informed consent form for human urine biospeciment collection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000013"/>
+        <obo:IAO_0000115>an informed cosent form for human biospeciment collection that is specifically for human urine biospecimen collection.</obo:IAO_0000115>
+        <obo:IAO_0000117>AK, FM, YH</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -1550,9 +1573,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000659 -->
+
+    <rdf:Description rdf:about="&obo;OBI_0000659">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000810 -->
 
     <rdf:Description rdf:about="&obo;OBI_0000810">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
@@ -1562,12 +1601,6 @@
                         <owl:someValuesFrom rdf:resource="&obo;ICO_0000086"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
@@ -1588,6 +1621,7 @@
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000684">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
@@ -1661,6 +1695,7 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000031">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000030">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -1697,6 +1732,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000187">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;obi.owl">
+        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;NCBITaxon_40674">
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
@@ -1747,6 +1785,10 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OGMS_0000060">
+        <obo:IAO_0000412 rdf:resource="&obo;oae.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ogms.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000019">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
@@ -1755,12 +1797,17 @@
         <obo:IAO_0000412 rdf:resource="&obo;cl.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000070">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_1000049">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000079">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000011">
@@ -1785,6 +1832,14 @@
     <rdf:Description rdf:about="&obo;OBI_0600004">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;CL_0000578">
+        <obo:IAO_0000412 rdf:resource="&obo;cl.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0500028">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000792">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </rdf:Description>
@@ -1796,15 +1851,40 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0100026">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000121"/>
+    <rdf:Description rdf:about="&obo;OBI_0500027">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000278">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+    <rdf:Description rdf:about="&obo;OBI_0500026">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;CL_0000010">
+        <obo:IAO_0000412 rdf:resource="&obo;cl.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000086">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;IAO_0000178">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0100026">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000121"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;REO_0000280">
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;reo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0200166">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000278">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000272">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
@@ -1816,6 +1896,10 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000899">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000274">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000020">
@@ -1840,6 +1924,10 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;REO_0000171">
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;reo.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000133">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
@@ -1850,6 +1938,7 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000643">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000079">
@@ -1861,6 +1950,7 @@
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0001479">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
@@ -1886,11 +1976,23 @@
     <rdf:Description rdf:about="&obo;BFO_0000136">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0001937">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000137">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0001936">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000070">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0001938">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000140">
@@ -1918,12 +2020,15 @@
     <rdf:Description rdf:about="&obo;BFO_0000145">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0200188">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0001468">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0200188">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+    <rdf:Description rdf:about="&dc;subject">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000084">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -1939,10 +2044,14 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000147">
+    <rdf:Description rdf:about="&obo;BFO_0000080">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000080">
+    <rdf:Description rdf:about="&obo;UO_0000003">
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;uo.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000147">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000081">
@@ -1953,9 +2062,14 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000082">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000083">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;UBERON_0000029">
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000257">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
@@ -1973,6 +2087,10 @@
     <rdf:Description rdf:about="&obo;BFO_0000154">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_1110041">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000153">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
@@ -1987,6 +2105,10 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000059">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_1110046">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000053">
@@ -2016,31 +2138,38 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000659">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;NCBITaxon_2759">
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0001912">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000158">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0001847">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000102">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000159">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000103">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000159">
+    <rdf:Description rdf:about="&obo;BFO_0000166">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000750">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000166">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    <rdf:Description rdf:about="&obo;OBI_0001933">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000165">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -2050,6 +2179,10 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000167">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0001931">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000162">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -2093,12 +2226,12 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000378">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0100066">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000378">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000066">
@@ -2109,6 +2242,7 @@
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0100060">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
@@ -2119,12 +2253,12 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;CHEBI_33697">
-        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000370">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;CHEBI_33697">
+        <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000169">
@@ -2154,12 +2288,12 @@
     <rdf:Description rdf:about="&obo;OBI_0000115">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0302884">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000112">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0302884">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0302885">
@@ -2168,6 +2302,7 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000104">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0302886">
@@ -2187,13 +2322,16 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000932">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000111">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000932">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    <rdf:Description rdf:about="&obo;OAE_0000001">
+        <obo:IAO_0000412 rdf:resource="&obo;oae.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000931">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
@@ -2203,6 +2341,7 @@
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000417">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0302893">
@@ -2225,6 +2364,10 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000319">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;CARO_0001008">
         <obo:IAO_0000412 rdf:resource="&obo;caro.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
@@ -2236,12 +2379,16 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0302716">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+    <rdf:Description rdf:about="&obo;IAO_0000109">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000927">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0302716">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000924">
@@ -2260,6 +2407,10 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000922">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_1110116">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000119">
@@ -2305,9 +2456,16 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_1110109">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000917">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;title">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000341">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
@@ -2315,6 +2473,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000129">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;contributor">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000127">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -2342,12 +2503,16 @@
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000806">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000339">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000123">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;PATO_0001421">
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
@@ -2356,9 +2521,6 @@
     <rdf:Description rdf:about="&obo;OBI_0000902">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000123">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000124">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -2377,15 +2539,24 @@
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000007">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&dc;format">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000005">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000841">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;IAO_0000003">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0100016">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
@@ -2437,6 +2608,14 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;UBERON_0002106">
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;uberon.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0600024">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000834">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
@@ -2449,6 +2628,10 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;IAO_0000015">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000002">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
@@ -2457,9 +2640,16 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000067">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000001">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dc;description">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000832">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
@@ -2473,6 +2663,7 @@
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000968">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
@@ -2483,6 +2674,10 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0600014">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;IAO_0000009">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
@@ -2518,13 +2713,23 @@
         <rdfs:comment>
             <rdf:Description/>
         </rdfs:comment>
+        <rdfs:comment>
+            <rdf:Description/>
+        </rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000862">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_9991118">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000965">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000434">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0001051">
@@ -2559,16 +2764,32 @@
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;IAO_0000039">
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000950">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000953">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;IAO_0000032">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000947">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000441">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000444">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;PATO_0001237">
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
@@ -2597,5 +2818,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.2.5.1928) http://owlapi.sourceforge.net -->
 
