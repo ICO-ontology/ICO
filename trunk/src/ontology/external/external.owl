@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 
+
 <!DOCTYPE rdf:RDF [
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY obo "http://purl.obolibrary.org/obo/" >
@@ -12,6 +13,7 @@
     <!ENTITY NCIT "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#" >
 ]>
 
+
 <rdf:RDF xmlns="&obo;ico/external.owl#"
      xml:base="&obo;ico/external.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -23,8 +25,9 @@
      xmlns:j.0="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:NCIT="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#">
-    <owl:Ontology rdf:about="&obo;ico/external.owl">
-    </owl:Ontology>
+    <owl:Ontology rdf:about="&obo;ico/external.owl"/>
+    
+
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -34,33 +37,88 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
-        <rdfs:label xml:lang="en">definition</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&dc;creator"/>
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000116">
-        <rdfs:label xml:lang="en">editor note</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&dc;publisher"/>
-    <owl:AnnotationProperty rdf:about="&dc;contributor"/>
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118">
-        <rdfs:label xml:lang="en">alternative term</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&dc;source"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000111">
         <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000112">
         <rdfs:label xml:lang="en">example of usage</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000116">
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118">
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0010000 -->
+
     <owl:AnnotationProperty rdf:about="&obo;IAO_0010000">
         <rdfs:label>axiom id</rdfs:label>
     </owl:AnnotationProperty>
-  
+    
 
 
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
 
-<!-- 
+    <owl:AnnotationProperty rdf:about="&dc;contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="&dc;publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="&dc;source"/>
+    
+
+
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -68,22 +126,87 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45258 -->
-     <owl:Class rdf:about="&NCIT;C45258">
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19482 -->
+
+    <owl:Class rdf:about="&NCIT;C19482">
+        <rdfs:label xml:lang="en">Certificate of Confidentiality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
+        <obo:IAO_0000115 xml:lang="en">A document that protects researchers from involuntary disclosure of personal identifying information acquired in the course of a research project. Data cannot be subpoenaed and assures anonymity to study participants.</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45258 -->
+
+    <owl:Class rdf:about="&NCIT;C45258">
         <rdfs:label xml:lang="en">medical record</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
-        <obo:IAO_0000115 xml:lang="en">A chronological written account of a patient's examination and treatment that includes the patient's medical history and complaints, the physician's physical findings, the results of diagnostic tests and procedures, and medications and therapeutic procedures.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A chronological written account of a patient&apos;s examination and treatment that includes the patient&apos;s medical history and complaints, the physician&apos;s physical findings, the results of diagnostic tests and procedures, and medications and therapeutic procedures.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
         <dc:source>NCIT</dc:source>
-     </owl:Class>
+    </owl:Class>
+    
 
-     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70707 -->
-	 <owl:Class rdf:about="&NCIT;C70707">
-	    <rdfs:label xml:lang="en">Planned Duration of Study Subject Participation</rdfs:label>
-	    <rdfs:subClassOf rdf:resource="&obo;ICO_0000088"/>
-	    <obo:IAO_0000115 xml:lang="en">Total estimated length of time of subject's participation in a clinical study; from the time of enrollment to the completion of follow-up as documented in the study protocol.</obo:IAO_0000115>
-	    <dc:source>NCIT</dc:source>
-	 </owl:Class>
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70707 -->
+
+    <owl:Class rdf:about="&NCIT;C70707">
+        <rdfs:label xml:lang="en">Planned Duration of Study Subject Participation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000088"/>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000115 xml:lang="en">Total estimated length of time of subject&apos;s participation in a clinical study; from the time of enrollment to the completion of follow-up as documented in the study protocol.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C81262 -->
+
+    <owl:Class rdf:about="&NCIT;C81262">
+        <rdfs:label xml:lang="en">Medical Record Number</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000028"/>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000115 xml:lang="en">An identifying number within an institution that is used to reference a subject&apos;s medical information.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94413 -->
+
+    <owl:Class rdf:about="&NCIT;C94413">
+        <rdfs:label xml:lang="en">Human Participant Protection Regulations</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
+        <obo:IAO_0000115 xml:lang="en">Laws set by the U.S. Department of Health and Human Services (DHHS) to protect a person from risks in research studies that any federal agency or department has a part in.</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000028 -->
+
+    <owl:Class rdf:about="&obo;IAO_0000028"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
+
+    <owl:Class rdf:about="&obo;IAO_0000310"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000088 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000088"/>
 </rdf:RDF>
 
 
-<!-- Generated by hand -->
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
