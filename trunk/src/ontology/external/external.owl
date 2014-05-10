@@ -137,12 +137,33 @@
 
     <owl:Class rdf:about="&NCIT;C94413">
         <rdfs:label xml:lang="en">Human Participant Protection Regulations</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000031"/>
         <obo:IAO_0000115 xml:lang="en">Laws set by the U.S. Department of Health and Human Services (DHHS) to protect a person from risks in research studies that any federal agency or department has a part in.</obo:IAO_0000115>
         <dc:source>NCIT</dc:source>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
     </owl:Class>
     
+	  <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C60776 -->
+
+    <owl:Class rdf:about="&NCIT;C60776">
+        <rdfs:label xml:lang="en">Contact Information</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">Information regarding the means of contacting a person or group.</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>
+
+
+  <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C90492 -->
+
+    <owl:Class rdf:about="&NCIT;C90492">
+        <rdfs:label xml:lang="en">Personal Information</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+		<obo:IAO_0000118>Personally Identifiable Information</obo:IAO_0000118>
+        <obo:IAO_0000115 xml:lang="en">Data, facts or figures about an individual; the set of relevant items would depend on the use case.</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000028 -->
