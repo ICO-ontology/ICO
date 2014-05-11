@@ -137,7 +137,7 @@
 
     <owl:Class rdf:about="&NCIT;C94413">
         <rdfs:label xml:lang="en">Human Participant Protection Regulations</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000031"/>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0021004"/>
         <obo:IAO_0000115 xml:lang="en">Laws set by the U.S. Department of Health and Human Services (DHHS) to protect a person from risks in research studies that any federal agency or department has a part in.</obo:IAO_0000115>
         <dc:source>NCIT</dc:source>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
@@ -165,7 +165,87 @@
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
     </owl:Class>
 
+  <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15709 -->
 
+    <owl:Class rdf:about="&NCIT;C15709">
+        <rdfs:label xml:lang="en">Genetic Testing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000056"/>
+        <obo:IAO_0000115 xml:lang="en">The process of isolating and testing the DNA of an embryo or a person to detect the presence of genetic alterations or defects that may predispose to the future development of a disease or disorder</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>
+	
+	
+ <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38101 -->
+
+    <owl:Class rdf:about="&NCIT;C38101">
+        <rdfs:label xml:lang="en">Radiography</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000056"/>
+		<obo:IAO_0000118>Diagnostic Radiology</obo:IAO_0000118>
+        <obo:IAO_0000115 xml:lang="en">A radiographic procedure using the emission of x-rays to form an image of the structure penetrated by the radiation.</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>
+	
+	
+	    <!-- http://purl.obolibrary.org/obo/IAO_0021004 -->
+
+    <owl:Class rdf:about="&obo;IAO_0021004">
+        <rdfs:label xml:lang="en">socio-legal generically dependent continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000031"/>
+        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">Socio-legal generically dependent continuants are generically dependent continuants that come into existence through declarations and are concretized as roles. They differ from information content entities in  that they are not about something, but exist as quasi-abstract social entities. Socio-legal generically dependent continuants are not concretized as qualities inhering in independent continuants, but only as realizable entities borne by an organism or an aggregate of organisms. </obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">the claim of a piece of land, the obligation to pay rent to the owner of a rental property</obo:IAO_0000112>
+		<dc:source>d-acts ontology</dc:source>
+		<obo:IAO_0000412>http://d-acts.googlecode.com/svn/tags/2013-11-27/d-acts.owl</obo:IAO_0000412>
+    </owl:Class>
+	
+
+  <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25191 -->
+
+    <owl:Class rdf:about="&NCIT;C25191">
+        <rdfs:label xml:lang="en">Person Name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000300"/>
+		<obo:IAO_0000115 xml:lang="en">A word or group of words indicating the identity of a person usually consisting of a first (personal) name and a last (family) name with an optional middle name. In some cultural traditions the family name comes first.</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+  <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39551 -->
+
+    <owl:Class rdf:about="&NCIT;C39551">
+        <rdfs:label xml:lang="en">University of Michigan Comprehensive Cancer Center</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
+		<obo:IAO_0000115 xml:lang="en">University of Michigan Comprehensive Cancer Center comprised of four basic science programs: Cancer Cell Biology, Cancer Genetics Program, Experimental Therapeutics Program, and Tumor Immunology and Immunotherapy Program; the Cancer Prevention and Control Program with two sub-fields of inquiry: biomedical and socio-behavioral; and ten clinical research programs within the Clinical Science Division at the Cancer Center, and 14 core resources.</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>
+	
+	
+  <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94204 -->
+
+    <owl:Class rdf:about="&NCIT;C94204">
+        <rdfs:label xml:lang="en">Data and Safety Monitoring Board</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
+		<obo:IAO_0000115 xml:lang="en">An impartial group that oversees a clinical trial and reviews the results to see if they are acceptable. This group determines if the trial should be changed or closed.</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>
+	
+	
+   <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C103159 -->
+
+    <owl:Class rdf:about="&NCIT;C103159">
+        <rdfs:label xml:lang="en">Data Collection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+		<obo:IAO_0000115 xml:lang="en">The act or process of gathering data for testing or research purposes.</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>
+	  
+	
+	
     <!-- http://purl.obolibrary.org/obo/IAO_0000028 -->
 
     <owl:Class rdf:about="&obo;IAO_0000028"/>
