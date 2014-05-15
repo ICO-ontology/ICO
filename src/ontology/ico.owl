@@ -22,10 +22,10 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="&obo;ico.owl">
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.33</owl:versionInfo>
         <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
         <dc:creator>Frank Manion </dc:creator>
         <dc:creator>Alla Karnovsky</dc:creator>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.32</owl:versionInfo>
         <dc:description>The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.</dc:description>
         <dc:creator>Yongqun &quot;Oliver&quot; He</dc:creator>
         <dc:creator>Marcy Harris (MRH)</dc:creator>
@@ -473,12 +473,6 @@
     <owl:Class rdf:about="&obo;ICO_0000003">
         <rdfs:label>informed consent form validation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>a planned process that validates an informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000117>AK, FM, YH</obo:IAO_0000117>
     </owl:Class>
@@ -1156,12 +1150,6 @@
     <owl:Class rdf:about="&obo;ICO_0000058">
         <rdfs:label xml:lang="en">informed consented study period</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000038"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000115>a one-dimensional temporal region that is a period of an informed consented study</obo:IAO_0000115>
     </owl:Class>
