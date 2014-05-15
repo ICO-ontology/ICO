@@ -26,8 +26,8 @@
         <dc:creator>Frank Manion </dc:creator>
         <dc:creator>Alla Karnovsky</dc:creator>
         <dc:description>The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.</dc:description>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.36</owl:versionInfo>
         <dc:creator>Yongqun &quot;Oliver&quot; He</dc:creator>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.37</owl:versionInfo>
         <dc:creator>Marcy Harris (MRH)</dc:creator>
         <dc:date xml:lang="en">2014-05-15</dc:date>
         <dc:creator xml:lang="en">Elizabeth Eisenhauer</dc:creator>
@@ -443,12 +443,12 @@
     <owl:Class rdf:about="&obo;ICO_0000001">
         <rdfs:label>informed consent form</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
-        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Informed_consent</obo:IAO_0000119>
         <obo:IAO_0000117>AK, FM, YH, YL, MH</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A document that explains all relevant study information to assist a human subject in understanding the expectations and requirements of participation in a research study. This form document is presented to and signed by the study subject. </obo:IAO_0000115>
         <obo:ICO_0000091 xml:lang="en">C0009797 </obo:ICO_0000091>
         <obo:ICO_0000092 xml:lang="en">C16468 </obo:ICO_0000092>
         <obo:IAO_0000116>The term definition is adapted from NCIt definition of &apos;consent form&apos; (C16468) with modification. Compared to the NCIt definition, the ICO definition does not restrict the form to a clinical trial.  </obo:IAO_0000116>
+        <obo:IAO_0000119>NCIt C16468</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -2008,12 +2008,6 @@ Individually identifiable health information includes many common identifiers (e
     <rdf:Description rdf:about="&obo;OBI_0000810">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
@@ -2021,6 +2015,12 @@ Individually identifiable health information includes many common identifiers (e
                         <owl:someValuesFrom rdf:resource="&obo;ICO_0000086"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
