@@ -243,8 +243,40 @@
         <dc:source>NCIT</dc:source>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
     </owl:Class>
-	  
+
+
+   <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25678 -->
+
+    <owl:Class rdf:about="&NCIT;C25678">
+        <rdfs:label xml:lang="en">Signature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000300"/>
+		<obo:IAO_0000115 xml:lang="en">Individual's name or personal mark, used to sign documents and employed to signify that the writing which precedes accords with one's wishes and intentions; having a handwritten signature.</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>	  
 	
+
+   <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70958 -->
+
+    <owl:Class rdf:about="&NCIT;C70958">
+        <rdfs:label xml:lang="en">Subject's Signature on Informed Consent Form</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCIT;C25678"/>
+		<obo:IAO_0000115 xml:lang="en">An inscription provided by a human subject on the informed consent document. This inscription signifies the subject's intent to participate in the clinical study, and his acknowledgement and understanding of the risks involved in such participation.</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>	 
+
+ 	
+   <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70947 -->
+
+    <owl:Class rdf:about="&NCIT;C70947">
+        <rdfs:label xml:lang="en">Investigator Signature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCIT;C25678"/>
+		<obo:IAO_0000115 xml:lang="en">A textual or multimedia form of the signed name or personal mark of the investigator who is responsible for completing a particular document as a part of clinical study activity. By signing this document the investigator confirms his participation and his role in the study and assumes responsibility and accountability associated with this role.</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>	 
+
 	
     <!-- http://purl.obolibrary.org/obo/IAO_0000028 -->
 
