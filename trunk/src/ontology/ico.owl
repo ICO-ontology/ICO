@@ -22,7 +22,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="&obo;ico.owl">
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.33</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.34</owl:versionInfo>
         <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
         <dc:creator>Frank Manion </dc:creator>
         <dc:creator>Alla Karnovsky</dc:creator>
@@ -444,9 +444,11 @@
         <rdfs:label>informed consent form</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
         <obo:IAO_0000117>AK, FM, YH</obo:IAO_0000117>
-        <obo:IAO_0000115>a document that is a form of informed consent.</obo:IAO_0000115>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Informed_consent</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">A document that is used to capture and manage informed consents.</obo:IAO_0000115>
         <obo:ICO_0000091 xml:lang="en">C0009797 </obo:ICO_0000091>
         <obo:ICO_0000092 xml:lang="en">C16468 </obo:ICO_0000092>
+        <rdfs:comment xml:lang="en">Hospital management systems typically use paper-based consent forms which are scanned and stored in a document handling system after obtaining the necessary signatures. Hospital systems and research organizations are adopting an electronic way of capturing informed consents to enable indexing, to improve comprehension, search and retrieval of consent data, thus enhancing the ability to honor to patient intent and identify willing research participants. (http://en.wikipedia.org/wiki/Informed_consent)</rdfs:comment>
     </owl:Class>
     
 
@@ -2006,6 +2008,12 @@ Individually identifiable health information includes many common identifiers (e
     <rdf:Description rdf:about="&obo;OBI_0000810">
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
@@ -2013,12 +2021,6 @@ Individually identifiable health information includes many common identifiers (e
                         <owl:someValuesFrom rdf:resource="&obo;ICO_0000086"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
