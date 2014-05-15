@@ -22,15 +22,15 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="&obo;ico.owl">
-        <dc:date xml:lang="en">2014-05-11</dc:date>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.31</owl:versionInfo>
         <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
-        <dc:creator>Alla Karnovsky</dc:creator>
-        <dc:creator xml:lang="en">Elizabeth Eisenhauer</dc:creator>
         <dc:creator>Frank Manion </dc:creator>
+        <dc:creator>Alla Karnovsky</dc:creator>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.32</owl:versionInfo>
         <dc:description>The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.</dc:description>
         <dc:creator>Yongqun &quot;Oliver&quot; He</dc:creator>
         <dc:creator>Marcy Harris (MRH)</dc:creator>
+        <dc:date xml:lang="en">2014-05-15</dc:date>
+        <dc:creator xml:lang="en">Elizabeth Eisenhauer</dc:creator>
         <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <owl:imports rdf:resource="&obo;bfo/2010-05-25/ruttenberg-bfo2.owl"/>
@@ -471,7 +471,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000003 -->
 
     <owl:Class rdf:about="&obo;ICO_0000003">
-        <rdfs:label>validation of informed consent form</rdfs:label>
+        <rdfs:label>informed consent form validation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -488,7 +488,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000004 -->
 
     <owl:Class rdf:about="&obo;ICO_0000004">
-        <rdfs:label>approval of informed consent form</rdfs:label>
+        <rdfs:label>informed consent form approval</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1413,7 +1413,7 @@
 
     <owl:Class rdf:about="&obo;ICO_0000079">
         <rdfs:label xml:lang="en">Institutional Review Board</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000006"/>
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;code=C16741&amp;ns=NCI_Thesaurus</rdfs:seeAlso>
         <obo:IAO_0000115 xml:lang="en">A specially constituted independent review body comprised of medical, scientific and non-scientific members established and designated by an entity to ensure the protection of the rights, safety and well-being of human subjects recruited to participate in biomedical or behavioral research according to the requirements outlined in Title 38, part 16 (same as Title 45, part 46 and Title 21, part 56) of the U.S. Code of Federal Regulations. IRB responsibility include but not limited to the reviewing, approving, and providing continuing review of trial protocol and amendments and of the methods and material(s) to be used in obtaining and documenting informed consent of the trial. Other equivalent committees with the same or similar functions are also considered to be IRBs.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">IRB</obo:IAO_0000118>
@@ -1769,9 +1769,10 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ICO_0000109 -->
 
     <owl:Class rdf:about="&obo;ICO_0000109">
-        <rdfs:label xml:lang="en">cancelling permission</rdfs:label>
+        <rdfs:label xml:lang="en">permission cancellation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
+        <obo:IAO_0000115>a planned process that cancels a permission</obo:IAO_0000115>
     </owl:Class>
     
 
