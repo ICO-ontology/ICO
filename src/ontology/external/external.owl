@@ -50,6 +50,7 @@
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="&dc;contributor"/>
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000412"/>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000117"/>
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000118">
         <rdfs:label xml:lang="en">alternative term</rdfs:label>
     </owl:AnnotationProperty>
@@ -85,6 +86,30 @@
     
 
 
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C103159 -->
+
+    <owl:Class rdf:about="&NCIT;C103159">
+        <rdfs:label xml:lang="en">Data Collection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000115 xml:lang="en">The act or process of gathering data for testing or research purposes.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15709 -->
+
+    <owl:Class rdf:about="&NCIT;C15709">
+        <rdfs:label xml:lang="en">Genetic Testing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000056"/>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000115 xml:lang="en">The process of isolating and testing the DNA of an embryo or a person to detect the presence of genetic alterations or defects that may predispose to the future development of a disease or disorder</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19482 -->
 
     <owl:Class rdf:about="&NCIT;C19482">
@@ -93,6 +118,55 @@
         <obo:IAO_0000115 xml:lang="en">A document that protects researchers from involuntary disclosure of personal identifying information acquired in the course of a research project. Data cannot be subpoenaed and assures anonymity to study participants.</obo:IAO_0000115>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
         <dc:source>NCIT</dc:source>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25191 -->
+
+    <owl:Class rdf:about="&NCIT;C25191">
+        <rdfs:label xml:lang="en">Person Name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000300"/>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000115 xml:lang="en">A word or group of words indicating the identity of a person usually consisting of a first (personal) name and a last (family) name with an optional middle name. In some cultural traditions the family name comes first.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25678 -->
+
+    <owl:Class rdf:about="&NCIT;C25678">
+        <rdfs:label xml:lang="en">Signature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000300"/>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">Individual&apos;s name or personal mark, used to sign documents and employed to signify that the writing which precedes accords with one&apos;s wishes and intentions; having a handwritten signature.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38101 -->
+
+    <owl:Class rdf:about="&NCIT;C38101">
+        <rdfs:label xml:lang="en">Radiography</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000056"/>
+        <obo:IAO_0000118>Diagnostic Radiology</obo:IAO_0000118>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000115 xml:lang="en">A radiographic procedure using the emission of x-rays to form an image of the structure penetrated by the radiation.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39551 -->
+
+    <owl:Class rdf:about="&NCIT;C39551">
+        <rdfs:label xml:lang="en">University of Michigan Comprehensive Cancer Center</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000115 xml:lang="en">University of Michigan Comprehensive Cancer Center comprised of four basic science programs: Cancer Cell Biology, Cancer Genetics Program, Experimental Therapeutics Program, and Tumor Immunology and Immunotherapy Program; the Cancer Prevention and Control Program with two sub-fields of inquiry: biomedical and socio-behavioral; and ten clinical research programs within the Clinical Science Division at the Cancer Center, and 14 core resources.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
     </owl:Class>
     
 
@@ -109,14 +183,50 @@
     
 
 
-    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70707 -->
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C60776 -->
 
-    <owl:Class rdf:about="&NCIT;C70707">
-        <rdfs:label xml:lang="en">Planned Duration of Study Subject Participation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;ICO_0000088"/>
+    <owl:Class rdf:about="&NCIT;C60776">
+        <rdfs:label xml:lang="en">Contact Information</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000115 xml:lang="en">Information regarding the means of contacting a person or group.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70679 -->
+
+    <owl:Class rdf:about="&NCIT;C70679">
+        <rdfs:label xml:lang="en">Authorization for Release of Confidential Health Information</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000046"/>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A required by the HIPAA Privacy Rule signed authorization from a patient, or his legal representative, or clinical study participant for the use or disclosure of oral, written, or electronic form of confidential health information that identifies the individual and relates to the medical history, diagnosis, treatment, or prognosis of his condition. The authorization form may be part of the informed consent form. The authorization must indicate if the health information used or disclosed is existing information or new information that will be created. An authorization must include following mandatory elements: a description of the information that will be released and for what purposes; a description of any information that will not be disclosed, if applicable; a list of who will disclose the information and to whom; an expiration date for the disclosure; a statement that the authorization can be revoked; a statement that disclosed information may be re-disclosed and no longer protected; a statement that if the individual does not provide an authorization, he may not be able to receive the intended intervention; the date and subject&apos;s signature.</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70947 -->
+
+    <owl:Class rdf:about="&NCIT;C70947">
+        <rdfs:label xml:lang="en">Investigator Signature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCIT;C25678"/>
+        <obo:IAO_0000115 xml:lang="en">A textual or multimedia form of the signed name or personal mark of the investigator who is responsible for completing a particular document as a part of clinical study activity. By signing this document the investigator confirms his participation and his role in the study and assumes responsibility and accountability associated with this role.</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70958 -->
+
+    <owl:Class rdf:about="&NCIT;C70958">
+        <rdfs:label xml:lang="en">Subject&apos;s Signature on Informed Consent Form</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCIT;C25678"/>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
         <dc:source>NCIT</dc:source>
-        <obo:IAO_0000115 xml:lang="en">Total estimated length of time of subject&apos;s participation in a clinical study; from the time of enrollment to the completion of follow-up as documented in the study protocol.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An inscription provided by a human subject on the informed consent document. This inscription signifies the subject&apos;s intent to participate in the clinical study, and his acknowledgement and understanding of the risks involved in such participation.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -133,164 +243,52 @@
     
 
 
-    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94413 -->
-
-    <owl:Class rdf:about="&NCIT;C94413">
-        <rdfs:label xml:lang="en">Human Participant Protection Regulations</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0021004"/>
-        <obo:IAO_0000115 xml:lang="en">Laws set by the U.S. Department of Health and Human Services (DHHS) to protect a person from risks in research studies that any federal agency or department has a part in.</obo:IAO_0000115>
-        <dc:source>NCIT</dc:source>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
-    </owl:Class>
-    
-	  <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C60776 -->
-
-    <owl:Class rdf:about="&NCIT;C60776">
-        <rdfs:label xml:lang="en">Contact Information</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">Information regarding the means of contacting a person or group.</obo:IAO_0000115>
-        <dc:source>NCIT</dc:source>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
-    </owl:Class>
-
-
-  <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C90492 -->
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C90492 -->
 
     <owl:Class rdf:about="&NCIT;C90492">
         <rdfs:label xml:lang="en">Personal Information</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
-		<obo:IAO_0000118>Personally Identifiable Information</obo:IAO_0000118>
+        <obo:IAO_0000118>Personally Identifiable Information</obo:IAO_0000118>
+        <dc:source>NCIT</dc:source>
         <obo:IAO_0000115 xml:lang="en">Data, facts or figures about an individual; the set of relevant items would depend on the use case.</obo:IAO_0000115>
-        <dc:source>NCIT</dc:source>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
-    </owl:Class>
-
-  <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15709 -->
-
-    <owl:Class rdf:about="&NCIT;C15709">
-        <rdfs:label xml:lang="en">Genetic Testing</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000056"/>
-        <obo:IAO_0000115 xml:lang="en">The process of isolating and testing the DNA of an embryo or a person to detect the presence of genetic alterations or defects that may predispose to the future development of a disease or disorder</obo:IAO_0000115>
-        <dc:source>NCIT</dc:source>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
-    </owl:Class>
-	
-	
- <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38101 -->
-
-    <owl:Class rdf:about="&NCIT;C38101">
-        <rdfs:label xml:lang="en">Radiography</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000056"/>
-		<obo:IAO_0000118>Diagnostic Radiology</obo:IAO_0000118>
-        <obo:IAO_0000115 xml:lang="en">A radiographic procedure using the emission of x-rays to form an image of the structure penetrated by the radiation.</obo:IAO_0000115>
-        <dc:source>NCIT</dc:source>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
-    </owl:Class>
-	
-	
-	    <!-- http://purl.obolibrary.org/obo/IAO_0021004 -->
-
-    <owl:Class rdf:about="&obo;IAO_0021004">
-        <rdfs:label xml:lang="en">socio-legal generically dependent continuant</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000031"/>
-        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">Socio-legal generically dependent continuants are generically dependent continuants that come into existence through declarations and are concretized as roles. They differ from information content entities in  that they are not about something, but exist as quasi-abstract social entities. Socio-legal generically dependent continuants are not concretized as qualities inhering in independent continuants, but only as realizable entities borne by an organism or an aggregate of organisms. </obo:IAO_0000115>
-        <obo:IAO_0000112 xml:lang="en">the claim of a piece of land, the obligation to pay rent to the owner of a rental property</obo:IAO_0000112>
-		<dc:source>d-acts ontology</dc:source>
-		<obo:IAO_0000412>http://d-acts.googlecode.com/svn/tags/2013-11-27/d-acts.owl</obo:IAO_0000412>
-    </owl:Class>
-	
-
-  <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25191 -->
-
-    <owl:Class rdf:about="&NCIT;C25191">
-        <rdfs:label xml:lang="en">Person Name</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000300"/>
-		<obo:IAO_0000115 xml:lang="en">A word or group of words indicating the identity of a person usually consisting of a first (personal) name and a last (family) name with an optional middle name. In some cultural traditions the family name comes first.</obo:IAO_0000115>
-        <dc:source>NCIT</dc:source>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
     </owl:Class>
     
 
-  <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39551 -->
 
-    <owl:Class rdf:about="&NCIT;C39551">
-        <rdfs:label xml:lang="en">University of Michigan Comprehensive Cancer Center</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
-		<obo:IAO_0000115 xml:lang="en">University of Michigan Comprehensive Cancer Center comprised of four basic science programs: Cancer Cell Biology, Cancer Genetics Program, Experimental Therapeutics Program, and Tumor Immunology and Immunotherapy Program; the Cancer Prevention and Control Program with two sub-fields of inquiry: biomedical and socio-behavioral; and ten clinical research programs within the Clinical Science Division at the Cancer Center, and 14 core resources.</obo:IAO_0000115>
-        <dc:source>NCIT</dc:source>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
-    </owl:Class>
-	
-	
-  <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94204 -->
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94204 -->
 
     <owl:Class rdf:about="&NCIT;C94204">
         <rdfs:label xml:lang="en">Data and Safety Monitoring Board</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000245"/>
-		<obo:IAO_0000115 xml:lang="en">An impartial group that oversees a clinical trial and reviews the results to see if they are acceptable. This group determines if the trial should be changed or closed.</obo:IAO_0000115>
-        <dc:source>NCIT</dc:source>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">An impartial group that oversees a clinical trial and reviews the results to see if they are acceptable. This group determines if the trial should be changed or closed.</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
     </owl:Class>
-	
-	
-   <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C103159 -->
-
-    <owl:Class rdf:about="&NCIT;C103159">
-        <rdfs:label xml:lang="en">Data Collection</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
-		<obo:IAO_0000115 xml:lang="en">The act or process of gathering data for testing or research purposes.</obo:IAO_0000115>
-        <dc:source>NCIT</dc:source>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
-    </owl:Class>
+    
 
 
-   <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25678 -->
+    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
 
-    <owl:Class rdf:about="&NCIT;C25678">
-        <rdfs:label xml:lang="en">Signature</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000300"/>
-		<obo:IAO_0000115 xml:lang="en">Individual's name or personal mark, used to sign documents and employed to signify that the writing which precedes accords with one's wishes and intentions; having a handwritten signature.</obo:IAO_0000115>
-        <dc:source>NCIT</dc:source>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
-    </owl:Class>	  
-	
-
-   <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70958 -->
-
-    <owl:Class rdf:about="&NCIT;C70958">
-        <rdfs:label xml:lang="en">Subject's Signature on Informed Consent Form</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&NCIT;C25678"/>
-		<obo:IAO_0000115 xml:lang="en">An inscription provided by a human subject on the informed consent document. This inscription signifies the subject's intent to participate in the clinical study, and his acknowledgement and understanding of the risks involved in such participation.</obo:IAO_0000115>
-        <dc:source>NCIT</dc:source>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
-    </owl:Class>	 
-
- 	
-   <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70947 -->
-
-    <owl:Class rdf:about="&NCIT;C70947">
-        <rdfs:label xml:lang="en">Investigator Signature</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&NCIT;C25678"/>
-		<obo:IAO_0000115 xml:lang="en">A textual or multimedia form of the signed name or personal mark of the investigator who is responsible for completing a particular document as a part of clinical study activity. By signing this document the investigator confirms his participation and his role in the study and assumes responsibility and accountability associated with this role.</obo:IAO_0000115>
-        <dc:source>NCIT</dc:source>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
-    </owl:Class>	 
+    <owl:Class rdf:about="&obo;BFO_0000031"/>
+    
 
 
-<!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70679 -->
-
-    <owl:Class rdf:about="&NCIT;C70679">
-        <rdfs:label xml:lang="en">Authorization for Release of Confidential Health Information</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;ICO_0000046"/>
-		<obo:IAO_0000115 xml:lang="en">A required by the HIPAA Privacy Rule signed authorization from a patient, or his legal representative, or clinical study participant for the use or disclosure of oral, written, or electronic form of confidential health information that identifies the individual and relates to the medical history, diagnosis, treatment, or prognosis of his condition. The authorization form may be part of the informed consent form. The authorization must indicate if the health information used or disclosed is existing information or new information that will be created. An authorization must include following mandatory elements: a description of the information that will be released and for what purposes; a description of any information that will not be disclosed, if applicable; a list of who will disclose the information and to whom; an expiration date for the disclosure; a statement that the authorization can be revoked; a statement that disclosed information may be re-disclosed and no longer protected; a statement that if the individual does not provide an authorization, he may not be able to receive the intended intervention; the date and subject's signature.</obo:IAO_0000115>
-        <dc:source>NCIT</dc:source>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
-    </owl:Class>	 
-	
     <!-- http://purl.obolibrary.org/obo/IAO_0000028 -->
 
     <owl:Class rdf:about="&obo;IAO_0000028"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="&obo;IAO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000300 -->
+
+    <owl:Class rdf:about="&obo;IAO_0000300"/>
     
 
 
@@ -300,9 +298,47 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0021004 -->
+
+    <owl:Class rdf:about="&obo;IAO_0021004">
+        <rdfs:label xml:lang="en">socio-legal generically dependent continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000031"/>
+        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412>http://d-acts.googlecode.com/svn/tags/2013-11-27/d-acts.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">Socio-legal generically dependent continuants are generically dependent continuants that come into existence through declarations and are concretized as roles. They differ from information content entities in  that they are not about something, but exist as quasi-abstract social entities. Socio-legal generically dependent continuants are not concretized as qualities inhering in independent continuants, but only as realizable entities borne by an organism or an aggregate of organisms. </obo:IAO_0000115>
+        <dc:source>d-acts ontology</dc:source>
+        <obo:IAO_0000112 xml:lang="en">the claim of a piece of land, the obligation to pay rent to the owner of a rental property</obo:IAO_0000112>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000046 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000046"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ICO_0000088 -->
 
     <owl:Class rdf:about="&obo;ICO_0000088"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
+
+    <owl:Class rdf:about="&obo;OBI_0000011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
+
+    <owl:Class rdf:about="&obo;OBI_0000245"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000056 -->
+
+    <owl:Class rdf:about="&obo;OGMS_0000056"/>
 </rdf:RDF>
 
 
