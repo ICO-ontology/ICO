@@ -277,6 +277,16 @@
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
     </owl:Class>	 
 
+
+<!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70679 -->
+
+    <owl:Class rdf:about="&NCIT;C70679">
+        <rdfs:label xml:lang="en">Authorization for Release of Confidential Health Information</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000046"/>
+		<obo:IAO_0000115 xml:lang="en">A required by the HIPAA Privacy Rule signed authorization from a patient, or his legal representative, or clinical study participant for the use or disclosure of oral, written, or electronic form of confidential health information that identifies the individual and relates to the medical history, diagnosis, treatment, or prognosis of his condition. The authorization form may be part of the informed consent form. The authorization must indicate if the health information used or disclosed is existing information or new information that will be created. An authorization must include following mandatory elements: a description of the information that will be released and for what purposes; a description of any information that will not be disclosed, if applicable; a list of who will disclose the information and to whom; an expiration date for the disclosure; a statement that the authorization can be revoked; a statement that disclosed information may be re-disclosed and no longer protected; a statement that if the individual does not provide an authorization, he may not be able to receive the intended intervention; the date and subject's signature.</obo:IAO_0000115>
+        <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
+    </owl:Class>	 
 	
     <!-- http://purl.obolibrary.org/obo/IAO_0000028 -->
 
