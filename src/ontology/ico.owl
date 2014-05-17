@@ -22,14 +22,14 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="&obo;ico.owl">
+        <dc:date xml:lang="en">2014-05-17</dc:date>
         <dc:creator>Frank Manion (FM)</dc:creator>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.40</owl:versionInfo>
         <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
         <dc:description>The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.</dc:description>
         <dc:creator>Alla Karnovsky (AK)</dc:creator>
         <dc:creator>Marcy Harris (MRH)</dc:creator>
         <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
-        <dc:date xml:lang="en">2014-05-16</dc:date>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.39</owl:versionInfo>
         <dc:creator xml:lang="en">Elizabeth Eisenhauer (EE)</dc:creator>
         <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
@@ -51,52 +51,38 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="&dc;creator">
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&obo;ICO_0000091">
-        <rdfs:label xml:lang="en">term_mapping_to_UMLS</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="&rdfs;seeAlso"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&obo;ICO_0000093">
-        <rdfs:label xml:lang="en">term_mapping_to_HL7v3</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="&rdfs;seeAlso"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&obo;ICO_0000092">
-        <rdfs:label xml:lang="en">term_mapping_to_NCIT</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="&rdfs;seeAlso"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&dc;license"/>
-    <rdf:Description rdf:about="&dc;description">
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
     <rdf:Description rdf:about="&obo;IAO_0000115">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
     <rdf:Description rdf:about="&obo;IAO_0000116">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000412">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000119">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000232">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
-    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
     <rdf:Description rdf:about="&obo;IAO_0000117">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&dc;date">
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
     <rdf:Description rdf:about="&obo;IAO_0000118">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
@@ -104,14 +90,87 @@
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
+    <rdf:Description rdf:about="&obo;IAO_0000119">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000232">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000412">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000091 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;ICO_0000091">
+        <rdfs:label xml:lang="en">term_mapping_to_UMLS</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&rdfs;seeAlso"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000092 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;ICO_0000092">
+        <rdfs:label xml:lang="en">term_mapping_to_NCIT</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&rdfs;seeAlso"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000093 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;ICO_0000093">
+        <rdfs:label xml:lang="en">term_mapping_to_HL7v3</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&rdfs;seeAlso"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="&dc;creator">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <rdf:Description rdf:about="&dc;date">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <rdf:Description rdf:about="&dc;description">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/license -->
+
+    <owl:AnnotationProperty rdf:about="&dc;license"/>
     
 
 
@@ -781,8 +840,8 @@
         <rdfs:label xml:lang="en">informed consent form for clinical study</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000001"/>
         <obo:IAO_0000115>an informed consent form that is used for a clincal study.</obo:IAO_0000115>
-        <obo:IAO_0000119>WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -911,8 +970,8 @@
         <rdfs:label xml:lang="en">human subject consenter</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
         <obo:IAO_0000232 xml:lang="en">Asiyah Yu Lin, 5/9/2014: The definition is confusing. Is the legal guardian who signed the consent form is the consenter?  Do we need a term for consenter itself?</obo:IAO_0000232>
-        <obo:IAO_0000115>a human that serves as a human subject for a study who signs an informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000115>a human who serves as and consents to be a human subject for a study.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1057,8 +1116,8 @@
     <owl:Class rdf:about="&obo;ICO_0000052">
         <rdfs:label xml:lang="en">metastatic melanoma research investigation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000051"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000115>a cancer research investigation that specifically targets metastatic melanoma research. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -1300,8 +1359,8 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
         <obo:ICO_0000092>C70665</obo:ICO_0000092>
-        <obo:IAO_0000116>The term definition is adapted from the definition of the NCIt term &apos;Human Study Subject&apos; with modification.</obo:IAO_0000116>
         <obo:IAO_0000115>an individual who is or becomes a participant in a research study, either as a recipient of the test article (e.g., drug or medical device) or as a control. </obo:IAO_0000115>
+        <obo:IAO_0000116>The term definition is adapted from the definition of the NCIt term &apos;Human Study Subject&apos; with modification.</obo:IAO_0000116>
         <obo:IAO_0000117>YH, EE, YL, YL, MH</obo:IAO_0000117>
         <obo:IAO_0000118>human paticient</obo:IAO_0000118>
         <obo:ICO_0000091>C2349001</obo:ICO_0000091>
@@ -1403,6 +1462,7 @@
     <owl:Class rdf:about="&obo;ICO_0000081">
         <rdfs:label xml:lang="en">legal guardian role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000116>YH: Based on the definition, may be better to label it as &apos;consent legal guardian role&apos;</obo:IAO_0000116>
         <obo:IAO_0000118 xml:lang="en"> legally authorized representative role</obo:IAO_0000118>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in an individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">NCTI C51828</obo:IAO_0000119>
@@ -1428,6 +1488,8 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
         <obo:IAO_0000118 xml:lang="en"> legally authorized representative</obo:IAO_0000118>
+        <obo:IAO_0000116>YH: Based on the definition of &apos;legal guardian role&apos;, it may be better to label the term as &apos;consent legal guardian&apos; of &apos;legal guardian of consent&apos;. </obo:IAO_0000116>
+        <dc:creator>YL, YH</dc:creator>
     </owl:Class>
     
 
@@ -1726,7 +1788,7 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:label xml:lang="en">subject withdrawal</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">a study participant has removed itself from the study.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a planned process that represents a study participant withdrawing from the study.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1736,8 +1798,8 @@ Individually identifiable health information includes many common identifiers (e
     <owl:Class rdf:about="&obo;ICO_0000109">
         <rdfs:label xml:lang="en">permission cancellation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
-        <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
         <obo:IAO_0000115>a planned process that cancels a permission</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YL, YH</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -1824,10 +1886,10 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ICO_0000116 -->
 
     <owl:Class rdf:about="&obo;ICO_0000116">
-        <rdfs:label xml:lang="en">data usage</rdfs:label>
+        <rdfs:label xml:lang="en">human subject data usage</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en"></obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">YL, YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">a planned process that involves in the usage of data generated out of a human subject participation.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -2094,12 +2156,6 @@ Individually identifiable health information includes many common identifiers (e
     <rdf:Description rdf:about="&obo;OBI_0000810">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
@@ -2107,6 +2163,12 @@ Individually identifiable health information includes many common identifiers (e
                         <owl:someValuesFrom rdf:resource="&obo;ICO_0000086"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
@@ -3352,5 +3414,5 @@ Individually identifiable health information includes many common identifiers (e
 
 
 
-<!-- Generated by the OWL API (version 3.2.5.1928) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
 
