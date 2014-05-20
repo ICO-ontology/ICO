@@ -22,12 +22,12 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="&obo;ico.owl">
-        <dc:date xml:lang="en">2014-05-17</dc:date>
         <dc:creator>Frank Manion (FM)</dc:creator>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.40</owl:versionInfo>
+        <dc:date xml:lang="en">2014-05-20</dc:date>
         <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
         <dc:description>The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.</dc:description>
         <dc:creator>Alla Karnovsky (AK)</dc:creator>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.41</owl:versionInfo>
         <dc:creator>Marcy Harris (MRH)</dc:creator>
         <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator xml:lang="en">Elizabeth Eisenhauer (EE)</dc:creator>
@@ -1426,7 +1426,7 @@
         <rdfs:label>risk</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000016"/>
         <obo:IAO_0000115 xml:lang="en">A risk is a disposition that inheres in a subject whereby the subject is susceptible to physical or mental harm.</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">BMEO(Biomedical Ethnic Ontology) http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2725426/</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">BMEO(Biomedical Ethics Ontology) http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2725426/</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
     </owl:Class>
     
@@ -2156,6 +2156,12 @@ Individually identifiable health information includes many common identifiers (e
     <rdf:Description rdf:about="&obo;OBI_0000810">
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
@@ -2163,12 +2169,6 @@ Individually identifiable health information includes many common identifiers (e
                         <owl:someValuesFrom rdf:resource="&obo;ICO_0000086"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
