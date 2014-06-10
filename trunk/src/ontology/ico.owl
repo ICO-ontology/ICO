@@ -29,7 +29,7 @@
         <dc:creator>Marcy Harris (MRH)</dc:creator>
         <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:date xml:lang="en">2014-06-10</dc:date>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.46</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.47</owl:versionInfo>
         <dc:creator xml:lang="en">Elizabeth Eisenhauer (EE)</dc:creator>
         <rdfs:comment>Terms were identified from a sample of informed consent templates, and definitions were selected based on concordance between the defintion and the use of the term in the source informed consent template document.  We preferentially selected defintioins from the NCI thesuarus.</rdfs:comment>
         <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
@@ -967,10 +967,9 @@
 
     <owl:Class rdf:about="&obo;ICO_0000040">
         <rdfs:label xml:lang="en">human subject consenter</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
-        <obo:IAO_0000232 xml:lang="en">Asiyah Yu Lin, 5/9/2014: The definition is confusing. Is the legal guardian who signed the consent form is the consenter?  Do we need a term for consenter itself?</obo:IAO_0000232>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000073"/>
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
-        <obo:IAO_0000115>a human who serves as and consents to be a human subject for a study.</obo:IAO_0000115>
+        <obo:IAO_0000115>a human subject who provides informed consent by himself (without a legal guardian).</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1222,6 +1221,17 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>an informed consent form that is dedicated for a genetic study</obo:IAO_0000115>
         <obo:IAO_0000117>YL, MH, AK, YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000062 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000062">
+        <rdfs:label xml:lang="en">human subject unable to give informed consent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000073"/>
+        <obo:IAO_0000119>web: http://en.wikipedia.org/wiki/informed_consent</obo:IAO_0000119>
+        <obo:IAO_0000115>a human subject who is unable to give informed consent. in this case, another person is generally authorized to give consent on his behalf, e.g., parents or legal guardians of a child (though in this circumstance the child may be required to provide informed assent) and conservators for the mentally ill.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -2092,12 +2102,6 @@ Individually identifiable health information includes many common identifiers (e
     <rdf:Description rdf:about="&obo;OBI_0000810">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
@@ -2105,6 +2109,12 @@ Individually identifiable health information includes many common identifiers (e
                         <owl:someValuesFrom rdf:resource="&obo;ICO_0000086"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
