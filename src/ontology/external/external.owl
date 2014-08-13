@@ -37,41 +37,90 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="&dc;creator"/>
-    <owl:AnnotationProperty rdf:about="&dc;publisher"/>
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0010000">
-        <rdfs:label>axiom id</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
-        <rdfs:label xml:lang="en">definition</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000116">
-        <rdfs:label xml:lang="en">editor note</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&dc;contributor"/>
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412"/>
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000117"/>
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118">
-        <rdfs:label xml:lang="en">alternative term</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&dc;source"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000111">
         <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000112">
         <rdfs:label xml:lang="en">example of usage</rdfs:label>
     </owl:AnnotationProperty>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000116">
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118">
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0010000 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0010000">
+        <rdfs:label>axiom id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="&dc;contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="&dc;publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="&dc;source"/>
     
 
 
@@ -116,8 +165,8 @@
         <rdfs:label xml:lang="en">Certificate of Confidentiality</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
         <obo:IAO_0000115 xml:lang="en">A document that protects researchers from involuntary disclosure of personal identifying information acquired in the course of a research project. Data cannot be subpoenaed and assures anonymity to study participants.</obo:IAO_0000115>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
         <dc:source>NCIT</dc:source>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
     </owl:Class>
     
 
@@ -191,18 +240,6 @@
         <dc:source>NCIT</dc:source>
         <obo:IAO_0000115 xml:lang="en">Information regarding the means of contacting a person or group.</obo:IAO_0000115>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
-    </owl:Class>
-    
-
-
-    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70679 -->
-
-    <owl:Class rdf:about="&NCIT;C70679">
-        <rdfs:label xml:lang="en">Authorization for Release of Confidential Health Information</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;ICO_0000046"/>
-        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</obo:IAO_0000412>
-        <obo:IAO_0000115 xml:lang="en">A required by the HIPAA Privacy Rule signed authorization from a patient, or his legal representative, or clinical study participant for the use or disclosure of oral, written, or electronic form of confidential health information that identifies the individual and relates to the medical history, diagnosis, treatment, or prognosis of his condition. The authorization form may be part of the informed consent form. The authorization must indicate if the health information used or disclosed is existing information or new information that will be created. An authorization must include following mandatory elements: a description of the information that will be released and for what purposes; a description of any information that will not be disclosed, if applicable; a list of who will disclose the information and to whom; an expiration date for the disclosure; a statement that the authorization can be revoked; a statement that disclosed information may be re-disclosed and no longer protected; a statement that if the individual does not provide an authorization, he may not be able to receive the intended intervention; the date and subject&apos;s signature.</obo:IAO_0000115>
-        <dc:source>NCIT</dc:source>
     </owl:Class>
     
 
@@ -343,5 +380,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.2.5.1928) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
 

@@ -511,14 +511,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000006"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>AK, FM, YH</obo:IAO_0000117>
@@ -534,14 +534,20 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000810"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000063"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000120"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000810"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a planned process that results in a signing of an informed consent form.</obo:IAO_0000115>
@@ -1660,16 +1666,58 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000098 -->
 
     <owl:Class rdf:about="&obo;ICO_0000098">
-        <rdfs:label xml:lang="en">explaining human subject with study information</rdfs:label>
+        <rdfs:label xml:lang="en">explaining to participant candidate about the study participating information</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000133"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000135"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000810"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000128"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000121"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000134"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
-        <obo:IAO_0000115>a planned process that involves explanation to a human subject with relevant study information, including study background, protocol, and human subject benefits and risks. </obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a planned process that involves explanation to a human subject candidate with relevant study information, including study purpose, protocol, and human subject benefits and risks, that indicated in an informed consent form.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1755,6 +1803,17 @@ Individually identifiable health information includes many common identifiers (e
         </rdfs:subClassOf>
         <obo:IAO_0000115>an informed consent form that contains a section of questionnaire.</obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000105 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000105">
+        <rdfs:label xml:lang="en">explaining study purpose to participant candidate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <dc:creator>YL</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">As a partial process of inform the candidate about the study participating information, the purpose of the study will be explained to make sure that the candidate is informed adquently from his/her perspective.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1894,6 +1953,17 @@ Individually identifiable health information includes many common identifiers (e
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000117 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000117">
+        <rdfs:label xml:lang="en">explaining study protocol to participant candidate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">In order to make sure that the candidate is informed adquently from his/her perspective, the protocol of the study including the protocol of participating, for example, what kind of procedure the participant will be involved, how many scheduled visits will be explained. </obo:IAO_0000115>
+        <dc:creator xml:lang="en">YL</dc:creator>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ICO_0000118 -->
 
     <owl:Class rdf:about="&obo;ICO_0000118">
@@ -1943,6 +2013,16 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000117 xml:lang="en">YL, EE, MH, YH, AK</obo:IAO_0000117>
         <obo:IAO_0000118>storage of signed informed consent form</obo:IAO_0000118>
         <obo:IAO_0000115 xml:lang="en">a planned process that collect a signed  informed consent form. During this process, the information is systematically kept in a repository.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000121 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000121">
+        <rdfs:label xml:lang="en">explaining benefits of participantion to participant candidate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">The potential benefit to the study subject that may arise from participating the study research is to be explained to candidate</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -2023,6 +2103,17 @@ Individually identifiable health information includes many common identifiers (e
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000128 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000128">
+        <rdfs:label xml:lang="en">explaining risks of participantion to participant candidate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <dc:creator>YL</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">The potential future harm that may arise from participating the study research is to be explained to candidate</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ICO_0000129 -->
 
     <owl:Class rdf:about="&obo;ICO_0000129">
@@ -2050,6 +2141,66 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000115 xml:lang="en">A review board approval number that is assigned by an Institutional Review Board (IRB) in the USA.</obo:IAO_0000115>
         <obo:IAO_0000118>Institutional Review Board approval number</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">YL, EE, YH, AK, MH</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000133 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000133">
+        <rdfs:label xml:lang="en">explaining sample process and usage to participant candidate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">In order to make sure that the candidate is informed adquently from his/her perspective, the process of collecting, storing or destorying the sample collected from the study subject is to be explained.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">In the case of biobanking,collected tissue will be frozen and stored in a biorepository system. Other researchers will search and use the tissue for different purpose. The researchers may come from different organization and may need to access some of the personal information or may need to contact the study subject.</obo:IAO_0000116>
+        <dc:creator xml:lang="en">YL</dc:creator>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000134 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000134">
+        <rdfs:label xml:lang="en">explaining study derived data usage to participant candidate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <obo:IAO_0000116 xml:lang="en">For example, in the genomic data projects, the study subject&apos;s sequence data maybe used outside of the original organization. In this case, the study subject&apos;s privacy need to be protected.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">In the case of promoting future data sharing, the usage of the data derived from a study is tot be explained to the candidate.</obo:IAO_0000115>
+        <dc:creator xml:lang="en">YL.</dc:creator>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000135 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000135">
+        <rdfs:label xml:lang="en">explaining record confidentiality to participant candidate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">In order to enable the candidate to make voluntary descision, the options fpr enhancing the protection of confidentiality for participants who have contributed personal information to a study is to be explained.</obo:IAO_0000115>
+        <dc:creator xml:lang="en">YL</dc:creator>
+        <obo:IAO_0000119 xml:lang="en">http://www.qualitative-research.net/index.php/fqs/article/view/1024/2207.#g42</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000136 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000136">
+        <rdfs:label xml:lang="en">participant candidate making voluntary decision of acceptance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">After recieving adequent information about study paricipation, candidate make a a decision of joining the study by his/her own will.</obo:IAO_0000115>
+        <dc:creator xml:lang="en">YL</dc:creator>
+        <obo:IAO_0000119 xml:lang="en">https://depts.washington.edu/bioethx/topics/consent.html</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000137 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000137">
+        <rdfs:label xml:lang="en">assessment of participant candidate understanding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">In order for the consent valid, the candidate shold be competent to understand what has been explained.</obo:IAO_0000115>
+        <dc:creator xml:lang="en">YL.</dc:creator>
+        <obo:IAO_0000119 xml:lang="en">https://depts.washington.edu/bioethx/topics/consent.html</obo:IAO_0000119>
     </owl:Class>
     
 
