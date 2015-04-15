@@ -26,14 +26,14 @@
     <owl:Ontology rdf:about="&obo;ico.owl">
         <dc:creator>Marcy Harris (MRH)</dc:creator>
         <rdfs:comment>Terms were identified from a sample of informed consent templates, and definitions were selected based on concordance between the defintion and the use of the term in the source informed consent template document.  We preferentially selected defintioins from the NCI thesuarus.</rdfs:comment>
-        <dc:date xml:lang="en">2015-04-06</dc:date>
+        <dc:date xml:lang="en">2015-04-15</dc:date>
         <dc:description>The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.</dc:description>
         <dc:creator>Frank Manion (FM)</dc:creator>
         <dc:creator>Alla Karnovsky (AK)</dc:creator>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.55</owl:versionInfo>
-        <dc:creator xml:lang="en">Elizabeth Eisenhauer (EE)</dc:creator>
         <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.57</owl:versionInfo>
+        <dc:creator xml:lang="en">Elizabeth Eisenhauer (EE)</dc:creator>
         <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <owl:imports rdf:resource="&obo;bfo/2010-05-25/ruttenberg-bfo2.owl"/>
@@ -2240,7 +2240,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ICO_0000140 -->
 
     <owl:Class rdf:about="&obo;ICO_0000140">
-        <rdfs:label xml:lang="en">eligibility questionaire</rdfs:label>
+        <rdfs:label xml:lang="en">eligibility questionnaire</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0001000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2753,7 +2753,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ICO_0000170 -->
 
     <owl:Class rdf:about="&obo;ICO_0000170">
-        <rdfs:label xml:lang="en">filled questionaire</rdfs:label>
+        <rdfs:label xml:lang="en">filled questionnaire</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0001000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
