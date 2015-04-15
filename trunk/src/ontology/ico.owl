@@ -24,10 +24,10 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;ico.owl">
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.59</owl:versionInfo>
         <dc:creator>Marcy Harris (MRH)</dc:creator>
         <rdfs:comment>Terms were identified from a sample of informed consent templates, and definitions were selected based on concordance between the defintion and the use of the term in the source informed consent template document.  We preferentially selected defintioins from the NCI thesuarus.</rdfs:comment>
         <dc:date xml:lang="en">2015-04-15</dc:date>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.58</owl:versionInfo>
         <dc:description>The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.</dc:description>
         <dc:creator>Frank Manion (FM)</dc:creator>
         <dc:creator>Alla Karnovsky (AK)</dc:creator>
@@ -2814,6 +2814,17 @@ Individually identifiable health information includes many common identifiers (e
         </rdfs:subClassOf>
         <obo:IAO_0000117>YL, YH, JZ</obo:IAO_0000117>
         <obo:IAO_0000115>an answer option textual entity that answers a question with a no.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000174 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000174">
+        <rdfs:label xml:lang="en">filling informed consent form</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <obo:IAO_0000117>YH, YL</obo:IAO_0000117>
+        <obo:IAO_0000115>a planned process that involves the filling of an informed consent form.</obo:IAO_0000115>
     </owl:Class>
     
 
