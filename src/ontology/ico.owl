@@ -519,14 +519,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000006"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a planned process that approves an informed consent form.</obo:IAO_0000115>
@@ -542,14 +542,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000063"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000120"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000810"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000810"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000063"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000120"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1678,12 +1678,6 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000133"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000810"/>
             </owl:Restriction>
@@ -1691,7 +1685,19 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000121"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000133"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1709,19 +1715,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000128"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000105"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000121"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000128"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
@@ -2750,6 +2750,23 @@ Individually identifiable health information includes many common identifiers (e
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000170 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000170">
+        <rdfs:label xml:lang="en">filled questionaire</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0001000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;ICO_0000130"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A questionaire that is filled up with answers.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, YL</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
     <rdf:Description rdf:about="&obo;NCBITaxon_9606">
@@ -3510,10 +3527,6 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;NCBITaxon_2759">
-        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000219">
         <rdfs:comment>
             <rdf:Description/>
@@ -3545,6 +3558,10 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:comment>
             <rdf:Description/>
         </rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;NCBITaxon_2759">
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000086">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
