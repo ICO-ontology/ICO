@@ -24,13 +24,13 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;ico.owl">
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.59</owl:versionInfo>
         <dc:creator>Marcy Harris (MRH)</dc:creator>
         <rdfs:comment>Terms were identified from a sample of informed consent templates, and definitions were selected based on concordance between the defintion and the use of the term in the source informed consent template document.  We preferentially selected defintioins from the NCI thesuarus.</rdfs:comment>
         <dc:date xml:lang="en">2015-04-15</dc:date>
         <dc:description>The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.</dc:description>
         <dc:creator>Frank Manion (FM)</dc:creator>
         <dc:creator>Alla Karnovsky (AK)</dc:creator>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.60</owl:versionInfo>
         <dc:creator xml:lang="en">Elizabeth Eisenhauer (EE)</dc:creator>
         <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
@@ -2242,12 +2242,6 @@ Individually identifiable health information includes many common identifiers (e
     <owl:Class rdf:about="&obo;ICO_0000140">
         <rdfs:label xml:lang="en">eligibility questionnaire</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0001000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;ICO_0000130"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000111"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>YH, YL</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A questionaire that lists the questions associated with a participant or human subject&apos;s eligibility. The answers of these eligibility questions will determine if the participant is eligible for participation in a study or operation.</obo:IAO_0000115>
     </owl:Class>
@@ -2754,13 +2748,18 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="&obo;ICO_0000170">
         <rdfs:label xml:lang="en">filled questionnaire</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0001000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                        <owl:someValuesFrom rdf:resource="&obo;ICO_0000175"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0001000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;ICO_0000130"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000111"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A questionaire that is filled up with answers.</obo:IAO_0000115>
         <obo:IAO_0000117>YH, YL</obo:IAO_0000117>
     </owl:Class>
@@ -2825,6 +2824,17 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <obo:IAO_0000117>YH, YL</obo:IAO_0000117>
         <obo:IAO_0000115>a planned process that involves the filling of an informed consent form.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000175 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000175">
+        <rdfs:label xml:lang="en">filling questionnaire</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <obo:IAO_0000115>a planned process that involves the filling of a questionnaire form that includes a list of questions.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, YL</obo:IAO_0000117>
     </owl:Class>
     
 
