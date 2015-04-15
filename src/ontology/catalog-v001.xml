@@ -7,13 +7,13 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ico/external.owl" uri="external/external.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ico/OBI_OntoFox_import.owl" uri="OBI_OntoFox_import.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1428427698199" name="http://purl.obolibrary.org/obo/ICO_merged.owl" uri="ico_merged.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1428427698199" name="http://purl.obolibrary.org/obo/ico.owl" uri="ico.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1428427698199" name="http://purl.obolibrary.org/obo/ico/IAO_OntoFox_import.owl" uri="IAO_OntoFox_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1428427698199" name="http://purl.obolibrary.org/obo/ico/OAE_OntoFox_import.owl" uri="OAE_OntoFox_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1428427698199" name="http://purl.obolibrary.org/obo/ico/OBI_import.owl" uri="OBI_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1428427698199" name="http://purl.obolibrary.org/obo/ico/OGMS_OntoFox_import.owl" uri="OGMS_OntoFox_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1428427698199" name="http://purl.obolibrary.org/obo/ico/external.owl" uri="external/external.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1428427698199" name="http://purl.obolibrary.org/obo/obi.owl" uri="OBI_OntoFox_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1429120187891" name="http://purl.obolibrary.org/obo/ICO_merged.owl" uri="ico_merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1429120187891" name="http://purl.obolibrary.org/obo/ico.owl" uri="ico.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1429120187891" name="http://purl.obolibrary.org/obo/ico/IAO_OntoFox_import.owl" uri="IAO_OntoFox_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1429120187891" name="http://purl.obolibrary.org/obo/ico/OAE_OntoFox_import.owl" uri="OAE_OntoFox_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1429120187891" name="http://purl.obolibrary.org/obo/ico/OBI_import.owl" uri="OBI_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1429120187891" name="http://purl.obolibrary.org/obo/ico/OGMS_OntoFox_import.owl" uri="OGMS_OntoFox_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1429120187891" name="http://purl.obolibrary.org/obo/ico/external.owl" uri="external/external.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1429120187891" name="http://purl.obolibrary.org/obo/obi.owl" uri="OBI_OntoFox_import.owl"/>
     </group>
 </catalog>
