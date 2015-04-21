@@ -2473,7 +2473,7 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="&obo;ICO_0000154">
         <rdfs:label xml:lang="en">cortisone treatment question</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;ICO_0000153"/>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
@@ -2548,7 +2548,7 @@ Individually identifiable health information includes many common identifiers (e
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>a question textual entity that asks whether the questionee has conducted a blood transfusion in t he past year</obo:IAO_0000115>
+        <obo:IAO_0000115>a question textual entity that asks whether the questionee has conducted a blood transfusion in the past year</obo:IAO_0000115>
         <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
     </owl:Class>
     
@@ -2558,15 +2558,15 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="&obo;ICO_0000159">
         <rdfs:label xml:lang="en">question on high-dose steroid therapy for longer than 2 weeks</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;ICO_0000153"/>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>a current treatment question that asks whether the questionee has been under a high-dose steroid therapy ((prednisone &gt; 20mg/day or equivalent)) for longer than two weeks</obo:IAO_0000115>
         <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
-        <obo:IAO_0000115>a current treatment question that asks whether the questionee has been under a high-dose steroid therapy for longer than two weeks</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -2704,7 +2704,7 @@ Individually identifiable health information includes many common identifiers (e
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>a question on long-term health problem that asks whether the questionee has a a long-term heart disease</obo:IAO_0000115>
+        <obo:IAO_0000115>a question on long-term health problem that asks whether the questionee has a long-term heart disease</obo:IAO_0000115>
         <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
     </owl:Class>
     
@@ -2721,8 +2721,8 @@ Individually identifiable health information includes many common identifiers (e
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>a question on long-term health problem that asks whether the questionee has a a cancer</obo:IAO_0000115>
         <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a question on long-term health problem that asks whether the questionee has cancer</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -2738,7 +2738,7 @@ Individually identifiable health information includes many common identifiers (e
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>a question on long-term health problem that asks whether the questionee has a a leukemia</obo:IAO_0000115>
+        <obo:IAO_0000115>a question on long-term health problem that asks whether the questionee has leukemia</obo:IAO_0000115>
         <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
     </owl:Class>
     
@@ -2845,7 +2845,160 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:label xml:lang="en">question on long-term lung disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000166"/>
         <dc:creator xml:lang="en">YL, YH</dc:creator>
-        <obo:IAO_0000115 xml:lang="en">a question on long-term health problem that asks whether the questionee has a a long-term lung disease</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a question on long-term health problem that asks whether the questionee has a long-term lung disease</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000177 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000177">
+        <rdfs:label xml:lang="en">question on long-term kidney disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000166"/>
+        <dc:creator xml:lang="en">YL,YH</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a question on long-term health problem that asks whether the questionee has a long-term kidney disease</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000178 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000178">
+        <rdfs:label xml:lang="en">question on long-term metabolic disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000166"/>
+        <obo:IAO_0000115 xml:lang="en">a question on long-term health problem that asks whether the questionee has a long-term metabolic disease</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000179 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000179">
+        <rdfs:label xml:lang="en">question on long-term diabetes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000178"/>
+        <dc:creator xml:lang="en">YL,YH</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a question on long-term health problem that asks whether the questionee has diabetes</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000180 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000180">
+        <rdfs:label xml:lang="en">question on anemia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000166"/>
+        <dc:creator xml:lang="en">YL,YH</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a question on long-term health problem that asks whether the questionee has anemia</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000181 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000181">
+        <rdfs:label xml:lang="en">question on AIDS</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000166"/>
+        <dc:creator xml:lang="en">YL,YH</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a question on long-term health problem that asks whether the questionee has AIDS</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000182 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000182">
+        <rdfs:label xml:lang="en">prednisone treatment question</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000183"/>
+        <dc:creator xml:lang="en">YL,YH</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a current treatment question that asks whether the questionee is currently under prednisone treatment</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000183 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000183">
+        <rdfs:label xml:lang="en">steroids treatment question</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000153"/>
+        <dc:creator xml:lang="en">YL,YH</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a current treatment question that asks whether the questionee is currently under any steroid treatment</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000184 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000184">
+        <rdfs:label xml:lang="en">question on current anti-cancer drug usage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000153"/>
+        <obo:IAO_0000115 xml:lang="en">YL,YH</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a question textual entity that asks whether the questionee is currently taking any anti-cancer drugs</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000185 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000185">
+        <rdfs:label xml:lang="en">question on whether fainted or felt dizzy after immunization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000149"/>
+        <dc:creator xml:lang="en">YL,YH</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a question textual entity that asks whether the questionee hasfainted or felt dizzy after a vaccination (i.e., immunization)</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000186 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000186">
+        <rdfs:label xml:lang="en">question on transfusion of blood products in past year</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000141"/>
+        <obo:IAO_0000115 xml:lang="en">a question textual entity that asks whether the questionee has been given transfusion of blood products in the past year</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000187 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000187">
+        <rdfs:label xml:lang="en">question on given immune (gamma) globulin in last year</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000141"/>
+        <dc:creator xml:lang="en">YL,YH</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a question textual entity that asks whether the questionee has been given immune (gamma) globulin in the past year</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000188 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000188">
+        <rdfs:label xml:lang="en">question on history of thymoma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000160"/>
+        <dc:creator xml:lang="en">YL,YH</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a question textual entity that asks whether the questionee has a history of thymoma</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000189 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000189">
+        <rdfs:label xml:lang="en">question on previous thymectomy procedure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000160"/>
+        <dc:creator xml:lang="en">YL, YH</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a question textual entity that asks whether the questionee has his/her thymus removed previously</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000190 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000190">
+        <rdfs:label xml:lang="en">question on current antimalarial medication</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000153"/>
+        <dc:creator xml:lang="en">YL,YH</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a question textual entity that asks whether the questionee is currently under antimalarial medication</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">asked in prior for using Oral thyphoid vaccine only</rdfs:comment>
     </owl:Class>
     
 
