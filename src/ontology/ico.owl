@@ -24,15 +24,15 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;ico.owl">
-        <dc:date xml:lang="en">2015-04-21</dc:date>
         <dc:creator>Marcy Harris (MRH)</dc:creator>
         <rdfs:comment>Terms were identified from a sample of informed consent templates, and definitions were selected based on concordance between the defintion and the use of the term in the source informed consent template document.  We preferentially selected defintioins from the NCI thesuarus.</rdfs:comment>
         <dc:description>The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.</dc:description>
         <dc:creator>Frank Manion (FM)</dc:creator>
         <dc:creator>Alla Karnovsky (AK)</dc:creator>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.65</owl:versionInfo>
         <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
+        <dc:date xml:lang="en">2015-05-05</dc:date>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.66</owl:versionInfo>
         <dc:creator xml:lang="en">Elizabeth Eisenhauer (EE)</dc:creator>
         <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
@@ -547,14 +547,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000006"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a planned process that approves an informed consent form.</obo:IAO_0000115>
@@ -1713,30 +1713,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000133"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000128"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000135"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000105"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000134"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1750,6 +1726,30 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000121"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000135"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000128"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000133"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000105"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
@@ -2015,9 +2015,9 @@ Individually identifiable health information includes many common identifiers (e
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000116 xml:lang="en">This term is extracted from Nick&apos;s comment on the ICBO paper draft version0.11_YH.</obo:IAO_0000116>
         <rdfs:seeAlso>UMLS: C0003738</rdfs:seeAlso>
         <obo:IAO_0000115 xml:lang="en">A site where the signed informed consent form physically perserved.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">This term is extracted from Nick&apos;s comment on the ICBO paper draft version0.11_YH.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
     </owl:Class>
     
@@ -2707,9 +2707,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ICO_0000166 -->
 
     <owl:Class rdf:about="&obo;ICO_0000166">
-        <rdfs:label xml:lang="en">question on long-term health problem with heart disease, lung disease,
-asthma, kidney disease, metabolic disease (e.g., diabetes), anemia
-or other blood disorder</rdfs:label>
+        <rdfs:label xml:lang="en">question on long-term health problem</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000141"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2717,8 +2715,8 @@ or other blood disorder</rdfs:label>
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>a question textual entity that asks whether the questionee has a a long-term health problem with heart disease, lung disease, asthma, kidney disease, metabolic disease (e.g., diabetes), anemia or other blood disorder.</obo:IAO_0000115>
         <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
-        <obo:IAO_0000115>a question textual entity that asks whether the questionee has a a long-term health problem</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -3899,10 +3897,6 @@ or other blood disorder</rdfs:label>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;NCBITaxon_2759">
-        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000219">
         <rdfs:comment>
             <rdf:Description/>
@@ -3934,6 +3928,10 @@ or other blood disorder</rdfs:label>
         <rdfs:comment>
             <rdf:Description/>
         </rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;NCBITaxon_2759">
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000086">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
