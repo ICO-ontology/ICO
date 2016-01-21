@@ -13,7 +13,7 @@ http://purl.obolibrary.org/obo/OAE_0000001 #adverse event
 subClassOf http://purl.obolibrary.org/obo/OGMS_0000060 # bodily process
 
 http://purl.obolibrary.org/obo/OGMS_0000060 #bodily process
-subClassOf http://purl.obolibrary.org/obo/BFO_0000007
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
 
 
 [Source term retrieval setting]

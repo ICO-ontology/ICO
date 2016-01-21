@@ -8,10 +8,14 @@ IAO
 http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
 http://purl.obolibrary.org/obo/IAO_0000109 #measurement data item
 http://purl.obolibrary.org/obo/IAO_0000413 #is duration of
+http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
 subCalssOf http://purl.obolibrary.org/obo/IAO_0000109
+
+http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030
 
 [Source term retrieval setting]
 includeNoIntermediates
