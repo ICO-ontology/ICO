@@ -27,7 +27,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="&obo;ico_merged.owl">
+    <owl:Ontology rdf:about="&obo;ico.owl">
         <dc:creator>Marcy Harris (MRH)</dc:creator>
         <rdfs:comment>Terms were identified from a sample of informed consent templates, and definitions were selected based on concordance between the defintion and the use of the term in the source informed consent template document.  We preferentially selected defintioins from the NCI thesuarus.</rdfs:comment>
         <dc:description>The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.</dc:description>
@@ -35,14 +35,11 @@
         <dc:creator>Alla Karnovsky (AK)</dc:creator>
         <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
-        <dc:date xml:lang="en">2016-01-23</dc:date>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.69</owl:versionInfo>
+        <dc:date xml:lang="en">2016-01-24</dc:date>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.70</owl:versionInfo>
         <dc:creator xml:lang="en">Elizabeth Eisenhauer (EE)</dc:creator>
-        <rdfs:seeAlso rdf:resource="https://github.com/ICO-ontology/ICO"/>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
     </owl:Ontology>
-    
-
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -1461,18 +1458,18 @@
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">An entity is anything that exists or has existed or will exist. (axiom label in BFO2 Reference: [001-001])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000001"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/001-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <rdfs:comment>per discussion with Barry Smith</rdfs:comment>
         <owl:annotatedTarget xml:lang="en">Entity doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. For example Werner Ceusters &apos;portions of reality&apos; include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, &apos;How to track absolutely everything&apos; at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000001"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000004"/>
         <rdfs:seeAlso rdf:resource="http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">An entity is anything that exists or has existed or will exist. (axiom label in BFO2 Reference: [001-001])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000001"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/001-001"/>
     </owl:Axiom>
     
 
@@ -1501,24 +1498,6 @@
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000002"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/008-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">if b is a continuant and if, for some t, cis continuant_part of b at t, then c is a continuant. (axiom label in BFO2 Reference: [009-002])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000002"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/009-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">if b is a material entity, then there is some temporal interval (referred to below as a one-dimensional temporal region) during which b exists. (axiom label in BFO2 Reference: [011-002])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000002"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/011-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity. (axiom label in BFO2 Reference: [008-002])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000002"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
@@ -1531,16 +1510,28 @@
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/126-001"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">if b is a continuant and if, for some t, c has_continuant_part b at t, then c is a continuant. (axiom label in BFO2 Reference: [126-001])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000002"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/126-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget>(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000002"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/009-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget>(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000002"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/008-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">if b is a continuant and if, for some t, cis continuant_part of b at t, then c is a continuant. (axiom label in BFO2 Reference: [009-002])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000002"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/009-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">Continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster&apos;s other portions of reality, questions are raised as to whether universals are continuants</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000002"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000007"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget>(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] </owl:annotatedTarget>
@@ -1549,10 +1540,16 @@
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/011-002"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">Continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster&apos;s other portions of reality, questions are raised as to whether universals are continuants</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">if b is a continuant and if, for some t, c has_continuant_part b at t, then c is a continuant. (axiom label in BFO2 Reference: [126-001])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000002"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000007"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/126-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">if b is a material entity, then there is some temporal interval (referred to below as a one-dimensional temporal region) during which b exists. (axiom label in BFO2 Reference: [011-002])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000002"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/011-002"/>
     </owl:Axiom>
     
 
@@ -1585,25 +1582,6 @@
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/077-002"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">Every occurrent occupies_spatiotemporal_region some spatiotemporal region. (axiom label in BFO2 Reference: [108-001])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000003"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/108-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">b is an occurrent entity iff b is an entity that has temporal parts. (axiom label in BFO2 Reference: [079-001])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000003"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/079-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <rdfs:comment>per discussion with Barry Smith</rdfs:comment>
-        <owl:annotatedTarget xml:lang="en">Occurrent doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. An example would be the sum of a process and the process boundary of another process.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000003"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000006"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget>(forall (x) (if (Occurrent x) (exists (r) (and (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion x r))))) // axiom label in BFO2 CLIF: [108-001] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000003"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
@@ -1614,6 +1592,25 @@
         <owl:annotatedSource rdf:resource="&obo;BFO_0000003"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000012"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">b is an occurrent entity iff b is an entity that has temporal parts. (axiom label in BFO2 Reference: [079-001])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000003"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/079-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">Occurrent doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. An example would be the sum of a process and the process boundary of another process.</owl:annotatedTarget>
+        <rdfs:comment>per discussion with Barry Smith</rdfs:comment>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000003"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000006"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">Every occurrent occupies_spatiotemporal_region some spatiotemporal region. (axiom label in BFO2 Reference: [108-001])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000003"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/108-001"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget>(forall (x) (iff (Occurrent x) (and (Entity x) (exists (y) (temporalPartOf y x))))) // axiom label in BFO2 CLIF: [079-001] </owl:annotatedTarget>
@@ -1655,10 +1652,10 @@
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">For any independent continuant b and any time t there is some spatial region r such that b is located_in r at t. (axiom label in BFO2 Reference: [134-001])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000004"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/017-002"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/134-001"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget>(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] </owl:annotatedTarget>
@@ -1667,16 +1664,16 @@
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/018-002"/>
     </owl:Axiom>
     <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000004"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/017-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">For every independent continuant b and time t during the region of time spanned by its life, there are entities which s-depends_on b during t. (axiom label in BFO2 Reference: [018-002])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000004"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/018-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget>(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000004"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/134-001"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget>(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] </owl:annotatedTarget>
@@ -1685,9 +1682,9 @@
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/017-002"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">For any independent continuant b and any time t there is some spatial region r such that b is located_in r at t. (axiom label in BFO2 Reference: [134-001])</owl:annotatedTarget>
+        <owl:annotatedTarget>(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000004"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/134-001"/>
     </owl:Axiom>
     
@@ -1711,35 +1708,35 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>(forall (x y t) (if (and (SpatialRegion x) (continuantPartOfAt y x t)) (SpatialRegion y))) // axiom label in BFO2 CLIF: [036-001] </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000006"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/036-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <rdfs:comment>per discussion with Barry Smith</rdfs:comment>
-        <owl:annotatedTarget xml:lang="en">Spatial region doesn&apos;t have a closure axiom because the subclasses don&apos;t exhaust all possibilites. An example would be the union of a spatial point and a spatial line that doesn&apos;t overlap the point, or two spatial lines that intersect at a single point. In both cases the resultant spatial region is neither 0-dimensional, 1-dimensional, 2-dimensional, or 3-dimensional.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000006"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000002"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget>(forall (x) (if (SpatialRegion x) (Continuant x))) // axiom label in BFO2 CLIF: [035-001] </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000006"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/035-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">A spatial region is a continuant entity that is a continuant_part_of spaceR as defined relative to some frame R. (axiom label in BFO2 Reference: [035-001])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000006"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/035-001"/>
     </owl:Axiom>
     <owl:Axiom>
+        <owl:annotatedTarget>(forall (x y t) (if (and (SpatialRegion x) (continuantPartOfAt y x t)) (SpatialRegion y))) // axiom label in BFO2 CLIF: [036-001] </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000006"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/036-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">Spatial region doesn&apos;t have a closure axiom because the subclasses don&apos;t exhaust all possibilites. An example would be the union of a spatial point and a spatial line that doesn&apos;t overlap the point, or two spatial lines that intersect at a single point. In both cases the resultant spatial region is neither 0-dimensional, 1-dimensional, 2-dimensional, or 3-dimensional.</owl:annotatedTarget>
+        <rdfs:comment>per discussion with Barry Smith</rdfs:comment>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000006"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000002"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">All continuant parts of spatial regions are spatial regions. (axiom label in BFO2 Reference: [036-001])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000006"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/036-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget>(forall (x) (if (SpatialRegion x) (Continuant x))) // axiom label in BFO2 CLIF: [035-001] </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000006"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/035-001"/>
     </owl:Axiom>
     
 
@@ -1764,21 +1761,15 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">A temporal region is an occurrent entity that is part of time as defined relative to some reference frame. (axiom label in BFO2 Reference: [100-001])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000008"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/100-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">Every temporal region t is such that t occupies_temporal_region t. (axiom label in BFO2 Reference: [119-002])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000008"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/119-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget>(forall (x y) (if (and (TemporalRegion x) (occurrentPartOf y x)) (TemporalRegion y))) // axiom label in BFO2 CLIF: [101-001] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000008"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/101-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">All parts of temporal regions are temporal regions. (axiom label in BFO2 Reference: [101-001])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000008"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/101-001"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1788,22 +1779,28 @@
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/100-001"/>
     </owl:Axiom>
     <owl:Axiom>
-        <rdfs:comment>per discussion with Barry Smith</rdfs:comment>
         <owl:annotatedTarget xml:lang="en">Temporal region doesn&apos;t have a closure axiom because the subclasses don&apos;t exhaust all possibilites. An example would be the mereological sum of a temporal instant and a temporal interval that doesn&apos;t overlap the instant. In this case the resultant temporal region is neither 0-dimensional nor 1-dimensional</owl:annotatedTarget>
+        <rdfs:comment>per discussion with Barry Smith</rdfs:comment>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000008"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000003"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">All parts of temporal regions are temporal regions. (axiom label in BFO2 Reference: [101-001])</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">A temporal region is an occurrent entity that is part of time as defined relative to some reference frame. (axiom label in BFO2 Reference: [100-001])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000008"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/101-001"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/100-001"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget>(forall (r) (if (TemporalRegion r) (occupiesTemporalRegion r r))) // axiom label in BFO2 CLIF: [119-002] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000008"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/119-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">Every temporal region t is such that t occupies_temporal_region t. (axiom label in BFO2 Reference: [119-002])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000008"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/119-002"/>
     </owl:Axiom>
     
@@ -1824,15 +1821,15 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>(forall (x) (if (TwoDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [039-001] </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000009"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/039-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">A two-dimensional spatial region is a spatial region that is of two dimensions. (axiom label in BFO2 Reference: [039-001])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000009"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/039-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget>(forall (x) (if (TwoDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [039-001] </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000009"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/039-001"/>
     </owl:Axiom>
     
@@ -1862,16 +1859,10 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>(forall (x y) (if (and (SpatioTemporalRegion x) (occurrentPartOf y x)) (SpatioTemporalRegion y))) // axiom label in BFO2 CLIF: [096-001] </owl:annotatedTarget>
+        <owl:annotatedTarget>(forall (x) (if (SpatioTemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [095-001] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000011"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/096-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">All parts of spatiotemporal regions are spatiotemporal regions. (axiom label in BFO2 Reference: [096-001])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000011"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/096-001"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/095-001"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget>(forall (x) (if (SpatioTemporalRegion x) (exists (y) (and (TemporalRegion y) (temporallyProjectsOnto x y))))) // axiom label in BFO2 CLIF: [098-001] </owl:annotatedTarget>
@@ -1880,16 +1871,10 @@
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/098-001"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">A spatiotemporal region is an occurrent entity that is part of spacetime. (axiom label in BFO2 Reference: [095-001])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000011"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/095-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget>(forall (x) (if (SpatioTemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [095-001] </owl:annotatedTarget>
+        <owl:annotatedTarget>(forall (x y) (if (and (SpatioTemporalRegion x) (occurrentPartOf y x)) (SpatioTemporalRegion y))) // axiom label in BFO2 CLIF: [096-001] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000011"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/095-001"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/096-001"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget>(forall (r) (if (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion r r))) // axiom label in BFO2 CLIF: [107-002] </owl:annotatedTarget>
@@ -1898,10 +1883,22 @@
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/107-002"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget>(forall (x t) (if (SpatioTemporalRegion x) (exists (y) (and (SpatialRegion y) (spatiallyProjectsOntoAt x y t))))) // axiom label in BFO2 CLIF: [099-001] </owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Every spatiotemporal region s is such that s occupies_spatiotemporal_region s. (axiom label in BFO2 Reference: [107-002])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000011"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/099-001"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/107-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">A spatiotemporal region is an occurrent entity that is part of spacetime. (axiom label in BFO2 Reference: [095-001])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000011"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/095-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">All parts of spatiotemporal regions are spatiotemporal regions. (axiom label in BFO2 Reference: [096-001])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000011"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/096-001"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">Each spatiotemporal region projects_onto some temporal region. (axiom label in BFO2 Reference: [098-001])</owl:annotatedTarget>
@@ -1910,15 +1907,15 @@
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/098-001"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">Every spatiotemporal region s is such that s occupies_spatiotemporal_region s. (axiom label in BFO2 Reference: [107-002])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000011"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/107-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">Each spatiotemporal region at any time t projects_onto some spatial region at t. (axiom label in BFO2 Reference: [099-001])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000011"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/099-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget>(forall (x t) (if (SpatioTemporalRegion x) (exists (y) (and (SpatialRegion y) (spatiallyProjectsOntoAt x y t))))) // axiom label in BFO2 CLIF: [099-001] </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000011"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/099-001"/>
     </owl:Axiom>
     
@@ -1983,6 +1980,12 @@
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget>(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000016"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/063-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">b is a disposition means: b is a realizable entity &amp; b’s bearer is some material entity &amp; b is such that if it ceases to exist, then its bearer is physically changed, &amp; b’s realization occurs when and because this bearer is in some special physical circumstances, &amp; this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000016"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
@@ -1998,12 +2001,6 @@
         <owl:annotatedTarget xml:lang="en">If b is a realizable entity then for all t at which b exists, b s-depends_on some material entity at t. (axiom label in BFO2 Reference: [063-002])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000016"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/063-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget>(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000016"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/063-002"/>
     </owl:Axiom>
     
@@ -2032,9 +2029,9 @@
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] </owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">All realizable dependent continuants have independent continuants that are not spatial regions as their bearers. (axiom label in BFO2 Reference: [060-002])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000017"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/060-002"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2044,9 +2041,9 @@
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/058-002"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">All realizable dependent continuants have independent continuants that are not spatial regions as their bearers. (axiom label in BFO2 Reference: [060-002])</owl:annotatedTarget>
+        <owl:annotatedTarget>(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000017"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/060-002"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -2107,6 +2104,18 @@
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">If an entity is a quality at any time that it exists, then it is a quality at every time that it exists. (axiom label in BFO2 Reference: [105-001])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000019"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/105-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">a quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized. (axiom label in BFO2 Reference: [055-001])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000019"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/055-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget>(forall (x) (if (exists (t) (and (existsAt x t) (Quality x))) (forall (t_1) (if (existsAt x t_1) (Quality x))))) // axiom label in BFO2 CLIF: [105-001] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000019"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
@@ -2117,18 +2126,6 @@
         <owl:annotatedSource rdf:resource="&obo;BFO_0000019"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/055-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">a quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized. (axiom label in BFO2 Reference: [055-001])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000019"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/055-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">If an entity is a quality at any time that it exists, then it is a quality at every time that it exists. (axiom label in BFO2 Reference: [105-001])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000019"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/105-001"/>
     </owl:Axiom>
     
 
@@ -2162,10 +2159,11 @@
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] </owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Specifically dependent continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. We&apos;re not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc.</owl:annotatedTarget>
+        <rdfs:comment>per discussion with Barry Smith</rdfs:comment>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000020"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/050-003"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000005"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">b is a specifically dependent continuant = Def. b is a continuant &amp; there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])</owl:annotatedTarget>
@@ -2174,11 +2172,10 @@
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/050-003"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">Specifically dependent continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. We&apos;re not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc.</owl:annotatedTarget>
-        <rdfs:comment>per discussion with Barry Smith</rdfs:comment>
+        <owl:annotatedTarget>(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000020"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000005"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/050-003"/>
     </owl:Axiom>
     
 
@@ -2240,15 +2237,15 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>(forall (x) (if (FiatObjectPart x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y) (and (Object y) (properContinuantPartOfAt x y t)))))))) // axiom label in BFO2 CLIF: [027-004] </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000024"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/027-004"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">b is a fiat object part = Def. b is a material entity which is such that for all times t, if b exists at t then there is some object c such that b proper continuant_part of  c at t and c is demarcated from the remainder of c by a two-dimensional continuant fiat boundary. (axiom label in BFO2 Reference: [027-004])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000024"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/027-004"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget>(forall (x) (if (FiatObjectPart x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y) (and (Object y) (properContinuantPartOfAt x y t)))))))) // axiom label in BFO2 CLIF: [027-004] </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000024"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/027-004"/>
     </owl:Axiom>
     
@@ -2268,15 +2265,15 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">A one-dimensional spatial region is a line or aggregate of lines stretching from one point in space to another. (axiom label in BFO2 Reference: [038-001])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000026"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/038-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget>(forall (x) (if (OneDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [038-001] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000026"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/038-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">A one-dimensional spatial region is a line or aggregate of lines stretching from one point in space to another. (axiom label in BFO2 Reference: [038-001])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000026"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/038-001"/>
     </owl:Axiom>
     
@@ -2310,6 +2307,12 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget>An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000027"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000301"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget>ISBN:978-3-938793-98-5pp124-158#Thomas Bittner and Barry Smith, &apos;A Theory of Granular Partitions&apos;, in K. Munn and B. Smith (eds.), Applied Ontology: An Introduction, Frankfurt/Lancaster: ontos, 2008, 125-158.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000027"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000119"/>
@@ -2325,19 +2328,13 @@
         <owl:annotatedTarget>An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000027"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000301"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000011"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">b is an object aggregate means: b is a material entity consisting exactly of a plurality of objects as member_parts at all times at which b exists. (axiom label in BFO2 Reference: [025-004])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000027"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/025-004"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget>An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000027"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000011"/>
     </owl:Axiom>
     
 
@@ -2356,15 +2353,15 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">A three-dimensional spatial region is a spatial region that is of three dimensions. (axiom label in BFO2 Reference: [040-001])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000028"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/040-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget>(forall (x) (if (ThreeDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [040-001] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000028"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/040-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">A three-dimensional spatial region is a spatial region that is of three dimensions. (axiom label in BFO2 Reference: [040-001])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000028"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/040-001"/>
     </owl:Axiom>
     
@@ -2398,15 +2395,15 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>(forall (x) (if (Site x) (ImmaterialEntity x))) // axiom label in BFO2 CLIF: [034-002] </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000029"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/034-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">b is a site means: b is a three-dimensional immaterial entity that is (partially or wholly) bounded by a material entity or it is a three-dimensional immaterial part thereof. (axiom label in BFO2 Reference: [034-002])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000029"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/034-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget>(forall (x) (if (Site x) (ImmaterialEntity x))) // axiom label in BFO2 CLIF: [034-002] </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000029"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/034-002"/>
     </owl:Axiom>
     
@@ -2497,15 +2494,15 @@
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>(forall (x) (if (Function x) (Disposition x))) // axiom label in BFO2 CLIF: [064-001] </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000034"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/064-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">A function is a disposition that exists in virtue of the bearer’s physical make-up and this physical make-up is something the bearer possesses because it came into being, either through evolution (in the case of natural biological entities) or through intentional design (in the case of artifacts), in order to realize processes of a certain sort. (axiom label in BFO2 Reference: [064-001])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000034"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/064-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget>(forall (x) (if (Function x) (Disposition x))) // axiom label in BFO2 CLIF: [064-001] </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000034"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/064-001"/>
     </owl:Axiom>
     
@@ -2526,10 +2523,10 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">Every process boundary occupies_temporal_region a zero-dimensional temporal region. (axiom label in BFO2 Reference: [085-002])</owl:annotatedTarget>
+        <owl:annotatedTarget>(iff (ProcessBoundary a) (exists (p) (and (Process p) (temporalPartOf a p) (not (exists (b) (properTemporalPartOf b a)))))) // axiom label in BFO2 CLIF: [084-001] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000035"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/085-002"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/084-001"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">p is a process boundary =Def. p is a temporal part of a process &amp; p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001])</owl:annotatedTarget>
@@ -2544,10 +2541,10 @@
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/085-002"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget>(iff (ProcessBoundary a) (exists (p) (and (Process p) (temporalPartOf a p) (not (exists (b) (properTemporalPartOf b a)))))) // axiom label in BFO2 CLIF: [084-001] </owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Every process boundary occupies_temporal_region a zero-dimensional temporal region. (axiom label in BFO2 Reference: [085-002])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000035"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/084-001"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000601"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/085-002"/>
     </owl:Axiom>
     
 
@@ -2568,15 +2565,15 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>(forall (x) (if (OneDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [103-001] </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000038"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/103-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">A one-dimensional temporal region is a temporal region that is extended. (axiom label in BFO2 Reference: [103-001])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000038"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/103-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget>(forall (x) (if (OneDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [103-001] </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000038"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/103-001"/>
     </owl:Axiom>
     
@@ -2629,6 +2626,18 @@
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/020-002"/>
     </owl:Axiom>
     <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000040"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/019-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000040"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/020-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget>(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000040"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
@@ -2639,18 +2648,6 @@
         <owl:annotatedSource rdf:resource="&obo;BFO_0000040"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/021-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000040"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/020-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000040"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/019-002"/>
     </owl:Axiom>
     
 
@@ -2671,10 +2668,10 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">Continuant fiat boundary doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. An example would be the mereological sum of two-dimensional continuant fiat boundary and a one dimensional continuant fiat boundary that doesn&apos;t overlap it. The situation is analogous to temporal and spatial regions.</owl:annotatedTarget>
+        <owl:annotatedTarget>(iff (ContinuantFiatBoundary a) (and (ImmaterialEntity a) (exists (b) (and (or (ZeroDimensionalSpatialRegion b) (OneDimensionalSpatialRegion b) (TwoDimensionalSpatialRegion b)) (forall (t) (locatedInAt a b t)))) (not (exists (c t) (and (SpatialRegion c) (continuantPartOfAt c a t)))))) // axiom label in BFO2 CLIF: [029-001] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000140"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000008"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/029-001"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">b is a continuant fiat boundary = Def. b is an immaterial entity that is of zero, one or two dimensions and does not include a spatial region as part. (axiom label in BFO2 Reference: [029-001])</owl:annotatedTarget>
@@ -2683,10 +2680,10 @@
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/029-001"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget>(iff (ContinuantFiatBoundary a) (and (ImmaterialEntity a) (exists (b) (and (or (ZeroDimensionalSpatialRegion b) (OneDimensionalSpatialRegion b) (TwoDimensionalSpatialRegion b)) (forall (t) (locatedInAt a b t)))) (not (exists (c t) (and (SpatialRegion c) (continuantPartOfAt c a t)))))) // axiom label in BFO2 CLIF: [029-001] </owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">Continuant fiat boundary doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. An example would be the mereological sum of two-dimensional continuant fiat boundary and a one dimensional continuant fiat boundary that doesn&apos;t overlap it. The situation is analogous to temporal and spatial regions.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000140"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/029-001"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000008"/>
     </owl:Axiom>
     
 
@@ -2755,18 +2752,6 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">b is a process_profile =Def. there is some process c such that b process_profile_of c (axiom label in BFO2 Reference: [093-002])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000144"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/093-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget>(iff (ProcessProfile a) (exists (b) (and (Process b) (processProfileOf a b)))) // axiom label in BFO2 CLIF: [093-002] </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000144"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/093-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">b process_profile_of c holds when b proper_occurrent_part_of c&amp; there is some proper_occurrent_part d of c which has no parts in common with b &amp; is mutually dependent on b&amp; is such that b, c and d occupy the same temporal region (axiom label in BFO2 Reference: [094-005])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000144"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
@@ -2777,6 +2762,18 @@
         <owl:annotatedSource rdf:resource="&obo;BFO_0000144"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/094-005"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">b is a process_profile =Def. there is some process c such that b process_profile_of c (axiom label in BFO2 Reference: [093-002])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000144"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/093-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget>(iff (ProcessProfile a) (exists (b) (and (Process b) (processProfileOf a b)))) // axiom label in BFO2 CLIF: [093-002] </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000144"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/093-002"/>
     </owl:Axiom>
     
 
@@ -2795,15 +2792,15 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">b is a relational quality = Def. for some independent continuants c, d and for some time t: b quality_of c at t &amp; b quality_of d at t. (axiom label in BFO2 Reference: [057-001])</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000145"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/057-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget>(iff (RelationalQuality a) (exists (b c t) (and (IndependentContinuant b) (IndependentContinuant c) (qualityOfAt a b t) (qualityOfAt a c t)))) // axiom label in BFO2 CLIF: [057-001] </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000145"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/057-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget xml:lang="en">b is a relational quality = Def. for some independent continuants c, d and for some time t: b quality_of c at t &amp; b quality_of d at t. (axiom label in BFO2 Reference: [057-001])</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000145"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/057-001"/>
     </owl:Axiom>
     
@@ -2821,15 +2818,15 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>(iff (TwoDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (TwoDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [033-001] </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000146"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/033-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">a two-dimensional continuant fiat boundary (surface) is a self-connected fiat surface whose location is defined in relation to some material entity. (axiom label in BFO2 Reference: [033-001])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000146"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/033-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget>(iff (TwoDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (TwoDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [033-001] </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000146"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/033-001"/>
     </owl:Axiom>
     
@@ -2851,12 +2848,10 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <rdfs:comment>requested by Melanie Courtot</rdfs:comment>
-        <owl:annotatedTarget xml:lang="en">zero dimension continuant fiat boundaries are not spatial points. Considering the example &apos;the quadripoint where the boundaries of Colorado, Utah, New Mexico, and Arizona meet&apos; : There are many frames in which that point is zooming through many points in space. Whereas, no matter what the frame, the quadripoint is always in the same relation to the boundaries of Colorado, Utah, New Mexico, and Arizona.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">a zero-dimensional continuant fiat boundary is a fiat point whose location is defined in relation to some material entity. (axiom label in BFO2 Reference: [031-001])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000147"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000001"/>
-        <rdfs:seeAlso rdf:resource="https://groups.google.com/d/msg/bfo-owl-devel/s9Uug5QmAws/ZDRnpiIi_TUJ"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/031-001"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget>(iff (ZeroDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (ZeroDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [031-001] </owl:annotatedTarget>
@@ -2865,10 +2860,12 @@
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/031-001"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget xml:lang="en">a zero-dimensional continuant fiat boundary is a fiat point whose location is defined in relation to some material entity. (axiom label in BFO2 Reference: [031-001])</owl:annotatedTarget>
+        <rdfs:comment>requested by Melanie Courtot</rdfs:comment>
+        <owl:annotatedTarget xml:lang="en">zero dimension continuant fiat boundaries are not spatial points. Considering the example &apos;the quadripoint where the boundaries of Colorado, Utah, New Mexico, and Arizona meet&apos; : There are many frames in which that point is zooming through many points in space. Whereas, no matter what the frame, the quadripoint is always in the same relation to the boundaries of Colorado, Utah, New Mexico, and Arizona.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000147"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/031-001"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000116"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/0000001"/>
+        <rdfs:seeAlso rdf:resource="https://groups.google.com/d/msg/bfo-owl-devel/s9Uug5QmAws/ZDRnpiIi_TUJ"/>
     </owl:Axiom>
     
 
@@ -2891,15 +2888,15 @@
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget>(forall (x) (if (ZeroDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [102-001] </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000148"/>
-        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
-        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/102-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget xml:lang="en">A zero-dimensional temporal region is a temporal region that is without extent. (axiom label in BFO2 Reference: [102-001])</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000148"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000600"/>
+        <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/102-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget>(forall (x) (if (ZeroDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [102-001] </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000148"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000602"/>
         <obo:IAO_0010000 rdf:resource="&obo;bfo/axiom/102-001"/>
     </owl:Axiom>
     
@@ -3234,8 +3231,8 @@
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;IAO_0000004"/>
-                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+                <owl:onProperty rdf:resource="&obo;OBI_0001938"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0001931"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3246,8 +3243,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0001938"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0001931"/>
+                <owl:onProperty rdf:resource="&obo;IAO_0000004"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">10 feet. 3 ml.</obo:IAO_0000112>
@@ -3530,11 +3527,11 @@
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000111"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:ICO_0000091 xml:lang="en">C0009797 </obo:ICO_0000091>
         <obo:IAO_0000119>NCIt C16468</obo:IAO_0000119>
         <obo:IAO_0000117>AK, FM, YH, YL, MH, EE</obo:IAO_0000117>
         <obo:IAO_0000116>The term definition is adapted from NCIt definition of &apos;consent form&apos; (C16468) with modification. Compared to the NCIt definition, the ICO definition does not restrict the form to a clinical trial.  </obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">A document that explains all relevant study information to assist a human subject in understanding the expectations and requirements of participation in a research study. This form document is presented to and signed by the study subject. </obo:IAO_0000115>
-        <obo:ICO_0000091 xml:lang="en">C0009797 </obo:ICO_0000091>
         <obo:ICO_0000092 xml:lang="en">C16468 </obo:ICO_0000092>
     </owl:Class>
     
@@ -3604,14 +3601,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000063"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000120"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000015"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000063"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000120"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a planned process that results in a signing of an informed consent form.</obo:IAO_0000115>
@@ -4734,20 +4731,8 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000810"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000117"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000133"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000121"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4759,7 +4744,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000134"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000117"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4771,7 +4756,19 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000121"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000134"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000133"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000810"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5272,7 +5269,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ICO_0000138 -->
 
     <owl:Class rdf:about="&obo;ICO_0000138">
-        <rdfs:label xml:lang="en">vaccine informed consent form</rdfs:label>
+        <rdfs:label xml:lang="en">vaccination informed consent form</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000001"/>
         <obo:IAO_0000118>immunization consent form</obo:IAO_0000118>
         <obo:IAO_0000115>an informed consent form that is used for vaccination</obo:IAO_0000115>
@@ -5671,6 +5668,12 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000471"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -5687,19 +5690,13 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;IAO_0000572"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000338"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000471"/>
+                <owl:someValuesFrom rdf:resource="&obo;IAO_0000572"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000232 rdf:datatype="&xsd;string">Could add specific objective specification</obo:IAO_0000232>
@@ -5762,14 +5759,8 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="&obo;BFO_0000040"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
+                <owl:allValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5780,8 +5771,14 @@ Individually identifiable health information includes many common identifiers (e
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="&obo;BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="&xsd;string">A cell lysis, production of a cloning vector, creating a buffer.</obo:IAO_0000112>
@@ -6099,14 +6096,14 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;IAO_0000027"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0001909"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0001909"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 rdf:datatype="&xsd;string">Bjoern Peters</obo:IAO_0000119>
@@ -6159,14 +6156,14 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000456"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0100066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0100066"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0400168"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6177,8 +6174,8 @@ Individually identifiable health information includes many common identifiers (e
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0400168"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000456"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
@@ -6332,12 +6329,6 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000079"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000047"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
                 <owl:allValuesFrom>
                     <owl:Restriction>
@@ -6345,6 +6336,12 @@ Individually identifiable health information includes many common identifiers (e
                         <owl:someValuesFrom rdf:resource="&obo;IAO_0000109"/>
                     </owl:Restriction>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000079"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="&xsd;string">A glucometer measures blood glucose concentration, the glucometer has a measure function.</obo:IAO_0000112>
@@ -6445,8 +6442,8 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0001479"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000112"/>
+                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6457,8 +6454,8 @@ Individually identifiable health information includes many common identifiers (e
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001088"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000112"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116 rdf:datatype="&xsd;string">4/10/2011BP: It seems to me that the editor notes refer to a previous version, and are no longer relevant. </obo:IAO_0000116>
@@ -6520,14 +6517,14 @@ Individually identifiable health information includes many common identifiers (e
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000112"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0600005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0600005"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000112"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">Bjoern Peters</obo:IAO_0000117>
@@ -6648,6 +6645,12 @@ Individually identifiable health information includes many common identifiers (e
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000659"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;BFO_0000040"/>
@@ -6657,12 +6660,6 @@ Individually identifiable health information includes many common identifiers (e
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000659"/>
-            </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A material entity which is the output of a process in which one or more whole organisms are prepared in a way to make it easier to study them, and in which the great majority of organismal parts are maintained</obo:IAO_0000115>
         <obo:IAO_0000116 rdf:datatype="&xsd;string">does this include injecting a dye to a patient to be able to visualize parts of his brain? If not, we should state that the components of the organism are substantially re-arranged.</obo:IAO_0000116>
@@ -6788,13 +6785,13 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7077,14 +7074,14 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0001010"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_33697"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0666666"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0666666"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_33697"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 rdf:datatype="&xsd;string">Group: UPenn Group</obo:IAO_0000119>
@@ -7208,12 +7205,6 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:label rdf:datatype="&xsd;string">labeled DNA extract</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0001143"/>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_16991"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -7236,6 +7227,12 @@ Individually identifiable health information includes many common identifiers (e
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_16991"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">Group: OBI group</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="&xsd;string">Group: OBI group</obo:IAO_0000119>
@@ -7495,14 +7492,14 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0302893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="&xsd;string"></obo:IAO_0000112>
@@ -7711,6 +7708,12 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0302893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -7720,12 +7723,6 @@ Individually identifiable health information includes many common identifiers (e
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="&xsd;string"></obo:IAO_0000112>
@@ -7801,14 +7798,14 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0302893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0100060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0100060"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Chris Stoeckert</obo:IAO_0000117>
@@ -7830,6 +7827,12 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000423"/>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/>
         <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_33696"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -7842,12 +7845,6 @@ Individually identifiable health information includes many common identifiers (e
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_33696"/>
-            </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An extract that is the output of an extraction process in which nucleic acid molecules are isolated from a specimen.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Jie Zheng</obo:IAO_0000117>
@@ -7892,6 +7889,12 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:label rdf:datatype="&xsd;string">labeled nucleic acid extract</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000924"/>
         <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_33696"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -7915,12 +7918,6 @@ Individually identifiable health information includes many common identifiers (e
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_33696"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000119 rdf:datatype="&xsd;string">MO_221 labeledExtract</obo:IAO_0000119>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">Person: Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">a labeled specimen that is the output of a labeling process and has grain labeled nucleic acid for detection of the nucleic acid in future experiments.</obo:IAO_0000115>
@@ -7940,14 +7937,14 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
-                <owl:someValuesFrom rdf:resource="&obo;CL_0000000"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000112"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000112"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
+                <owl:someValuesFrom rdf:resource="&obo;CL_0000000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A specimen primarily composed of cells collected from a multicellular organism or a cell culture</obo:IAO_0000115>
@@ -8113,9 +8110,9 @@ Individually identifiable health information includes many common identifiers (e
         </rdfs:subClassOf>
         <obo:IAO_0000115>An information content entity that is inferred from data.</obo:IAO_0000115>
         <obo:IAO_0000116>In the Philly 2013 workshop, we recognized the limitations of &quot;conclusion textual entity&quot;, and we introduced this as more general. The need for the &apos;textual entity&apos; term going forward is up for future debate. </obo:IAO_0000116>
+        <obo:IAO_0000119>Group:2013 Philly Workshop group</obo:IAO_0000119>
         <obo:IAO_0000111>conclusion based on data</obo:IAO_0000111>
         <obo:IAO_0000117>Group:2013 Philly Workshop group</obo:IAO_0000117>
-        <obo:IAO_0000119>Group:2013 Philly Workshop group</obo:IAO_0000119>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </owl:Class>
@@ -8143,13 +8140,13 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0001933"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0001937"/>
+                <owl:onProperty rdf:resource="&obo;IAO_0000039"/>
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;IAO_0000039"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0001937"/>
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -8262,12 +8259,6 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000112"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -8286,6 +8277,12 @@ Individually identifiable health information includes many common identifiers (e
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000112"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
@@ -8369,12 +8366,6 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
-                <owl:someValuesFrom rdf:resource="&obo;CL_0000010"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
                 <owl:allValuesFrom rdf:resource="&obo;CL_0000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -8382,6 +8373,12 @@ Individually identifiable health information includes many common identifiers (e
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0600024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
+                <owl:someValuesFrom rdf:resource="&obo;CL_0000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A processed material comprised of a collection of cultured cells that has been continuously maintained together in culture and shares a common propagation history.</obo:IAO_0000115>
@@ -8441,14 +8438,14 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:allValuesFrom rdf:resource="&obo;OBI_0600044"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000112"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000112"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:allValuesFrom rdf:resource="&obo;OBI_0600044"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">BAL</obo:IAO_0000118>
@@ -8557,14 +8554,14 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0600014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000681"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0400106"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0400106"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000681"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">Philippe Rocca-Serra</obo:IAO_0000117>
@@ -8585,14 +8582,14 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000838"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 rdf:datatype="&xsd;string">OBI-Branch</obo:IAO_0000119>
@@ -8626,12 +8623,6 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000085"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000453"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000085"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -8643,6 +8634,12 @@ Individually identifiable health information includes many common identifiers (e
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000085"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000453"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A device with a rapidly rotating container that applies centrifugal force to its contents</obo:IAO_0000115>
@@ -8773,14 +8770,14 @@ Individually identifiable health information includes many common identifiers (e
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0100051"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000684"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000684"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0100051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 xml:lang="en">IEDB</obo:IAO_0000119>
@@ -8847,12 +8844,6 @@ Individually identifiable health information includes many common identifiers (e
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -8862,6 +8853,12 @@ Individually identifiable health information includes many common identifiers (e
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
@@ -8882,14 +8879,8 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0100060"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;CL_0000000"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000079"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8901,7 +8892,13 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000079"/>
+                <owl:someValuesFrom rdf:resource="&obo;CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0100060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON:Matthew Brush</obo:IAO_0000117>
@@ -8928,14 +8925,14 @@ Individually identifiable health information includes many common identifiers (e
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_1110109"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0001936"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0001936"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_1110109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -9031,12 +9028,6 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0302884"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_33696"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -9047,6 +9038,12 @@ Individually identifiable health information includes many common identifiers (e
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_33696"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
@@ -9070,14 +9067,14 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;OBI_0001479"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000341"/>
+                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="&obo;CARO_0001008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;CARO_0001008"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000341"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
