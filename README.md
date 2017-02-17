@@ -8,6 +8,8 @@ As part of the consenting process in human subjects research, potential particip
 * Tracker: [https://github.com/ICO-ontology/ICO/issues](https://github.com/ICO-ontology/ICO/issues)
 * ICO ontology discussion mailing-list: [https://groups.google.com/forum/#!forum/ico-discuss](https://groups.google.com/forum/#!forum/ico-discuss)
 
+* ICO discussion notes: https://docs.google.com/document/d/1j5HHtnm2nZn89O-EM1wsGjFTcoVMS_Ew8s4Z1uhfHsI/edit?usp=sharing 
+
 #### Download
 
 Use the following URI to download this ontology
