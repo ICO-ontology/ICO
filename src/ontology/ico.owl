@@ -29,7 +29,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="&obo;ico.owl">
+    <owl:Ontology rdf:about="&obo;ico.owl">	
         <dc:creator>Marcy Harris (MRH)</dc:creator>
         <rdfs:comment>Terms were identified from a sample of informed consent templates, and definitions were selected based on concordance between the defintion and the use of the term in the source informed consent template document.  We preferentially selected defintioins from the NCI thesuarus.</rdfs:comment>
         <dc:description>The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.</dc:description>
@@ -38,7 +38,10 @@
         <owl:versionInfo xml:lang="en">Arbor version; 1.0.70</owl:versionInfo>
         <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
-        <dc:date xml:lang="en">2016-01-24</dc:date>
+		<dc:creator>Mathias Brochhausen</dc:creator>
+		<dc:creator>Jihad Obeid</dc:creator>
+		<dc:creator>Jonathan Bona</dc:creator>
+        <dc:date xml:lang="en">2017-03-15</dc:date>
         <dc:creator xml:lang="en">Elizabeth Eisenhauer (EE)</dc:creator>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <owl:imports rdf:resource="&obo;bfo/2.0/bfo.owl"/>
@@ -535,14 +538,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000006"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a planned process that approves an informed consent form.</obo:IAO_0000115>
@@ -555,7 +558,13 @@
 
     <owl:Class rdf:about="&obo;ICO_0000005">
         <rdfs:label>signing informed consent form</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0021002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000063"/>
@@ -568,16 +577,9 @@
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000810"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000015"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>a planned process that results in a signing of an informed consent form.</obo:IAO_0000115>
-        <obo:IAO_0000117>AK, FM, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>A document act that is a part of informed consent process and has an output of a signed informed consent form. The signing process leads to a legal obligation.</obo:IAO_0000115>
+        <obo:IAO_0000117>AK, FM, YH, JO, CS, and MB</obo:IAO_0000117>
     </owl:Class>
-    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000006 -->
@@ -1695,13 +1697,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000135"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000128"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000105"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000133"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1713,7 +1715,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000133"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000135"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1726,12 +1734,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000117"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000128"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2280,6 +2282,110 @@ Individually identifiable health information includes many common identifiers (e
     </owl:Class>
     
 
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000142 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000142">
+        <rdfs:label xml:lang="en">legally effective consenting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <obo:IAO_0000117>Frank Manion, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>A planned process that results in legally effective consent status</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000144 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000144">
+        <rdfs:label xml:lang="en">legally effective consented participant role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000142"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Frank Manion, Oliver He, Mathias Bronchhausen, Chris Stoeckert, Jie Zheng, Jihad Obeid, Helena Ellis</obo:IAO_0000117>
+        <obo:IAO_0000115>A role that inheres in a human being who participates in a consenting process and eventually becomes legally effectively consented.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000146 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000146">
+        <rdfs:label xml:lang="en">eligibility of candidate participation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000017"/>
+        <obo:IAO_0000117>Frank Manion, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>A realizable entity that represents the eligibility of a candidate according to a study protocol.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000147 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000147">
+        <rdfs:label xml:lang="en">candidate eligible for study</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000146"/>
+        <obo:IAO_0000115>the participant meets all eligibility criteria defined within the study protocol</obo:IAO_0000115>
+        <obo:IAO_0000119>NCI BBRB: Biorepositories and Biospecimen Research Branch</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000148 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000148">
+        <rdfs:label xml:lang="en">candidate ineligible for study</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ICO_0000146"/>
+        <obo:IAO_0000119>NCI BBRB: Biorepositories and Biospecimen Research Branch</obo:IAO_0000119>
+        <obo:IAO_0000115>the participant does not meet all eligibility criteria defined within the study protocol</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000150 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000150">
+        <rdfs:label xml:lang="en">eligibility screeening</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <obo:IAO_0000115>A planned process to screen the eligibility of a candidate for a study, whcih is usually done against one or more protocols.</obo:IAO_0000115>
+        <obo:IAO_0000117>Frank Manion, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000151 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000151">
+        <rdfs:label xml:lang="en">eligibility screening role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <dc:creator xml:lang="en">Frank Manion, Oliver He</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a role that inheres in a person who performs an eligibility screening process.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000152 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000152">
+        <rdfs:label xml:lang="en">eligibility screening person</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;ICO_0000151"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
+        <dc:creator>Frank Manion, Oliver He</dc:creator>
+    </owl:Class>
+    
+	
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000170 -->
 

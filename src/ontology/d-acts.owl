@@ -25,27 +25,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="&obo;iao/d-acts.owl">
-        <obo:IAO_0000597 rdf:datatype="&xsd;string">IAO_0021000-IAO_0021999</obo:IAO_0000597>
-        <dc:creator>Laura Slaughter</dc:creator>
-        <owl:versionInfo>release 3 (2016-06-22)</owl:versionInfo>
-        <dc:creator>Mathias Brochhausen</dc:creator>
-        <dc:creator>Amanda Hicks</dc:creator>
-        <dc:creator>Mauricio B. Almeida</dc:creator>
-        <rdfs:comment xml:lang="en">The ontology is based on a theory of document acts proposed by Barry Smith and Reinach&apos;s theory of social acts and legal entities:
-
-Reinach, A. (1989), Sämtliche Werke. Texkritische Ausgabe, Edited by Karl Schuhmann and Barry Smith, München: Philosophia Verlag.
-
-Smith, B. (2008) “Searle and de Soto: The new ontology of the social world”, The Mystery of Capital and the Construction of Social Reality, B. Smith, D.M. Mark  and I. Ehrlich, United States, Open Court., 35-52.
-
-Smith, B. (2012) &quot;How to Do Things With Documents&quot;, Rivista di estetica, 50 (2/2012), LII: 179-198.
-
-However, there are some amendments from our side which are to be found in the documentation.</rdfs:comment>
-        <dc:title xml:lang="en">document act ontology</dc:title>
-        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
-    </owl:Ontology>
-    
-
+    <owl:Ontology rdf:about="&obo;iao/d-acts.owl"/>
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
