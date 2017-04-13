@@ -6,6 +6,9 @@ RO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/BFO_0000063 #precedes
+http://purl.obolibrary.org/obo/BFO_0000062 #preceded by
+http://purl.obolibrary.org/obo/RO_0002092 #happens during
+http://purl.obolibrary.org/obo/RO_0002085 #encompasses
 
 http://purl.obolibrary.org/obo/RO_0002222 #temporally related to
 
