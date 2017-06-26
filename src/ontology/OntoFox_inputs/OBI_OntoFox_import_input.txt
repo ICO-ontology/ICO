@@ -26,6 +26,7 @@ http://purl.obolibrary.org/obo/OBI_0000245 #organization
 http://purl.obolibrary.org/obo/OBI_0000181 #population
 http://purl.obolibrary.org/obo/OBI_0000097 #study subject role
 http://purl.obolibrary.org/obo/IAO_0000028 #symbol
+http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
 
 
 
@@ -41,6 +42,9 @@ subClassOf http://purl.obolibrary.org/obo/BFO_0000015
 
 http://purl.obolibrary.org/obo/OBI_0000339
 subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+
+http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
 
 [Source term retrieval setting]
 includeAllIntermediates 
