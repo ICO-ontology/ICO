@@ -32,27 +32,28 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:subsets="&obo;ro/subsets#">
     <owl:Ontology rdf:about="&obo;ico.owl">
+        <dc:contributor>Jonathan Bona</dc:contributor>
         <rdfs:comment>Terms were identified from a sample of informed consent templates, and definitions were selected based on concordance between the defintion and the use of the term in the source informed consent template document.  We preferentially selected defintioins from the NCI thesuarus.</rdfs:comment>
+        <dc:creator xml:lang="en">Christoph Brochhausen</dc:creator>
+        <dc:contributor xml:lang="en">Cui Tao</dc:contributor>
+        <dc:contributor xml:lang="en">Jian Guan</dc:contributor>
         <dc:contributor>Mathias Brochhausen</dc:contributor>
         <dc:creator>Marcy Harris</dc:creator>
         <dc:creator>Jie Zheng</dc:creator>
+        <dc:contributor>Jihad Obeid</dc:contributor>
         <dc:contributor>Chris Stoeckert</dc:contributor>
-        <dc:creator>Helena Ellis</dc:creator>
-        <dc:creator>Jonathan Bona</dc:creator>
-        <dc:date xml:lang="en">2018-02-28</dc:date>
-        <dc:creator>Jihad Obeid</dc:creator>
+        <dc:date xml:lang="en">2018-03-01</dc:date>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.100</owl:versionInfo>
+        <dc:contributor>Helena Ellis</dc:contributor>
+        <dc:contributor xml:lang="en">Neil Otte</dc:contributor>
         <dc:description>The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.</dc:description>
+        <dc:creator>Alla Karnovsky</dc:creator>
         <dc:contributor>Anna Maria Masci</dc:contributor>
-        <dc:creator>Alla Karnovsky (AK)</dc:creator>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.99</owl:versionInfo>
-        <dc:creator xml:lang="en">Christoph Brochhausen</dc:creator>
-        <dc:creator xml:lang="en">Cui Tao</dc:creator>
-        <dc:creator xml:lang="en">Elizabeth Eisenhauer</dc:creator>
         <dc:creator>Frank Manion</dc:creator>
-        <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
-        <dc:creator>Asiyah Yu Lin (YL)</dc:creator>
-        <dc:creator xml:lang="en">Jian Guan</dc:creator>
-        <dc:creator xml:lang="en">William Duncan</dc:creator>
+        <dc:creator>Asiyah Yu Lin</dc:creator>
+        <dc:creator xml:lang="en">Elizabeth Eisenhauer</dc:creator>
+        <dc:contributor xml:lang="en">William Duncan</dc:contributor>
+        <dc:creator>Yongqun &quot;Oliver&quot; He</dc:creator>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <owl:imports rdf:resource="&obo;obi.owl"/>
         <owl:imports rdf:resource="&obo;bfo/2.0/bfo.owl"/>
@@ -617,12 +618,6 @@
         <rdfs:subClassOf rdf:resource="&obo;IAO_0021002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000063"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000120"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000015"/>
             </owl:Restriction>
@@ -631,6 +626,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000810"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000063"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000120"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Signing here does not mean that we have to sign with a pen. It may happen in terms of signing a piece of a paper or an electronic form.</rdfs:comment>
@@ -1008,9 +1009,14 @@
     <owl:Class rdf:about="&obo;ICO_0000035">
         <rdfs:label xml:lang="en">date specification in informed consent form</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000116 xml:lang="en">5/7/2014 Asiyah Yu Lin: It is the date specification that appears on the informed consent form, which is may different with the actual date.</obo:IAO_0000116>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
-        <dc:creator>Yongqun He</dc:creator>
+        <dc:creator>YH, YL, NO</dc:creator>
         <obo:IAO_0000115 xml:lang="en">a data item that indicates a date that specified on an informed consent form</obo:IAO_0000115>
     </owl:Class>
     
@@ -1031,10 +1037,10 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000037 -->
 
     <owl:Class rdf:about="&obo;ICO_0000037">
-        <rdfs:label xml:lang="en">project effective date specified in informed consent form</rdfs:label>
+        <rdfs:label xml:lang="en">project duration specification in informed consent form</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000035"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000115>a date that specifies an effective date of an  investigation project in an  informed consen form. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH, NO</obo:IAO_0000117>
+        <obo:IAO_0000115>a date that specifies a project duration date in an informed consen form.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1042,7 +1048,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000038 -->
 
     <owl:Class rdf:about="&obo;ICO_0000038">
-        <rdfs:label xml:lang="en">project starting date specified in informed consent form</rdfs:label>
+        <rdfs:label xml:lang="en">project starting date specification in informed consent form</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000035"/>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000115>a date that specifies a starting date of an investigation project shown in an informed consent form. </obo:IAO_0000115>
@@ -1053,7 +1059,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000039 -->
 
     <owl:Class rdf:about="&obo;ICO_0000039">
-        <rdfs:label xml:lang="en">project ending date specified in informed consent form</rdfs:label>
+        <rdfs:label xml:lang="en">project ending date specification in informed consent form</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000035"/>
         <obo:IAO_0000115>a date that specifies a starting date of an investigation project shown in an informed consent form. </obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
@@ -1145,7 +1151,7 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <obo:IAO_0000119 xml:lang="en">NCIt C41192</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">The alternative term of &apos;permission&apos; has semantic similarity with authorization in the sense of &apos;approval to do something&apos; and &apos;the act of giving a formal (usualy written) authorization. The semnatic similarity measuremment of permission and authorization is done using WordNet::Similarity (http://marimba.d.umn.edu/cgi-bin/similarity/).</obo:IAO_0000116>
-        <obo:IAO_0000115 xml:lang="en">The process of makeing the decision of the competent authorities in form of a letter, document, or verbal or electronic form, that confirms that somebody has permission to do something or be somewhere, e.g. to realize a given project.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The process of making the decision of the competent authorities in form of a letter, document, or verbal or electronic form, that confirms that somebody has permission to do something or be somewhere, e.g. to realize a given project.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">permission</obo:IAO_0000118>
     </owl:Class>
@@ -1627,14 +1633,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000810"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000143"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000082"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000082"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000143"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>http://www.hopkinsmedicine.org/institutional_review_board/guidelines_policies/guidelines/informed_consent_i.html</obo:IAO_0000119>
@@ -1659,6 +1665,12 @@
     <owl:Class rdf:about="&obo;ICO_0000086">
         <rdfs:label xml:lang="en">consenter role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000156"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <dc:creator xml:lang="en">YL</dc:creator>
         <obo:IAO_0000115 xml:lang="en">a role that inheres in a patient or the legal guadian when he/she participates the consenting process.</obo:IAO_0000115>
     </owl:Class>
@@ -1779,20 +1791,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000121"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000810"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000134"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000133"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000117"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1804,19 +1810,25 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000135"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000810"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000134"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000117"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000121"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000133"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000135"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
@@ -2026,11 +2038,11 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ICO_0000114 -->
 
     <owl:Class rdf:about="&obo;ICO_0000114">
-        <rdfs:label xml:lang="en">anonymised genomic data</rdfs:label>
+        <rdfs:label xml:lang="en">anonymized genomic data</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000113"/>
-        <obo:IAO_0000116 xml:lang="en">Anonymised data and samples are initially single or double coded but the link between the subjects identifiers and the unique code(s) are subsequently deleted. Once the link has been deleted it is no longer possible to trace the data and samples back to the individual through the coding key(s). Anonymisation is intended to prevent subject re-identification. As anonymised samples and associated data are not traceable back to the subject it is not possible to undertake actions such as sample withdrawal, or the return of individual results. The use of anonymised data and samples does not allow for clinical monitoring, subject follow-up or the addition of new data. The deletion of the coding key(s) linking the data and samples to the subjects identifiers provides additional confidentiality and privacy protection over coded data and samples, as it prevents subject re-identification through the use of the coding key(s) (ICH).</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">anonoymised data that is about genomic sample</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Anonymized data and samples are initially single or double coded but the link between the subjects identifiers and the unique code(s) are subsequently deleted. Once the link has been deleted it is no longer possible to trace the data and samples back to the individual through the coding key(s). Anonymisation is intended to prevent subject re-identification. As anonymised samples and associated data are not traceable back to the subject it is not possible to undertake actions such as sample withdrawal, or the return of individual results. The use of anonymised data and samples does not allow for clinical monitoring, subject follow-up or the addition of new data. The deletion of the coding key(s) linking the data and samples to the subjects identifiers provides additional confidentiality and privacy protection over coded data and samples, as it prevents subject re-identification through the use of the coding key(s) (ICH).</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">YL, YH, NO</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">anonoymized data that is about genomic sample</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -2112,9 +2124,9 @@ Individually identifiable health information includes many common identifiers (e
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117 xml:lang="en">YL, EE, MH, YH, AK</obo:IAO_0000117>
         <obo:IAO_0000118>storage of signed informed consent form</obo:IAO_0000118>
         <obo:IAO_0000116 xml:lang="en">We can put this axiom: inform... &apos;is located in&apos; some &apos;archive reposigtory of signed informed consent&apos;</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">YL, EE, MH, YH, AK</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">a planned process that collect a signed  informed consent form. During this process, the information is systematically kept in a repository.</obo:IAO_0000115>
     </owl:Class>
     
@@ -2378,14 +2390,14 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="&obo;ICO_0000155"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002092"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000084"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000082"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000082"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002092"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000084"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.hhs.gov/ohrp/regulations-and-policy/regulations/45-cfr-46/index.html#46.408</obo:IAO_0000119>
@@ -2534,9 +2546,9 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ICO_0000154 -->
 
     <owl:Class rdf:about="&obo;ICO_0000154">
-        <rdfs:label xml:lang="en">explanation to participant candidate in informed consent process</rdfs:label>
+        <rdfs:label xml:lang="en">explaining to participant candidate in informed consent process</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
-        <obo:IAO_0000119>YH</obo:IAO_0000119>
+        <obo:IAO_0000117>YH, Neil Otte</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -2723,6 +2735,23 @@ Individually identifiable health information includes many common identifiers (e
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000169 -->
+
+    <owl:Class rdf:about="&obo;ICO_0000169">
+        <rdfs:label xml:lang="en">assenter role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000143"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator xml:lang="en">YH, NO</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">a role that inheres in a human subject who participates in an assending process.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ICO_0000170 -->
 
     <owl:Class rdf:about="&obo;ICO_0000170">
@@ -2756,8 +2785,9 @@ Individually identifiable health information includes many common identifiers (e
                 <owl:someValuesFrom rdf:resource="&obo;ICO_0000064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>YL, YH, JZ</obo:IAO_0000117>
-        <obo:IAO_0000115>a textual entity that answers a question with an option.</obo:IAO_0000115>
+        <obo:IAO_0000232>Neil and Oliver discussion note: This term is not clear. It may be labeled in another way like &apos;filled multiple choice text entity&apos;. Needs re-investigation later.</obo:IAO_0000232>
+        <obo:IAO_0000117>YL, YH, JZ, NO</obo:IAO_0000117>
+        <obo:IAO_0000115>a textual entity that provides an option of an answer for a person to select.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -2973,6 +3003,12 @@ Individually identifiable health information includes many common identifiers (e
     <rdf:Description rdf:about="&obo;OBI_0000810">
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000057"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
@@ -2980,12 +3016,6 @@ Individually identifiable health information includes many common identifiers (e
                         <owl:someValuesFrom rdf:resource="&obo;ICO_0000086"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;ICO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
@@ -3055,18 +3085,18 @@ Individually identifiable health information includes many common identifiers (e
     <rdf:Description rdf:about="&obo;OBI_1110055">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000121"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&dc;title">
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;NCBITaxon_9443">
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000792">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+    <rdf:Description rdf:about="&dc;title">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000671">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000002"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000792">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000678">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
@@ -3089,12 +3119,12 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000319">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_1110041">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000319">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0100026">
@@ -3109,19 +3139,19 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0600004">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000681">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0600005">
+    <rdf:Description rdf:about="&obo;OBI_0600004">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000680">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0600005">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&dc;format">
@@ -3130,12 +3160,12 @@ Individually identifiable health information includes many common identifiers (e
     <rdf:Description rdf:about="&Thesaurus;C70958">
         <obo:ICO_0000091>C2348583</obo:ICO_0000091>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000444">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000686">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000444">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000684">
@@ -3168,15 +3198,15 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000338">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    <rdf:Description rdf:about="&obo;BFO_0000006">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000127">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000006">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    <rdf:Description rdf:about="&obo;OBI_0000338">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000007">
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
@@ -3184,28 +3214,28 @@ Individually identifiable health information includes many common identifiers (e
     <rdf:Description rdf:about="&obo;BFO_0000125">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000456">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    <rdf:Description rdf:about="&obo;BFO_0000005">
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000126">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000005">
+    <rdf:Description rdf:about="&obo;OBI_0000456">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000602">
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000453">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000008">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000129">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000453">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000009">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -3217,12 +3247,12 @@ Individually identifiable health information includes many common identifiers (e
     <rdf:Description rdf:about="&obo;IAO_0000600">
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000601">
-        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0666667">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;IAO_0000601">
+        <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000112">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -3237,11 +3267,11 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000111">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000218">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000111">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0666666">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
@@ -3305,13 +3335,13 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;PATO_0001237">
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000873">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;PATO_0001237">
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0001285">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
@@ -3364,12 +3394,12 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0001173">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000643">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0001173">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;CL_0000000">
         <obo:IAO_0000412 rdf:resource="&obo;cl.owl"/>
@@ -3413,11 +3443,11 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;PATO_0000011">
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0200172">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;PATO_0000011">
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0200171">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
@@ -3474,15 +3504,15 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000187">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000066">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000112">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="&obo;iao.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000187">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000067">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -3513,23 +3543,23 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000151">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000272">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000151">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OGMS_0000022">
         <obo:IAO_0000412 rdf:resource="&obo;ogms.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000832">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;NCBITaxon_10239">
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000832">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000950">
@@ -3547,12 +3577,12 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000174">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000053">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000174">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000104">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
@@ -3565,15 +3595,15 @@ Individually identifiable health information includes many common identifiers (e
     <rdf:Description rdf:about="&obo;BFO_0000172">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000052">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000173">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000838">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000052">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000178">
@@ -3583,15 +3613,12 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000176">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000055">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;IAO_0000102">
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    <rdf:Description rdf:about="&obo;BFO_0000176">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000056">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -3599,6 +3626,9 @@ Individually identifiable health information includes many common identifiers (e
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000834">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;IAO_0000102">
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000177">
@@ -3695,14 +3725,14 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000848">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000572">
         <obo:ICO_0000093 xml:lang="en">11609</obo:ICO_0000093>
         <obo:ICO_0000091 xml:lang="en">C1548385</obo:ICO_0000091>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000848">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000968">
@@ -3722,12 +3752,12 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0001938">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000082">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0001938">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_1110116">
@@ -3759,12 +3789,12 @@ Individually identifiable health information includes many common identifiers (e
     <rdf:Description rdf:about="&obo;OBI_0500001">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0500000">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000971">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0500000">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0001143">
@@ -3774,12 +3804,12 @@ Individually identifiable health information includes many common identifiers (e
     <rdf:Description rdf:about="&obo;PATO_0000047">
         <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000859">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000079">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000859">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000977">
@@ -3837,11 +3867,11 @@ Individually identifiable health information includes many common identifiers (e
     <rdf:Description rdf:about="&obo;BFO_0000024">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0200000">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000145">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0200000">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000902">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
@@ -3872,20 +3902,20 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_1000049">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0600036">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0600038">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+    <rdf:Description rdf:about="&obo;OBI_1000049">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000471">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0600038">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0010000">
@@ -3895,19 +3925,19 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000028">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0500027">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0302716">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    <rdf:Description rdf:about="&obo;BFO_0000028">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0500026">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0302716">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000026">
@@ -3919,11 +3949,11 @@ Individually identifiable health information includes many common identifiers (e
     <rdf:Description rdf:about="&obo;BFO_0000148">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000027">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000115">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000027">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_9991118">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
@@ -3939,15 +3969,11 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000915">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;CHEBI_33697">
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000914">
+    <rdf:Description rdf:about="&obo;OBI_0000915">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
@@ -3955,14 +3981,18 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000412 rdf:resource="&obo;chebi.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000914">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000144">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000132">
+    <rdf:Description rdf:about="&obo;BFO_0000011">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000011">
+    <rdf:Description rdf:about="&obo;BFO_0000132">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000133">
@@ -4009,12 +4039,12 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000163">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0100017">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000163">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000164">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -4023,12 +4053,12 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000806">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    <rdf:Description rdf:about="&obo;OBI_0000927">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000927">
+    <rdf:Description rdf:about="&obo;OBI_0000806">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
@@ -4055,12 +4085,12 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000166">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000922">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000166">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000160">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
@@ -4076,16 +4106,16 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000370">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;NCBITaxon_2">
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0001468">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000370">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000932">
@@ -4109,12 +4139,12 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000378">
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000257">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;OBI_0000378">
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000009">
@@ -4131,23 +4161,23 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000153">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+    </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000005">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000153">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000007">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000030">
+    <rdf:Description rdf:about="&obo;BFO_0000151">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000151">
+    <rdf:Description rdf:about="&obo;BFO_0000030">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000156">
@@ -4166,12 +4196,12 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000155">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;IAO_0000003">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000155">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000140">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
@@ -4186,22 +4216,22 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;BFO_0000158">
-        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0000941">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;BFO_0000158">
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;BFO_0000159">
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="&obo;PATO_0001985">
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="&obo;UO_0000003">
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;uo.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&obo;PATO_0001985">
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="&obo;OBI_0001472">
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
