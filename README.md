@@ -29,6 +29,8 @@ Note that the source ontology is an OWL file.
 
 * Ontology of Informed Consent workshop on February 26-27, 2018, at Little Rock: [http://ncorwiki.buffalo.edu/index.php/Ontology_of_Informed_Consent:_An_Approach_to_Specimen_and_Data_Sharing](http://ncorwiki.buffalo.edu/index.php/Ontology_of_Informed_Consent:_An_Approach_to_Specimen_and_Data_Sharing)
 
+* [https://github.com/ICO-ontology/ICO/blob/master/docs/ICO_introduction.pdf] (ICO introduction presentation) (by Oliver He) in the above workshop.  
+
 #### Publication:
 Lin Y, Harris MR, Manion FJ, Eisenhauer E, Zhao B, Shi W, Karnovsky A, He Y: Development of a BFO-based Informed Consent Ontology (ICO). In: The 5th International Conference on Biomedical Ontologies (ICBO): 2014; Houston, Texas, USA, October 8-9, 2014. CEUR Workshop Proceedings; 2013: Page 84-86. [http://ceur-ws.org/Vol-1327/icbo2014_paper_54.pdf] 
 
