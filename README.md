@@ -10,6 +10,7 @@ As part of the consenting process in human subjects research, potential particip
 
 * ICO discussion notes: https://docs.google.com/document/d/1j5HHtnm2nZn89O-EM1wsGjFTcoVMS_Ew8s4Z1uhfHsI/edit?usp=sharing 
 
+
 #### Download
 
 Use the following URI to download this ontology
@@ -23,6 +24,10 @@ Note that the source ontology is an OWL file.
 
 * Default browsing in Ontobee: [http://www.ontobee.org/ontology/ico](http://www.ontobee.org/ontology/ico)
 * Browsing in NCBO BioPortal: [https://bioportal.bioontology.org/ontologies/ICO](https://bioportal.bioontology.org/ontologies/ICO)
+
+#### News:
+
+* Ontology of Informed Consent workshop on February 26-27, 2018, at Little Rock: [http://ncorwiki.buffalo.edu/index.php/Ontology_of_Informed_Consent:_An_Approach_to_Specimen_and_Data_Sharing](http://ncorwiki.buffalo.edu/index.php/Ontology_of_Informed_Consent:_An_Approach_to_Specimen_and_Data_Sharing)
 
 #### Publication:
 Lin Y, Harris MR, Manion FJ, Eisenhauer E, Zhao B, Shi W, Karnovsky A, He Y: Development of a BFO-based Informed Consent Ontology (ICO). In: The 5th International Conference on Biomedical Ontologies (ICBO): 2014; Houston, Texas, USA, October 8-9, 2014. CEUR Workshop Proceedings; 2013: Page 84-86. [http://ceur-ws.org/Vol-1327/icbo2014_paper_54.pdf] 
