@@ -4,6 +4,8 @@ Informed Consent Ontology (ICO) represents the documentations and processes invo
 
 As part of the consenting process in human subjects research, potential participants receive information about the purpose of the study, potential risks and benefits of participation, their rights, and the procedures to be undergone as part of the study. If the individual decides to participate, an informed consent document is signed and preserved as a record of voluntary participation in the research study. Following the OBO Foundry principles and aligned with the Basic Formal Ontology (BFO), the ICO logically represents the terms and their relations related to the informed consent process and content. ICO covers various topics related to informed consent, for example, informed consent forms, the components inside informed consent forms, and various informed consent processes.
 
+The following ([ICO introduction presentation](https://github.com/ICO-ontology/ICO/blob/master/docs/ICO_introduction.pdf)), presented by Oliver He during the [2018 Ontology of Informed Consent workshop](http://ncorwiki.buffalo.edu/index.php/Ontology_of_Informed_Consent:_An_Approach_to_Specimen_and_Data_Sharing) on February 26-27, 2018, at Little Rock, briefly introduces the collaborative ICO development background. 
+
 #### Relevant ICO websites: 
 
 * Home: [https://github.com/ICO-ontology/ICO](https://github.com/ICO-ontology/ICO)
@@ -26,12 +28,6 @@ Note that the source ontology is an OWL file.
 
 * Default browsing in Ontobee: [http://www.ontobee.org/ontology/ico](http://www.ontobee.org/ontology/ico)
 * Browsing in NCBO BioPortal: [https://bioportal.bioontology.org/ontologies/ICO](https://bioportal.bioontology.org/ontologies/ICO)
-
-#### News:
-
-* Ontology of Informed Consent workshop on February 26-27, 2018, at Little Rock: [http://ncorwiki.buffalo.edu/index.php/Ontology_of_Informed_Consent:_An_Approach_to_Specimen_and_Data_Sharing](http://ncorwiki.buffalo.edu/index.php/Ontology_of_Informed_Consent:_An_Approach_to_Specimen_and_Data_Sharing)
-
-* [ICO introduction presentation](https://github.com/ICO-ontology/ICO/blob/master/docs/ICO_introduction.pdf) (by Oliver He) in the above workshop.  
 
 #### Publication:
 Lin Y, Harris MR, Manion FJ, Eisenhauer E, Zhao B, Shi W, Karnovsky A, He Y: Development of a BFO-based Informed Consent Ontology (ICO). In: The 5th International Conference on Biomedical Ontologies (ICBO): 2014; Houston, Texas, USA, October 8-9, 2014. CEUR Workshop Proceedings; 2013: Page 84-86. [http://ceur-ws.org/Vol-1327/icbo2014_paper_54.pdf] 
