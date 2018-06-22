@@ -1,0 +1,1529 @@
+@prefix : <http://purl.obolibrary.org/obo/ico.owl/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix protege: <http://protege.stanford.edu/plugins/owl/protege#> .
+@prefix subsets: <http://purl.obolibrary.org/obo/ro/subsets#> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix Thesaurus: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+@base <http://purl.obolibrary.org/obo/ico.owl> .
+
+<http://purl.obolibrary.org/obo/ico.owl> rdf:type owl:Ontology ;
+                                          dc:contributor "Mathias Brochhausen" ;
+                                          dc:creator "Alla Karnovsky" ;
+                                          dc:contributor "William Duncan"@en ,
+                                                         "Jian Guan"@en ,
+                                                         "Anna Maria Masci" ,
+                                                         "Jonathan Bona" ;
+                                          dc:creator "Jie Zheng" ;
+                                          dc:contributor "Cui Tao"@en ;
+                                          owl:versionInfo "Arbor version; 1.0.100"@en ;
+                                          dc:contributor "Jihad Obeid" ,
+                                                         "Helena Ellis" ;
+                                          dc:license <http://creativecommons.org/licenses/by/3.0/> ;
+                                          dc:creator "Asiyah Yu Lin" ,
+                                                     "Christoph Brochhausen"@en ;
+                                          dc:contributor "Chris Stoeckert" ;
+                                          dc:creator "Marcy Harris" ,
+                                                     "Yongqun \"Oliver\" He" ,
+                                                     "Cooper Stansbury"@en ;
+                                          dc:description "The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field." ;
+                                          rdfs:comment "Terms were identified from a sample of informed consent templates, and definitions were selected based on concordance between the defintion and the use of the term in the source informed consent template document.  We preferentially selected defintioins from the NCI thesuarus." ;
+                                          rdfs:seeAlso <https://github.com/ICO-ontology/ICO> ;
+                                          dc:creator "J. Neil Otte x"@en ;
+                                          dc:date "2018-03-22"@en ;
+                                          dc:creator "Elizabeth Eisenhauer"@en ,
+                                                     "Frank Manion" ,
+                                                     "Jonathan Vadja"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.obolibrary.org/obo/ICO_0000091
+obo:ICO_0000091 rdf:type owl:AnnotationProperty ;
+                rdfs:label "term_mapping_to_UMLS"@en ;
+                rdfs:subPropertyOf rdfs:seeAlso .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000092
+obo:ICO_0000092 rdf:type owl:AnnotationProperty ;
+                rdfs:label "term_mapping_to_NCIT"@en ;
+                rdfs:subPropertyOf rdfs:seeAlso .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000093
+obo:ICO_0000093 rdf:type owl:AnnotationProperty ;
+                rdfs:label "term_mapping_to_HL7v3"@en ;
+                rdfs:subPropertyOf rdfs:seeAlso .
+
+
+###  http://purl.org/dc/elements/1.1/contributor
+dc:contributor rdfs:isDefinedBy dc: .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+dc:creator rdf:type owl:AnnotationProperty ;
+           rdfs:isDefinedBy dc: .
+
+
+###  http://purl.org/dc/elements/1.1/date
+dc:date rdfs:isDefinedBy dc: .
+
+
+###  http://purl.org/dc/elements/1.1/description
+dc:description rdfs:isDefinedBy dc: .
+
+
+###  http://purl.org/dc/elements/1.1/license
+dc:license rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.obolibrary.org/obo/ICO_0000067
+obo:ICO_0000067 rdf:type owl:ObjectProperty ;
+                rdfs:label "form signed by"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000130
+obo:ICO_0000130 rdf:type owl:ObjectProperty ;
+                rdfs:domain obo:ICO_0000001 ;
+                rdfs:range obo:ICO_0000111 ;
+                dc:creator "EE, YH, YL, AK, MH" ,
+                           "a relation that links an informed consent form to an associated IRB number" ;
+                rdfs:label "is associated with review board approval number" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000132
+obo:ICO_0000132 rdf:type owl:ObjectProperty ;
+                dc:creator "YH, EE, YL, AK, MH" ;
+                rdfs:label "is assigned by organization" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/ICO_0000001
+obo:ICO_0000001 rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty obo:ICO_0000130 ;
+                                  owl:someValuesFrom obo:ICO_0000111
+                                ] ;
+                obo:ICO_0000091 "C0009797 "@en ;
+                obo:ICO_0000092 "C16468 "@en ;
+                rdfs:label "informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000002
+obo:ICO_0000002 rdf:type owl:Class ;
+                rdfs:label "designing an informec consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000003
+obo:ICO_0000003 rdf:type owl:Class ;
+                rdfs:label "validating an informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000004
+obo:ICO_0000004 rdf:type owl:Class ;
+                rdfs:label "approving an informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000005
+obo:ICO_0000005 rdf:type owl:Class ;
+                rdfs:comment "Signing here does not mean that we have to sign with a pen. It may happen in terms of signing a piece of a paper or an electronic form." ;
+                rdfs:label "signing an informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000006
+obo:ICO_0000006 rdf:type owl:Class ;
+                rdfs:label "informed consent regulatory body" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000007
+obo:ICO_0000007 rdf:type owl:Class ;
+                rdfs:label "part of informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000008
+obo:ICO_0000008 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000007 ;
+                rdfs:label "description of risk in informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000009
+obo:ICO_0000009 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000007 ;
+                rdfs:label "specification of recontact method in informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000010
+obo:ICO_0000010 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000007 ;
+                rdfs:label "option to check in informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000011
+obo:ICO_0000011 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000007 ;
+                rdfs:label "required informed consent element" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000012
+obo:ICO_0000012 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000007 ;
+                rdfs:label "optional informed consent element" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000013
+obo:ICO_0000013 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000001 ;
+                rdfs:label "informed consent form for human biospecimen collection" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000014
+obo:ICO_0000014 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000013 ;
+                rdfs:label "informed consent form for human blood sample collection" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000015
+obo:ICO_0000015 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000001 ;
+                rdfs:label "signed informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000016
+obo:ICO_0000016 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000007 ;
+                rdfs:label "allowed research scope in informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000017
+obo:ICO_0000017 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000015 ;
+                rdfs:label "fully signed informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000018
+obo:ICO_0000018 rdf:type owl:Class ;
+                owl:equivalentClass [ owl:intersectionOf ( obo:ICO_0000015
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty obo:ICO_0000067 ;
+                                                             owl:someValuesFrom obo:ICO_0000040
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] ;
+                rdfs:subClassOf obo:ICO_0000015 ;
+                rdfs:label "informed consent form signed by human subject" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000019
+obo:ICO_0000019 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000007 ;
+                rdfs:label "signature section in informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000020
+obo:ICO_0000020 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000019 ;
+                rdfs:label "human subject signature section in informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000021
+obo:ICO_0000021 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000019 ;
+                rdfs:label "investigator signature section in informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000022
+obo:ICO_0000022 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000007 ;
+                rdfs:label "date specification in informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000023
+obo:ICO_0000023 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000001 ;
+                rdfs:label "completely filled informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000024
+obo:ICO_0000024 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000001 ;
+                rdfs:label "partially filled informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000025
+obo:ICO_0000025 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000022 ;
+                rdfs:label "effective date specification in informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000026
+obo:ICO_0000026 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000022 ;
+                rdfs:label "expiration date specification in informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000027
+obo:ICO_0000027 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000022 ;
+                rdfs:label "starting date specification in informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000028
+obo:ICO_0000028 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000007 ;
+                rdfs:label "part of informed consent form for human blood sample collection" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000029
+obo:ICO_0000029 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000001 ;
+                rdfs:label "informed consent form for clinical study"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000030
+obo:ICO_0000030 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000001 ;
+                rdfs:label "informed consent form for storage and future use of unused samples"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000031
+obo:ICO_0000031 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000001 ;
+                rdfs:label "informed consent form for qualitative study"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000032
+obo:ICO_0000032 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000085 ;
+                rdfs:label "informed assent form for child or minor"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000033
+obo:ICO_0000033 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000031 ;
+                rdfs:label "informed parental consent form for qualitative research involving children"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000034
+obo:ICO_0000034 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000029 ;
+                rdfs:label "'informed parental consent form for clinical research involving children'"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000035
+obo:ICO_0000035 rdf:type owl:Class ;
+                dc:creator "YH, YL, NO" ;
+                rdfs:label "date specification in informed consent form"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000036
+obo:ICO_0000036 rdf:type owl:Class ;
+                rdfs:label "informed consent form signing date"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000037
+obo:ICO_0000037 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000035 ;
+                rdfs:label "project duration specification in informed consent form"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000038
+obo:ICO_0000038 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000035 ;
+                rdfs:label "project starting date specification in informed consent form"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000039
+obo:ICO_0000039 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000035 ;
+                rdfs:label "project ending date specification in informed consent form"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000040
+obo:ICO_0000040 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000073 ;
+                rdfs:label "human subject consenter"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000041
+obo:ICO_0000041 rdf:type owl:Class ;
+                rdfs:label "informed consent rule specification"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000042
+obo:ICO_0000042 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000041 ;
+                rdfs:label "obligation informed consent rule specification"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000043
+obo:ICO_0000043 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000041 ;
+                rdfs:label "permission informed consent rule specification"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000044
+obo:ICO_0000044 rdf:type owl:Class ;
+                rdfs:label "informed consent identification code"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000045
+obo:ICO_0000045 rdf:type owl:Class ;
+                rdfs:label "investigator"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000046
+obo:ICO_0000046 rdf:type owl:Class ;
+                rdfs:label "authorization" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000047
+obo:ICO_0000047 rdf:type owl:Class ;
+                rdfs:label "human population"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000048
+obo:ICO_0000048 rdf:type owl:Class ;
+                rdfs:label "nonprofit organization"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000049
+obo:ICO_0000049 rdf:type owl:Class ;
+                rdfs:label "profit organization"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000050
+obo:ICO_0000050 rdf:type owl:Class ;
+                rdfs:label "animal research investigation"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000051
+obo:ICO_0000051 rdf:type owl:Class ;
+                rdfs:label "cancer research investigation"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000052
+obo:ICO_0000052 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000051 ;
+                rdfs:label "metastatic melanoma research investigation"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000053
+obo:ICO_0000053 rdf:type owl:Class ;
+                rdfs:label "drug testing research investigation"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000054
+obo:ICO_0000054 rdf:type owl:Class ;
+                rdfs:label "human research investigation"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000055
+obo:ICO_0000055 rdf:type owl:Class ;
+                rdfs:label "genetic study"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000056
+obo:ICO_0000056 rdf:type owl:Class ;
+                rdfs:label "nonprofit research investigation"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000057
+obo:ICO_0000057 rdf:type owl:Class ;
+                rdfs:label "profit research investigation"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000058
+obo:ICO_0000058 rdf:type owl:Class ;
+                rdfs:label "informed consented study period"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000059
+obo:ICO_0000059 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000041 ;
+                rdfs:label "ethics rule specification in informed consent" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000060
+obo:ICO_0000060 rdf:type owl:Class ;
+                rdfs:label "storing a specimen"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000061
+obo:ICO_0000061 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000001 ;
+                rdfs:label "informed consent form for genetic study" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000062
+obo:ICO_0000062 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000073 ;
+                rdfs:label "human subject unable to give informed consent"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000063
+obo:ICO_0000063 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000001 ;
+                dc:creator "MRH"@en ;
+                rdfs:label "informed consent form for quantitative study"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000064
+obo:ICO_0000064 rdf:type owl:Class ;
+                rdfs:label "study requiring informed consent"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000065
+obo:ICO_0000065 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000064 ;
+                rdfs:label "clinical trial study"@en ;
+                rdfs:seeAlso "UMLS: C0008976" ,
+                             "a study that is a clinical trial that requires an informed consent process. Based on NCI/PT, a clinical trial is a type of research study that tests how well new medical approaches work in people. These studies test new methods of screening, prevention, diagnosis, or treatment of a disease." .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000066
+obo:ICO_0000066 rdf:type owl:Class ;
+                rdfs:label "title of a clinical trial study"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000068
+obo:ICO_0000068 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000041 ;
+                rdfs:label "general requirement for informed consent" ;
+                rdfs:seeAlso "§46.116 General requirements for informed consent" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000069
+obo:ICO_0000069 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000072 ;
+                rdfs:label "contact person for questions about research" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000070
+obo:ICO_0000070 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000072 ;
+                rdfs:label "contact person for questions about research subject rights" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000071
+obo:ICO_0000071 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000072 ;
+                rdfs:label "contact person in the event of a research-related injury to the subject" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000072
+obo:ICO_0000072 rdf:type owl:Class ;
+                rdfs:label "contact person in informed consent process" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000073
+obo:ICO_0000073 rdf:type owl:Class ;
+                obo:ICO_0000091 "C2349001" ;
+                obo:ICO_0000092 "C70665" ;
+                rdfs:label "human subject" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000074
+obo:ICO_0000074 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000046 ;
+                rdfs:label "authorization for release of confidential health information" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000075
+obo:ICO_0000075 rdf:type owl:Class ;
+                rdfs:label "authorization documentation" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000076
+obo:ICO_0000076 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000074 ;
+                rdfs:label "authorization for medical records release" ;
+                rdfs:seeAlso "UMLS CUI: C2921556"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000077
+obo:ICO_0000077 rdf:type owl:Class ;
+                obo:ICO_0000091 "C0814225" ;
+                obo:ICO_0000092 "C25387" ;
+                rdfs:comment "Note that a payment is not a benefit of a study." ;
+                rdfs:label "benefit" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000078
+obo:ICO_0000078 rdf:type owl:Class ;
+                obo:ICO_0000091 "C0035647" ;
+                obo:ICO_0000092 "C17102" ;
+                rdfs:label "risk" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000079
+obo:ICO_0000079 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000006 ;
+                obo:ICO_0000091 "C0086911" ;
+                rdfs:label "Institutional Review Board"@en ;
+                rdfs:seeAlso "http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C16741&ns=NCI_Thesaurus"^^xsd:anyURI .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000080
+obo:ICO_0000080 rdf:type owl:Class ;
+                dc:creator "YL" ;
+                rdfs:label "research assistant"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000081
+obo:ICO_0000081 rdf:type owl:Class ;
+                rdfs:label "legal guardian role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000082
+obo:ICO_0000082 rdf:type owl:Class ;
+                dc:creator "YL, YH" ;
+                rdfs:label "legal guardian"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000083
+obo:ICO_0000083 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000103 ;
+                rdfs:label "protected health information"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000084
+obo:ICO_0000084 rdf:type owl:Class ;
+                rdfs:label "informed consent process with assenting process"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000085
+obo:ICO_0000085 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000001 ;
+                rdfs:label "informed assent form"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000086
+obo:ICO_0000086 rdf:type owl:Class ;
+                dc:creator "YL"@en ;
+                rdfs:label "consenter role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000087
+obo:ICO_0000087 rdf:type owl:Class ;
+                rdfs:label "study duration"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000088
+obo:ICO_0000088 rdf:type owl:Class ;
+                rdfs:label "participation duration"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000089
+obo:ICO_0000089 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000088 ;
+                rdfs:label "actual duration of study subject participation"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000090
+obo:ICO_0000090 rdf:type owl:Class ;
+                rdfs:label "credential letter"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000094
+obo:ICO_0000094 rdf:type owl:Class ;
+                obo:ICO_0000092 "C16033"@en ;
+                rdfs:label "follow-up visit"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000095
+obo:ICO_0000095 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000078 ;
+                rdfs:label "minimal risk"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000096
+obo:ICO_0000096 rdf:type owl:Class ;
+                rdfs:label "alcohol abuse treatment record"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000097
+obo:ICO_0000097 rdf:type owl:Class ;
+                obo:ICO_0000091 "C2114499"@en ;
+                rdfs:label "mental health care record"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000098
+obo:ICO_0000098 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000154 ;
+                rdfs:label "explaining to participant candidate about the study participating information"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000099
+obo:ICO_0000099 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000013 ;
+                rdfs:label "informed consent form for human urine biospeciment collection" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000100
+obo:ICO_0000100 rdf:type owl:Class ;
+                rdfs:label "research-related injury"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000101
+obo:ICO_0000101 rdf:type owl:Class ;
+                rdfs:label "human subject personal identifiable information"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000102
+obo:ICO_0000102 rdf:type owl:Class ;
+                rdfs:label "information sharing process"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000103
+obo:ICO_0000103 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000101 ;
+                rdfs:label "individually identifiable health information"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000104
+obo:ICO_0000104 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000001 ;
+                rdfs:label "informed consent form containing questionnaire"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000105
+obo:ICO_0000105 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000154 ;
+                dc:creator "YL" ;
+                rdfs:label "explaining study purpose to participant candidate"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000106
+obo:ICO_0000106 rdf:type owl:Class ;
+                rdfs:label "legal name"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000107
+obo:ICO_0000107 rdf:type owl:Class ;
+                rdfs:label "study termination"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000108
+obo:ICO_0000108 rdf:type owl:Class ;
+                rdfs:label "subject withdrawal"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000109
+obo:ICO_0000109 rdf:type owl:Class ;
+                rdfs:label "canceling a permission"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000110
+obo:ICO_0000110 rdf:type owl:Class ;
+                rdfs:label "standard medical treatment"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000111
+obo:ICO_0000111 rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty obo:ICO_0000132 ;
+                                  owl:someValuesFrom obo:ICO_0000006
+                                ] ;
+                obo:ICO_0000091 "C2985863" ;
+                obo:ICO_0000092 "C93662" ;
+                rdfs:label "review board approval number"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000112
+obo:ICO_0000112 rdf:type owl:Class ;
+                rdfs:label "data administration"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000113
+obo:ICO_0000113 rdf:type owl:Class ;
+                rdfs:comment "Anonymized data is applicable particularly for secondary use of health data." ;
+                rdfs:label "anonymized data"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000114
+obo:ICO_0000114 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000113 ;
+                rdfs:label "anonymized genomic data"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000115
+obo:ICO_0000115 rdf:type owl:Class ;
+                rdfs:label "anonymized genomic sample"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000116
+obo:ICO_0000116 rdf:type owl:Class ;
+                rdfs:label "human subject data usage"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000117
+obo:ICO_0000117 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000154 ;
+                dc:creator "YL"@en ;
+                rdfs:label "explaining study protocol to participant candidate"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000118
+obo:ICO_0000118 rdf:type owl:Class ;
+                rdfs:label "repository of signed informed consent forms"@en ;
+                rdfs:seeAlso "UMLS: C0003738" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000119
+obo:ICO_0000119 rdf:type owl:Class ;
+                rdfs:label "storage duration of signed informed consent form"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000120
+obo:ICO_0000120 rdf:type owl:Class ;
+                rdfs:label "archiving signed informed consent form"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000121
+obo:ICO_0000121 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000154 ;
+                rdfs:label "explaining benefits of participantion to participant candidate"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000122
+obo:ICO_0000122 rdf:type owl:Class ;
+                dc:creator "EE, MH, AK, YH, YL" ;
+                rdfs:label "US federal policy for the protection of human subjects" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000123
+obo:ICO_0000123 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000120 ;
+                dc:creator "YH, EE, AK, MH" ;
+                rdfs:label "archiving signed paper informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000124
+obo:ICO_0000124 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000120 ;
+                dc:creator "YH, EE, AK, MH" ;
+                rdfs:label "archiving signed electronic informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000125
+obo:ICO_0000125 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000120 ;
+                dc:creator "YH, EE, AK, MH" ;
+                rdfs:label "archiving signed scanned paper informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000126
+obo:ICO_0000126 rdf:type owl:Class ;
+                rdfs:label "storage duration of signed informed consent form" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000127
+obo:ICO_0000127 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000088 ;
+                obo:ICO_0000091 "C2347527" ;
+                obo:ICO_0000092 "C70707" ;
+                rdfs:label "planned duration of study subject participation" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000128
+obo:ICO_0000128 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000154 ;
+                dc:creator "YL" ;
+                rdfs:label "explaining risks of participantion to participant candidate"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000129
+obo:ICO_0000129 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000013 ;
+                rdfs:label "informed consent form for human saliva sample collection" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000131
+obo:ICO_0000131 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000111 ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty obo:ICO_0000132 ;
+                                  owl:someValuesFrom obo:ICO_0000079
+                                ] ;
+                rdfs:label "IRB approval number" .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000133
+obo:ICO_0000133 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000154 ;
+                dc:creator "YL"@en ;
+                rdfs:label "explaining sample process and usage to participant candidate"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000134
+obo:ICO_0000134 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000154 ;
+                dc:creator "YL."@en ;
+                rdfs:label "explaining study derived data usage to participant candidate"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000135
+obo:ICO_0000135 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000154 ;
+                dc:creator "YL"@en ;
+                rdfs:label "explaining record confidentiality to participant candidate"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000136
+obo:ICO_0000136 rdf:type owl:Class ;
+                dc:creator "YL"@en ;
+                rdfs:label "participant candidate making voluntary decision of acceptance"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000137
+obo:ICO_0000137 rdf:type owl:Class ;
+                dc:creator "YL."@en ;
+                rdfs:label "assessment of participant candidate understanding"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000138
+obo:ICO_0000138 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000001 ;
+                rdfs:label "vaccination informed consent form"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000139
+obo:ICO_0000139 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000138 ;
+                rdfs:label "Walgreens vaccine informed consent form'"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000140
+obo:ICO_0000140 rdf:type owl:Class ;
+                rdfs:label "eligibility questionnaire"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000141
+obo:ICO_0000141 rdf:type owl:Class ;
+                rdfs:label "question textual entity"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000142
+obo:ICO_0000142 rdf:type owl:Class ;
+                rdfs:label "legally effective consenting"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000143
+obo:ICO_0000143 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000155 ;
+                rdfs:comment "According to the Common Rule, the IRB shall determine that adequate provisions are made for soliciting the assent of the children, when in the judgment of the IRB the children are capable of providing assent." ,
+                             "Specifically, \"assent\" is a term used to express willingness to participate in research by persons who are by definition too young to give informed consent but who are old enough to understand the proposed research in general, its expected risks and possible benefits, and the activities expected of them as subjects." ;
+                rdfs:label "assent process"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000144
+obo:ICO_0000144 rdf:type owl:Class ;
+                rdfs:label "legally effective consented participant role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000145
+obo:ICO_0000145 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000155 ;
+                rdfs:label "consenting to postmortem donation of specified anatomical entities"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000146
+obo:ICO_0000146 rdf:type owl:Class ;
+                rdfs:label "eligibility of candidate participation"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000147
+obo:ICO_0000147 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000146 ;
+                rdfs:label "candidate eligible for study role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000148
+obo:ICO_0000148 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000146 ;
+                rdfs:label "candidate ineligible for study role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000149
+obo:ICO_0000149 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000155 ;
+                dc:creator "YH, MB, OJ, FM" ;
+                rdfs:label "consenting to be contacted for future research"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000150
+obo:ICO_0000150 rdf:type owl:Class ;
+                rdfs:label "eligibility screeening"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000151
+obo:ICO_0000151 rdf:type owl:Class ;
+                dc:creator "Frank Manion, Oliver He"@en ;
+                rdfs:label "eligibility screening role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000152
+obo:ICO_0000152 rdf:type owl:Class ;
+                dc:creator "Frank Manion, Oliver He" ;
+                rdfs:label "eligibility screening person"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000153
+obo:ICO_0000153 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000149 ;
+                rdfs:label "consenting to be contacted for tissue research"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000154
+obo:ICO_0000154 rdf:type owl:Class ;
+                rdfs:label "explaining to participant candidate in informed consent process"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000155
+obo:ICO_0000155 rdf:type owl:Class ;
+                rdfs:label "informed consent process"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000156
+obo:ICO_0000156 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000155 ;
+                rdfs:comment "Note: The subject must be 18 years of age and competent to make the decision to participate." ;
+                rdfs:label "adult consent process"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000157
+obo:ICO_0000157 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000155 ;
+                rdfs:comment "Note: When a child or a minor is included in research, the parent/guardian must sign a parental permission consent document. Some situations require permission from at least one parent, while other situations require permission from both parents. In some cases, it may be necessary to waive the requirement to obtain parental permission. Refer to 45CFR46* subpart D for more information." ;
+                rdfs:label "consenting by a parent"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000158
+obo:ICO_0000158 rdf:type owl:Class ;
+                rdfs:label "denial to informed consent"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000159
+obo:ICO_0000159 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000155 ;
+                rdfs:label "verbal consenting"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000160
+obo:ICO_0000160 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000155 ;
+                rdfs:label "consenting in short form"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000161
+obo:ICO_0000161 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000155 ;
+                rdfs:label "consenting to collection of biological samples"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000162
+obo:ICO_0000162 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000161 ;
+                rdfs:label "consenting to tissue sample collection"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000163
+obo:ICO_0000163 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000161 ;
+                rdfs:label "consenting to blood sample collection"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000164
+obo:ICO_0000164 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000108 ;
+                rdfs:label "subject withdrawal with sample stored for unlimited time"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000165
+obo:ICO_0000165 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000108 ;
+                rdfs:label "subject withdrawal with sample stored for limited time"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000166
+obo:ICO_0000166 rdf:type owl:Class ;
+                rdfs:label "deontic role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000167
+obo:ICO_0000167 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000176 ;
+                rdfs:comment "Note: this term wll be transferred to d-acts. - CTSOG ontology workshop 2018 Little Rock" ;
+                rdfs:label "permittee deontic role in genetic research"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000168
+obo:ICO_0000168 rdf:type owl:Class ;
+                rdfs:comment """will add an equivalent class axiom 
+'has specified output' some 'permittee deontic role in genetic research'""" ;
+                rdfs:label "genetic research permission deontic declaration"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000169
+obo:ICO_0000169 rdf:type owl:Class ;
+                dc:creator "YH, NO"@en ;
+                rdfs:label "assenter role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000170
+obo:ICO_0000170 rdf:type owl:Class ;
+                rdfs:label "filled questionnaire"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000171
+obo:ICO_0000171 rdf:type owl:Class ;
+                rdfs:label "answer option text entity"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000172
+obo:ICO_0000172 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000171 ;
+                rdfs:label "yes answer text entity"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000173
+obo:ICO_0000173 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000171 ;
+                rdfs:label "no answer text entity"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000174
+obo:ICO_0000174 rdf:type owl:Class ;
+                rdfs:label "filling informed consent form"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000175
+obo:ICO_0000175 rdf:type owl:Class ;
+                rdfs:label "filling questionnaire"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000176
+obo:ICO_0000176 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000166 ;
+                rdfs:comment "Note: this term wll be transferred to d-acts. - CTSOG ontology workshop 2018 Little Rock" ;
+                rdfs:label "permittee deontic role"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000177
+obo:ICO_0000177 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000155 ;
+                dc:creator "Christoph Brochhausen, Oliver He" ;
+                rdfs:label "consenting to not to have financial benefit"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000178
+obo:ICO_0000178 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000155 ;
+                dc:creator "Christoph Brochhausen, Oliver He" ;
+                rdfs:label "consenting to not to be informed about incidental finding"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000179
+obo:ICO_0000179 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000155 ;
+                rdfs:label "broad consent process"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000180
+obo:ICO_0000180 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000179 ;
+                rdfs:label "process of providing broad consent for research with biological sample"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000181
+obo:ICO_0000181 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000155 ;
+                rdfs:label "consenting to the secondary use"@en .
+
+
+###  http://purl.obolibrary.org/obo/ICO_0000182
+obo:ICO_0000182 rdf:type owl:Class ;
+                rdfs:subClassOf obo:ICO_0000181 ;
+                rdfs:label "consenting to the secondary use of EHR"@en .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+Thesaurus:C70958 obo:ICO_0000091 "C2348583" .
+
+
+obo:BFO_0000001 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000002 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000004 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000006 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000008 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000009 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000011 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000015 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000017 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000018 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000019 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000024 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000026 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000027 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000028 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000030 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000031 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000034 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000035 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000040 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000052 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000053 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000055 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000056 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000058 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000059 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000066 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000067 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000070 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000079 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000080 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000081 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000082 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000084 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000085 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000086 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000101 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000107 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000108 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000110 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000111 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000112 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000113 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000115 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000117 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000118 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000119 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000121 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000123 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000124 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000125 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000126 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000127 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000129 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000130 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000132 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000133 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000136 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000137 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000138 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000139 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000140 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000141 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000142 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000144 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000145 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000146 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000147 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000148 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000151 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000152 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000153 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000154 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000155 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000156 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000157 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000158 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000159 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000160 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000161 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000162 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000163 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000164 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000165 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000166 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000167 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000168 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000169 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000170 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000171 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000172 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000173 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000174 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000175 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000176 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000177 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000178 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000181 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000182 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000184 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000185 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000186 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:BFO_0000187 rdfs:isDefinedBy obo:bfo.owl .
+
+
+obo:IAO_0000111 rdfs:isDefinedBy obo:iao.owl .
+
+
+obo:IAO_0000112 rdfs:isDefinedBy obo:iao.owl .
+
+
+obo:IAO_0000219 rdfs:comment [ ] ,
+[ ] ,
+[ ] ,
+[ ] ,
+[ ] ,
+[ ] ,
+[ ] ,
+[ ] ,
+[ ] ,
+[ ] .
+
+
+obo:IAO_0000572 obo:ICO_0000091 "C1548385"@en ;
+                obo:ICO_0000093 "11609"@en .
+
+
+obo:IAO_0000600 rdfs:isDefinedBy obo:iao.owl .
+
+
+obo:IAO_0000601 rdfs:isDefinedBy obo:iao.owl .
+
+
+obo:IAO_0000602 rdfs:isDefinedBy obo:iao.owl .
+
+
+obo:IAO_0010000 rdfs:isDefinedBy obo:iao.owl .
+
+
+obo:OGMS_0000018 obo:ICO_0000092 "C77140"@en ;
+                 obo:ICO_0000091 "C0456984"@en .
+
+
+dc:format rdfs:isDefinedBy dc: .
+
+
+dc:subject rdfs:isDefinedBy dc: .
+
+
+dc:title rdfs:isDefinedBy dc: .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
