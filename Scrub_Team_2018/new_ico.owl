@@ -1,25 +1,26 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/ico.owl#"
      xml:base="http://purl.obolibrary.org/obo/ico.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:ns4="http://purl.obolibrary.org/obo/"
+     xmlns:cito="http://purl.org/spar/cito/"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:oboInOwl1="ttp://www.geneontology.org/formats/oboInOwl#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ico.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/OAE_OntoFox_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/OGMS_OntoFox_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/external.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi/2018-05-23/obi.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/RO_OntoFox_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2018-03-27/ro.owl"/>
         <dc:contributor>Mathias Brochhausen</dc:contributor>
         <dc:creator>Alla Karnovsky</dc:creator>
         <dc:contributor xml:lang="en">William Duncan</dc:contributor>
@@ -56,6 +57,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
     
 
 
@@ -200,26 +207,26 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000054 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000054">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000054">
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
@@ -239,19 +246,19 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000413 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000413">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000413">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
@@ -289,46 +296,46 @@
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000312">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000312">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0000057">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057">
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0000087">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087">
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
@@ -475,65 +482,83 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000028"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000033 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000033">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000033">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000300 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000300">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000300">
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000310">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000310">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000314 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000314">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000314">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000416 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000416">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000416">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021002"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021005"/>
     
 
 
@@ -2932,76 +2957,76 @@ Individually identifiable health information includes many common identifiers (e
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000066 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000066">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000066">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000097 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000097">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000097">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000181">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000181">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000202 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000202">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000202">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000245">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000659 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000659">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000659">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000810 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000810">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000810">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
@@ -3020,34 +3045,40 @@ Individually identifiable health information includes many common identifiers (e
             </owl:Restriction>
         </rdfs:subClassOf>
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000953 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000953">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000953">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001051 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001051">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001051">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001622 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001622">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001622">
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -3062,9 +3093,15 @@ Individually identifiable health information includes many common identifiers (e
 
     <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090">
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465"/>
     
 
 
@@ -4165,8 +4202,8 @@ Individually identifiable health information includes many common identifiers (e
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000018">
         <ns4:IAO_0000118 xml:lang="en">test result</ns4:IAO_0000118>
-        <ns4:ICO_0000091 xml:lang="en">C0456984</ns4:ICO_0000091>
         <ns4:ICO_0000092 xml:lang="en">C77140</ns4:ICO_0000092>
+        <ns4:ICO_0000091 xml:lang="en">C0456984</ns4:ICO_0000091>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000022">
