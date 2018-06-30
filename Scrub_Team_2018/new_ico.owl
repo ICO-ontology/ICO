@@ -360,48 +360,6 @@
     
 
 
-    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15709 -->
-
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15709">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001051"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25191 -->
-
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25191"/>
-    
-
-
-    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25678 -->
-
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25678"/>
-    
-
-
-    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45258 -->
-
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45258">
-        <ns4:IAO_0000118 xml:lang="en">doctor&apos;s office records</ns4:IAO_0000118>
-        <ns4:IAO_0000118 xml:lang="en">hospital record</ns4:IAO_0000118>
-    </owl:Class>
-    
-
-
-    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C90492 -->
-
-    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C90492">
-        <ns4:IAO_0000232 xml:lang="en">Transformed from EE db: identify (251)</ns4:IAO_0000232>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
@@ -551,18 +509,6 @@
         <ns4:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0021002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021002"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0021005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021005"/>
     
 
 
@@ -744,6 +690,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
         <ns4:IAO_0000115>an informed consent form for human sample collection that is specifically for human blood sample collection.</ns4:IAO_0000115>
         <ns4:IAO_0000117>AK, FM, YH</ns4:IAO_0000117>
         <rdfs:label>informed consent form for human blood sample collection</rdfs:label>
@@ -755,12 +702,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25678"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <ns4:IAO_0000115>An informed consent form that has been signed by at least one participant.</ns4:IAO_0000115>
         <ns4:IAO_0000117>YH</ns4:IAO_0000117>
         <rdfs:label>signed informed consent form</rdfs:label>
@@ -974,6 +915,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
         <ns4:IAO_0000115>an informed consent form for qualitative study that involves children.</ns4:IAO_0000115>
         <ns4:IAO_0000117>YH</ns4:IAO_0000117>
         <ns4:IAO_0000119>WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</ns4:IAO_0000119>
@@ -985,6 +927,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
         <ns4:IAO_0000115>an informed consent form for clinical study that involves children.</ns4:IAO_0000115>
         <ns4:IAO_0000117>YH</ns4:IAO_0000117>
         <ns4:IAO_0000119>WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</ns4:IAO_0000119>
@@ -1351,6 +1294,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
         <ns4:IAO_0000117>EE, YH</ns4:IAO_0000117>
         <rdfs:label xml:lang="en">clinical trial</rdfs:label>
         <rdfs:seeAlso>UMLS: C0008976</rdfs:seeAlso>
@@ -1755,7 +1699,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000097">
-        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45258"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
         <ns4:IAO_0000115 xml:lang="en">a medical record that records a patient&apos;s mental health care history.</ns4:IAO_0000115>
         <ns4:IAO_0000117 xml:lang="en">YL</ns4:IAO_0000117>
         <ns4:ICO_0000091 xml:lang="en">C2114499</ns4:ICO_0000091>
@@ -1791,7 +1735,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000100">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000060"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
         <ns4:IAO_0000115 xml:lang="en">a physical injury or illness that is a direct result of the treatment, or procedures required by the protocol, to which the subject would not have been exposed had they not participated in the study.</ns4:IAO_0000115>
         <ns4:IAO_0000117 xml:lang="en">YL</ns4:IAO_0000117>
         <ns4:IAO_0000119 xml:lang="en">1) Citing Resnik, (2006), Mamotte N, Wassenaar D, Singh N (2013) define Research-related injury as “a physical, psychological, social, financial, or other injury, harm, or adverse event that a research participant experiences as a direct result of research participation or from use of the study product.”
@@ -1805,7 +1749,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000101">
-        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C90492"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
@@ -1873,7 +1817,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ICO_0000106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000106">
-        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25191"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
         <ns4:IAO_0000115 xml:lang="en">Legal name is the person name that identifies a person for legal, administrative and other official purposes. A person&apos;s first legal name generally is the name of the person that was given for the purpose of registration of the birth and which then appears on a birth certificate (see birth name), but may change subsequently.</ns4:IAO_0000115>
         <ns4:IAO_0000117 xml:lang="en">YL</ns4:IAO_0000117>
         <ns4:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Legal_name</ns4:IAO_0000119>
@@ -2408,6 +2352,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ICO_0000147 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
         <ns4:IAO_0000115>a role inhering in a participant who meets all eligibility criteria defined within a study protocol</ns4:IAO_0000115>
         <ns4:IAO_0000119>NCI BBRB: Biorepositories and Biospecimen Research Branch</ns4:IAO_0000119>
         <rdfs:label xml:lang="en">candidate eligible for study role</rdfs:label>
@@ -2418,6 +2363,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ICO_0000148 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
         <ns4:IAO_0000115>a role inhering in a participant who does not meet all eligibility criteria defined within the study protocol</ns4:IAO_0000115>
         <ns4:IAO_0000119>NCI BBRB: Biorepositories and Biospecimen Research Branch</ns4:IAO_0000119>
         <rdfs:label xml:lang="en">candidate ineligible for study role</rdfs:label>
@@ -2667,7 +2613,7 @@ Individually identifiable health information includes many common identifiers (e
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000167"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
         <ns4:IAO_0000115>A deontic declaration that has permittee role to do genetic research on a human donor as a specified outcome.</ns4:IAO_0000115>
         <rdfs:comment>will add an equivalent class axiom 
 &apos;has specified output&apos; some &apos;permittee deontic role in genetic research&apos;</rdfs:comment>
@@ -2993,15 +2939,6 @@ Individually identifiable health information includes many common identifiers (e
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OGMS_0000060 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000060">
-        <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <ns4:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090">
@@ -3013,6 +2950,14 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/UBERON_0000465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065">
+        <rdfs:label xml:lang="en">NEEDS_REVIEW</rdfs:label>
+    </owl:Class>
     
 
 
