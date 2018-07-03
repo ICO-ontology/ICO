@@ -153,13 +153,13 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A document that explains all relevant information to assist a human being to understand the expectations and requirements of participation in a study or procedure, and is an instrument in obtaining consent.</obo:IAO_0000115>
-        <obo:IAO_0000116>The term definition is adapted from NCIt definition of &apos;consent form&apos; (C16468) with modification. Compared to the NCIt definition, the ICO definition does not restrict the form to a clinical trial.  </obo:IAO_0000116>
-        <obo:IAO_0000117>AK, FM, YH, YL, MH, EE</obo:IAO_0000117>
-        <obo:IAO_0000118>informed consent document</obo:IAO_0000118>
-        <obo:IAO_0000119>NCIt C16468</obo:IAO_0000119>
+        <obo:IAO_0000116 xml:lang="en">The term definition is adapted from NCIt definition of &apos;consent form&apos; (C16468) with modification. Compared to the NCIt definition, the ICO definition does not restrict the form to a clinical trial.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">AK, FM, YH, YL, MH, EE</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">informed consent document</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">NCIt C16468</obo:IAO_0000119>
         <obo:ICO_0000091 xml:lang="en">C0009797 </obo:ICO_0000091>
         <obo:ICO_0000092 xml:lang="en">C16468 </obo:ICO_0000092>
-        <rdfs:label>informed consent form</rdfs:label>
+        <rdfs:label xml:lang="en">informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -180,9 +180,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>a planned process that validates an informed consent form.</obo:IAO_0000115>
-        <obo:IAO_0000117>AK, FM, YH</obo:IAO_0000117>
-        <rdfs:label>validating an informed consent form</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a planned process that validates an informed consent form.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">AK, FM, YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">validating an informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -191,9 +191,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>a planned process that approves an informed consent form.</obo:IAO_0000115>
-        <obo:IAO_0000117>AK, FM, YH</obo:IAO_0000117>
-        <rdfs:label>approving an informed consent form</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a planned process that approves an informed consent form.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">AK, FM, YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">approving an informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -215,9 +215,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>an organization charged with approving clinical study protocols, and ensuring that applicable governing rules and laws are upheld.</obo:IAO_0000115>
-        <obo:IAO_0000117>AK, FM, YH</obo:IAO_0000117>
-        <rdfs:label>informed consent regulatory body</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">an organization charged with approving clinical study protocols, and ensuring that applicable governing rules and laws are upheld.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">AK, FM, YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">informed consent regulatory body</rdfs:label>
     </owl:Class>
     
 
@@ -239,9 +239,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A document part that describes the harm(s) that accompany participation and their likelihoods.</obo:IAO_0000115>
-        <obo:IAO_0000117>AK, FM, YH</obo:IAO_0000117>
-        <rdfs:label>description of participation risk</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A document part that describes the harm that accompany participation and their likelihoods.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">AK, FM, YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">description of participation risk</rdfs:label>
     </owl:Class>
     
 
@@ -250,9 +250,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A document part that specifies a method of contact in the future.</obo:IAO_0000115>
-        <obo:IAO_0000117>AK, FM, YH</obo:IAO_0000117>
-        <rdfs:label>specification of recontact method</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A document part that specifies a method of contact in the future.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">AK, FM, YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">specification of recontact method</rdfs:label>
     </owl:Class>
     
 
@@ -273,9 +273,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>a part of an informed consent form that is required for the form to be used in an informed consent process.</obo:IAO_0000115>
-        <obo:IAO_0000117>AK, FM, YH</obo:IAO_0000117>
-        <rdfs:label>required informed consent element</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a part of an informed consent form that is required for the form to be used in an informed consent process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">AK, FM, YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">required informed consent element</rdfs:label>
     </owl:Class>
     
 
@@ -284,9 +284,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>a part of informed consent form that is not required (optional) for the form.</obo:IAO_0000115>
-        <obo:IAO_0000117>AK, FM, YH</obo:IAO_0000117>
-        <rdfs:label>optional informed consent element</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a part of informed consent form that is not required (optional) for the form.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">AK, FM, YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">optional informed consent element</rdfs:label>
     </owl:Class>
     
 
@@ -309,9 +309,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>an informed consent form for human sample collection that is specifically for human blood sample collection.</obo:IAO_0000115>
-        <obo:IAO_0000117>AK, FM, YH</obo:IAO_0000117>
-        <rdfs:label>informed consent form for human blood sample collection</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">an informed consent form for human sample collection that is specifically for human blood sample collection.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">AK, FM, YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">informed consent form for human blood sample collection</rdfs:label>
     </owl:Class>
     
 
@@ -320,9 +320,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
-        <obo:IAO_0000115>An informed consent form that has been signed by at least one participant.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <rdfs:label>signed informed consent form</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An informed consent form that has been signed by at least one participant.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">signed informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -367,9 +367,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A document part that is specified as a place to receive a signature.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <rdfs:label>signature section</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A document part that is specified as a place to receive a signature.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">signature section</rdfs:label>
     </owl:Class>
     
 
@@ -378,9 +378,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000019"/>
-        <obo:IAO_0000115>a signature section in informed consent element that that is specified as a place to receive a signature from a human subject.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <rdfs:label>human subject signature section in informed consent form</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a signature section in informed consent element that that is specified as a place to receive a signature from a human subject.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">human subject signature section in informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -389,9 +389,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000019"/>
-        <obo:IAO_0000115>a signature section in an informed consent form that is specified as a place to receive a signature from an investigator.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <rdfs:label>investigator signature section in informed consent form</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a signature section in an informed consent form that is specified as a place to receive a signature from an investigator.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">investigator signature section in informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -400,9 +400,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A document part that specifies a date.</obo:IAO_0000115>
-        <obo:IAO_0000117>AK, FM, YH</obo:IAO_0000117>
-        <rdfs:label>date specification</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A document part that specifies a date.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">AK, FM, YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">date specification</rdfs:label>
     </owl:Class>
     
 
@@ -522,9 +522,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000085"/>
-        <obo:IAO_0000115>An informed consent form that is adapted to the cognitive capacities of a child or minor</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">An informed consent form that is adapted to the cognitive capacities of a child or minor.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed assent form for child or minor</rdfs:label>
     </owl:Class>
     
@@ -534,9 +534,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>an informed consent form for qualitative study that involves children.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">an informed consent form for qualitative study that involves children.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed consent form for qualitative research involving children</rdfs:label>
     </owl:Class>
     
@@ -546,9 +546,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>an informed consent form for clinical study that involves children.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">an informed consent form for clinical study that involves children.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed consent form for clinical research involving children&apos;</rdfs:label>
     </owl:Class>
     
@@ -558,7 +558,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000035">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">a data item that indicates a date that specified on an informed consent form</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a data item that indicates a date that specified on an informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">5/7/2014 Asiyah Yu Lin: It is the date specification that appears on the informed consent form, which is may different with the actual date.</obo:IAO_0000116>
         <dc:creator>YH, YL, NO</dc:creator>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete date specification in informed consent form</rdfs:label>
@@ -596,8 +596,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A date specification that specifies the date when an investigation project begins</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A date specification that specifies the date when an investigation project begins.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">project starting date specification</rdfs:label>
     </owl:Class>
     
@@ -607,8 +607,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A date specification that specifies the date when an investigation project ends</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A date specification that specifies the date when an investigation project ends.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">project ending date specification</rdfs:label>
     </owl:Class>
     
@@ -630,8 +630,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>a directive information entity that specifies the deontic roles that are produced, revoked, or modified following a process of informed consent, where those deontic roles inhere in a) the human subject consenter signing an informed consent form and b) the investigator or organization leading a research study or providing health care.</obo:IAO_0000115>
-        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">a directive information entity that specifies the deontic roles that are produced, revoked, or modified following a process of informed consent, where those deontic roles inhere in a) the human subject consenter signing an informed consent form, and b) the investigator or organization leading a research study or providing health care.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">informed consent rule specification</rdfs:label>
     </owl:Class>
     
@@ -641,8 +641,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000041"/>
-        <obo:IAO_0000115>an informed consent rule specification that specifies a course of action legally required to be taken. An example is that the organization leading a study is obliged to destroy the patient&apos;s biospecimens after 10 years as required in an informed consent form.</obo:IAO_0000115>
-        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">an informed consent rule specification that specifies a course of action legally required to be taken. An example is that the organization leading a study is obliged to destroy the patient&apos;s biospecimens after 10 years as required in an informed consent form.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">obligation informed consent rule specification</rdfs:label>
     </owl:Class>
     
@@ -652,8 +652,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000041"/>
-        <obo:IAO_0000115>an informed consent rule specification that specifies an optional course of action that is an option for a participant to take. An example is that a human subject consenter is given the option to withdraw from a consented study any time as specified in an informed consent form.</obo:IAO_0000115>
-        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">an informed consent rule specification that specifies an optional course of action that is an option for a participant to take. An example is that a human subject consenter is given the option to withdraw from a consented study any time as specified in an informed consent form.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">permission informed consent rule specification</rdfs:label>
     </owl:Class>
     
@@ -663,8 +663,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>a data item consisting of a unique identification code designating an informed consent.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">a data item consisting of a unique identification code designating an informed consent.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">informed consent identification code</rdfs:label>
     </owl:Class>
     
@@ -674,8 +674,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A role borne by an entity and that is realized in a process that is part of an investigation in which an objective is achieved. These processes include, among others: planning, overseeing, funding, reviewing.</obo:IAO_0000115>
-        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A role borne by an entity that is realized in a process that is part of an investigation in which an objective is achieved. These processes include, among others: planning, overseeing, funding, or reviewing.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">investigation agent role</rdfs:label>
     </owl:Class>
     
@@ -690,7 +690,7 @@
         <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">permission</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">NCIt C41192</obo:IAO_0000119>
-        <rdfs:label>authorization</rdfs:label>
+        <rdfs:label xml:lang="en">authorization</rdfs:label>
     </owl:Class>
     
 
@@ -699,8 +699,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>a population of human beings</obo:IAO_0000115>
-        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">a population of human beings.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">human population</rdfs:label>
     </owl:Class>
     
@@ -710,8 +710,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>an organization that is operated without a goal of making an financial profit</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">an organization that is operated without a goal of making an financial profit.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">nonprofit organization</rdfs:label>
     </owl:Class>
     
@@ -721,8 +721,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>an organization which has the goal of earning financial profit</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">an organization which has the goal of earning financial profit.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">profit organization</rdfs:label>
     </owl:Class>
     
@@ -732,8 +732,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>An investigation that involves animal research</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An investigation that involves animal research.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">animal research investigation</rdfs:label>
     </owl:Class>
     
@@ -743,8 +743,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>An investigation that targets cancer research</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An investigation that targets cancer research.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">cancer research investigation</rdfs:label>
     </owl:Class>
     
@@ -766,8 +766,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>An investigation that targets drug testing</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An investigation that targets drug testing.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">drug testing investigation</rdfs:label>
     </owl:Class>
     
@@ -777,8 +777,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>An investigation that involves human research</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An investigation that involves human research.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">human research investigation</rdfs:label>
     </owl:Class>
     
@@ -800,8 +800,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>An investigation that is conducted with a nonprofit purpose</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An investigation that is conducted with a nonprofit purpose.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">nonprofit research investigation</rdfs:label>
     </owl:Class>
     
@@ -811,8 +811,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>An investigation that is conducted with the purpose of earning a profit.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An investigation that is conducted with the purpose of earning a profit.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">commercial research investigation</rdfs:label>
     </owl:Class>
     
@@ -822,8 +822,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A one-dimensional temporal region that is a period of a study</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A one-dimensional temporal region that is a period of a study.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">study period</rdfs:label>
     </owl:Class>
     
@@ -833,9 +833,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000041"/>
-        <obo:IAO_0000115>an informed consent rule specification that specifies the ethics in informed consent.</obo:IAO_0000115>
-        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
-        <rdfs:label>ethics rule specification in informed consent</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">an informed consent rule specification that specifies the ethics in informed consent.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ethics rule specification in informed consent</rdfs:label>
     </owl:Class>
     
 
@@ -844,8 +844,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A planned process that stores a biological specimen in a specific location.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A planned process that stores a biological specimen in a specific location.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">storing a specimen</rdfs:label>
     </owl:Class>
     
@@ -890,7 +890,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000064">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115>An investigation that requires an informed consent process</obo:IAO_0000115>
+        <obo:IAO_0000115>An investigation that requires an informed consent process.</obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete study requiring informed consent</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -902,10 +902,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000117>EE, YH</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">EE, YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">clinical trial</rdfs:label>
-        <rdfs:seeAlso>UMLS: C0008976</rdfs:seeAlso>
-        <rdfs:seeAlso>a study that is a clinical trial that requires an informed consent process. Based on NCI/PT, a clinical trial is a type of research study that tests how well new medical approaches work in people. These studies test new methods of screening, prevention, diagnosis, or treatment of a disease.</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">UMLS: C0008976</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">a study that is a clinical trial that requires an informed consent process. Based on NCI/PT, a clinical trial is a type of research study that tests how well new medical approaches work in people. These studies test new methods of screening, prevention, diagnosis, or treatment of a disease.</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -914,8 +914,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>An investigation title that designates a clinical trial study, briefly identifying the purpose or design of the investigation.</obo:IAO_0000115>
-        <obo:IAO_0000117>EE, YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An investigation title that designates a clinical trial study, briefly identifying the purpose or design of the investigation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">EE, YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">clinical trial title</rdfs:label>
     </owl:Class>
     
@@ -925,8 +925,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000041"/>
-        <rdfs:label>general requirement for informed consent</rdfs:label>
-        <rdfs:seeAlso>§46.116 General requirements for informed consent</rdfs:seeAlso>
+        <rdfs:label xml:lang="en">general requirement for informed consent</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">§46.116 General requirements for informed consent</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -935,7 +935,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000069">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115>a person who is the contact for questions about research</obo:IAO_0000115>
+        <obo:IAO_0000115>a person who is the contact for questions about research.</obo:IAO_0000115>
         <obo:IAO_0000117>MH, AK, FM, YL, EE, YH</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete contact person for questions about research</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -983,13 +983,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A role that inheres in human being and is an output of some participation in a research study.</obo:IAO_0000115>
-        <obo:IAO_0000116>The term definition is adapted from the definition of the NCIt term &apos;Human Study Subject&apos; with modification.</obo:IAO_0000116>
-        <obo:IAO_0000117>YH, EE, YL, YL, MH</obo:IAO_0000117>
-        <obo:IAO_0000118>human paticient</obo:IAO_0000118>
-        <obo:ICO_0000091>C2349001</obo:ICO_0000091>
-        <obo:ICO_0000092>C70665</obo:ICO_0000092>
-        <rdfs:label>research subject role</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in human being and is an output of some participation in a research study.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">The term definition is adapted from the definition of the NCIt term &apos;Human Study Subject&apos; with modification.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">YH, EE, YL, YL, MH</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">human paticient</obo:IAO_0000118>
+        <obo:ICO_0000091 xml:lang="en">C2349001</obo:ICO_0000091>
+        <obo:ICO_0000092 xml:lang="en">C70665</obo:ICO_0000092>
+        <rdfs:label xml:lang="en">research subject role</rdfs:label>
     </owl:Class>
     
 
@@ -1001,7 +1001,7 @@
         <obo:IAO_0000115 xml:lang="en">an authorization that signed by a patient, or his legal representative, or clinical study participant for the use or disclosure of oral, written, or electronic form of confidential health information that identifies the individual and relates to the medical history, diagnosis, treatment, or prognosis of his condition. </obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">NCIt C70679</obo:IAO_0000119>
-        <rdfs:label>authorization for release of confidential health information</rdfs:label>
+        <rdfs:label xml:lang="en">authorization for release of confidential health information</rdfs:label>
     </owl:Class>
     
 
@@ -1012,7 +1012,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
         <obo:IAO_0000115 xml:lang="en">A document that is the output of an authorization process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">YL.</obo:IAO_0000117>
-        <rdfs:label>authorization document</rdfs:label>
+        <rdfs:label xml:lang="en">authorization document</rdfs:label>
     </owl:Class>
     
 
@@ -1023,7 +1023,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000074"/>
         <obo:IAO_0000115 xml:lang="en">authorization process aims to release the medical record</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
-        <rdfs:label>authorization for medical records release</rdfs:label>
+        <rdfs:label xml:lang="en">authorization for medical records release</rdfs:label>
         <rdfs:seeAlso xml:lang="en">UMLS CUI: C2921556</rdfs:seeAlso>
     </owl:Class>
     
@@ -1033,13 +1033,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A benefit is a disposition or the potential positive effects that may arise from participatiing in a study.</obo:IAO_0000115>
-        <obo:IAO_0000116>This term definition is adopted from the NCIt definiton of &quot;benefit&quot; (C25387) with modification.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">A benefit is a disposition or the potential positive effects that may arise from participatiing in a study.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This term definition is adopted from the NCIt definiton of &quot;benefit&quot; (C25387) with modification.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">YL, MH, YH, EE, AK, FM</obo:IAO_0000117>
-        <obo:ICO_0000091>C0814225</obo:ICO_0000091>
-        <obo:ICO_0000092>C25387</obo:ICO_0000092>
-        <rdfs:comment>Note that a payment is not a benefit of a study.</rdfs:comment>
-        <rdfs:label>benefit</rdfs:label>
+        <obo:ICO_0000091 xml:lang="en">C0814225</obo:ICO_0000091>
+        <obo:ICO_0000092 xml:lang="en">C25387</obo:ICO_0000092>
+        <rdfs:comment xml:lang="en">Note that a payment is not a benefit of a study.</rdfs:comment>
+        <rdfs:label xml:lang="en">benefit</rdfs:label>
     </owl:Class>
     
 
@@ -1051,10 +1051,10 @@
         <obo:IAO_0000115 xml:lang="en">A risk is a disposition or the potential future harm that may arise from some present action. It is often combined or confused with the probability of an event which is seen as undesirable.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">This term definition is adapted from the NCIt definiton of &quot;Risk&quot; (C17102) . The following source is alos referenced: BMEO(Biomedical Ethics Ontology) http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2725426/</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">YL, MH, YH, EE, AK, FM</obo:IAO_0000117>
-        <obo:IAO_0000119>NCIt: C17102</obo:IAO_0000119>
-        <obo:ICO_0000091>C0035647</obo:ICO_0000091>
-        <obo:ICO_0000092>C17102</obo:ICO_0000092>
-        <rdfs:label>risk</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">NCIt: C17102</obo:IAO_0000119>
+        <obo:ICO_0000091 xml:lang="en">C0035647</obo:ICO_0000091>
+        <obo:ICO_0000092 xml:lang="en">C17102</obo:ICO_0000092>
+        <rdfs:label xml:lang="en">risk</rdfs:label>
     </owl:Class>
     
 
@@ -1063,11 +1063,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000079">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000006"/>
-        <obo:IAO_0000115 xml:lang="en">A specially constituted independent review body comprised of medical, scientific and non-scientific members established and designated by an entity to ensure the protection of the rights, safety and well-being of human subjects recruited to participate in biomedical or behavioral research according to the requirements outlined in Title 38, part 16 (same as Title 45, part 46 and Title 21, part 56) of the U.S. Code of Federal Regulations. IRB responsibility include but not limited to the reviewing, approving, and providing continuing review of trial protocol and amendments and of the methods and material(s) to be used in obtaining and documenting informed consent of the trial. Other equivalent committees with the same or similar functions are also considered to be IRBs.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A specially constituted independent review body comprised of medical, scientific and non-scientific members established and designated by an entity to ensure the protection of the rights, safety and well-being of human subjects recruited to participate in biomedical or behavioral research according to the requirements outlined in Title 38, part 16 (same as Title 45, part 46 and Title 21, part 56) of the U.S. Code of Federal Regulations. IRB responsibility include but not limited to the reviewing, approving, and providing continuing review of trial protocol and amendments and of the methods and material to be used in obtaining and documenting informed consent of the trial. Other equivalent committees with the same or similar functions are also considered to be IRBs.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">IRB</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">NCIT C16741</obo:IAO_0000119>
-        <obo:ICO_0000091>C0086911</obo:ICO_0000091>
+        <obo:ICO_0000091 xml:lang="en">C0086911</obo:ICO_0000091>
         <rdfs:label xml:lang="en">Institutional Review Board</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;code=C16741&amp;ns=NCI_Thesaurus</rdfs:seeAlso>
     </owl:Class>
@@ -1131,8 +1131,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent process that has an assent process as a proper part.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">YL, YH, FM, CS, JO, JB, MB</obo:IAO_0000117>
-        <obo:IAO_0000119>http://www.hopkinsmedicine.org/institutional_review_board/guidelines_policies/guidelines/informed_consent_i.html</obo:IAO_0000119>
-        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/treatment/clinical-trials/patient-safety/childrens-assent</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">http://www.hopkinsmedicine.org/institutional_review_board/guidelines_policies/guidelines/informed_consent_i.html</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.cancer.gov/about-cancer/treatment/clinical-trials/patient-safety/childrens-assent</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed consent process with assenting process</rdfs:label>
     </owl:Class>
     
@@ -1151,7 +1151,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A time measurement datum of a study period.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A time measurement datum of a study period.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
         <rdfs:label xml:lang="en">study duration</rdfs:label>
     </owl:Class>
@@ -1162,7 +1162,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115 xml:lang="en">A temporal interval that represent the time of a human being participates in a procedure or study</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A temporal interval that represent the time of a human being participates in a procedure or study.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">YL, MH, AK, EE, YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">participation duration</rdfs:label>
     </owl:Class>
@@ -1350,7 +1350,7 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115 xml:lang="en">Legal name is the person name that identifies a person for legal, administrative and other official purposes. A person&apos;s first legal name generally is the name of the person that was given for the purpose of registration of the birth and which then appears on a birth certificate (see birth name), but may change subsequently.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Legal name is the person name that identifies a person for legal, administrative, or other official purposes. A person&apos;s first legal name generally is the name of the person that was given for the purpose of registration of the birth and which then appears on a birth certificate (see birth name), but may change subsequently.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Legal_name</obo:IAO_0000119>
         <rdfs:label xml:lang="en">legal name</rdfs:label>
@@ -1384,7 +1384,7 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000109">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>a planned process that cancels a permission</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a planned process that cancels a permission</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">YL, YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">canceling a permission</rdfs:label>
     </owl:Class>
@@ -1414,11 +1414,11 @@ Individually identifiable health information includes many common identifiers (e
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A character string that is assigned by a review board upon approval of the study.</obo:IAO_0000115>
-        <obo:IAO_0000116>For the review board approval, different countries or continents may have different responsible entities for approving the study. For example, in USA, the board is called &quot;Institutional Review Board&quot; (IRB). In many countries in Europe, it is called Ethics committee. </obo:IAO_0000116>
-        <obo:IAO_0000116>This term definition is adapted from the definition of the NCIt term &apos;Review Board Approval Number Text&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">For the review board approval, different countries or continents may have different responsible entities for approving the study. For example, in USA, the board is called &quot;Institutional Review Board&quot; (IRB). In many countries in Europe, it is called Ethics committee.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">This term definition is adapted from the definition of the NCIt term &apos;Review Board Approval Number Text&apos;.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">YL, EE, YH, AK, MH</obo:IAO_0000117>
-        <obo:ICO_0000091>C2985863</obo:ICO_0000091>
-        <obo:ICO_0000092>C93662</obo:ICO_0000092>
+        <obo:ICO_0000091 xml:lang="en">C2985863</obo:ICO_0000091>
+        <obo:ICO_0000092 xml:lang="en">C93662</obo:ICO_0000092>
         <rdfs:label xml:lang="en">review board approval number</rdfs:label>
     </owl:Class>
     
@@ -1443,7 +1443,7 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000115 xml:lang="en">A data item that has been processed to prevent the identification of the person with whom the data are associated.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">CDISC clinical research glossary. (2011). Applied Clinical Trials, 20(12), 11-43. Retrieved from http://search.proquest.com.proxy.lib.umich.edu/docview/914932076?accountid=14667</obo:IAO_0000119>
-        <rdfs:comment>Anonymized data is applicable particularly for secondary use of health data.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Anonymized data is applicable particularly for secondary use of health data.</rdfs:comment>
         <rdfs:label xml:lang="en">anonymized data</rdfs:label>
     </owl:Class>
     
@@ -1503,7 +1503,7 @@ Individually identifiable health information includes many common identifiers (e
         <obo:IAO_0000116 xml:lang="en">This term is extracted from Nick&apos;s comment on the ICBO paper draft version0.11_YH.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
         <rdfs:label xml:lang="en">repository of documents</rdfs:label>
-        <rdfs:seeAlso>UMLS: C0003738</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">UMLS: C0003738</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1549,11 +1549,11 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000122">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>a directive information entity that specifies US federal policy for the protection of human subjects.</obo:IAO_0000115>
-        <obo:IAO_0000118>Common Rule</obo:IAO_0000118>
-        <obo:IAO_0000119>WEB: http://www.hhs.gov/ohrp/humansubjects/commonrule/</obo:IAO_0000119>
-        <dc:creator>EE, MH, AK, YH, YL</dc:creator>
-        <rdfs:label>US federal policy for the protection of human subjects</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a directive information entity that specifies US federal policy for the protection of human subjects.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Common Rule</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">WEB: http://www.hhs.gov/ohrp/humansubjects/commonrule/</obo:IAO_0000119>
+        <dc:creator xml:lang="en">EE, MH, AK, YH, YL</dc:creator>
+        <rdfs:label xml:lang="en">US federal policy for the protection of human subjects</rdfs:label>
     </owl:Class>
     
 
@@ -1664,8 +1664,8 @@ Individually identifiable health information includes many common identifiers (e
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A review board approval number that is assigned by an Institutional Review Board (IRB) in the USA.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">YL, EE, YH, AK, MH</obo:IAO_0000117>
-        <obo:IAO_0000118>Institutional Review Board approval number</obo:IAO_0000118>
-        <rdfs:label>Institutional Review Board Approval Number</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">Institutional Review Board approval number</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Institutional Review Board Approval Number</rdfs:label>
     </owl:Class>
     
 
@@ -1739,9 +1739,9 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000138">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
-        <obo:IAO_0000115>An informed consent form that contains sections specific to procedures in vaccination.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, YL</obo:IAO_0000117>
-        <obo:IAO_0000118>immunization consent form</obo:IAO_0000118>
+        <obo:IAO_0000115 xml:lang="en">An informed consent form that contains sections specific to procedures in vaccination.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH, YL</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">immunization consent form</obo:IAO_0000118>
         <rdfs:label xml:lang="en">informed consent form for vaccination</rdfs:label>
     </owl:Class>
     
@@ -1765,7 +1765,7 @@ Individually identifiable health information includes many common identifiers (e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000140">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
         <obo:IAO_0000115 xml:lang="en">A questionnaire with a set of questions and choices which help identify an eligibility criterion (OBI_05000026), such that the answers to these questions enable determination whether or not the person is eligible to participate.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, YL</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">YH, YL</obo:IAO_0000117>
         <rdfs:label xml:lang="en">eligibility questionnaire</rdfs:label>
     </owl:Class>
     
@@ -1775,8 +1775,8 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A textual entity that presents a question or specifies a prompt to which one may answer.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A textual entity that presents a question or specifies a prompt to which one may answer.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YL, YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">question textual entity</rdfs:label>
     </owl:Class>
     
@@ -1786,7 +1786,7 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000142">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115>A planned process that results in a legally effective consent status</obo:IAO_0000115>
+        <obo:IAO_0000115>A planned process that results in a legally effective consent status.</obo:IAO_0000115>
         <obo:IAO_0000117>Frank Manion, Oliver He</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete legally effective consenting</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1800,13 +1800,13 @@ Individually identifiable health information includes many common identifiers (e
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000155"/>
         <obo:IAO_0000115 xml:lang="en">A planned process of acknowledgement (or agreement) to participate in a procedure or study, where the participant is incapable of informed consent.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">YL, YH, FM, CS, JO, JB, MB, 2018 Informed Consent Workshop</obo:IAO_0000117>
-        <obo:IAO_0000118>assent process</obo:IAO_0000118>
-        <obo:IAO_0000119>http://www.medtran.ru/eng/trials/protomechanics/ch3.htm</obo:IAO_0000119>
-        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/treatment/clinical-trials/patient-safety/childrens-assent</obo:IAO_0000119>
-        <obo:IAO_0000119>https://www.hhs.gov/ohrp/regulations-and-policy/regulations/45-cfr-46/index.html#46.408</obo:IAO_0000119>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
-        <rdfs:comment>According to the Common Rule, the IRB shall determine that adequate provisions are made for soliciting the assent of the children, when in the judgment of the IRB the children are capable of providing assent.</rdfs:comment>
-        <rdfs:comment>Specifically, &quot;assent&quot; is a term used to express willingness to participate in research by persons who are by definition too young to give informed consent but who are old enough to understand the proposed research in general, its expected risks and possible benefits, and the activities expected of them as subjects.</rdfs:comment>
+        <obo:IAO_0000118 xml:lang="en">assent process</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">http://www.medtran.ru/eng/trials/protomechanics/ch3.htm</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.cancer.gov/about-cancer/treatment/clinical-trials/patient-safety/childrens-assent</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.hhs.gov/ohrp/regulations-and-policy/regulations/45-cfr-46/index.html#46.408</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">According to the Common Rule, the IRB shall determine that adequate provisions are made for soliciting the assent of the children, when in the judgment of the IRB the children are capable of providing assent.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Specifically, &quot;assent&quot; is a term used to express willingness to participate in research by persons who are by definition too young to give informed consent but who are old enough to understand the proposed research in general, its expected risks and possible benefits, and the activities expected of them as subjects.</rdfs:comment>
         <rdfs:label xml:lang="en">assent process</rdfs:label>
     </owl:Class>
     
@@ -1828,8 +1828,8 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000145">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000155"/>
-        <obo:IAO_0000115>A planned process in which an agent&apos;s designated biological specimen is collected after the death of the agent.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A planned process in which an agent&apos;s designated biological specimen is collected after the death of the agent.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">postmortem donation of biological specimen</rdfs:label>
     </owl:Class>
     
@@ -1851,8 +1851,8 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>a role inhering in a participant who meets all eligibility criteria defined within a study protocol</obo:IAO_0000115>
-        <obo:IAO_0000119>NCI BBRB: Biorepositories and Biospecimen Research Branch</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">a role inhering in a participant who meets all eligibility criteria defined within a study protocol.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">NCI BBRB: Biorepositories and Biospecimen Research Branch</obo:IAO_0000119>
         <rdfs:label xml:lang="en">candidate eligible for study role</rdfs:label>
     </owl:Class>
     
@@ -1862,8 +1862,8 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000148">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>a role inhering in a participant who does not meet all eligibility criteria defined within the study protocol</obo:IAO_0000115>
-        <obo:IAO_0000119>NCI BBRB: Biorepositories and Biospecimen Research Branch</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">a role inhering in a participant who does not meet all eligibility criteria defined within the study protocol.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">NCI BBRB: Biorepositories and Biospecimen Research Branch</obo:IAO_0000119>
         <rdfs:label xml:lang="en">candidate ineligible for study role</rdfs:label>
     </owl:Class>
     
@@ -1873,9 +1873,9 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000155"/>
-        <obo:IAO_0000115>A planned process in which an agent contacts the participant regarding opportunities related to future research.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://sbsirb.uchicago.edu/page/consent-form-templates-and-examples</obo:IAO_0000119>
-        <dc:creator>YH, MB, OJ, FM</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">A planned process in which an agent contacts the participant regarding opportunities related to future research.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://sbsirb.uchicago.edu/page/consent-form-templates-and-examples</obo:IAO_0000119>
+        <dc:creator xml:lang="en">YH, MB, OJ, FM</dc:creator>
         <rdfs:label xml:lang="en">act of contact for future research</rdfs:label>
     </owl:Class>
     
@@ -1885,8 +1885,8 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A planned process to screen the eligibility of a candidate for a study or procedure, verifying whether certain sufficient or necessary conditions for eligibility obtain.</obo:IAO_0000115>
-        <obo:IAO_0000117>Frank Manion, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A planned process to screen the eligibility of a candidate for a study or procedure, verifying whether certain sufficient or necessary conditions for eligibility obtain.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Frank Manion, Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">eligibility screening process</rdfs:label>
     </owl:Class>
     
@@ -1940,10 +1940,10 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000155">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A planned process that a person agrees to participate in a research project, which is a part of an informed consent process.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
-        <obo:IAO_0000119>https://oprs.usc.edu/files/2017/04/Informed-Consent-Booklet-4.4.13.pdf</obo:IAO_0000119>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">A planned process that a person agrees to participate in a research project, which is a part of an informed consent process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://oprs.usc.edu/files/2017/04/Informed-Consent-Booklet-4.4.13.pdf</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed consent process</rdfs:label>
     </owl:Class>
     
@@ -1953,11 +1953,11 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000156">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000155"/>
-        <obo:IAO_0000115>An informed consent process that involves an adult who consents.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
-        <obo:IAO_0000119>https://oprs.usc.edu/files/2017/04/Informed-Consent-Booklet-4.4.13.pdf</obo:IAO_0000119>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
-        <rdfs:comment>Note: The subject must be 18 years of age and competent to make the decision to participate.</rdfs:comment>
+        <obo:IAO_0000115 xml:lang="en">An informed consent process that involves an adult who consents.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://oprs.usc.edu/files/2017/04/Informed-Consent-Booklet-4.4.13.pdf</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">Note: The subject must be 18 years of age and competent to make the decision to participate.</rdfs:comment>
         <rdfs:label xml:lang="en">adult consent process</rdfs:label>
     </owl:Class>
     
@@ -1967,13 +1967,13 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000157">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000155"/>
-        <obo:IAO_0000115>An informed consent by the parent on behalf of a child or a minor to give a permission for the child or minor to participate in study or procedure.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
-        <obo:IAO_0000118>parental permission</obo:IAO_0000118>
-        <obo:IAO_0000118>parental permission consent</obo:IAO_0000118>
-        <obo:IAO_0000119>https://oprs.usc.edu/files/2017/04/Informed-Consent-Booklet-4.4.13.pdf</obo:IAO_0000119>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
-        <rdfs:comment>Note: When a child or a minor is included in research, the parent/guardian must sign a parental permission consent document. Some situations require permission from at least one parent, while other situations require permission from both parents. In some cases, it may be necessary to waive the requirement to obtain parental permission. Refer to 45CFR46* subpart D for more information.</rdfs:comment>
+        <obo:IAO_0000115 xml:lang="en">An informed consent by the parent on behalf of a child or a minor to give a permission for the child or minor to participate in study or procedure.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">parental permission</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">parental permission consent</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">https://oprs.usc.edu/files/2017/04/Informed-Consent-Booklet-4.4.13.pdf</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
+        <rdfs:comment xml:lang="en">Note: When a child or a minor is included in research, the parent/guardian must sign a parental permission consent document. Some situations require permission from at least one parent, while other situations require permission from both parents. In some cases, it may be necessary to waive the requirement to obtain parental permission. Refer to 45CFR46* subpart D for more information.</rdfs:comment>
         <rdfs:label xml:lang="en">parental consent</rdfs:label>
     </owl:Class>
     
@@ -1983,8 +1983,8 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000158">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A planned process that a person denies to participate in a research project.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A planned process that a person denies to participate in a research project.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">denial to informed consent</rdfs:label>
     </owl:Class>
     
@@ -1994,10 +1994,10 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000159">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000155"/>
-        <obo:IAO_0000115>An informed consent process in which the participant communicates consent orally rather than by filling out and signing a written form.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
-        <obo:IAO_0000119>https://oprs.usc.edu/files/2017/04/Informed-Consent-Booklet-4.4.13.pdf</obo:IAO_0000119>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">An informed consent process in which the participant communicates consent orally rather than by filling out and signing a written form.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://oprs.usc.edu/files/2017/04/Informed-Consent-Booklet-4.4.13.pdf</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed verbal consent</rdfs:label>
     </owl:Class>
     
@@ -2007,10 +2007,10 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000155"/>
-        <obo:IAO_0000115>An informed consent process in which the pariticipant is not competent to read and write in the language of the informed consent form, but is competent to consent with the aid of a translation into the agent&apos;s native language.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
-        <obo:IAO_0000119>https://oprs.usc.edu/files/2017/04/Informed-Consent-Booklet-4.4.13.pdf</obo:IAO_0000119>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">An informed consent process in which the pariticipant is not competent to read and write in the language of the informed consent form, but is competent to consent with the aid of a translation into the agent&apos;s native language.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://oprs.usc.edu/files/2017/04/Informed-Consent-Booklet-4.4.13.pdf</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">consenting in short form</rdfs:label>
     </owl:Class>
     
@@ -2020,9 +2020,9 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000161">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000155"/>
-        <obo:IAO_0000115>A planned process in which a biological sample from a subject is collected for testing.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK110047/</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">A planned process in which a biological sample from a subject is collected for testing.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/books/NBK110047/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">biological sample collecting</rdfs:label>
     </owl:Class>
     
@@ -2032,9 +2032,9 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000161"/>
-        <obo:IAO_0000115>A planned process in which a tissue sample from a subject is collected for testing.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK110047/</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">A planned process in which a tissue sample from a subject is collected for testing.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/books/NBK110047/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">tissue sample collecting</rdfs:label>
     </owl:Class>
     
@@ -2044,9 +2044,9 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000163">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000161"/>
-        <obo:IAO_0000115>A planned process in which a blood sample from a subject is collected for testing.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK110047/</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">A planned process in which a blood sample from a subject is collected for testing.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/books/NBK110047/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">blood sample collecting</rdfs:label>
     </owl:Class>
     
@@ -2080,8 +2080,8 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000168">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A deontic declaration that has permittee role to do genetic research on a human donor as a specified outcome.</obo:IAO_0000115>
-        <rdfs:comment>will add an equivalent class axiom
+        <obo:IAO_0000115 xml:lang="en">A deontic declaration that has permittee role to do genetic research on a human donor as a specified outcome.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">will add an equivalent class axiom
 &apos;has specified output&apos; some &apos;permittee deontic role in genetic research&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">genetic research permission deontic declaration</rdfs:label>
     </owl:Class>
@@ -2104,9 +2104,9 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <obo:IAO_0000115>A textual entity that specifies a chosen option among multiple options presented.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL, YH, JZ, NO</obo:IAO_0000117>
-        <obo:IAO_0000232>Neil and Oliver discussion note: This term is not clear. It may be labeled in another way like &apos;filled multiple choice text entity&apos;. Needs re-investigation later.</obo:IAO_0000232>
+        <obo:IAO_0000115 xml:lang="en">A textual entity that specifies a chosen option among multiple options presented.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YL, YH, JZ, NO</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">Neil and Oliver discussion note: This term is not clear. It may be labeled in another way like &apos;filled multiple choice text entity&apos;. Needs re-investigation later.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">filled multiple choice text entity</rdfs:label>
     </owl:Class>
     
@@ -2116,8 +2116,8 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000171"/>
-        <obo:IAO_0000115>A filled multiple choice text entity that specifies an affirmative option.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL, YH, JZ</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A filled multiple choice text entity that specifies an affirmative option.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YL, YH, JZ</obo:IAO_0000117>
         <rdfs:label xml:lang="en">yes answer text entity</rdfs:label>
     </owl:Class>
     
@@ -2127,8 +2127,8 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000171"/>
-        <obo:IAO_0000115>A filled multiple choice text entity that specifies a negative option.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL, YH, JZ</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A filled multiple choice text entity that specifies a negative option.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YL, YH, JZ</obo:IAO_0000117>
         <rdfs:label xml:lang="en">no answer text entity</rdfs:label>
     </owl:Class>
     
@@ -2162,8 +2162,8 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000177">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000155"/>
-        <obo:IAO_0000115>An informed consent for a subject agrees not to have financial benefit in the future.</obo:IAO_0000115>
-        <dc:creator>Christoph Brochhausen, Oliver He</dc:creator>
+        <obo:IAO_0000115 xml:lang="en">An informed consent for a subject agrees not to have financial benefit in the future.</obo:IAO_0000115>
+        <dc:creator xml:lang="en">Christoph Brochhausen, Oliver He</dc:creator>
         <rdfs:label xml:lang="en">consenting to not to have financial benefit</rdfs:label>
     </owl:Class>
     
@@ -2185,7 +2185,7 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000179">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115>An informed consent for an unspecified range of future research subject to a few content and/or process restrictions.</obo:IAO_0000115>
+        <obo:IAO_0000115>An informed consent for an unspecified range of future research subject to a few content or process restrictions.</obo:IAO_0000115>
         <obo:IAO_0000117>FM, YH, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.hhs.gov/ohrp/sachrp-committee/recommendations/attachment-c-august-2-2017/index.html</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4791589/</obo:IAO_0000119>
@@ -2199,7 +2199,7 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000180">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115>A broad consent that is for an unspecified range of future research subject to a few content and/or process restrictions with biological sample.</obo:IAO_0000115>
+        <obo:IAO_0000115>A broad consent that is for an unspecified range of future research subject to a few content or process restrictions with biological sample.</obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4791589/</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete process of providing broad consent for research with biological sample</rdfs:label>
@@ -2212,10 +2212,10 @@ Individually identifiable health information includes many common identifiers (e
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000155"/>
-        <obo:IAO_0000115>A planned process that involves an unspecified range of future research that need not be relevant to treating the agent.</obo:IAO_0000115>
-        <obo:IAO_0000117>FM, YH, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
-        <obo:IAO_0000119>https://www.hhs.gov/ohrp/sachrp-committee/recommendations/attachment-c-august-2-2017/index.html</obo:IAO_0000119>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4791589/</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">A planned process that involves an unspecified range of future research that need not be relevant to treating the agent.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">FM, YH, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://www.hhs.gov/ohrp/sachrp-committee/recommendations/attachment-c-august-2-2017/index.html</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4791589/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">secondary use</rdfs:label>
     </owl:Class>
     
