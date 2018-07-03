@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/ico.owl/"
      xml:base="http://purl.obolibrary.org/obo/ico.owl/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -2254,7 +2254,7 @@ Individually identifiable health information includes many common identifiers (e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000185">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form that is adapted to the cognitive capacities of someone with significant mental impairment.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vadja</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">informed assent form for mentally impaired</rdfs:label>
     </owl:Class>
     
@@ -2265,7 +2265,7 @@ Individually identifiable health information includes many common identifiers (e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
         <obo:IAO_0000115 xml:lang="en">A temporal region during which an act is (or acts are) permitted.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vadja</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">permission temporal region</rdfs:label>
     </owl:Class>
     
@@ -2290,7 +2290,7 @@ Individually identifiable health information includes many common identifiers (e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000188">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
         <obo:IAO_0000115 xml:lang="en">A role borne by a human being that is part of an group of individuals and acts as contact person for the group. This role gets realized by the bearer being a participant in a contacting process.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vadja</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">contact role</rdfs:label>
     </owl:Class>
     
@@ -2301,7 +2301,7 @@ Individually identifiable health information includes many common identifiers (e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000189">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
         <obo:IAO_0000115 xml:lang="en">A document part that specifies a human being who is to bear a contact role.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vadja</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">contact specification</rdfs:label>
     </owl:Class>
     
@@ -2312,7 +2312,7 @@ Individually identifiable health information includes many common identifiers (e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000190">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
         <obo:IAO_0000115 xml:lang="en">A document part that describes the benefit(s) that accompany participation and their likelihoods.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vadja</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">description of participation benefit</rdfs:label>
     </owl:Class>
     
@@ -2323,7 +2323,7 @@ Individually identifiable health information includes many common identifiers (e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
         <obo:IAO_0000115 xml:lang="en">A document part that describes the action types to be permitted.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vadja</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">description of allowed action types</rdfs:label>
     </owl:Class>
     
@@ -2334,7 +2334,7 @@ Individually identifiable health information includes many common identifiers (e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000192">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
         <obo:IAO_0000115 xml:lang="en">A description of allowed action types that has in view a wide, unspecified range of action types, and is restricted only by a regulator body.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vadja</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">description of broad consent</rdfs:label>
     </owl:Class>
     
@@ -2345,7 +2345,7 @@ Individually identifiable health information includes many common identifiers (e
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000193">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
         <obo:IAO_0000115 xml:lang="en">A planned process of providing information according to prompts on a form.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vadja</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of filling out form</rdfs:label>
     </owl:Class>
     
