@@ -61,27 +61,27 @@
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000091 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;ICO_0000091">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000091">
         <rdfs:label xml:lang="en">term_mapping_to_UMLS</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="&rdfs;seeAlso"/>
+        <rdfs:subPropertyOf rdf:resource="rdfs:seeAlso"/>
     </owl:AnnotationProperty>
 
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000092 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;ICO_0000092">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000092">
         <rdfs:label xml:lang="en">term_mapping_to_NCIT</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="&rdfs;seeAlso"/>
+        <rdfs:subPropertyOf rdf:resource="rdfs:seeAlso"/>
     </owl:AnnotationProperty>
 
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000093 -->
 
-       <owl:AnnotationProperty rdf:about="&obo;ICO_0000093">
+       <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000093">
            <rdfs:label xml:lang="en">term_mapping_to_HL7v3</rdfs:label>
-           <rdfs:subPropertyOf rdf:resource="&rdfs;seeAlso"/>
+           <rdfs:subPropertyOf rdf:resource="rdfs:seeAlso"/>
        </owl:AnnotationProperty>
 
 
