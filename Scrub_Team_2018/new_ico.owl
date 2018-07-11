@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ico.owl#"
-     xml:base="http://purl.obolibrary.org/obo/ico.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ico.owl/"
+     xml:base="http://purl.obolibrary.org/obo/ico.owl/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="ttp://www.geneontology.org/formats/oboInOwl#"
      xmlns:rdfs1="rdfs:"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -18,6 +19,7 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ico.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
         <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
         <dc:contributor xml:lang="en">William Duncan</dc:contributor>
@@ -57,6 +59,14 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </rdf:Description>
     
 
 
@@ -101,6 +111,27 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000108 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000108">
+        <obo:IAO_0000600 xml:lang="en">b exists_at t means: b is an entity which exists at some temporal region t. (axiom label in BFO2 Reference: [118-002])</obo:IAO_0000600>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">exists at</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000155 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000155">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000108"/>
+        <obo:IAO_0000600 xml:lang="en">p occupies_temporal_region t. This is a primitive relation between an occurrent p and the temporal region t upon which the spatiotemporal region p occupies_spatiotemporal_region projects. (axiom label in BFO2 Reference: [132-001])</obo:IAO_0000600>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">occupies temporal region</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -263,7 +294,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
         <obo:IAO_0000115 xml:lang="en">A document part that describes the harm that accompany participation and their likelihoods.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">description of participation risk</rdfs:label>
@@ -2316,7 +2347,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000185 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000185">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000085"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form that is adapted to the cognitive capacities of someone with significant mental impairment.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">informed assent form for mentally impaired</rdfs:label>
@@ -2327,7 +2358,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000186 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000186">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
         <obo:IAO_0000115 xml:lang="en">A temporal region during which an act is (or acts are) permitted.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">permission temporal region</rdfs:label>
@@ -2338,7 +2369,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000187 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000187">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">a deontic role, which may be realized in an Act of Consent, where the bearer of the legal representative role consents on behalf of a person who lacks the capability to provide consent.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Mathias says this shouldn&apos;t mention &apos;act of consent&apos;.</obo:IAO_0000232>
@@ -2352,7 +2383,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000188">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role borne by a human being that is part of an group of individuals and acts as contact person for the group. This role gets realized by the bearer being a participant in a contacting process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">contact role</rdfs:label>
@@ -2363,7 +2394,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000189 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000189">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
         <obo:IAO_0000115 xml:lang="en">A document part that specifies a human being who is to bear a contact role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">contact specification</rdfs:label>
@@ -2374,7 +2405,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000190">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
         <obo:IAO_0000115 xml:lang="en">A document part that describes the benefit(s) that accompany participation and their likelihoods.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">description of participation benefit</rdfs:label>
@@ -2385,7 +2416,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000191 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000191">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
         <obo:IAO_0000115 xml:lang="en">A document part that describes the action types to be permitted.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">description of allowed action types</rdfs:label>
@@ -2396,7 +2427,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000192 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000192">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
         <obo:IAO_0000115 xml:lang="en">A description of allowed action types that has in view a wide, unspecified range of action types, and is restricted only by a regulator body.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">description of broad consent</rdfs:label>
@@ -2407,7 +2438,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000193 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000193">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process of providing information according to prompts on a form.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of filling out form</rdfs:label>
@@ -2418,7 +2449,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000194 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000194">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115 xml:lang="en">A process that is carried out by a conscious being or an aggregate of conscious beings, and is spontaneous, directed towards another conscious being or another aggregate of conscious beings, and that needs to be perceived.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">This is a D-Act Term, included here as a placeholder till D-acts is imported.</obo:IAO_0000117>
         <rdfs:label xml:lang="en">social act (placeholder)</rdfs:label>
@@ -2429,7 +2460,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000195">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000194"/>
         <obo:IAO_0000115 xml:lang="en">a social act in which an agent bearing a deontic power role and realizes that role in the creation of a permission role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Axiom: Every ‘Act of permitting’ has process part some (‘Speech Act’ or ‘Document Act’).
@@ -2444,7 +2475,7 @@ Note: This class is very general, and doesn’t only apply to consent and health
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000196">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000195"/>
         <obo:IAO_0000115 xml:lang="en">an act of permitting that is a process part of some informed consent process and has output some consenter role and has output some permission role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Note: This class is very general, and doesn’t only apply to consent and healthcare contexts. There may be further subclasses of consenting for which there are also required process parts, such as a process of informing a patient of the risks associated with a medical procedure or research investigation.
@@ -2469,7 +2500,7 @@ Also, 6/28: Mathias writes: This definition is probably incorrect. I assume we d
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000198 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000198">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">a role that inheres in an agent and which is externally grounded in the personal normative expectations of other agents within a social context.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">This may be a D-acts term. TBD.</obo:IAO_0000232>
@@ -2507,7 +2538,7 @@ Also, 6/28: Mathias writes: This definition is probably incorrect. I assume we d
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000201 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000201">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
         <obo:IAO_0000115 xml:lang="en">a cognitive capability inhering in some agent, which may be realized in an Act of Consent.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Note: Capability-talk is fraught and so attention to this particular, somewhat stipulative notion is necessary.
@@ -2525,7 +2556,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000202">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
         <obo:IAO_0000115 xml:lang="en">a capability to consent that is sufficiently robust as to pass the legal requirements of some socio-legal jurisdiction.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Axiom: all l all c all t all m (competencytoconsent(m) &amp; inheresin(m,x,t) -&gt; (exists l exists c (legalpowerrole(l) &amp; capabilitytoconsent(c) &amp; (exists r exists o (hasorganizationalcontext(l,r,t) &amp; hasorganizationalcontext(l,o,t) &amp; r=o)) &amp; inheresin(l,x,t) &amp; inheresin(c,x,t)) -&gt; (m=c))).
@@ -2541,7 +2572,7 @@ Note: One may have the same capability to consent, but whether that capability t
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000203 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000203">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">a role that is the output of an act of assent and which inheres in a human being, who, because they fail to satisfy certain criteria for consent, is thereby allowed the aid of a legal representative who aids them in an Act of Consent, and, in some contexts, may be realized in revoking or modifying the permission role that was output of the same Act of Assent.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">assenter role</rdfs:label>
@@ -2552,7 +2583,7 @@ Note: One may have the same capability to consent, but whether that capability t
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000204 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000204">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Relies_on_terms_we_need_to_pull"/>
         <obo:IAO_0000115 xml:lang="en">An agent who bears an assenter role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">assenter</rdfs:label>
@@ -2563,7 +2594,7 @@ Note: One may have the same capability to consent, but whether that capability t
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000205 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000205">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Relies_on_terms_we_need_to_pull"/>
         <obo:IAO_0000115 xml:lang="en">An agent who bears a consenter role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">consenter</rdfs:label>
@@ -2735,9 +2766,6 @@ Note: One may have the same capability to consent, but whether that capability t
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000107">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000108">
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000110">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
     </rdf:Description>
@@ -2838,9 +2866,6 @@ Note: One may have the same capability to consent, but whether that capability t
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000154">
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000155">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000156">
@@ -3071,9 +3096,6 @@ Note: One may have the same capability to consent, but whether that capability t
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:ICO_0000093 xml:lang="en">11609</obo:ICO_0000093>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000601">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
