@@ -263,7 +263,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
         <obo:IAO_0000115 xml:lang="en">A document part that describes the harm that accompany participation and their likelihoods.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">description of participation risk</rdfs:label>
@@ -2385,7 +2385,7 @@ Individually identifiable health information includes many common identifiers (e
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000191 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000191">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
         <obo:IAO_0000115 xml:lang="en">A document part that describes the action types to be permitted.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">description of allowed action types</rdfs:label>
