@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/ico.owl#"
      xml:base="http://purl.obolibrary.org/obo/ico.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="ttp://www.geneontology.org/formats/oboInOwl#"
      xmlns:rdfs1="rdfs:"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -18,6 +19,7 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ico.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
         <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
         <dc:contributor xml:lang="en">William Duncan</dc:contributor>
