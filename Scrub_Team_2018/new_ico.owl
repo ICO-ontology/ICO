@@ -207,6 +207,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000034 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000034">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
@@ -1353,7 +1362,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000097">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Relies_on_terms_we_need_to_pull"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026"/>
         <obo:IAO_0000115 xml:lang="en">A medical record that describes a patient&apos;s mental health care history.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
         <obo:ICO_0000091 xml:lang="en">C2114499</obo:ICO_0000091>
@@ -1546,7 +1555,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Relies_on_terms_we_need_to_pull"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
         <obo:IAO_0000115 xml:lang="en">An organizational function that involves the areas of information systems and computer science; and that plans, organizes, describes, or controls data resources.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Data_administration</obo:IAO_0000119>
@@ -2458,14 +2467,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ico.owl#Relies_on_terms_we_need_to_pull -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#Relies_on_terms_we_need_to_pull">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184">
@@ -2823,6 +2824,18 @@ Note: One may have the same capability to consent, but whether that capability t
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <obo:IAO_0000115 xml:lang="en">A document that contains information representing health-relevant qualities of a patient written in a chronological manner and that is primarily used for patient care in a clinical setting.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Martin Fransson</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">It is a chronological written account of examination, treatment, medical history or complaints.; It is used interchangeably with health record and medical chart. https://en.wikipedia.org/wiki/Medical_record</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">medical record</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -->
 
     <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass">
@@ -2898,10 +2911,6 @@ Note: One may have the same capability to consent, but whether that capability t
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000034">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000035">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
