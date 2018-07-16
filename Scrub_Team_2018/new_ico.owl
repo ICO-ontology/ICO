@@ -218,7 +218,7 @@
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICO_0000130"/>
@@ -382,7 +382,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000034"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form for human sample collection that is specifically for human blood sample collection.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">informed consent form for human blood sample collection</rdfs:label>
@@ -608,7 +608,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000213"/>
         <obo:IAO_0000115 xml:lang="en">aAn informed consent form for qualitative study that involves children.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
@@ -620,7 +620,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000213"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form for clinical study that involves children.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
@@ -1837,7 +1837,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000138 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000138">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000213"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form that contains sections specific to procedures in vaccination.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">immunization consent form</obo:IAO_0000118>
