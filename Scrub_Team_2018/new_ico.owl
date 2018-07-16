@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/ico.owl#"
      xml:base="http://purl.obolibrary.org/obo/ico.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -1225,6 +1225,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
         <obo:IAO_0000115 xml:lang="en">A document that explains relevant information regarding the expectations and requirements of participation in a research study or clinical procedure, is adapted to the cognitive capacities of that individual so as to assist in that individual&apos;s understanding, and is designed to record the assent of that individual.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">JVMod: Completely new definition.</obo:IAO_0000116>
         <dc:contributor xml:lang="en">Jonathan Vajda</dc:contributor>
         <rdfs:label xml:lang="en">informed assent form</rdfs:label>
     </owl:Class>
