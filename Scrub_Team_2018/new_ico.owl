@@ -1210,6 +1210,17 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000084">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000810"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000143"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000810"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent process that has an assent process as a proper part.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He, Frank Manion, Chris Stoeckert, Jihad Obeid, Jonathan Bona, Mathias Brochhausen</obo:IAO_0000117>
@@ -1974,7 +1985,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A planned process in which an agent contacts the participant regarding opportunities related to future research.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process in which an agent contacts a participant of an informed consent process regarding opportunities related to future research.</obo:IAO_0000115>
         <obo:IAO_0000117>Jonathan Vajda with ICO Workgroup in Ann Arbor (2018)</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Mathias Brochhausen, Jihad Obeid, Frank Manion</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://sbsirb.uchicago.edu/page/consent-form-templates-and-examples</obo:IAO_0000119>
