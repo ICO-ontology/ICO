@@ -2658,6 +2658,7 @@ Note: One may have the same capability to consent, but whether that capability t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">A document that has, as part, an incomplete informed consent form, along with some additional parts, such as a signature, stamp, or initials, which serve as a record to an act of consent having been performed using the incomplete informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">The definition does not cite its immediate parent. Is this term one that still receives input? It seems not.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">complete informed consent form indicating consent</rdfs:label>
     </owl:Class>
     
