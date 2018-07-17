@@ -271,7 +271,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that validates an informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">validating an informed consent form</rdfs:label>
@@ -2446,7 +2446,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
-        <rdfs:comment>JV: This is a dummy class to be deprecated quickly and swiftly. Just for organization purposes</rdfs:comment>
+        <rdfs:comment xml:lang="en">This is a dummy class to be deprecated after it has fulfilled its organization purposes</rdfs:comment>
+        <rdfs:label xml:lang="en">ICO Classes to Move to RUBRIC</rdfs:label>
     </owl:Class>
     
 
@@ -2455,6 +2456,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_D-Acts">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
+        <rdfs:comment xml:lang="en">This is a dummy class to be deprecated after it has fulfilled its organization purposes</rdfs:comment>
+        <rdfs:label xml:lang="en">ICO Classes to Move to D-Acts</rdfs:label>
     </owl:Class>
     
 
@@ -2463,6 +2466,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065">
         <rdfs:label xml:lang="en">NEEDS_REVIEW</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
+        <rdfs:comment xml:lang="en">Classes proposed for RUBRIC refactoring (non-exhaustive)</rdfs:comment>
+        <rdfs:label xml:lang="en">RUBRIC Classes</rdfs:label>
     </owl:Class>
     
 
@@ -2840,6 +2853,29 @@ Note: One may have the same capability to consent, but whether that capability t
 
     <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Stasis -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Stasis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066"/>
+        <obo:IAO_0000115 xml:lang="en">a process in which some independent continuant endures and one or more of the dependent entities it bears does not change in kind or intensity.</obo:IAO_0000115>
+        <dc:date xml:lang="en">Retrieved from Common Core Ontologies 7/17/2018</dc:date>
+        <rdfs:label xml:lang="en">stasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Stasis"/>
+        <obo:IAO_0000115 xml:lang="en">A stasis in which some independent continuant bears some generically dependent continuant that remains unchanged during a temporal interval.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">at this time only stasis of genetically dependant continuant will be represented in RUBRIC, leaving open the possibility of modeling other types of stasis as represented in the Common Core Ontologies. An example use case would be the transition of law enumerated by one document to a new iteration of the document for the same law. In this case, the old document would no longer be ‘legally effective’ and the corresponding stasis would cease.</obo:IAO_0000232>
+        <dc:date xml:lang="en">Retrieved from Common Core Ontologies 7/17/2018</dc:date>
+        <rdfs:label xml:lang="en">stasis of genetically dependant continuant</rdfs:label>
     </owl:Class>
     
 
