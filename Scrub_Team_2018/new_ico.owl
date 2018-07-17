@@ -1906,7 +1906,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001000"/>
         <obo:IAO_0000115 xml:lang="en">A questionnaire with a set of questions and choices which help identify an eligibility criterion, such that the answers to these questions enable determination whether or not the person is eligible to participate.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Asiyah Yu Lin</obo:IAO_0000117>
-        <obo:IAO_0000232>See: OBI_05000026</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">See: OBI_05000026</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">We need to import or create &apos;questionnaire&apos; (JV)</obo:IAO_0000232>
         <rdfs:label xml:lang="en">eligibility questionnaire</rdfs:label>
     </owl:Class>
