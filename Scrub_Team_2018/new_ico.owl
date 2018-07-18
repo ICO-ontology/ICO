@@ -825,7 +825,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000115 xml:lang="en">An organization that is operated without the principal goal of making a financial profit.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">nonprofit organization</rdfs:label>
@@ -836,7 +836,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000115 xml:lang="en">An organization which has the principle goal of earning financial profit.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">profit organization</rdfs:label>
