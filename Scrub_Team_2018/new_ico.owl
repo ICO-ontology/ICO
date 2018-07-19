@@ -269,7 +269,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000002">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">a planned process that involves the design of an informed consent form.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process that involves the design of an informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete designing an informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -636,7 +636,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000213"/>
-        <obo:IAO_0000115 xml:lang="en">aAn informed consent form for qualitative study that involves children.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An informed consent form for qualitative study that involves children.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed consent form for qualitative research involving children</rdfs:label>
@@ -803,12 +803,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A population of human beings.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">human population</rdfs:label>
@@ -1013,7 +1007,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000066"/>
-        <obo:IAO_0000115 xml:lang="en">a study that is a clinical trial that requires an informed consent process.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A study that is a clinical trial that requires an informed consent process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Elizabeth Eisenhauer, Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000232>Based on NCI/PT, a clinical trial is a type of research study that tests how well new medical approaches work in people. These studies test new methods of screening, prevention, diagnosis, or treatment of a disease.</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">Needs work. Best fit is to rely on SIO_0001000, which has a fine-grained hierarchy. Parent is &apos;intervention study&apos; (SIO_0000994) which is an investigation (SIO_0000747). However, we have investigation already defined in OBI_0000066.</obo:IAO_0000232>
@@ -1060,7 +1054,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000070">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 xml:lang="en">A person who is the contact for questions about research subject right.</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A person who is the contact for questions about research subject right.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Marcy Harris, Alla Karnovsky, Frank Manion, Asiyah Yu Lin, Elizabeth Eisenhauer, Yongqun He</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete contact person for questions about research subject rights</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1442,7 +1436,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000101"/>
-        <obo:IAO_0000115 xml:lang="en">information, including demographic data, that relates to: the individual’s past, present or future physical or mental health or condition, the provision of health care to the individual, or the past, present, or future payment for the provision of health care to the individual, and that identifies the individual or for which there is a reasonable basis to believe it can be used to identify the individual.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Information, including demographic data, that relates to: the individual’s past, present or future physical or mental health or condition, the provision of health care to the individual, or the past, present, or future payment for the provision of health care to the individual, and that identifies the individual or for which there is a reasonable basis to believe it can be used to identify the individual.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en"> U.S. Department of Health &amp; Human Services. Summary of the HIPAA Privacy Rule. Available online from: http://www.hhs.gov/ocr/privacy/hipaa/understanding/summary/ Accessed 5/9/2014.</obo:IAO_0000119>
         <obo:IAO_0000232>Individually identifiable health information includes many common identifiers (e.g., name, address, birth date, Social Security Number).</obo:IAO_0000232>
@@ -1575,7 +1569,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000219"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -1595,7 +1589,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000114">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">An anonoymized data item that is about a genomic sample.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An anonymized data item that is about a genomic sample.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">Anonymized data and samples are initially single or double coded but the link between the subjects identifiers and the unique code(s) are subsequently deleted. Once the link has been deleted it is no longer possible to trace the data and samples back to the individual through the coding key(s). Anonymisation is intended to prevent subject re-identification. As anonymised samples and associated data are not traceable back to the subject it is not possible to undertake actions such as sample withdrawal, or the return of individual results. The use of anonymised data and samples does not allow for clinical monitoring, subject follow-up or the addition of new data. The deletion of the coding key(s) linking the data and samples to the subjects identifiers provides additional confidentiality and privacy protection over coded data and samples, as it prevents subject re-identification through the use of the coding key(s) (ICH).</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete anonymized genomic data</rdfs:label>
@@ -2342,10 +2336,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A planned process that involves an unspecified range of future research that need not be relevant to treating the agent.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process that involves a human biological specimen originally collected for the purpose of treatment or a different investigation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Frank Manion, Yongqun He, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://www.hhs.gov/ohrp/sachrp-committee/recommendations/attachment-c-august-2-2017/index.html</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4791589/</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">Note: not sure if the parent class should be &apos;investigation&apos; or &apos;planned process.&apos;</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">This definition is provisional, as &apos;secondary use&apos; may apply to non-specimen entities. Adapted from the defintion found here:  https://sunnybrook.ca/research/content/?page=sri-crs-reo-faq-secondaryusedata</obo:IAO_0000232>
         <rdfs:label xml:lang="en">secondary use</rdfs:label>
     </owl:Class>
     
@@ -2380,24 +2376,8 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
-                                </owl:unionOf>
-                            </owl:Class>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
-                    </owl:Restriction>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -2556,7 +2536,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000002"/>
-        <obo:IAO_0000115 xml:lang="en">A stasis of regulation that has participant some document and during which that document is recognized as a law within the jurisdiction in which the stasis of regulation is occuring.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A stasis of regulation that has participant some document and during which that document is recognized as a law within the jurisdiction in which the stasis of regulation is occurring.</obo:IAO_0000115>
         <obo:IAO_0000232 xml:lang="en">The  ‘stasis of law’ designates the spatial and temporal conditions that need to be met in order for a regulatory document to be a ‘law’ or a ‘policy.’ This is necessary because laws, or other regulations are overturned, made obsolete, ect..., but material entities concretizing them persist.</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">There are many definitions and conceptions of law, which can be elaborated in further work. There is a concern not to define law in such a way that we narrow the scope beyond an international context.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">stasis of law</rdfs:label>
@@ -2578,7 +2558,7 @@
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066"/>
         <obo:IAO_0000115 xml:lang="en">An organization that has a deontic power role prescribed by some regulatory document that occurs in a stasis of regulation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">regulatory body</rdfs:label>
