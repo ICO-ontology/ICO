@@ -1569,7 +1569,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000219"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
