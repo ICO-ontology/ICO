@@ -3250,7 +3250,7 @@ Note: One may have the same capability to consent, but whether that capability t
         <obo:IAO_0000119 xml:lang="en">https://github.com/CommonCoreOntology/CommonCoreOntologies</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">at this time only stasis of genetically dependant continuant will be represented in RUBRIC, leaving open the possibility of modeling other types of stasis as represented in the Common Core Ontologies. An example use case would be the transition of law enumerated by one document to a new iteration of the document for the same law. In this case, the old document would no longer be ‘legally effective’ and the corresponding stasis would cease.</obo:IAO_0000232>
         <dc:date xml:lang="en">Retrieved from Common Core Ontologies 7/17/2018</dc:date>
-        <rdfs:label xml:lang="en">stasis of genetically dependant continuant</rdfs:label>
+        <rdfs:label xml:lang="en">stasis of generically dependant continuant</rdfs:label>
     </owl:Class>
     
 
