@@ -803,12 +803,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A population of human beings.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">human population</rdfs:label>
@@ -2342,10 +2336,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A planned process that involves an unspecified range of future research that need not be relevant to treating the agent.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process that involves a human biological specimen originally collected for the purpose of treatment or a different investigation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Frank Manion, Yongqun He, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://www.hhs.gov/ohrp/sachrp-committee/recommendations/attachment-c-august-2-2017/index.html</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4791589/</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">Note: not sure if the parent class should be &apos;investigation&apos; or &apos;planned process.&apos;</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">This definition is provisional, as &apos;secondary use&apos; may apply to non-specimen entities. Adapted from the defintion found here:  https://sunnybrook.ca/research/content/?page=sri-crs-reo-faq-secondaryusedata</obo:IAO_0000232>
         <rdfs:label xml:lang="en">secondary use</rdfs:label>
     </owl:Class>
     
@@ -2380,24 +2376,8 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
-                                </owl:unionOf>
-                            </owl:Class>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
-                    </owl:Restriction>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -2578,7 +2558,7 @@
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066"/>
         <obo:IAO_0000115 xml:lang="en">An organization that has a deontic power role prescribed by some regulatory document that occurs in a stasis of regulation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">regulatory body</rdfs:label>
