@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ico.owl/"
-     xml:base="http://purl.obolibrary.org/obo/ico.owl/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ico.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ico.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="ttp://www.geneontology.org/formats/oboInOwl#"
      xmlns:rdfs1="rdfs:"
@@ -802,21 +802,15 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000047">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000027"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A population of human beings.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">JV: This is an equivalence class</obo:IAO_0000232>
         <rdfs:label xml:lang="en">human population</rdfs:label>
     </owl:Class>
     
@@ -1579,20 +1573,20 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000027"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000217"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000219"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <obo:IAO_0000115 xml:lang="en">A data item that has been processed to prevent the identification of the person with whom the data are associated.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that has been processed to prevent the identification of the person with whom the data are associated, thereby enduring in a stasis of anonymization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">CDISC clinical research glossary. (2011). Applied Clinical Trials, 20(12), 11-43. Retrieved from http://search.proquest.com.proxy.lib.umich.edu/docview/914932076?accountid=14667</obo:IAO_0000119>
         <rdfs:comment xml:lang="en">Anonymized data is applicable particularly for secondary use of health data.</rdfs:comment>
-        <rdfs:label xml:lang="en">anonymized data</rdfs:label>
+        <rdfs:label xml:lang="en">anonymized information content entity</rdfs:label>
     </owl:Class>
     
 
@@ -1614,7 +1608,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000113"/>
-        <obo:IAO_0000115>An anonymized data about a genomic sample.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An anonymized information content entity about a genomic sample.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">Anonymized data and samples are initially single or double coded but the link between the subjects identifiers and the unique code is subsequently deleted. Once the link has been deleted it is no longer possible to trace the data and samples back to the individual through the coding key. Anonymisation is intended to prevent subject re-identification. As anonymised samples and associated data are not traceable back to the subject it is not possible to undertake actions such as sample withdrawal, or the return of individual results. The use of anonymised data and samples does not allow for clinical monitoring, subject follow-up or the addition of new data. The deletion of the coding key linking the data and samples to the subjects identifiers provides additional confidentiality and privacy protection over coded data and samples, as it prevents subject re-identification through the use of the coding key (ICH).</obo:IAO_0000116>
         <rdfs:label xml:lang="en">anonymized genomic sample</rdfs:label>
     </owl:Class>
@@ -2364,6 +2358,53 @@
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pubmed/15360890</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consenting to the secondary use of EHR</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000219">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant"/>
+        <obo:IAO_0000115 xml:lang="en">A stasis of generically dependent continuant such that the information content that identifies an individual is not present.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Clarification: an information content entity that has previously undergone the process &apos;act of anonymization&apos; participates in this stasis.</obo:IAO_0000116>
+        <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
+        <rdfs:label xml:lang="en">stasis of anonymization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000220">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 xml:lang="en">A material entity (either a human being or an aggregate of humans such as an organization) which is active in a process or has the relevant capabilities of intentionality.</obo:IAO_0000115>
+        <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
+        <rdfs:label xml:lang="en">agent</rdfs:label>
     </owl:Class>
     
 
@@ -3145,7 +3186,7 @@ Note: One may have the same capability to consent, but whether that capability t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A planned process that involves altering a datum that is associated with an individual, such that such association is lost or inaccessible.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process that involves altering an information content entity that is associated with an individual, such that such association is lost or inaccessible.</obo:IAO_0000115>
         <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
         <rdfs:label xml:lang="en">act of anonymization</rdfs:label>
     </owl:Class>
@@ -3156,7 +3197,7 @@ Note: One may have the same capability to consent, but whether that capability t
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000218">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000217"/>
-        <obo:IAO_0000115 xml:lang="en">An act of anonymization that alters a datum by removing information content which identifies that individual.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An act of anonymization that alters an information content entity by removing information content which identifies that individual.</obo:IAO_0000115>
         <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
         <rdfs:label xml:lang="en">act of removing identifiable information</rdfs:label>
     </owl:Class>
@@ -3215,7 +3256,7 @@ Note: One may have the same capability to consent, but whether that capability t
         <obo:IAO_0000119 xml:lang="en">https://github.com/CommonCoreOntology/CommonCoreOntologies</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">at this time only stasis of genetically dependant continuant will be represented in RUBRIC, leaving open the possibility of modeling other types of stasis as represented in the Common Core Ontologies. An example use case would be the transition of law enumerated by one document to a new iteration of the document for the same law. In this case, the old document would no longer be ‘legally effective’ and the corresponding stasis would cease.</obo:IAO_0000232>
         <dc:date xml:lang="en">Retrieved from Common Core Ontologies 7/17/2018</dc:date>
-        <rdfs:label xml:lang="en">stasis of genetically dependant continuant</rdfs:label>
+        <rdfs:label xml:lang="en">stasis of generically dependant continuant</rdfs:label>
     </owl:Class>
     
 
