@@ -183,11 +183,21 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ico.owl#ICO_0000224 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000216 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ico.owl#ICO_0000224">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000216">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+        <obo:IAO_0000115 xml:lang="en">A relation holding between an instance of a deontic role and an instance of an intentional action when the deontic role bearer participates in the intentional action and is allowed to do so.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">permits</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000224 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000224">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICO_0000225"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000225"/>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">A relation between a process and a continuant, where the continuant is a causal participant in the process.</rdfs:comment>
         <rdfs:label xml:lang="en">has agent</rdfs:label>
@@ -195,23 +205,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ico.owl#ICO_0000225 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000225 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ico.owl#ICO_0000225">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000225">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
         <obo:IAO_0000115 xml:lang="en">A relation between a continuant and a process, where the continuant is a causal participant in the process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">agent in</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000216 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000216">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-        <obo:IAO_0000115 xml:lang="en">A relation holding between an instance of a deontic role and an instance of an intentional action when the deontic role bearer participates in the intentional action and is allowed to do so.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">permits</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -265,8 +265,8 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000213"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000214"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ICO_0000213"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ICO_0000214"/>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -445,7 +445,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ICO_0000001"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICO_0000222"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000222"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -665,7 +665,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000213"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000213"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form for qualitative study that involves children.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
@@ -677,7 +677,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000213"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000213"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form for clinical study that involves children.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
@@ -933,7 +933,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000066"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICO_0000224"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICO_0000224"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000048"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -950,7 +950,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000066"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICO_0000224"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICO_0000224"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1903,7 +1903,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000138 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000138">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000213"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000213"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form that contains sections specific to procedures in vaccination.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">immunization consent form</obo:IAO_0000118>
@@ -2146,7 +2146,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000159 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000159">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000196"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000196"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent process in which the participant communicates consent orally rather than by filling out and signing a written form.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://oprs.usc.edu/files/2017/04/Informed-Consent-Booklet-4.4.13.pdf</obo:IAO_0000119>
@@ -2313,7 +2313,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000177 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000177">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000196"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000196"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent for a subject agrees not to have financial benefit in the future.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Christoph Brochhausen, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">consenting not to have financial benefit</rdfs:label>
@@ -2386,6 +2386,367 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000184">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000232 xml:lang="en">Note that some of these are defined classes.</obo:IAO_0000232>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete NEW_CLASSES</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000085"/>
+        <obo:IAO_0000115 xml:lang="en">An informed consent form that is adapted to the cognitive capacities of someone with significant mental impairment.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">informed assent form for mentally impaired</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
+        <obo:IAO_0000115 xml:lang="en">A temporal region during which an act is (or acts are) permitted.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">permission temporal region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic role, which may be realized in an Act of Consent, where the bearer of the legal representative role consents on behalf of a person who lacks the capability to provide consent.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">Mathias says this shouldn&apos;t mention &apos;act of consent&apos;. I think the idea is that our definition is narrower than the class label indicates.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">Note: Consent roles are created by Acts of Consent. It follows that one can’t be a consenter and bear a consenter role just because one participated in an informed consent process. Here, one would be a mere research candidate or human subject or...etc, who participated in an informed consent process. Assenter Role, likewise, is the output of an Act of Communicating Assent. Both these roles are backward looking--i.e. They are created by the processes of assent and consent and do not pre-date them. By contrast, ‘Legal Representative Role’ and ‘Permission Role’ are not, by definition, tied to Acts of Consenting and Acts of Assenting. Such roles are the output of other processes, including ‘Act of Permitting’ in the latter case, and perhaps ‘Act of Legal Representative Authorization’ in the former.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">Note: Hypothesis: it is a requirement of bearing a legal representative role in some jurisdiction(J) that one also bears a competency to consent in (J).</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">legal representative role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role borne by a human being who is part of a group of individuals and acts as a contact person for the group.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">contact role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that specifies a human being who is to bear a contact role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">contact specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
+        <obo:IAO_0000115 xml:lang="en">A document part that describes the benefit that accompany participation and their likelihoods.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">description of participation benefit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
+        <obo:IAO_0000115 xml:lang="en">A document part that describes the action types to be permitted.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">description of allowed action types</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
+        <obo:IAO_0000115 xml:lang="en">A description of allowed action types that has in view a wide, unspecified range of action types, and is restricted only by a regulator body.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">description of broad consent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process of providing information according to prompts on a form.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">act of filling out form</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000194">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A process that is carried out by a conscious being or an aggregate of conscious beings, and is spontaneous, directed towards another conscious being or another aggregate of conscious beings, and that needs to be perceived.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">This is a D-Act Term, included here as a placeholder untill D-acts is imported.</obo:IAO_0000232>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete social act (placeholder)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
+        <obo:IAO_0000115 xml:lang="en">A social act in which an agent bearing a deontic power role and realizes that role in the creation of a permission role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">Axiom: Every ‘Act of permitting’ has process part some (‘Speech Act’ or ‘Document Act’).
+Note: This class is very general, and doesn’t only apply to consent and healthcare contexts.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">Note: This will eventually live in D-acts, along with Deontic Role and Permission Role.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">Note: ‘Act of permitting’, ‘act of consenting’, and ‘act of communicating assent’ are all success terms, which is to say that no ‘act of permitting’ does not issue a permission, no ‘act of consenting’ does not issue a consent, and no ‘act of communicating assent’ does not issue an assent.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">act of permitting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000195"/>
+        <obo:IAO_0000115 xml:lang="en">An act of permitting that is a process part of some informed consent process and has output some consenter role and has output some permission role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">Note: This class is very general, and doesn’t only apply to consent and healthcare contexts. There may be further subclasses of consenting for which there are also required process parts, such as a process of informing a patient of the risks associated with a medical procedure or research investigation.
+
+Also, 6/28: Mathias writes: This definition is probably incorrect. I assume we don&apos;t want to affirm that only within informed consent we do find acts of consenting.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">act of informed consenting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
+        <obo:IAO_0000115 xml:lang="en">An act of communicating one’s agreement.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">act of communicating assent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in an agent and which is externally grounded in the personal normative expectations of other agents within a social context.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This may be a D-acts term. TBD.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">deontic role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000199">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000198"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic role that inheres in an agent and which permits certain actions.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">Important Note: When we use ‘consent’ to talk about the thing provided to an investigator then what we are referring to is a permission role, that was the output of an Act of Consent. This is all consent is, per this representation.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">Note: This may become ‘permittee role’ in order to better distinguish it from the corresponding ‘permittor role’ (the person with the deontic power to grant permissions to others).</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">Note: Typically, in the context of consent, a permission role will inhere in a clinician or investigator as a result of an act of permitting, but possibly an act of authorizing. Authorizing is different from permitting, but this needs to be worked out. Perhaps one has provided permission, but the process and the documentation need to be authorized by some authority prior to a clinician acquiring a permission role. There is also the case Chris Stockert raised, where an organization authorizes some data or specimens to be used, despite no consent or assent having been provided.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">permission role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000200">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic power role that, if realized, may permit an Act of Consent and thereby create a permission role, or revoke or modify a previously provided permission role created by permitting an Act of Consent.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">Note: A Consent Power Role inheres in all those who bear a legal right to consent. Such a role represents a de jure right that holds within some socio-legal jurisdiction. It follows that one may bear an instance of a consent power role within one jurisdiction but one may lack an instance of a consent power role within a second jurisdiction, given that one’s  capability to consent may satisfy legal conditions in the former jurisdiction but not in the latter.</obo:IAO_0000232>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consent power role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115 xml:lang="en">A cognitive capability inhering in some agent, which may be realized in an Act of Consent.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">Note: Capability-talk is fraught and so attention to this particular, somewhat stipulative notion is necessary.
+First: Capabilities are BFO:Dispositions. Hence, we’re not talking about institutional power, which will be represented separately using deontic roles. This is compatible with institutional rules requiring a particular capability.
+Second: Like roles, capabilities can have other capabilities as parts. Thus, the capability to consent requires, as part, the capability to understand information, the capability to appreciate the consequences of one’s actions, and other capabilities related to a basic, agential capacity to be reasons-responsive. These capacities may be realized in other sub-parts of the informed consent process, and they may be identified in processes of cognitive assessment.
+	Third: Capabilities may be assessed along a scale, with some having a greater capability to consent and some having a lesser ability to consent. The same capability at the same degree may pass muster in some jurisdictions but fail to pass in others. When it does succeed in passing some legal requirement, then the bearer of the capability has a Consent Power Role and their capability to consent now counts as a competency.
+	Fourth: Capabilities are cognitive dispositions. As such, the class ‘capability to consent’ is not intended to be a catch-all for all the necessary conditions for legal consent. For instance, being under the age of 18 is not part of an instance of a capability to consent, but the capability to understand risks and benefits may be.
+Fifth: A capability that is so low on the scale as to not pass any tests is no longer a capability but a liability. The distinction between capabilities and liabilities may not be vague ontologically, but may be quite difficult to suss out epistemologically. More to the point: This is perhaps the most revisionist aspect of this reading of capabilities, for it requires that in some particular legal context, we might need to say that someone has a capability to consent that is sufficiently low as to not qualify as a competency within that legal context. Since ‘capability’ is often also used in a bi-valent, no scalable manner (i.e. one either is capable or one is not capable) the notion here involves some stipulation. For this bi-valent notion, we use ‘competent’ (i.e. one either is competent or incompetent).
+	In addition: There is work on capabilities occurring presently within NCOR, so this reading of capabilities may need revising as that work moves forward.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">capability to consent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000201"/>
+        <obo:IAO_0000115 xml:lang="en">A capability to consent that is sufficiently robust as to pass the legal requirements of some socio-legal jurisdiction.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">Axiom: all l all c all t all m (competencytoconsent(m) &amp; inheresin(m,x,t) -&gt; (exists l exists c (legalpowerrole(l) &amp; capabilitytoconsent(c) &amp; (exists r exists o (hasorganizationalcontext(l,r,t) &amp; hasorganizationalcontext(l,o,t) &amp; r=o)) &amp; inheresin(l,x,t) &amp; inheresin(c,x,t)) -&gt; (m=c))).
+
+%If one bears a competency to consent, then one bears a legal power role and a capability to consent in the same legal context at the same time and the competency to consent is identical to the capability to consent.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">One may have the same capability to consent, but whether that capability to consent amounts to a competency might vary between jurisdictions that impose different requirements upon the bearer.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">competency to consent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role that is the output of an act of assent and which inheres in a human being, who, because they fail to satisfy certain criteria for consent, is thereby allowed the aid of a legal representative who aids them in an Act of Consent, and, in some contexts, may be realized in revoking or modifying the permission role that was output of the same Act of Assent.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">assenter role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000204">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000203"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000115 xml:lang="en">An agent who bears an assenter role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">assenter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000205">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000206"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000115 xml:lang="en">An agent who bears a consenter role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">consenter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000206">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic role that is output of some Act of Consent and, in some contexts, may be realized in revoking or modifying the permission role that was output of the same Act of Consent.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">May be deleted. Consenter role just seems like permission role issued by an act of consenting.</obo:IAO_0000232>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consenter role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">A document act input document that explains all relevant information to assist a human being in understanding the expectations and requirements of participation in a process, and whose purpose is to assist in obtaining consent.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">incomplete informed consent form</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">A document that has, as part, an incomplete informed consent form, along with some additional parts, such as a signature, stamp, or initials, which serve as a record to an act of consent having been performed using the incomplete informed consent form.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">The definition does not cite its immediate parent. Is this term one that still receives input? It seems not.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">complete informed consent form indicating consent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000198"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic role that, if realized, is realized in the creation, modification, or revoking of other deontic roles.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">deontic power role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process that involves altering an information content entity that is associated with an individual, such that such association is lost or inaccessible.</obo:IAO_0000115>
+        <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
+        <rdfs:label xml:lang="en">act of anonymization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000217"/>
+        <obo:IAO_0000115 xml:lang="en">An act of anonymization that alters an information content entity by removing information content which identifies that individual.</obo:IAO_0000115>
+        <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
+        <rdfs:label xml:lang="en">act of removing identifiable information</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ICO_0000219 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000219">
@@ -2414,6 +2775,28 @@
         <obo:IAO_0000115 xml:lang="en">A material entity (either a human being or an aggregate of humans such as an organization) which is active in a process or has the relevant capabilities of intentionality.</obo:IAO_0000115>
         <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
         <rdfs:label xml:lang="en">agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
+        <obo:IAO_0000115 xml:lang="en">A social act in which information that is thought to be true, salient, or which is held to have a high degree of certainty is communicated to an agent that previous lacked that information.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda, J. Neil Otte</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">act of informing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is a handwritten depiction of a name.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury, J. Neil Otte.</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">signature</rdfs:label>
     </owl:Class>
     
 
@@ -2536,17 +2919,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
         <rdfs:comment xml:lang="en">Classes proposed for RUBRIC refactoring (non-exhaustive)</rdfs:comment>
         <rdfs:label xml:lang="en">Proposed RUBRIC Classes</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl#ICO_0000222 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#ICO_0000222">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is a handwritten depiction of a name.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury, J. Neil Otte.</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">signature</rdfs:label>
     </owl:Class>
     
 
@@ -2888,378 +3260,6 @@
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">See http://purl.unep.org/sdg/SDGIO_00000024 (Vulnerability):  A disposition of an entity to undergo undesirable change in response to some exposure.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">protection description</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000184 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000184">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000232 xml:lang="en">Note that some of these are defined classes.</obo:IAO_0000232>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete NEW_CLASSES</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000185 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000185">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000085"/>
-        <obo:IAO_0000115 xml:lang="en">An informed consent form that is adapted to the cognitive capacities of someone with significant mental impairment.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">informed assent form for mentally impaired</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000186 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000186">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
-        <obo:IAO_0000115 xml:lang="en">A temporal region during which an act is (or acts are) permitted.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">permission temporal region</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000187 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000187">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A deontic role, which may be realized in an Act of Consent, where the bearer of the legal representative role consents on behalf of a person who lacks the capability to provide consent.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">Mathias says this shouldn&apos;t mention &apos;act of consent&apos;. I think the idea is that our definition is narrower than the class label indicates.</obo:IAO_0000232>
-        <obo:IAO_0000232 xml:lang="en">Note: Consent roles are created by Acts of Consent. It follows that one can’t be a consenter and bear a consenter role just because one participated in an informed consent process. Here, one would be a mere research candidate or human subject or...etc, who participated in an informed consent process. Assenter Role, likewise, is the output of an Act of Communicating Assent. Both these roles are backward looking--i.e. They are created by the processes of assent and consent and do not pre-date them. By contrast, ‘Legal Representative Role’ and ‘Permission Role’ are not, by definition, tied to Acts of Consenting and Acts of Assenting. Such roles are the output of other processes, including ‘Act of Permitting’ in the latter case, and perhaps ‘Act of Legal Representative Authorization’ in the former.</obo:IAO_0000232>
-        <obo:IAO_0000232 xml:lang="en">Note: Hypothesis: it is a requirement of bearing a legal representative role in some jurisdiction(J) that one also bears a competency to consent in (J).</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">legal representative role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000188 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000188">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role borne by a human being who is part of a group of individuals and acts as a contact person for the group.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">contact role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000189 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000189">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
-        <obo:IAO_0000115 xml:lang="en">A directive information entity that specifies a human being who is to bear a contact role.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">contact specification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000190 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000190">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
-        <obo:IAO_0000115 xml:lang="en">A document part that describes the benefit that accompany participation and their likelihoods.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">description of participation benefit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000191 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000191">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
-        <obo:IAO_0000115 xml:lang="en">A document part that describes the action types to be permitted.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">description of allowed action types</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000192 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000192">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
-        <obo:IAO_0000115 xml:lang="en">A description of allowed action types that has in view a wide, unspecified range of action types, and is restricted only by a regulator body.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">description of broad consent</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000193 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000193">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A planned process of providing information according to prompts on a form.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">act of filling out form</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000194 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000194">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">A process that is carried out by a conscious being or an aggregate of conscious beings, and is spontaneous, directed towards another conscious being or another aggregate of conscious beings, and that needs to be perceived.</obo:IAO_0000115>
-        <obo:IAO_0000232 xml:lang="en">This is a D-Act Term, included here as a placeholder untill D-acts is imported.</obo:IAO_0000232>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete social act (placeholder)</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000195 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000195">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
-        <obo:IAO_0000115 xml:lang="en">A social act in which an agent bearing a deontic power role and realizes that role in the creation of a permission role.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">Axiom: Every ‘Act of permitting’ has process part some (‘Speech Act’ or ‘Document Act’).
-Note: This class is very general, and doesn’t only apply to consent and healthcare contexts.</obo:IAO_0000232>
-        <obo:IAO_0000232 xml:lang="en">Note: This will eventually live in D-acts, along with Deontic Role and Permission Role.</obo:IAO_0000232>
-        <obo:IAO_0000232 xml:lang="en">Note: ‘Act of permitting’, ‘act of consenting’, and ‘act of communicating assent’ are all success terms, which is to say that no ‘act of permitting’ does not issue a permission, no ‘act of consenting’ does not issue a consent, and no ‘act of communicating assent’ does not issue an assent.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">act of permitting</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000196 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000196">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000195"/>
-        <obo:IAO_0000115 xml:lang="en">An act of permitting that is a process part of some informed consent process and has output some consenter role and has output some permission role.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">Note: This class is very general, and doesn’t only apply to consent and healthcare contexts. There may be further subclasses of consenting for which there are also required process parts, such as a process of informing a patient of the risks associated with a medical procedure or research investigation.
-
-Also, 6/28: Mathias writes: This definition is probably incorrect. I assume we don&apos;t want to affirm that only within informed consent we do find acts of consenting.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">act of informed consenting</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000197 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000197">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
-        <obo:IAO_0000115 xml:lang="en">An act of communicating one’s agreement.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">act of communicating assent</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000198 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000198">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role that inheres in an agent and which is externally grounded in the personal normative expectations of other agents within a social context.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">This may be a D-acts term. TBD.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">deontic role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000199 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000199">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000198"/>
-        <obo:IAO_0000115 xml:lang="en">A deontic role that inheres in an agent and which permits certain actions.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">Important Note: When we use ‘consent’ to talk about the thing provided to an investigator then what we are referring to is a permission role, that was the output of an Act of Consent. This is all consent is, per this representation.</obo:IAO_0000232>
-        <obo:IAO_0000232 xml:lang="en">Note: This may become ‘permittee role’ in order to better distinguish it from the corresponding ‘permittor role’ (the person with the deontic power to grant permissions to others).</obo:IAO_0000232>
-        <obo:IAO_0000232 xml:lang="en">Note: Typically, in the context of consent, a permission role will inhere in a clinician or investigator as a result of an act of permitting, but possibly an act of authorizing. Authorizing is different from permitting, but this needs to be worked out. Perhaps one has provided permission, but the process and the documentation need to be authorized by some authority prior to a clinician acquiring a permission role. There is also the case Chris Stockert raised, where an organization authorizes some data or specimens to be used, despite no consent or assent having been provided.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">permission role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000200 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000200">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">A deontic power role that, if realized, may permit an Act of Consent and thereby create a permission role, or revoke or modify a previously provided permission role created by permitting an Act of Consent.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">Note: A Consent Power Role inheres in all those who bear a legal right to consent. Such a role represents a de jure right that holds within some socio-legal jurisdiction. It follows that one may bear an instance of a consent power role within one jurisdiction but one may lack an instance of a consent power role within a second jurisdiction, given that one’s  capability to consent may satisfy legal conditions in the former jurisdiction but not in the latter.</obo:IAO_0000232>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consent power role</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000201 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000201">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-        <obo:IAO_0000115 xml:lang="en">A cognitive capability inhering in some agent, which may be realized in an Act of Consent.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">Note: Capability-talk is fraught and so attention to this particular, somewhat stipulative notion is necessary.
-First: Capabilities are BFO:Dispositions. Hence, we’re not talking about institutional power, which will be represented separately using deontic roles. This is compatible with institutional rules requiring a particular capability.
-Second: Like roles, capabilities can have other capabilities as parts. Thus, the capability to consent requires, as part, the capability to understand information, the capability to appreciate the consequences of one’s actions, and other capabilities related to a basic, agential capacity to be reasons-responsive. These capacities may be realized in other sub-parts of the informed consent process, and they may be identified in processes of cognitive assessment.
-	Third: Capabilities may be assessed along a scale, with some having a greater capability to consent and some having a lesser ability to consent. The same capability at the same degree may pass muster in some jurisdictions but fail to pass in others. When it does succeed in passing some legal requirement, then the bearer of the capability has a Consent Power Role and their capability to consent now counts as a competency.
-	Fourth: Capabilities are cognitive dispositions. As such, the class ‘capability to consent’ is not intended to be a catch-all for all the necessary conditions for legal consent. For instance, being under the age of 18 is not part of an instance of a capability to consent, but the capability to understand risks and benefits may be.
-Fifth: A capability that is so low on the scale as to not pass any tests is no longer a capability but a liability. The distinction between capabilities and liabilities may not be vague ontologically, but may be quite difficult to suss out epistemologically. More to the point: This is perhaps the most revisionist aspect of this reading of capabilities, for it requires that in some particular legal context, we might need to say that someone has a capability to consent that is sufficiently low as to not qualify as a competency within that legal context. Since ‘capability’ is often also used in a bi-valent, no scalable manner (i.e. one either is capable or one is not capable) the notion here involves some stipulation. For this bi-valent notion, we use ‘competent’ (i.e. one either is competent or incompetent).
-	In addition: There is work on capabilities occurring presently within NCOR, so this reading of capabilities may need revising as that work moves forward.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">capability to consent</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000202 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000202">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000201"/>
-        <obo:IAO_0000115 xml:lang="en">A capability to consent that is sufficiently robust as to pass the legal requirements of some socio-legal jurisdiction.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">Axiom: all l all c all t all m (competencytoconsent(m) &amp; inheresin(m,x,t) -&gt; (exists l exists c (legalpowerrole(l) &amp; capabilitytoconsent(c) &amp; (exists r exists o (hasorganizationalcontext(l,r,t) &amp; hasorganizationalcontext(l,o,t) &amp; r=o)) &amp; inheresin(l,x,t) &amp; inheresin(c,x,t)) -&gt; (m=c))).
-
-%If one bears a competency to consent, then one bears a legal power role and a capability to consent in the same legal context at the same time and the competency to consent is identical to the capability to consent.</obo:IAO_0000232>
-        <obo:IAO_0000232 xml:lang="en">One may have the same capability to consent, but whether that capability to consent amounts to a competency might vary between jurisdictions that impose different requirements upon the bearer.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">competency to consent</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000203 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000203">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role that is the output of an act of assent and which inheres in a human being, who, because they fail to satisfy certain criteria for consent, is thereby allowed the aid of a legal representative who aids them in an Act of Consent, and, in some contexts, may be realized in revoking or modifying the permission role that was output of the same Act of Assent.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">assenter role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000204 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000204">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000203"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <obo:IAO_0000115 xml:lang="en">An agent who bears an assenter role.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">assenter</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000205 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000205">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000206"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <obo:IAO_0000115 xml:lang="en">An agent who bears a consenter role.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">consenter</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000206 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000206">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">A deontic role that is output of some Act of Consent and, in some contexts, may be realized in revoking or modifying the permission role that was output of the same Act of Consent.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">May be deleted. Consenter role just seems like permission role issued by an act of consenting.</obo:IAO_0000232>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consenter role</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000213 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000213">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
-        <obo:IAO_0000115 xml:lang="en">A document act input document that explains all relevant information to assist a human being in understanding the expectations and requirements of participation in a process, and whose purpose is to assist in obtaining consent.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">incomplete informed consent form</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000214 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000214">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
-        <obo:IAO_0000115 xml:lang="en">A document that has, as part, an incomplete informed consent form, along with some additional parts, such as a signature, stamp, or initials, which serve as a record to an act of consent having been performed using the incomplete informed consent form.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">The definition does not cite its immediate parent. Is this term one that still receives input? It seems not.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">complete informed consent form indicating consent</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000215 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000215">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000198"/>
-        <obo:IAO_0000115 xml:lang="en">A deontic role that, if realized, is realized in the creation, modification, or revoking of other deontic roles.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">deontic power role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000217 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000217">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A planned process that involves altering an information content entity that is associated with an individual, such that such association is lost or inaccessible.</obo:IAO_0000115>
-        <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
-        <rdfs:label xml:lang="en">act of anonymization</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000218 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000218">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000217"/>
-        <obo:IAO_0000115 xml:lang="en">An act of anonymization that alters an information content entity by removing information content which identifies that individual.</obo:IAO_0000115>
-        <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
-        <rdfs:label xml:lang="en">act of removing identifiable information</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000221 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000221">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
-        <obo:IAO_0000115 xml:lang="en">A social act in which information that is thought to be true, salient, or which is held to have a high degree of certainty is communicated to an agent that previous lacked that information.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda, J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">act of informing</rdfs:label>
     </owl:Class>
     
 
@@ -3805,6 +3805,24 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0010000">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0021000">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0021001">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0021014">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0021015">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0021017">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0021018">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
