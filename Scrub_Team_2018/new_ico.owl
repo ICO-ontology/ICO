@@ -160,11 +160,13 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000130 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000130">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/ICO_0000111"/>
         <obo:IAO_0000115 xml:lang="en">A relation that links an informed consent form to an associated IRB number.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Elizabeth Eisenhauer, Yongqun He, Asiyah Yu Lin, Alla Karnovsky, Marcy Harris</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">is associated with review board approval number</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete is associated with review board approval number</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     
 
@@ -246,12 +248,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021007"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICO_0000130"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000111"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A document that explains all relevant information to assist a human being in understanding the expectations and requirements of participation in a process, and is an instrument in obtaining consent and, after having obtained consent, is a record that such a consent has occurred.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">The term definition is adapted from NCIt definition of &apos;consent form&apos; (C16468) with modification. For instance, whereas the NCIt definition restricted informed consent forms to clinical trials, the present definition does not.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, Asiyah Yu Lin, Marcy Harris, Elizabeth Eisenhauer</obo:IAO_0000117>
@@ -787,14 +783,10 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_D-Acts"/>
-        <obo:IAO_0000115 xml:lang="en">The process of making the decision of the competent authorities in form of a letter, document, or verbal or electronic form, that confirms that somebody has permission to do something or be somewhere, e.g. to realize a given project.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">The alternative term of &apos;permission&apos; has semantic similarity with authorization in the sense of &apos;approval to do something&apos; and &apos;the act of giving a formal (usualy written) authorization. The semnatic similarity measuremment of permission and authorization is done using WordNet::Similarity (http://marimba.d.umn.edu/cgi-bin/similarity/).</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">permission</obo:IAO_0000118>
-        <obo:IAO_0000119 xml:lang="en">NCIt C41192</obo:IAO_0000119>
-        <obo:IAO_0000232 xml:lang="en">JV: THis probably belongs in D-Acts.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">authorization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process that examines some entity in order to confirm or ensure that it is constituted in a manner as prescribed by some specification.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">act of verifying</rdfs:label>
     </owl:Class>
     
 
@@ -1104,11 +1096,12 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000074 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000074">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000046"/>
-        <obo:IAO_0000115 xml:lang="en">An authorization that signed by a patient, or his legal representative, or clinical study participant for the use or disclosure of oral, written, or electronic form of confidential health information that identifies the individual and relates to the medical history, diagnosis, treatment, or prognosis of his condition.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">An act of authorizing that is signed by a patient, or his legal representative, or clinical study participant for the use or disclosure of oral, written, or electronic form of confidential health information that identifies the individual and relates to the medical history, diagnosis, treatment, or prognosis of his condition.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">NCIt C70679</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">authorization for release of confidential health information</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete authorization for release of confidential health information</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1116,11 +1109,12 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000075 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000075">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_D-Acts"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A document that is the output of an authorization process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">JV: This probably belongs in D-Acts</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">authorization document</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete authorization document</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1128,11 +1122,12 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000076">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000074"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">An authorization process aims to release the medical record.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">authorization for medical records release</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete authorization for medical records release</rdfs:label>
         <rdfs:seeAlso xml:lang="en">UMLS CUI: C2921556</rdfs:seeAlso>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1532,12 +1527,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000028"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICO_0000132"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000006"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A character string that is assigned by a review board upon approval of a study.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">For the review board approval, different countries or continents may have different responsible entities for approving the study. For example, in USA, the board is called &quot;Institutional Review Board&quot; (IRB). In many countries in Europe, it is called Ethics committee.</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">This term definition is adapted from the definition of the NCIt term &apos;Review Board Approval Number Text&apos;.</obo:IAO_0000116>
@@ -1577,8 +1566,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">An information content entity that has been processed to prevent the identification of the person with whom the data are associated, thereby enduring in a stasis of anonymization.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">CDISC clinical research glossary. (2011). Applied Clinical Trials, 20(12), 11-43. Retrieved from http://search.proquest.com.proxy.lib.umich.edu/docview/914932076?accountid=14667</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Asiyah Yu Lin</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Anonymized data is applicable particularly for secondary use of health data.</rdfs:comment>
         <rdfs:label xml:lang="en">anonymized information content entity</rdfs:label>
     </owl:Class>
@@ -1793,12 +1781,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000111"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICO_0000132"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000079"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A review board approval number that is assigned by an institutional review board.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Elizabeth Eisenhauer, Yongqun He, Alla Karnovsky, Marcy Harris</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">institutional review board approval number</obo:IAO_0000118>
@@ -2204,7 +2186,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000168">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_D-Acts"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021005"/>
         <obo:IAO_0000115 xml:lang="en">A deontic declaration that has permittee role to do genetic research on a human donor as a specified outcome.</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">will add an equivalent class axiom
 &apos;has specified output&apos; some &apos;permittee deontic role in genetic research&apos;</rdfs:comment>
@@ -2486,9 +2468,10 @@
     <!-- http://purl.obolibrary.org/obo/ico.owl#Belongs_in_D-Acts -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_D-Acts">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <rdfs:comment xml:lang="en">This is a dummy class to be deprecated after it has fulfilled its organization purposes</rdfs:comment>
-        <rdfs:label xml:lang="en">ICO Classes to Move to D-Acts</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ICO Classes to Move to D-Acts</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -2507,6 +2490,17 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
         <rdfs:comment xml:lang="en">Classes proposed for RUBRIC refactoring (non-exhaustive)</rdfs:comment>
         <rdfs:label xml:lang="en">Proposed RUBRIC Classes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ico.owl#ICO_0000222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#ICO_0000222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is a handwritten depiction of a name.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury, J. Neil Otte.</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">signature</rdfs:label>
     </owl:Class>
     
 
@@ -2551,10 +2545,11 @@
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A role inhering in an agent that allows that agent to revoke, change, or create a deontic role.</obo:IAO_0000115>
         <obo:IAO_0000232 xml:lang="en">This is a D-Act Term, included here as a placeholder untill D-acts is imported.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">deontic power role (placeholder)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete deontic power role (placeholder)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -2695,7 +2690,7 @@
         <obo:IAO_0000112 xml:lang="en">A ‘signature section,’ an ‘I understand’ clause, or a ‘checkbox.’</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that, when signed, stamped, or initialed realizes a deontic role as described by the document specifications, or specifications in another related document.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">gesture directive</rdfs:label>
+        <rdfs:label xml:lang="en">answer directive</rdfs:label>
     </owl:Class>
     
 
@@ -2967,10 +2962,11 @@
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000194 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000194">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A process that is carried out by a conscious being or an aggregate of conscious beings, and is spontaneous, directed towards another conscious being or another aggregate of conscious beings, and that needs to be perceived.</obo:IAO_0000115>
         <obo:IAO_0000232 xml:lang="en">This is a D-Act Term, included here as a placeholder untill D-acts is imported.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">social act (placeholder)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete social act (placeholder)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -2978,7 +2974,7 @@
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000195">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000194"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
         <obo:IAO_0000115 xml:lang="en">A social act in which an agent bearing a deontic power role and realizes that role in the creation of a permission role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Axiom: Every ‘Act of permitting’ has process part some (‘Speech Act’ or ‘Document Act’).
@@ -3007,7 +3003,7 @@ Also, 6/28: Mathias writes: This definition is probably incorrect. I assume we d
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000197 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000197">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000194"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
         <obo:IAO_0000115 xml:lang="en">An act of communicating one’s agreement.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of communicating assent</rdfs:label>
@@ -3075,14 +3071,13 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000202">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0000201"/>
         <obo:IAO_0000115 xml:lang="en">A capability to consent that is sufficiently robust as to pass the legal requirements of some socio-legal jurisdiction.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Axiom: all l all c all t all m (competencytoconsent(m) &amp; inheresin(m,x,t) -&gt; (exists l exists c (legalpowerrole(l) &amp; capabilitytoconsent(c) &amp; (exists r exists o (hasorganizationalcontext(l,r,t) &amp; hasorganizationalcontext(l,o,t) &amp; r=o)) &amp; inheresin(l,x,t) &amp; inheresin(c,x,t)) -&gt; (m=c))).
 
-%If one bears a competency to consent, then one bears a legal power role and a capability to consent in the same legal context at the same time and the competency to consent is identical to the capability to consent.
-
-Note: One may have the same capability to consent, but whether that capability to consent amounts to a competency might vary between jurisdictions that impose different requirements upon the bearer.</obo:IAO_0000232>
+%If one bears a competency to consent, then one bears a legal power role and a capability to consent in the same legal context at the same time and the competency to consent is identical to the capability to consent.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">One may have the same capability to consent, but whether that capability to consent amounts to a competency might vary between jurisdictions that impose different requirements upon the bearer.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">competency to consent</rdfs:label>
     </owl:Class>
     
@@ -3212,6 +3207,17 @@ Note: One may have the same capability to consent, but whether that capability t
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
+        <obo:IAO_0000115 xml:lang="en">A social act in which information that is thought to be true, salient, or which is held to have a high degree of certainty is communicated to an agent that previous lacked that information.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda, J. Neil Otte</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">act of informing</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026">
@@ -3264,7 +3270,7 @@ Note: One may have the same capability to consent, but whether that capability t
         <obo:IAO_0000119 xml:lang="en">https://github.com/CommonCoreOntology/CommonCoreOntologies</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">at this time only stasis of genetically dependant continuant will be represented in RUBRIC, leaving open the possibility of modeling other types of stasis as represented in the Common Core Ontologies. An example use case would be the transition of law enumerated by one document to a new iteration of the document for the same law. In this case, the old document would no longer be ‘legally effective’ and the corresponding stasis would cease.</obo:IAO_0000232>
         <dc:date xml:lang="en">Retrieved from Common Core Ontologies 7/17/2018</dc:date>
-        <rdfs:label xml:lang="en">stasis of generically dependant continuant</rdfs:label>
+        <rdfs:label xml:lang="en">stasis of generically dependent continuant</rdfs:label>
     </owl:Class>
     
 
