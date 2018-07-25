@@ -11,6 +11,8 @@ This is a file that enumerates the final review items necessary for the ico.owl 
 - Resolve synonyms:
   - Known issues: permissions/permitee, subject/person/agent/patient
 - FOL is consistent
+- Watch out for specify
+- Add 'covered entity?'
 
 ################### Format Checks ###################
 - File in correct OBO format
