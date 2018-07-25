@@ -2952,7 +2952,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066"/>
-        <obo:IAO_0000115 xml:lang="en">A site is defined by the boundaries of a deontic power.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A site that demarcates the deontic power of a formally constituted regulatory body to exercise its control within the bounded area.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">&apos;Jurisdiction&apos; is often defined in two senses: (1) a geopolitical context (BFO site), or (2)  a power. RUBRIC defines jurisdiction as a BFO site, identifiable through shared context of other entities, like a country or state border, or the grounds of an institution. The term ‘deontic power role’ reflects the sense of ‘power’ sometimes used to describe jurisdiction.</rdfs:comment>
         <rdfs:label xml:lang="en">jurisdiction</rdfs:label>
