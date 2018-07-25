@@ -241,14 +241,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000027 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000027">
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000034 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000034">
@@ -368,8 +360,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
-        <obo:IAO_0000115 xml:lang="en">A document part that describes the harm that accompany participation and their likelihoods.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that specifies potential harm or potential loss and estimates of their likelihoods, that may result from participation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">description of participation risk</rdfs:label>
     </owl:Class>
     
@@ -834,7 +826,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#http://purl.obolibrary.org/obo/OBI_0000181"/>
         <obo:IAO_0000115 xml:lang="en">A population of human beings.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">human population</rdfs:label>
@@ -1573,7 +1565,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000028"/>
-        <obo:IAO_0000115 xml:lang="en">A character string that is assigned by a review board upon approval of a study.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A character string that is assigned by a review board upon approval of a protocol.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">For the review board approval, different countries or continents may have different responsible entities for approving the study. For example, in USA, the board is called &quot;Institutional Review Board&quot; (IRB). In many countries in Europe, it is called Ethics committee.</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">This term definition is adapted from the definition of the NCIt term &apos;Review Board Approval Number Text&apos;.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Elizabeth Eisenhauer, Yongqun He, Alla Karnovsky, Marcy Harris</obo:IAO_0000117>
@@ -2232,6 +2224,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000168">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021005"/>
         <obo:IAO_0000115 xml:lang="en">A deontic declaration that has output a permittee role that permits genetic research on a human donor as a specified outcome.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">will add an equivalent class axiom
 &apos;has specified output&apos; some &apos;permittee deontic role in genetic research&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">genetic research permission deontic declaration</rdfs:label>
@@ -2457,8 +2450,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000190">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
-        <obo:IAO_0000115 xml:lang="en">A document part that describes the benefit that accompany participation and their likelihoods.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that specifies potential advantage or potential gain and estimates of their likelihoods, that may result from participation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">description of participation benefit</rdfs:label>
     </owl:Class>
     
@@ -2480,7 +2473,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000192">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
         <obo:IAO_0000115 xml:lang="en">A description of allowed action types that has in view a wide, unspecified range of action types, and is restricted only by a regulator body.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">description of broad consent</rdfs:label>
     </owl:Class>
     
@@ -2963,7 +2956,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066"/>
-        <obo:IAO_0000115 xml:lang="en">A site defined by the boundaries of a deontic power role that inheres in a regulatory body.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A site defined by the boundaries of a deontic power.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <rdfs:comment>&apos;Jurisdiction&apos; is often defined in two senses: (1) a geopolitical context (BFO site), or (2)  a power. RUBRIC defines jurisdiction as a BFO site, identifiable through shared context of other entities, like a country or state border, or the grounds of an institution. The term ‘deontic power role’ reflects the sense of ‘power’ sometimes used to describe jurisdiction.</rdfs:comment>
         <rdfs:label xml:lang="en">jurisdiction</rdfs:label>
@@ -3300,6 +3293,18 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ico.owl#http://purl.obolibrary.org/obo/OBI_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#http://purl.obolibrary.org/obo/OBI_0000181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 xml:lang="en">A population is a collection of individuals from the same taxonomic class living, counted or sampled at a particular site or in a particular area.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <dc:date xml:lang="en">Added from OBI 07.25.2018</dc:date>
+        <rdfs:label xml:lang="en">population</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000223 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000223">
@@ -3446,6 +3451,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000026">
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000027">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000028">
