@@ -1,0 +1,19 @@
+This is a file that enumerates the final review items necessary for the ico.owl file
+
+
+################### Final Checks Outstanding ###################
+- Spell check all annotations
+- Grammar check all annotations
+- All definitions have 'genus - differentia' form
+- No axioms point to obsolete classes
+- Protege reasoner to check axiomatic consistency
+- All 'roles' have the 'role' suffix
+- Resolve synonyms:
+  - Known issues: permissions/permitee, subject/person/agent/patient
+- FOL is consistent
+- Watch out for specify
+- Add 'covered entity?'
+
+################### Format Checks ###################
+- File in correct OBO format
+- new PURLS resolve in OBO
