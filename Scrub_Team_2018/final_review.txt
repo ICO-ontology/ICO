@@ -17,3 +17,14 @@ This is a file that enumerates the final review items necessary for the ico.owl 
 ################### Format Checks ###################
 - File in correct OBO format
 - new PURLS resolve in OBO
+
+
+#################IOUs########################
+- 'research study' should be replaced by OBI: investigation
+
+- ADD OBI:patient role
+
+- Add both OBIB:specimen and OBIB:specimen role
+
+- Tell OBI that 'organization' is an object aggregate' , and that their definition of organization seems like a definition of institution rather than organization. 
+
