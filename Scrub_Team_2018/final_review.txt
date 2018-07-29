@@ -32,3 +32,8 @@ For all CCO terms, add the following license info in an annotation property: "BS
 Copyright (c) 2017, CUBRC, Inc.
 All rights reserved."
 
+Change stasis of law definition so that an information content entity, and not a document, is the participant in the stasis, during which the information content entity is regonized as law. Confirm this is the case for other classes of law. 
+
+Revisit jurisdiction. 
+
+
