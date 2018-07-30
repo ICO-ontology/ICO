@@ -2765,7 +2765,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ICO_0000219 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000219">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
         <obo:IAO_0000115 xml:lang="en">A stasis of generically dependent continuant such that the information content that identifies an individual is not present.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">Clarification: an information content entity that has previously undergone the process &apos;act of anonymization&apos; participates in this stasis.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
@@ -2938,9 +2938,10 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000065"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <rdfs:comment xml:lang="en">Classes proposed for RUBRIC refactoring (non-exhaustive)</rdfs:comment>
-        <rdfs:label xml:lang="en">Proposed RUBRIC Classes</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete Proposed RUBRIC Classes</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -2948,11 +2949,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A site that demarcates the deontic power of a formally constituted regulatory body to exercise its control within the bounded area.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">&apos;Jurisdiction&apos; is often defined in two senses: (1) a geopolitical context (BFO site), or (2)  a power. RUBRIC defines jurisdiction as a BFO site, identifiable through shared context of other entities, like a country or state border, or the grounds of an institution. The term ‘deontic power role’ reflects the sense of ‘power’ sometimes used to describe jurisdiction.</rdfs:comment>
-        <rdfs:label xml:lang="en">jurisdiction</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete jurisdiction</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -2960,11 +2962,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000002">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has participant some document and during which that document is recognized within that jurisdiction and directs governance within that jurisdiction.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">The term label ‘Stasis of Regulation’ encompasses state law, federal statutes, and institutional policy.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">stasis of regulation</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete stasis of regulation</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -2972,12 +2975,13 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A stasis of regulation that has participant some document and during which that document is recognized as a law within the jurisdiction in which the stasis of regulation is occurring.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">The  ‘stasis of law’ designates the spatial and temporal conditions that need to be met in order for a regulatory document to be a ‘law’ or a ‘policy.’ This is necessary because laws, or other regulations are overturned, made obsolete, ect..., but material entities concretizing them persist.</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">There are many definitions and conceptions of law, which can be elaborated in further work. There is a concern not to define law in such a way that we narrow the scope beyond an international context.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">stasis of law</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete stasis of law</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -2997,10 +3001,11 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">An organization that has a deontic power role prescribed by some regulatory document that occurs in a stasis of regulation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">regulatory body</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete regulatory body</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3008,12 +3013,13 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A document that either prescribes actions or prescribes the permissions, obligations, restrictions, or protections relating to public or legal policy.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Rules, legal specifications, guidelines (both categorical and hypothetical), that exist together in one regulatory document. Regulations may contain a single, or multiple rules.</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">The clause ‘permissions, obligations, restrictions, or protections’ will be replaced with more general superclass, likely from d-acts, when that infrastructure becomes available. IOU Code.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">regulatory document</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete regulatory document</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3021,11 +3027,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000006"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000112 xml:lang="en">‘HIPAA documents,’ ‘The Common Rule,’ an ‘Informed Consent Regulatory Document.’</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A regulatory document designed to prescribe research involving human subjects.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">human subject research regulatory document</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete human subject research regulatory document</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3033,11 +3040,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000006"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A regulatory document designed to prescribe an informed consent process or inputs in an informed consent process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000425 xml:lang="en">‘Informed Consent Waivers,’ ‘Informed Consent Exemptions.’</obo:IAO_0000425>
-        <rdfs:label xml:lang="en">informed consent regulatory document</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent regulatory document</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3045,9 +3053,10 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <rdfs:comment xml:lang="en">A placeholder class.</rdfs:comment>
-        <rdfs:label xml:lang="en">IAO_directive_information_entities (placeholder)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete IAO_directive_information_entities (placeholder)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3055,11 +3064,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000112 xml:lang="en">Do action (x).</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A rule in an informed consent regulatory document that prescribes either an informed consent process or deontic roles inhering in agents that participate in an informed consent process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">informed consent rule</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent rule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3067,12 +3077,13 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A rule in an informed consent regulatory document that prescribes an informed consent process and has part trigger condition description.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Those conditions that have important implications are enumerated in a specification of condition.</obo:IAO_0000232>
         <obo:IAO_0000600 xml:lang="en">The logical form of a conditional rule is as follows: if condition (y) obtains, then perform action (x).</obo:IAO_0000600>
-        <rdfs:label xml:lang="en">conditional informed consent rule</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete conditional informed consent rule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3080,10 +3091,11 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A rule in an informed consent regulatory document that prescribes deontic roles that may be realized in an unspecified range of activities, or which is subject to few restrictions.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">broad consent rule</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete broad consent rule</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3091,10 +3103,11 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes information that must be revealed and prescribes to whom that information must be revealed.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">disclosure directive</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete disclosure directive</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3102,11 +3115,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000112 xml:lang="en">A description of who can consent (but not the conditions required to be realizable).</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes a deontic power role or the process that realizes it.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">deontic role directive</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete deontic role directive</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3114,11 +3128,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the limits of disclosure regarding an agent’s identity.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">May need ‘Conditional Confidentiality Directive&apos; in the future.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">confidentiality directive</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete confidentiality directive</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3126,11 +3141,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000112 xml:lang="en">A ‘signature section,’ an ‘I understand’ clause, or a ‘checkbox.’</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that, when signed, stamped, or initialed realizes a deontic role as described by the document specifications, or specifications in another related document.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">answer directive</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete answer directive</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3138,10 +3154,11 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that enumerates the results if a trigger condition describing failure to comply with a rule is met.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte, Jonathan Vajda</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">consequent directive</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consequent directive</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3149,11 +3166,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes a deontic role that permits some action or an action that realizes a deontic role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000600 xml:lang="en">Permission to do (x).</obo:IAO_0000600>
-        <rdfs:label xml:lang="en">permission directive</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete permission directive</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3161,11 +3179,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes a deontic role that permits some action that has part trigger condition description.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000600 xml:lang="en">Permission to do (x), if condition (y).</obo:IAO_0000600>
-        <rdfs:label xml:lang="en">conditional permission directive</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete conditional permission directive</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3173,11 +3192,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes actions that are impermissible.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000600 xml:lang="en">When particpating in an informed consent process (a), do not do action (y).</obo:IAO_0000600>
-        <rdfs:label xml:lang="en">restriction directive</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete restriction directive</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3185,11 +3205,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes actions that are impermissible that has part trigger condition description.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000600 xml:lang="en">When particpating in an informed consent process (a), if conditon (x) do not do action (y).</obo:IAO_0000600>
-        <rdfs:label xml:lang="en">conditional restriction directive</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete conditional restriction directive</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3197,10 +3218,11 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes an obligation that is realized a deontic role that is the output of a document act.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">obligation directive</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obligation directive</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3208,10 +3230,11 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes an obligation that is realized a deontic role that is the output of a document act and that has part trigger condition description.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">conditional obligation directive</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete conditional obligation directive</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3219,11 +3242,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000024">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000112 xml:lang="en">The section of an informed consent document that describes a clinical procedure that the agent is consenting to.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes a medical procedure.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">medical procedure description</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete medical procedure description</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3231,10 +3255,11 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000025">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that reports that participation in the procedures described elsewhere in the document are voluntary.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">voluntary participation description</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete voluntary participation description</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3242,10 +3267,11 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000026">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that specifies the agent that is liable if a trigger condition describing failure to comply with a rule is met, as determined by by a regulatory body that has authority within a jurisdiction, which, is also the location of a stasis of generically dependent continuant which has participant the regulatory document.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">liability description</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete liability description</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3253,11 +3279,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000027">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes some state of affairs such that, if that state of affairs holds, some other prescription follows.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">An antecedent</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">trigger condition description</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete trigger condition description</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3265,11 +3292,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A trigger condition description that nullifies some other prescription or obligation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Term definition adapted from http://purl.obolibrary.org/obo/NCIT_C73530</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">exemption condition description</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete exemption condition description</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3277,11 +3305,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#RUBRIC_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A trigger condition description describing some person or group of people who either a) bear a disposition of vulnerability or b) are of a type whose instances are known to frequently bear a disposition of vulnerability.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">See http://purl.unep.org/sdg/SDGIO_00000024 (Vulnerability):  A disposition of an entity to undergo undesirable change in response to some exposure.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">protection description</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete protection description</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3344,11 +3373,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity -->
 
     <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">An information content entity that consists of a set of propositions that describe some entity.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/CommonCoreOntology/CommonCoreOntologies</obo:IAO_0000119>
         <dc:date xml:lang="en">Retrieved from Common Core Ontologies 7/17/2018</dc:date>
-        <rdfs:label xml:lang="en">descriptive information content entity</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete descriptive information content entity</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3356,11 +3386,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Stasis -->
 
     <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Stasis">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A process in which some independent continuant endures and one or more of the dependent entities it bears does not change in kind or intensity.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/CommonCoreOntology/CommonCoreOntologies</obo:IAO_0000119>
         <dc:date xml:lang="en">Retrieved from Common Core Ontologies 7/17/2018</dc:date>
-        <rdfs:label xml:lang="en">stasis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete stasis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3368,12 +3399,13 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant -->
 
     <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Stasis"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A stasis in which some independent continuant bears some generically dependent continuant that remains unchanged during a temporal interval.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/CommonCoreOntology/CommonCoreOntologies</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">at this time only stasis of genetically dependant continuant will be represented in RUBRIC, leaving open the possibility of modeling other types of stasis as represented in the Common Core Ontologies. An example use case would be the transition of law enumerated by one document to a new iteration of the document for the same law. In this case, the old document would no longer be ‘legally effective’ and the corresponding stasis would cease.</obo:IAO_0000232>
         <dc:date xml:lang="en">Retrieved from Common Core Ontologies 7/17/2018</dc:date>
-        <rdfs:label xml:lang="en">stasis of generically dependent continuant</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete stasis of generically dependent continuant</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3381,12 +3413,13 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://www.semanticweb.org/ontologies/TestingProcessOntology/ActOfReview -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/TestingProcessOntology/ActOfReview">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#ICODEV_0000066"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">An act of appraisal that examines some entity in order to confirm or ensure that a planned process occurred in the manner prescribed by some specification.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://github.com/NCOR-US/CHAMP</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">There may be many important subclasses of this class that are relevant to informed consent.</obo:IAO_0000232>
         <dc:date xml:lang="en">Retrieved from NCOR-US/CHAMP 7/17/2018</dc:date>
-        <rdfs:label xml:lang="en">act of review (placeholder)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete act of review (placeholder)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
