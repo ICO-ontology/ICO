@@ -2923,6 +2923,18 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ico.owl#ICO_0000226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#ICO_0000226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO"/>
+        <obo:IAO_0000115 xml:lang="en">A stasis of generically dependent continuant such that the information content that identifies an individual is not present.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">An information content entity that has previously undergone the process &apos;act of anonymization&apos; participates in this stasis.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">stasis of anonymization</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ico.owl#http://purl.obolibrary.org/obo/OBI_0000181 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#http://purl.obolibrary.org/obo/OBI_0000181">
