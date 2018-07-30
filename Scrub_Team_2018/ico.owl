@@ -2951,9 +2951,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000223">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000215"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic power role that may be realized in an act of consent that is a process part of an informed consent process.</obo:IAO_0000115>
         <obo:IAO_0000232 xml:lang="en">a consent power role is a legal right that holds within a jurisdiction and is a necessary requirement to bear a competency to consent.</obo:IAO_0000232>
         <dc:creator xml:lang="en">J. Neil Otte</dc:creator>
-        <rdfs:comment xml:lang="en">a deontic power role that may be realized in an act of consent that is a process part of an informed consent process.</rdfs:comment>
         <rdfs:label xml:lang="en">consent power role</rdfs:label>
     </owl:Class>
     
