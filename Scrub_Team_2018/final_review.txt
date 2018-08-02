@@ -1,5 +1,27 @@
 List of to-dos for ICO and RUBRIC
 
+Up Next:
+- RUBRIC: Add CRO classes to RUBRIC
+- RUBRIC: add designative information entity to file (CCO)
+- RUBRIC: Waiver of Consent
+- RUBRIC: 'Answer directive' label
+- RUBRIC: Every conditional will have a trigger condition description ('if') and a consequent directive ('then').
+- RUBRIC: Add stasis of 'policy?'
+- RUBRIC: Revisit jurisdiction
+- RUBRIC: update 'risk' and 'benefit'
+- Description of 'incentive'
+- Medical procedure should be 'research procedure' and 'clinical procedure'
+- Planned and Actual study duration measurements are different
+- Validating an informed consent form
+
+Final:
+-- RUBRIC: For all CCO terms, add the following license info in an annotation property:
+
+    "BSD 3-Clause License
+    Copyright (c) 2017, CUBRC, Inc.
+    All rights reserved."
+
+- RUBRIC: Watch out for 'specify'
 - Spell check all annotations
 - Grammar check all annotations
 - All definitions have 'genus - differentia' form
@@ -10,22 +32,9 @@ List of to-dos for ICO and RUBRIC
   - Known issues: permissions/permitee, subject/person/agent/patient
 - FOL is consistent
 - d-acts import structure resolved
-- Watch out for specify
 - Add 'covered entity?'
-- Add 'prescribes' from CCO
 - All terms have a definition source?
 - File in correct OBO format
 - new PURLS resolve in OBO
 - 'research study' should be replaced by OBI: investigation
-- ADD OBI:patient role
-- Add both OBIB:specimen and OBIB:specimen role
 - Tell OBI that 'organization' is an object aggregate' , and that their definition of organization seems like a definition of institution rather than organization.
-- For all CCO terms, add the following license info in an annotation property:
-
-    "BSD 3-Clause License
-    Copyright (c) 2017, CUBRC, Inc.
-    All rights reserved."
-
-- Change stasis of law definition so that an information content entity, and not a document, is the participant in the stasis, during which the information content entity is recognized as law. Confirm this is the case for other classes of law.
-- Revisit jurisdiction.
-- RUBRIC: every conditional specification has part some trigger condition and some consequent directive
