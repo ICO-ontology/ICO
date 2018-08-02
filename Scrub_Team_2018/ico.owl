@@ -2989,9 +2989,10 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#ICO_0000226">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant"/>
-        <obo:IAO_0000115 xml:lang="en">A stasis of generically dependent continuant such that the information content that identifies an individual is not present.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has participant some information content entity which, during the stasis, is unable to be used to identify some agent which the information is about.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury, J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">An information content entity that has previously undergone the process &apos;act of anonymization&apos; participates in this stasis.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">We expect to add a subclass axiom: &apos;preceded by&apos; some &apos;Act of Anonymizing&apos;</obo:IAO_0000232>
         <rdfs:label xml:lang="en">stasis of anonymization</rdfs:label>
     </owl:Class>
     
