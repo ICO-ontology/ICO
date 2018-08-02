@@ -1,21 +1,11 @@
 List of to-dos for ICO and RUBRIC
 
 Up Next:
-- RUBRIC: Waiver of Consent
 - RUBRIC: Add CRO classes to RUBRIC
+- RUBRIC: Waiver of Consent
 - RUBRIC: 'Answer directive' label
-- RUBRIC: Move liability to directive
 - RUBRIC: Every conditional will have a trigger condition description ('if') and a consequent directive ('then').
-- RUBRIC: For all CCO terms, add the following license info in an annotation property:
-
-    "BSD 3-Clause License
-    Copyright (c) 2017, CUBRC, Inc.
-    All rights reserved."
-
-- RUBRIC: Change stasis of law definition so that an information content entity, and not a document, is the participant in the stasis, during which the information content entity is recognized as law. Confirm this is the case for other classes of law.
-- RUBRIC: Watch out for 'specify'
 - RUBRIC: Add stasis of 'policy?'
-- RUBRIC: Add 'prescribes' from CCO
 - RUBRIC: Revisit jurisdiction
 - RUBRIC: update 'risk' and 'benefit'
 - Description of 'incentive'
@@ -24,6 +14,13 @@ Up Next:
 - Validating an informed consent form
 
 Final:
+-- RUBRIC: For all CCO terms, add the following license info in an annotation property:
+
+    "BSD 3-Clause License
+    Copyright (c) 2017, CUBRC, Inc.
+    All rights reserved."
+
+- RUBRIC: Watch out for 'specify'
 - Spell check all annotations
 - Grammar check all annotations
 - All definitions have 'genus - differentia' form
