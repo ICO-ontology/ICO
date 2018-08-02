@@ -2,6 +2,7 @@ List of to-dos for ICO and RUBRIC
 
 Up Next:
 - RUBRIC: Add CRO classes to RUBRIC
+- RUBRIC: add designative information entity to file (CCO)
 - RUBRIC: Waiver of Consent
 - RUBRIC: 'Answer directive' label
 - RUBRIC: Every conditional will have a trigger condition description ('if') and a consequent directive ('then').
