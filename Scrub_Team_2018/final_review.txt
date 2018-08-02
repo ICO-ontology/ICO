@@ -8,6 +8,7 @@ Up Next:
 - RUBRIC: Every conditional will have a trigger condition description ('if') and a consequent directive ('then').
 - RUBRIC: Add stasis of 'policy?'
 - RUBRIC: Revisit jurisdiction
+- RUBRIC: Add inverse of 'prescribes'
 - RUBRIC: update 'risk' and 'benefit'
 - Description of 'incentive'
 - Medical procedure should be 'research procedure' and 'clinical procedure'
