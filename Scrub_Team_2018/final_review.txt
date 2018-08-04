@@ -7,7 +7,6 @@ Up Next:
 - RUBRIC: 'Answer directive' label
 - RUBRIC: Every conditional will have a trigger condition description ('if') and a consequent directive ('then').
 - RUBRIC: Add stasis of 'policy?'
-- RUBRIC: Revisit jurisdiction
 - RUBRIC: Add inverse of 'prescribes'
 - RUBRIC: update 'risk' and 'benefit'
 - Description of 'incentive'
@@ -16,7 +15,6 @@ Up Next:
 - Validating an informed consent form
 - Different states for informed consent forms
   - pre-approval vs approved vs filled out (where does each class fall?)
-- jurisdiction: A site within which a deontic power may be realized, where that deontic power inheres in a formally created regulatory body.
 
 
 Final:
