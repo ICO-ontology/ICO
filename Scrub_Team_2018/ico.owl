@@ -1297,17 +1297,18 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000810"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000143"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000197"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000810"/>
-        <obo:IAO_0000115 xml:lang="en">An informed consent process that has an assent process as a proper part.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An informed consent process that has an act of communicating assent as a process part, where the person who provides the assent does not bear a competency to consent.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He, Frank Manion, Chris Stoeckert, Jihad Obeid, Jonathan Bona, Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Jonathan Vajda</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.hopkinsmedicine.org/institutional_review_board/guidelines_policies/guidelines/informed_consent_i.html</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">https://www.cancer.gov/about-cancer/treatment/clinical-trials/patient-safety/childrens-assent</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">informed consent process with assenting process</rdfs:label>
+        <rdfs:label xml:lang="en">informed consent process with assent</rdfs:label>
     </owl:Class>
     
 
@@ -1952,7 +1953,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000143 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000143">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000810"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A planned process of acknowledgement, or agreement, to participate in a procedure or study, where the participant is incapable of informed consent.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He, Frank Manion, Chris Stoeckert, Jihad Obeid, Jonathan Bona, Mathias Brochhausen, 2018 Informed Consent Workshop</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">assent process</obo:IAO_0000118>
@@ -1962,7 +1963,8 @@
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
         <rdfs:comment xml:lang="en">According to the Common Rule, the IRB shall determine that adequate provisions are made for soliciting the assent of the children, when in the judgment of the IRB the children are capable of providing assent.</rdfs:comment>
         <rdfs:comment xml:lang="en">Specifically, &quot;assent&quot; is a term used to express willingness to participate in research by persons who are by definition too young to give informed consent but who are old enough to understand the proposed research in general, its expected risks and possible benefits, and the activities expected of them as subjects.</rdfs:comment>
-        <rdfs:label xml:lang="en">assent process</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete assent process</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
