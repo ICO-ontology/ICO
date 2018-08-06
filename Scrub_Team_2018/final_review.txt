@@ -1,5 +1,9 @@
 List of to-dos for ICO and RUBRIC
 
+Add:
+'description of study purpose'
+
+
 Up Next:
 - RUBRIC: Add CRO classes to RUBRIC
 - RUBRIC: add designative information entity to file (CCO)
