@@ -1,7 +1,12 @@
 List of to-dos for ICO and RUBRIC
 
-Add:
+If not in the file, add:
 'description of study purpose'
+IRB number
+act of denying consent
+consent code (from DUO)
+‘prescribes’ (relation)
+
 
 
 Up Next:
