@@ -2797,7 +2797,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000221">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
-        <obo:IAO_0000115 xml:lang="en">A social act in which information that is thought to be true, salient, or which is held to have a high degree of certainty is communicated to an agent that previous lacked that information.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A social act in which information that is thought to be true, salient, or which is held to have a high degree of certainty is communicated to an agent that previously lacked that information.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda, J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">If I communicate falsehoods, I do not inform--I mis-inform.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">act of informing</rdfs:label>
