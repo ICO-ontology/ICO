@@ -4,24 +4,14 @@ If not in the file, add:
 'description of study purpose'
 IRB number
 act of denying consent
-consent code (from DUO)
-‘prescribes’ (relation)
-
 
 
 Up Next:
-- RUBRIC: Add CRO classes to RUBRIC
-- RUBRIC: add designative information entity to file (CCO)
-- RUBRIC: Waiver of Consent
 - RUBRIC: 'Answer directive' label
 - RUBRIC: Every conditional will have a trigger condition description ('if') and a consequent directive ('then').
-- RUBRIC: Add stasis of 'policy?'
-- RUBRIC: Add inverse of 'prescribes'
 - RUBRIC: update 'risk' and 'benefit'
-- Description of 'incentive'
 - Medical procedure should be 'research procedure' and 'clinical procedure'
 - Planned and Actual study duration measurements are different
-- Validating an informed consent form
 - Different states for informed consent forms
   - pre-approval vs approved vs filled out (where does each class fall?)
 - Specimens of different types from OBI
@@ -37,7 +27,7 @@ Final:
     Copyright (c) 2017, CUBRC, Inc.
     All rights reserved."
 
-- RUBRIC: Watch out for 'specify'
+- Watch out for 'specify'
 - Spell check all annotations
 - Grammar check all annotations
 - All definitions have 'genus - differentia' form
