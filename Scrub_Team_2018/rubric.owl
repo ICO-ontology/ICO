@@ -1326,7 +1326,7 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement describing the expected duration of the subjects participation</rdfs:label>
+        <rdfs:label xml:lang="en">description of expected study participation duration</rdfs:label>
     </owl:Class>
     
 
@@ -1690,6 +1690,15 @@ Regulations are issued by various federal government departments and agencies to
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
         <rdfs:label xml:lang="en">future research use directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
+        <rdfs:label xml:lang="en">description of study purpose</rdfs:label>
     </owl:Class>
     
 
