@@ -14,6 +14,7 @@ Up Next:
 - Informing does not have to be human-human. I can learn from a book. New class?
 - Import RO temporal relations
 - ICO: act of denying consent
+- add RO to imports
 
 
 Final:
