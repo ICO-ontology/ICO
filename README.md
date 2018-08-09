@@ -1,5 +1,3 @@
-
-
 # WARNING: This is a Development Version
 ## Informed Consent Ontology (ICO)
 
