@@ -22,7 +22,7 @@ Up Next:
 
 
 Final:
--- RUBRIC: For all CCO terms, add the following license info in an annotation property:
+- RUBRIC: For all CCO terms, add the following license info in an annotation property:
 
     "BSD 3-Clause License
     Copyright (c) 2017, CUBRC, Inc.
@@ -41,6 +41,7 @@ Final:
 - d-acts import structure resolved
 - Add 'covered entity?'
 - All terms have a definition source?
+- review all obsolete classes
 - File in correct OBO format
 - new PURLS resolve in OBO
 - 'research study' should be replaced by OBI: investigation
