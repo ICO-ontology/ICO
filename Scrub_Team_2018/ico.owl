@@ -271,8 +271,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021007"/>
         <obo:IAO_0000115 xml:lang="en">A document that explains all relevant information to assist a human being in understanding the expectations and requirements of participation in a process, and is an instrument in obtaining consent and, after having obtained consent, is a record that such a consent has occurred.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">The term definition is adapted from NCIt definition of &apos;consent form&apos; (C16468) with modification. For instance, whereas the NCIt definition restricted informed consent forms to clinical trials, the present definition does not.</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, Asiyah Yu Lin, Marcy Harris, Elizabeth Eisenhauer</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en"></obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, Asiyah Yu Lin, Marcy Harris, Elizabeth Eisenhauer, Jonathan Vajda, Cooper Stansbury, J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">informed consent document</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">NCIt C16468</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">See curator note for &apos;incomplete informed consent form&apos;.</obo:IAO_0000232>

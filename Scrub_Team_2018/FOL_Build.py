@@ -23,23 +23,56 @@ def makeFOL(file):
 
     # gather results from rdflib query
     qresults = g.query(
-        """
-            PREFIX owl: <http://www.w3.org/2002/07/owl#>
-            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-            PREFIX obo: <http://purl.obolibrary.org/obo/>
+        # """
+        #     PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        #     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        #     PREFIX obo: <http://purl.obolibrary.org/obo/>
+        #
+        #     SELECT ?superClass ?label ?entity ?elabel
+        #     WHERE {
+        #       ?entity rdfs:subClassOf ?superClass .
+        #       ?superClass rdfs:label ?label .
+        #       ?entity rdfs:label ?elabel .
+        #     }
+        # """
+        # )
 
-            SELECT ?superClass ?label ?entity ?elabel
-            WHERE {
-              ?entity rdfs:subClassOf ?superClass .
-              ?superClass rdfs:label ?label .
-              ?entity rdfs:label ?elabel .
-            }
+
+        """
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+        SELECT DISTINCT ?entity ?label ?parent ?parentLabel ?equivalenceAxiom ?subclassAxiom
+        WHERE {
+
+            ?entity rdfs:subClassOf ?parent .
+            ?parent rdfs:label ?parentLabel .
+    		?class rdfs:subClassOf ?parent .
+    		?class rdfs:label ?label .
+
+            OPTIONAL { ?class owl:equivalentClass ?equivalenceAxiom }
+            OPTIONAL { ?class rdfs:subClassOf ?subclassAxiom }
+
+            FILTER (!regex(str(?label), "^obsolete"))
+
+                }
+        ORDER BY DESC(?entity)
         """
         )
 
+
     # print all classes (no import closure) in FOL format: all x (Continuant(x) -> Entity(x)).
     for row in qresults:
-        print(str(row[2]).rsplit('/', 1)[-1] + ": all x (" + str(row[3]) + "(x) -> " + str(row[1]) + "(x)). \n", file=open("output_FOL.txt", "a"))
+        print("entity: " + str(row[0]), file=open("output.txt", "a"))
+        print("label: " + str(row[1]), file=open("output.txt", "a"))
+        print("parent: " + str(row[2]), file=open("output.txt", "a"))
+        print("parentLabel: " + str(row[3]), file=open("output.txt", "a"))
+        print("EquivalenceAxiom: " + str(row[4]), file=open("output.txt", "a"))
+        print("SubclassAxiom: " + str(row[4]) + '\n', file=open("output.txt", "a"))
+        print("% " + str(row[0]), file=open("output.txt", "a"))
+        print("all x (" + str(row[1]) + "(x) -> " + str(row[3]) + "(x)). \n", file=open("output.txt", "a"))
 
     print("File output printed to: output_FOL.txt in current directory")
 
