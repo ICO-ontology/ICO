@@ -1,0 +1,376 @@
+ICO_0000163: all x (blood sample collecting(x) -> biological sample collecting(x)). 
+
+ICO_0000214: all x (complete informed consent form indicating consent(x) -> informed consent form(x)). 
+
+ICO_0000215: all x (deontic power role(x) -> deontic role(x)). 
+
+ICO_0000110: all x (standard medical treatment(x) -> treatment(x)). 
+
+ICO_0000218: all x (act of removing identifiable information(x) -> act of anonymizing(x)). 
+
+ICO_0000084: all x (informed consent process with assent(x) -> informed consent process(x)). 
+
+ICO_0000032: all x (informed assent form for child or minor(x) -> informed assent form(x)). 
+
+ICO_0000199: all x (permission role(x) -> deontic role(x)). 
+
+ICO_0000015: all x (signed informed consent form(x) -> informed consent form(x)). 
+
+ICO_0000066: all x (clinical trial title(x) -> investigation title(x)). 
+
+ICO_0000156: all x (adult consent process(x) -> informed consent process(x)). 
+
+ICO_0000038: all x (project starting date specification(x) -> date specification(x)). 
+
+ICO_0000131: all x (institutional review board approval number(x) -> review board approval number(x)). 
+
+ICO_0000100: all x (research-related injury(x) -> injury(x)). 
+
+ICO_0000173: all x (no answer text entity(x) -> filled multiple choice text entity(x)). 
+
+ICO_0000213: all x (incomplete informed consent form(x) -> informed consent form(x)). 
+
+ICO_0000196: all x (act of informed consenting(x) -> act of permitting(x)). 
+
+OGMS_0000102: all x (injury(x) -> disorder(x)). 
+
+ICO_0000103: all x (protected health information entity(x) -> health information entity(x)). 
+
+ICO_0000039: all x (project end date specification(x) -> date specification(x)). 
+
+ICO_0000223: all x (consent power role(x) -> deontic power role(x)). 
+
+ICO_0000138: all x (informed consent form for vaccination(x) -> informed consent form(x)). 
+
+ICO_0000014: all x (informed consent form for human blood sample collection(x) -> informed consent form for clinical research involving children(x)). 
+
+ICO_0000047: all x (human population(x) -> population(x)). 
+
+ICO_0000140: all x (eligibility questionnaire(x) -> questionnaire(x)). 
+
+ICO_0000202: all x (competency to consent(x) -> capability to consent(x)). 
+
+ICO_0000159: all x (informed verbal consent(x) -> act of informed consenting(x)). 
+
+ICO_0000177: all x (consenting not to have financial benefit(x) -> act of informed consenting(x)). 
+
+ICO_0000172: all x (yes answer text entity(x) -> filled multiple choice text entity(x)). 
+
+ICO_0000034: all x (informed consent form for clinical research involving children(x) -> informed consent form(x)). 
+
+ICO_0000157: all x (parental informed consent process(x) -> informed consent process(x)). 
+
+ICO_0000095: all x (minimal risk(x) -> risk(x)). 
+
+ICO_0000033: all x (informed consent form for qualitative research involving children(x) -> informed consent form(x)). 
+
+ICO_0000162: all x (tissue sample collecting(x) -> biological sample collecting(x)). 
+
+ICO_0000160: all x (consenting in short form(x) -> informed consent process(x)). 
+
+ICO_0000083: all x (individually identifiable health information entity(x) -> protected health information entity(x)). 
+
+ICO_0000185: all x (informed assent form for cognitively impaired(x) -> informed assent form(x)). 
+
+RUBRIC_0000086: all x (policy(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000092: all x (process of certification(x) -> PROCESSES(x)). 
+
+RUBRIC_0000104: all x (no release from negligence rule(x) -> no waiver of legal rights rule(x)). 
+
+RUBRIC_0000136: all x (statement about confidentiality of records identifying subject(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000168: all x (study protocol(x) -> DOCUMENT(x)). 
+
+RUBRIC_0000100: all x (statute(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000093: all x (safeguards for vulnerable populations rule(x) -> DIRECTIVE ICES(x)). 
+
+rubric_0000035: all x (description of exemption(x) -> description of trigger condition(x)). 
+
+RUBRIC_0000073: all x (federal agency head role(x) -> ROLES(x)). 
+
+RUBRIC_0000046: all x (PROCESSES(x) -> NEEDS_REVIEW(x)). 
+
+RUBRIC_0000076: all x (federal department(x) -> ORGANISZATIONS(x)). 
+
+RUBRIC_0000075: all x (ORGANISZATIONS(x) -> NEEDS_REVIEW(x)). 
+
+RUBRIC_0000155: all x (privacy and confidentiality protections rule(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000049: all x (legal age(x) -> DISPOSITIONS(x)). 
+
+RUBRIC_0000081: all x (state government(x) -> ORGANISZATIONS(x)). 
+
+RUBRIC_0000146: all x (statement of who to contact for questions about the research(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000153: all x (vulnerable individual role(x) -> ROLES(x)). 
+
+RUBRIC_0000108: all x (no release of sponsor from liability rule(x) -> no waiver of legal rights rule(x)). 
+
+RUBRIC_0000096: all x (institutional policy constraints rule(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000149: all x (RISK: civil liability(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000037: all x (witness role(x) -> ROLES(x)). 
+
+RUBRIC_0000134: all x (description of discomforts(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000119: all x (communication event(x) -> EVENTS(x)). 
+
+RUBRIC_0000150: all x (RISK: criminal liability(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000123: all x (stasis of research review(x) -> POSSIBLE STASIS(x)). 
+
+RUBRIC_0000043: all x (statement that biospecimens may be used for profit(x) -> STATEMENTS ABOUT MONEY(x)). 
+
+RUBRIC_0000163: all x (DOCUMENT(x) -> ICE(x)). 
+
+RUBRIC_0000113: all x (monitoring body(x) -> ORGANISZATIONS(x)). 
+
+RUBRIC_0000039: all x (statement of additional resulting costs to subject for participation(x) -> STATEMENTS ABOUT MONEY(x)). 
+
+RUBRIC_0000047: all x (process for public review and comment(x) -> REVIEW PROCESSES(x)). 
+
+RUBRIC_0000140: all x (statement that specimens and data will be used for future research(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000089: all x (procedure for reviewing proposal(x) -> REVIEW PROCESSES(x)). 
+
+RUBRIC_0000072: all x (authorized representative of agency or department role(x) -> ROLES(x)). 
+
+RUBRIC_0000084: all x (administrator role(x) -> ROLES(x)). 
+
+RUBRIC_0000116: all x (confidentiality of data records rule(x) -> DIRECTIVE ICES(x)). 
+
+rubric_0000039: all x (stasis of regulation(x) -> stasis of generically dependent continuant(x)). 
+
+RUBRIC_0000137: all x (statement of collection of identifiable biospecimens(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000052: all x (parent or guardian role(x) -> ROLES(x)). 
+
+RUBRIC_0000107: all x (no release of legal agents from liability rule(x) -> no waiver of legal rights rule(x)). 
+
+RUBRIC_0000069: all x (mentally disabled person(x) -> vulnerable individual(x)). 
+
+RUBRIC_0000154: all x (regulatory oversight role(x) -> ROLES(x)). 
+
+RUBRIC_0000138: all x (statement of collection of identifiable private information(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000091: all x (process for assessing risk(x) -> REVIEW PROCESSES(x)). 
+
+RUBRIC_0000034: all x (legally authorized representative role(x) -> ROLES(x)). 
+
+RUBRIC_0000158: all x (IRB imposed constraints rule(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000117: all x (EVENTS(x) -> NEEDS_REVIEW(x)). 
+
+RUBRIC_0000121: all x (POSSIBLE STASIS(x) -> NEEDS_REVIEW(x)). 
+
+RUBRIC_0000135: all x (statement about compensation for participation(x) -> STATEMENTS ABOUT MONEY(x)). 
+
+RUBRIC_0000164: all x (waiver(x) -> DOCUMENT(x)). 
+
+RUBRIC_0000169: all x (data sharing directive(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000161: all x (prisoner(x) -> DISPOSITIONS(x)). 
+
+RUBRIC_0000170: all x (permission transfer directive(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000139: all x (statement of no loss of entitled benefits for discontinuing participation(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000008: all x (informed consent regulatory document(x) -> regulatory document(x)). 
+
+RUBRIC_0000055: all x (disclosure of alternative treatments is given rule(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000090: all x (process for assessing benefits(x) -> REVIEW PROCESSES(x)). 
+
+RUBRIC_0000064: all x (determination by IRB of magnitude of benefit(x) -> REVIEW PROCESSES(x)). 
+
+RUBRIC_0000157: all x (person obtaining consent role(x) -> ROLES(x)). 
+
+RUBRIC_0000099: all x (federal jurisdiction(x) -> JURISDICTION SUBCLASSES(x)). 
+
+RUBRIC_0000156: all x (investigator role(x) -> ROLES(x)). 
+
+RUBRIC_0000088: all x (notification procedure(x) -> PROCESSES(x)). 
+
+RUBRIC_0000165: all x (description of incentive(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000063: all x (REVIEW PROCESSES(x) -> PROCESSES(x)). 
+
+RUBRIC_0000122: all x (stasis of approved research(x) -> POSSIBLE STASIS(x)). 
+
+RUBRIC_0000143: all x (summary of short consent(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000111: all x (public health authority(x) -> ORGANISZATIONS(x)). 
+
+RUBRIC_0000079: all x (tribal government(x) -> ORGANISZATIONS(x)). 
+
+RUBRIC_0000062: all x (IRB decisions(x) -> decision(x)). 
+
+rubric_0000032: all x (description of medical procedure(x) -> descriptive information content entity(x)). 
+
+RUBRIC_0000080: all x (federal government(x) -> ORGANISZATIONS(x)). 
+
+RUBRIC_0000035: all x (parent role(x) -> ROLES(x)). 
+
+RUBRIC_0000162: all x (stasis of policy(x) -> POSSIBLE STASIS(x)). 
+
+RUBRIC_0000065: all x (determination by IRB of type of benefit(x) -> REVIEW PROCESSES(x)). 
+
+RUBRIC_0000109: all x (oral consent(x) -> PROCESSES(x)). 
+
+RUBRIC_0000050: all x (delivery event(x) -> EVENTS(x)). 
+
+RUBRIC_0000074: all x (federal department head role(x) -> ROLES(x)). 
+
+RUBRIC_0000115: all x (educational test(x) -> PROCESSES(x)). 
+
+RUBRIC_0000045: all x (statement that subject will share in commercial profit(x) -> STATEMENTS ABOUT MONEY(x)). 
+
+RUBRIC_0000120: all x (study event(x) -> EVENTS(x)). 
+
+RUBRIC_0000095: all x (federal policy constraints rule(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000041: all x (statement of procedures for termination of participation(x) -> DESCRIPTIVE ICES(x)). 
+
+rubric_0000033: all x (description of trigger condition(x) -> descriptive information content entity(x)). 
+
+RUBRIC_0000030: all x (neglected children(x) -> DISPOSITIONS(x)). 
+
+RUBRIC_0000054: all x (consent is in a lauguage understood by subject rule(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000061: all x (decision made by the research subject(x) -> decision(x)). 
+
+RUBRIC_0000068: all x (vulnerable individual(x) -> DISPOSITIONS(x)). 
+
+RUBRIC_0000097: all x (JURISDICTION SUBCLASSES(x) -> NEEDS_REVIEW(x)). 
+
+RUBRIC_0000118: all x (clinical event(x) -> EVENTS(x)). 
+
+RUBRIC_0000082: all x (local government(x) -> ORGANISZATIONS(x)). 
+
+RUBRIC_0000152: all x (RISK: reputational risk(x) -> DESCRIPTIVE ICES(x)). 
+
+rubric_0000040: all x (stasis of law(x) -> stasis of regulation(x)). 
+
+RUBRIC_0000087: all x (regulation(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000057: all x (no waiver of legal rights rule(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000151: all x (RISK: financial risk(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000053: all x (DIRECTIVE ICES(x) -> ICE(x)). 
+
+RUBRIC_0000060: all x (decision(x) -> EVENTS(x)). 
+
+RUBRIC_0000105: all x (no release of institution from liability rule(x) -> no waiver of legal rights rule(x)). 
+
+RUBRIC_0000051: all x (event of certification by IRB of research(x) -> EVENTS(x)). 
+
+RUBRIC_0000130: all x (statement that the study involves research(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000101: all x (legal official role(x) -> ROLES(x)). 
+
+RUBRIC_0000127: all x (psychological state(x) -> DISPOSITIONS(x)). 
+
+RUBRIC_0000133: all x (statement about compensation for injury(x) -> STATEMENTS ABOUT MONEY(x)). 
+
+RUBRIC_0000048: all x (process to determine if policy applies(x) -> REVIEW PROCESSES(x)). 
+
+RUBRIC_0000033: all x (IRB member role(x) -> ROLES(x)). 
+
+RUBRIC_0000131: all x (description of expected study participation duration(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000106: all x (no release of investigator from liability rule(x) -> no waiver of legal rights rule(x)). 
+
+RUBRIC_0000056: all x (no coercion or undue influence rule(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000083: all x (documentation of consent(x) -> PROCESSES(x)). 
+
+RUBRIC_0000078: all x (foreign government(x) -> ORGANISZATIONS(x)). 
+
+RUBRIC_0000031: all x (expert panel role(x) -> ROLES(x)). 
+
+RUBRIC_0000125: all x (stasis unreviewed research(x) -> POSSIBLE STASIS(x)). 
+
+RUBRIC_0000029: all x (abused child role(x) -> ROLES(x)). 
+
+RUBRIC_0000112: all x (funding body(x) -> ORGANISZATIONS(x)). 
+
+RUBRIC_0000126: all x (DISPOSITIONS(x) -> NEEDS_REVIEW(x)). 
+
+RUBRIC_0000102: all x (local jurisdiction(x) -> JURISDICTION SUBCLASSES(x)). 
+
+RUBRIC_0000159: all x (child(x) -> DISPOSITIONS(x)). 
+
+RUBRIC_0000098: all x (jurisdiction of law or regulation(x) -> JURISDICTION SUBCLASSES(x)). 
+
+RUBRIC_0000007: all x (human subject research regulatory document(x) -> regulatory document(x)). 
+
+RUBRIC_0000032: all x (guardian role(x) -> ROLES(x)). 
+
+RUBRIC_0000040: all x (statement of consequences of voluntarily withdraw(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000167: all x (validation of study protocol(x) -> PROCESSES(x)). 
+
+RUBRIC_0000148: all x (RISK: breach of confidentiality(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000085: all x (stasis of certification(x) -> POSSIBLE STASIS(x)). 
+
+RUBRIC_0000145: all x (written summary of orally presented consent(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000058: all x (ICE(x) -> NEEDS_REVIEW(x)). 
+
+RUBRIC_0000114: all x (administrative procedure(x) -> PROCESSES(x)). 
+
+RUBRIC_0000142: all x (statement that subject may discontinue participation at any time(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000124: all x (stasis unapproved research(x) -> POSSIBLE STASIS(x)). 
+
+RUBRIC_0000141: all x (statement that specimens and data will not be used for future research(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000144: all x (statement of where futher information can be obtained(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000147: all x (survey procedure(x) -> PROCESSES(x)). 
+
+StasisOfGenericallyDependentContinuant: all x (stasis of generically dependent continuant(x) -> stasis(x)). 
+
+RUBRIC_0000171: all x (future research use directive(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000172: all x (description of study purpose(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000094: all x (adequate provisions for privacy and confidentiality of data rule(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000110: all x (orally presented elements of consent(x) -> PROCESSES(x)). 
+
+RUBRIC_0000132: all x (statement describing the research procedures to be followed(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000160: all x (pregnant woman(x) -> DISPOSITIONS(x)). 
+
+RUBRIC_0000044: all x (statement that subject will not share in commercial profit(x) -> STATEMENTS ABOUT MONEY(x)). 
+
+RUBRIC_0000166: all x (validation of informed consent form(x) -> PROCESSES(x)). 
+
+RUBRIC_0000103: all x (legal actor role(x) -> ROLES(x)). 
+
+RUBRIC_0000067: all x (determination of IRB of type of risk(x) -> REVIEW PROCESSES(x)). 
+
+RUBRIC_0000036: all x (ROLES(x) -> NEEDS_REVIEW(x)). 
+
+rubric_0000034: all x (description of voluntary participation(x) -> descriptive information content entity(x)). 
+
+RUBRIC_0000070: all x (economically disadvantaged person(x) -> vulnerable individual(x)). 
+
+RUBRIC_0000038: all x (DESCRIPTIVE ICES(x) -> ICE(x)). 
+
+RUBRIC_0000077: all x (federal agency(x) -> ORGANISZATIONS(x)). 
+
+RUBRIC_0000042: all x (STATEMENTS ABOUT MONEY(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000071: all x (educationally disadvantaged person(x) -> vulnerable individual(x)). 
+
+RUBRIC_0000066: all x (determination by IRB of magnitude of risk(x) -> REVIEW PROCESSES(x)). 
+
+rubric_0000036: all x (description of protection(x) -> description of trigger condition(x)). 
+
