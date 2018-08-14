@@ -1,376 +1,1408 @@
+IAO_0021030: all x (document act target(x) -> material entity(x)). 
+
+ICO_0000057: all x (for-profit research investigation(x) -> investigation(x)). 
+
 ICO_0000163: all x (blood sample collecting(x) -> biological sample collecting(x)). 
-
-ICO_0000214: all x (complete informed consent form indicating consent(x) -> informed consent form(x)). 
-
-ICO_0000215: all x (deontic power role(x) -> deontic role(x)). 
-
-ICO_0000110: all x (standard medical treatment(x) -> treatment(x)). 
-
-ICO_0000218: all x (act of removing identifiable information(x) -> act of anonymizing(x)). 
-
-ICO_0000084: all x (informed consent process with assent(x) -> informed consent process(x)). 
-
-ICO_0000032: all x (informed assent form for child or minor(x) -> informed assent form(x)). 
-
-ICO_0000199: all x (permission role(x) -> deontic role(x)). 
-
-ICO_0000015: all x (signed informed consent form(x) -> informed consent form(x)). 
-
-ICO_0000066: all x (clinical trial title(x) -> investigation title(x)). 
-
-ICO_0000156: all x (adult consent process(x) -> informed consent process(x)). 
-
-ICO_0000038: all x (project starting date specification(x) -> date specification(x)). 
-
-ICO_0000131: all x (institutional review board approval number(x) -> review board approval number(x)). 
-
-ICO_0000100: all x (research-related injury(x) -> injury(x)). 
-
-ICO_0000173: all x (no answer text entity(x) -> filled multiple choice text entity(x)). 
-
-ICO_0000213: all x (incomplete informed consent form(x) -> informed consent form(x)). 
-
-ICO_0000196: all x (act of informed consenting(x) -> act of permitting(x)). 
-
-OGMS_0000102: all x (injury(x) -> disorder(x)). 
-
-ICO_0000103: all x (protected health information entity(x) -> health information entity(x)). 
-
-ICO_0000039: all x (project end date specification(x) -> date specification(x)). 
-
-ICO_0000223: all x (consent power role(x) -> deontic power role(x)). 
-
-ICO_0000138: all x (informed consent form for vaccination(x) -> informed consent form(x)). 
-
-ICO_0000014: all x (informed consent form for human blood sample collection(x) -> informed consent form for clinical research involving children(x)). 
-
-ICO_0000047: all x (human population(x) -> population(x)). 
-
-ICO_0000140: all x (eligibility questionnaire(x) -> questionnaire(x)). 
-
-ICO_0000202: all x (competency to consent(x) -> capability to consent(x)). 
-
-ICO_0000159: all x (informed verbal consent(x) -> act of informed consenting(x)). 
-
-ICO_0000177: all x (consenting not to have financial benefit(x) -> act of informed consenting(x)). 
-
-ICO_0000172: all x (yes answer text entity(x) -> filled multiple choice text entity(x)). 
-
-ICO_0000034: all x (informed consent form for clinical research involving children(x) -> informed consent form(x)). 
-
-ICO_0000157: all x (parental informed consent process(x) -> informed consent process(x)). 
-
-ICO_0000095: all x (minimal risk(x) -> risk(x)). 
-
-ICO_0000033: all x (informed consent form for qualitative research involving children(x) -> informed consent form(x)). 
-
-ICO_0000162: all x (tissue sample collecting(x) -> biological sample collecting(x)). 
-
-ICO_0000160: all x (consenting in short form(x) -> informed consent process(x)). 
-
-ICO_0000083: all x (individually identifiable health information entity(x) -> protected health information entity(x)). 
-
-ICO_0000185: all x (informed assent form for cognitively impaired(x) -> informed assent form(x)). 
-
-RUBRIC_0000086: all x (policy(x) -> DIRECTIVE ICES(x)). 
-
-RUBRIC_0000092: all x (process of certification(x) -> PROCESSES(x)). 
-
-RUBRIC_0000104: all x (no release from negligence rule(x) -> no waiver of legal rights rule(x)). 
-
-RUBRIC_0000136: all x (statement about confidentiality of records identifying subject(x) -> DESCRIPTIVE ICES(x)). 
-
-RUBRIC_0000168: all x (study protocol(x) -> DOCUMENT(x)). 
-
-RUBRIC_0000100: all x (statute(x) -> DIRECTIVE ICES(x)). 
-
-RUBRIC_0000093: all x (safeguards for vulnerable populations rule(x) -> DIRECTIVE ICES(x)). 
-
-rubric_0000035: all x (description of exemption(x) -> description of trigger condition(x)). 
-
-RUBRIC_0000073: all x (federal agency head role(x) -> ROLES(x)). 
-
-RUBRIC_0000046: all x (PROCESSES(x) -> NEEDS_REVIEW(x)). 
-
-RUBRIC_0000076: all x (federal department(x) -> ORGANISZATIONS(x)). 
-
-RUBRIC_0000075: all x (ORGANISZATIONS(x) -> NEEDS_REVIEW(x)). 
-
-RUBRIC_0000155: all x (privacy and confidentiality protections rule(x) -> DIRECTIVE ICES(x)). 
-
-RUBRIC_0000049: all x (legal age(x) -> DISPOSITIONS(x)). 
-
-RUBRIC_0000081: all x (state government(x) -> ORGANISZATIONS(x)). 
-
-RUBRIC_0000146: all x (statement of who to contact for questions about the research(x) -> DESCRIPTIVE ICES(x)). 
-
-RUBRIC_0000153: all x (vulnerable individual role(x) -> ROLES(x)). 
-
-RUBRIC_0000108: all x (no release of sponsor from liability rule(x) -> no waiver of legal rights rule(x)). 
 
 RUBRIC_0000096: all x (institutional policy constraints rule(x) -> DIRECTIVE ICES(x)). 
 
-RUBRIC_0000149: all x (RISK: civil liability(x) -> DESCRIPTIVE ICES(x)). 
-
-RUBRIC_0000037: all x (witness role(x) -> ROLES(x)). 
-
-RUBRIC_0000134: all x (description of discomforts(x) -> DESCRIPTIVE ICES(x)). 
-
-RUBRIC_0000119: all x (communication event(x) -> EVENTS(x)). 
-
-RUBRIC_0000150: all x (RISK: criminal liability(x) -> DESCRIPTIVE ICES(x)). 
-
-RUBRIC_0000123: all x (stasis of research review(x) -> POSSIBLE STASIS(x)). 
-
-RUBRIC_0000043: all x (statement that biospecimens may be used for profit(x) -> STATEMENTS ABOUT MONEY(x)). 
-
-RUBRIC_0000163: all x (DOCUMENT(x) -> ICE(x)). 
-
-RUBRIC_0000113: all x (monitoring body(x) -> ORGANISZATIONS(x)). 
-
-RUBRIC_0000039: all x (statement of additional resulting costs to subject for participation(x) -> STATEMENTS ABOUT MONEY(x)). 
-
-RUBRIC_0000047: all x (process for public review and comment(x) -> REVIEW PROCESSES(x)). 
-
-RUBRIC_0000140: all x (statement that specimens and data will be used for future research(x) -> DESCRIPTIVE ICES(x)). 
-
-RUBRIC_0000089: all x (procedure for reviewing proposal(x) -> REVIEW PROCESSES(x)). 
-
-RUBRIC_0000072: all x (authorized representative of agency or department role(x) -> ROLES(x)). 
-
-RUBRIC_0000084: all x (administrator role(x) -> ROLES(x)). 
-
-RUBRIC_0000116: all x (confidentiality of data records rule(x) -> DIRECTIVE ICES(x)). 
-
-rubric_0000039: all x (stasis of regulation(x) -> stasis of generically dependent continuant(x)). 
-
-RUBRIC_0000137: all x (statement of collection of identifiable biospecimens(x) -> DESCRIPTIVE ICES(x)). 
-
-RUBRIC_0000052: all x (parent or guardian role(x) -> ROLES(x)). 
-
-RUBRIC_0000107: all x (no release of legal agents from liability rule(x) -> no waiver of legal rights rule(x)). 
-
-RUBRIC_0000069: all x (mentally disabled person(x) -> vulnerable individual(x)). 
-
-RUBRIC_0000154: all x (regulatory oversight role(x) -> ROLES(x)). 
-
-RUBRIC_0000138: all x (statement of collection of identifiable private information(x) -> DESCRIPTIVE ICES(x)). 
-
-RUBRIC_0000091: all x (process for assessing risk(x) -> REVIEW PROCESSES(x)). 
-
-RUBRIC_0000034: all x (legally authorized representative role(x) -> ROLES(x)). 
-
-RUBRIC_0000158: all x (IRB imposed constraints rule(x) -> DIRECTIVE ICES(x)). 
-
-RUBRIC_0000117: all x (EVENTS(x) -> NEEDS_REVIEW(x)). 
-
-RUBRIC_0000121: all x (POSSIBLE STASIS(x) -> NEEDS_REVIEW(x)). 
-
-RUBRIC_0000135: all x (statement about compensation for participation(x) -> STATEMENTS ABOUT MONEY(x)). 
-
-RUBRIC_0000164: all x (waiver(x) -> DOCUMENT(x)). 
-
-RUBRIC_0000169: all x (data sharing directive(x) -> DIRECTIVE ICES(x)). 
-
-RUBRIC_0000161: all x (prisoner(x) -> DISPOSITIONS(x)). 
-
-RUBRIC_0000170: all x (permission transfer directive(x) -> DIRECTIVE ICES(x)). 
-
-RUBRIC_0000139: all x (statement of no loss of entitled benefits for discontinuing participation(x) -> DESCRIPTIVE ICES(x)). 
-
-RUBRIC_0000008: all x (informed consent regulatory document(x) -> regulatory document(x)). 
-
-RUBRIC_0000055: all x (disclosure of alternative treatments is given rule(x) -> DIRECTIVE ICES(x)). 
-
-RUBRIC_0000090: all x (process for assessing benefits(x) -> REVIEW PROCESSES(x)). 
-
-RUBRIC_0000064: all x (determination by IRB of magnitude of benefit(x) -> REVIEW PROCESSES(x)). 
-
-RUBRIC_0000157: all x (person obtaining consent role(x) -> ROLES(x)). 
-
-RUBRIC_0000099: all x (federal jurisdiction(x) -> JURISDICTION SUBCLASSES(x)). 
-
-RUBRIC_0000156: all x (investigator role(x) -> ROLES(x)). 
-
-RUBRIC_0000088: all x (notification procedure(x) -> PROCESSES(x)). 
-
-RUBRIC_0000165: all x (description of incentive(x) -> DESCRIPTIVE ICES(x)). 
-
-RUBRIC_0000063: all x (REVIEW PROCESSES(x) -> PROCESSES(x)). 
-
-RUBRIC_0000122: all x (stasis of approved research(x) -> POSSIBLE STASIS(x)). 
-
-RUBRIC_0000143: all x (summary of short consent(x) -> DESCRIPTIVE ICES(x)). 
-
-RUBRIC_0000111: all x (public health authority(x) -> ORGANISZATIONS(x)). 
-
-RUBRIC_0000079: all x (tribal government(x) -> ORGANISZATIONS(x)). 
-
-RUBRIC_0000062: all x (IRB decisions(x) -> decision(x)). 
-
-rubric_0000032: all x (description of medical procedure(x) -> descriptive information content entity(x)). 
-
-RUBRIC_0000080: all x (federal government(x) -> ORGANISZATIONS(x)). 
-
-RUBRIC_0000035: all x (parent role(x) -> ROLES(x)). 
-
-RUBRIC_0000162: all x (stasis of policy(x) -> POSSIBLE STASIS(x)). 
-
-RUBRIC_0000065: all x (determination by IRB of type of benefit(x) -> REVIEW PROCESSES(x)). 
-
-RUBRIC_0000109: all x (oral consent(x) -> PROCESSES(x)). 
-
-RUBRIC_0000050: all x (delivery event(x) -> EVENTS(x)). 
-
-RUBRIC_0000074: all x (federal department head role(x) -> ROLES(x)). 
-
-RUBRIC_0000115: all x (educational test(x) -> PROCESSES(x)). 
-
-RUBRIC_0000045: all x (statement that subject will share in commercial profit(x) -> STATEMENTS ABOUT MONEY(x)). 
-
-RUBRIC_0000120: all x (study event(x) -> EVENTS(x)). 
-
-RUBRIC_0000095: all x (federal policy constraints rule(x) -> DIRECTIVE ICES(x)). 
-
-RUBRIC_0000041: all x (statement of procedures for termination of participation(x) -> DESCRIPTIVE ICES(x)). 
-
-rubric_0000033: all x (description of trigger condition(x) -> descriptive information content entity(x)). 
-
-RUBRIC_0000030: all x (neglected children(x) -> DISPOSITIONS(x)). 
-
-RUBRIC_0000054: all x (consent is in a lauguage understood by subject rule(x) -> DIRECTIVE ICES(x)). 
-
-RUBRIC_0000061: all x (decision made by the research subject(x) -> decision(x)). 
-
-RUBRIC_0000068: all x (vulnerable individual(x) -> DISPOSITIONS(x)). 
-
-RUBRIC_0000097: all x (JURISDICTION SUBCLASSES(x) -> NEEDS_REVIEW(x)). 
-
-RUBRIC_0000118: all x (clinical event(x) -> EVENTS(x)). 
-
-RUBRIC_0000082: all x (local government(x) -> ORGANISZATIONS(x)). 
-
-RUBRIC_0000152: all x (RISK: reputational risk(x) -> DESCRIPTIVE ICES(x)). 
-
-rubric_0000040: all x (stasis of law(x) -> stasis of regulation(x)). 
-
-RUBRIC_0000087: all x (regulation(x) -> DIRECTIVE ICES(x)). 
-
-RUBRIC_0000057: all x (no waiver of legal rights rule(x) -> DIRECTIVE ICES(x)). 
-
-RUBRIC_0000151: all x (RISK: financial risk(x) -> DESCRIPTIVE ICES(x)). 
-
-RUBRIC_0000053: all x (DIRECTIVE ICES(x) -> ICE(x)). 
-
-RUBRIC_0000060: all x (decision(x) -> EVENTS(x)). 
-
-RUBRIC_0000105: all x (no release of institution from liability rule(x) -> no waiver of legal rights rule(x)). 
-
-RUBRIC_0000051: all x (event of certification by IRB of research(x) -> EVENTS(x)). 
-
-RUBRIC_0000130: all x (statement that the study involves research(x) -> DESCRIPTIVE ICES(x)). 
-
-RUBRIC_0000101: all x (legal official role(x) -> ROLES(x)). 
-
-RUBRIC_0000127: all x (psychological state(x) -> DISPOSITIONS(x)). 
-
-RUBRIC_0000133: all x (statement about compensation for injury(x) -> STATEMENTS ABOUT MONEY(x)). 
+ICO_0000111: all x (review board approval number(x) -> symbol(x)). 
 
 RUBRIC_0000048: all x (process to determine if policy applies(x) -> REVIEW PROCESSES(x)). 
 
-RUBRIC_0000033: all x (IRB member role(x) -> ROLES(x)). 
+BFO_0000038: all x (one-dimensional temporal region(x) -> temporal region(x)). 
 
-RUBRIC_0000131: all x (description of expected study participation duration(x) -> DESCRIPTIVE ICES(x)). 
+ICO_0000154: all x (obsolete explaining to participant candidate in informed consent process(x) -> Obsolete Class(x)). 
 
-RUBRIC_0000106: all x (no release of investigator from liability rule(x) -> no waiver of legal rights rule(x)). 
+RUBRIC_0000082: all x (local government(x) -> ORGANISZATIONS(x)). 
 
-RUBRIC_0000056: all x (no coercion or undue influence rule(x) -> DIRECTIVE ICES(x)). 
+ICO_0000197: all x (act of communicating assent(x) -> social act(x)). 
 
-RUBRIC_0000083: all x (documentation of consent(x) -> PROCESSES(x)). 
+RUBRIC_0000128: all x (obsolete benefit(x) -> Obsolete Class(x)). 
 
-RUBRIC_0000078: all x (foreign government(x) -> ORGANISZATIONS(x)). 
+ICO_0000123: all x (obsolete archiving signed paper informed consent form(x) -> Obsolete Class(x)). 
 
-RUBRIC_0000031: all x (expert panel role(x) -> ROLES(x)). 
+IAO_0000305: all x (document title(x) -> textual entity(x)). 
 
-RUBRIC_0000125: all x (stasis unreviewed research(x) -> POSSIBLE STASIS(x)). 
+OGMS_0000090: all x (treatment(x) -> process(x)). 
 
-RUBRIC_0000029: all x (abused child role(x) -> ROLES(x)). 
+OMRSE_00000022: all x (collection of organisms(x) -> material entity(x)). 
 
-RUBRIC_0000112: all x (funding body(x) -> ORGANISZATIONS(x)). 
+ICO_0000023: all x (obsolete completely filled informed consent form(x) -> Obsolete Class(x)). 
 
-RUBRIC_0000126: all x (DISPOSITIONS(x) -> NEEDS_REVIEW(x)). 
+ICO_0000177: all x (consenting not to have financial benefit(x) -> act of informed consenting(x)). 
 
-RUBRIC_0000102: all x (local jurisdiction(x) -> JURISDICTION SUBCLASSES(x)). 
+FMA_55457: all x (vocal fold(x) -> Subdivision of larynx(x)). 
 
-RUBRIC_0000159: all x (child(x) -> DISPOSITIONS(x)). 
+IAO_0000310: all x (document(x) -> information content entity(x)). 
 
-RUBRIC_0000098: all x (jurisdiction of law or regulation(x) -> JURISDICTION SUBCLASSES(x)). 
+IAO_0000310: all x (document(x) -> information content entity(x)). 
 
-RUBRIC_0000007: all x (human subject research regulatory document(x) -> regulatory document(x)). 
+ICO_0000066: all x (clinical trial title(x) -> investigation title(x)). 
+
+ICO_0000124: all x (obsolete archiving signed electronic informed consent form(x) -> Obsolete Class(x)). 
+
+IAO_0000303: all x (institutional identification(x) -> textual entity(x)). 
+
+ICO_0000044: all x (informed consent identification code(x) -> data item(x)). 
+
+RUBRIC_0000097: all x (JURISDICTION SUBCLASSES(x) -> NEEDS_REVIEW(x)). 
+
+IAO_0000065: all x (software interpreter(x) -> algorithm(x)). 
+
+ICO_0000090: all x (obsolete credential letter(x) -> Obsolete Class(x)). 
+
+BFO_0000003: all x (occurrent(x) -> entity(x)). 
+
+RUBRIC_0000041: all x (statement of procedures for termination of participation(x) -> DESCRIPTIVE ICES(x)). 
+
+IAO_0000408: all x (length measurement datum(x) -> scalar measurement datum(x)). 
+
+ICO_0000196: all x (act of informed consenting(x) -> act of permitting(x)). 
+
+RUBRIC_0000115: all x (educational test(x) -> PROCESSES(x)). 
+
+IAO_0000035: all x (obsolete_study interpretation(x) -> Obsolete Class(x)). 
+
+ICO_0000113: all x (anonymized information content entity(x) -> information content entity(x)). 
+
+ICO_0000113: all x (anonymized information content entity(x) -> information content entity(x)). 
+
+ICO_0000131: all x (institutional review board approval number(x) -> review board approval number(x)). 
+
+ICO_0000129: all x (obsolete informed consent form for human saliva sample collection(x) -> Obsolete Class(x)). 
+
+DUO_0000001: all x (consent code(x) -> data item(x)). 
+
+IAO_0021102: all x (standing declaration(x) -> document act(x)). 
+
+ICO_0000050: all x (obsolete animal research investigation(x) -> Obsolete Class(x)). 
+
+IAO_0000031: all x (integer numeral(x) -> numeral(x)). 
+
+RUBRIC_0000088: all x (notification procedure(x) -> PROCESSES(x)). 
+
+BFO_0000035: all x (process boundary(x) -> occurrent(x)). 
+
+IAO_0000019: all x (obsolete2_binary digital entity(x) -> Obsolete Class(x)). 
+
+ICO_0000013: all x (obsolete informed consent form for human biospecimen collection(x) -> Obsolete Class(x)). 
+
+IAO_0000309: all x (diagram(x) -> figure(x)). 
+
+ICO_0000139: all x (obsolete Walgreens vaccine informed consent form'(x) -> Obsolete Class(x)). 
 
 RUBRIC_0000032: all x (guardian role(x) -> ROLES(x)). 
 
-RUBRIC_0000040: all x (statement of consequences of voluntarily withdraw(x) -> DESCRIPTIVE ICES(x)). 
+RUBRIC_0000032: all x (guardian role(x) -> description of protection(x)). 
 
-RUBRIC_0000167: all x (validation of study protocol(x) -> PROCESSES(x)). 
+RUBRIC_0000032: all x (description of medical procedure(x) -> ROLES(x)). 
 
-RUBRIC_0000148: all x (RISK: breach of confidentiality(x) -> DESCRIPTIVE ICES(x)). 
+RUBRIC_0000032: all x (description of medical procedure(x) -> description of protection(x)). 
 
-RUBRIC_0000085: all x (stasis of certification(x) -> POSSIBLE STASIS(x)). 
+PATO_0000125: all x (mass(x) -> quality(x)). 
 
-RUBRIC_0000145: all x (written summary of orally presented consent(x) -> DESCRIPTIVE ICES(x)). 
+OGMS_0000045: all x (disorder(x) -> material entity(x)). 
 
-RUBRIC_0000058: all x (ICE(x) -> NEEDS_REVIEW(x)). 
+RUBRIC_0000005: all x (regulatory body(x) -> organization(x)). 
 
-RUBRIC_0000114: all x (administrative procedure(x) -> PROCESSES(x)). 
-
-RUBRIC_0000142: all x (statement that subject may discontinue participation at any time(x) -> DIRECTIVE ICES(x)). 
-
-RUBRIC_0000124: all x (stasis unapproved research(x) -> POSSIBLE STASIS(x)). 
-
-RUBRIC_0000141: all x (statement that specimens and data will not be used for future research(x) -> DESCRIPTIVE ICES(x)). 
-
-RUBRIC_0000144: all x (statement of where futher information can be obtained(x) -> DESCRIPTIVE ICES(x)). 
-
-RUBRIC_0000147: all x (survey procedure(x) -> PROCESSES(x)). 
-
-StasisOfGenericallyDependentContinuant: all x (stasis of generically dependent continuant(x) -> stasis(x)). 
-
-RUBRIC_0000171: all x (future research use directive(x) -> DIRECTIVE ICES(x)). 
-
-RUBRIC_0000172: all x (description of study purpose(x) -> DESCRIPTIVE ICES(x)). 
-
-RUBRIC_0000094: all x (adequate provisions for privacy and confidentiality of data rule(x) -> DIRECTIVE ICES(x)). 
-
-RUBRIC_0000110: all x (orally presented elements of consent(x) -> PROCESSES(x)). 
-
-RUBRIC_0000132: all x (statement describing the research procedures to be followed(x) -> DIRECTIVE ICES(x)). 
-
-RUBRIC_0000160: all x (pregnant woman(x) -> DISPOSITIONS(x)). 
+OBI_0500000: all x (study design(x) -> plan specification(x)). 
 
 RUBRIC_0000044: all x (statement that subject will not share in commercial profit(x) -> STATEMENTS ABOUT MONEY(x)). 
 
-RUBRIC_0000166: all x (validation of informed consent form(x) -> PROCESSES(x)). 
+ICO_0000030: all x (obsolete informed consent form for storage and future use of unused samples(x) -> Obsolete Class(x)). 
 
-RUBRIC_0000103: all x (legal actor role(x) -> ROLES(x)). 
+IAO_0000140: all x (setting datum(x) -> data item(x)). 
 
-RUBRIC_0000067: all x (determination of IRB of type of risk(x) -> REVIEW PROCESSES(x)). 
+ICO_0000045: all x (investigator role(x) -> role(x)). 
 
-RUBRIC_0000036: all x (ROLES(x) -> NEEDS_REVIEW(x)). 
+ICO_0000174: all x (obsolete filling informed consent form(x) -> Obsolete Class(x)). 
 
-rubric_0000034: all x (description of voluntary participation(x) -> descriptive information content entity(x)). 
+ICO_0000102: all x (obsolete information sharing process(x) -> Obsolete Class(x)). 
 
-RUBRIC_0000070: all x (economically disadvantaged person(x) -> vulnerable individual(x)). 
+RUBRIC_0000013: all x (disclosure directive(x) -> directive information entity(x)). 
 
-RUBRIC_0000038: all x (DESCRIPTIVE ICES(x) -> ICE(x)). 
-
-RUBRIC_0000077: all x (federal agency(x) -> ORGANISZATIONS(x)). 
-
-RUBRIC_0000042: all x (STATEMENTS ABOUT MONEY(x) -> DESCRIPTIVE ICES(x)). 
+ICO_0000171: all x (filled multiple choice text entity(x) -> textual entity(x)). 
 
 RUBRIC_0000071: all x (educationally disadvantaged person(x) -> vulnerable individual(x)). 
 
+RUBRIC_0000008: all x (informed consent regulatory document(x) -> regulatory document(x)). 
+
+IAO_0000327: all x (table of contents(x) -> table(x)). 
+
+RUBRIC_0000145: all x (written summary of orally presented consent(x) -> DESCRIPTIVE ICES(x)). 
+
+ICO_0000026: all x (obsolete expiration date specification in informed consent form(x) -> Obsolete Class(x)). 
+
+ICO_0000202: all x (competency to consent(x) -> capability to consent(x)). 
+
+ICO_0000059: all x (ethics directive(x) -> directive information entity(x)). 
+
+ICO_0000019: all x (obsolete signature section(x) -> Obsolete Class(x)). 
+
+BFO_0000015: all x (process(x) -> occurrent(x)). 
+
+IAO_0000313: all x (patent(x) -> document(x)). 
+
+RUBRIC_0000049: all x (legal age(x) -> DISPOSITIONS(x)). 
+
+IAO_0000575: all x (associating information with a centrally registered identifier in its registry(x) -> planned process(x)). 
+
+IAO_0000575: all x (associating information with a centrally registered identifier in its registry(x) -> planned process(x)). 
+
+IAO_0000594: all x (software application(x) -> software(x)). 
+
+IAO_0000064: all x (algorithm(x) -> plan specification(x)). 
+
+BFO_0000002: all x (continuant(x) -> entity(x)). 
+
+IAO_0000059: all x (obsolete2_report figure(x) -> Obsolete Class(x)). 
+
+ICO_0000217: all x (act of anonymizing(x) -> planned process(x)). 
+
+ICO_0000217: all x (act of anonymizing(x) -> planned process(x)). 
+
+DescriptiveInformationContentEntity: all x (descriptive information content entity(x) -> information content entity(x)). 
+
+DescriptiveInformationContentEntity: all x (descriptive information content entity(x) -> information content entity(x)). 
+
+ico.owl#Belongs_in_CRO: all x (obsolete ICO Classes to Move to RUBRIC(x) -> Obsolete Class(x)). 
+
+IAO_0000584: all x (time sampled measurement data set(x) -> data set(x)). 
+
+ICO_0000069: all x (obsolete contact person for questions about research(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000094: all x (adequate provisions for privacy and confidentiality of data rule(x) -> DIRECTIVE ICES(x)). 
+
+IAO_0000182: all x (obsolete_survival curve(x) -> Obsolete Class(x)). 
+
+IAO_0000128: all x (obsolete_identifier(x) -> Obsolete Class(x)). 
+
+ICO_0000036: all x (obsolete informed consent form signing date(x) -> Obsolete Class(x)). 
+
+GAZ_00000448: all x (geographic location(x) -> site(x)). 
+
+ICO_0000048: all x (nonprofit organization(x) -> organization(x)). 
+
+ICO_0000021: all x (obsolete investigator signature section in informed consent form(x) -> Obsolete Class(x)). 
+
+IAO_0000301: all x (citation(x) -> textual entity(x)). 
+
+ICO_0000172: all x (yes answer text entity(x) -> filled multiple choice text entity(x)). 
+
+ICO_0000016: all x (obsolete allowed research scope in informed consent form(x) -> Obsolete Class(x)). 
+
+OBI_0100026: all x (organism(x) -> material entity(x)). 
+
+RUBRIC_0000129: all x (obsolete risk(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000067: all x (determination of IRB of type of risk(x) -> REVIEW PROCESSES(x)). 
+
+ICO_0000180: all x (obsolete process of providing broad consent for research with biological sample(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000033: all x (IRB member role(x) -> ROLES(x)). 
+
+RUBRIC_0000033: all x (IRB member role(x) -> description of protection(x)). 
+
+RUBRIC_0000033: all x (description of trigger condition(x) -> ROLES(x)). 
+
+RUBRIC_0000033: all x (description of trigger condition(x) -> description of protection(x)). 
+
+ICO_0000032: all x (informed assent form for child or minor(x) -> informed assent form(x)). 
+
+PATO_0000122: all x (length(x) -> quality(x)). 
+
+IAO_0000580: all x (looking up a centrally registered identifier(x) -> planned process(x)). 
+
+IAO_0000580: all x (looking up a centrally registered identifier(x) -> planned process(x)). 
+
+ICO_0000165: all x (obsolete subject withdrawal with sample stored for limited time(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000039: all x (stasis of regulation(x) -> STATEMENTS ABOUT MONEY(x)). 
+
+RUBRIC_0000039: all x (statement of additional resulting costs to subject for participation(x) -> STATEMENTS ABOUT MONEY(x)). 
+
+RUBRIC_0000165: all x (description of incentive(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000137: all x (statement of collection of identifiable biospecimens(x) -> DESCRIPTIVE ICES(x)). 
+
+ICO_0000099: all x (obsolete informed consent form for human urine biospecimen collection(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000118: all x (clinical event(x) -> EVENTS(x)). 
+
+IAO_0000102: all x (data about an ontology part(x) -> data item(x)). 
+
+RUBRIC_0000089: all x (procedure for reviewing proposal(x) -> REVIEW PROCESSES(x)). 
+
+ICO_0000190: all x (description of participation benefit(x) -> descriptive information content entity(x)). 
+
+RUBRIC_0000133: all x (statement about compensation for injury(x) -> STATEMENTS ABOUT MONEY(x)). 
+
+RUBRIC_0000076: all x (federal department(x) -> ORGANISZATIONS(x)). 
+
+ICO_0000156: all x (adult consent process(x) -> informed consent process(x)). 
+
+ico.owl#Belongs_in_D-Acts: all x (obsolete ICO Classes to Move to D-Acts(x) -> Obsolete Class(x)). 
+
+ICO_0000098: all x (obsolete explaining to participant candidate about the study participating information(x) -> Obsolete Class(x)). 
+
+ICO_0000088: all x (participation duration(x) -> one-dimensional temporal region(x)). 
+
+ICO_0000191: all x (obsolete description of allowed action types(x) -> Obsolete Class(x)). 
+
+FMA_49443: all x (Anatomical cluster(x) -> Anatomical structure(x)). 
+
+RUBRIC_0000172: all x (description of study purpose(x) -> DESCRIPTIVE ICES(x)). 
+
+IAO_0021001: all x (obsolete_obligation(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000016: all x (answer directive(x) -> directive information entity(x)). 
+
+IAO_0000400: all x (cartesian spatial coordinate datum(x) -> data item(x)). 
+
+ICO_0000038: all x (project starting date specification(x) -> date specification(x)). 
+
+RUBRIC_0000035: all x (parent role(x) -> ROLES(x)). 
+
+RUBRIC_0000035: all x (parent role(x) -> description of protection(x)). 
+
+RUBRIC_0000035: all x (description of exemption(x) -> ROLES(x)). 
+
+RUBRIC_0000035: all x (description of exemption(x) -> description of protection(x)). 
+
+ICO_0000112: all x (data administration function(x) -> function(x)). 
+
+IAO_0000414: all x (mass measurement datum(x) -> scalar measurement datum(x)). 
+
+ICO_0000089: all x (obsolete actual duration of study subject participation(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000080: all x (federal government(x) -> ORGANISZATIONS(x)). 
+
+ICO_0000117: all x (obsolete explaining study protocol to participant candidate(x) -> Obsolete Class(x)). 
+
+ICO_0000153: all x (obsolete consenting to be contacted for tissue research(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000053: all x (DIRECTIVE ICES(x) -> ICE(x)). 
+
+ICO_0000056: all x (nonprofit research investigation(x) -> investigation(x)). 
+
+RUBRIC_0000046: all x (PROCESSES(x) -> NEEDS_REVIEW(x)). 
+
+IAO_0000590: all x (written name(x) -> textual entity(x)). 
+
+ICO_0000055: all x (obsolete genetic study(x) -> Obsolete Class(x)). 
+
+ICO_0000128: all x (obsolete explaining risks of participation to participant candidate(x) -> Obsolete Class(x)). 
+
+ICO_0000065: all x (clinical trial(x) -> investigation(x)). 
+
+RUBRIC_0000085: all x (stasis of certification(x) -> POSSIBLE STASIS(x)). 
+
+IAO_0000582: all x (time stamped measurement datum(x) -> measurement datum(x)). 
+
+RUBRIC_0000148: all x (RISK: breach of confidentiality(x) -> DESCRIPTIVE ICES(x)). 
+
+IAO_0021020: all x (obsolete_declaration target(x) -> Obsolete Class(x)). 
+
+ICO_0000173: all x (no answer text entity(x) -> filled multiple choice text entity(x)). 
+
+ICO_0000184: all x (obsolete NEW_CLASSES(x) -> Obsolete Class(x)). 
+
+BFO_0000142: all x (one-dimensional continuant fiat boundary(x) -> continuant fiat boundary(x)). 
+
+ICO_0000134: all x (obsolete explaining study derived data usage to participant candidate(x) -> Obsolete Class(x)). 
+
+ICO_0000170: all x (obsolete filled questionnaire(x) -> Obsolete Class(x)). 
+
+ICO_0000002: all x (obsolete designing an informed consent form(x) -> Obsolete Class(x)). 
+
+ICO_0000222: all x (signature(x) -> information content entity(x)). 
+
+ICO_0000222: all x (signature(x) -> information content entity(x)). 
+
+RUBRIC_0000012: all x (broad consent rule(x) -> rule(x)). 
+
+IAO_0000307: all x (table of abbreviations(x) -> table(x)). 
+
+IAO_0000579: all x (centrally registered identifier registry(x) -> data set(x)). 
+
+RUBRIC_0000034: all x (description of voluntary participation(x) -> descriptive information content entity(x)). 
+
+RUBRIC_0000034: all x (legally authorized representative role(x) -> descriptive information content entity(x)). 
+
+ICO_0000040: all x (obsolete human subject consenter(x) -> Obsolete Class(x)). 
+
+ICO_0000118: all x (repository of documents(x) -> site(x)). 
+
+RUBRIC_0000087: all x (regulation(x) -> DIRECTIVE ICES(x)). 
+
+BFO_0000011: all x (spatiotemporal region(x) -> occurrent(x)). 
+
+RUBRIC_0000144: all x (statement of where futher information can be obtained(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000160: all x (pregnant woman(x) -> DISPOSITIONS(x)). 
+
+RUBRIC_0000116: all x (confidentiality of data records rule(x) -> DIRECTIVE ICES(x)). 
+
+ICO_0000187: all x (legal representative role(x) -> role(x)). 
+
+RUBRIC_0000106: all x (no release of investigator from liability rule(x) -> no waiver of legal rights rule(x)). 
+
+IAO_0000316: all x (introduction to a publication about an investigation(x) -> document part(x)). 
+
+RUBRIC_0000077: all x (federal agency(x) -> ORGANISZATIONS(x)). 
+
+ICO_0000079: all x (institutional review board(x) -> organization(x)). 
+
+IAO_0000311: all x (publication(x) -> document(x)). 
+
+RUBRIC_0000083: all x (documentation of consent(x) -> PROCESSES(x)). 
+
+StasisOfGenericallyDependentContinuant: all x (stasis of generically dependent continuant(x) -> stasis(x)). 
+
+OBI_0100051: all x (specimen(x) -> material entity(x)). 
+
+OGMS_0000102: all x (injury(x) -> disorder(x)). 
+
+RUBRIC_0000079: all x (tribal government(x) -> ORGANISZATIONS(x)). 
+
+RUBRIC_0000037: all x (witness role(x) -> ROLES(x)). 
+
+RUBRIC_0000037: all x (witness role(x) -> description of protection(x)). 
+
+IAO_0000578: all x (centrally registered identifier(x) -> information content entity(x)). 
+
+IAO_0000578: all x (centrally registered identifier(x) -> information content entity(x)). 
+
+ICO_0000203: all x (assenter role(x) -> role(x)). 
+
+ICO_0000061: all x (obsolete informed consent form for genetic study(x) -> Obsolete Class(x)). 
+
+ICO_0000101: all x (health information entity(x) -> information content entity(x)). 
+
+ICO_0000101: all x (health information entity(x) -> information content entity(x)). 
+
+RUBRIC_0000151: all x (RISK: financial risk(x) -> DESCRIPTIVE ICES(x)). 
+
+ICO_0000068: all x (obsolete general requirement for informed consent(x) -> Obsolete Class(x)). 
+
+IAO_0000324: all x (acknowledgements section(x) -> document part(x)). 
+
+IAO_0020003: all x (mechanical wave quality(x) -> quality(x)). 
+
+ICO_0000085: all x (informed assent form(x) -> document(x)). 
+
+ICO_0000096: all x (obsolete alcohol abuse treatment record(x) -> Obsolete Class(x)). 
+
+ICO_0000070: all x (obsolete contact person for questions about research subject rights(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000031: all x (liability directive(x) -> ROLES(x)). 
+
+RUBRIC_0000031: all x (liability directive(x) -> description of protection(x)). 
+
+RUBRIC_0000031: all x (expert panel role(x) -> ROLES(x)). 
+
+RUBRIC_0000031: all x (expert panel role(x) -> description of protection(x)). 
+
+ICO_0000133: all x (obsolete explaining sample process and usage to participant candidate(x) -> Obsolete Class(x)). 
+
+ICO_0000060: all x (storing a specimen(x) -> planned process(x)). 
+
+ICO_0000060: all x (storing a specimen(x) -> planned process(x)). 
+
+IAO_0000178: all x (material information bearer(x) -> material entity(x)). 
+
+IAO_0000577: all x (centrally registered identifier symbol(x) -> symbol(x)). 
+
+IAO_0000030: all x (information content entity(x) -> generically dependent continuant(x)). 
+
+IAO_0000030: all x (information content entity(x) -> generically dependent continuant(x)). 
+
+ICO_0000109: all x (canceling a permission(x) -> planned process(x)). 
+
+ICO_0000109: all x (canceling a permission(x) -> planned process(x)). 
+
+OBI_0000471: all x (study design execution(x) -> planned process(x)). 
+
+OBI_0000471: all x (study design execution(x) -> planned process(x)). 
+
+RUBRIC_0000039: all x (stasis of regulation(x) -> stasis of generically dependent continuant(x)). 
+
+RUBRIC_0000039: all x (statement of additional resulting costs to subject for participation(x) -> stasis of generically dependent continuant(x)). 
+
+RUBRIC_0000063: all x (REVIEW PROCESSES(x) -> PROCESSES(x)). 
+
+ICO_0000024: all x (obsolete partially filled informed consent form(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000108: all x (no release of sponsor from liability rule(x) -> no waiver of legal rights rule(x)). 
+
+RUBRIC_0000109: all x (oral consent(x) -> PROCESSES(x)). 
+
+ICO_0000071: all x (obsolete contact person in the event of a research-related injury to the subject(x) -> Obsolete Class(x)). 
+
+ICO_0000181: all x (secondary use(x) -> planned process(x)). 
+
+ICO_0000181: all x (secondary use(x) -> planned process(x)). 
+
+RUBRIC_0000155: all x (privacy and confidentiality protections rule(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000157: all x (person obtaining consent role(x) -> ROLES(x)). 
+
+RUBRIC_0000157: all x (person obtaining consent role(x) -> description of protection(x)). 
+
+IAO_0000055: all x (rule(x) -> conditional specification(x)). 
+
+IAO_0020024: all x (credential role(x) -> role(x)). 
+
+ICO_0000175: all x (obsolete filling questionnaire(x) -> Obsolete Class(x)). 
+
+IAO_0000005: all x (objective specification(x) -> directive information entity(x)). 
+
+ICO_0000144: all x (obsolete legally effective consented participant role(x) -> Obsolete Class(x)). 
+
+IAO_0000096: all x (source code module(x) -> directive information entity(x)). 
+
+IAO_0020004: all x (writing quality(x) -> quality(x)). 
+
+ICO_0000078: all x (risk(x) -> disposition(x)). 
+
+RUBRIC_0000069: all x (mentally disabled person(x) -> vulnerable individual(x)). 
+
+BFO_0000034: all x (function(x) -> disposition(x)). 
+
+IAO_0000027: all x (data item(x) -> information content entity(x)). 
+
+IAO_0000027: all x (data item(x) -> information content entity(x)). 
+
+ICO_0000189: all x (contact directive(x) -> directive information entity(x)). 
+
+IAO_0020001: all x (grapheme(x) -> information content entity(x)). 
+
+IAO_0020001: all x (grapheme(x) -> information content entity(x)). 
+
+BFO_0000017: all x (realizable entity(x) -> specifically dependent continuant(x)). 
+
+RUBRIC_0000007: all x (human subject research regulatory document(x) -> regulatory document(x)). 
+
+RUBRIC_0000156: all x (investigator role(x) -> ROLES(x)). 
+
+RUBRIC_0000156: all x (investigator role(x) -> description of protection(x)). 
+
+RUBRIC_0000113: all x (monitoring body(x) -> ORGANISZATIONS(x)). 
+
+UO_0000001: all x (length unit(x) -> measurement unit label(x)). 
+
+ICO_0000041: all x (obsolete informed consent rule specification(x) -> Obsolete Class(x)). 
+
+IAO_0000179: all x (histogram(x) -> graph(x)). 
+
+IAO_0000097: all x (obsolete_report table(x) -> Obsolete Class(x)). 
+
+IAO_0000593: all x (software library(x) -> software(x)). 
+
+RUBRIC_0000104: all x (no release from negligence rule(x) -> no waiver of legal rights rule(x)). 
+
+ICO_0000179: all x (obsolete broad consent process(x) -> Obsolete Class(x)). 
+
+IAO_0020008: all x (utterance energy(x) -> sound energy(x)). 
+
+ICO_0000043: all x (obsolete permission informed consent rule specification(x) -> Obsolete Class(x)). 
+
+IAO_0021017: all x (obsolete_claimant role(x) -> Obsolete Class(x)). 
+
+IAO_0000326: all x (supplementary material to a document(x) -> document part(x)). 
+
+ICO_0000162: all x (tissue sample collecting(x) -> biological sample collecting(x)). 
+
+IAO_0000028: all x (symbol(x) -> information content entity(x)). 
+
+IAO_0000028: all x (symbol(x) -> information content entity(x)). 
+
+RUBRIC_0000154: all x (regulatory oversight role(x) -> ROLES(x)). 
+
+RUBRIC_0000154: all x (regulatory oversight role(x) -> description of protection(x)). 
+
+IAO_0000314: all x (document part(x) -> information content entity(x)). 
+
+IAO_0000314: all x (document part(x) -> information content entity(x)). 
+
+BFO_0000040: all x (material entity(x) -> independent continuant(x)). 
+
+ICO_0000034: all x (informed consent form for clinical research involving children(x) -> informed consent form(x)). 
+
+RUBRIC_0000143: all x (summary of short consent(x) -> DESCRIPTIVE ICES(x)). 
+
+IAO_0021005: all x (deontic declaration(x) -> social act(x)). 
+
+RUBRIC_0000022: all x (obligation directive(x) -> directive information entity(x)). 
+
+ICO_0000014: all x (informed consent form for human blood sample collection(x) -> informed consent form for clinical research involving children(x)). 
+
+RUBRIC_0000072: all x (authorized representative of agency or department role(x) -> ROLES(x)). 
+
+RUBRIC_0000072: all x (authorized representative of agency or department role(x) -> description of protection(x)). 
+
+BFO_0000141: all x (immaterial entity(x) -> independent continuant(x)). 
+
+IAO_0000185: all x (photograph(x) -> image(x)). 
+
+ICO_0000127: all x (obsolete planned duration of study subject participation(x) -> Obsolete Class(x)). 
+
+IAO_0000091: all x (obsolete_report element(x) -> Obsolete Class(x)). 
+
+ICO_0000031: all x (obsolete informed consent form for qualitative study(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000075: all x (ORGANISZATIONS(x) -> NEEDS_REVIEW(x)). 
+
+RUBRIC_0000131: all x (description of expected study participation duration(x) -> DESCRIPTIVE ICES(x)). 
+
+NCBITaxon_9606: all x (Homo sapiens(x) -> Homo sapiens(x)). 
+
+IAO_0000078: all x (curation status specification(x) -> data about an ontology part(x)). 
+
+RUBRIC_0000123: all x (stasis of research review(x) -> POSSIBLE STASIS(x)). 
+
+IAO_0000442: all x (author role(x) -> role(x)). 
+
+ICO_0000125: all x (obsolete archiving signed scanned paper informed consent form(x) -> Obsolete Class(x)). 
+
+ICO_0000007: all x (obsolete part of informed consent form(x) -> Obsolete Class(x)). 
+
+IAO_0000225: all x (obsolescence reason specification(x) -> data about an ontology part(x)). 
+
+ICO_0000186: all x (obsolete permission temporal region(x) -> Obsolete Class(x)). 
+
+IAO_0020022: all x (documented identity(x) -> information content entity(x)). 
+
+IAO_0020022: all x (documented identity(x) -> information content entity(x)). 
+
+RUBRIC_0000142: all x (statement that subject may discontinue participation at any time(x) -> DIRECTIVE ICES(x)). 
+
+IAO_0000029: all x (numeral(x) -> symbol(x)). 
+
+ICO_0000084: all x (informed consent process with assent(x) -> informed consent process(x)). 
+
+ICO_0000087: all x (study duration measurement(x) -> data item(x)). 
+
+IAO_0000001: all x (conditional specification(x) -> directive information entity(x)). 
+
+RUBRIC_0000029: all x (abused child role(x) -> ROLES(x)). 
+
+RUBRIC_0000029: all x (abused child role(x) -> description of protection(x)). 
+
+IAO_0000325: all x (footnote(x) -> document part(x)). 
+
+RUBRIC_0000117: all x (EVENTS(x) -> NEEDS_REVIEW(x)). 
+
+IAO_0020000: all x (proper name(x) -> information content entity(x)). 
+
+IAO_0020000: all x (proper name(x) -> information content entity(x)). 
+
+IAO_0020000: all x (identifier(x) -> information content entity(x)). 
+
+IAO_0020000: all x (identifier(x) -> information content entity(x)). 
+
+RUBRIC_0000023: all x (conditional obligation directive(x) -> conditional specification(x)). 
+
+RUBRIC_0000134: all x (description of discomforts(x) -> DESCRIPTIVE ICES(x)). 
+
+IAO_0020005: all x (writing bearer(x) -> material information bearer(x)). 
+
+RUBRIC_0000068: all x (vulnerable individual(x) -> DISPOSITIONS(x)). 
+
+RUBRIC_0000001: all x (jurisdiction(x) -> site(x)). 
+
+OBI_0001000: all x (questionnaire(x) -> document(x)). 
+
+RUBRIC_0000124: all x (stasis unapproved research(x) -> POSSIBLE STASIS(x)). 
+
+RUBRIC_0000091: all x (process for assessing risk(x) -> REVIEW PROCESSES(x)). 
+
+ICO_0000214: all x (complete informed consent form indicating consent(x) -> informed consent form(x)). 
+
+BFO_0000147: all x (zero-dimensional continuant fiat boundary(x) -> continuant fiat boundary(x)). 
+
+ICO_0000010: all x (obsolete option to check in informed consent form(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000095: all x (federal policy constraints rule(x) -> DIRECTIVE ICES(x)). 
+
+IAO_0000144: all x (conclusion textual entity(x) -> textual entity(x)). 
+
+ICO_0000081: all x (obsolete legal guardian role(x) -> Obsolete Class(x)). 
+
+BFO_0000029: all x (site(x) -> immaterial entity(x)). 
+
+ICO_0000147: all x (candidate eligible for study role(x) -> role(x)). 
+
+ICO_0000037: all x (obsolete project duration specification in informed consent form(x) -> Obsolete Class(x)). 
+
+FMA_64854: all x (Subdivision of larynx(x) -> Heterogeneous cluster(x)). 
+
+UO_0000002: all x (mass unit(x) -> measurement unit label(x)). 
+
+RUBRIC_0000126: all x (DISPOSITIONS(x) -> NEEDS_REVIEW(x)). 
+
+IAO_0000032: all x (scalar measurement datum(x) -> measurement datum(x)). 
+
+BFO_0000018: all x (zero-dimensional spatial region(x) -> spatial region(x)). 
+
+RUBRIC_0000149: all x (RISK: civil liability(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000021: all x (conditional restriction directive(x) -> conditional specification(x)). 
+
+ICO_0000120: all x (obsolete archiving signed informed consent form(x) -> Obsolete Class(x)). 
+
+FMA_67135: all x (Anatomical structure(x) -> Material anatomical entity(x)). 
+
+ICO_0000137: all x (obsolete assessment of participant candidate understanding(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000093: all x (safeguards for vulnerable populations rule(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000032: all x (guardian role(x) -> descriptive information content entity(x)). 
+
+RUBRIC_0000032: all x (description of medical procedure(x) -> descriptive information content entity(x)). 
+
+RUBRIC_0000010: all x (informed consent rule(x) -> rule(x)). 
+
+RUBRIC_0000158: all x (IRB imposed constraints rule(x) -> DIRECTIVE ICES(x)). 
+
+IAO_0000403: all x (three dimensional cartesian spatial coordinate datum(x) -> cartesian spatial coordinate datum(x)). 
+
+ICO_0000029: all x (obsolete informed consent form for clinical study(x) -> Obsolete Class(x)). 
+
+BFO_0000009: all x (two-dimensional spatial region(x) -> spatial region(x)). 
+
+OBI_0000810: all x (informed consent process(x) -> planned process(x)). 
+
+OBI_0000810: all x (informed consent process(x) -> planned process(x)). 
+
+IAO_0000033: all x (directive information entity(x) -> information content entity(x)). 
+
+IAO_0000033: all x (directive information entity(x) -> information content entity(x)). 
+
+IAO_0000038: all x (graph(x) -> diagram(x)). 
+
+IAO_0020016: all x (given name(x) -> personal name(x)). 
+
+BFO_0000027: all x (object aggregate(x) -> material entity(x)). 
+
+IAO_0021021: all x (document act template creator role(x) -> role(x)). 
+
+ICO_0000213: all x (incomplete informed consent form(x) -> informed consent form(x)). 
+
+ICO_0000097: all x (obsolete mental health care record(x) -> Obsolete Class(x)). 
+
+ICO_0000082: all x (obsolete legal guardian(x) -> Obsolete Class(x)). 
+
+IAO_0000010: all x (software(x) -> plan specification(x)). 
+
+IAO_0000104: all x (plan specification(x) -> directive information entity(x)). 
+
+IAO_0000008: all x (obsolete_artifact(x) -> Obsolete Class(x)). 
+
+ICO_0000105: all x (obsolete explaining study purpose to participant candidate(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000047: all x (process for public review and comment(x) -> REVIEW PROCESSES(x)). 
+
+RUBRIC_0000161: all x (prisoner(x) -> DISPOSITIONS(x)). 
+
+RUBRIC_0000132: all x (statement describing the research procedures to be followed(x) -> DIRECTIVE ICES(x)). 
+
+IAO_0000132: all x (lot number(x) -> symbol(x)). 
+
+IAO_0020017: all x (family name(x) -> personal name(x)). 
+
+FMA_67165: all x (Material anatomical entity(x) -> material entity(x)). 
+
+ICO_0000145: all x (postmortem donation of biological specimen(x) -> planned process(x)). 
+
+ICO_0000145: all x (postmortem donation of biological specimen(x) -> planned process(x)). 
+
+ICO_0000146: all x (obsolete eligibility of candidate participation(x) -> Obsolete Class(x)). 
+
+ICO_0000028: all x (obsolete human blood sample collection section(x) -> Obsolete Class(x)). 
+
+ICO_0000193: all x (act of filling out form(x) -> planned process(x)). 
+
+ICO_0000193: all x (act of filling out form(x) -> planned process(x)). 
+
+OMRSE_00000023: all x (collection of humans(x) -> collection of organisms(x)). 
+
+RUBRIC_0000166: all x (validation of informed consent form(x) -> PROCESSES(x)). 
+
+IAO_0000024: all x (obsolete_unit of measure(x) -> Obsolete Class(x)). 
+
+IAO_0000320: all x (references section(x) -> document part(x)). 
+
+IAO_0000401: all x (one dimensional cartesian spatial coordinate datum(x) -> cartesian spatial coordinate datum(x)). 
+
+BFO_0000182: all x (history(x) -> process(x)). 
+
+ICO_0000018: all x (obsolete informed consent form signed by human subject(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000171: all x (future research use directive(x) -> DIRECTIVE ICES(x)). 
+
+ico.owl#ICO_0000226: all x (stasis of anonymization(x) -> stasis of generically dependent continuant(x)). 
+
+ICO_0000051: all x (cancer research investigation(x) -> investigation(x)). 
+
+IAO_0000088: all x (report(x) -> document(x)). 
+
+OBI_0001622: all x (investigation title(x) -> textual entity(x)). 
+
+RUBRIC_0000057: all x (no waiver of legal rights rule(x) -> DIRECTIVE ICES(x)). 
+
+ICO_0000025: all x (obsolete effective date specification in informed consent form(x) -> Obsolete Class(x)). 
+
+ICO_0000063: all x (obsolete informed consent form for quantitative study(x) -> Obsolete Class(x)). 
+
+ICO_0000161: all x (biological sample collecting(x) -> planned process(x)). 
+
+ICO_0000161: all x (biological sample collecting(x) -> planned process(x)). 
+
+RUBRIC_0000036: all x (ROLES(x) -> NEEDS_REVIEW(x)). 
+
+RUBRIC_0000036: all x (description of protection(x) -> NEEDS_REVIEW(x)). 
+
+OBI_0000093: all x (patient role(x) -> role(x)). 
+
+RUBRIC_0000031: all x (liability directive(x) -> directive information entity(x)). 
+
+RUBRIC_0000031: all x (expert panel role(x) -> directive information entity(x)). 
+
+RUBRIC_0000139: all x (statement of no loss of entitled benefits for discontinuing participation(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000033: all x (IRB member role(x) -> descriptive information content entity(x)). 
+
+RUBRIC_0000033: all x (description of trigger condition(x) -> descriptive information content entity(x)). 
+
+ICO_0000220: all x (agent(x) -> material entity(x)). 
+
+BFO_0000030: all x (object(x) -> material entity(x)). 
+
+OMIABIS_0001026: all x (medical record(x) -> document(x)). 
+
+ICO_0000188: all x (contact role(x) -> role(x)). 
+
+ICO_0000114: all x (obsolete anonymized genomic data(x) -> Obsolete Class(x)). 
+
+ICO_0000218: all x (act of removing identifiable information(x) -> act of anonymizing(x)). 
+
+RUBRIC_0000090: all x (process for assessing benefits(x) -> REVIEW PROCESSES(x)). 
+
+IAO_0000322: all x (institution list(x) -> document part(x)). 
+
+FMA_64989: all x (Heterogeneous cluster(x) -> Anatomical cluster(x)). 
+
+RUBRIC_0000045: all x (statement that subject will share in commercial profit(x) -> STATEMENTS ABOUT MONEY(x)). 
+
+IAO_0000592: all x (software module(x) -> software(x)). 
+
+RUBRIC_0000127: all x (psychological state(x) -> DISPOSITIONS(x)). 
+
+IAO_0000323: all x (author contributions section(x) -> document part(x)). 
+
+RUBRIC_0000159: all x (child(x) -> DISPOSITIONS(x)). 
+
+RUBRIC_0000042: all x (STATEMENTS ABOUT MONEY(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000130: all x (statement that the study involves research(x) -> DESCRIPTIVE ICES(x)). 
+
+BFO_0000026: all x (one-dimensional spatial region(x) -> spatial region(x)). 
+
+BFO_0000031: all x (generically dependent continuant(x) -> continuant(x)). 
+
+IAO_0021006: all x (obligee role(x) -> role(x)). 
+
+IAO_0000186: all x (photographic print(x) -> material information bearer(x)). 
+
+RUBRIC_0000054: all x (consent is in a lauguage understood by subject rule(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000052: all x (parent or guardian role(x) -> ROLES(x)). 
+
+RUBRIC_0000052: all x (parent or guardian role(x) -> description of protection(x)). 
+
+RUBRIC_0000060: all x (decision(x) -> EVENTS(x)). 
+
+BFO_0000146: all x (two-dimensional continuant fiat boundary(x) -> continuant fiat boundary(x)). 
+
+ICO_0000020: all x (obsolete human subject signature section in informed consent form(x) -> Obsolete Class(x)). 
+
+ICO_0000073: all x (research subject role(x) -> role(x)). 
+
+IAO_0000009: all x (datum label(x) -> information content entity(x)). 
+
+IAO_0000009: all x (datum label(x) -> information content entity(x)). 
+
+IAO_0021014: all x (obsolete_declaration executive role(x) -> Obsolete Class(x)). 
+
+OBI_0000066: all x (investigation(x) -> planned process(x)). 
+
+OBI_0000066: all x (investigation(x) -> planned process(x)). 
+
+UO_0000003: all x (time unit(x) -> measurement unit label(x)). 
+
+ICO_0000058: all x (investigation period(x) -> one-dimensional temporal region(x)). 
+
+RUBRIC_0000153: all x (vulnerable individual role(x) -> ROLES(x)). 
+
+RUBRIC_0000153: all x (vulnerable individual role(x) -> description of protection(x)). 
+
+ICO_0000138: all x (informed consent form for vaccination(x) -> informed consent form(x)). 
+
+RUBRIC_0000040: all x (stasis of law(x) -> DESCRIPTIVE ICES(x)). 
+
+RUBRIC_0000040: all x (statement of consequences of voluntarily withdraw(x) -> DESCRIPTIVE ICES(x)). 
+
+ICO_0000195: all x (act of permitting(x) -> social act(x)). 
+
+IAO_0000330: all x (copyright section(x) -> document part(x)). 
+
+IAO_0000105: all x (obsolete2_digital document(x) -> Obsolete Class(x)). 
+
+ICO_0000004: all x (approving an informed consent form(x) -> planned process(x)). 
+
+ICO_0000004: all x (approving an informed consent form(x) -> planned process(x)). 
+
+ICO_0000140: all x (eligibility questionnaire(x) -> questionnaire(x)). 
+
+RUBRIC_0000111: all x (public health authority(x) -> ORGANISZATIONS(x)). 
+
+RUBRIC_0000019: all x (conditional permission directive(x) -> conditional specification(x)). 
+
+RUBRIC_0000051: all x (event of certification by IRB of research(x) -> EVENTS(x)). 
+
+RUBRIC_0000112: all x (funding body(x) -> ORGANISZATIONS(x)). 
+
+IAO_0000003: all x (measurement unit label(x) -> datum label(x)). 
+
+ICO_0000164: all x (obsolete subject withdrawal with sample stored for unlimited time(x) -> Obsolete Class(x)). 
+
+IAO_0000300: all x (textual entity(x) -> information content entity(x)). 
+
+IAO_0000300: all x (textual entity(x) -> information content entity(x)). 
+
+IAO_0000047: all x (obsolete2_text based digital entity(x) -> Obsolete Class(x)). 
+
+IAO_0000131: all x (serial number(x) -> symbol(x)). 
+
+BFO_0000006: all x (spatial region(x) -> immaterial entity(x)). 
+
+IAO_0000329: all x (running title(x) -> document title(x)). 
+
+IAO_0000141: all x (obsolete_digital quality(x) -> Obsolete Class(x)). 
+
+IAO_0000037: all x (dot plot(x) -> graph(x)). 
+
+OMRSE_00000033: all x (aggregate of organizations(x) -> material entity(x)). 
+
+ICO_0000110: all x (standard medical treatment(x) -> treatment(x)). 
+
+ICO_0000077: all x (benefit(x) -> disposition(x)). 
+
+BFO_0000140: all x (continuant fiat boundary(x) -> immaterial entity(x)). 
+
+BFO_0000005: all x (obsolete dependent continuant(x) -> Obsolete Class(x)). 
+
+ICO_0000194: all x (obsolete social act (placeholder)(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000058: all x (ICE(x) -> NEEDS_REVIEW(x)). 
+
+IAO_0021022: all x (deontic declaration performer role(x) -> role(x)). 
+
+ICO_0000148: all x (candidate ineligible for study role(x) -> role(x)). 
+
+IAO_0000006: all x (narrative object(x) -> information content entity(x)). 
+
+IAO_0000006: all x (narrative object(x) -> information content entity(x)). 
+
+IAO_0021300: all x (obligor role(x) -> role(x)). 
+
+IAO_0000312: all x (publication about an investigation(x) -> publication(x)). 
+
+OBI_0000011: all x (planned process(x) -> process(x)). 
+
+OBI_0000011: all x (planned process(x) -> process(x)). 
+
+ICO_0000042: all x (obsolete obligation informed consent rule specification(x) -> Obsolete Class(x)). 
+
+IAO_0000100: all x (data set(x) -> data item(x)). 
+
+RUBRIC_0000170: all x (permission transfer directive(x) -> DIRECTIVE ICES(x)). 
+
+ICO_0000064: all x (obsolete study requiring informed consent(x) -> Obsolete Class(x)). 
+
+ICO_0000095: all x (minimal risk(x) -> risk(x)). 
+
+RUBRIC_0000101: all x (legal official role(x) -> ROLES(x)). 
+
+RUBRIC_0000101: all x (legal official role(x) -> description of protection(x)). 
+
+RUBRIC_0000105: all x (no release of institution from liability rule(x) -> no waiver of legal rights rule(x)). 
+
+BFO_0000019: all x (quality(x) -> specifically dependent continuant(x)). 
+
+ICO_0000141: all x (question textual entity(x) -> textual entity(x)). 
+
+IAO_0021015: all x (obsolete_document template creator role(x) -> Obsolete Class(x)). 
+
+ico.owl#ICODEV_0000066: all x (obsolete Proposed RUBRIC Classes(x) -> Obsolete Class(x)). 
+
+ICO_0000122: all x (obsolete US federal policy for the protection of human subjects(x) -> Obsolete Class(x)). 
+
+Stasis: all x (stasis(x) -> process(x)). 
+
+IAO_0021002: all x (document act(x) -> deontic declaration(x)). 
+
+RUBRIC_0000114: all x (administrative procedure(x) -> PROCESSES(x)). 
+
+ICO_0000119: all x (obsolete storage duration of signed informed consent form(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000125: all x (stasis unreviewed research(x) -> POSSIBLE STASIS(x)). 
+
+RUBRIC_0000141: all x (statement that specimens and data will not be used for future research(x) -> DESCRIPTIVE ICES(x)). 
+
+IAO_0000079: all x (density plot(x) -> graph(x)). 
+
+IAO_0000416: all x (time measurement datum(x) -> scalar measurement datum(x)). 
+
+ICO_0000108: all x (withdrawing participation in study(x) -> planned process(x)). 
+
+ICO_0000108: all x (withdrawing participation in study(x) -> planned process(x)). 
+
+ICO_0000151: all x (obsolete eligibility screening role(x) -> Obsolete Class(x)). 
+
+ICO_0000152: all x (obsolete eligibility screening person(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000073: all x (federal agency head role(x) -> ROLES(x)). 
+
+RUBRIC_0000073: all x (federal agency head role(x) -> description of protection(x)). 
+
+RUBRIC_0000136: all x (statement about confidentiality of records identifying subject(x) -> DESCRIPTIVE ICES(x)). 
+
+ICO_0000012: all x (obsolete optional informed consent element(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000138: all x (statement of collection of identifiable private information(x) -> DESCRIPTIVE ICES(x)). 
+
+IAO_0000306: all x (table(x) -> textual entity(x)). 
+
+ICO_0000192: all x (description of broad consent(x) -> descriptive information content entity(x)). 
+
+ICO_0000047: all x (human population(x) -> population(x)). 
+
+RUBRIC_0000070: all x (economically disadvantaged person(x) -> vulnerable individual(x)). 
+
+IAO_0000572: all x (documenting(x) -> planned process(x)). 
+
+IAO_0000572: all x (documenting(x) -> planned process(x)). 
+
+ICO_0000201: all x (capability to consent(x) -> disposition(x)). 
+
+ICO_0000206: all x (obsolete consenter role(x) -> Obsolete Class(x)). 
+
+ICO_0000185: all x (informed assent form for cognitively impaired(x) -> informed assent form(x)). 
+
+RUBRIC_0000152: all x (RISK: reputational risk(x) -> DESCRIPTIVE ICES(x)). 
+
+IAO_0000181: all x (Venn diagram(x) -> graph(x)). 
+
+ICO_0000094: all x (obsolete follow-up visit(x) -> Obsolete Class(x)). 
+
+ICO_0000115: all x (obsolete anonymized genomic sample(x) -> Obsolete Class(x)). 
+
+IAO_0000180: all x (heatmap(x) -> graph(x)). 
+
+ICO_0000159: all x (informed verbal consent(x) -> act of informed consenting(x)). 
+
+IAO_0000013: all x (journal article(x) -> report(x)). 
+
+RUBRIC_0000163: all x (DOCUMENT(x) -> ICE(x)). 
+
+IAO_0000302: all x (author identification(x) -> written name(x)). 
+
+RUBRIC_0000099: all x (federal jurisdiction(x) -> JURISDICTION SUBCLASSES(x)). 
+
+IAO_0000012: all x (obsolete2_digital entity(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000147: all x (survey procedure(x) -> PROCESSES(x)). 
+
+OBI_0000181: all x (population(x) -> material entity(x)). 
+
+IAO_0000318: all x (results section(x) -> document part(x)). 
+
+ICO_0000074: all x (obsolete authorization for release of confidential health information(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000103: all x (legal actor role(x) -> ROLES(x)). 
+
+RUBRIC_0000103: all x (legal actor role(x) -> description of protection(x)). 
+
+BFO_0000023: all x (role(x) -> realizable entity(x)). 
+
+ICO_0000075: all x (obsolete authorization document(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000098: all x (jurisdiction of law or regulation(x) -> JURISDICTION SUBCLASSES(x)). 
+
+ICO_0000039: all x (project end date specification(x) -> date specification(x)). 
+
+RUBRIC_0000078: all x (foreign government(x) -> ORGANISZATIONS(x)). 
+
+RUBRIC_0000162: all x (stasis of policy(x) -> POSSIBLE STASIS(x)). 
+
+RUBRIC_0000110: all x (orally presented elements of consent(x) -> PROCESSES(x)). 
+
+IAO_0000034: all x (time trigger(x) -> conditional specification(x)). 
+
+ICO_0000027: all x (obsolete starting date specification in informed consent form(x) -> Obsolete Class(x)). 
+
+BFO_0000148: all x (zero-dimensional temporal region(x) -> temporal region(x)). 
+
+OBI_0000112: all x (specimen role(x) -> role(x)). 
+
+IAO_0000025: all x (programming language(x) -> plan specification(x)). 
+
+RUBRIC_0000121: all x (POSSIBLE STASIS(x) -> NEEDS_REVIEW(x)). 
+
+IAO_0000415: all x (hypothesis textual entity(x) -> textual entity(x)). 
+
+RUBRIC_0000164: all x (waiver(x) -> DOCUMENT(x)). 
+
+IAO_0000098: all x (data format specification(x) -> directive information entity(x)). 
+
+RUBRIC_0000081: all x (state government(x) -> ORGANISZATIONS(x)). 
+
+IAO_0000574: all x (assigning a centrally registered identifier(x) -> planned process(x)). 
+
+IAO_0000574: all x (assigning a centrally registered identifier(x) -> planned process(x)). 
+
+ICO_0000178: all x (obsolete consenting to not to be informed about incidental finding(x) -> Obsolete Class(x)). 
+
+IAO_0021007: all x (document act input document(x) -> document(x)). 
+
+IAO_0020011: all x (utterance process(x) -> planned process(x)). 
+
+IAO_0020011: all x (utterance process(x) -> planned process(x)). 
+
+ICO_0000116: all x (act of using participant data(x) -> planned process(x)). 
+
+ICO_0000116: all x (act of using participant data(x) -> planned process(x)). 
+
+RUBRIC_0000146: all x (statement of who to contact for questions about the research(x) -> DESCRIPTIVE ICES(x)). 
+
+ICO_0000100: all x (research-related injury(x) -> injury(x)). 
+
+IAO_0000304: all x (caption(x) -> textual entity(x)). 
+
+ICO_0000135: all x (obsolete explaining record confidentiality to participant candidate(x) -> Obsolete Class(x)). 
+
+ICO_0000215: all x (deontic power role(x) -> deontic role(x)). 
+
+ICO_0000107: all x (study termination(x) -> process(x)). 
+
+ICO_0000006: all x (obsolete informed consent regulatory body(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000065: all x (determination by IRB of type of benefit(x) -> REVIEW PROCESSES(x)). 
+
+IAO_0000007: all x (action specification(x) -> directive information entity(x)). 
+
+IAO_0021018: all x (obsolete_obligator role(x) -> Obsolete Class(x)). 
+
+IAO_0000595: all x (software script(x) -> software(x)). 
+
+RUBRIC_0000006: all x (regulatory document(x) -> document(x)). 
+
+ICO_0000076: all x (obsolete authorization for medical records release(x) -> Obsolete Class(x)). 
+
+ICO_0000199: all x (permission role(x) -> deontic role(x)). 
+
+ICO_0000126: all x (obsolete storage duration of signed informed consent form(x) -> Obsolete Class(x)). 
+
+ICO_0000011: all x (obsolete required informed consent element(x) -> Obsolete Class(x)). 
+
+ICO_0000072: all x (obsolete contact person in informed consent process(x) -> Obsolete Class(x)). 
+
+ICO_0000142: all x (obsolete legally effective consenting(x) -> Obsolete Class(x)). 
+
+ICO_0000053: all x (drug testing investigation(x) -> investigation(x)). 
+
+NCBITaxon_9606: all x (Homo sapiens(x) -> organism(x)). 
+
+ICO_0000001: all x (informed consent form(x) -> document act input document(x)). 
+
+ICO_0000200: all x (obsolete consent power role(x) -> Obsolete Class(x)). 
+
+BFO_0000004: all x (independent continuant(x) -> continuant(x)). 
+
+IAO_0000422: all x (postal address(x) -> textual entity(x)). 
+
+ICO_0000160: all x (consenting in short form(x) -> informed consent process(x)). 
+
+BFO_0000016: all x (disposition(x) -> realizable entity(x)). 
+
+RUBRIC_0000150: all x (RISK: criminal liability(x) -> DESCRIPTIVE ICES(x)). 
+
+ICO_0000143: all x (obsolete assent process(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000017: all x (consequent directive(x) -> directive information entity(x)). 
+
+RUBRIC_0000168: all x (study protocol(x) -> DOCUMENT(x)). 
+
+ICO_0000033: all x (informed consent form for qualitative research involving children(x) -> informed consent form(x)). 
+
+IAO_0020015: all x (personal name(x) -> proper name(x)). 
+
+IAO_0020015: all x (personal name(x) -> identifier(x)). 
+
+ICO_0000198: all x (deontic role(x) -> role(x)). 
+
+RUBRIC_0000036: all x (ROLES(x) -> IRB member role(x)). 
+
+RUBRIC_0000036: all x (ROLES(x) -> description of trigger condition(x)). 
+
+RUBRIC_0000036: all x (description of protection(x) -> IRB member role(x)). 
+
+RUBRIC_0000036: all x (description of protection(x) -> description of trigger condition(x)). 
+
+BFO_0000024: all x (fiat object(x) -> material entity(x)). 
+
+ICO_0000005: all x (obsolete signing an informed consent form(x) -> Obsolete Class(x)). 
+
+BFO_0000145: all x (relational quality(x) -> quality(x)). 
+
+ICO_0000168: all x (genetic research permission deontic declaration(x) -> deontic declaration(x)). 
+
+IAO_0020006: all x (portion of energy(x) -> independent continuant(x)). 
+
+RUBRIC_0000064: all x (determination by IRB of magnitude of benefit(x) -> REVIEW PROCESSES(x)). 
+
+RUBRIC_0000038: all x (DESCRIPTIVE ICES(x) -> ICE(x)). 
+
+RUBRIC_0000062: all x (IRB decisions(x) -> decision(x)). 
+
+RUBRIC_0000135: all x (statement about compensation for participation(x) -> STATEMENTS ABOUT MONEY(x)). 
+
+ICO_0000149: all x (act of contact for future research(x) -> planned process(x)). 
+
+ICO_0000149: all x (act of contact for future research(x) -> planned process(x)). 
+
+BFO_0000020: all x (specifically dependent continuant(x) -> continuant(x)). 
+
+ICO_0000015: all x (signed informed consent form(x) -> informed consent form(x)). 
+
+RUBRIC_0000100: all x (statute(x) -> DIRECTIVE ICES(x)). 
+
+IAO_0020002: all x (utterance(x) -> information content entity(x)). 
+
+IAO_0020002: all x (utterance(x) -> information content entity(x)). 
+
+BFO_0000008: all x (temporal region(x) -> occurrent(x)). 
+
+ICO_0000121: all x (obsolete explaining benefits of participation to participant candidate(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000140: all x (statement that specimens and data will be used for future research(x) -> DESCRIPTIVE ICES(x)). 
+
+ICO_0000008: all x (description of participation risk(x) -> descriptive information content entity(x)). 
+
+RUBRIC_0000035: all x (parent role(x) -> IRB member role(x)). 
+
+RUBRIC_0000035: all x (parent role(x) -> description of trigger condition(x)). 
+
+RUBRIC_0000035: all x (description of exemption(x) -> IRB member role(x)). 
+
+RUBRIC_0000035: all x (description of exemption(x) -> description of trigger condition(x)). 
+
+RUBRIC_0000015: all x (confidentiality directive(x) -> directive information entity(x)). 
+
+IAO_0000402: all x (two dimensional cartesian spatial coordinate datum(x) -> cartesian spatial coordinate datum(x)). 
+
+IAO_0021003: all x (social act(x) -> planned process(x)). 
+
+IAO_0021003: all x (social act(x) -> planned process(x)). 
+
+ICO_0000062: all x (obsolete human subject unable to give informed consent(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000120: all x (study event(x) -> EVENTS(x)). 
+
+IAO_0021000: all x (obsolete_claim(x) -> Obsolete Class(x)). 
+
+ICO_0000136: all x (obsolete participant candidate making voluntary decision of acceptance(x) -> Obsolete Class(x)). 
+
+IAO_0020023: all x (authentication(x) -> process(x)). 
+
+IAO_0020010: all x (dubbing process(x) -> planned process(x)). 
+
+IAO_0020010: all x (dubbing process(x) -> planned process(x)). 
+
+IAO_0000057: all x (contour plot(x) -> graph(x)). 
+
+RUBRIC_0000092: all x (process of certification(x) -> PROCESSES(x)). 
+
+RUBRIC_0000084: all x (administrator role(x) -> ROLES(x)). 
+
+RUBRIC_0000084: all x (administrator role(x) -> description of protection(x)). 
+
+ICO_0000003: all x (validating an informed consent form(x) -> planned process(x)). 
+
+ICO_0000003: all x (validating an informed consent form(x) -> planned process(x)). 
+
+IAO_0000129: all x (version number(x) -> symbol(x)). 
+
+IAO_0000409: all x (denotator type(x) -> data about an ontology part(x)). 
+
+BFO_0000144: all x (process profile(x) -> process(x)). 
+
+SIO_000184: all x (legal name(x) -> author identification(x)). 
+
+RUBRIC_0000122: all x (stasis of approved research(x) -> POSSIBLE STASIS(x)). 
+
+IAO_0000184: all x (scatter plot(x) -> graph(x)). 
+
+IAO_0021004: all x (socio-legal generically dependent continuant(x) -> generically dependent continuant(x)). 
+
+IAO_0021031: all x (document act performer role(x) -> role(x)). 
+
+IAO_0000443: all x (data item extraction from journal article(x) -> planned process(x)). 
+
+IAO_0000443: all x (data item extraction from journal article(x) -> planned process(x)). 
+
+RUBRIC_0000050: all x (delivery event(x) -> EVENTS(x)). 
+
 RUBRIC_0000066: all x (determination by IRB of magnitude of risk(x) -> REVIEW PROCESSES(x)). 
 
-rubric_0000036: all x (description of protection(x) -> description of trigger condition(x)). 
+IAO_0000573: all x (line graph(x) -> graph(x)). 
+
+IAO_0000328: all x (table of figures(x) -> table(x)). 
+
+RUBRIC_0000040: all x (stasis of law(x) -> stasis of regulation(x)). 
+
+RUBRIC_0000040: all x (stasis of law(x) -> statement of additional resulting costs to subject for participation(x)). 
+
+RUBRIC_0000040: all x (statement of consequences of voluntarily withdraw(x) -> stasis of regulation(x)). 
+
+RUBRIC_0000040: all x (statement of consequences of voluntarily withdraw(x) -> statement of additional resulting costs to subject for participation(x)). 
+
+IAO_0000183: all x (dendrogram(x) -> graph(x)). 
+
+RUBRIC_0000014: all x (deontic role directive(x) -> directive information entity(x)). 
+
+RUBRIC_0000030: all x (neglected children(x) -> DISPOSITIONS(x)). 
+
+IAO_0000015: all x (information carrier(x) -> quality(x)). 
+
+RUBRIC_0000011: all x (conditional informed consent rule(x) -> rule(x)). 
+
+RUBRIC_0000034: all x (description of voluntary participation(x) -> ROLES(x)). 
+
+RUBRIC_0000034: all x (description of voluntary participation(x) -> description of protection(x)). 
+
+RUBRIC_0000034: all x (legally authorized representative role(x) -> ROLES(x)). 
+
+RUBRIC_0000034: all x (legally authorized representative role(x) -> description of protection(x)). 
+
+IAO_0000109: all x (measurement datum(x) -> data item(x)). 
+
+RUBRIC_0000107: all x (no release of legal agents from liability rule(x) -> no waiver of legal rights rule(x)). 
+
+IAO_0000101: all x (image(x) -> figure(x)). 
+
+IAO_0000093: all x (obsolete2_binary executable(x) -> Obsolete Class(x)). 
+
+ICO_0000104: all x (obsolete informed consent form containing questionnaire(x) -> Obsolete Class(x)). 
+
+ICO_0000221: all x (act of informing(x) -> social act(x)). 
+
+RUBRIC_0000102: all x (local jurisdiction(x) -> JURISDICTION SUBCLASSES(x)). 
+
+IAO_0000308: all x (figure(x) -> information content entity(x)). 
+
+IAO_0000308: all x (figure(x) -> information content entity(x)). 
+
+ICO_0000080: all x (obsolete research assistant(x) -> Obsolete Class(x)). 
+
+ICO_0000049: all x (profit organization(x) -> organization(x)). 
+
+ICO_0000017: all x (obsolete fully signed informed consent form(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000055: all x (disclosure of alternative treatments is given rule(x) -> DIRECTIVE ICES(x)). 
+
+IAO_0000591: all x (software method(x) -> software(x)). 
+
+IAO_0000017: all x (model number(x) -> symbol(x)). 
+
+ico.owl#ICODEV_0000065: all x (obsolete NEEDS_REVIEW(x) -> Obsolete Class(x)). 
+
+ICO_0000035: all x (obsolete date specification in informed consent form(x) -> Obsolete Class(x)). 
+
+RUBRIC_0000086: all x (policy(x) -> DIRECTIVE ICES(x)). 
+
+IAO_0000315: all x (abstract(x) -> document part(x)). 
+
+RUBRIC_0000043: all x (statement that biospecimens may be used for profit(x) -> STATEMENTS ABOUT MONEY(x)). 
+
+RUBRIC_0000169: all x (data sharing directive(x) -> DIRECTIVE ICES(x)). 
+
+RUBRIC_0000018: all x (permission directive(x) -> directive information entity(x)). 
+
+PATO#PATO_0001025: all x (pressure(x) -> quality(x)). 
+
+BFO_0000028: all x (three-dimensional spatial region(x) -> spatial region(x)). 
+
+RUBRIC_0000119: all x (communication event(x) -> EVENTS(x)). 
+
+IAO_0000429: all x (email address(x) -> information content entity(x)). 
+
+IAO_0000429: all x (email address(x) -> information content entity(x)). 
+
+ICO_0000158: all x (declining to provide consent(x) -> planned process(x)). 
+
+ICO_0000158: all x (declining to provide consent(x) -> planned process(x)). 
+
+RUBRIC_0000020: all x (restriction directive(x) -> directive information entity(x)). 
+
+RUBRIC_0000167: all x (validation of study protocol(x) -> PROCESSES(x)). 
+
+RUBRIC_0000074: all x (federal department head role(x) -> ROLES(x)). 
+
+RUBRIC_0000074: all x (federal department head role(x) -> description of protection(x)). 
+
+ICO_0000022: all x (date specification(x) -> directive information entity(x)). 
+
+IAO_0020007: all x (sound energy(x) -> portion of energy(x)). 
+
+IAO_0000018: all x (obsolete_material_entity(x) -> Obsolete Class(x)). 
+
+IAO_0000576: all x (obsolete_establishing a CRID registry(x) -> Obsolete Class(x)). 
+
+IAO_0000321: all x (author list(x) -> document part(x)). 
+
+ICO_0000157: all x (parental informed consent process(x) -> informed consent process(x)). 
+
+ICO_0000052: all x (obsolete metastatic melanoma research investigation(x) -> Obsolete Class(x)). 
+
+IAO_0000317: all x (methods section(x) -> document part(x)). 
+
+IAO_0000319: all x (discussion section of a publication about an investigation(x) -> document part(x)). 
+
+IAO_0020009: all x (oscillating(x) -> process(x)). 
+
+ICO_0000223: all x (consent power role(x) -> deontic power role(x)). 
+
+ICO_0000150: all x (eligibility screening process(x) -> planned process(x)). 
+
+ICO_0000150: all x (eligibility screening process(x) -> planned process(x)). 
+
+RUBRIC_0000061: all x (decision made by the research subject(x) -> decision(x)). 
+
+ICO_0000009: all x (recontact method directive(x) -> directive information entity(x)). 
+
+ICO_0000103: all x (protected health information entity(x) -> health information entity(x)). 
+
+OBI_0000245: all x (organization(x) -> material entity(x)). 
+
+ICO_0000083: all x (individually identifiable health information entity(x) -> protected health information entity(x)). 
+
+ICO_0000182: all x (obsolete consenting to the secondary use of EHR(x) -> Obsolete Class(x)). 
+
+ICO_0000054: all x (human research investigation(x) -> investigation(x)). 
+
+RUBRIC_0000056: all x (no coercion or undue influence rule(x) -> DIRECTIVE ICES(x)). 
 

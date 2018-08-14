@@ -2,17 +2,24 @@ from __future__ import print_function # for 2.7 users
 import rdflib
 import argparse
 import os
+import subprocess
 
-
-# full-query extract function
 def makeFOL(file):
     # used to identify the file queried for the output dataset name
     source_file = os.path.basename(file)
     base = os.path.splitext(source_file)[0]
 
-    # rdflib naming conventions
+    file_in = str(file)
+    file_out = str(base) + '_merged.owl'
+
+    # merge the ontology to get all subclass axioms
+    robotMerge = 'robot merge --input ' + file_in + ' --output ' + file_out
+    process = subprocess.Popen(robotMerge.split(), stdout=subprocess.PIPE)
+    output, error = process.communicate()
+
+    # rdflib naming conventions to query set-up
     g = rdflib.Graph()
-    g = g.parse(file)
+    g = g.parse(file_out)
 
     # gather results from rdflib query
     qresults = g.query(
@@ -35,6 +42,11 @@ def makeFOL(file):
         print(str(row[2]).rsplit('/', 1)[-1] + ": all x (" + str(row[3]) + "(x) -> " + str(row[1]) + "(x)). \n", file=open("output_FOL.txt", "a"))
 
     print("File output printed to: output_FOL.txt in current directory")
+
+    # clean up the dir
+    remove_merged = "rm " + file_out
+    process = subprocess.Popen(remove_merged.split(), stdout=subprocess.PIPE)
+    output, error = process.communicate()
 
 if __name__ == "__main__":
 
