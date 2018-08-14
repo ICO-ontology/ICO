@@ -1,0 +1,44 @@
+%  http://purl.obolibrary.org/obo/NCBITaxon_9606
+%  source ontology: NCBITaxon
+%  entity: http://purl.obolibrary.org/obo/NCBITaxon_9606
+%  label: Homo sapiens
+%  parent: http://purl.obolibrary.org/obo/NCBITaxon_9606
+%  parentLabel: Homo sapiens
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (Homo_sapiens(x) -> Homo_sapiens(x)). 
+
+%  http://purl.obolibrary.org/obo/NCBITaxon_9606
+%  source ontology: NCBITaxon
+%  entity: http://purl.obolibrary.org/obo/NCBITaxon_9606
+%  label: Homo sapiens
+%  parent: http://purl.obolibrary.org/obo/NCBITaxon_9606
+%  parentLabel: Homo sapiens
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (Homo_sapiens(x) -> Homo_sapiens(x)). 
+
+%  http://purl.obolibrary.org/obo/NCBITaxon_9606
+%  source ontology: NCBITaxon
+%  entity: http://purl.obolibrary.org/obo/NCBITaxon_9606
+%  label: Homo sapiens
+%  parent: http://purl.obolibrary.org/obo/OBI_0100026
+%  parentLabel: organism
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (Homo_sapiens(x) -> organism(x)). 
+
+%  http://purl.obolibrary.org/obo/NCBITaxon_9606
+%  source ontology: NCBITaxon
+%  entity: http://purl.obolibrary.org/obo/NCBITaxon_9606
+%  label: Homo sapiens
+%  parent: http://purl.obolibrary.org/obo/OBI_0100026
+%  parentLabel: organism
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (Homo_sapiens(x) -> organism(x)). 
+

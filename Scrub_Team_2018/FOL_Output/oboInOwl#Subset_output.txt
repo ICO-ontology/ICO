@@ -1,0 +1,33 @@
+%  http://www.geneontology.org/formats/oboInOwl#Subset
+%  source ontology: oboInOwl#Subset
+%  entity: http://www.geneontology.org/formats/oboInOwl#Subset
+%  label: denotator type
+%  parent: http://purl.obolibrary.org/obo/IAO_0000102
+%  parentLabel: data about an ontology part
+%  EquivalenceAxiom: Ncc05707a74f140ba80f3a4d819254dd3
+%  SubclassAxiom: Ncc05707a74f140ba80f3a4d819254dd3
+
+all x (denotator_type(x) -> data_about_an_ontology_part(x)). 
+
+%  http://www.geneontology.org/formats/oboInOwl#Subset
+%  source ontology: oboInOwl#Subset
+%  entity: http://www.geneontology.org/formats/oboInOwl#Subset
+%  label: curation status specification
+%  parent: http://purl.obolibrary.org/obo/IAO_0000102
+%  parentLabel: data about an ontology part
+%  EquivalenceAxiom: Nada546284332408e8c24aa081422fb6f
+%  SubclassAxiom: Nada546284332408e8c24aa081422fb6f
+
+all x (curation_status_specification(x) -> data_about_an_ontology_part(x)). 
+
+%  http://www.geneontology.org/formats/oboInOwl#Subset
+%  source ontology: oboInOwl#Subset
+%  entity: http://www.geneontology.org/formats/oboInOwl#Subset
+%  label: obsolescence reason specification
+%  parent: http://purl.obolibrary.org/obo/IAO_0000102
+%  parentLabel: data about an ontology part
+%  EquivalenceAxiom: N58bde31d279d48bda3b7cf8f032f2c4a
+%  SubclassAxiom: N58bde31d279d48bda3b7cf8f032f2c4a
+
+all x (obsolescence_reason_specification(x) -> data_about_an_ontology_part(x)). 
+

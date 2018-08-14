@@ -411,8 +411,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the agent that is liable if a trigger condition describing failure to comply with a rule is met.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">expert panel role</rdfs:label>
+        <rdfs:label xml:lang="en">liability directive</rdfs:label>
     </owl:Class>
     
 
@@ -421,6 +425,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000112 xml:lang="en">The section of an informed consent document that describes a clinical procedure that the agent is consenting to.</IAO_0000112>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes a medical procedure.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">description of medical procedure</rdfs:label>
         <rdfs:label xml:lang="en">guardian role</rdfs:label>
     </owl:Class>
     
@@ -429,8 +438,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes some state of affairs such that, if that state of affairs holds, some other prescription follows.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">An antecedent.</IAO_0000232>
         <rdfs:label xml:lang="en">IRB member role</rdfs:label>
+        <rdfs:label xml:lang="en">description of trigger condition</rdfs:label>
     </owl:Class>
     
 
@@ -439,6 +452,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000117 xml:lang="en">A descriptive information content entity that reports that participation in the procedures described elsewhere in the document are voluntary.</IAO_0000117>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">description of voluntary participation</rdfs:label>
         <rdfs:label xml:lang="en">legally authorized representative role</rdfs:label>
     </owl:Class>
     
@@ -447,7 +464,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000033"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
+        <IAO_0000115 xml:lang="en">A trigger condition description that nullifies some other prescription or obligation.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">Term definition adapted from http://purl.obolibrary.org/obo/NCIT_C73530</IAO_0000232>
+        <rdfs:label xml:lang="en">description of exemption</rdfs:label>
         <rdfs:label xml:lang="en">parent role</rdfs:label>
     </owl:Class>
     
@@ -457,8 +479,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000033"/>
+        <IAO_0000115 xml:lang="en">A trigger condition description describing some person or group of people who either a) bear a disposition of vulnerability or b) are of a type whose instances are known to frequently bear a disposition of vulnerability.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <IAO_0000232 xml:lang="en">BFO: roles that may be realized in an OBI: Investigation</IAO_0000232>
+        <IAO_0000232 xml:lang="en">See http://purl.unep.org/sdg/SDGIO_00000024 (Vulnerability):  A disposition of an entity to undergo undesirable change in response to some exposure.</IAO_0000232>
         <rdfs:label xml:lang="en">ROLES</rdfs:label>
+        <rdfs:label xml:lang="en">description of protection</rdfs:label>
     </owl:Class>
     
 
@@ -485,6 +512,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000042"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant"/>
+        <IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has participant some information content entity and during which that information content entity is recognized within that jurisdiction and directs governance within that jurisdiction.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">The term label ‘Stasis of Regulation’ encompasses state law, federal statutes, and institutional policy.</IAO_0000232>
+        <rdfs:label xml:lang="en">stasis of regulation</rdfs:label>
         <rdfs:label xml:lang="en">statement of additional resulting costs to subject for participation</rdfs:label>
     </owl:Class>
     
@@ -494,6 +526,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000039"/>
+        <IAO_0000115 xml:lang="en">A stasis of regulation that has participant some information content entity and during which that information content entity is recognized as a law within the jurisdiction in which the stasis of regulation is occurring.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte</IAO_0000117>
+        <IAO_0000232 xml:lang="en">The  ‘stasis of law’ designates the spatial and temporal conditions that need to be met in order for a regulatory document to be a ‘law’ or a ‘policy.’ This is necessary because laws, or other regulations are overturned, made obsolete, ect..., but material entities concretizing them persist.</IAO_0000232>
+        <IAO_0000232 xml:lang="en">There are many definitions and conceptions of law, which can be elaborated in further work. There is a concern not to define law in such a way that we narrow the scope beyond an international context.</IAO_0000232>
+        <rdfs:label xml:lang="en">stasis of law</rdfs:label>
         <rdfs:label xml:lang="en">statement of consequences of voluntarily withdraw</rdfs:label>
     </owl:Class>
     
@@ -1701,101 +1739,6 @@ Regulations are issued by various federal government departments and agencies to
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
         <rdfs:label xml:lang="en">description of study purpose</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/rubric_0000031 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/rubric_0000031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the agent that is liable if a trigger condition describing failure to comply with a rule is met.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">liability directive</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/rubric_0000032 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/rubric_0000032">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
-        <IAO_0000112 xml:lang="en">The section of an informed consent document that describes a clinical procedure that the agent is consenting to.</IAO_0000112>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes a medical procedure.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">description of medical procedure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/rubric_0000033 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/rubric_0000033">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes some state of affairs such that, if that state of affairs holds, some other prescription follows.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">An antecedent.</IAO_0000232>
-        <rdfs:label xml:lang="en">description of trigger condition</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/rubric_0000034 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/rubric_0000034">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
-        <IAO_0000117 xml:lang="en">A descriptive information content entity that reports that participation in the procedures described elsewhere in the document are voluntary.</IAO_0000117>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">description of voluntary participation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/rubric_0000035 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/rubric_0000035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/rubric_0000033"/>
-        <IAO_0000115 xml:lang="en">A trigger condition description that nullifies some other prescription or obligation.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">Term definition adapted from http://purl.obolibrary.org/obo/NCIT_C73530</IAO_0000232>
-        <rdfs:label xml:lang="en">description of exemption</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/rubric_0000036 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/rubric_0000036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/rubric_0000033"/>
-        <IAO_0000115 xml:lang="en">A trigger condition description describing some person or group of people who either a) bear a disposition of vulnerability or b) are of a type whose instances are known to frequently bear a disposition of vulnerability.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">See http://purl.unep.org/sdg/SDGIO_00000024 (Vulnerability):  A disposition of an entity to undergo undesirable change in response to some exposure.</IAO_0000232>
-        <rdfs:label xml:lang="en">description of protection</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/rubric_0000039 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/rubric_0000039">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant"/>
-        <IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has participant some information content entity and during which that information content entity is recognized within that jurisdiction and directs governance within that jurisdiction.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">The term label ‘Stasis of Regulation’ encompasses state law, federal statutes, and institutional policy.</IAO_0000232>
-        <rdfs:label xml:lang="en">stasis of regulation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/rubric_0000040 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/rubric_0000040">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/rubric_0000039"/>
-        <IAO_0000115 xml:lang="en">A stasis of regulation that has participant some information content entity and during which that information content entity is recognized as a law within the jurisdiction in which the stasis of regulation is occurring.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte</IAO_0000117>
-        <IAO_0000232 xml:lang="en">The  ‘stasis of law’ designates the spatial and temporal conditions that need to be met in order for a regulatory document to be a ‘law’ or a ‘policy.’ This is necessary because laws, or other regulations are overturned, made obsolete, ect..., but material entities concretizing them persist.</IAO_0000232>
-        <IAO_0000232 xml:lang="en">There are many definitions and conceptions of law, which can be elaborated in further work. There is a concern not to define law in such a way that we narrow the scope beyond an international context.</IAO_0000232>
-        <rdfs:label xml:lang="en">stasis of law</rdfs:label>
     </owl:Class>
     
 
