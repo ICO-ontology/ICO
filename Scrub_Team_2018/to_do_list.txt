@@ -3,35 +3,23 @@ List of to-dos for ICO and RUBRIC
 Up Next:
 - RUBRIC: 'Answer directive' label
 - RUBRIC: Every conditional will have a trigger condition description ('if') and a consequent directive ('then').
-- RUBRIC: update 'risk' and 'benefit'
 - Medical procedure should be 'research procedure' and 'clinical procedure'
 - Planned and Actual study duration measurements are different
 - Different states for informed consent forms
-  - pre-approval vs approved vs filled out (where does each class fall?)
-- Specimens of different types from OBI
-- Specimens and datasets are different
+  - pre-approval vs approved vs filled out (where does each class fall?)\
 - "Can be used on radio or TV" or "Can be shown to/played for other research participants"
 - Informing does not have to be human-human. I can learn from a book. New class?
 - Import RO temporal relations
-- ICO: act of denying consent
 - add RO to imports
 - RUBRIC: specimen use/data use
 
 
 Final:
-- RUBRIC: For all CCO terms, add the following license info in an annotation property:
-
-    "BSD 3-Clause License
-    Copyright (c) 2017, CUBRC, Inc.
-    All rights reserved."
-
-- Watch out for 'specify'
+- RUBRIC: For all CCO terms, add the license info in an annotation property
 - Spell check all annotations
 - Grammar check all annotations
 - All definitions have 'genus - differentia' form
-- No axioms point to obsolete classes
 - Protege reasoner to check axiomatic consistency
-- All 'roles' have the 'role' suffix
 - Resolve synonyms:
   - Known issues: permissions/permitee, subject/person/agent/patient
 - FOL is consistent
@@ -43,4 +31,3 @@ Final:
 - new PURLS resolve in OBO
 - 'research study' should be replaced by OBI: investigation
 - create ontology publishing process
-- Tell OBI that 'organization' is an object aggregate' , and that their definition of organization seems like a definition of institution rather than organization.

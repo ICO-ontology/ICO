@@ -412,10 +412,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the agent that is liable if a trigger condition describing failure to comply with a rule is met.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the agent that is liable if a trigger condition is met.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">expert panel role</rdfs:label>
         <rdfs:label xml:lang="en">liability directive</rdfs:label>
     </owl:Class>
     
@@ -424,7 +422,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000032">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <IAO_0000112 xml:lang="en">The section of an informed consent document that describes a clinical procedure that the agent is consenting to.</IAO_0000112>
         <IAO_0000115 xml:lang="en">A descriptive information content entity that describes a medical procedure.</IAO_0000115>
@@ -451,7 +448,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <IAO_0000117 xml:lang="en">A descriptive information content entity that reports that participation in the procedures described elsewhere in the document are voluntary.</IAO_0000117>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
@@ -464,7 +460,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000033"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
         <IAO_0000115 xml:lang="en">A trigger condition description that nullifies some other prescription or obligation.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
@@ -479,7 +474,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000033"/>
         <IAO_0000115 xml:lang="en">A trigger condition description describing some person or group of people who either a) bear a disposition of vulnerability or b) are of a type whose instances are known to frequently bear a disposition of vulnerability.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <IAO_0000232 xml:lang="en">BFO: roles that may be realized in an OBI: Investigation</IAO_0000232>
@@ -512,7 +506,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000042"/>
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant"/>
         <IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has participant some information content entity and during which that information content entity is recognized within that jurisdiction and directs governance within that jurisdiction.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <IAO_0000232 xml:lang="en">The term label ‘Stasis of Regulation’ encompasses state law, federal statutes, and institutional policy.</IAO_0000232>
@@ -526,7 +519,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000039"/>
         <IAO_0000115 xml:lang="en">A stasis of regulation that has participant some information content entity and during which that information content entity is recognized as a law within the jurisdiction in which the stasis of regulation is occurring.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte</IAO_0000117>
         <IAO_0000232 xml:lang="en">The  ‘stasis of law’ designates the spatial and temporal conditions that need to be met in order for a regulatory document to be a ‘law’ or a ‘policy.’ This is necessary because laws, or other regulations are overturned, made obsolete, ect..., but material entities concretizing them persist.</IAO_0000232>
@@ -704,6 +696,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000059 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000059">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <IAO_0000232 xml:lang="en">&quot;§46.102(f) Human subject means a living individual about whom an investigator (whether professional or student) conducting research obtains (1) Data through intervention or interaction with the individual, or 2) Identifiable private information. Intervention includes both physical procedures by which data are gathered (for example, venipuncture) and manipulations of the subject or the subject&apos;s environment that are performed for research purposes. Interaction includes communication or interpersonal contact between investigator and subject. Private information includes information about behavior that occurs in a context in which an individual can reasonably expect that no observation or recording is taking place, and information which has been provided for specific purposes by an individual and which the individual can reasonably expect will not be made public (for example, a medical record). Private information must be individually identifiable (i.e., the identity of the subject is or may readily be ascertained by the investigator or associated with the information) in order for obtaining the information to constitute research involving human subjects.&quot;</IAO_0000232>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete information about participant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>

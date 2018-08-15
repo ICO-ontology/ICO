@@ -257,6 +257,27 @@
 
 
 
+    <!-- http://purl.obolibrary.org/obo/ICODEV_0000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICODEV_0000065">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete NEEDS_REVIEW</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/ICODEV_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICODEV_0000066">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:comment xml:lang="en">Classes proposed for RUBRIC refactoring (non-exhaustive)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete Proposed RUBRIC Classes</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+
+
+
     <!-- http://purl.obolibrary.org/obo/ICO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000001">
@@ -371,8 +392,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <obo:IAO_0000115 xml:lang="en">A document part that specifies a method of contact in the future.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A document part that prescribes a method of contact in the future.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">recontact method directive</rdfs:label>
     </owl:Class>
 
@@ -667,8 +688,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000085"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form that is adapted to the cognitive abilities and reading abilities child or minor.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He, Jonathan Vajda</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed assent form for child or minor</rdfs:label>
     </owl:Class>
@@ -1318,7 +1338,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
         <obo:IAO_0000115 xml:lang="en">A document that explains relevant information regarding the expectations and requirements of participation in a research study or clinical procedure, is adapted to the cognitive capacities of that individual so as to assist in that individual&apos;s understanding, and is designed to record the assent of that individual.</obo:IAO_0000115>
-        <dc:contributor xml:lang="en">Jonathan Vajda</dc:contributor>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He, Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">informed assent form</rdfs:label>
     </owl:Class>
 
@@ -2393,7 +2413,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000185">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000085"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form that is adapted to the cognitive capacities of someone with significant mental impairment.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He, Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">informed assent form for cognitively impaired</rdfs:label>
     </owl:Class>
 
@@ -2440,7 +2460,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000189">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <obo:IAO_0000115 xml:lang="en">A directive information entity that specifies a human being who is to bear a contact role.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes a human being who is to bear a contact role.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">contact directive</rdfs:label>
     </owl:Class>
@@ -2816,6 +2836,19 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000226">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant"/>
+        <obo:IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has participant some information content entity which, during the stasis, is unable to be used to identify some agent which the information is about.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury, J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">An information content entity that has previously undergone the process &apos;act of anonymization&apos; participates in this stasis.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">We expect to add a subclass axiom: &apos;preceded by&apos; some &apos;Act of Anonymizing&apos;</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">stasis of anonymization</rdfs:label>
+    </owl:Class>
+
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000093">
@@ -2966,40 +2999,6 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICODEV_0000065 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICODEV_0000065">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete NEEDS_REVIEW</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-
-
-
-    <!-- http://purl.obolibrary.org/obo/ICODEV_0000066 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICODEV_0000066">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <rdfs:comment xml:lang="en">Classes proposed for RUBRIC refactoring (non-exhaustive)</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete Proposed RUBRIC Classes</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-
-
-
-    <!-- http://purl.obolibrary.org/obo/ICO_0000226 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000226">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant"/>
-        <obo:IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has participant some information content entity which, during the stasis, is unable to be used to identify some agent which the information is about.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury, J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">An information content entity that has previously undergone the process &apos;act of anonymization&apos; participates in this stasis.</obo:IAO_0000232>
-        <obo:IAO_0000232 xml:lang="en">We expect to add a subclass axiom: &apos;preceded by&apos; some &apos;Act of Anonymizing&apos;</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">stasis of anonymization</rdfs:label>
-    </owl:Class>
-
-
-
     <!-- http://purl.obolibrary.org/obo/ico.owl#http://purl.obolibrary.org/obo/OBI_0000181 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#http://purl.obolibrary.org/obo/OBI_0000181">
@@ -3044,15 +3043,6 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000232 xml:lang="en">from http://semanticscience.org/resource/SIO_000184</obo:IAO_0000232>
         <rdfs:label xml:lang="en">legal name</rdfs:label>
     </owl:Class>
-
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -->
-
-    <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass">
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-
 
 
     <!--
