@@ -13,7 +13,6 @@ Up Next:
 - "Can be used on radio or TV" or "Can be shown to/played for other research participants"
 - Informing does not have to be human-human. I can learn from a book. New class?
 - Import RO temporal relations
-- ICO: act of denying consent
 - add RO to imports
 - RUBRIC: specimen use/data use
 
@@ -25,13 +24,11 @@ Final:
     Copyright (c) 2017, CUBRC, Inc.
     All rights reserved."
 
-- Watch out for 'specify'
 - Spell check all annotations
 - Grammar check all annotations
 - All definitions have 'genus - differentia' form
 - No axioms point to obsolete classes
 - Protege reasoner to check axiomatic consistency
-- All 'roles' have the 'role' suffix
 - Resolve synonyms:
   - Known issues: permissions/permitee, subject/person/agent/patient
 - FOL is consistent
