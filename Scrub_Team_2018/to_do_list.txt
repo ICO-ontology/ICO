@@ -15,6 +15,7 @@ Up Next:
 - Import RO temporal relations
 - ICO: act of denying consent
 - add RO to imports
+- RUBRIC: specimen use/data use
 
 
 Final:
@@ -41,4 +42,5 @@ Final:
 - File in correct OBO format
 - new PURLS resolve in OBO
 - 'research study' should be replaced by OBI: investigation
+- create ontology publishing process
 - Tell OBI that 'organization' is an object aggregate' , and that their definition of organization seems like a definition of institution rather than organization.
