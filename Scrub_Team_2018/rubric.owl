@@ -412,7 +412,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the agent that is liable if a trigger condition describing failure to comply with a rule is met.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the agent that is liable if a trigger condition is met.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">liability directive</rdfs:label>
     </owl:Class>
