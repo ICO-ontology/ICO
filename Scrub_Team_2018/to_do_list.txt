@@ -19,7 +19,6 @@ Final:
 - Spell check all annotations
 - Grammar check all annotations
 - All definitions have 'genus - differentia' form
-- No axioms point to obsolete classes
 - Protege reasoner to check axiomatic consistency
 - Resolve synonyms:
   - Known issues: permissions/permitee, subject/person/agent/patient
@@ -32,4 +31,3 @@ Final:
 - new PURLS resolve in OBO
 - 'research study' should be replaced by OBI: investigation
 - create ontology publishing process
-- Tell OBI that 'organization' is an object aggregate' , and that their definition of organization seems like a definition of institution rather than organization.
