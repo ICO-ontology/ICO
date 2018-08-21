@@ -12,6 +12,9 @@ Up Next:
 - Import RO temporal relations
 - add RO to imports
 - RUBRIC: specimen use/data use
+- Are these social acts?
+  - 'canceling a permission'
+  - 'declining to provide consent'
 
 
 Final:
