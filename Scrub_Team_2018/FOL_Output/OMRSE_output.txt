@@ -1,0 +1,319 @@
+%  http://purl.obolibrary.org/obo/OMRSE_00000033
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000033
+%  label: Material anatomical entity
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (Material_anatomical_entity(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000033
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000033
+%  label: aggregate of organizations
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: N0221c3e9a91f46ce8cbb698834f04a35
+%  SubclassAxiom: N0221c3e9a91f46ce8cbb698834f04a35
+
+all x (aggregate_of_organizations(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000033
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000033
+%  label: document act target
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: N8d6effe8ab6e4374b3206070ce62f5f9
+%  SubclassAxiom: N8d6effe8ab6e4374b3206070ce62f5f9
+
+all x (document_act_target(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000033
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000033
+%  label: specimen
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (specimen(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000033
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000033
+%  label: fiat object
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (fiat_object(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000033
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000033
+%  label: population
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (population(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000033
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000033
+%  label: organization
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (organization(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000033
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000033
+%  label: object aggregate
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (object_aggregate(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000033
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000033
+%  label: object
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (object(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000033
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000033
+%  label: disorder
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (disorder(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000033
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000033
+%  label: agent
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: Nadf41d156c904047a4196ee5f3c34d3a
+%  SubclassAxiom: Nadf41d156c904047a4196ee5f3c34d3a
+
+all x (agent(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000033
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000033
+%  label: collection of organisms
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: Nb31af1832ff9445c915f3af4bd45d6e4
+%  SubclassAxiom: Nb31af1832ff9445c915f3af4bd45d6e4
+
+all x (collection_of_organisms(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000033
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000033
+%  label: material information bearer
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: N7218132e9d664685b281f7bb7d73f294
+%  SubclassAxiom: N7218132e9d664685b281f7bb7d73f294
+
+all x (material_information_bearer(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000033
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000033
+%  label: organism
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (organism(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000023
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000023
+%  label: collection of humans
+%  parent: http://purl.obolibrary.org/obo/OMRSE_00000022
+%  parentLabel: collection of organisms
+%  EquivalenceAxiom: Nb9930c4762bc4d9e94ad2ec78223fe8a
+%  SubclassAxiom: Nb9930c4762bc4d9e94ad2ec78223fe8a
+
+all x (collection_of_humans(x) -> collection_of_organisms(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000022
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000022
+%  label: Material anatomical entity
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (Material_anatomical_entity(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000022
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000022
+%  label: aggregate of organizations
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: N0221c3e9a91f46ce8cbb698834f04a35
+%  SubclassAxiom: N0221c3e9a91f46ce8cbb698834f04a35
+
+all x (aggregate_of_organizations(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000022
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000022
+%  label: document act target
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: N8d6effe8ab6e4374b3206070ce62f5f9
+%  SubclassAxiom: N8d6effe8ab6e4374b3206070ce62f5f9
+
+all x (document_act_target(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000022
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000022
+%  label: specimen
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (specimen(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000022
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000022
+%  label: fiat object
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (fiat_object(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000022
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000022
+%  label: population
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (population(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000022
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000022
+%  label: organization
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (organization(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000022
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000022
+%  label: object aggregate
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (object_aggregate(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000022
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000022
+%  label: object
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (object(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000022
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000022
+%  label: disorder
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (disorder(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000022
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000022
+%  label: agent
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: Nadf41d156c904047a4196ee5f3c34d3a
+%  SubclassAxiom: Nadf41d156c904047a4196ee5f3c34d3a
+
+all x (agent(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000022
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000022
+%  label: collection of organisms
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: Nb31af1832ff9445c915f3af4bd45d6e4
+%  SubclassAxiom: Nb31af1832ff9445c915f3af4bd45d6e4
+
+all x (collection_of_organisms(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000022
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000022
+%  label: material information bearer
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: N7218132e9d664685b281f7bb7d73f294
+%  SubclassAxiom: N7218132e9d664685b281f7bb7d73f294
+
+all x (material_information_bearer(x) -> material_entity(x)). 
+
+%  http://purl.obolibrary.org/obo/OMRSE_00000022
+%  source ontology: OMRSE
+%  entity: http://purl.obolibrary.org/obo/OMRSE_00000022
+%  label: organism
+%  parent: http://purl.obolibrary.org/obo/BFO_0000040
+%  parentLabel: material entity
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (organism(x) -> material_entity(x)). 
+

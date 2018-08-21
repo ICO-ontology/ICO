@@ -1,0 +1,77 @@
+%  http://purl.org/obo/owl/PATO#PATO_0001025
+%  source ontology: PATO#PATO
+%  entity: http://purl.org/obo/owl/PATO#PATO_0001025
+%  label: length
+%  parent: http://purl.obolibrary.org/obo/BFO_0000019
+%  parentLabel: quality
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (length(x) -> quality(x)). 
+
+%  http://purl.org/obo/owl/PATO#PATO_0001025
+%  source ontology: PATO#PATO
+%  entity: http://purl.org/obo/owl/PATO#PATO_0001025
+%  label: relational quality
+%  parent: http://purl.obolibrary.org/obo/BFO_0000019
+%  parentLabel: quality
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (relational_quality(x) -> quality(x)). 
+
+%  http://purl.org/obo/owl/PATO#PATO_0001025
+%  source ontology: PATO#PATO
+%  entity: http://purl.org/obo/owl/PATO#PATO_0001025
+%  label: information carrier
+%  parent: http://purl.obolibrary.org/obo/BFO_0000019
+%  parentLabel: quality
+%  EquivalenceAxiom: Na4befbdf021a4f74b92c64fc324e7ed3
+%  SubclassAxiom: Na4befbdf021a4f74b92c64fc324e7ed3
+
+all x (information_carrier(x) -> quality(x)). 
+
+%  http://purl.org/obo/owl/PATO#PATO_0001025
+%  source ontology: PATO#PATO
+%  entity: http://purl.org/obo/owl/PATO#PATO_0001025
+%  label: mechanical wave quality
+%  parent: http://purl.obolibrary.org/obo/BFO_0000019
+%  parentLabel: quality
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (mechanical_wave_quality(x) -> quality(x)). 
+
+%  http://purl.org/obo/owl/PATO#PATO_0001025
+%  source ontology: PATO#PATO
+%  entity: http://purl.org/obo/owl/PATO#PATO_0001025
+%  label: writing quality
+%  parent: http://purl.obolibrary.org/obo/BFO_0000019
+%  parentLabel: quality
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (writing_quality(x) -> quality(x)). 
+
+%  http://purl.org/obo/owl/PATO#PATO_0001025
+%  source ontology: PATO#PATO
+%  entity: http://purl.org/obo/owl/PATO#PATO_0001025
+%  label: mass
+%  parent: http://purl.obolibrary.org/obo/BFO_0000019
+%  parentLabel: quality
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (mass(x) -> quality(x)). 
+
+%  http://purl.org/obo/owl/PATO#PATO_0001025
+%  source ontology: PATO#PATO
+%  entity: http://purl.org/obo/owl/PATO#PATO_0001025
+%  label: pressure
+%  parent: http://purl.obolibrary.org/obo/BFO_0000019
+%  parentLabel: quality
+%  EquivalenceAxiom: None
+%  SubclassAxiom: None
+
+all x (pressure(x) -> quality(x)). 
+
