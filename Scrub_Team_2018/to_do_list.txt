@@ -15,6 +15,7 @@ Up Next:
 - Are these social acts?
   - 'canceling a permission'
   - 'declining to provide consent'
+- 'consenter' and 'agent' not the same superclass (per JV's email)?
 
 
 Final:
