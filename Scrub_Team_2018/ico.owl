@@ -461,8 +461,8 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000034"/>
-        <obo:IAO_0000115 xml:lang="en">An informed consent form for human sample collection that is specifically for human blood sample collection.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">An informed consent form that is specifically for human blood sample collection.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">informed consent form for human blood sample collection</rdfs:label>
     </owl:Class>
