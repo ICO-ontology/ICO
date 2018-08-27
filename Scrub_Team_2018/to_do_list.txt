@@ -6,8 +6,7 @@ Up Next:
 - Medical procedure should be 'research procedure' and 'clinical procedure'
 - Planned and Actual study duration measurements are different
 - Different states for informed consent forms
-  - pre-approval vs approved vs filled out (where does each class fall?)\
-- "Can be used on radio or TV" or "Can be shown to/played for other research participants"
+  - pre-approval vs approved vs filled out (where does each class fall?)
 - Informing does not have to be human-human. I can learn from a book. New class?
 - Import RO temporal relations
 - add RO to imports
@@ -17,6 +16,11 @@ Up Next:
   - 'declining to provide consent'
 - 'consenter' and 'agent' not the same superclass (per JV's email)?
 
+FOL script
+- remove comments and rerun
+- single comment: human readable comment for each axiom
+- run query in protege and retrieve (1 hour)
+- camelcase instead of underscore
 
 Final:
 - RUBRIC: For all CCO terms, add the license info in an annotation property
@@ -27,11 +31,7 @@ Final:
 - Resolve synonyms:
   - Known issues: permissions/permitee, subject/person/agent/patient
 - FOL is consistent
-- d-acts import structure resolved
-- Add 'covered entity?'
-- All terms have a definition source?
 - review all obsolete classes
-- File in correct OBO format
 - new PURLS resolve in OBO
 - 'research study' should be replaced by OBI: investigation
 - create ontology publishing process
