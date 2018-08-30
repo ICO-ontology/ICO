@@ -1,0 +1,208 @@
+%  symbol is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (Symbol(x) -> InformationContentEntity(x)). 
+
+%  symbol is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (Symbol(x) -> InformationContentEntity(x)). 
+
+%  document part is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DocumentPart(x) -> InformationContentEntity(x)). 
+
+%  document part is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DocumentPart(x) -> InformationContentEntity(x)). 
+
+%  document part is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DocumentPart(x) -> InformationContentEntity(x)). 
+
+%  document part is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DocumentPart(x) -> InformationContentEntity(x)). 
+
+%  utterance is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (Utterance(x) -> InformationContentEntity(x)). 
+
+%  utterance is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (Utterance(x) -> InformationContentEntity(x)). 
+
+%  datum label is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DatumLabel(x) -> InformationContentEntity(x)). 
+
+%  datum label is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DatumLabel(x) -> InformationContentEntity(x)). 
+
+%  data item is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DataItem(x) -> InformationContentEntity(x)). 
+
+%  data item is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DataItem(x) -> InformationContentEntity(x)). 
+
+%  documented identity is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DocumentedIdentity(x) -> InformationContentEntity(x)). 
+
+%  documented identity is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DocumentedIdentity(x) -> InformationContentEntity(x)). 
+
+%  documented identity is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DocumentedIdentity(x) -> InformationContentEntity(x)). 
+
+%  documented identity is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DocumentedIdentity(x) -> InformationContentEntity(x)). 
+
+%  centrally registered identifier is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (CentrallyRegisteredIdentifier(x) -> InformationContentEntity(x)). 
+
+%  centrally registered identifier is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (CentrallyRegisteredIdentifier(x) -> InformationContentEntity(x)). 
+
+%  centrally registered identifier is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (CentrallyRegisteredIdentifier(x) -> InformationContentEntity(x)). 
+
+%  centrally registered identifier is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (CentrallyRegisteredIdentifier(x) -> InformationContentEntity(x)). 
+
+%  centrally registered identifier is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (CentrallyRegisteredIdentifier(x) -> InformationContentEntity(x)). 
+
+%  centrally registered identifier is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (CentrallyRegisteredIdentifier(x) -> InformationContentEntity(x)). 
+
+%  signature is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (Signature(x) -> InformationContentEntity(x)). 
+
+%  signature is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (Signature(x) -> InformationContentEntity(x)). 
+
+%  figure is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (Figure(x) -> InformationContentEntity(x)). 
+
+%  figure is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (Figure(x) -> InformationContentEntity(x)). 
+
+%  textual entity is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (TextualEntity(x) -> InformationContentEntity(x)). 
+
+%  textual entity is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (TextualEntity(x) -> InformationContentEntity(x)). 
+
+%  health information entity is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (HealthInformationEntity(x) -> InformationContentEntity(x)). 
+
+%  health information entity is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (HealthInformationEntity(x) -> InformationContentEntity(x)). 
+
+%  grapheme is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (Grapheme(x) -> InformationContentEntity(x)). 
+
+%  grapheme is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (Grapheme(x) -> InformationContentEntity(x)). 
+
+%  identifier is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (Identifier(x) -> InformationContentEntity(x)). 
+
+%  proper name is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (ProperName(x) -> InformationContentEntity(x)). 
+
+%  identifier is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (Identifier(x) -> InformationContentEntity(x)). 
+
+%  proper name is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (ProperName(x) -> InformationContentEntity(x)). 
+
+%  anonymized information content entity is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (AnonymizedInformationContentEntity(x) -> InformationContentEntity(x)). 
+
+%  anonymized information content entity is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (AnonymizedInformationContentEntity(x) -> InformationContentEntity(x)). 
+
+%  directive information entity is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DirectiveInformationEntity(x) -> InformationContentEntity(x)). 
+
+%  directive information entity is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DirectiveInformationEntity(x) -> InformationContentEntity(x)). 
+
+%  directive information entity is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DirectiveInformationEntity(x) -> InformationContentEntity(x)). 
+
+%  directive information entity is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DirectiveInformationEntity(x) -> InformationContentEntity(x)). 
+
+%  document is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (Document(x) -> InformationContentEntity(x)). 
+
+%  document is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (Document(x) -> InformationContentEntity(x)). 
+
+%  email address is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (EmailAddress(x) -> InformationContentEntity(x)). 
+
+%  email address is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (EmailAddress(x) -> InformationContentEntity(x)). 
+
+%  narrative object is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (NarrativeObject(x) -> InformationContentEntity(x)). 
+
+%  narrative object is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (NarrativeObject(x) -> InformationContentEntity(x)). 
+
+%  descriptive information content entity is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DescriptiveInformationContentEntity(x) -> InformationContentEntity(x)). 
+
+%  descriptive information content entity is subclass of information content entity
+%  entity: DescriptiveInformationContentEntity
+all x (DescriptiveInformationContentEntity(x) -> InformationContentEntity(x)). 
+

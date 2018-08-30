@@ -1,0 +1,3424 @@
+%  description of future use is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000188
+all x (DescriptionOfFutureUse(x) -> DescriptiveIces(x)). 
+
+%  description of coercion is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000188
+all x (DescriptionOfCoercion(x) -> DescriptiveIces(x)). 
+
+%  description of breach of confidentiality is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000188
+all x (DescriptionOfBreachOfConfidentiality(x) -> DescriptiveIces(x)). 
+
+%  description of waiver is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000188
+all x (DescriptionOfWaiver(x) -> DescriptiveIces(x)). 
+
+%  discription of reputational risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000188
+all x (DiscriptionOfReputationalRisk(x) -> DescriptiveIces(x)). 
+
+%  description of liability is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000188
+all x (DescriptionOfLiability(x) -> DescriptiveIces(x)). 
+
+%  description of collection of biospecimens is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000188
+all x (DescriptionOfCollectionOfBiospecimens(x) -> DescriptiveIces(x)). 
+
+%  discription of financial risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000188
+all x (DiscriptionOfFinancialRisk(x) -> DescriptiveIces(x)). 
+
+%  description of incentive is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000188
+all x (DescriptionOfIncentive(x) -> DescriptiveIces(x)). 
+
+%  description of consequences of voluntarily withdraw is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000188
+all x (DescriptionOfConsequencesOfVoluntarilyWithdraw(x) -> DescriptiveIces(x)). 
+
+%  description of collection of information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000188
+all x (DescriptionOfCollectionOfInformation(x) -> DescriptiveIces(x)). 
+
+%  description of discomfort is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000188
+all x (DescriptionOfDiscomfort(x) -> DescriptiveIces(x)). 
+
+%  description of conditional compensation is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000188
+all x (DescriptionOfConditionalCompensation(x) -> DescriptiveIces(x)). 
+
+%  description of alternative is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000188
+all x (DescriptionOfAlternative(x) -> DescriptiveIces(x)). 
+
+%  description of expected study participation duration is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000188
+all x (DescriptionOfExpectedStudyParticipationDuration(x) -> DescriptiveIces(x)). 
+
+%  description of procedure for obtaining futher information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000188
+all x (DescriptionOfProcedureForObtainingFutherInformation(x) -> DescriptiveIces(x)). 
+
+%  future use directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000187
+all x (FutureUseDirective(x) -> DirectiveIces(x)). 
+
+%  research method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000187
+all x (ResearchMethodDirective(x) -> DirectiveIces(x)). 
+
+%  permission transfer directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000187
+all x (PermissionTransferDirective(x) -> DirectiveIces(x)). 
+
+%  vulnerable population directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000187
+all x (VulnerablePopulationDirective(x) -> DirectiveIces(x)). 
+
+%  confidentiality directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000187
+all x (ConfidentialityDirective(x) -> DirectiveIces(x)). 
+
+%  contact method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000187
+all x (ContactMethodDirective(x) -> DirectiveIces(x)). 
+
+%  understood language directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000187
+all x (UnderstoodLanguageDirective(x) -> DirectiveIces(x)). 
+
+%  termination of participation directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000187
+all x (TerminationOfParticipationDirective(x) -> DirectiveIces(x)). 
+
+%  waiver directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000187
+all x (WaiverDirective(x) -> DirectiveIces(x)). 
+
+%  data sharing directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000187
+all x (DataSharingDirective(x) -> DirectiveIces(x)). 
+
+%  act of waiving is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000186
+all x (ActOfWaiving(x) -> Bfo:Processes(x)). 
+
+%  act of disclosure is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000186
+all x (ActOfDisclosure(x) -> Bfo:Processes(x)). 
+
+%  incarceration is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000186
+all x (Incarceration(x) -> Bfo:Processes(x)). 
+
+%  act of recording informed consent is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000186
+all x (ActOfRecordingInformedConsent(x) -> Bfo:Processes(x)). 
+
+%  act of approving is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000186
+all x (ActOfApproving(x) -> Bfo:Processes(x)). 
+
+%  act of communicating is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000186
+all x (ActOfCommunicating(x) -> Bfo:Processes(x)). 
+
+%  act of regulatory supervision is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000186
+all x (ActOfRegulatorySupervision(x) -> Bfo:Processes(x)). 
+
+%  process of abuse is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000186
+all x (ProcessOfAbuse(x) -> Bfo:Processes(x)). 
+
+%  female pregnancy is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000186
+all x (FemalePregnancy(x) -> Bfo:Processes(x)). 
+
+%  act of deciding is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000186
+all x (ActOfDeciding(x) -> Bfo:Processes(x)). 
+
+%  description of future use is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000185
+all x (DescriptionOfFutureUse(x) -> DescriptiveIces(x)). 
+
+%  description of coercion is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000185
+all x (DescriptionOfCoercion(x) -> DescriptiveIces(x)). 
+
+%  description of breach of confidentiality is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000185
+all x (DescriptionOfBreachOfConfidentiality(x) -> DescriptiveIces(x)). 
+
+%  description of waiver is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000185
+all x (DescriptionOfWaiver(x) -> DescriptiveIces(x)). 
+
+%  discription of reputational risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000185
+all x (DiscriptionOfReputationalRisk(x) -> DescriptiveIces(x)). 
+
+%  description of liability is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000185
+all x (DescriptionOfLiability(x) -> DescriptiveIces(x)). 
+
+%  description of collection of biospecimens is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000185
+all x (DescriptionOfCollectionOfBiospecimens(x) -> DescriptiveIces(x)). 
+
+%  discription of financial risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000185
+all x (DiscriptionOfFinancialRisk(x) -> DescriptiveIces(x)). 
+
+%  description of incentive is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000185
+all x (DescriptionOfIncentive(x) -> DescriptiveIces(x)). 
+
+%  description of consequences of voluntarily withdraw is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000185
+all x (DescriptionOfConsequencesOfVoluntarilyWithdraw(x) -> DescriptiveIces(x)). 
+
+%  description of collection of information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000185
+all x (DescriptionOfCollectionOfInformation(x) -> DescriptiveIces(x)). 
+
+%  description of discomfort is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000185
+all x (DescriptionOfDiscomfort(x) -> DescriptiveIces(x)). 
+
+%  description of conditional compensation is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000185
+all x (DescriptionOfConditionalCompensation(x) -> DescriptiveIces(x)). 
+
+%  description of alternative is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000185
+all x (DescriptionOfAlternative(x) -> DescriptiveIces(x)). 
+
+%  description of expected study participation duration is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000185
+all x (DescriptionOfExpectedStudyParticipationDuration(x) -> DescriptiveIces(x)). 
+
+%  description of procedure for obtaining futher information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000185
+all x (DescriptionOfProcedureForObtainingFutherInformation(x) -> DescriptiveIces(x)). 
+
+%  description of future biospecimen use is subclass of description of future use
+%  entity: RUBRIC_0000184
+all x (DescriptionOfFutureBiospecimenUse(x) -> DescriptionOfFutureUse(x)). 
+
+%  description of future data use is subclass of description of future use
+%  entity: RUBRIC_0000184
+all x (DescriptionOfFutureDataUse(x) -> DescriptionOfFutureUse(x)). 
+
+%  description of participation benefit is subclass of descriptive information content entity
+%  entity: RUBRIC_0000183
+all x (DescriptionOfParticipationBenefit(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of participation risk is subclass of descriptive information content entity
+%  entity: RUBRIC_0000183
+all x (DescriptionOfParticipationRisk(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  legally authorized representative role is subclass of descriptive information content entity
+%  entity: RUBRIC_0000183
+all x (LegallyAuthorizedRepresentativeRole(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of voluntary participation is subclass of descriptive information content entity
+%  entity: RUBRIC_0000183
+all x (DescriptionOfVoluntaryParticipation(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of broad consent is subclass of descriptive information content entity
+%  entity: RUBRIC_0000183
+all x (DescriptionOfBroadConsent(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  desciption of research procedure is subclass of descriptive information content entity
+%  entity: RUBRIC_0000183
+all x (DesciptionOfResearchProcedure(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  IRB member role is subclass of descriptive information content entity
+%  entity: RUBRIC_0000183
+all x (IrbMemberRole(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of trigger condition is subclass of descriptive information content entity
+%  entity: RUBRIC_0000183
+all x (DescriptionOfTriggerCondition(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of medical procedure is subclass of descriptive information content entity
+%  entity: RUBRIC_0000183
+all x (DescriptionOfMedicalProcedure(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  act of waiving is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000182
+all x (ActOfWaiving(x) -> Bfo:Processes(x)). 
+
+%  act of disclosure is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000182
+all x (ActOfDisclosure(x) -> Bfo:Processes(x)). 
+
+%  incarceration is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000182
+all x (Incarceration(x) -> Bfo:Processes(x)). 
+
+%  act of recording informed consent is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000182
+all x (ActOfRecordingInformedConsent(x) -> Bfo:Processes(x)). 
+
+%  act of approving is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000182
+all x (ActOfApproving(x) -> Bfo:Processes(x)). 
+
+%  act of communicating is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000182
+all x (ActOfCommunicating(x) -> Bfo:Processes(x)). 
+
+%  act of regulatory supervision is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000182
+all x (ActOfRegulatorySupervision(x) -> Bfo:Processes(x)). 
+
+%  process of abuse is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000182
+all x (ProcessOfAbuse(x) -> Bfo:Processes(x)). 
+
+%  female pregnancy is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000182
+all x (FemalePregnancy(x) -> Bfo:Processes(x)). 
+
+%  act of deciding is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000182
+all x (ActOfDeciding(x) -> Bfo:Processes(x)). 
+
+%  act of waiving is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000181
+all x (ActOfWaiving(x) -> Bfo:Processes(x)). 
+
+%  act of disclosure is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000181
+all x (ActOfDisclosure(x) -> Bfo:Processes(x)). 
+
+%  incarceration is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000181
+all x (Incarceration(x) -> Bfo:Processes(x)). 
+
+%  act of recording informed consent is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000181
+all x (ActOfRecordingInformedConsent(x) -> Bfo:Processes(x)). 
+
+%  act of approving is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000181
+all x (ActOfApproving(x) -> Bfo:Processes(x)). 
+
+%  act of communicating is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000181
+all x (ActOfCommunicating(x) -> Bfo:Processes(x)). 
+
+%  act of regulatory supervision is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000181
+all x (ActOfRegulatorySupervision(x) -> Bfo:Processes(x)). 
+
+%  process of abuse is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000181
+all x (ProcessOfAbuse(x) -> Bfo:Processes(x)). 
+
+%  female pregnancy is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000181
+all x (FemalePregnancy(x) -> Bfo:Processes(x)). 
+
+%  act of deciding is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000181
+all x (ActOfDeciding(x) -> Bfo:Processes(x)). 
+
+%  act of waiving is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000180
+all x (ActOfWaiving(x) -> Bfo:Processes(x)). 
+
+%  act of disclosure is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000180
+all x (ActOfDisclosure(x) -> Bfo:Processes(x)). 
+
+%  incarceration is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000180
+all x (Incarceration(x) -> Bfo:Processes(x)). 
+
+%  act of recording informed consent is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000180
+all x (ActOfRecordingInformedConsent(x) -> Bfo:Processes(x)). 
+
+%  act of approving is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000180
+all x (ActOfApproving(x) -> Bfo:Processes(x)). 
+
+%  act of communicating is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000180
+all x (ActOfCommunicating(x) -> Bfo:Processes(x)). 
+
+%  act of regulatory supervision is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000180
+all x (ActOfRegulatorySupervision(x) -> Bfo:Processes(x)). 
+
+%  process of abuse is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000180
+all x (ProcessOfAbuse(x) -> Bfo:Processes(x)). 
+
+%  female pregnancy is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000180
+all x (FemalePregnancy(x) -> Bfo:Processes(x)). 
+
+%  act of deciding is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000180
+all x (ActOfDeciding(x) -> Bfo:Processes(x)). 
+
+%  IAO:ICE is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000179
+all x (Iao:Ice(x) -> Needs_Review(x)). 
+
+%  BFO:ROLES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000179
+all x (Bfo:Roles(x) -> Needs_Review(x)). 
+
+%  OTHER CLASSES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000179
+all x (OtherClasses(x) -> Needs_Review(x)). 
+
+%  CCO:STASIS is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000179
+all x (Cco:Stasis(x) -> Needs_Review(x)). 
+
+%  OBI:ORGANISZATION is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000179
+all x (Obi:Organiszation(x) -> Needs_Review(x)). 
+
+%  BFO:PROCESSES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000179
+all x (Bfo:Processes(x) -> Needs_Review(x)). 
+
+%  BFO:DISPOSITIONS is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000179
+all x (Bfo:Dispositions(x) -> Needs_Review(x)). 
+
+%  description of protection is subclass of IRB member role
+%  entity: RUBRIC_0000176
+all x (DescriptionOfProtection(x) -> IrbMemberRole(x)). 
+
+%  description of protection is subclass of description of trigger condition
+%  entity: RUBRIC_0000176
+all x (DescriptionOfProtection(x) -> DescriptionOfTriggerCondition(x)). 
+
+%  stasis of law is subclass of stasis of regulation
+%  entity: RUBRIC_0000175
+all x (StasisOfLaw(x) -> StasisOfRegulation(x)). 
+
+%  stasis of anonymization is subclass of stasis of generically dependent continuant
+%  entity: RUBRIC_0000174
+all x (StasisOfAnonymization(x) -> StasisOfGenericallyDependentContinuant(x)). 
+
+%  stasis of regulation is subclass of stasis of generically dependent continuant
+%  entity: RUBRIC_0000174
+all x (StasisOfRegulation(x) -> StasisOfGenericallyDependentContinuant(x)). 
+
+%  description of future use is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000173
+all x (DescriptionOfFutureUse(x) -> DescriptiveIces(x)). 
+
+%  description of coercion is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000173
+all x (DescriptionOfCoercion(x) -> DescriptiveIces(x)). 
+
+%  description of breach of confidentiality is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000173
+all x (DescriptionOfBreachOfConfidentiality(x) -> DescriptiveIces(x)). 
+
+%  description of waiver is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000173
+all x (DescriptionOfWaiver(x) -> DescriptiveIces(x)). 
+
+%  discription of reputational risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000173
+all x (DiscriptionOfReputationalRisk(x) -> DescriptiveIces(x)). 
+
+%  description of liability is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000173
+all x (DescriptionOfLiability(x) -> DescriptiveIces(x)). 
+
+%  description of collection of biospecimens is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000173
+all x (DescriptionOfCollectionOfBiospecimens(x) -> DescriptiveIces(x)). 
+
+%  discription of financial risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000173
+all x (DiscriptionOfFinancialRisk(x) -> DescriptiveIces(x)). 
+
+%  description of incentive is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000173
+all x (DescriptionOfIncentive(x) -> DescriptiveIces(x)). 
+
+%  description of consequences of voluntarily withdraw is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000173
+all x (DescriptionOfConsequencesOfVoluntarilyWithdraw(x) -> DescriptiveIces(x)). 
+
+%  description of collection of information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000173
+all x (DescriptionOfCollectionOfInformation(x) -> DescriptiveIces(x)). 
+
+%  description of discomfort is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000173
+all x (DescriptionOfDiscomfort(x) -> DescriptiveIces(x)). 
+
+%  description of conditional compensation is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000173
+all x (DescriptionOfConditionalCompensation(x) -> DescriptiveIces(x)). 
+
+%  description of alternative is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000173
+all x (DescriptionOfAlternative(x) -> DescriptiveIces(x)). 
+
+%  description of expected study participation duration is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000173
+all x (DescriptionOfExpectedStudyParticipationDuration(x) -> DescriptiveIces(x)). 
+
+%  description of procedure for obtaining futher information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000173
+all x (DescriptionOfProcedureForObtainingFutherInformation(x) -> DescriptiveIces(x)). 
+
+%  future use directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000171
+all x (FutureUseDirective(x) -> DirectiveIces(x)). 
+
+%  research method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000171
+all x (ResearchMethodDirective(x) -> DirectiveIces(x)). 
+
+%  permission transfer directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000171
+all x (PermissionTransferDirective(x) -> DirectiveIces(x)). 
+
+%  vulnerable population directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000171
+all x (VulnerablePopulationDirective(x) -> DirectiveIces(x)). 
+
+%  confidentiality directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000171
+all x (ConfidentialityDirective(x) -> DirectiveIces(x)). 
+
+%  contact method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000171
+all x (ContactMethodDirective(x) -> DirectiveIces(x)). 
+
+%  understood language directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000171
+all x (UnderstoodLanguageDirective(x) -> DirectiveIces(x)). 
+
+%  termination of participation directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000171
+all x (TerminationOfParticipationDirective(x) -> DirectiveIces(x)). 
+
+%  waiver directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000171
+all x (WaiverDirective(x) -> DirectiveIces(x)). 
+
+%  data sharing directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000171
+all x (DataSharingDirective(x) -> DirectiveIces(x)). 
+
+%  future use directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000170
+all x (FutureUseDirective(x) -> DirectiveIces(x)). 
+
+%  research method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000170
+all x (ResearchMethodDirective(x) -> DirectiveIces(x)). 
+
+%  permission transfer directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000170
+all x (PermissionTransferDirective(x) -> DirectiveIces(x)). 
+
+%  vulnerable population directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000170
+all x (VulnerablePopulationDirective(x) -> DirectiveIces(x)). 
+
+%  confidentiality directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000170
+all x (ConfidentialityDirective(x) -> DirectiveIces(x)). 
+
+%  contact method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000170
+all x (ContactMethodDirective(x) -> DirectiveIces(x)). 
+
+%  understood language directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000170
+all x (UnderstoodLanguageDirective(x) -> DirectiveIces(x)). 
+
+%  termination of participation directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000170
+all x (TerminationOfParticipationDirective(x) -> DirectiveIces(x)). 
+
+%  waiver directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000170
+all x (WaiverDirective(x) -> DirectiveIces(x)). 
+
+%  data sharing directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000170
+all x (DataSharingDirective(x) -> DirectiveIces(x)). 
+
+%  future use directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000169
+all x (FutureUseDirective(x) -> DirectiveIces(x)). 
+
+%  research method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000169
+all x (ResearchMethodDirective(x) -> DirectiveIces(x)). 
+
+%  permission transfer directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000169
+all x (PermissionTransferDirective(x) -> DirectiveIces(x)). 
+
+%  vulnerable population directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000169
+all x (VulnerablePopulationDirective(x) -> DirectiveIces(x)). 
+
+%  confidentiality directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000169
+all x (ConfidentialityDirective(x) -> DirectiveIces(x)). 
+
+%  contact method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000169
+all x (ContactMethodDirective(x) -> DirectiveIces(x)). 
+
+%  understood language directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000169
+all x (UnderstoodLanguageDirective(x) -> DirectiveIces(x)). 
+
+%  termination of participation directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000169
+all x (TerminationOfParticipationDirective(x) -> DirectiveIces(x)). 
+
+%  waiver directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000169
+all x (WaiverDirective(x) -> DirectiveIces(x)). 
+
+%  data sharing directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000169
+all x (DataSharingDirective(x) -> DirectiveIces(x)). 
+
+%  study protocol is subclass of protocol
+%  entity: RUBRIC_0000168
+all x (StudyProtocol(x) -> Protocol(x)). 
+
+%  description of future use is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000165
+all x (DescriptionOfFutureUse(x) -> DescriptiveIces(x)). 
+
+%  description of coercion is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000165
+all x (DescriptionOfCoercion(x) -> DescriptiveIces(x)). 
+
+%  description of breach of confidentiality is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000165
+all x (DescriptionOfBreachOfConfidentiality(x) -> DescriptiveIces(x)). 
+
+%  description of waiver is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000165
+all x (DescriptionOfWaiver(x) -> DescriptiveIces(x)). 
+
+%  discription of reputational risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000165
+all x (DiscriptionOfReputationalRisk(x) -> DescriptiveIces(x)). 
+
+%  description of liability is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000165
+all x (DescriptionOfLiability(x) -> DescriptiveIces(x)). 
+
+%  description of collection of biospecimens is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000165
+all x (DescriptionOfCollectionOfBiospecimens(x) -> DescriptiveIces(x)). 
+
+%  discription of financial risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000165
+all x (DiscriptionOfFinancialRisk(x) -> DescriptiveIces(x)). 
+
+%  description of incentive is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000165
+all x (DescriptionOfIncentive(x) -> DescriptiveIces(x)). 
+
+%  description of consequences of voluntarily withdraw is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000165
+all x (DescriptionOfConsequencesOfVoluntarilyWithdraw(x) -> DescriptiveIces(x)). 
+
+%  description of collection of information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000165
+all x (DescriptionOfCollectionOfInformation(x) -> DescriptiveIces(x)). 
+
+%  description of discomfort is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000165
+all x (DescriptionOfDiscomfort(x) -> DescriptiveIces(x)). 
+
+%  description of conditional compensation is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000165
+all x (DescriptionOfConditionalCompensation(x) -> DescriptiveIces(x)). 
+
+%  description of alternative is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000165
+all x (DescriptionOfAlternative(x) -> DescriptiveIces(x)). 
+
+%  description of expected study participation duration is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000165
+all x (DescriptionOfExpectedStudyParticipationDuration(x) -> DescriptiveIces(x)). 
+
+%  description of procedure for obtaining futher information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000165
+all x (DescriptionOfProcedureForObtainingFutherInformation(x) -> DescriptiveIces(x)). 
+
+%  protocol is subclass of DOCUMENT
+%  entity: RUBRIC_0000164
+all x (Protocol(x) -> Document(x)). 
+
+%  waiver document is subclass of DOCUMENT
+%  entity: RUBRIC_0000164
+all x (WaiverDocument(x) -> Document(x)). 
+
+%  institutional review board approval is subclass of DOCUMENT
+%  entity: RUBRIC_0000164
+all x (InstitutionalReviewBoardApproval(x) -> Document(x)). 
+
+%  DIRECTIVE ICES is subclass of IAO:ICE
+%  entity: RUBRIC_0000163
+all x (DirectiveIces(x) -> Iao:Ice(x)). 
+
+%  DESCRIPTIVE ICES is subclass of IAO:ICE
+%  entity: RUBRIC_0000163
+all x (DescriptiveIces(x) -> Iao:Ice(x)). 
+
+%  DOCUMENT is subclass of IAO:ICE
+%  entity: RUBRIC_0000163
+all x (Document(x) -> Iao:Ice(x)). 
+
+%  legal person role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000161
+all x (LegalPersonRole(x) -> Bfo:Roles(x)). 
+
+%  witness role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000161
+all x (WitnessRole(x) -> Bfo:Roles(x)). 
+
+%  minor role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000161
+all x (MinorRole(x) -> Bfo:Roles(x)). 
+
+%  representative role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000161
+all x (RepresentativeRole(x) -> Bfo:Roles(x)). 
+
+%  vulnerable individual role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000161
+all x (VulnerableIndividualRole(x) -> Bfo:Roles(x)). 
+
+%  regulatory oversight role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000161
+all x (RegulatoryOversightRole(x) -> Bfo:Roles(x)). 
+
+%  prisoner role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000161
+all x (PrisonerRole(x) -> Bfo:Roles(x)). 
+
+%  committee member role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000161
+all x (CommitteeMemberRole(x) -> Bfo:Roles(x)). 
+
+%  hospital governing body role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000161
+all x (HospitalGoverningBodyRole(x) -> Bfo:Roles(x)). 
+
+%  investigation agent role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000161
+all x (InvestigationAgentRole(x) -> Bfo:Roles(x)). 
+
+%  pregnant woman is subclass of OTHER CLASSES
+%  entity: RUBRIC_0000160
+all x (PregnantWoman(x) -> OtherClasses(x)). 
+
+%  legal age is subclass of OTHER CLASSES
+%  entity: RUBRIC_0000160
+all x (LegalAge(x) -> OtherClasses(x)). 
+
+%  legal person role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000159
+all x (LegalPersonRole(x) -> Bfo:Roles(x)). 
+
+%  witness role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000159
+all x (WitnessRole(x) -> Bfo:Roles(x)). 
+
+%  minor role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000159
+all x (MinorRole(x) -> Bfo:Roles(x)). 
+
+%  representative role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000159
+all x (RepresentativeRole(x) -> Bfo:Roles(x)). 
+
+%  vulnerable individual role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000159
+all x (VulnerableIndividualRole(x) -> Bfo:Roles(x)). 
+
+%  regulatory oversight role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000159
+all x (RegulatoryOversightRole(x) -> Bfo:Roles(x)). 
+
+%  prisoner role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000159
+all x (PrisonerRole(x) -> Bfo:Roles(x)). 
+
+%  committee member role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000159
+all x (CommitteeMemberRole(x) -> Bfo:Roles(x)). 
+
+%  hospital governing body role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000159
+all x (HospitalGoverningBodyRole(x) -> Bfo:Roles(x)). 
+
+%  investigation agent role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000159
+all x (InvestigationAgentRole(x) -> Bfo:Roles(x)). 
+
+%  legal person role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000154
+all x (LegalPersonRole(x) -> Bfo:Roles(x)). 
+
+%  witness role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000154
+all x (WitnessRole(x) -> Bfo:Roles(x)). 
+
+%  minor role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000154
+all x (MinorRole(x) -> Bfo:Roles(x)). 
+
+%  representative role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000154
+all x (RepresentativeRole(x) -> Bfo:Roles(x)). 
+
+%  vulnerable individual role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000154
+all x (VulnerableIndividualRole(x) -> Bfo:Roles(x)). 
+
+%  regulatory oversight role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000154
+all x (RegulatoryOversightRole(x) -> Bfo:Roles(x)). 
+
+%  prisoner role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000154
+all x (PrisonerRole(x) -> Bfo:Roles(x)). 
+
+%  committee member role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000154
+all x (CommitteeMemberRole(x) -> Bfo:Roles(x)). 
+
+%  hospital governing body role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000154
+all x (HospitalGoverningBodyRole(x) -> Bfo:Roles(x)). 
+
+%  investigation agent role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000154
+all x (InvestigationAgentRole(x) -> Bfo:Roles(x)). 
+
+%  legal person role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000153
+all x (LegalPersonRole(x) -> Bfo:Roles(x)). 
+
+%  witness role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000153
+all x (WitnessRole(x) -> Bfo:Roles(x)). 
+
+%  minor role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000153
+all x (MinorRole(x) -> Bfo:Roles(x)). 
+
+%  representative role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000153
+all x (RepresentativeRole(x) -> Bfo:Roles(x)). 
+
+%  vulnerable individual role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000153
+all x (VulnerableIndividualRole(x) -> Bfo:Roles(x)). 
+
+%  regulatory oversight role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000153
+all x (RegulatoryOversightRole(x) -> Bfo:Roles(x)). 
+
+%  prisoner role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000153
+all x (PrisonerRole(x) -> Bfo:Roles(x)). 
+
+%  committee member role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000153
+all x (CommitteeMemberRole(x) -> Bfo:Roles(x)). 
+
+%  hospital governing body role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000153
+all x (HospitalGoverningBodyRole(x) -> Bfo:Roles(x)). 
+
+%  investigation agent role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000153
+all x (InvestigationAgentRole(x) -> Bfo:Roles(x)). 
+
+%  description of future use is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000152
+all x (DescriptionOfFutureUse(x) -> DescriptiveIces(x)). 
+
+%  description of coercion is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000152
+all x (DescriptionOfCoercion(x) -> DescriptiveIces(x)). 
+
+%  description of breach of confidentiality is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000152
+all x (DescriptionOfBreachOfConfidentiality(x) -> DescriptiveIces(x)). 
+
+%  description of waiver is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000152
+all x (DescriptionOfWaiver(x) -> DescriptiveIces(x)). 
+
+%  discription of reputational risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000152
+all x (DiscriptionOfReputationalRisk(x) -> DescriptiveIces(x)). 
+
+%  description of liability is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000152
+all x (DescriptionOfLiability(x) -> DescriptiveIces(x)). 
+
+%  description of collection of biospecimens is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000152
+all x (DescriptionOfCollectionOfBiospecimens(x) -> DescriptiveIces(x)). 
+
+%  discription of financial risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000152
+all x (DiscriptionOfFinancialRisk(x) -> DescriptiveIces(x)). 
+
+%  description of incentive is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000152
+all x (DescriptionOfIncentive(x) -> DescriptiveIces(x)). 
+
+%  description of consequences of voluntarily withdraw is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000152
+all x (DescriptionOfConsequencesOfVoluntarilyWithdraw(x) -> DescriptiveIces(x)). 
+
+%  description of collection of information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000152
+all x (DescriptionOfCollectionOfInformation(x) -> DescriptiveIces(x)). 
+
+%  description of discomfort is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000152
+all x (DescriptionOfDiscomfort(x) -> DescriptiveIces(x)). 
+
+%  description of conditional compensation is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000152
+all x (DescriptionOfConditionalCompensation(x) -> DescriptiveIces(x)). 
+
+%  description of alternative is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000152
+all x (DescriptionOfAlternative(x) -> DescriptiveIces(x)). 
+
+%  description of expected study participation duration is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000152
+all x (DescriptionOfExpectedStudyParticipationDuration(x) -> DescriptiveIces(x)). 
+
+%  description of procedure for obtaining futher information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000152
+all x (DescriptionOfProcedureForObtainingFutherInformation(x) -> DescriptiveIces(x)). 
+
+%  description of future use is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000151
+all x (DescriptionOfFutureUse(x) -> DescriptiveIces(x)). 
+
+%  description of coercion is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000151
+all x (DescriptionOfCoercion(x) -> DescriptiveIces(x)). 
+
+%  description of breach of confidentiality is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000151
+all x (DescriptionOfBreachOfConfidentiality(x) -> DescriptiveIces(x)). 
+
+%  description of waiver is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000151
+all x (DescriptionOfWaiver(x) -> DescriptiveIces(x)). 
+
+%  discription of reputational risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000151
+all x (DiscriptionOfReputationalRisk(x) -> DescriptiveIces(x)). 
+
+%  description of liability is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000151
+all x (DescriptionOfLiability(x) -> DescriptiveIces(x)). 
+
+%  description of collection of biospecimens is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000151
+all x (DescriptionOfCollectionOfBiospecimens(x) -> DescriptiveIces(x)). 
+
+%  discription of financial risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000151
+all x (DiscriptionOfFinancialRisk(x) -> DescriptiveIces(x)). 
+
+%  description of incentive is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000151
+all x (DescriptionOfIncentive(x) -> DescriptiveIces(x)). 
+
+%  description of consequences of voluntarily withdraw is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000151
+all x (DescriptionOfConsequencesOfVoluntarilyWithdraw(x) -> DescriptiveIces(x)). 
+
+%  description of collection of information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000151
+all x (DescriptionOfCollectionOfInformation(x) -> DescriptiveIces(x)). 
+
+%  description of discomfort is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000151
+all x (DescriptionOfDiscomfort(x) -> DescriptiveIces(x)). 
+
+%  description of conditional compensation is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000151
+all x (DescriptionOfConditionalCompensation(x) -> DescriptiveIces(x)). 
+
+%  description of alternative is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000151
+all x (DescriptionOfAlternative(x) -> DescriptiveIces(x)). 
+
+%  description of expected study participation duration is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000151
+all x (DescriptionOfExpectedStudyParticipationDuration(x) -> DescriptiveIces(x)). 
+
+%  description of procedure for obtaining futher information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000151
+all x (DescriptionOfProcedureForObtainingFutherInformation(x) -> DescriptiveIces(x)). 
+
+%  description of future use is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000149
+all x (DescriptionOfFutureUse(x) -> DescriptiveIces(x)). 
+
+%  description of coercion is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000149
+all x (DescriptionOfCoercion(x) -> DescriptiveIces(x)). 
+
+%  description of breach of confidentiality is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000149
+all x (DescriptionOfBreachOfConfidentiality(x) -> DescriptiveIces(x)). 
+
+%  description of waiver is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000149
+all x (DescriptionOfWaiver(x) -> DescriptiveIces(x)). 
+
+%  discription of reputational risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000149
+all x (DiscriptionOfReputationalRisk(x) -> DescriptiveIces(x)). 
+
+%  description of liability is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000149
+all x (DescriptionOfLiability(x) -> DescriptiveIces(x)). 
+
+%  description of collection of biospecimens is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000149
+all x (DescriptionOfCollectionOfBiospecimens(x) -> DescriptiveIces(x)). 
+
+%  discription of financial risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000149
+all x (DiscriptionOfFinancialRisk(x) -> DescriptiveIces(x)). 
+
+%  description of incentive is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000149
+all x (DescriptionOfIncentive(x) -> DescriptiveIces(x)). 
+
+%  description of consequences of voluntarily withdraw is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000149
+all x (DescriptionOfConsequencesOfVoluntarilyWithdraw(x) -> DescriptiveIces(x)). 
+
+%  description of collection of information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000149
+all x (DescriptionOfCollectionOfInformation(x) -> DescriptiveIces(x)). 
+
+%  description of discomfort is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000149
+all x (DescriptionOfDiscomfort(x) -> DescriptiveIces(x)). 
+
+%  description of conditional compensation is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000149
+all x (DescriptionOfConditionalCompensation(x) -> DescriptiveIces(x)). 
+
+%  description of alternative is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000149
+all x (DescriptionOfAlternative(x) -> DescriptiveIces(x)). 
+
+%  description of expected study participation duration is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000149
+all x (DescriptionOfExpectedStudyParticipationDuration(x) -> DescriptiveIces(x)). 
+
+%  description of procedure for obtaining futher information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000149
+all x (DescriptionOfProcedureForObtainingFutherInformation(x) -> DescriptiveIces(x)). 
+
+%  description of future use is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000148
+all x (DescriptionOfFutureUse(x) -> DescriptiveIces(x)). 
+
+%  description of coercion is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000148
+all x (DescriptionOfCoercion(x) -> DescriptiveIces(x)). 
+
+%  description of breach of confidentiality is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000148
+all x (DescriptionOfBreachOfConfidentiality(x) -> DescriptiveIces(x)). 
+
+%  description of waiver is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000148
+all x (DescriptionOfWaiver(x) -> DescriptiveIces(x)). 
+
+%  discription of reputational risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000148
+all x (DiscriptionOfReputationalRisk(x) -> DescriptiveIces(x)). 
+
+%  description of liability is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000148
+all x (DescriptionOfLiability(x) -> DescriptiveIces(x)). 
+
+%  description of collection of biospecimens is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000148
+all x (DescriptionOfCollectionOfBiospecimens(x) -> DescriptiveIces(x)). 
+
+%  discription of financial risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000148
+all x (DiscriptionOfFinancialRisk(x) -> DescriptiveIces(x)). 
+
+%  description of incentive is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000148
+all x (DescriptionOfIncentive(x) -> DescriptiveIces(x)). 
+
+%  description of consequences of voluntarily withdraw is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000148
+all x (DescriptionOfConsequencesOfVoluntarilyWithdraw(x) -> DescriptiveIces(x)). 
+
+%  description of collection of information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000148
+all x (DescriptionOfCollectionOfInformation(x) -> DescriptiveIces(x)). 
+
+%  description of discomfort is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000148
+all x (DescriptionOfDiscomfort(x) -> DescriptiveIces(x)). 
+
+%  description of conditional compensation is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000148
+all x (DescriptionOfConditionalCompensation(x) -> DescriptiveIces(x)). 
+
+%  description of alternative is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000148
+all x (DescriptionOfAlternative(x) -> DescriptiveIces(x)). 
+
+%  description of expected study participation duration is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000148
+all x (DescriptionOfExpectedStudyParticipationDuration(x) -> DescriptiveIces(x)). 
+
+%  description of procedure for obtaining futher information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000148
+all x (DescriptionOfProcedureForObtainingFutherInformation(x) -> DescriptiveIces(x)). 
+
+%  recontact method directive is subclass of contact method directive
+%  entity: RUBRIC_0000146
+all x (RecontactMethodDirective(x) -> ContactMethodDirective(x)). 
+
+%  description of future use is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000144
+all x (DescriptionOfFutureUse(x) -> DescriptiveIces(x)). 
+
+%  description of coercion is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000144
+all x (DescriptionOfCoercion(x) -> DescriptiveIces(x)). 
+
+%  description of breach of confidentiality is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000144
+all x (DescriptionOfBreachOfConfidentiality(x) -> DescriptiveIces(x)). 
+
+%  description of waiver is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000144
+all x (DescriptionOfWaiver(x) -> DescriptiveIces(x)). 
+
+%  discription of reputational risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000144
+all x (DiscriptionOfReputationalRisk(x) -> DescriptiveIces(x)). 
+
+%  description of liability is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000144
+all x (DescriptionOfLiability(x) -> DescriptiveIces(x)). 
+
+%  description of collection of biospecimens is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000144
+all x (DescriptionOfCollectionOfBiospecimens(x) -> DescriptiveIces(x)). 
+
+%  discription of financial risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000144
+all x (DiscriptionOfFinancialRisk(x) -> DescriptiveIces(x)). 
+
+%  description of incentive is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000144
+all x (DescriptionOfIncentive(x) -> DescriptiveIces(x)). 
+
+%  description of consequences of voluntarily withdraw is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000144
+all x (DescriptionOfConsequencesOfVoluntarilyWithdraw(x) -> DescriptiveIces(x)). 
+
+%  description of collection of information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000144
+all x (DescriptionOfCollectionOfInformation(x) -> DescriptiveIces(x)). 
+
+%  description of discomfort is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000144
+all x (DescriptionOfDiscomfort(x) -> DescriptiveIces(x)). 
+
+%  description of conditional compensation is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000144
+all x (DescriptionOfConditionalCompensation(x) -> DescriptiveIces(x)). 
+
+%  description of alternative is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000144
+all x (DescriptionOfAlternative(x) -> DescriptiveIces(x)). 
+
+%  description of expected study participation duration is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000144
+all x (DescriptionOfExpectedStudyParticipationDuration(x) -> DescriptiveIces(x)). 
+
+%  description of procedure for obtaining futher information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000144
+all x (DescriptionOfProcedureForObtainingFutherInformation(x) -> DescriptiveIces(x)). 
+
+%  description of future biospecimen use is subclass of description of future use
+%  entity: RUBRIC_0000141
+all x (DescriptionOfFutureBiospecimenUse(x) -> DescriptionOfFutureUse(x)). 
+
+%  description of future data use is subclass of description of future use
+%  entity: RUBRIC_0000141
+all x (DescriptionOfFutureDataUse(x) -> DescriptionOfFutureUse(x)). 
+
+%  description of future use is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000138
+all x (DescriptionOfFutureUse(x) -> DescriptiveIces(x)). 
+
+%  description of coercion is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000138
+all x (DescriptionOfCoercion(x) -> DescriptiveIces(x)). 
+
+%  description of breach of confidentiality is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000138
+all x (DescriptionOfBreachOfConfidentiality(x) -> DescriptiveIces(x)). 
+
+%  description of waiver is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000138
+all x (DescriptionOfWaiver(x) -> DescriptiveIces(x)). 
+
+%  discription of reputational risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000138
+all x (DiscriptionOfReputationalRisk(x) -> DescriptiveIces(x)). 
+
+%  description of liability is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000138
+all x (DescriptionOfLiability(x) -> DescriptiveIces(x)). 
+
+%  description of collection of biospecimens is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000138
+all x (DescriptionOfCollectionOfBiospecimens(x) -> DescriptiveIces(x)). 
+
+%  discription of financial risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000138
+all x (DiscriptionOfFinancialRisk(x) -> DescriptiveIces(x)). 
+
+%  description of incentive is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000138
+all x (DescriptionOfIncentive(x) -> DescriptiveIces(x)). 
+
+%  description of consequences of voluntarily withdraw is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000138
+all x (DescriptionOfConsequencesOfVoluntarilyWithdraw(x) -> DescriptiveIces(x)). 
+
+%  description of collection of information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000138
+all x (DescriptionOfCollectionOfInformation(x) -> DescriptiveIces(x)). 
+
+%  description of discomfort is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000138
+all x (DescriptionOfDiscomfort(x) -> DescriptiveIces(x)). 
+
+%  description of conditional compensation is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000138
+all x (DescriptionOfConditionalCompensation(x) -> DescriptiveIces(x)). 
+
+%  description of alternative is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000138
+all x (DescriptionOfAlternative(x) -> DescriptiveIces(x)). 
+
+%  description of expected study participation duration is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000138
+all x (DescriptionOfExpectedStudyParticipationDuration(x) -> DescriptiveIces(x)). 
+
+%  description of procedure for obtaining futher information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000138
+all x (DescriptionOfProcedureForObtainingFutherInformation(x) -> DescriptiveIces(x)). 
+
+%  description of future use is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000137
+all x (DescriptionOfFutureUse(x) -> DescriptiveIces(x)). 
+
+%  description of coercion is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000137
+all x (DescriptionOfCoercion(x) -> DescriptiveIces(x)). 
+
+%  description of breach of confidentiality is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000137
+all x (DescriptionOfBreachOfConfidentiality(x) -> DescriptiveIces(x)). 
+
+%  description of waiver is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000137
+all x (DescriptionOfWaiver(x) -> DescriptiveIces(x)). 
+
+%  discription of reputational risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000137
+all x (DiscriptionOfReputationalRisk(x) -> DescriptiveIces(x)). 
+
+%  description of liability is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000137
+all x (DescriptionOfLiability(x) -> DescriptiveIces(x)). 
+
+%  description of collection of biospecimens is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000137
+all x (DescriptionOfCollectionOfBiospecimens(x) -> DescriptiveIces(x)). 
+
+%  discription of financial risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000137
+all x (DiscriptionOfFinancialRisk(x) -> DescriptiveIces(x)). 
+
+%  description of incentive is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000137
+all x (DescriptionOfIncentive(x) -> DescriptiveIces(x)). 
+
+%  description of consequences of voluntarily withdraw is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000137
+all x (DescriptionOfConsequencesOfVoluntarilyWithdraw(x) -> DescriptiveIces(x)). 
+
+%  description of collection of information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000137
+all x (DescriptionOfCollectionOfInformation(x) -> DescriptiveIces(x)). 
+
+%  description of discomfort is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000137
+all x (DescriptionOfDiscomfort(x) -> DescriptiveIces(x)). 
+
+%  description of conditional compensation is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000137
+all x (DescriptionOfConditionalCompensation(x) -> DescriptiveIces(x)). 
+
+%  description of alternative is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000137
+all x (DescriptionOfAlternative(x) -> DescriptiveIces(x)). 
+
+%  description of expected study participation duration is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000137
+all x (DescriptionOfExpectedStudyParticipationDuration(x) -> DescriptiveIces(x)). 
+
+%  description of procedure for obtaining futher information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000137
+all x (DescriptionOfProcedureForObtainingFutherInformation(x) -> DescriptiveIces(x)). 
+
+%  description of future use is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000134
+all x (DescriptionOfFutureUse(x) -> DescriptiveIces(x)). 
+
+%  description of coercion is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000134
+all x (DescriptionOfCoercion(x) -> DescriptiveIces(x)). 
+
+%  description of breach of confidentiality is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000134
+all x (DescriptionOfBreachOfConfidentiality(x) -> DescriptiveIces(x)). 
+
+%  description of waiver is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000134
+all x (DescriptionOfWaiver(x) -> DescriptiveIces(x)). 
+
+%  discription of reputational risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000134
+all x (DiscriptionOfReputationalRisk(x) -> DescriptiveIces(x)). 
+
+%  description of liability is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000134
+all x (DescriptionOfLiability(x) -> DescriptiveIces(x)). 
+
+%  description of collection of biospecimens is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000134
+all x (DescriptionOfCollectionOfBiospecimens(x) -> DescriptiveIces(x)). 
+
+%  discription of financial risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000134
+all x (DiscriptionOfFinancialRisk(x) -> DescriptiveIces(x)). 
+
+%  description of incentive is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000134
+all x (DescriptionOfIncentive(x) -> DescriptiveIces(x)). 
+
+%  description of consequences of voluntarily withdraw is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000134
+all x (DescriptionOfConsequencesOfVoluntarilyWithdraw(x) -> DescriptiveIces(x)). 
+
+%  description of collection of information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000134
+all x (DescriptionOfCollectionOfInformation(x) -> DescriptiveIces(x)). 
+
+%  description of discomfort is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000134
+all x (DescriptionOfDiscomfort(x) -> DescriptiveIces(x)). 
+
+%  description of conditional compensation is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000134
+all x (DescriptionOfConditionalCompensation(x) -> DescriptiveIces(x)). 
+
+%  description of alternative is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000134
+all x (DescriptionOfAlternative(x) -> DescriptiveIces(x)). 
+
+%  description of expected study participation duration is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000134
+all x (DescriptionOfExpectedStudyParticipationDuration(x) -> DescriptiveIces(x)). 
+
+%  description of procedure for obtaining futher information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000134
+all x (DescriptionOfProcedureForObtainingFutherInformation(x) -> DescriptiveIces(x)). 
+
+%  description of future use is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000133
+all x (DescriptionOfFutureUse(x) -> DescriptiveIces(x)). 
+
+%  description of coercion is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000133
+all x (DescriptionOfCoercion(x) -> DescriptiveIces(x)). 
+
+%  description of breach of confidentiality is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000133
+all x (DescriptionOfBreachOfConfidentiality(x) -> DescriptiveIces(x)). 
+
+%  description of waiver is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000133
+all x (DescriptionOfWaiver(x) -> DescriptiveIces(x)). 
+
+%  discription of reputational risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000133
+all x (DiscriptionOfReputationalRisk(x) -> DescriptiveIces(x)). 
+
+%  description of liability is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000133
+all x (DescriptionOfLiability(x) -> DescriptiveIces(x)). 
+
+%  description of collection of biospecimens is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000133
+all x (DescriptionOfCollectionOfBiospecimens(x) -> DescriptiveIces(x)). 
+
+%  discription of financial risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000133
+all x (DiscriptionOfFinancialRisk(x) -> DescriptiveIces(x)). 
+
+%  description of incentive is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000133
+all x (DescriptionOfIncentive(x) -> DescriptiveIces(x)). 
+
+%  description of consequences of voluntarily withdraw is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000133
+all x (DescriptionOfConsequencesOfVoluntarilyWithdraw(x) -> DescriptiveIces(x)). 
+
+%  description of collection of information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000133
+all x (DescriptionOfCollectionOfInformation(x) -> DescriptiveIces(x)). 
+
+%  description of discomfort is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000133
+all x (DescriptionOfDiscomfort(x) -> DescriptiveIces(x)). 
+
+%  description of conditional compensation is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000133
+all x (DescriptionOfConditionalCompensation(x) -> DescriptiveIces(x)). 
+
+%  description of alternative is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000133
+all x (DescriptionOfAlternative(x) -> DescriptiveIces(x)). 
+
+%  description of expected study participation duration is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000133
+all x (DescriptionOfExpectedStudyParticipationDuration(x) -> DescriptiveIces(x)). 
+
+%  description of procedure for obtaining futher information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000133
+all x (DescriptionOfProcedureForObtainingFutherInformation(x) -> DescriptiveIces(x)). 
+
+%  future use directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000132
+all x (FutureUseDirective(x) -> DirectiveIces(x)). 
+
+%  research method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000132
+all x (ResearchMethodDirective(x) -> DirectiveIces(x)). 
+
+%  permission transfer directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000132
+all x (PermissionTransferDirective(x) -> DirectiveIces(x)). 
+
+%  vulnerable population directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000132
+all x (VulnerablePopulationDirective(x) -> DirectiveIces(x)). 
+
+%  confidentiality directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000132
+all x (ConfidentialityDirective(x) -> DirectiveIces(x)). 
+
+%  contact method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000132
+all x (ContactMethodDirective(x) -> DirectiveIces(x)). 
+
+%  understood language directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000132
+all x (UnderstoodLanguageDirective(x) -> DirectiveIces(x)). 
+
+%  termination of participation directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000132
+all x (TerminationOfParticipationDirective(x) -> DirectiveIces(x)). 
+
+%  waiver directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000132
+all x (WaiverDirective(x) -> DirectiveIces(x)). 
+
+%  data sharing directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000132
+all x (DataSharingDirective(x) -> DirectiveIces(x)). 
+
+%  description of future use is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000131
+all x (DescriptionOfFutureUse(x) -> DescriptiveIces(x)). 
+
+%  description of coercion is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000131
+all x (DescriptionOfCoercion(x) -> DescriptiveIces(x)). 
+
+%  description of breach of confidentiality is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000131
+all x (DescriptionOfBreachOfConfidentiality(x) -> DescriptiveIces(x)). 
+
+%  description of waiver is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000131
+all x (DescriptionOfWaiver(x) -> DescriptiveIces(x)). 
+
+%  discription of reputational risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000131
+all x (DiscriptionOfReputationalRisk(x) -> DescriptiveIces(x)). 
+
+%  description of liability is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000131
+all x (DescriptionOfLiability(x) -> DescriptiveIces(x)). 
+
+%  description of collection of biospecimens is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000131
+all x (DescriptionOfCollectionOfBiospecimens(x) -> DescriptiveIces(x)). 
+
+%  discription of financial risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000131
+all x (DiscriptionOfFinancialRisk(x) -> DescriptiveIces(x)). 
+
+%  description of incentive is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000131
+all x (DescriptionOfIncentive(x) -> DescriptiveIces(x)). 
+
+%  description of consequences of voluntarily withdraw is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000131
+all x (DescriptionOfConsequencesOfVoluntarilyWithdraw(x) -> DescriptiveIces(x)). 
+
+%  description of collection of information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000131
+all x (DescriptionOfCollectionOfInformation(x) -> DescriptiveIces(x)). 
+
+%  description of discomfort is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000131
+all x (DescriptionOfDiscomfort(x) -> DescriptiveIces(x)). 
+
+%  description of conditional compensation is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000131
+all x (DescriptionOfConditionalCompensation(x) -> DescriptiveIces(x)). 
+
+%  description of alternative is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000131
+all x (DescriptionOfAlternative(x) -> DescriptiveIces(x)). 
+
+%  description of expected study participation duration is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000131
+all x (DescriptionOfExpectedStudyParticipationDuration(x) -> DescriptiveIces(x)). 
+
+%  description of procedure for obtaining futher information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000131
+all x (DescriptionOfProcedureForObtainingFutherInformation(x) -> DescriptiveIces(x)). 
+
+%  IAO:ICE is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000126
+all x (Iao:Ice(x) -> Needs_Review(x)). 
+
+%  BFO:ROLES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000126
+all x (Bfo:Roles(x) -> Needs_Review(x)). 
+
+%  OTHER CLASSES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000126
+all x (OtherClasses(x) -> Needs_Review(x)). 
+
+%  CCO:STASIS is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000126
+all x (Cco:Stasis(x) -> Needs_Review(x)). 
+
+%  OBI:ORGANISZATION is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000126
+all x (Obi:Organiszation(x) -> Needs_Review(x)). 
+
+%  BFO:PROCESSES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000126
+all x (Bfo:Processes(x) -> Needs_Review(x)). 
+
+%  BFO:DISPOSITIONS is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000126
+all x (Bfo:Dispositions(x) -> Needs_Review(x)). 
+
+%  IAO:ICE is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000121
+all x (Iao:Ice(x) -> Needs_Review(x)). 
+
+%  BFO:ROLES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000121
+all x (Bfo:Roles(x) -> Needs_Review(x)). 
+
+%  OTHER CLASSES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000121
+all x (OtherClasses(x) -> Needs_Review(x)). 
+
+%  CCO:STASIS is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000121
+all x (Cco:Stasis(x) -> Needs_Review(x)). 
+
+%  OBI:ORGANISZATION is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000121
+all x (Obi:Organiszation(x) -> Needs_Review(x)). 
+
+%  BFO:PROCESSES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000121
+all x (Bfo:Processes(x) -> Needs_Review(x)). 
+
+%  BFO:DISPOSITIONS is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000121
+all x (Bfo:Dispositions(x) -> Needs_Review(x)). 
+
+%  act of waiving is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000119
+all x (ActOfWaiving(x) -> Bfo:Processes(x)). 
+
+%  act of disclosure is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000119
+all x (ActOfDisclosure(x) -> Bfo:Processes(x)). 
+
+%  incarceration is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000119
+all x (Incarceration(x) -> Bfo:Processes(x)). 
+
+%  act of recording informed consent is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000119
+all x (ActOfRecordingInformedConsent(x) -> Bfo:Processes(x)). 
+
+%  act of approving is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000119
+all x (ActOfApproving(x) -> Bfo:Processes(x)). 
+
+%  act of communicating is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000119
+all x (ActOfCommunicating(x) -> Bfo:Processes(x)). 
+
+%  act of regulatory supervision is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000119
+all x (ActOfRegulatorySupervision(x) -> Bfo:Processes(x)). 
+
+%  process of abuse is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000119
+all x (ProcessOfAbuse(x) -> Bfo:Processes(x)). 
+
+%  female pregnancy is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000119
+all x (FemalePregnancy(x) -> Bfo:Processes(x)). 
+
+%  act of deciding is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000119
+all x (ActOfDeciding(x) -> Bfo:Processes(x)). 
+
+%  future use directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000094
+all x (FutureUseDirective(x) -> DirectiveIces(x)). 
+
+%  research method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000094
+all x (ResearchMethodDirective(x) -> DirectiveIces(x)). 
+
+%  permission transfer directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000094
+all x (PermissionTransferDirective(x) -> DirectiveIces(x)). 
+
+%  vulnerable population directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000094
+all x (VulnerablePopulationDirective(x) -> DirectiveIces(x)). 
+
+%  confidentiality directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000094
+all x (ConfidentialityDirective(x) -> DirectiveIces(x)). 
+
+%  contact method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000094
+all x (ContactMethodDirective(x) -> DirectiveIces(x)). 
+
+%  understood language directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000094
+all x (UnderstoodLanguageDirective(x) -> DirectiveIces(x)). 
+
+%  termination of participation directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000094
+all x (TerminationOfParticipationDirective(x) -> DirectiveIces(x)). 
+
+%  waiver directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000094
+all x (WaiverDirective(x) -> DirectiveIces(x)). 
+
+%  data sharing directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000094
+all x (DataSharingDirective(x) -> DirectiveIces(x)). 
+
+%  future use directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000093
+all x (FutureUseDirective(x) -> DirectiveIces(x)). 
+
+%  research method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000093
+all x (ResearchMethodDirective(x) -> DirectiveIces(x)). 
+
+%  permission transfer directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000093
+all x (PermissionTransferDirective(x) -> DirectiveIces(x)). 
+
+%  vulnerable population directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000093
+all x (VulnerablePopulationDirective(x) -> DirectiveIces(x)). 
+
+%  confidentiality directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000093
+all x (ConfidentialityDirective(x) -> DirectiveIces(x)). 
+
+%  contact method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000093
+all x (ContactMethodDirective(x) -> DirectiveIces(x)). 
+
+%  understood language directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000093
+all x (UnderstoodLanguageDirective(x) -> DirectiveIces(x)). 
+
+%  termination of participation directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000093
+all x (TerminationOfParticipationDirective(x) -> DirectiveIces(x)). 
+
+%  waiver directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000093
+all x (WaiverDirective(x) -> DirectiveIces(x)). 
+
+%  data sharing directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000093
+all x (DataSharingDirective(x) -> DirectiveIces(x)). 
+
+%  future use directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000088
+all x (FutureUseDirective(x) -> DirectiveIces(x)). 
+
+%  research method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000088
+all x (ResearchMethodDirective(x) -> DirectiveIces(x)). 
+
+%  permission transfer directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000088
+all x (PermissionTransferDirective(x) -> DirectiveIces(x)). 
+
+%  vulnerable population directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000088
+all x (VulnerablePopulationDirective(x) -> DirectiveIces(x)). 
+
+%  confidentiality directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000088
+all x (ConfidentialityDirective(x) -> DirectiveIces(x)). 
+
+%  contact method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000088
+all x (ContactMethodDirective(x) -> DirectiveIces(x)). 
+
+%  understood language directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000088
+all x (UnderstoodLanguageDirective(x) -> DirectiveIces(x)). 
+
+%  termination of participation directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000088
+all x (TerminationOfParticipationDirective(x) -> DirectiveIces(x)). 
+
+%  waiver directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000088
+all x (WaiverDirective(x) -> DirectiveIces(x)). 
+
+%  data sharing directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000088
+all x (DataSharingDirective(x) -> DirectiveIces(x)). 
+
+%  stasis of certification is subclass of CCO:STASIS
+%  entity: RUBRIC_0000085
+all x (StasisOfCertification(x) -> Cco:Stasis(x)). 
+
+%  act of waiving is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000083
+all x (ActOfWaiving(x) -> Bfo:Processes(x)). 
+
+%  act of disclosure is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000083
+all x (ActOfDisclosure(x) -> Bfo:Processes(x)). 
+
+%  incarceration is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000083
+all x (Incarceration(x) -> Bfo:Processes(x)). 
+
+%  act of recording informed consent is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000083
+all x (ActOfRecordingInformedConsent(x) -> Bfo:Processes(x)). 
+
+%  act of approving is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000083
+all x (ActOfApproving(x) -> Bfo:Processes(x)). 
+
+%  act of communicating is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000083
+all x (ActOfCommunicating(x) -> Bfo:Processes(x)). 
+
+%  act of regulatory supervision is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000083
+all x (ActOfRegulatorySupervision(x) -> Bfo:Processes(x)). 
+
+%  process of abuse is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000083
+all x (ProcessOfAbuse(x) -> Bfo:Processes(x)). 
+
+%  female pregnancy is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000083
+all x (FemalePregnancy(x) -> Bfo:Processes(x)). 
+
+%  act of deciding is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000083
+all x (ActOfDeciding(x) -> Bfo:Processes(x)). 
+
+%  IAO:ICE is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000075
+all x (Iao:Ice(x) -> Needs_Review(x)). 
+
+%  BFO:ROLES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000075
+all x (Bfo:Roles(x) -> Needs_Review(x)). 
+
+%  OTHER CLASSES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000075
+all x (OtherClasses(x) -> Needs_Review(x)). 
+
+%  CCO:STASIS is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000075
+all x (Cco:Stasis(x) -> Needs_Review(x)). 
+
+%  OBI:ORGANISZATION is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000075
+all x (Obi:Organiszation(x) -> Needs_Review(x)). 
+
+%  BFO:PROCESSES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000075
+all x (Bfo:Processes(x) -> Needs_Review(x)). 
+
+%  BFO:DISPOSITIONS is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000075
+all x (Bfo:Dispositions(x) -> Needs_Review(x)). 
+
+%  legal person role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000072
+all x (LegalPersonRole(x) -> Bfo:Roles(x)). 
+
+%  witness role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000072
+all x (WitnessRole(x) -> Bfo:Roles(x)). 
+
+%  minor role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000072
+all x (MinorRole(x) -> Bfo:Roles(x)). 
+
+%  representative role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000072
+all x (RepresentativeRole(x) -> Bfo:Roles(x)). 
+
+%  vulnerable individual role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000072
+all x (VulnerableIndividualRole(x) -> Bfo:Roles(x)). 
+
+%  regulatory oversight role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000072
+all x (RegulatoryOversightRole(x) -> Bfo:Roles(x)). 
+
+%  prisoner role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000072
+all x (PrisonerRole(x) -> Bfo:Roles(x)). 
+
+%  committee member role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000072
+all x (CommitteeMemberRole(x) -> Bfo:Roles(x)). 
+
+%  hospital governing body role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000072
+all x (HospitalGoverningBodyRole(x) -> Bfo:Roles(x)). 
+
+%  investigation agent role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000072
+all x (InvestigationAgentRole(x) -> Bfo:Roles(x)). 
+
+%  educational vulnerability is subclass of vulnerability
+%  entity: RUBRIC_0000071
+all x (EducationalVulnerability(x) -> Vulnerability(x)). 
+
+%  economic vulnerability is subclass of vulnerability
+%  entity: RUBRIC_0000071
+all x (EconomicVulnerability(x) -> Vulnerability(x)). 
+
+%  educational vulnerability is subclass of vulnerability
+%  entity: RUBRIC_0000070
+all x (EducationalVulnerability(x) -> Vulnerability(x)). 
+
+%  economic vulnerability is subclass of vulnerability
+%  entity: RUBRIC_0000070
+all x (EconomicVulnerability(x) -> Vulnerability(x)). 
+
+%  cognitive impairment is subclass of BFO:DISPOSITIONS
+%  entity: RUBRIC_0000069
+all x (CognitiveImpairment(x) -> Bfo:Dispositions(x)). 
+
+%  vulnerability is subclass of BFO:DISPOSITIONS
+%  entity: RUBRIC_0000069
+all x (Vulnerability(x) -> Bfo:Dispositions(x)). 
+
+%  act of waiving is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000060
+all x (ActOfWaiving(x) -> Bfo:Processes(x)). 
+
+%  act of disclosure is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000060
+all x (ActOfDisclosure(x) -> Bfo:Processes(x)). 
+
+%  incarceration is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000060
+all x (Incarceration(x) -> Bfo:Processes(x)). 
+
+%  act of recording informed consent is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000060
+all x (ActOfRecordingInformedConsent(x) -> Bfo:Processes(x)). 
+
+%  act of approving is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000060
+all x (ActOfApproving(x) -> Bfo:Processes(x)). 
+
+%  act of communicating is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000060
+all x (ActOfCommunicating(x) -> Bfo:Processes(x)). 
+
+%  act of regulatory supervision is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000060
+all x (ActOfRegulatorySupervision(x) -> Bfo:Processes(x)). 
+
+%  process of abuse is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000060
+all x (ProcessOfAbuse(x) -> Bfo:Processes(x)). 
+
+%  female pregnancy is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000060
+all x (FemalePregnancy(x) -> Bfo:Processes(x)). 
+
+%  act of deciding is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000060
+all x (ActOfDeciding(x) -> Bfo:Processes(x)). 
+
+%  IAO:ICE is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000058
+all x (Iao:Ice(x) -> Needs_Review(x)). 
+
+%  BFO:ROLES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000058
+all x (Bfo:Roles(x) -> Needs_Review(x)). 
+
+%  OTHER CLASSES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000058
+all x (OtherClasses(x) -> Needs_Review(x)). 
+
+%  CCO:STASIS is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000058
+all x (Cco:Stasis(x) -> Needs_Review(x)). 
+
+%  OBI:ORGANISZATION is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000058
+all x (Obi:Organiszation(x) -> Needs_Review(x)). 
+
+%  BFO:PROCESSES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000058
+all x (Bfo:Processes(x) -> Needs_Review(x)). 
+
+%  BFO:DISPOSITIONS is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000058
+all x (Bfo:Dispositions(x) -> Needs_Review(x)). 
+
+%  description of future use is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000056
+all x (DescriptionOfFutureUse(x) -> DescriptiveIces(x)). 
+
+%  description of coercion is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000056
+all x (DescriptionOfCoercion(x) -> DescriptiveIces(x)). 
+
+%  description of breach of confidentiality is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000056
+all x (DescriptionOfBreachOfConfidentiality(x) -> DescriptiveIces(x)). 
+
+%  description of waiver is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000056
+all x (DescriptionOfWaiver(x) -> DescriptiveIces(x)). 
+
+%  discription of reputational risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000056
+all x (DiscriptionOfReputationalRisk(x) -> DescriptiveIces(x)). 
+
+%  description of liability is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000056
+all x (DescriptionOfLiability(x) -> DescriptiveIces(x)). 
+
+%  description of collection of biospecimens is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000056
+all x (DescriptionOfCollectionOfBiospecimens(x) -> DescriptiveIces(x)). 
+
+%  discription of financial risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000056
+all x (DiscriptionOfFinancialRisk(x) -> DescriptiveIces(x)). 
+
+%  description of incentive is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000056
+all x (DescriptionOfIncentive(x) -> DescriptiveIces(x)). 
+
+%  description of consequences of voluntarily withdraw is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000056
+all x (DescriptionOfConsequencesOfVoluntarilyWithdraw(x) -> DescriptiveIces(x)). 
+
+%  description of collection of information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000056
+all x (DescriptionOfCollectionOfInformation(x) -> DescriptiveIces(x)). 
+
+%  description of discomfort is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000056
+all x (DescriptionOfDiscomfort(x) -> DescriptiveIces(x)). 
+
+%  description of conditional compensation is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000056
+all x (DescriptionOfConditionalCompensation(x) -> DescriptiveIces(x)). 
+
+%  description of alternative is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000056
+all x (DescriptionOfAlternative(x) -> DescriptiveIces(x)). 
+
+%  description of expected study participation duration is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000056
+all x (DescriptionOfExpectedStudyParticipationDuration(x) -> DescriptiveIces(x)). 
+
+%  description of procedure for obtaining futher information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000056
+all x (DescriptionOfProcedureForObtainingFutherInformation(x) -> DescriptiveIces(x)). 
+
+%  description of future use is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000055
+all x (DescriptionOfFutureUse(x) -> DescriptiveIces(x)). 
+
+%  description of coercion is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000055
+all x (DescriptionOfCoercion(x) -> DescriptiveIces(x)). 
+
+%  description of breach of confidentiality is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000055
+all x (DescriptionOfBreachOfConfidentiality(x) -> DescriptiveIces(x)). 
+
+%  description of waiver is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000055
+all x (DescriptionOfWaiver(x) -> DescriptiveIces(x)). 
+
+%  discription of reputational risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000055
+all x (DiscriptionOfReputationalRisk(x) -> DescriptiveIces(x)). 
+
+%  description of liability is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000055
+all x (DescriptionOfLiability(x) -> DescriptiveIces(x)). 
+
+%  description of collection of biospecimens is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000055
+all x (DescriptionOfCollectionOfBiospecimens(x) -> DescriptiveIces(x)). 
+
+%  discription of financial risk is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000055
+all x (DiscriptionOfFinancialRisk(x) -> DescriptiveIces(x)). 
+
+%  description of incentive is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000055
+all x (DescriptionOfIncentive(x) -> DescriptiveIces(x)). 
+
+%  description of consequences of voluntarily withdraw is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000055
+all x (DescriptionOfConsequencesOfVoluntarilyWithdraw(x) -> DescriptiveIces(x)). 
+
+%  description of collection of information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000055
+all x (DescriptionOfCollectionOfInformation(x) -> DescriptiveIces(x)). 
+
+%  description of discomfort is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000055
+all x (DescriptionOfDiscomfort(x) -> DescriptiveIces(x)). 
+
+%  description of conditional compensation is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000055
+all x (DescriptionOfConditionalCompensation(x) -> DescriptiveIces(x)). 
+
+%  description of alternative is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000055
+all x (DescriptionOfAlternative(x) -> DescriptiveIces(x)). 
+
+%  description of expected study participation duration is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000055
+all x (DescriptionOfExpectedStudyParticipationDuration(x) -> DescriptiveIces(x)). 
+
+%  description of procedure for obtaining futher information is subclass of DESCRIPTIVE ICES
+%  entity: RUBRIC_0000055
+all x (DescriptionOfProcedureForObtainingFutherInformation(x) -> DescriptiveIces(x)). 
+
+%  future use directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000054
+all x (FutureUseDirective(x) -> DirectiveIces(x)). 
+
+%  research method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000054
+all x (ResearchMethodDirective(x) -> DirectiveIces(x)). 
+
+%  permission transfer directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000054
+all x (PermissionTransferDirective(x) -> DirectiveIces(x)). 
+
+%  vulnerable population directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000054
+all x (VulnerablePopulationDirective(x) -> DirectiveIces(x)). 
+
+%  confidentiality directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000054
+all x (ConfidentialityDirective(x) -> DirectiveIces(x)). 
+
+%  contact method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000054
+all x (ContactMethodDirective(x) -> DirectiveIces(x)). 
+
+%  understood language directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000054
+all x (UnderstoodLanguageDirective(x) -> DirectiveIces(x)). 
+
+%  termination of participation directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000054
+all x (TerminationOfParticipationDirective(x) -> DirectiveIces(x)). 
+
+%  waiver directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000054
+all x (WaiverDirective(x) -> DirectiveIces(x)). 
+
+%  data sharing directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000054
+all x (DataSharingDirective(x) -> DirectiveIces(x)). 
+
+%  DIRECTIVE ICES is subclass of IAO:ICE
+%  entity: RUBRIC_0000053
+all x (DirectiveIces(x) -> Iao:Ice(x)). 
+
+%  DESCRIPTIVE ICES is subclass of IAO:ICE
+%  entity: RUBRIC_0000053
+all x (DescriptiveIces(x) -> Iao:Ice(x)). 
+
+%  DOCUMENT is subclass of IAO:ICE
+%  entity: RUBRIC_0000053
+all x (Document(x) -> Iao:Ice(x)). 
+
+%  act of waiving is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000051
+all x (ActOfWaiving(x) -> Bfo:Processes(x)). 
+
+%  act of disclosure is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000051
+all x (ActOfDisclosure(x) -> Bfo:Processes(x)). 
+
+%  incarceration is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000051
+all x (Incarceration(x) -> Bfo:Processes(x)). 
+
+%  act of recording informed consent is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000051
+all x (ActOfRecordingInformedConsent(x) -> Bfo:Processes(x)). 
+
+%  act of approving is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000051
+all x (ActOfApproving(x) -> Bfo:Processes(x)). 
+
+%  act of communicating is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000051
+all x (ActOfCommunicating(x) -> Bfo:Processes(x)). 
+
+%  act of regulatory supervision is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000051
+all x (ActOfRegulatorySupervision(x) -> Bfo:Processes(x)). 
+
+%  process of abuse is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000051
+all x (ProcessOfAbuse(x) -> Bfo:Processes(x)). 
+
+%  female pregnancy is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000051
+all x (FemalePregnancy(x) -> Bfo:Processes(x)). 
+
+%  act of deciding is subclass of BFO:PROCESSES
+%  entity: RUBRIC_0000051
+all x (ActOfDeciding(x) -> Bfo:Processes(x)). 
+
+%  pregnant woman is subclass of OTHER CLASSES
+%  entity: RUBRIC_0000049
+all x (PregnantWoman(x) -> OtherClasses(x)). 
+
+%  legal age is subclass of OTHER CLASSES
+%  entity: RUBRIC_0000049
+all x (LegalAge(x) -> OtherClasses(x)). 
+
+%  IAO:ICE is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000046
+all x (Iao:Ice(x) -> Needs_Review(x)). 
+
+%  BFO:ROLES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000046
+all x (Bfo:Roles(x) -> Needs_Review(x)). 
+
+%  OTHER CLASSES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000046
+all x (OtherClasses(x) -> Needs_Review(x)). 
+
+%  CCO:STASIS is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000046
+all x (Cco:Stasis(x) -> Needs_Review(x)). 
+
+%  OBI:ORGANISZATION is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000046
+all x (Obi:Organiszation(x) -> Needs_Review(x)). 
+
+%  BFO:PROCESSES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000046
+all x (Bfo:Processes(x) -> Needs_Review(x)). 
+
+%  BFO:DISPOSITIONS is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000046
+all x (Bfo:Dispositions(x) -> Needs_Review(x)). 
+
+%  future use directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000041
+all x (FutureUseDirective(x) -> DirectiveIces(x)). 
+
+%  research method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000041
+all x (ResearchMethodDirective(x) -> DirectiveIces(x)). 
+
+%  permission transfer directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000041
+all x (PermissionTransferDirective(x) -> DirectiveIces(x)). 
+
+%  vulnerable population directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000041
+all x (VulnerablePopulationDirective(x) -> DirectiveIces(x)). 
+
+%  confidentiality directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000041
+all x (ConfidentialityDirective(x) -> DirectiveIces(x)). 
+
+%  contact method directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000041
+all x (ContactMethodDirective(x) -> DirectiveIces(x)). 
+
+%  understood language directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000041
+all x (UnderstoodLanguageDirective(x) -> DirectiveIces(x)). 
+
+%  termination of participation directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000041
+all x (TerminationOfParticipationDirective(x) -> DirectiveIces(x)). 
+
+%  waiver directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000041
+all x (WaiverDirective(x) -> DirectiveIces(x)). 
+
+%  data sharing directive is subclass of DIRECTIVE ICES
+%  entity: RUBRIC_0000041
+all x (DataSharingDirective(x) -> DirectiveIces(x)). 
+
+%  DIRECTIVE ICES is subclass of IAO:ICE
+%  entity: RUBRIC_0000038
+all x (DirectiveIces(x) -> Iao:Ice(x)). 
+
+%  DESCRIPTIVE ICES is subclass of IAO:ICE
+%  entity: RUBRIC_0000038
+all x (DescriptiveIces(x) -> Iao:Ice(x)). 
+
+%  DOCUMENT is subclass of IAO:ICE
+%  entity: RUBRIC_0000038
+all x (Document(x) -> Iao:Ice(x)). 
+
+%  legal person role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000037
+all x (LegalPersonRole(x) -> Bfo:Roles(x)). 
+
+%  witness role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000037
+all x (WitnessRole(x) -> Bfo:Roles(x)). 
+
+%  minor role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000037
+all x (MinorRole(x) -> Bfo:Roles(x)). 
+
+%  representative role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000037
+all x (RepresentativeRole(x) -> Bfo:Roles(x)). 
+
+%  vulnerable individual role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000037
+all x (VulnerableIndividualRole(x) -> Bfo:Roles(x)). 
+
+%  regulatory oversight role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000037
+all x (RegulatoryOversightRole(x) -> Bfo:Roles(x)). 
+
+%  prisoner role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000037
+all x (PrisonerRole(x) -> Bfo:Roles(x)). 
+
+%  committee member role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000037
+all x (CommitteeMemberRole(x) -> Bfo:Roles(x)). 
+
+%  hospital governing body role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000037
+all x (HospitalGoverningBodyRole(x) -> Bfo:Roles(x)). 
+
+%  investigation agent role is subclass of BFO:ROLES
+%  entity: RUBRIC_0000037
+all x (InvestigationAgentRole(x) -> Bfo:Roles(x)). 
+
+%  IAO:ICE is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000036
+all x (Iao:Ice(x) -> Needs_Review(x)). 
+
+%  BFO:ROLES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000036
+all x (Bfo:Roles(x) -> Needs_Review(x)). 
+
+%  OTHER CLASSES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000036
+all x (OtherClasses(x) -> Needs_Review(x)). 
+
+%  CCO:STASIS is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000036
+all x (Cco:Stasis(x) -> Needs_Review(x)). 
+
+%  OBI:ORGANISZATION is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000036
+all x (Obi:Organiszation(x) -> Needs_Review(x)). 
+
+%  BFO:PROCESSES is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000036
+all x (Bfo:Processes(x) -> Needs_Review(x)). 
+
+%  BFO:DISPOSITIONS is subclass of NEEDS_REVIEW
+%  entity: RUBRIC_0000036
+all x (Bfo:Dispositions(x) -> Needs_Review(x)). 
+
+%  description of participation benefit is subclass of descriptive information content entity
+%  entity: RUBRIC_0000034
+all x (DescriptionOfParticipationBenefit(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of participation risk is subclass of descriptive information content entity
+%  entity: RUBRIC_0000034
+all x (DescriptionOfParticipationRisk(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  legally authorized representative role is subclass of descriptive information content entity
+%  entity: RUBRIC_0000034
+all x (LegallyAuthorizedRepresentativeRole(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of voluntary participation is subclass of descriptive information content entity
+%  entity: RUBRIC_0000034
+all x (DescriptionOfVoluntaryParticipation(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of broad consent is subclass of descriptive information content entity
+%  entity: RUBRIC_0000034
+all x (DescriptionOfBroadConsent(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  desciption of research procedure is subclass of descriptive information content entity
+%  entity: RUBRIC_0000034
+all x (DesciptionOfResearchProcedure(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  IRB member role is subclass of descriptive information content entity
+%  entity: RUBRIC_0000034
+all x (IrbMemberRole(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of trigger condition is subclass of descriptive information content entity
+%  entity: RUBRIC_0000034
+all x (DescriptionOfTriggerCondition(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of medical procedure is subclass of descriptive information content entity
+%  entity: RUBRIC_0000034
+all x (DescriptionOfMedicalProcedure(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of participation benefit is subclass of descriptive information content entity
+%  entity: RUBRIC_0000033
+all x (DescriptionOfParticipationBenefit(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of participation risk is subclass of descriptive information content entity
+%  entity: RUBRIC_0000033
+all x (DescriptionOfParticipationRisk(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  legally authorized representative role is subclass of descriptive information content entity
+%  entity: RUBRIC_0000033
+all x (LegallyAuthorizedRepresentativeRole(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of voluntary participation is subclass of descriptive information content entity
+%  entity: RUBRIC_0000033
+all x (DescriptionOfVoluntaryParticipation(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of broad consent is subclass of descriptive information content entity
+%  entity: RUBRIC_0000033
+all x (DescriptionOfBroadConsent(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  desciption of research procedure is subclass of descriptive information content entity
+%  entity: RUBRIC_0000033
+all x (DesciptionOfResearchProcedure(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  IRB member role is subclass of descriptive information content entity
+%  entity: RUBRIC_0000033
+all x (IrbMemberRole(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of trigger condition is subclass of descriptive information content entity
+%  entity: RUBRIC_0000033
+all x (DescriptionOfTriggerCondition(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of medical procedure is subclass of descriptive information content entity
+%  entity: RUBRIC_0000033
+all x (DescriptionOfMedicalProcedure(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of participation benefit is subclass of descriptive information content entity
+%  entity: RUBRIC_0000032
+all x (DescriptionOfParticipationBenefit(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of participation risk is subclass of descriptive information content entity
+%  entity: RUBRIC_0000032
+all x (DescriptionOfParticipationRisk(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  legally authorized representative role is subclass of descriptive information content entity
+%  entity: RUBRIC_0000032
+all x (LegallyAuthorizedRepresentativeRole(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of voluntary participation is subclass of descriptive information content entity
+%  entity: RUBRIC_0000032
+all x (DescriptionOfVoluntaryParticipation(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of broad consent is subclass of descriptive information content entity
+%  entity: RUBRIC_0000032
+all x (DescriptionOfBroadConsent(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  desciption of research procedure is subclass of descriptive information content entity
+%  entity: RUBRIC_0000032
+all x (DesciptionOfResearchProcedure(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  IRB member role is subclass of descriptive information content entity
+%  entity: RUBRIC_0000032
+all x (IrbMemberRole(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of trigger condition is subclass of descriptive information content entity
+%  entity: RUBRIC_0000032
+all x (DescriptionOfTriggerCondition(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  description of medical procedure is subclass of descriptive information content entity
+%  entity: RUBRIC_0000032
+all x (DescriptionOfMedicalProcedure(x) -> DescriptiveInformationContentEntity(x)). 
+
+%  data format specification is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (DataFormatSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  deontic role directive is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (DeonticRoleDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  obligation directive is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (ObligationDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  conditional specification is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (ConditionalSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  confidentiality directive is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (ConfidentialityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  restriction directive is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (RestrictionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  liability directive is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (LiabilityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  ethics directive is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (EthicsDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  action specification is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (ActionSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  consequent directive is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (ConsequentDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  answer directive is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (AnswerDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  permission directive is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (PermissionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  contact directive is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (ContactDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  recontact method directive is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (RecontactMethodDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  disclosure directive is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (DisclosureDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  objective specification is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (ObjectiveSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  source code module is subclass of directive information entity
+%  entity: RUBRIC_0000031
+all x (SourceCodeModule(x) -> DirectiveInformationEntity(x)). 
+
+%  time trigger is subclass of conditional specification
+%  entity: RUBRIC_0000023
+all x (TimeTrigger(x) -> ConditionalSpecification(x)). 
+
+%  conditional obligation directive is subclass of conditional specification
+%  entity: RUBRIC_0000023
+all x (ConditionalObligationDirective(x) -> ConditionalSpecification(x)). 
+
+%  conditional restriction directive is subclass of conditional specification
+%  entity: RUBRIC_0000023
+all x (ConditionalRestrictionDirective(x) -> ConditionalSpecification(x)). 
+
+%  rule is subclass of conditional specification
+%  entity: RUBRIC_0000023
+all x (Rule(x) -> ConditionalSpecification(x)). 
+
+%  conditional permission directive is subclass of conditional specification
+%  entity: RUBRIC_0000023
+all x (ConditionalPermissionDirective(x) -> ConditionalSpecification(x)). 
+
+%  data format specification is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (DataFormatSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  deontic role directive is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (DeonticRoleDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  obligation directive is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (ObligationDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  conditional specification is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (ConditionalSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  confidentiality directive is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (ConfidentialityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  restriction directive is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (RestrictionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  liability directive is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (LiabilityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  ethics directive is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (EthicsDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  action specification is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (ActionSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  consequent directive is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (ConsequentDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  answer directive is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (AnswerDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  permission directive is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (PermissionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  contact directive is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (ContactDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  recontact method directive is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (RecontactMethodDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  disclosure directive is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (DisclosureDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  objective specification is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (ObjectiveSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  source code module is subclass of directive information entity
+%  entity: RUBRIC_0000022
+all x (SourceCodeModule(x) -> DirectiveInformationEntity(x)). 
+
+%  time trigger is subclass of conditional specification
+%  entity: RUBRIC_0000021
+all x (TimeTrigger(x) -> ConditionalSpecification(x)). 
+
+%  conditional obligation directive is subclass of conditional specification
+%  entity: RUBRIC_0000021
+all x (ConditionalObligationDirective(x) -> ConditionalSpecification(x)). 
+
+%  conditional restriction directive is subclass of conditional specification
+%  entity: RUBRIC_0000021
+all x (ConditionalRestrictionDirective(x) -> ConditionalSpecification(x)). 
+
+%  rule is subclass of conditional specification
+%  entity: RUBRIC_0000021
+all x (Rule(x) -> ConditionalSpecification(x)). 
+
+%  conditional permission directive is subclass of conditional specification
+%  entity: RUBRIC_0000021
+all x (ConditionalPermissionDirective(x) -> ConditionalSpecification(x)). 
+
+%  data format specification is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (DataFormatSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  deontic role directive is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (DeonticRoleDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  obligation directive is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (ObligationDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  conditional specification is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (ConditionalSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  confidentiality directive is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (ConfidentialityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  restriction directive is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (RestrictionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  liability directive is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (LiabilityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  ethics directive is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (EthicsDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  action specification is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (ActionSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  consequent directive is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (ConsequentDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  answer directive is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (AnswerDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  permission directive is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (PermissionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  contact directive is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (ContactDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  recontact method directive is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (RecontactMethodDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  disclosure directive is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (DisclosureDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  objective specification is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (ObjectiveSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  source code module is subclass of directive information entity
+%  entity: RUBRIC_0000020
+all x (SourceCodeModule(x) -> DirectiveInformationEntity(x)). 
+
+%  time trigger is subclass of conditional specification
+%  entity: RUBRIC_0000019
+all x (TimeTrigger(x) -> ConditionalSpecification(x)). 
+
+%  conditional obligation directive is subclass of conditional specification
+%  entity: RUBRIC_0000019
+all x (ConditionalObligationDirective(x) -> ConditionalSpecification(x)). 
+
+%  conditional restriction directive is subclass of conditional specification
+%  entity: RUBRIC_0000019
+all x (ConditionalRestrictionDirective(x) -> ConditionalSpecification(x)). 
+
+%  rule is subclass of conditional specification
+%  entity: RUBRIC_0000019
+all x (Rule(x) -> ConditionalSpecification(x)). 
+
+%  conditional permission directive is subclass of conditional specification
+%  entity: RUBRIC_0000019
+all x (ConditionalPermissionDirective(x) -> ConditionalSpecification(x)). 
+
+%  data format specification is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (DataFormatSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  deontic role directive is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (DeonticRoleDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  obligation directive is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (ObligationDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  conditional specification is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (ConditionalSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  confidentiality directive is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (ConfidentialityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  restriction directive is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (RestrictionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  liability directive is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (LiabilityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  ethics directive is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (EthicsDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  action specification is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (ActionSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  consequent directive is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (ConsequentDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  answer directive is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (AnswerDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  permission directive is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (PermissionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  contact directive is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (ContactDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  recontact method directive is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (RecontactMethodDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  disclosure directive is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (DisclosureDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  objective specification is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (ObjectiveSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  source code module is subclass of directive information entity
+%  entity: RUBRIC_0000018
+all x (SourceCodeModule(x) -> DirectiveInformationEntity(x)). 
+
+%  data format specification is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (DataFormatSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  deontic role directive is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (DeonticRoleDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  obligation directive is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (ObligationDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  conditional specification is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (ConditionalSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  confidentiality directive is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (ConfidentialityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  restriction directive is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (RestrictionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  liability directive is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (LiabilityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  ethics directive is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (EthicsDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  action specification is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (ActionSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  consequent directive is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (ConsequentDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  answer directive is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (AnswerDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  permission directive is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (PermissionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  contact directive is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (ContactDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  recontact method directive is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (RecontactMethodDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  disclosure directive is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (DisclosureDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  objective specification is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (ObjectiveSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  source code module is subclass of directive information entity
+%  entity: RUBRIC_0000017
+all x (SourceCodeModule(x) -> DirectiveInformationEntity(x)). 
+
+%  data format specification is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (DataFormatSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  deontic role directive is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (DeonticRoleDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  obligation directive is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (ObligationDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  conditional specification is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (ConditionalSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  confidentiality directive is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (ConfidentialityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  restriction directive is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (RestrictionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  liability directive is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (LiabilityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  ethics directive is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (EthicsDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  action specification is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (ActionSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  consequent directive is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (ConsequentDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  answer directive is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (AnswerDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  permission directive is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (PermissionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  contact directive is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (ContactDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  recontact method directive is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (RecontactMethodDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  disclosure directive is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (DisclosureDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  objective specification is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (ObjectiveSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  source code module is subclass of directive information entity
+%  entity: RUBRIC_0000016
+all x (SourceCodeModule(x) -> DirectiveInformationEntity(x)). 
+
+%  data format specification is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (DataFormatSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  deontic role directive is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (DeonticRoleDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  obligation directive is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (ObligationDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  conditional specification is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (ConditionalSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  confidentiality directive is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (ConfidentialityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  restriction directive is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (RestrictionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  liability directive is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (LiabilityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  ethics directive is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (EthicsDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  action specification is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (ActionSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  consequent directive is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (ConsequentDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  answer directive is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (AnswerDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  permission directive is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (PermissionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  contact directive is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (ContactDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  recontact method directive is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (RecontactMethodDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  disclosure directive is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (DisclosureDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  objective specification is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (ObjectiveSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  source code module is subclass of directive information entity
+%  entity: RUBRIC_0000015
+all x (SourceCodeModule(x) -> DirectiveInformationEntity(x)). 
+
+%  data format specification is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (DataFormatSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  deontic role directive is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (DeonticRoleDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  obligation directive is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (ObligationDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  conditional specification is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (ConditionalSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  confidentiality directive is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (ConfidentialityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  restriction directive is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (RestrictionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  liability directive is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (LiabilityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  ethics directive is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (EthicsDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  action specification is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (ActionSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  consequent directive is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (ConsequentDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  answer directive is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (AnswerDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  permission directive is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (PermissionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  contact directive is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (ContactDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  recontact method directive is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (RecontactMethodDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  disclosure directive is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (DisclosureDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  objective specification is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (ObjectiveSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  source code module is subclass of directive information entity
+%  entity: RUBRIC_0000014
+all x (SourceCodeModule(x) -> DirectiveInformationEntity(x)). 
+
+%  data format specification is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (DataFormatSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  deontic role directive is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (DeonticRoleDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  obligation directive is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (ObligationDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  conditional specification is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (ConditionalSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  confidentiality directive is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (ConfidentialityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  restriction directive is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (RestrictionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  date specification is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (DateSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  liability directive is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (LiabilityDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  ethics directive is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (EthicsDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  action specification is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (ActionSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  consequent directive is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (ConsequentDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  answer directive is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (AnswerDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  permission directive is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (PermissionDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  contact directive is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (ContactDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  plan specification is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (PlanSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  recontact method directive is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (RecontactMethodDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  disclosure directive is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (DisclosureDirective(x) -> DirectiveInformationEntity(x)). 
+
+%  objective specification is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (ObjectiveSpecification(x) -> DirectiveInformationEntity(x)). 
+
+%  source code module is subclass of directive information entity
+%  entity: RUBRIC_0000013
+all x (SourceCodeModule(x) -> DirectiveInformationEntity(x)). 
+
+%  conditional informed consent rule is subclass of rule
+%  entity: RUBRIC_0000012
+all x (ConditionalInformedConsentRule(x) -> Rule(x)). 
+
+%  broad consent rule is subclass of rule
+%  entity: RUBRIC_0000012
+all x (BroadConsentRule(x) -> Rule(x)). 
+
+%  informed consent rule is subclass of rule
+%  entity: RUBRIC_0000012
+all x (InformedConsentRule(x) -> Rule(x)). 
+
+%  conditional informed consent rule is subclass of rule
+%  entity: RUBRIC_0000011
+all x (ConditionalInformedConsentRule(x) -> Rule(x)). 
+
+%  broad consent rule is subclass of rule
+%  entity: RUBRIC_0000011
+all x (BroadConsentRule(x) -> Rule(x)). 
+
+%  informed consent rule is subclass of rule
+%  entity: RUBRIC_0000011
+all x (InformedConsentRule(x) -> Rule(x)). 
+
+%  conditional informed consent rule is subclass of rule
+%  entity: RUBRIC_0000010
+all x (ConditionalInformedConsentRule(x) -> Rule(x)). 
+
+%  broad consent rule is subclass of rule
+%  entity: RUBRIC_0000010
+all x (BroadConsentRule(x) -> Rule(x)). 
+
+%  informed consent rule is subclass of rule
+%  entity: RUBRIC_0000010
+all x (InformedConsentRule(x) -> Rule(x)). 
+
+%  human subject research regulatory document is subclass of regulatory document
+%  entity: RUBRIC_0000008
+all x (HumanSubjectResearchRegulatoryDocument(x) -> RegulatoryDocument(x)). 
+
+%  informed consent regulatory document is subclass of regulatory document
+%  entity: RUBRIC_0000008
+all x (InformedConsentRegulatoryDocument(x) -> RegulatoryDocument(x)). 
+
+%  human subject research regulatory document is subclass of regulatory document
+%  entity: RUBRIC_0000007
+all x (HumanSubjectResearchRegulatoryDocument(x) -> RegulatoryDocument(x)). 
+
+%  informed consent regulatory document is subclass of regulatory document
+%  entity: RUBRIC_0000007
+all x (InformedConsentRegulatoryDocument(x) -> RegulatoryDocument(x)). 
+
+%  medical record is subclass of document
+%  entity: RUBRIC_0000006
+all x (MedicalRecord(x) -> Document(x)). 
+
+%  informed assent form is subclass of document
+%  entity: RUBRIC_0000006
+all x (InformedAssentForm(x) -> Document(x)). 
+
+%  publication is subclass of document
+%  entity: RUBRIC_0000006
+all x (Publication(x) -> Document(x)). 
+
+%  regulatory document is subclass of document
+%  entity: RUBRIC_0000006
+all x (RegulatoryDocument(x) -> Document(x)). 
+
+%  document act input document is subclass of document
+%  entity: RUBRIC_0000006
+all x (DocumentActInputDocument(x) -> Document(x)). 
+
+%  questionnaire is subclass of document
+%  entity: RUBRIC_0000006
+all x (Questionnaire(x) -> Document(x)). 
+
+%  patent is subclass of document
+%  entity: RUBRIC_0000006
+all x (Patent(x) -> Document(x)). 
+
+%  report is subclass of document
+%  entity: RUBRIC_0000006
+all x (Report(x) -> Document(x)). 
+
+%  institutional review board is subclass of organization
+%  entity: RUBRIC_0000005
+all x (InstitutionalReviewBoard(x) -> Organization(x)). 
+
+%  regulatory body is subclass of organization
+%  entity: RUBRIC_0000005
+all x (RegulatoryBody(x) -> Organization(x)). 
+
+%  profit organization is subclass of organization
+%  entity: RUBRIC_0000005
+all x (ProfitOrganization(x) -> Organization(x)). 
+
+%  nonprofit organization is subclass of organization
+%  entity: RUBRIC_0000005
+all x (NonprofitOrganization(x) -> Organization(x)). 
+
+%  repository of documents is subclass of site
+%  entity: RUBRIC_0000001
+all x (RepositoryOfDocuments(x) -> Site(x)). 
+
+%  geographic location is subclass of site
+%  entity: RUBRIC_0000001
+all x (GeographicLocation(x) -> Site(x)). 
+
+%  jurisdiction is subclass of site
+%  entity: RUBRIC_0000001
+all x (Jurisdiction(x) -> Site(x)). 
+

@@ -1,0 +1,652 @@
+%  treatment is subclass of process
+%  entity: BFO_0000182
+all x (Treatment(x) -> Process(x)). 
+
+%  planned process is subclass of process
+%  entity: BFO_0000182
+all x (PlannedProcess(x) -> Process(x)). 
+
+%  planned process is subclass of process
+%  entity: BFO_0000182
+all x (PlannedProcess(x) -> Process(x)). 
+
+%  process profile is subclass of process
+%  entity: BFO_0000182
+all x (ProcessProfile(x) -> Process(x)). 
+
+%  authentication is subclass of process
+%  entity: BFO_0000182
+all x (Authentication(x) -> Process(x)). 
+
+%  authentication is subclass of process
+%  entity: BFO_0000182
+all x (Authentication(x) -> Process(x)). 
+
+%  oscillating is subclass of process
+%  entity: BFO_0000182
+all x (Oscillating(x) -> Process(x)). 
+
+%  history is subclass of process
+%  entity: BFO_0000182
+all x (History(x) -> Process(x)). 
+
+%  stasis is subclass of process
+%  entity: BFO_0000182
+all x (Stasis(x) -> Process(x)). 
+
+%  study termination is subclass of process
+%  entity: BFO_0000182
+all x (StudyTermination(x) -> Process(x)). 
+
+%  one-dimensional temporal region is subclass of temporal region
+%  entity: BFO_0000148
+all x (One-DimensionalTemporalRegion(x) -> TemporalRegion(x)). 
+
+%  zero-dimensional temporal region is subclass of temporal region
+%  entity: BFO_0000148
+all x (Zero-DimensionalTemporalRegion(x) -> TemporalRegion(x)). 
+
+%  two-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000147
+all x (Two-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  one-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000147
+all x (One-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  zero-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000147
+all x (Zero-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  two-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000146
+all x (Two-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  one-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000146
+all x (One-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  zero-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000146
+all x (Zero-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  mechanical wave quality is subclass of quality
+%  entity: BFO_0000145
+all x (MechanicalWaveQuality(x) -> Quality(x)). 
+
+%  mass is subclass of quality
+%  entity: BFO_0000145
+all x (Mass(x) -> Quality(x)). 
+
+%  length is subclass of quality
+%  entity: BFO_0000145
+all x (Length(x) -> Quality(x)). 
+
+%  pressure is subclass of quality
+%  entity: BFO_0000145
+all x (Pressure(x) -> Quality(x)). 
+
+%  information carrier is subclass of quality
+%  entity: BFO_0000145
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (InformationCarrier(x) -> Quality(x)). 
+
+%  writing quality is subclass of quality
+%  entity: BFO_0000145
+all x (WritingQuality(x) -> Quality(x)). 
+
+%  relational quality is subclass of quality
+%  entity: BFO_0000145
+all x (RelationalQuality(x) -> Quality(x)). 
+
+%  treatment is subclass of process
+%  entity: BFO_0000144
+all x (Treatment(x) -> Process(x)). 
+
+%  planned process is subclass of process
+%  entity: BFO_0000144
+all x (PlannedProcess(x) -> Process(x)). 
+
+%  planned process is subclass of process
+%  entity: BFO_0000144
+all x (PlannedProcess(x) -> Process(x)). 
+
+%  process profile is subclass of process
+%  entity: BFO_0000144
+all x (ProcessProfile(x) -> Process(x)). 
+
+%  authentication is subclass of process
+%  entity: BFO_0000144
+all x (Authentication(x) -> Process(x)). 
+
+%  authentication is subclass of process
+%  entity: BFO_0000144
+all x (Authentication(x) -> Process(x)). 
+
+%  oscillating is subclass of process
+%  entity: BFO_0000144
+all x (Oscillating(x) -> Process(x)). 
+
+%  history is subclass of process
+%  entity: BFO_0000144
+all x (History(x) -> Process(x)). 
+
+%  stasis is subclass of process
+%  entity: BFO_0000144
+all x (Stasis(x) -> Process(x)). 
+
+%  study termination is subclass of process
+%  entity: BFO_0000144
+all x (StudyTermination(x) -> Process(x)). 
+
+%  two-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000142
+all x (Two-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  one-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000142
+all x (One-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  zero-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000142
+all x (Zero-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  material entity is subclass of independent continuant
+%  entity: BFO_0000141
+all x (MaterialEntity(x) -> IndependentContinuant(x)). 
+
+%  immaterial entity is subclass of independent continuant
+%  entity: BFO_0000141
+all x (ImmaterialEntity(x) -> IndependentContinuant(x)). 
+
+%  portion of energy is subclass of independent continuant
+%  entity: BFO_0000141
+all x (PortionOfEnergy(x) -> IndependentContinuant(x)). 
+
+%  spatial region is subclass of immaterial entity
+%  entity: BFO_0000140
+all x (SpatialRegion(x) -> ImmaterialEntity(x)). 
+
+%  site is subclass of immaterial entity
+%  entity: BFO_0000140
+all x (Site(x) -> ImmaterialEntity(x)). 
+
+%  continuant fiat boundary is subclass of immaterial entity
+%  entity: BFO_0000140
+all x (ContinuantFiatBoundary(x) -> ImmaterialEntity(x)). 
+
+%  material entity is subclass of independent continuant
+%  entity: BFO_0000040
+all x (MaterialEntity(x) -> IndependentContinuant(x)). 
+
+%  immaterial entity is subclass of independent continuant
+%  entity: BFO_0000040
+all x (ImmaterialEntity(x) -> IndependentContinuant(x)). 
+
+%  portion of energy is subclass of independent continuant
+%  entity: BFO_0000040
+all x (PortionOfEnergy(x) -> IndependentContinuant(x)). 
+
+%  one-dimensional temporal region is subclass of temporal region
+%  entity: BFO_0000038
+all x (One-DimensionalTemporalRegion(x) -> TemporalRegion(x)). 
+
+%  zero-dimensional temporal region is subclass of temporal region
+%  entity: BFO_0000038
+all x (Zero-DimensionalTemporalRegion(x) -> TemporalRegion(x)). 
+
+%  temporal region is subclass of occurrent
+%  entity: BFO_0000035
+all x (TemporalRegion(x) -> Occurrent(x)). 
+
+%  process is subclass of occurrent
+%  entity: BFO_0000035
+all x (Process(x) -> Occurrent(x)). 
+
+%  process boundary is subclass of occurrent
+%  entity: BFO_0000035
+all x (ProcessBoundary(x) -> Occurrent(x)). 
+
+%  spatiotemporal region is subclass of occurrent
+%  entity: BFO_0000035
+all x (SpatiotemporalRegion(x) -> Occurrent(x)). 
+
+%  risk is subclass of disposition
+%  entity: BFO_0000034
+all x (Risk(x) -> Disposition(x)). 
+
+%  benefit is subclass of disposition
+%  entity: BFO_0000034
+all x (Benefit(x) -> Disposition(x)). 
+
+%  capability to consent is subclass of disposition
+%  entity: BFO_0000034
+all x (CapabilityToConsent(x) -> Disposition(x)). 
+
+%  capability to consent is subclass of disposition
+%  entity: BFO_0000034
+all x (CapabilityToConsent(x) -> Disposition(x)). 
+
+%  function is subclass of disposition
+%  entity: BFO_0000034
+all x (Function(x) -> Disposition(x)). 
+
+%  generically dependent continuant is subclass of continuant
+%  entity: BFO_0000031
+all x (GenericallyDependentContinuant(x) -> Continuant(x)). 
+
+%  independent continuant is subclass of continuant
+%  entity: BFO_0000031
+all x (IndependentContinuant(x) -> Continuant(x)). 
+
+%  specifically dependent continuant is subclass of continuant
+%  entity: BFO_0000031
+all x (SpecificallyDependentContinuant(x) -> Continuant(x)). 
+
+%  population is subclass of material entity
+%  entity: BFO_0000030
+all x (Population(x) -> MaterialEntity(x)). 
+
+%  collection of organisms is subclass of material entity
+%  entity: BFO_0000030
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (CollectionOfOrganisms(x) -> MaterialEntity(x)). 
+
+%  specimen is subclass of material entity
+%  entity: BFO_0000030
+all x (Specimen(x) -> MaterialEntity(x)). 
+
+%  document act target is subclass of material entity
+%  entity: BFO_0000030
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (DocumentActTarget(x) -> MaterialEntity(x)). 
+
+%  disorder is subclass of material entity
+%  entity: BFO_0000030
+all x (Disorder(x) -> MaterialEntity(x)). 
+
+%  Material anatomical entity is subclass of material entity
+%  entity: BFO_0000030
+all x (MaterialAnatomicalEntity(x) -> MaterialEntity(x)). 
+
+%  organization is subclass of material entity
+%  entity: BFO_0000030
+all x (Organization(x) -> MaterialEntity(x)). 
+
+%  material information bearer is subclass of material entity
+%  entity: BFO_0000030
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (MaterialInformationBearer(x) -> MaterialEntity(x)). 
+
+%  fiat object is subclass of material entity
+%  entity: BFO_0000030
+all x (FiatObject(x) -> MaterialEntity(x)). 
+
+%  object is subclass of material entity
+%  entity: BFO_0000030
+all x (Object(x) -> MaterialEntity(x)). 
+
+%  object aggregate is subclass of material entity
+%  entity: BFO_0000030
+all x (ObjectAggregate(x) -> MaterialEntity(x)). 
+
+%  agent is subclass of material entity
+%  entity: BFO_0000030
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (Agent(x) -> MaterialEntity(x)). 
+
+%  organism is subclass of material entity
+%  entity: BFO_0000030
+all x (Organism(x) -> MaterialEntity(x)). 
+
+%  aggregate of organizations is subclass of material entity
+%  entity: BFO_0000030
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (AggregateOfOrganizations(x) -> MaterialEntity(x)). 
+
+%  spatial region is subclass of immaterial entity
+%  entity: BFO_0000029
+all x (SpatialRegion(x) -> ImmaterialEntity(x)). 
+
+%  site is subclass of immaterial entity
+%  entity: BFO_0000029
+all x (Site(x) -> ImmaterialEntity(x)). 
+
+%  continuant fiat boundary is subclass of immaterial entity
+%  entity: BFO_0000029
+all x (ContinuantFiatBoundary(x) -> ImmaterialEntity(x)). 
+
+%  two-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000028
+all x (Two-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  zero-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000028
+all x (Zero-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  three-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000028
+all x (Three-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  one-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000028
+all x (One-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  population is subclass of material entity
+%  entity: BFO_0000027
+all x (Population(x) -> MaterialEntity(x)). 
+
+%  collection of organisms is subclass of material entity
+%  entity: BFO_0000027
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (CollectionOfOrganisms(x) -> MaterialEntity(x)). 
+
+%  specimen is subclass of material entity
+%  entity: BFO_0000027
+all x (Specimen(x) -> MaterialEntity(x)). 
+
+%  document act target is subclass of material entity
+%  entity: BFO_0000027
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (DocumentActTarget(x) -> MaterialEntity(x)). 
+
+%  disorder is subclass of material entity
+%  entity: BFO_0000027
+all x (Disorder(x) -> MaterialEntity(x)). 
+
+%  Material anatomical entity is subclass of material entity
+%  entity: BFO_0000027
+all x (MaterialAnatomicalEntity(x) -> MaterialEntity(x)). 
+
+%  organization is subclass of material entity
+%  entity: BFO_0000027
+all x (Organization(x) -> MaterialEntity(x)). 
+
+%  material information bearer is subclass of material entity
+%  entity: BFO_0000027
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (MaterialInformationBearer(x) -> MaterialEntity(x)). 
+
+%  fiat object is subclass of material entity
+%  entity: BFO_0000027
+all x (FiatObject(x) -> MaterialEntity(x)). 
+
+%  object is subclass of material entity
+%  entity: BFO_0000027
+all x (Object(x) -> MaterialEntity(x)). 
+
+%  object aggregate is subclass of material entity
+%  entity: BFO_0000027
+all x (ObjectAggregate(x) -> MaterialEntity(x)). 
+
+%  agent is subclass of material entity
+%  entity: BFO_0000027
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (Agent(x) -> MaterialEntity(x)). 
+
+%  organism is subclass of material entity
+%  entity: BFO_0000027
+all x (Organism(x) -> MaterialEntity(x)). 
+
+%  aggregate of organizations is subclass of material entity
+%  entity: BFO_0000027
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (AggregateOfOrganizations(x) -> MaterialEntity(x)). 
+
+%  two-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000026
+all x (Two-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  zero-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000026
+all x (Zero-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  three-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000026
+all x (Three-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  one-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000026
+all x (One-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  population is subclass of material entity
+%  entity: BFO_0000024
+all x (Population(x) -> MaterialEntity(x)). 
+
+%  collection of organisms is subclass of material entity
+%  entity: BFO_0000024
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (CollectionOfOrganisms(x) -> MaterialEntity(x)). 
+
+%  specimen is subclass of material entity
+%  entity: BFO_0000024
+all x (Specimen(x) -> MaterialEntity(x)). 
+
+%  document act target is subclass of material entity
+%  entity: BFO_0000024
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (DocumentActTarget(x) -> MaterialEntity(x)). 
+
+%  disorder is subclass of material entity
+%  entity: BFO_0000024
+all x (Disorder(x) -> MaterialEntity(x)). 
+
+%  Material anatomical entity is subclass of material entity
+%  entity: BFO_0000024
+all x (MaterialAnatomicalEntity(x) -> MaterialEntity(x)). 
+
+%  organization is subclass of material entity
+%  entity: BFO_0000024
+all x (Organization(x) -> MaterialEntity(x)). 
+
+%  material information bearer is subclass of material entity
+%  entity: BFO_0000024
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (MaterialInformationBearer(x) -> MaterialEntity(x)). 
+
+%  fiat object is subclass of material entity
+%  entity: BFO_0000024
+all x (FiatObject(x) -> MaterialEntity(x)). 
+
+%  object is subclass of material entity
+%  entity: BFO_0000024
+all x (Object(x) -> MaterialEntity(x)). 
+
+%  object aggregate is subclass of material entity
+%  entity: BFO_0000024
+all x (ObjectAggregate(x) -> MaterialEntity(x)). 
+
+%  agent is subclass of material entity
+%  entity: BFO_0000024
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (Agent(x) -> MaterialEntity(x)). 
+
+%  organism is subclass of material entity
+%  entity: BFO_0000024
+all x (Organism(x) -> MaterialEntity(x)). 
+
+%  aggregate of organizations is subclass of material entity
+%  entity: BFO_0000024
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (AggregateOfOrganizations(x) -> MaterialEntity(x)). 
+
+%  role is subclass of realizable entity
+%  entity: BFO_0000023
+all x (Role(x) -> RealizableEntity(x)). 
+
+%  disposition is subclass of realizable entity
+%  entity: BFO_0000023
+all x (Disposition(x) -> RealizableEntity(x)). 
+
+%  generically dependent continuant is subclass of continuant
+%  entity: BFO_0000020
+all x (GenericallyDependentContinuant(x) -> Continuant(x)). 
+
+%  independent continuant is subclass of continuant
+%  entity: BFO_0000020
+all x (IndependentContinuant(x) -> Continuant(x)). 
+
+%  specifically dependent continuant is subclass of continuant
+%  entity: BFO_0000020
+all x (SpecificallyDependentContinuant(x) -> Continuant(x)). 
+
+%  realizable entity is subclass of specifically dependent continuant
+%  entity: BFO_0000019
+all x (RealizableEntity(x) -> SpecificallyDependentContinuant(x)). 
+
+%  quality is subclass of specifically dependent continuant
+%  entity: BFO_0000019
+all x (Quality(x) -> SpecificallyDependentContinuant(x)). 
+
+%  two-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000018
+all x (Two-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  zero-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000018
+all x (Zero-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  three-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000018
+all x (Three-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  one-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000018
+all x (One-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  realizable entity is subclass of specifically dependent continuant
+%  entity: BFO_0000017
+all x (RealizableEntity(x) -> SpecificallyDependentContinuant(x)). 
+
+%  quality is subclass of specifically dependent continuant
+%  entity: BFO_0000017
+all x (Quality(x) -> SpecificallyDependentContinuant(x)). 
+
+%  role is subclass of realizable entity
+%  entity: BFO_0000016
+all x (Role(x) -> RealizableEntity(x)). 
+
+%  disposition is subclass of realizable entity
+%  entity: BFO_0000016
+all x (Disposition(x) -> RealizableEntity(x)). 
+
+%  temporal region is subclass of occurrent
+%  entity: BFO_0000015
+all x (TemporalRegion(x) -> Occurrent(x)). 
+
+%  process is subclass of occurrent
+%  entity: BFO_0000015
+all x (Process(x) -> Occurrent(x)). 
+
+%  process boundary is subclass of occurrent
+%  entity: BFO_0000015
+all x (ProcessBoundary(x) -> Occurrent(x)). 
+
+%  spatiotemporal region is subclass of occurrent
+%  entity: BFO_0000015
+all x (SpatiotemporalRegion(x) -> Occurrent(x)). 
+
+%  temporal region is subclass of occurrent
+%  entity: BFO_0000011
+all x (TemporalRegion(x) -> Occurrent(x)). 
+
+%  process is subclass of occurrent
+%  entity: BFO_0000011
+all x (Process(x) -> Occurrent(x)). 
+
+%  process boundary is subclass of occurrent
+%  entity: BFO_0000011
+all x (ProcessBoundary(x) -> Occurrent(x)). 
+
+%  spatiotemporal region is subclass of occurrent
+%  entity: BFO_0000011
+all x (SpatiotemporalRegion(x) -> Occurrent(x)). 
+
+%  two-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000009
+all x (Two-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  zero-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000009
+all x (Zero-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  three-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000009
+all x (Three-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  one-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000009
+all x (One-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  temporal region is subclass of occurrent
+%  entity: BFO_0000008
+all x (TemporalRegion(x) -> Occurrent(x)). 
+
+%  process is subclass of occurrent
+%  entity: BFO_0000008
+all x (Process(x) -> Occurrent(x)). 
+
+%  process boundary is subclass of occurrent
+%  entity: BFO_0000008
+all x (ProcessBoundary(x) -> Occurrent(x)). 
+
+%  spatiotemporal region is subclass of occurrent
+%  entity: BFO_0000008
+all x (SpatiotemporalRegion(x) -> Occurrent(x)). 
+
+%  spatial region is subclass of immaterial entity
+%  entity: BFO_0000006
+all x (SpatialRegion(x) -> ImmaterialEntity(x)). 
+
+%  site is subclass of immaterial entity
+%  entity: BFO_0000006
+all x (Site(x) -> ImmaterialEntity(x)). 
+
+%  continuant fiat boundary is subclass of immaterial entity
+%  entity: BFO_0000006
+all x (ContinuantFiatBoundary(x) -> ImmaterialEntity(x)). 
+
+%  generically dependent continuant is subclass of continuant
+%  entity: BFO_0000004
+all x (GenericallyDependentContinuant(x) -> Continuant(x)). 
+
+%  independent continuant is subclass of continuant
+%  entity: BFO_0000004
+all x (IndependentContinuant(x) -> Continuant(x)). 
+
+%  specifically dependent continuant is subclass of continuant
+%  entity: BFO_0000004
+all x (SpecificallyDependentContinuant(x) -> Continuant(x)). 
+
+%  occurrent is subclass of entity
+%  entity: BFO_0000003
+all x (Occurrent(x) -> Entity(x)). 
+
+%  continuant is subclass of entity
+%  entity: BFO_0000003
+all x (Continuant(x) -> Entity(x)). 
+
+%  occurrent is subclass of entity
+%  entity: BFO_0000002
+all x (Occurrent(x) -> Entity(x)). 
+
+%  continuant is subclass of entity
+%  entity: BFO_0000002
+all x (Continuant(x) -> Entity(x)). 
+

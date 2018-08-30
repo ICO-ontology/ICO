@@ -1,0 +1,312 @@
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['act of informed consenting'], ICO_0000196
+AXIOM: ['obo.ICO_0000195', '&', 'None.some(obo.OBI_0000810)']
+ICO_0000195 ['act of permitting']
+
+
+ENTITY: ['act of informed consenting'], ICO_0000196
+AXIOM: ['obo.ICO_0000195', '&', 'None.some(obo.OBI_0000810)']
+ICO_0000195 ['act of permitting']
+
+
+ENTITY: ['act of informed consenting'], ICO_0000196
+AXIOM: ['obo.ICO_0000195', '&', 'None.some(obo.OBI_0000810)']
+ICO_0000195 ['act of permitting']
+
+
+ENTITY: ['act of informed consenting'], ICO_0000196
+AXIOM: ['obo.ICO_0000195', '&', 'None.some(obo.OBI_0000810)']
+ICO_0000195 ['act of permitting']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
+
+
+ENTITY: ['informed consent form'], ICO_0000001
+AXIOM: ['obo.ICO_0000213', '|', 'obo.ICO_0000214']
+ICO_0000213 ['incomplete informed consent form']
+ICO_0000214 ['complete informed consent form indicating consent']
