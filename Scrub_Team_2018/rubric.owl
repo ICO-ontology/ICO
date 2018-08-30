@@ -648,29 +648,11 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000039 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000042"/>
-        <rdfs:label xml:lang="en">statement of additional resulting costs to subject for participation</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement of procedures for termination of participation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000042 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">STATEMENTS ABOUT MONEY</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
+        <rdfs:label xml:lang="en">termination of participation directive</rdfs:label>
     </owl:Class>
     
 
@@ -678,7 +660,6 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000042"/>
         <rdfs:label xml:lang="en">statement that biospecimens may be used for profit</rdfs:label>
     </owl:Class>
     
@@ -687,7 +668,6 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000042"/>
         <rdfs:label xml:lang="en">statement that subject will not share in commercial profit</rdfs:label>
     </owl:Class>
     
@@ -696,7 +676,6 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000042"/>
         <rdfs:label xml:lang="en">statement that subject will share in commercial profit</rdfs:label>
     </owl:Class>
     
@@ -1097,15 +1076,6 @@ Regulations are issued by various federal government departments and agencies to
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000130 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000130">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement that the study involves research</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000131">
@@ -1129,8 +1099,10 @@ Regulations are issued by various federal government departments and agencies to
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000133 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000133">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000042"/>
-        <rdfs:label xml:lang="en">statement about compensation for injury</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the trigger condition that require some compensation as a consequent.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">description of conditional compensation</rdfs:label>
     </owl:Class>
     
 
@@ -1147,19 +1119,12 @@ Regulations are issued by various federal government departments and agencies to
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000135 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000135">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000042"/>
-        <rdfs:label xml:lang="en">statement about compensation for participation</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000137 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000137">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
+        <IAO_0000115>A descriptive information content entity that describes the biospecimens that may be collected or the processes of biospecimen collection.</IAO_0000115>
+        <IAO_0000117>Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of collection of biospecimens</rdfs:label>
     </owl:Class>
     
@@ -1169,16 +1134,9 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000138">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement of collection of identifiable private information</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000139 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000139">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement of no loss of entitled benefits for discontinuing participation</rdfs:label>
+        <IAO_0000115>A descriptive information content entity that describes the information that may be collected or the processes of information collection.</IAO_0000115>
+        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">description of collection of information</rdfs:label>
     </owl:Class>
     
 
@@ -1186,8 +1144,11 @@ Regulations are issued by various federal government departments and agencies to
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000141">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement that specimens and data will not be used for future research</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000185"/>
+        <IAO_0000115>A descriptive information content entity that describes how biospecimens will be used in future research.</IAO_0000115>
+        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <IAO_0000232>This needs to be revisited. The definition is circular.</IAO_0000232>
+        <rdfs:label xml:lang="en">description of future biospecimen use</rdfs:label>
     </owl:Class>
     
 
@@ -1214,7 +1175,10 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000144">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement of where futher information can be obtained</rdfs:label>
+        <IAO_0000115>A descriptive information content entity that describes the procedures for obtaining further information.</IAO_0000115>
+        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <IAO_0000232>Further discussion required, current definition is circular.</IAO_0000232>
+        <rdfs:label xml:lang="en">description of procedure for obtaining futher information</rdfs:label>
     </owl:Class>
     
 
@@ -1231,9 +1195,11 @@ Regulations are issued by various federal government departments and agencies to
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000146 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000146">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000232 xml:lang="en">see &apos;recontact method.&apos;</IAO_0000232>
-        <rdfs:label xml:lang="en">statement of who to contact for questions about the research</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
+        <IAO_0000232 xml:lang="en">see &apos;recontact method.&apos;
+
+also need &apos;who to recontact&apos;</IAO_0000232>
+        <rdfs:label xml:lang="en">recontact method directive</rdfs:label>
     </owl:Class>
     
 
@@ -1443,7 +1409,9 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement of consequences of voluntarily withdraw</rdfs:label>
+        <IAO_0000115>A descriptive information content entity that describes the negative impact or harm that result from withdrawing from an investigation.</IAO_0000115>
+        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">description of consequences of voluntarily withdraw</rdfs:label>
     </owl:Class>
     
 
@@ -1538,6 +1506,28 @@ Regulations are issued by various federal government departments and agencies to
         <IAO_0000115 xml:lang="en">A descriptive information content entity that describes a research procedure.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">desciption of research procedure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000185"/>
+        <IAO_0000115>A descriptive information content entity that describes how data will be used in future research.</IAO_0000115>
+        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">description of future data use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
+        <IAO_0000115>A descriptive information content entity that describes future use of material or information.</IAO_0000115>
+        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">description of future use</rdfs:label>
     </owl:Class>
     
 
