@@ -1,44 +1,16 @@
-%  http://purl.obolibrary.org/obo/NCBITaxon_9606
-%  source ontology: NCBITaxon
-%  entity: http://purl.obolibrary.org/obo/NCBITaxon_9606
-%  label: Homo sapiens
-%  parent: http://purl.obolibrary.org/obo/NCBITaxon_9606
-%  parentLabel: Homo sapiens
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  Homo sapiens is subclass of Homo sapiens
+%  entity: NCBITaxon_9606
+all x (HomoSapiens(x) -> HomoSapiens(x)). 
 
-all x (Homo_sapiens(x) -> Homo_sapiens(x)). 
+%  Homo sapiens is subclass of Homo sapiens
+%  entity: NCBITaxon_9606
+all x (HomoSapiens(x) -> HomoSapiens(x)). 
 
-%  http://purl.obolibrary.org/obo/NCBITaxon_9606
-%  source ontology: NCBITaxon
-%  entity: http://purl.obolibrary.org/obo/NCBITaxon_9606
-%  label: Homo sapiens
-%  parent: http://purl.obolibrary.org/obo/NCBITaxon_9606
-%  parentLabel: Homo sapiens
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  Homo sapiens is subclass of organism
+%  entity: NCBITaxon_9606
+all x (HomoSapiens(x) -> Organism(x)). 
 
-all x (Homo_sapiens(x) -> Homo_sapiens(x)). 
-
-%  http://purl.obolibrary.org/obo/NCBITaxon_9606
-%  source ontology: NCBITaxon
-%  entity: http://purl.obolibrary.org/obo/NCBITaxon_9606
-%  label: Homo sapiens
-%  parent: http://purl.obolibrary.org/obo/OBI_0100026
-%  parentLabel: organism
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (Homo_sapiens(x) -> organism(x)). 
-
-%  http://purl.obolibrary.org/obo/NCBITaxon_9606
-%  source ontology: NCBITaxon
-%  entity: http://purl.obolibrary.org/obo/NCBITaxon_9606
-%  label: Homo sapiens
-%  parent: http://purl.obolibrary.org/obo/OBI_0100026
-%  parentLabel: organism
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (Homo_sapiens(x) -> organism(x)). 
+%  Homo sapiens is subclass of organism
+%  entity: NCBITaxon_9606
+all x (HomoSapiens(x) -> Organism(x)). 
 

@@ -158,6 +158,183 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0007565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007565">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
+        <IAO_0000115 xml:lang="en">The set of physiological processes that allow an embryo or foetus to develop within the body of a female animal. It covers the time from fertilization of a female ovum by a male spermatozoon until birth. [database_cross_reference: ISBN:0192800825]</IAO_0000115>
+        <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/GO_0007565"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">female pregnancy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C70800 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C70800">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000163"/>
+        <IAO_0000115 xml:lang="en">A document containing the determination of the Institutional Review Board (IRB) that the clinical study with human subject participation has been reviewed and may be conducted at a particular study site within the constraints set forth by the IRB and other institutional and federal requirements. The regulations require that an IRB conduct continuing review of research at intervals appropriate to the degree of risk, but not less than once a year. [def-source: NCI]</IAO_0000115>
+        <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70800"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">institutional review board approval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C85521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C85521">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
+        <IAO_0000115 xml:lang="en">The state of being confined to jail or prison. [def-source: NCI]</IAO_0000115>
+        <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85521"/>
+        <dc:date xml:lang="en">Imported 8.22.2018</dc:date>
+        <rdfs:label xml:lang="en">incarceration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
+        <IAO_0000115 xml:lang="en">A role borne by an entity and that is realized in a process that is part of an investigation in which an objective is achieved. These processes include, among others: planning, overseeing, funding, reviewing.</IAO_0000115>
+        <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">investigation agent role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000163"/>
+        <IAO_0000115 xml:lang="en">A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.</IAO_0000115>
+        <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000450">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
+        <IAO_0000115 xml:lang="en">A regulatory agency is a organization that has responsibility over or for the legislation (acts and regulations) for a given sector of the government.</IAO_0000115>
+        <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000450"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">regulatory agency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000844 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000844">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
+        <IAO_0000115 xml:lang="en">A medical organization at which sick or injured people are given clinical care.</IAO_0000115>
+        <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000844"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">hospital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001942 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001942">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
+        <IAO_0000115 xml:lang="en">An organization that provides funding support for projects such as investigations.</IAO_0000115>
+        <IAO_0000118 xml:lang="en">funding organization</IAO_0000118>
+        <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OBI_0001942"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">grant agency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIABIS_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
+        <IAO_0000115 xml:lang="en">An organization with a specific responsibility that is a part of a larger organization with a specific responsibility.</IAO_0000115>
+        <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000017"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">department</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
+        <IAO_0000115 xml:lang="en">A role borne by a human individual or by a collection of humans regarded as possessing rights and duties enforeable at law.</IAO_0000115>
+        <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000038"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">legal person role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
+        <IAO_0000115 xml:lang="en">A role that inheres in an organization and that, if realized, is realized by its bearer overseeing the overall operation of a hospital.</IAO_0000115>
+        <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000062"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">hospital governing body role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
+        <IAO_0000115 xml:lang="en">A role that, if realized, is realized in the organization context of a committee.</IAO_0000115>
+        <IAO_0000412 xml:lang="en">http://purl.obolibrary.org/obo/OOSTT_00000117</IAO_0000412>
+        <dc:date xml:lang="en">Imported 8.30.2018.</dc:date>
+        <rdfs:label xml:lang="en">committee member role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
+        <IAO_0000115 xml:lang="en">An organization that is part of the machinery of government and that is responsible for the oversight and administration of specific functions. The government agencies are given the authority to fulfill those responsibilities by the government.</IAO_0000115>
+        <IAO_0000232 xml:lang="en">Another definition as proposed by the Common Core Ontologies: 
+
+&quot;An Organization that exercises executive, legislative, or judicial authority over a Geopolitical Entity.&quot; 
+
+Copyright (c) 2017, CUBRC, Inc.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.</IAO_0000232>
+        <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000271"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">government</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000001">
@@ -390,24 +567,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000029 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <rdfs:label xml:lang="en">abused child role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000030 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000126"/>
-        <rdfs:label xml:lang="en">neglected children</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000031">
@@ -427,7 +586,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <IAO_0000115 xml:lang="en">A descriptive information content entity that describes a medical procedure.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of medical procedure</rdfs:label>
-        <rdfs:label xml:lang="en">guardian role</rdfs:label>
     </owl:Class>
     
 
@@ -457,29 +615,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000035 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <IAO_0000115 xml:lang="en">A trigger condition description that nullifies some other prescription or obligation.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">Term definition adapted from http://purl.obolibrary.org/obo/NCIT_C73530</IAO_0000232>
-        <rdfs:label xml:lang="en">description of exemption</rdfs:label>
-        <rdfs:label xml:lang="en">parent role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
-        <IAO_0000115 xml:lang="en">A trigger condition description describing some person or group of people who either a) bear a disposition of vulnerability or b) are of a type whose instances are known to frequently bear a disposition of vulnerability.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">BFO: roles that may be realized in an OBI: Investigation</IAO_0000232>
-        <IAO_0000232 xml:lang="en">See http://purl.unep.org/sdg/SDGIO_00000024 (Vulnerability):  A disposition of an entity to undergo undesirable change in response to some exposure.</IAO_0000232>
-        <rdfs:label xml:lang="en">ROLES</rdfs:label>
-        <rdfs:label xml:lang="en">description of protection</rdfs:label>
+        <rdfs:label xml:lang="en">BFO:ROLES</rdfs:label>
     </owl:Class>
     
 
@@ -488,6 +628,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
+        <IAO_0000115 xml:lang="en">A role inhereing in an agent realized in that agent participating passively in a process involing a transaction.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000119 xml:lang="en">&quot;witness.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <IAO_0000232 xml:lang="en">This needs further discussion because a witness role is perhaps only realized in some process of &apos;contesting&apos; whereby this person is required to provide testimony as evidence. I&apos;m not sure how, or when this role is realized.
+
+Also &apos;passive participation&apos; is horrible.</IAO_0000232>
         <rdfs:label xml:lang="en">witness role</rdfs:label>
     </owl:Class>
     
@@ -502,74 +648,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000039 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000042"/>
-        <IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has participant some information content entity and during which that information content entity is recognized within that jurisdiction and directs governance within that jurisdiction.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">The term label ‘Stasis of Regulation’ encompasses state law, federal statutes, and institutional policy.</IAO_0000232>
-        <rdfs:label xml:lang="en">stasis of regulation</rdfs:label>
-        <rdfs:label xml:lang="en">statement of additional resulting costs to subject for participation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000040 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000040">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A stasis of regulation that has participant some information content entity and during which that information content entity is recognized as a law within the jurisdiction in which the stasis of regulation is occurring.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte</IAO_0000117>
-        <IAO_0000232 xml:lang="en">The  ‘stasis of law’ designates the spatial and temporal conditions that need to be met in order for a regulatory document to be a ‘law’ or a ‘policy.’ This is necessary because laws, or other regulations are overturned, made obsolete, ect..., but material entities concretizing them persist.</IAO_0000232>
-        <IAO_0000232 xml:lang="en">There are many definitions and conceptions of law, which can be elaborated in further work. There is a concern not to define law in such a way that we narrow the scope beyond an international context.</IAO_0000232>
-        <rdfs:label xml:lang="en">stasis of law</rdfs:label>
-        <rdfs:label xml:lang="en">statement of consequences of voluntarily withdraw</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement of procedures for termination of participation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000042 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">STATEMENTS ABOUT MONEY</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000043 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000042"/>
-        <rdfs:label xml:lang="en">statement that biospecimens may be used for profit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000044 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000042"/>
-        <rdfs:label xml:lang="en">statement that subject will not share in commercial profit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000045 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000042"/>
-        <rdfs:label xml:lang="en">statement that subject will share in commercial profit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the permissible processes for withdraw from another process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">termination of participation directive</rdfs:label>
     </owl:Class>
     
 
@@ -578,26 +663,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
-        <rdfs:label xml:lang="en">PROCESSES</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000047 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000063"/>
-        <rdfs:label xml:lang="en">process for public review and comment</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000048 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000063"/>
-        <IAO_0000232 xml:lang="en">Act of Review?</IAO_0000232>
-        <rdfs:label xml:lang="en">process to determine if policy applies</rdfs:label>
+        <rdfs:label xml:lang="en">BFO:PROCESSES</rdfs:label>
     </owl:Class>
     
 
@@ -605,18 +671,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000126"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000179"/>
+        <IAO_0000115 xml:lang="en">A quality inhereing in a Homo sapiens prescribed by an information content entity in a jursidiction that participates in a stasis of law that is the time of life at which some particular qualification, power, or capacity arises or rests.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000119 xml:lang="en">&quot;age.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <IAO_0000232 xml:lang="en">This definition was adapted from the Merriam-Webster &apos;age&apos; definition, and reflects a binary notion of age: (1) a person can either &apos;be of legal age&apos; or not. There are no grey areas. (2) The precise defition, i.e., the number of years required to &apos;be of legal age&apos; may be different in different jurisdictions. Driving permits in the United States are an example of this.</IAO_0000232>
         <rdfs:label xml:lang="en">legal age</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000050 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000117"/>
-        <IAO_0000232 xml:lang="en">&quot;A change in state of the research process based on a parturition in which a pregnant woman is separated from its offspring by giving birth.&quot;</IAO_0000232>
-        <rdfs:label xml:lang="en">delivery event</rdfs:label>
     </owl:Class>
     
 
@@ -624,17 +684,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000117"/>
-        <rdfs:label xml:lang="en">event of certification by IRB of research</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000052 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <rdfs:label xml:lang="en">parent or guardian role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
+        <IAO_0000115 xml:lang="en">A planned process of providing formal or official sanction for some information content entity by an agent with authority in a jursidiction.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000119 xml:lang="en">&quot;approve.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <rdfs:label xml:lang="en">act of approving</rdfs:label>
     </owl:Class>
     
 
@@ -652,7 +706,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <rdfs:label xml:lang="en">consent is in a lauguage understood by subject rule</rdfs:label>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the language that must be used.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">understood language directive</rdfs:label>
     </owl:Class>
     
 
@@ -660,8 +716,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000055">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <rdfs:label xml:lang="en">disclosure of alternative treatments is given rule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes other processes that can be substituted or chosen.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">description of alternative</rdfs:label>
     </owl:Class>
     
 
@@ -669,17 +727,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <rdfs:label xml:lang="en">no coercion or undue influence rule</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000057 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <rdfs:label xml:lang="en">no waiver of legal rights rule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the use of express or implied threats of violence, reprisal  or other behavior that puts a person in immediate fear of the consequences in order to compel that agent to act against its will.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000119 xml:lang="en">&quot;coercion.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <IAO_0000232 xml:lang="en">Further discussion required</IAO_0000232>
+        <IAO_0000232 xml:lang="en">It may be necessary to define processes of coercion in addition to descriptions of the process.</IAO_0000232>
+        <rdfs:label xml:lang="en">description of coercion</rdfs:label>
     </owl:Class>
     
 
@@ -688,7 +742,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
-        <rdfs:label xml:lang="en">ICE</rdfs:label>
+        <rdfs:label xml:lang="en">IAO:ICE</rdfs:label>
     </owl:Class>
     
 
@@ -707,81 +761,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000060">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000117"/>
-        <rdfs:label xml:lang="en">decision</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000061 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000060"/>
-        <rdfs:label xml:lang="en">decision made by the research subject</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000062 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000062">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000060"/>
-        <rdfs:label xml:lang="en">IRB decisions</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000063 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <rdfs:label xml:lang="en">REVIEW PROCESSES</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000064 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000064">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000063"/>
-        <rdfs:label xml:lang="en">determination by IRB of magnitude of benefit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000065 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000063"/>
-        <rdfs:label xml:lang="en">determination by IRB of type of benefit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000066 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000066">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000063"/>
-        <rdfs:label xml:lang="en">determination by IRB of magnitude of risk</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000067 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000067">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000063"/>
-        <rdfs:label xml:lang="en">determination of IRB of type of risk</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000068 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000068">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000126"/>
-        <IAO_0000232 xml:lang="en">Likely Dispositions</IAO_0000232>
-        <rdfs:label xml:lang="en">vulnerable individual</rdfs:label>
+        <IAO_0000115 xml:lang="en">A planned process of making a formal decision or judgement about some course of action.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000119 xml:lang="en">&quot;decide.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <rdfs:label xml:lang="en">act of deciding</rdfs:label>
     </owl:Class>
     
 
@@ -789,8 +773,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000069">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000068"/>
-        <rdfs:label xml:lang="en">mentally disabled person</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000126"/>
+        <IAO_0000115 xml:lang="en">A disposition to abnormality in the process of thought including the ability to process information.</IAO_0000115>
+        <IAO_0000119 rdf:resource="http://purl.obolibrary.org/obo/HP_0100543"/>
+        <IAO_0000232 xml:lang="en">Adapted from http://purl.obolibrary.org/obo/HP_0100543</IAO_0000232>
+        <dc:date xml:lang="en">Imported and adapted 8.22.2018</dc:date>
+        <rdfs:label xml:lang="en">cognitive impairment</rdfs:label>
     </owl:Class>
     
 
@@ -798,8 +786,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000070 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000070">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000068"/>
-        <rdfs:label xml:lang="en">economically disadvantaged person</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
+        <IAO_0000115 xml:lang="en">A vulnerability in response to economic exposure.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">economic vulnerability</rdfs:label>
     </owl:Class>
     
 
@@ -807,8 +797,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000071 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000071">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000068"/>
-        <rdfs:label xml:lang="en">educationally disadvantaged person</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
+        <IAO_0000115 xml:lang="en">A vulnerability in response to educative, or communicative exposure.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">educational vulnerability</rdfs:label>
     </owl:Class>
     
 
@@ -817,25 +809,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <rdfs:label xml:lang="en">authorized representative of agency or department role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000073 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000073">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <rdfs:label xml:lang="en">federal agency head role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000074 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000074">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <rdfs:label xml:lang="en">federal department head role</rdfs:label>
+        <IAO_0000115 xml:lang="en">A role that is realized in the process of acting for another agent.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">This class may be useful when describing defined classes of roles like &apos;irb representative&apos; or &apos;prisoner representative.&apos; Note here that this is NOT a superclass of legal representative role as defined in ICO.</IAO_0000232>
+        <IAO_0000232 xml:lang="en">This may be a good future candidate for relations such as &apos;has organizational context.&apos; Further dicussion here is waranted.</IAO_0000232>
+        <rdfs:label xml:lang="en">representative role</rdfs:label>
     </owl:Class>
     
 
@@ -844,70 +822,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
-        <rdfs:label xml:lang="en">ORGANISZATIONS</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000076 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000076">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
-        <rdfs:label xml:lang="en">federal department</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000077 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000077">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
-        <rdfs:label xml:lang="en">federal agency</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000078 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000078">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
-        <rdfs:label xml:lang="en">foreign government</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000079 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000079">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
-        <rdfs:label xml:lang="en">tribal government</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000080 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000080">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
-        <rdfs:label xml:lang="en">federal government</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000081 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000081">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
-        <rdfs:label xml:lang="en">state government</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000082 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000082">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
-        <rdfs:label xml:lang="en">local government</rdfs:label>
+        <rdfs:label xml:lang="en">OBI:ORGANISZATION</rdfs:label>
     </owl:Class>
     
 
@@ -916,16 +831,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000083">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <rdfs:label xml:lang="en">documentation of consent</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000084 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000084">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <rdfs:label xml:lang="en">administrator role</rdfs:label>
+        <IAO_0000115 xml:lang="en">A planned process of archiving, or storing the document output of an &apos;act of consent&apos; for future use or retrieval.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">Further discussion required.</IAO_0000232>
+        <IAO_0000232 xml:lang="en">This may be a defined class with some process parts &apos;act of recording&apos; and some &apos;act of consent.&apos; The reason is that the more generic &apos;act of recording&apos; could apply to the class of &apos;document acts&apos; more broadly. With some work this class could help model the shift of document from a &apos;directive&apos; to a &apos;record of a decision.&apos;</IAO_0000232>
+        <rdfs:label xml:lang="en">act of recording informed consent</rdfs:label>
     </owl:Class>
     
 
@@ -934,32 +844,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000121"/>
-        <IAO_0000232 xml:lang="en">See: &apos;process of certification&apos;</IAO_0000232>
-        <IAO_0000232 xml:lang="en">This may be another good candidate for a &apos;stasis,&apos; like &apos;stasis of certification.&apos; Need a use case for this....</IAO_0000232>
+        <IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has particpant some  information content entity, where that information content entity is sanctioned by an agent bearing sufficient a deontic power role in a jurisdiction.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">stasis of certification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000086 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000086">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000232 xml:lang="en">&quot;The general principles by which a government is guided in its management of public affairs, or the legislature in its measures. A general term used to describe all contracts of insurance.
-As applied to a law, ordinance, or Rule of Law, the general purpose or tendency considered as directed to the welfare or prosperity of the state or community.&quot;</IAO_0000232>
-        <rdfs:label xml:lang="en">policy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000087 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000087">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000232 xml:lang="en">&quot;A rule of order having the force of law, prescribed by a superior or competent authority, relating to the actions of those under the authority&apos;s control.
-
-Regulations are issued by various federal government departments and agencies to carry out the intent of legislation enacted by Congress. Administrative agencies perform a number of different government functions, including rule making. The rules issued by these agencies are called regulations and are designed to guide the activity of those regulated by the agency and also the activity of the agency&apos;s employees. Regulations also function to ensure uniform application of the law.&quot;</IAO_0000232>
-        <rdfs:label xml:lang="en">regulation</rdfs:label>
     </owl:Class>
     
 
@@ -967,44 +854,10 @@ Regulations are issued by various federal government departments and agencies to
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000088 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000088">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <rdfs:label xml:lang="en">notification procedure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000089 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000089">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000063"/>
-        <rdfs:label xml:lang="en">procedure for reviewing proposal</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000090 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000090">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000063"/>
-        <rdfs:label xml:lang="en">process for assessing benefits</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000091 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000091">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000063"/>
-        <rdfs:label xml:lang="en">process for assessing risk</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000092 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000092">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <rdfs:label xml:lang="en">process of certification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes permissible methods for contacting an agent.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">contact method directive</rdfs:label>
     </owl:Class>
     
 
@@ -1013,7 +866,9 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <rdfs:label xml:lang="en">safeguards for vulnerable populations rule</rdfs:label>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes permissible processes that  populations with a particular disposition can participate in.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">vulnerable population directive</rdfs:label>
     </owl:Class>
     
 
@@ -1022,225 +877,10 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <rdfs:label xml:lang="en">adequate provisions for privacy and confidentiality of data rule</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000095 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000095">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <rdfs:label xml:lang="en">federal policy constraints rule</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000096 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000096">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <rdfs:label xml:lang="en">institutional policy constraints rule</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000097 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000097">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
-        <rdfs:label xml:lang="en">JURISDICTION SUBCLASSES</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000098 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000098">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000097"/>
-        <rdfs:label xml:lang="en">jurisdiction of law or regulation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000099 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000099">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000097"/>
-        <IAO_0000232 xml:lang="en">defined class</IAO_0000232>
-        <rdfs:label xml:lang="en">federal jurisdiction</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000100 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000100">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <rdfs:label xml:lang="en">statute</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000101 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000101">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <rdfs:label xml:lang="en">legal official role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000102 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000097"/>
-        <IAO_0000232 xml:lang="en">defined class</IAO_0000232>
-        <rdfs:label xml:lang="en">local jurisdiction</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000103 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000103">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <rdfs:label xml:lang="en">legal actor role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000104 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000104">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000057"/>
-        <rdfs:label xml:lang="en">no release from negligence rule</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000105 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000105">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000057"/>
-        <rdfs:label xml:lang="en">no release of institution from liability rule</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000106 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000106">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000057"/>
-        <rdfs:label xml:lang="en">no release of investigator from liability rule</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000107 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000107">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000057"/>
-        <rdfs:label xml:lang="en">no release of legal agents from liability rule</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000108 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000108">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000057"/>
-        <rdfs:label xml:lang="en">no release of sponsor from liability rule</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000109 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000109">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <rdfs:label xml:lang="en">oral consent</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000110 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000110">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <rdfs:label xml:lang="en">orally presented elements of consent</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000111 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000111">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
-        <rdfs:label xml:lang="en">public health authority</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000112 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
-        <rdfs:label xml:lang="en">funding body</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000113 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000113">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
-        <rdfs:label xml:lang="en">monitoring body</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000114 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000114">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <rdfs:label xml:lang="en">administrative procedure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000115 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000115">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <rdfs:label xml:lang="en">educational test</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000116 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000116">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <rdfs:label xml:lang="en">confidentiality of data records rule</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000117 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000117">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
-        <rdfs:label xml:lang="en">EVENTS</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000118 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000118">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000117"/>
-        <rdfs:label xml:lang="en">clinical event</rdfs:label>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes information that is cannot be disclosed, or the processes of diclosure that are prohibited.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">Possible that &apos;stasis of anonymization&apos; is important here.</IAO_0000232>
+        <rdfs:label xml:lang="en">confidentiality directive</rdfs:label>
     </owl:Class>
     
 
@@ -1248,17 +888,12 @@ Regulations are issued by various federal government departments and agencies to
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000119 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000119">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000117"/>
-        <rdfs:label xml:lang="en">communication event</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000120 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000120">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000117"/>
-        <rdfs:label xml:lang="en">study event</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
+        <IAO_0000115 xml:lang="en">A planned process of conveying information about some entity.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000119 xml:lang="en">&quot;communicate.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <IAO_0000232 xml:lang="en">See ICO: &apos;act of informing.&apos; This class is perhaps not needed.</IAO_0000232>
+        <rdfs:label xml:lang="en">act of communicating</rdfs:label>
     </owl:Class>
     
 
@@ -1267,43 +902,7 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000121">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
-        <rdfs:label xml:lang="en">POSSIBLE STASIS</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000122 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000122">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000121"/>
-        <rdfs:label xml:lang="en">stasis of approved research</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000123 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000123">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000121"/>
-        <rdfs:label xml:lang="en">stasis of research review</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000124 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000124">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000121"/>
-        <rdfs:label xml:lang="en">stasis unapproved research</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000125 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000125">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000121"/>
-        <rdfs:label xml:lang="en">stasis unreviewed research</rdfs:label>
+        <rdfs:label xml:lang="en">CCO:STASIS</rdfs:label>
     </owl:Class>
     
 
@@ -1312,16 +911,7 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
-        <rdfs:label xml:lang="en">DISPOSITIONS</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000127 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000127">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000126"/>
-        <rdfs:label xml:lang="en">psychological state</rdfs:label>
+        <rdfs:label xml:lang="en">BFO:DISPOSITIONS</rdfs:label>
     </owl:Class>
     
 
@@ -1346,19 +936,12 @@ Regulations are issued by various federal government departments and agencies to
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000130 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000130">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement that the study involves research</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
+        <IAO_0000117 xml:lang="en">A descriptive information content entity that describes the expected duration of participation of some entity in an investigation.</IAO_0000117>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of expected study participation duration</rdfs:label>
     </owl:Class>
     
@@ -1368,7 +951,9 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000132">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <rdfs:label xml:lang="en">statement describing the research procedures to be followed</rdfs:label>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes permissible research processes.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">research method directive</rdfs:label>
     </owl:Class>
     
 
@@ -1376,8 +961,10 @@ Regulations are issued by various federal government departments and agencies to
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000133 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000133">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000042"/>
-        <rdfs:label xml:lang="en">statement about compensation for injury</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the trigger condition that require some compensation as a consequent.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">description of conditional compensation</rdfs:label>
     </owl:Class>
     
 
@@ -1386,25 +973,10 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000134">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">description of discomforts</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000135 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000135">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000042"/>
-        <rdfs:label xml:lang="en">statement about compensation for participation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000136 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000136">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement about confidentiality of records identifying subject</rdfs:label>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes mental or physical uneasiness.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000119 xml:lang="en">&quot;discomfort.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <rdfs:label xml:lang="en">description of discomfort</rdfs:label>
     </owl:Class>
     
 
@@ -1413,7 +985,9 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000137">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement of collection of identifiable biospecimens</rdfs:label>
+        <IAO_0000115>A descriptive information content entity that describes the biospecimens that may be collected or the processes of biospecimen collection.</IAO_0000115>
+        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">description of collection of biospecimens</rdfs:label>
     </owl:Class>
     
 
@@ -1422,25 +996,9 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000138">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement of collection of identifiable private information</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000139 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000139">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement of no loss of entitled benefits for discontinuing participation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000140 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000140">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement that specimens and data will be used for future research</rdfs:label>
+        <IAO_0000115>A descriptive information content entity that describes the information that may be collected or the processes of information collection.</IAO_0000115>
+        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">description of collection of information</rdfs:label>
     </owl:Class>
     
 
@@ -1448,26 +1006,11 @@ Regulations are issued by various federal government departments and agencies to
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000141">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement that specimens and data will not be used for future research</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000142 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000142">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <rdfs:label xml:lang="en">statement that subject may discontinue participation at any time</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000143 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000143">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">summary of short consent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000185"/>
+        <IAO_0000115>A descriptive information content entity that describes how biospecimens will be used in future research.</IAO_0000115>
+        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <IAO_0000232>This needs to be revisited. The definition is circular.</IAO_0000232>
+        <rdfs:label xml:lang="en">description of future biospecimen use</rdfs:label>
     </owl:Class>
     
 
@@ -1476,16 +1019,10 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000144">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">statement of where futher information can be obtained</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000145 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000145">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">written summary of orally presented consent</rdfs:label>
+        <IAO_0000115>A descriptive information content entity that describes the procedures for obtaining further information.</IAO_0000115>
+        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <IAO_0000232>Further discussion required, current definition is circular.</IAO_0000232>
+        <rdfs:label xml:lang="en">description of procedure for obtaining futher information</rdfs:label>
     </owl:Class>
     
 
@@ -1493,19 +1030,10 @@ Regulations are issued by various federal government departments and agencies to
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000146 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000146">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000232 xml:lang="en">see &apos;recontact method.&apos;</IAO_0000232>
-        <rdfs:label xml:lang="en">statement of who to contact for questions about the research</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000147 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000147">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000232 xml:lang="en">&quot;Human subject research in the social sciences often involves surveys which consist of questions to a particular group of people. Survey methodology includes questionnaires, interviews, and focus groups. The criteria for exemption of survey procedures is contained in §_.104(d)(2)&quot;</IAO_0000232>
-        <rdfs:label xml:lang="en">survey procedure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000088"/>
+        <IAO_0000115 xml:lang="en">A contact method directive that prescribes methods for recontacting an agent.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">recontact method directive</rdfs:label>
     </owl:Class>
     
 
@@ -1514,7 +1042,10 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000148">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">RISK: breach of confidentiality</rdfs:label>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">A descriptive information content entity that describes that conditions that constitue unauthorized disclosure of information.</IAO_0000232>
+        <IAO_0000232 xml:lang="en">It is possible that classes like this will be useful in conjuction with descriptions of risk as in: &apos;description of risk of breach of confidentiality.&apos;</IAO_0000232>
+        <rdfs:label xml:lang="en">description of breach of confidentiality</rdfs:label>
     </owl:Class>
     
 
@@ -1523,16 +1054,9 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">RISK: civil liability</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000150 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000150">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">RISK: criminal liability</rdfs:label>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the nature of liability presribed by some liability directive.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">description of liability</rdfs:label>
     </owl:Class>
     
 
@@ -1541,7 +1065,9 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000151">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">RISK: financial risk</rdfs:label>
+        <IAO_0000115 xml:lang="en">A description of risk the magnitude of possible financial loss.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">discription of financial risk</rdfs:label>
     </owl:Class>
     
 
@@ -1550,7 +1076,10 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000152">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">RISK: reputational risk</rdfs:label>
+        <IAO_0000115 xml:lang="en">A description of risk concerning the magnitude of loss, or the probability of such a loss to the overall quality or character of an agent in a social context.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000119 xml:lang="en">&quot;reputation.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <rdfs:label xml:lang="en">discription of reputational risk</rdfs:label>
     </owl:Class>
     
 
@@ -1559,6 +1088,10 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000153">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
+        <IAO_0000115 xml:lang="en">A role inhereing in an agent or population of agents that is realized in any process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">This is a defined class of Homo sapiens with some disposition &apos;vulnerability.&apos;</IAO_0000232>
+        <IAO_0000232 xml:lang="en">This needs further discussion.</IAO_0000232>
         <rdfs:label xml:lang="en">vulnerable individual role</rdfs:label>
     </owl:Class>
     
@@ -1568,44 +1101,9 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <IAO_0000232 xml:lang="en">&apos;inheres in&apos; &apos;organization&apos;</IAO_0000232>
+        <IAO_0000115 xml:lang="en">A role that inheres in a regulatory body that is realized in an act of regulatory supervision.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">regulatory oversight role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000155 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000155">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <rdfs:label xml:lang="en">privacy and confidentiality protections rule</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000156 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000156">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <rdfs:label xml:lang="en">investigator role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000157 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000157">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <rdfs:label xml:lang="en">person obtaining consent role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000158 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000158">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <rdfs:label xml:lang="en">IRB imposed constraints rule</rdfs:label>
     </owl:Class>
     
 
@@ -1613,8 +1111,12 @@ Regulations are issued by various federal government departments and agencies to
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000159 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000159">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000126"/>
-        <rdfs:label xml:lang="en">child</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
+        <IAO_0000115 xml:lang="en">A role inhereing in a Homo sapiens that is realized in a process of restriction of other deontic roles, as compared with those possible for adults.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">&apos;Minor&apos; will be a defined class of Homo sapiens and has some &apos;minor role.&apos;</IAO_0000232>
+        <IAO_0000232 xml:lang="en">It is possible to create further defined classes here, such as &apos;abused minor role&apos; that is a minor that particpated in a process of abuse.</IAO_0000232>
+        <rdfs:label xml:lang="en">minor role</rdfs:label>
     </owl:Class>
     
 
@@ -1622,7 +1124,10 @@ Regulations are issued by various federal government departments and agencies to
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000160 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000160">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000126"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000179"/>
+        <IAO_0000115 xml:lang="en">A female who particpates in the the process of female pregnancy (go).</IAO_0000115>
+        <IAO_0000232 xml:lang="en">Could reuse: http://purl.obolibrary.org/obo/ontoneo/ONTONEO_00000197</IAO_0000232>
+        <IAO_0000232 xml:lang="en">This is a defined class.</IAO_0000232>
         <rdfs:label xml:lang="en">pregnant woman</rdfs:label>
     </owl:Class>
     
@@ -1631,17 +1136,11 @@ Regulations are issued by various federal government departments and agencies to
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000161 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000161">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000126"/>
-        <rdfs:label xml:lang="en">prisoner</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000162 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000162">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000121"/>
-        <rdfs:label xml:lang="en">stasis of policy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
+        <IAO_0000115 xml:lang="en">A role inhereing in a Homo sapiens that is realized a process of incarceration.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">&apos;Prisoner&apos; may be a useful defined class: &apos;Homo Sapiens&apos; and bearer some &apos;prisoner role&apos;</IAO_0000232>
+        <rdfs:label xml:lang="en">prisoner role</rdfs:label>
     </owl:Class>
     
 
@@ -1659,7 +1158,10 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000163"/>
-        <rdfs:label xml:lang="en">waiver</rdfs:label>
+        <IAO_0000115 xml:lang="en">A document that contains description of waiver and waiver directives.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">This is a defined class.</IAO_0000232>
+        <rdfs:label xml:lang="en">waiver document</rdfs:label>
     </owl:Class>
     
 
@@ -1668,25 +1170,10 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000165">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes an entity that exerts influence over some other entity.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">From NCI Thesaurus OBO Edition: Incentive: A benefit, consideration, or positive motivational influence, financial or otherwise, given to induce a specific action. [def-source: NCI]</IAO_0000232>
         <rdfs:label xml:lang="en">description of incentive</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000166 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000166">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <rdfs:label xml:lang="en">validation of informed consent form</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000167 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000167">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <rdfs:label xml:lang="en">validation of study protocol</rdfs:label>
     </owl:Class>
     
 
@@ -1694,7 +1181,10 @@ Regulations are issued by various federal government departments and agencies to
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000168">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000163"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <IAO_0000115 xml:lang="en">A protocol that is formal plan of an experiment or research activity, including the objective, rationale, design, materials and methods for the conduct of the study.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">This term was adapted from: http://purl.obolibrary.org/obo/NCIT_C70817</IAO_0000232>
         <rdfs:label xml:lang="en">study protocol</rdfs:label>
     </owl:Class>
     
@@ -1704,6 +1194,8 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000169">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the information that is permitted to be shared or the processes for sharing that information.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">data sharing directive</rdfs:label>
     </owl:Class>
     
@@ -1713,6 +1205,9 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000170">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the processes of destruction and creation of perission roles governing the same information content entities or processes.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">Requires future discussion.</IAO_0000232>
         <rdfs:label xml:lang="en">permission transfer directive</rdfs:label>
     </owl:Class>
     
@@ -1722,16 +1217,183 @@ Regulations are issued by various federal government departments and agencies to
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <rdfs:label xml:lang="en">future research use directive</rdfs:label>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the range of future use of material or information.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">future use directive</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000172 -->
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000173 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000172">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <rdfs:label xml:lang="en">description of study purpose</rdfs:label>
+        <IAO_0000115>A descriptive information content entity that describes the negative impact or harm that result from withdrawing from an investigation.</IAO_0000115>
+        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">description of consequences of voluntarily withdraw</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000174">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant"/>
+        <IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has participant some information content entity and during which that information content entity is recognized within that jurisdiction and directs governance within that jurisdiction.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">stasis of regulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000174"/>
+        <IAO_0000115 xml:lang="en">A stasis of regulation that has participant some information content entity and during which that information content entity is recognized as a law within the jurisdiction in which the stasis of regulation is occurring.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte</IAO_0000117>
+        <IAO_0000232 xml:lang="en">The  ‘stasis of law’ designates the spatial and temporal conditions that need to be met in order for a regulatory document to be a ‘law’ or a ‘policy.’ This is necessary because laws, or other regulations are overturned, made obsolete, ect..., but material entities concretizing them persist.</IAO_0000232>
+        <IAO_0000232 xml:lang="en">There are many definitions and conceptions of law, which can be elaborated in further work. There is a concern not to define law in such a way that we narrow the scope beyond an international context.</IAO_0000232>
+        <rdfs:label xml:lang="en">stasis of law</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000033"/>
+        <IAO_0000115 xml:lang="en">A trigger condition description describing some person or group of people who either a) bear a disposition of vulnerability or b) are of a type whose instances are known to frequently bear a disposition of vulnerability.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">See http://purl.unep.org/sdg/SDGIO_00000024 (Vulnerability):  A disposition of an entity to undergo undesirable change in response to some exposure.</IAO_0000232>
+        <rdfs:label xml:lang="en">description of protection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
+        <rdfs:label xml:lang="en">OTHER CLASSES</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
+        <IAO_0000115 xml:lang="en">A planned process of a regulatory body directing or monitoring another planned process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000119 xml:lang="en">&quot;oversight.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <IAO_0000232 xml:lang="en">This definition is horrible, and I know that.</IAO_0000232>
+        <rdfs:label xml:lang="en">act of regulatory supervision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
+        <IAO_0000115 xml:lang="en">A process of maltreating an organism.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000119 xml:lang="en">&quot;abuse.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <rdfs:label xml:lang="en">process of abuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
+        <IAO_0000115 xml:lang="en">A planned process of revealing information to an audience.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">Further discussionn required</IAO_0000232>
+        <IAO_0000232 xml:lang="en">It is possible that there are meaningful defined classes here like: &apos;act of authorized disclosure&apos; and &apos;act of unauthorized disclosure.&apos;</IAO_0000232>
+        <rdfs:label xml:lang="en">act of disclosure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000183">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes a research procedure.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">desciption of research procedure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000185"/>
+        <IAO_0000115>A descriptive information content entity that describes how data will be used in future research.</IAO_0000115>
+        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">description of future data use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
+        <IAO_0000115>A descriptive information content entity that describes future use of material or information.</IAO_0000115>
+        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">description of future use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
+        <IAO_0000115 xml:lang="en">A planned process of intentionally relinquishing or abandoning a known right, claim, or privilege.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stasnbury</IAO_0000117>
+        <IAO_0000119 xml:lang="en">&quot;waiver.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <rdfs:label xml:lang="en">act of waiving</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes an act of waiving.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">waiver directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the right, claim, law, or rule that can be ignored.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">Loosely adapted from: http://purl.obolibrary.org/obo/NCIT_C113777</IAO_0000232>
+        <rdfs:label xml:lang="en">description of waiver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/SDGIO_00000024 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/SDGIO_00000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000126"/>
+        <IAO_0000115 xml:lang="en">A disposition of an entity to undergo undesirable change in response to some exposure.</IAO_0000115>
+        <IAO_0000412 rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
+        <dc:date xml:lang="en">Imported 08.22.2018</dc:date>
+        <rdfs:label xml:lang="en">vulnerability</rdfs:label>
     </owl:Class>
     
 

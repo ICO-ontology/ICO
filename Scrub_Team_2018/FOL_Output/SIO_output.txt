@@ -1,11 +1,4 @@
-%  http://semanticscience.org/resource/SIO_000184
-%  source ontology: SIO
-%  entity: http://semanticscience.org/resource/SIO_000184
-%  label: legal name
-%  parent: http://purl.obolibrary.org/obo/IAO_0000302
-%  parentLabel: author identification
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (legal_name(x) -> author_identification(x)). 
+%  legal name is subclass of author identification
+%  entity: SIO_000184
+all x (LegalName(x) -> AuthorIdentification(x)). 
 

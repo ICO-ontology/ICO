@@ -1,110 +1,36 @@
-%  http://purl.obolibrary.org/obo/DUO_0000001
-%  source ontology: DUO
-%  entity: http://purl.obolibrary.org/obo/DUO_0000001
-%  label: informed consent identification code
-%  parent: http://purl.obolibrary.org/obo/IAO_0000027
-%  parentLabel: data item
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  data about an ontology part is subclass of data item
+%  entity: DUO_0000001
+all x (DataAboutAnOntologyPart(x) -> DataItem(x)). 
 
-all x (informed_consent_identification_code(x) -> data_item(x)). 
+%  informed consent identification code is subclass of data item
+%  entity: DUO_0000001
+all x (InformedConsentIdentificationCode(x) -> DataItem(x)). 
 
-%  http://purl.obolibrary.org/obo/DUO_0000001
-%  source ontology: DUO
-%  entity: http://purl.obolibrary.org/obo/DUO_0000001
-%  label: consent code
-%  parent: http://purl.obolibrary.org/obo/IAO_0000027
-%  parentLabel: data item
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  measurement datum is subclass of data item
+%  entity: DUO_0000001
+all x (MeasurementDatum(x) -> DataItem(x)). 
 
-all x (consent_code(x) -> data_item(x)). 
+%  data set is subclass of data item
+%  entity: DUO_0000001
+all x (DataSet(x) -> DataItem(x)). 
 
-%  http://purl.obolibrary.org/obo/DUO_0000001
-%  source ontology: DUO
-%  entity: http://purl.obolibrary.org/obo/DUO_0000001
-%  label: data about an ontology part
-%  parent: http://purl.obolibrary.org/obo/IAO_0000027
-%  parentLabel: data item
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  setting datum is subclass of data item
+%  entity: DUO_0000001
+all x (SettingDatum(x) -> DataItem(x)). 
 
-all x (data_about_an_ontology_part(x) -> data_item(x)). 
+%  consent code is subclass of data item
+%  entity: DUO_0000001
+all x (ConsentCode(x) -> DataItem(x)). 
 
-%  http://purl.obolibrary.org/obo/DUO_0000001
-%  source ontology: DUO
-%  entity: http://purl.obolibrary.org/obo/DUO_0000001
-%  label: study duration measurement
-%  parent: http://purl.obolibrary.org/obo/IAO_0000027
-%  parentLabel: data item
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  cartesian spatial coordinate datum is subclass of data item
+%  entity: DUO_0000001
+all x (CartesianSpatialCoordinateDatum(x) -> DataItem(x)). 
 
-all x (study_duration_measurement(x) -> data_item(x)). 
+%  cartesian spatial coordinate datum is subclass of data item
+%  entity: DUO_0000001
+all x (CartesianSpatialCoordinateDatum(x) -> DataItem(x)). 
 
-%  http://purl.obolibrary.org/obo/DUO_0000001
-%  source ontology: DUO
-%  entity: http://purl.obolibrary.org/obo/DUO_0000001
-%  label: measurement datum
-%  parent: http://purl.obolibrary.org/obo/IAO_0000027
-%  parentLabel: data item
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (measurement_datum(x) -> data_item(x)). 
-
-%  http://purl.obolibrary.org/obo/DUO_0000001
-%  source ontology: DUO
-%  entity: http://purl.obolibrary.org/obo/DUO_0000001
-%  label: cartesian spatial coordinate datum
-%  parent: http://purl.obolibrary.org/obo/IAO_0000027
-%  parentLabel: data item
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (cartesian_spatial_coordinate_datum(x) -> data_item(x)). 
-
-%  http://purl.obolibrary.org/obo/DUO_0000001
-%  source ontology: DUO
-%  entity: http://purl.obolibrary.org/obo/DUO_0000001
-%  label: cartesian spatial coordinate datum
-%  parent: http://purl.obolibrary.org/obo/IAO_0000027
-%  parentLabel: data item
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (cartesian_spatial_coordinate_datum(x) -> data_item(x)). 
-
-%  http://purl.obolibrary.org/obo/DUO_0000001
-%  source ontology: DUO
-%  entity: http://purl.obolibrary.org/obo/DUO_0000001
-%  label: cartesian spatial coordinate datum
-%  parent: http://purl.obolibrary.org/obo/IAO_0000027
-%  parentLabel: data item
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (cartesian_spatial_coordinate_datum(x) -> data_item(x)). 
-
-%  http://purl.obolibrary.org/obo/DUO_0000001
-%  source ontology: DUO
-%  entity: http://purl.obolibrary.org/obo/DUO_0000001
-%  label: setting datum
-%  parent: http://purl.obolibrary.org/obo/IAO_0000027
-%  parentLabel: data item
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (setting_datum(x) -> data_item(x)). 
-
-%  http://purl.obolibrary.org/obo/DUO_0000001
-%  source ontology: DUO
-%  entity: http://purl.obolibrary.org/obo/DUO_0000001
-%  label: data set
-%  parent: http://purl.obolibrary.org/obo/IAO_0000027
-%  parentLabel: data item
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (data_set(x) -> data_item(x)). 
+%  cartesian spatial coordinate datum is subclass of data item
+%  entity: DUO_0000001
+all x (CartesianSpatialCoordinateDatum(x) -> DataItem(x)). 
 

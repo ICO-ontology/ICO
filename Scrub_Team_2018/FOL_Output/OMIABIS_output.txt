@@ -1,88 +1,52 @@
-%  http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026
-%  source ontology: OMIABIS
-%  entity: http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026
-%  label: patent
-%  parent: http://purl.obolibrary.org/obo/IAO_0000310
-%  parentLabel: document
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  medical record is subclass of document
+%  entity: OMIABIS_0001026
+all x (MedicalRecord(x) -> Document(x)). 
 
-all x (patent(x) -> document(x)). 
+%  informed assent form is subclass of document
+%  entity: OMIABIS_0001026
+all x (InformedAssentForm(x) -> Document(x)). 
 
-%  http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026
-%  source ontology: OMIABIS
-%  entity: http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026
-%  label: medical record
-%  parent: http://purl.obolibrary.org/obo/IAO_0000310
-%  parentLabel: document
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  publication is subclass of document
+%  entity: OMIABIS_0001026
+all x (Publication(x) -> Document(x)). 
 
-all x (medical_record(x) -> document(x)). 
+%  regulatory document is subclass of document
+%  entity: OMIABIS_0001026
+all x (RegulatoryDocument(x) -> Document(x)). 
 
-%  http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026
-%  source ontology: OMIABIS
-%  entity: http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026
-%  label: publication
-%  parent: http://purl.obolibrary.org/obo/IAO_0000310
-%  parentLabel: document
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  document act input document is subclass of document
+%  entity: OMIABIS_0001026
+all x (DocumentActInputDocument(x) -> Document(x)). 
 
-all x (publication(x) -> document(x)). 
+%  questionnaire is subclass of document
+%  entity: OMIABIS_0001026
+all x (Questionnaire(x) -> Document(x)). 
 
-%  http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026
-%  source ontology: OMIABIS
-%  entity: http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026
-%  label: regulatory document
-%  parent: http://purl.obolibrary.org/obo/IAO_0000310
-%  parentLabel: document
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  patent is subclass of document
+%  entity: OMIABIS_0001026
+all x (Patent(x) -> Document(x)). 
 
-all x (regulatory_document(x) -> document(x)). 
+%  report is subclass of document
+%  entity: OMIABIS_0001026
+all x (Report(x) -> Document(x)). 
 
-%  http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026
-%  source ontology: OMIABIS
-%  entity: http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026
-%  label: informed assent form
-%  parent: http://purl.obolibrary.org/obo/IAO_0000310
-%  parentLabel: document
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  regulatory agency is subclass of OBI:ORGANISZATION
+%  entity: OMIABIS_0000017
+all x (RegulatoryAgency(x) -> Obi:Organiszation(x)). 
 
-all x (informed_assent_form(x) -> document(x)). 
+%  hospital is subclass of OBI:ORGANISZATION
+%  entity: OMIABIS_0000017
+all x (Hospital(x) -> Obi:Organiszation(x)). 
 
-%  http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026
-%  source ontology: OMIABIS
-%  entity: http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026
-%  label: report
-%  parent: http://purl.obolibrary.org/obo/IAO_0000310
-%  parentLabel: document
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  government is subclass of OBI:ORGANISZATION
+%  entity: OMIABIS_0000017
+all x (Government(x) -> Obi:Organiszation(x)). 
 
-all x (report(x) -> document(x)). 
+%  grant agency is subclass of OBI:ORGANISZATION
+%  entity: OMIABIS_0000017
+all x (GrantAgency(x) -> Obi:Organiszation(x)). 
 
-%  http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026
-%  source ontology: OMIABIS
-%  entity: http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026
-%  label: questionnaire
-%  parent: http://purl.obolibrary.org/obo/IAO_0000310
-%  parentLabel: document
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (questionnaire(x) -> document(x)). 
-
-%  http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026
-%  source ontology: OMIABIS
-%  entity: http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026
-%  label: document act input document
-%  parent: http://purl.obolibrary.org/obo/IAO_0000310
-%  parentLabel: document
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (document_act_input_document(x) -> document(x)). 
+%  department is subclass of OBI:ORGANISZATION
+%  entity: OMIABIS_0000017
+all x (Department(x) -> Obi:Organiszation(x)). 
 

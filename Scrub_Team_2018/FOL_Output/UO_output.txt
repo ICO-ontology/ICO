@@ -1,99 +1,36 @@
-%  http://purl.obolibrary.org/obo/UO_0000003
-%  source ontology: UO
-%  entity: http://purl.obolibrary.org/obo/UO_0000003
-%  label: length unit
-%  parent: http://purl.obolibrary.org/obo/IAO_0000003
-%  parentLabel: measurement unit label
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  time unit is subclass of measurement unit label
+%  entity: UO_0000003
+all x (TimeUnit(x) -> MeasurementUnitLabel(x)). 
 
-all x (length_unit(x) -> measurement_unit_label(x)). 
+%  length unit is subclass of measurement unit label
+%  entity: UO_0000003
+all x (LengthUnit(x) -> MeasurementUnitLabel(x)). 
 
-%  http://purl.obolibrary.org/obo/UO_0000003
-%  source ontology: UO
-%  entity: http://purl.obolibrary.org/obo/UO_0000003
-%  label: mass unit
-%  parent: http://purl.obolibrary.org/obo/IAO_0000003
-%  parentLabel: measurement unit label
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  mass unit is subclass of measurement unit label
+%  entity: UO_0000003
+all x (MassUnit(x) -> MeasurementUnitLabel(x)). 
 
-all x (mass_unit(x) -> measurement_unit_label(x)). 
+%  time unit is subclass of measurement unit label
+%  entity: UO_0000002
+all x (TimeUnit(x) -> MeasurementUnitLabel(x)). 
 
-%  http://purl.obolibrary.org/obo/UO_0000003
-%  source ontology: UO
-%  entity: http://purl.obolibrary.org/obo/UO_0000003
-%  label: time unit
-%  parent: http://purl.obolibrary.org/obo/IAO_0000003
-%  parentLabel: measurement unit label
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  length unit is subclass of measurement unit label
+%  entity: UO_0000002
+all x (LengthUnit(x) -> MeasurementUnitLabel(x)). 
 
-all x (time_unit(x) -> measurement_unit_label(x)). 
+%  mass unit is subclass of measurement unit label
+%  entity: UO_0000002
+all x (MassUnit(x) -> MeasurementUnitLabel(x)). 
 
-%  http://purl.obolibrary.org/obo/UO_0000002
-%  source ontology: UO
-%  entity: http://purl.obolibrary.org/obo/UO_0000002
-%  label: length unit
-%  parent: http://purl.obolibrary.org/obo/IAO_0000003
-%  parentLabel: measurement unit label
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  time unit is subclass of measurement unit label
+%  entity: UO_0000001
+all x (TimeUnit(x) -> MeasurementUnitLabel(x)). 
 
-all x (length_unit(x) -> measurement_unit_label(x)). 
+%  length unit is subclass of measurement unit label
+%  entity: UO_0000001
+all x (LengthUnit(x) -> MeasurementUnitLabel(x)). 
 
-%  http://purl.obolibrary.org/obo/UO_0000002
-%  source ontology: UO
-%  entity: http://purl.obolibrary.org/obo/UO_0000002
-%  label: mass unit
-%  parent: http://purl.obolibrary.org/obo/IAO_0000003
-%  parentLabel: measurement unit label
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (mass_unit(x) -> measurement_unit_label(x)). 
-
-%  http://purl.obolibrary.org/obo/UO_0000002
-%  source ontology: UO
-%  entity: http://purl.obolibrary.org/obo/UO_0000002
-%  label: time unit
-%  parent: http://purl.obolibrary.org/obo/IAO_0000003
-%  parentLabel: measurement unit label
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (time_unit(x) -> measurement_unit_label(x)). 
-
-%  http://purl.obolibrary.org/obo/UO_0000001
-%  source ontology: UO
-%  entity: http://purl.obolibrary.org/obo/UO_0000001
-%  label: length unit
-%  parent: http://purl.obolibrary.org/obo/IAO_0000003
-%  parentLabel: measurement unit label
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (length_unit(x) -> measurement_unit_label(x)). 
-
-%  http://purl.obolibrary.org/obo/UO_0000001
-%  source ontology: UO
-%  entity: http://purl.obolibrary.org/obo/UO_0000001
-%  label: mass unit
-%  parent: http://purl.obolibrary.org/obo/IAO_0000003
-%  parentLabel: measurement unit label
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (mass_unit(x) -> measurement_unit_label(x)). 
-
-%  http://purl.obolibrary.org/obo/UO_0000001
-%  source ontology: UO
-%  entity: http://purl.obolibrary.org/obo/UO_0000001
-%  label: time unit
-%  parent: http://purl.obolibrary.org/obo/IAO_0000003
-%  parentLabel: measurement unit label
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (time_unit(x) -> measurement_unit_label(x)). 
+%  mass unit is subclass of measurement unit label
+%  entity: UO_0000001
+all x (MassUnit(x) -> MeasurementUnitLabel(x)). 
 

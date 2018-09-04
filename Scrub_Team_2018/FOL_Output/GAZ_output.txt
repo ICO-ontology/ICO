@@ -1,33 +1,12 @@
-%  http://purl.obolibrary.org/obo/GAZ_00000448
-%  source ontology: GAZ
-%  entity: http://purl.obolibrary.org/obo/GAZ_00000448
-%  label: jurisdiction
-%  parent: http://purl.obolibrary.org/obo/BFO_0000029
-%  parentLabel: site
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  repository of documents is subclass of site
+%  entity: GAZ_00000448
+all x (RepositoryOfDocuments(x) -> Site(x)). 
 
-all x (jurisdiction(x) -> site(x)). 
+%  geographic location is subclass of site
+%  entity: GAZ_00000448
+all x (GeographicLocation(x) -> Site(x)). 
 
-%  http://purl.obolibrary.org/obo/GAZ_00000448
-%  source ontology: GAZ
-%  entity: http://purl.obolibrary.org/obo/GAZ_00000448
-%  label: geographic location
-%  parent: http://purl.obolibrary.org/obo/BFO_0000029
-%  parentLabel: site
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (geographic_location(x) -> site(x)). 
-
-%  http://purl.obolibrary.org/obo/GAZ_00000448
-%  source ontology: GAZ
-%  entity: http://purl.obolibrary.org/obo/GAZ_00000448
-%  label: repository of documents
-%  parent: http://purl.obolibrary.org/obo/BFO_0000029
-%  parentLabel: site
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (repository_of_documents(x) -> site(x)). 
+%  jurisdiction is subclass of site
+%  entity: GAZ_00000448
+all x (Jurisdiction(x) -> Site(x)). 
 

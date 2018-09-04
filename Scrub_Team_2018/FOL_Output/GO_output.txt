@@ -1,0 +1,40 @@
+%  act of waiving is subclass of BFO:PROCESSES
+%  entity: GO_0007565
+all x (ActOfWaiving(x) -> Bfo:Processes(x)). 
+
+%  act of disclosure is subclass of BFO:PROCESSES
+%  entity: GO_0007565
+all x (ActOfDisclosure(x) -> Bfo:Processes(x)). 
+
+%  incarceration is subclass of BFO:PROCESSES
+%  entity: GO_0007565
+all x (Incarceration(x) -> Bfo:Processes(x)). 
+
+%  act of recording informed consent is subclass of BFO:PROCESSES
+%  entity: GO_0007565
+all x (ActOfRecordingInformedConsent(x) -> Bfo:Processes(x)). 
+
+%  act of approving is subclass of BFO:PROCESSES
+%  entity: GO_0007565
+all x (ActOfApproving(x) -> Bfo:Processes(x)). 
+
+%  act of communicating is subclass of BFO:PROCESSES
+%  entity: GO_0007565
+all x (ActOfCommunicating(x) -> Bfo:Processes(x)). 
+
+%  act of regulatory supervision is subclass of BFO:PROCESSES
+%  entity: GO_0007565
+all x (ActOfRegulatorySupervision(x) -> Bfo:Processes(x)). 
+
+%  process of abuse is subclass of BFO:PROCESSES
+%  entity: GO_0007565
+all x (ProcessOfAbuse(x) -> Bfo:Processes(x)). 
+
+%  female pregnancy is subclass of BFO:PROCESSES
+%  entity: GO_0007565
+all x (FemalePregnancy(x) -> Bfo:Processes(x)). 
+
+%  act of deciding is subclass of BFO:PROCESSES
+%  entity: GO_0007565
+all x (ActOfDeciding(x) -> Bfo:Processes(x)). 
+

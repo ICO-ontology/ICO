@@ -1,275 +1,110 @@
-%  http://purl.obolibrary.org/obo/OGMS_0000102
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000102
-%  label: injury
-%  parent: http://purl.obolibrary.org/obo/OGMS_0000045
-%  parentLabel: disorder
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  injury is subclass of disorder
+%  entity: OGMS_0000102
+all x (Injury(x) -> Disorder(x)). 
 
-all x (injury(x) -> disorder(x)). 
+%  treatment is subclass of process
+%  entity: OGMS_0000090
+all x (Treatment(x) -> Process(x)). 
 
-%  http://purl.obolibrary.org/obo/OGMS_0000090
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000090
-%  label: study termination
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  planned process is subclass of process
+%  entity: OGMS_0000090
+all x (PlannedProcess(x) -> Process(x)). 
 
-all x (study_termination(x) -> process(x)). 
+%  planned process is subclass of process
+%  entity: OGMS_0000090
+all x (PlannedProcess(x) -> Process(x)). 
 
-%  http://purl.obolibrary.org/obo/OGMS_0000090
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000090
-%  label: treatment
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  process profile is subclass of process
+%  entity: OGMS_0000090
+all x (ProcessProfile(x) -> Process(x)). 
 
-all x (treatment(x) -> process(x)). 
+%  authentication is subclass of process
+%  entity: OGMS_0000090
+all x (Authentication(x) -> Process(x)). 
 
-%  http://purl.obolibrary.org/obo/OGMS_0000090
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000090
-%  label: stasis
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  authentication is subclass of process
+%  entity: OGMS_0000090
+all x (Authentication(x) -> Process(x)). 
 
-all x (stasis(x) -> process(x)). 
+%  oscillating is subclass of process
+%  entity: OGMS_0000090
+all x (Oscillating(x) -> Process(x)). 
 
-%  http://purl.obolibrary.org/obo/OGMS_0000090
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000090
-%  label: planned process
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  history is subclass of process
+%  entity: OGMS_0000090
+all x (History(x) -> Process(x)). 
 
-all x (planned_process(x) -> process(x)). 
+%  stasis is subclass of process
+%  entity: OGMS_0000090
+all x (Stasis(x) -> Process(x)). 
 
-%  http://purl.obolibrary.org/obo/OGMS_0000090
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000090
-%  label: planned process
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  study termination is subclass of process
+%  entity: OGMS_0000090
+all x (StudyTermination(x) -> Process(x)). 
 
-all x (planned_process(x) -> process(x)). 
+%  population is subclass of material entity
+%  entity: OGMS_0000045
+all x (Population(x) -> MaterialEntity(x)). 
 
-%  http://purl.obolibrary.org/obo/OGMS_0000090
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000090
-%  label: process profile
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  collection of organisms is subclass of material entity
+%  entity: OGMS_0000045
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (CollectionOfOrganisms(x) -> MaterialEntity(x)). 
 
-all x (process_profile(x) -> process(x)). 
+%  specimen is subclass of material entity
+%  entity: OGMS_0000045
+all x (Specimen(x) -> MaterialEntity(x)). 
 
-%  http://purl.obolibrary.org/obo/OGMS_0000090
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000090
-%  label: oscillating
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  document act target is subclass of material entity
+%  entity: OGMS_0000045
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (DocumentActTarget(x) -> MaterialEntity(x)). 
 
-all x (oscillating(x) -> process(x)). 
+%  disorder is subclass of material entity
+%  entity: OGMS_0000045
+all x (Disorder(x) -> MaterialEntity(x)). 
 
-%  http://purl.obolibrary.org/obo/OGMS_0000090
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000090
-%  label: authentication
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  Material anatomical entity is subclass of material entity
+%  entity: OGMS_0000045
+all x (MaterialAnatomicalEntity(x) -> MaterialEntity(x)). 
 
-all x (authentication(x) -> process(x)). 
+%  organization is subclass of material entity
+%  entity: OGMS_0000045
+all x (Organization(x) -> MaterialEntity(x)). 
 
-%  http://purl.obolibrary.org/obo/OGMS_0000090
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000090
-%  label: authentication
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  material information bearer is subclass of material entity
+%  entity: OGMS_0000045
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (MaterialInformationBearer(x) -> MaterialEntity(x)). 
 
-all x (authentication(x) -> process(x)). 
+%  fiat object is subclass of material entity
+%  entity: OGMS_0000045
+all x (FiatObject(x) -> MaterialEntity(x)). 
 
-%  http://purl.obolibrary.org/obo/OGMS_0000090
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000090
-%  label: history
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  object is subclass of material entity
+%  entity: OGMS_0000045
+all x (Object(x) -> MaterialEntity(x)). 
 
-all x (history(x) -> process(x)). 
+%  object aggregate is subclass of material entity
+%  entity: OGMS_0000045
+all x (ObjectAggregate(x) -> MaterialEntity(x)). 
 
-%  http://purl.obolibrary.org/obo/OGMS_0000045
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000045
-%  label: Material anatomical entity
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  agent is subclass of material entity
+%  entity: OGMS_0000045
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (Agent(x) -> MaterialEntity(x)). 
 
-all x (Material_anatomical_entity(x) -> material_entity(x)). 
+%  organism is subclass of material entity
+%  entity: OGMS_0000045
+all x (Organism(x) -> MaterialEntity(x)). 
 
-%  http://purl.obolibrary.org/obo/OGMS_0000045
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000045
-%  label: aggregate of organizations
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: N0221c3e9a91f46ce8cbb698834f04a35
-%  SubclassAxiom: N0221c3e9a91f46ce8cbb698834f04a35
-
-all x (aggregate_of_organizations(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/OGMS_0000045
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000045
-%  label: document act target
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: N8d6effe8ab6e4374b3206070ce62f5f9
-%  SubclassAxiom: N8d6effe8ab6e4374b3206070ce62f5f9
-
-all x (document_act_target(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/OGMS_0000045
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000045
-%  label: specimen
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (specimen(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/OGMS_0000045
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000045
-%  label: fiat object
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (fiat_object(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/OGMS_0000045
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000045
-%  label: population
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (population(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/OGMS_0000045
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000045
-%  label: organization
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (organization(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/OGMS_0000045
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000045
-%  label: object aggregate
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (object_aggregate(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/OGMS_0000045
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000045
-%  label: object
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (object(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/OGMS_0000045
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000045
-%  label: disorder
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (disorder(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/OGMS_0000045
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000045
-%  label: agent
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: Nadf41d156c904047a4196ee5f3c34d3a
-%  SubclassAxiom: Nadf41d156c904047a4196ee5f3c34d3a
-
-all x (agent(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/OGMS_0000045
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000045
-%  label: collection of organisms
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: Nb31af1832ff9445c915f3af4bd45d6e4
-%  SubclassAxiom: Nb31af1832ff9445c915f3af4bd45d6e4
-
-all x (collection_of_organisms(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/OGMS_0000045
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000045
-%  label: material information bearer
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: N7218132e9d664685b281f7bb7d73f294
-%  SubclassAxiom: N7218132e9d664685b281f7bb7d73f294
-
-all x (material_information_bearer(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/OGMS_0000045
-%  source ontology: OGMS
-%  entity: http://purl.obolibrary.org/obo/OGMS_0000045
-%  label: organism
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (organism(x) -> material_entity(x)). 
+%  aggregate of organizations is subclass of material entity
+%  entity: OGMS_0000045
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (AggregateOfOrganizations(x) -> MaterialEntity(x)). 
 

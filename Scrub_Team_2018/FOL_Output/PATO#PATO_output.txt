@@ -1,77 +1,30 @@
-%  http://purl.org/obo/owl/PATO#PATO_0001025
-%  source ontology: PATO#PATO
-%  entity: http://purl.org/obo/owl/PATO#PATO_0001025
-%  label: length
-%  parent: http://purl.obolibrary.org/obo/BFO_0000019
-%  parentLabel: quality
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  mechanical wave quality is subclass of quality
+%  entity: PATO#PATO_0001025
+all x (MechanicalWaveQuality(x) -> Quality(x)). 
 
-all x (length(x) -> quality(x)). 
+%  mass is subclass of quality
+%  entity: PATO#PATO_0001025
+all x (Mass(x) -> Quality(x)). 
 
-%  http://purl.org/obo/owl/PATO#PATO_0001025
-%  source ontology: PATO#PATO
-%  entity: http://purl.org/obo/owl/PATO#PATO_0001025
-%  label: relational quality
-%  parent: http://purl.obolibrary.org/obo/BFO_0000019
-%  parentLabel: quality
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  length is subclass of quality
+%  entity: PATO#PATO_0001025
+all x (Length(x) -> Quality(x)). 
 
-all x (relational_quality(x) -> quality(x)). 
+%  pressure is subclass of quality
+%  entity: PATO#PATO_0001025
+all x (Pressure(x) -> Quality(x)). 
 
-%  http://purl.org/obo/owl/PATO#PATO_0001025
-%  source ontology: PATO#PATO
-%  entity: http://purl.org/obo/owl/PATO#PATO_0001025
-%  label: information carrier
-%  parent: http://purl.obolibrary.org/obo/BFO_0000019
-%  parentLabel: quality
-%  EquivalenceAxiom: Na4befbdf021a4f74b92c64fc324e7ed3
-%  SubclassAxiom: Na4befbdf021a4f74b92c64fc324e7ed3
+%  information carrier is subclass of quality
+%  entity: PATO#PATO_0001025
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (InformationCarrier(x) -> Quality(x)). 
 
-all x (information_carrier(x) -> quality(x)). 
+%  writing quality is subclass of quality
+%  entity: PATO#PATO_0001025
+all x (WritingQuality(x) -> Quality(x)). 
 
-%  http://purl.org/obo/owl/PATO#PATO_0001025
-%  source ontology: PATO#PATO
-%  entity: http://purl.org/obo/owl/PATO#PATO_0001025
-%  label: mechanical wave quality
-%  parent: http://purl.obolibrary.org/obo/BFO_0000019
-%  parentLabel: quality
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (mechanical_wave_quality(x) -> quality(x)). 
-
-%  http://purl.org/obo/owl/PATO#PATO_0001025
-%  source ontology: PATO#PATO
-%  entity: http://purl.org/obo/owl/PATO#PATO_0001025
-%  label: writing quality
-%  parent: http://purl.obolibrary.org/obo/BFO_0000019
-%  parentLabel: quality
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (writing_quality(x) -> quality(x)). 
-
-%  http://purl.org/obo/owl/PATO#PATO_0001025
-%  source ontology: PATO#PATO
-%  entity: http://purl.org/obo/owl/PATO#PATO_0001025
-%  label: mass
-%  parent: http://purl.obolibrary.org/obo/BFO_0000019
-%  parentLabel: quality
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (mass(x) -> quality(x)). 
-
-%  http://purl.org/obo/owl/PATO#PATO_0001025
-%  source ontology: PATO#PATO
-%  entity: http://purl.org/obo/owl/PATO#PATO_0001025
-%  label: pressure
-%  parent: http://purl.obolibrary.org/obo/BFO_0000019
-%  parentLabel: quality
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (pressure(x) -> quality(x)). 
+%  relational quality is subclass of quality
+%  entity: PATO#PATO_0001025
+all x (RelationalQuality(x) -> Quality(x)). 
 

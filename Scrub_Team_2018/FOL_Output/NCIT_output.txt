@@ -1,0 +1,52 @@
+%  act of waiving is subclass of BFO:PROCESSES
+%  entity: NCIT_C85521
+all x (ActOfWaiving(x) -> Bfo:Processes(x)). 
+
+%  act of disclosure is subclass of BFO:PROCESSES
+%  entity: NCIT_C85521
+all x (ActOfDisclosure(x) -> Bfo:Processes(x)). 
+
+%  incarceration is subclass of BFO:PROCESSES
+%  entity: NCIT_C85521
+all x (Incarceration(x) -> Bfo:Processes(x)). 
+
+%  act of recording informed consent is subclass of BFO:PROCESSES
+%  entity: NCIT_C85521
+all x (ActOfRecordingInformedConsent(x) -> Bfo:Processes(x)). 
+
+%  act of approving is subclass of BFO:PROCESSES
+%  entity: NCIT_C85521
+all x (ActOfApproving(x) -> Bfo:Processes(x)). 
+
+%  act of communicating is subclass of BFO:PROCESSES
+%  entity: NCIT_C85521
+all x (ActOfCommunicating(x) -> Bfo:Processes(x)). 
+
+%  act of regulatory supervision is subclass of BFO:PROCESSES
+%  entity: NCIT_C85521
+all x (ActOfRegulatorySupervision(x) -> Bfo:Processes(x)). 
+
+%  process of abuse is subclass of BFO:PROCESSES
+%  entity: NCIT_C85521
+all x (ProcessOfAbuse(x) -> Bfo:Processes(x)). 
+
+%  female pregnancy is subclass of BFO:PROCESSES
+%  entity: NCIT_C85521
+all x (FemalePregnancy(x) -> Bfo:Processes(x)). 
+
+%  act of deciding is subclass of BFO:PROCESSES
+%  entity: NCIT_C85521
+all x (ActOfDeciding(x) -> Bfo:Processes(x)). 
+
+%  protocol is subclass of DOCUMENT
+%  entity: NCIT_C70800
+all x (Protocol(x) -> Document(x)). 
+
+%  waiver document is subclass of DOCUMENT
+%  entity: NCIT_C70800
+all x (WaiverDocument(x) -> Document(x)). 
+
+%  institutional review board approval is subclass of DOCUMENT
+%  entity: NCIT_C70800
+all x (InstitutionalReviewBoardApproval(x) -> Document(x)). 
+

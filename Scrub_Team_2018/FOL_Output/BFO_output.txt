@@ -1,1705 +1,652 @@
-%  http://purl.obolibrary.org/obo/BFO_0000182
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000182
-%  label: study termination
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (study_termination(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000182
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000182
-%  label: treatment
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (treatment(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000182
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000182
-%  label: stasis
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (stasis(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000182
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000182
-%  label: planned process
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (planned_process(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000182
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000182
-%  label: planned process
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (planned_process(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000182
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000182
-%  label: process profile
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (process_profile(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000182
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000182
-%  label: oscillating
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (oscillating(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000182
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000182
-%  label: authentication
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (authentication(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000182
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000182
-%  label: authentication
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (authentication(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000182
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000182
-%  label: history
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (history(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000148
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000148
-%  label: zero-dimensional temporal region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000008
-%  parentLabel: temporal region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (zero-dimensional_temporal_region(x) -> temporal_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000148
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000148
-%  label: one-dimensional temporal region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000008
-%  parentLabel: temporal region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (one-dimensional_temporal_region(x) -> temporal_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000147
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000147
-%  label: one-dimensional continuant fiat boundary
-%  parent: http://purl.obolibrary.org/obo/BFO_0000140
-%  parentLabel: continuant fiat boundary
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (one-dimensional_continuant_fiat_boundary(x) -> continuant_fiat_boundary(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000147
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000147
-%  label: zero-dimensional continuant fiat boundary
-%  parent: http://purl.obolibrary.org/obo/BFO_0000140
-%  parentLabel: continuant fiat boundary
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (zero-dimensional_continuant_fiat_boundary(x) -> continuant_fiat_boundary(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000147
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000147
-%  label: two-dimensional continuant fiat boundary
-%  parent: http://purl.obolibrary.org/obo/BFO_0000140
-%  parentLabel: continuant fiat boundary
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (two-dimensional_continuant_fiat_boundary(x) -> continuant_fiat_boundary(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000146
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000146
-%  label: one-dimensional continuant fiat boundary
-%  parent: http://purl.obolibrary.org/obo/BFO_0000140
-%  parentLabel: continuant fiat boundary
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (one-dimensional_continuant_fiat_boundary(x) -> continuant_fiat_boundary(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000146
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000146
-%  label: zero-dimensional continuant fiat boundary
-%  parent: http://purl.obolibrary.org/obo/BFO_0000140
-%  parentLabel: continuant fiat boundary
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (zero-dimensional_continuant_fiat_boundary(x) -> continuant_fiat_boundary(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000146
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000146
-%  label: two-dimensional continuant fiat boundary
-%  parent: http://purl.obolibrary.org/obo/BFO_0000140
-%  parentLabel: continuant fiat boundary
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (two-dimensional_continuant_fiat_boundary(x) -> continuant_fiat_boundary(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000145
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000145
-%  label: length
-%  parent: http://purl.obolibrary.org/obo/BFO_0000019
-%  parentLabel: quality
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (length(x) -> quality(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000145
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000145
-%  label: relational quality
-%  parent: http://purl.obolibrary.org/obo/BFO_0000019
-%  parentLabel: quality
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (relational_quality(x) -> quality(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000145
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000145
-%  label: information carrier
-%  parent: http://purl.obolibrary.org/obo/BFO_0000019
-%  parentLabel: quality
-%  EquivalenceAxiom: Na4befbdf021a4f74b92c64fc324e7ed3
-%  SubclassAxiom: Na4befbdf021a4f74b92c64fc324e7ed3
-
-all x (information_carrier(x) -> quality(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000145
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000145
-%  label: mechanical wave quality
-%  parent: http://purl.obolibrary.org/obo/BFO_0000019
-%  parentLabel: quality
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (mechanical_wave_quality(x) -> quality(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000145
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000145
-%  label: writing quality
-%  parent: http://purl.obolibrary.org/obo/BFO_0000019
-%  parentLabel: quality
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (writing_quality(x) -> quality(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000145
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000145
-%  label: mass
-%  parent: http://purl.obolibrary.org/obo/BFO_0000019
-%  parentLabel: quality
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (mass(x) -> quality(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000145
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000145
-%  label: pressure
-%  parent: http://purl.obolibrary.org/obo/BFO_0000019
-%  parentLabel: quality
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (pressure(x) -> quality(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000144
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000144
-%  label: study termination
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (study_termination(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000144
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000144
-%  label: treatment
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (treatment(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000144
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000144
-%  label: stasis
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (stasis(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000144
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000144
-%  label: planned process
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (planned_process(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000144
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000144
-%  label: planned process
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (planned_process(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000144
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000144
-%  label: process profile
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (process_profile(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000144
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000144
-%  label: oscillating
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (oscillating(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000144
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000144
-%  label: authentication
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (authentication(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000144
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000144
-%  label: authentication
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (authentication(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000144
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000144
-%  label: history
-%  parent: http://purl.obolibrary.org/obo/BFO_0000015
-%  parentLabel: process
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (history(x) -> process(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000142
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000142
-%  label: one-dimensional continuant fiat boundary
-%  parent: http://purl.obolibrary.org/obo/BFO_0000140
-%  parentLabel: continuant fiat boundary
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (one-dimensional_continuant_fiat_boundary(x) -> continuant_fiat_boundary(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000142
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000142
-%  label: zero-dimensional continuant fiat boundary
-%  parent: http://purl.obolibrary.org/obo/BFO_0000140
-%  parentLabel: continuant fiat boundary
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (zero-dimensional_continuant_fiat_boundary(x) -> continuant_fiat_boundary(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000142
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000142
-%  label: two-dimensional continuant fiat boundary
-%  parent: http://purl.obolibrary.org/obo/BFO_0000140
-%  parentLabel: continuant fiat boundary
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (two-dimensional_continuant_fiat_boundary(x) -> continuant_fiat_boundary(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000141
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000141
-%  label: immaterial entity
-%  parent: http://purl.obolibrary.org/obo/BFO_0000004
-%  parentLabel: independent continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (immaterial_entity(x) -> independent_continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000141
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000141
-%  label: material entity
-%  parent: http://purl.obolibrary.org/obo/BFO_0000004
-%  parentLabel: independent continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (material_entity(x) -> independent_continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000141
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000141
-%  label: portion of energy
-%  parent: http://purl.obolibrary.org/obo/BFO_0000004
-%  parentLabel: independent continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (portion_of_energy(x) -> independent_continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000140
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000140
-%  label: site
-%  parent: http://purl.obolibrary.org/obo/BFO_0000141
-%  parentLabel: immaterial entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (site(x) -> immaterial_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000140
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000140
-%  label: spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000141
-%  parentLabel: immaterial entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (spatial_region(x) -> immaterial_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000140
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000140
-%  label: continuant fiat boundary
-%  parent: http://purl.obolibrary.org/obo/BFO_0000141
-%  parentLabel: immaterial entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (continuant_fiat_boundary(x) -> immaterial_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000040
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000040
-%  label: immaterial entity
-%  parent: http://purl.obolibrary.org/obo/BFO_0000004
-%  parentLabel: independent continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (immaterial_entity(x) -> independent_continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000040
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000040
-%  label: material entity
-%  parent: http://purl.obolibrary.org/obo/BFO_0000004
-%  parentLabel: independent continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (material_entity(x) -> independent_continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000040
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000040
-%  label: portion of energy
-%  parent: http://purl.obolibrary.org/obo/BFO_0000004
-%  parentLabel: independent continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (portion_of_energy(x) -> independent_continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000038
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000038
-%  label: zero-dimensional temporal region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000008
-%  parentLabel: temporal region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (zero-dimensional_temporal_region(x) -> temporal_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000038
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000038
-%  label: one-dimensional temporal region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000008
-%  parentLabel: temporal region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (one-dimensional_temporal_region(x) -> temporal_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000035
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000035
-%  label: temporal region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000003
-%  parentLabel: occurrent
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (temporal_region(x) -> occurrent(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000035
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000035
-%  label: process
-%  parent: http://purl.obolibrary.org/obo/BFO_0000003
-%  parentLabel: occurrent
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (process(x) -> occurrent(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000035
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000035
-%  label: process boundary
-%  parent: http://purl.obolibrary.org/obo/BFO_0000003
-%  parentLabel: occurrent
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (process_boundary(x) -> occurrent(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000035
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000035
-%  label: spatiotemporal region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000003
-%  parentLabel: occurrent
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (spatiotemporal_region(x) -> occurrent(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000034
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000034
-%  label: capability to consent
-%  parent: http://purl.obolibrary.org/obo/BFO_0000016
-%  parentLabel: disposition
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (capability_to_consent(x) -> disposition(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000034
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000034
-%  label: capability to consent
-%  parent: http://purl.obolibrary.org/obo/BFO_0000016
-%  parentLabel: disposition
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (capability_to_consent(x) -> disposition(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000034
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000034
-%  label: risk
-%  parent: http://purl.obolibrary.org/obo/BFO_0000016
-%  parentLabel: disposition
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (risk(x) -> disposition(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000034
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000034
-%  label: benefit
-%  parent: http://purl.obolibrary.org/obo/BFO_0000016
-%  parentLabel: disposition
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (benefit(x) -> disposition(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000034
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000034
-%  label: function
-%  parent: http://purl.obolibrary.org/obo/BFO_0000016
-%  parentLabel: disposition
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (function(x) -> disposition(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000031
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000031
-%  label: generically dependent continuant
-%  parent: http://purl.obolibrary.org/obo/BFO_0000002
-%  parentLabel: continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (generically_dependent_continuant(x) -> continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000031
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000031
-%  label: independent continuant
-%  parent: http://purl.obolibrary.org/obo/BFO_0000002
-%  parentLabel: continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (independent_continuant(x) -> continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000031
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000031
-%  label: specifically dependent continuant
-%  parent: http://purl.obolibrary.org/obo/BFO_0000002
-%  parentLabel: continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (specifically_dependent_continuant(x) -> continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000030
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000030
-%  label: Material anatomical entity
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (Material_anatomical_entity(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000030
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000030
-%  label: aggregate of organizations
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: N0221c3e9a91f46ce8cbb698834f04a35
-%  SubclassAxiom: N0221c3e9a91f46ce8cbb698834f04a35
-
-all x (aggregate_of_organizations(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000030
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000030
-%  label: document act target
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: N8d6effe8ab6e4374b3206070ce62f5f9
-%  SubclassAxiom: N8d6effe8ab6e4374b3206070ce62f5f9
-
-all x (document_act_target(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000030
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000030
-%  label: specimen
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (specimen(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000030
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000030
-%  label: fiat object
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (fiat_object(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000030
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000030
-%  label: population
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (population(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000030
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000030
-%  label: organization
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (organization(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000030
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000030
-%  label: object aggregate
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (object_aggregate(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000030
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000030
-%  label: object
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (object(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000030
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000030
-%  label: disorder
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (disorder(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000030
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000030
-%  label: agent
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: Nadf41d156c904047a4196ee5f3c34d3a
-%  SubclassAxiom: Nadf41d156c904047a4196ee5f3c34d3a
-
-all x (agent(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000030
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000030
-%  label: collection of organisms
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: Nb31af1832ff9445c915f3af4bd45d6e4
-%  SubclassAxiom: Nb31af1832ff9445c915f3af4bd45d6e4
-
-all x (collection_of_organisms(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000030
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000030
-%  label: material information bearer
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: N7218132e9d664685b281f7bb7d73f294
-%  SubclassAxiom: N7218132e9d664685b281f7bb7d73f294
-
-all x (material_information_bearer(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000030
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000030
-%  label: organism
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (organism(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000029
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000029
-%  label: site
-%  parent: http://purl.obolibrary.org/obo/BFO_0000141
-%  parentLabel: immaterial entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (site(x) -> immaterial_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000029
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000029
-%  label: spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000141
-%  parentLabel: immaterial entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (spatial_region(x) -> immaterial_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000029
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000029
-%  label: continuant fiat boundary
-%  parent: http://purl.obolibrary.org/obo/BFO_0000141
-%  parentLabel: immaterial entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (continuant_fiat_boundary(x) -> immaterial_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000028
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000028
-%  label: one-dimensional spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000006
-%  parentLabel: spatial region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (one-dimensional_spatial_region(x) -> spatial_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000028
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000028
-%  label: two-dimensional spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000006
-%  parentLabel: spatial region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (two-dimensional_spatial_region(x) -> spatial_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000028
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000028
-%  label: zero-dimensional spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000006
-%  parentLabel: spatial region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (zero-dimensional_spatial_region(x) -> spatial_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000028
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000028
-%  label: three-dimensional spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000006
-%  parentLabel: spatial region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (three-dimensional_spatial_region(x) -> spatial_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000027
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000027
-%  label: Material anatomical entity
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (Material_anatomical_entity(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000027
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000027
-%  label: aggregate of organizations
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: N0221c3e9a91f46ce8cbb698834f04a35
-%  SubclassAxiom: N0221c3e9a91f46ce8cbb698834f04a35
-
-all x (aggregate_of_organizations(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000027
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000027
-%  label: document act target
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: N8d6effe8ab6e4374b3206070ce62f5f9
-%  SubclassAxiom: N8d6effe8ab6e4374b3206070ce62f5f9
-
-all x (document_act_target(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000027
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000027
-%  label: specimen
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (specimen(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000027
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000027
-%  label: fiat object
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (fiat_object(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000027
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000027
-%  label: population
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (population(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000027
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000027
-%  label: organization
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (organization(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000027
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000027
-%  label: object aggregate
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (object_aggregate(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000027
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000027
-%  label: object
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (object(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000027
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000027
-%  label: disorder
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (disorder(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000027
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000027
-%  label: agent
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: Nadf41d156c904047a4196ee5f3c34d3a
-%  SubclassAxiom: Nadf41d156c904047a4196ee5f3c34d3a
-
-all x (agent(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000027
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000027
-%  label: collection of organisms
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: Nb31af1832ff9445c915f3af4bd45d6e4
-%  SubclassAxiom: Nb31af1832ff9445c915f3af4bd45d6e4
-
-all x (collection_of_organisms(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000027
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000027
-%  label: material information bearer
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: N7218132e9d664685b281f7bb7d73f294
-%  SubclassAxiom: N7218132e9d664685b281f7bb7d73f294
-
-all x (material_information_bearer(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000027
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000027
-%  label: organism
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (organism(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000026
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000026
-%  label: one-dimensional spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000006
-%  parentLabel: spatial region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (one-dimensional_spatial_region(x) -> spatial_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000026
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000026
-%  label: two-dimensional spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000006
-%  parentLabel: spatial region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (two-dimensional_spatial_region(x) -> spatial_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000026
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000026
-%  label: zero-dimensional spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000006
-%  parentLabel: spatial region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (zero-dimensional_spatial_region(x) -> spatial_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000026
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000026
-%  label: three-dimensional spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000006
-%  parentLabel: spatial region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (three-dimensional_spatial_region(x) -> spatial_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000024
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000024
-%  label: Material anatomical entity
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (Material_anatomical_entity(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000024
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000024
-%  label: aggregate of organizations
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: N0221c3e9a91f46ce8cbb698834f04a35
-%  SubclassAxiom: N0221c3e9a91f46ce8cbb698834f04a35
-
-all x (aggregate_of_organizations(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000024
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000024
-%  label: document act target
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: N8d6effe8ab6e4374b3206070ce62f5f9
-%  SubclassAxiom: N8d6effe8ab6e4374b3206070ce62f5f9
-
-all x (document_act_target(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000024
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000024
-%  label: specimen
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (specimen(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000024
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000024
-%  label: fiat object
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (fiat_object(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000024
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000024
-%  label: population
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (population(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000024
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000024
-%  label: organization
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (organization(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000024
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000024
-%  label: object aggregate
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (object_aggregate(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000024
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000024
-%  label: object
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (object(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000024
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000024
-%  label: disorder
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (disorder(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000024
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000024
-%  label: agent
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: Nadf41d156c904047a4196ee5f3c34d3a
-%  SubclassAxiom: Nadf41d156c904047a4196ee5f3c34d3a
-
-all x (agent(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000024
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000024
-%  label: collection of organisms
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: Nb31af1832ff9445c915f3af4bd45d6e4
-%  SubclassAxiom: Nb31af1832ff9445c915f3af4bd45d6e4
-
-all x (collection_of_organisms(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000024
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000024
-%  label: material information bearer
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: N7218132e9d664685b281f7bb7d73f294
-%  SubclassAxiom: N7218132e9d664685b281f7bb7d73f294
-
-all x (material_information_bearer(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000024
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000024
-%  label: organism
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (organism(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000023
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000023
-%  label: role
-%  parent: http://purl.obolibrary.org/obo/BFO_0000017
-%  parentLabel: realizable entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (role(x) -> realizable_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000023
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000023
-%  label: disposition
-%  parent: http://purl.obolibrary.org/obo/BFO_0000017
-%  parentLabel: realizable entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (disposition(x) -> realizable_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000020
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000020
-%  label: generically dependent continuant
-%  parent: http://purl.obolibrary.org/obo/BFO_0000002
-%  parentLabel: continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (generically_dependent_continuant(x) -> continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000020
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000020
-%  label: independent continuant
-%  parent: http://purl.obolibrary.org/obo/BFO_0000002
-%  parentLabel: continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (independent_continuant(x) -> continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000020
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000020
-%  label: specifically dependent continuant
-%  parent: http://purl.obolibrary.org/obo/BFO_0000002
-%  parentLabel: continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (specifically_dependent_continuant(x) -> continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000019
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000019
-%  label: quality
-%  parent: http://purl.obolibrary.org/obo/BFO_0000020
-%  parentLabel: specifically dependent continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (quality(x) -> specifically_dependent_continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000019
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000019
-%  label: realizable entity
-%  parent: http://purl.obolibrary.org/obo/BFO_0000020
-%  parentLabel: specifically dependent continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (realizable_entity(x) -> specifically_dependent_continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000018
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000018
-%  label: one-dimensional spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000006
-%  parentLabel: spatial region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (one-dimensional_spatial_region(x) -> spatial_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000018
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000018
-%  label: two-dimensional spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000006
-%  parentLabel: spatial region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (two-dimensional_spatial_region(x) -> spatial_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000018
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000018
-%  label: zero-dimensional spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000006
-%  parentLabel: spatial region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (zero-dimensional_spatial_region(x) -> spatial_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000018
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000018
-%  label: three-dimensional spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000006
-%  parentLabel: spatial region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (three-dimensional_spatial_region(x) -> spatial_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000017
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000017
-%  label: quality
-%  parent: http://purl.obolibrary.org/obo/BFO_0000020
-%  parentLabel: specifically dependent continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (quality(x) -> specifically_dependent_continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000017
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000017
-%  label: realizable entity
-%  parent: http://purl.obolibrary.org/obo/BFO_0000020
-%  parentLabel: specifically dependent continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (realizable_entity(x) -> specifically_dependent_continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000016
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000016
-%  label: role
-%  parent: http://purl.obolibrary.org/obo/BFO_0000017
-%  parentLabel: realizable entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (role(x) -> realizable_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000016
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000016
-%  label: disposition
-%  parent: http://purl.obolibrary.org/obo/BFO_0000017
-%  parentLabel: realizable entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (disposition(x) -> realizable_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000015
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000015
-%  label: temporal region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000003
-%  parentLabel: occurrent
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (temporal_region(x) -> occurrent(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000015
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000015
-%  label: process
-%  parent: http://purl.obolibrary.org/obo/BFO_0000003
-%  parentLabel: occurrent
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (process(x) -> occurrent(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000015
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000015
-%  label: process boundary
-%  parent: http://purl.obolibrary.org/obo/BFO_0000003
-%  parentLabel: occurrent
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (process_boundary(x) -> occurrent(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000015
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000015
-%  label: spatiotemporal region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000003
-%  parentLabel: occurrent
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (spatiotemporal_region(x) -> occurrent(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000011
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000011
-%  label: temporal region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000003
-%  parentLabel: occurrent
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (temporal_region(x) -> occurrent(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000011
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000011
-%  label: process
-%  parent: http://purl.obolibrary.org/obo/BFO_0000003
-%  parentLabel: occurrent
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (process(x) -> occurrent(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000011
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000011
-%  label: process boundary
-%  parent: http://purl.obolibrary.org/obo/BFO_0000003
-%  parentLabel: occurrent
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (process_boundary(x) -> occurrent(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000011
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000011
-%  label: spatiotemporal region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000003
-%  parentLabel: occurrent
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (spatiotemporal_region(x) -> occurrent(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000009
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000009
-%  label: one-dimensional spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000006
-%  parentLabel: spatial region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (one-dimensional_spatial_region(x) -> spatial_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000009
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000009
-%  label: two-dimensional spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000006
-%  parentLabel: spatial region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (two-dimensional_spatial_region(x) -> spatial_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000009
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000009
-%  label: zero-dimensional spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000006
-%  parentLabel: spatial region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (zero-dimensional_spatial_region(x) -> spatial_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000009
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000009
-%  label: three-dimensional spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000006
-%  parentLabel: spatial region
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (three-dimensional_spatial_region(x) -> spatial_region(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000008
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000008
-%  label: temporal region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000003
-%  parentLabel: occurrent
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (temporal_region(x) -> occurrent(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000008
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000008
-%  label: process
-%  parent: http://purl.obolibrary.org/obo/BFO_0000003
-%  parentLabel: occurrent
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (process(x) -> occurrent(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000008
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000008
-%  label: process boundary
-%  parent: http://purl.obolibrary.org/obo/BFO_0000003
-%  parentLabel: occurrent
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (process_boundary(x) -> occurrent(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000008
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000008
-%  label: spatiotemporal region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000003
-%  parentLabel: occurrent
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (spatiotemporal_region(x) -> occurrent(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000006
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000006
-%  label: site
-%  parent: http://purl.obolibrary.org/obo/BFO_0000141
-%  parentLabel: immaterial entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (site(x) -> immaterial_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000006
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000006
-%  label: spatial region
-%  parent: http://purl.obolibrary.org/obo/BFO_0000141
-%  parentLabel: immaterial entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (spatial_region(x) -> immaterial_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000006
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000006
-%  label: continuant fiat boundary
-%  parent: http://purl.obolibrary.org/obo/BFO_0000141
-%  parentLabel: immaterial entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (continuant_fiat_boundary(x) -> immaterial_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000004
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000004
-%  label: generically dependent continuant
-%  parent: http://purl.obolibrary.org/obo/BFO_0000002
-%  parentLabel: continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (generically_dependent_continuant(x) -> continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000004
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000004
-%  label: independent continuant
-%  parent: http://purl.obolibrary.org/obo/BFO_0000002
-%  parentLabel: continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (independent_continuant(x) -> continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000004
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000004
-%  label: specifically dependent continuant
-%  parent: http://purl.obolibrary.org/obo/BFO_0000002
-%  parentLabel: continuant
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (specifically_dependent_continuant(x) -> continuant(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000003
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000003
-%  label: continuant
-%  parent: http://purl.obolibrary.org/obo/BFO_0000001
-%  parentLabel: entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (continuant(x) -> entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000003
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000003
-%  label: occurrent
-%  parent: http://purl.obolibrary.org/obo/BFO_0000001
-%  parentLabel: entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (occurrent(x) -> entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000002
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000002
-%  label: continuant
-%  parent: http://purl.obolibrary.org/obo/BFO_0000001
-%  parentLabel: entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (continuant(x) -> entity(x)). 
-
-%  http://purl.obolibrary.org/obo/BFO_0000002
-%  source ontology: BFO
-%  entity: http://purl.obolibrary.org/obo/BFO_0000002
-%  label: occurrent
-%  parent: http://purl.obolibrary.org/obo/BFO_0000001
-%  parentLabel: entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (occurrent(x) -> entity(x)). 
+%  treatment is subclass of process
+%  entity: BFO_0000182
+all x (Treatment(x) -> Process(x)). 
+
+%  planned process is subclass of process
+%  entity: BFO_0000182
+all x (PlannedProcess(x) -> Process(x)). 
+
+%  planned process is subclass of process
+%  entity: BFO_0000182
+all x (PlannedProcess(x) -> Process(x)). 
+
+%  process profile is subclass of process
+%  entity: BFO_0000182
+all x (ProcessProfile(x) -> Process(x)). 
+
+%  authentication is subclass of process
+%  entity: BFO_0000182
+all x (Authentication(x) -> Process(x)). 
+
+%  authentication is subclass of process
+%  entity: BFO_0000182
+all x (Authentication(x) -> Process(x)). 
+
+%  oscillating is subclass of process
+%  entity: BFO_0000182
+all x (Oscillating(x) -> Process(x)). 
+
+%  history is subclass of process
+%  entity: BFO_0000182
+all x (History(x) -> Process(x)). 
+
+%  stasis is subclass of process
+%  entity: BFO_0000182
+all x (Stasis(x) -> Process(x)). 
+
+%  study termination is subclass of process
+%  entity: BFO_0000182
+all x (StudyTermination(x) -> Process(x)). 
+
+%  one-dimensional temporal region is subclass of temporal region
+%  entity: BFO_0000148
+all x (One-DimensionalTemporalRegion(x) -> TemporalRegion(x)). 
+
+%  zero-dimensional temporal region is subclass of temporal region
+%  entity: BFO_0000148
+all x (Zero-DimensionalTemporalRegion(x) -> TemporalRegion(x)). 
+
+%  two-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000147
+all x (Two-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  one-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000147
+all x (One-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  zero-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000147
+all x (Zero-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  two-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000146
+all x (Two-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  one-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000146
+all x (One-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  zero-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000146
+all x (Zero-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  mechanical wave quality is subclass of quality
+%  entity: BFO_0000145
+all x (MechanicalWaveQuality(x) -> Quality(x)). 
+
+%  mass is subclass of quality
+%  entity: BFO_0000145
+all x (Mass(x) -> Quality(x)). 
+
+%  length is subclass of quality
+%  entity: BFO_0000145
+all x (Length(x) -> Quality(x)). 
+
+%  pressure is subclass of quality
+%  entity: BFO_0000145
+all x (Pressure(x) -> Quality(x)). 
+
+%  information carrier is subclass of quality
+%  entity: BFO_0000145
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (InformationCarrier(x) -> Quality(x)). 
+
+%  writing quality is subclass of quality
+%  entity: BFO_0000145
+all x (WritingQuality(x) -> Quality(x)). 
+
+%  relational quality is subclass of quality
+%  entity: BFO_0000145
+all x (RelationalQuality(x) -> Quality(x)). 
+
+%  treatment is subclass of process
+%  entity: BFO_0000144
+all x (Treatment(x) -> Process(x)). 
+
+%  planned process is subclass of process
+%  entity: BFO_0000144
+all x (PlannedProcess(x) -> Process(x)). 
+
+%  planned process is subclass of process
+%  entity: BFO_0000144
+all x (PlannedProcess(x) -> Process(x)). 
+
+%  process profile is subclass of process
+%  entity: BFO_0000144
+all x (ProcessProfile(x) -> Process(x)). 
+
+%  authentication is subclass of process
+%  entity: BFO_0000144
+all x (Authentication(x) -> Process(x)). 
+
+%  authentication is subclass of process
+%  entity: BFO_0000144
+all x (Authentication(x) -> Process(x)). 
+
+%  oscillating is subclass of process
+%  entity: BFO_0000144
+all x (Oscillating(x) -> Process(x)). 
+
+%  history is subclass of process
+%  entity: BFO_0000144
+all x (History(x) -> Process(x)). 
+
+%  stasis is subclass of process
+%  entity: BFO_0000144
+all x (Stasis(x) -> Process(x)). 
+
+%  study termination is subclass of process
+%  entity: BFO_0000144
+all x (StudyTermination(x) -> Process(x)). 
+
+%  two-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000142
+all x (Two-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  one-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000142
+all x (One-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  zero-dimensional continuant fiat boundary is subclass of continuant fiat boundary
+%  entity: BFO_0000142
+all x (Zero-DimensionalContinuantFiatBoundary(x) -> ContinuantFiatBoundary(x)). 
+
+%  material entity is subclass of independent continuant
+%  entity: BFO_0000141
+all x (MaterialEntity(x) -> IndependentContinuant(x)). 
+
+%  immaterial entity is subclass of independent continuant
+%  entity: BFO_0000141
+all x (ImmaterialEntity(x) -> IndependentContinuant(x)). 
+
+%  portion of energy is subclass of independent continuant
+%  entity: BFO_0000141
+all x (PortionOfEnergy(x) -> IndependentContinuant(x)). 
+
+%  spatial region is subclass of immaterial entity
+%  entity: BFO_0000140
+all x (SpatialRegion(x) -> ImmaterialEntity(x)). 
+
+%  site is subclass of immaterial entity
+%  entity: BFO_0000140
+all x (Site(x) -> ImmaterialEntity(x)). 
+
+%  continuant fiat boundary is subclass of immaterial entity
+%  entity: BFO_0000140
+all x (ContinuantFiatBoundary(x) -> ImmaterialEntity(x)). 
+
+%  material entity is subclass of independent continuant
+%  entity: BFO_0000040
+all x (MaterialEntity(x) -> IndependentContinuant(x)). 
+
+%  immaterial entity is subclass of independent continuant
+%  entity: BFO_0000040
+all x (ImmaterialEntity(x) -> IndependentContinuant(x)). 
+
+%  portion of energy is subclass of independent continuant
+%  entity: BFO_0000040
+all x (PortionOfEnergy(x) -> IndependentContinuant(x)). 
+
+%  one-dimensional temporal region is subclass of temporal region
+%  entity: BFO_0000038
+all x (One-DimensionalTemporalRegion(x) -> TemporalRegion(x)). 
+
+%  zero-dimensional temporal region is subclass of temporal region
+%  entity: BFO_0000038
+all x (Zero-DimensionalTemporalRegion(x) -> TemporalRegion(x)). 
+
+%  temporal region is subclass of occurrent
+%  entity: BFO_0000035
+all x (TemporalRegion(x) -> Occurrent(x)). 
+
+%  process is subclass of occurrent
+%  entity: BFO_0000035
+all x (Process(x) -> Occurrent(x)). 
+
+%  process boundary is subclass of occurrent
+%  entity: BFO_0000035
+all x (ProcessBoundary(x) -> Occurrent(x)). 
+
+%  spatiotemporal region is subclass of occurrent
+%  entity: BFO_0000035
+all x (SpatiotemporalRegion(x) -> Occurrent(x)). 
+
+%  risk is subclass of disposition
+%  entity: BFO_0000034
+all x (Risk(x) -> Disposition(x)). 
+
+%  benefit is subclass of disposition
+%  entity: BFO_0000034
+all x (Benefit(x) -> Disposition(x)). 
+
+%  capability to consent is subclass of disposition
+%  entity: BFO_0000034
+all x (CapabilityToConsent(x) -> Disposition(x)). 
+
+%  capability to consent is subclass of disposition
+%  entity: BFO_0000034
+all x (CapabilityToConsent(x) -> Disposition(x)). 
+
+%  function is subclass of disposition
+%  entity: BFO_0000034
+all x (Function(x) -> Disposition(x)). 
+
+%  generically dependent continuant is subclass of continuant
+%  entity: BFO_0000031
+all x (GenericallyDependentContinuant(x) -> Continuant(x)). 
+
+%  independent continuant is subclass of continuant
+%  entity: BFO_0000031
+all x (IndependentContinuant(x) -> Continuant(x)). 
+
+%  specifically dependent continuant is subclass of continuant
+%  entity: BFO_0000031
+all x (SpecificallyDependentContinuant(x) -> Continuant(x)). 
+
+%  population is subclass of material entity
+%  entity: BFO_0000030
+all x (Population(x) -> MaterialEntity(x)). 
+
+%  collection of organisms is subclass of material entity
+%  entity: BFO_0000030
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (CollectionOfOrganisms(x) -> MaterialEntity(x)). 
+
+%  specimen is subclass of material entity
+%  entity: BFO_0000030
+all x (Specimen(x) -> MaterialEntity(x)). 
+
+%  document act target is subclass of material entity
+%  entity: BFO_0000030
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (DocumentActTarget(x) -> MaterialEntity(x)). 
+
+%  disorder is subclass of material entity
+%  entity: BFO_0000030
+all x (Disorder(x) -> MaterialEntity(x)). 
+
+%  Material anatomical entity is subclass of material entity
+%  entity: BFO_0000030
+all x (MaterialAnatomicalEntity(x) -> MaterialEntity(x)). 
+
+%  organization is subclass of material entity
+%  entity: BFO_0000030
+all x (Organization(x) -> MaterialEntity(x)). 
+
+%  material information bearer is subclass of material entity
+%  entity: BFO_0000030
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (MaterialInformationBearer(x) -> MaterialEntity(x)). 
+
+%  fiat object is subclass of material entity
+%  entity: BFO_0000030
+all x (FiatObject(x) -> MaterialEntity(x)). 
+
+%  object is subclass of material entity
+%  entity: BFO_0000030
+all x (Object(x) -> MaterialEntity(x)). 
+
+%  object aggregate is subclass of material entity
+%  entity: BFO_0000030
+all x (ObjectAggregate(x) -> MaterialEntity(x)). 
+
+%  agent is subclass of material entity
+%  entity: BFO_0000030
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (Agent(x) -> MaterialEntity(x)). 
+
+%  organism is subclass of material entity
+%  entity: BFO_0000030
+all x (Organism(x) -> MaterialEntity(x)). 
+
+%  aggregate of organizations is subclass of material entity
+%  entity: BFO_0000030
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (AggregateOfOrganizations(x) -> MaterialEntity(x)). 
+
+%  spatial region is subclass of immaterial entity
+%  entity: BFO_0000029
+all x (SpatialRegion(x) -> ImmaterialEntity(x)). 
+
+%  site is subclass of immaterial entity
+%  entity: BFO_0000029
+all x (Site(x) -> ImmaterialEntity(x)). 
+
+%  continuant fiat boundary is subclass of immaterial entity
+%  entity: BFO_0000029
+all x (ContinuantFiatBoundary(x) -> ImmaterialEntity(x)). 
+
+%  two-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000028
+all x (Two-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  zero-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000028
+all x (Zero-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  three-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000028
+all x (Three-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  one-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000028
+all x (One-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  population is subclass of material entity
+%  entity: BFO_0000027
+all x (Population(x) -> MaterialEntity(x)). 
+
+%  collection of organisms is subclass of material entity
+%  entity: BFO_0000027
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (CollectionOfOrganisms(x) -> MaterialEntity(x)). 
+
+%  specimen is subclass of material entity
+%  entity: BFO_0000027
+all x (Specimen(x) -> MaterialEntity(x)). 
+
+%  document act target is subclass of material entity
+%  entity: BFO_0000027
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (DocumentActTarget(x) -> MaterialEntity(x)). 
+
+%  disorder is subclass of material entity
+%  entity: BFO_0000027
+all x (Disorder(x) -> MaterialEntity(x)). 
+
+%  Material anatomical entity is subclass of material entity
+%  entity: BFO_0000027
+all x (MaterialAnatomicalEntity(x) -> MaterialEntity(x)). 
+
+%  organization is subclass of material entity
+%  entity: BFO_0000027
+all x (Organization(x) -> MaterialEntity(x)). 
+
+%  material information bearer is subclass of material entity
+%  entity: BFO_0000027
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (MaterialInformationBearer(x) -> MaterialEntity(x)). 
+
+%  fiat object is subclass of material entity
+%  entity: BFO_0000027
+all x (FiatObject(x) -> MaterialEntity(x)). 
+
+%  object is subclass of material entity
+%  entity: BFO_0000027
+all x (Object(x) -> MaterialEntity(x)). 
+
+%  object aggregate is subclass of material entity
+%  entity: BFO_0000027
+all x (ObjectAggregate(x) -> MaterialEntity(x)). 
+
+%  agent is subclass of material entity
+%  entity: BFO_0000027
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (Agent(x) -> MaterialEntity(x)). 
+
+%  organism is subclass of material entity
+%  entity: BFO_0000027
+all x (Organism(x) -> MaterialEntity(x)). 
+
+%  aggregate of organizations is subclass of material entity
+%  entity: BFO_0000027
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (AggregateOfOrganizations(x) -> MaterialEntity(x)). 
+
+%  two-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000026
+all x (Two-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  zero-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000026
+all x (Zero-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  three-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000026
+all x (Three-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  one-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000026
+all x (One-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  population is subclass of material entity
+%  entity: BFO_0000024
+all x (Population(x) -> MaterialEntity(x)). 
+
+%  collection of organisms is subclass of material entity
+%  entity: BFO_0000024
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (CollectionOfOrganisms(x) -> MaterialEntity(x)). 
+
+%  specimen is subclass of material entity
+%  entity: BFO_0000024
+all x (Specimen(x) -> MaterialEntity(x)). 
+
+%  document act target is subclass of material entity
+%  entity: BFO_0000024
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (DocumentActTarget(x) -> MaterialEntity(x)). 
+
+%  disorder is subclass of material entity
+%  entity: BFO_0000024
+all x (Disorder(x) -> MaterialEntity(x)). 
+
+%  Material anatomical entity is subclass of material entity
+%  entity: BFO_0000024
+all x (MaterialAnatomicalEntity(x) -> MaterialEntity(x)). 
+
+%  organization is subclass of material entity
+%  entity: BFO_0000024
+all x (Organization(x) -> MaterialEntity(x)). 
+
+%  material information bearer is subclass of material entity
+%  entity: BFO_0000024
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (MaterialInformationBearer(x) -> MaterialEntity(x)). 
+
+%  fiat object is subclass of material entity
+%  entity: BFO_0000024
+all x (FiatObject(x) -> MaterialEntity(x)). 
+
+%  object is subclass of material entity
+%  entity: BFO_0000024
+all x (Object(x) -> MaterialEntity(x)). 
+
+%  object aggregate is subclass of material entity
+%  entity: BFO_0000024
+all x (ObjectAggregate(x) -> MaterialEntity(x)). 
+
+%  agent is subclass of material entity
+%  entity: BFO_0000024
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (Agent(x) -> MaterialEntity(x)). 
+
+%  organism is subclass of material entity
+%  entity: BFO_0000024
+all x (Organism(x) -> MaterialEntity(x)). 
+
+%  aggregate of organizations is subclass of material entity
+%  entity: BFO_0000024
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (AggregateOfOrganizations(x) -> MaterialEntity(x)). 
+
+%  role is subclass of realizable entity
+%  entity: BFO_0000023
+all x (Role(x) -> RealizableEntity(x)). 
+
+%  disposition is subclass of realizable entity
+%  entity: BFO_0000023
+all x (Disposition(x) -> RealizableEntity(x)). 
+
+%  generically dependent continuant is subclass of continuant
+%  entity: BFO_0000020
+all x (GenericallyDependentContinuant(x) -> Continuant(x)). 
+
+%  independent continuant is subclass of continuant
+%  entity: BFO_0000020
+all x (IndependentContinuant(x) -> Continuant(x)). 
+
+%  specifically dependent continuant is subclass of continuant
+%  entity: BFO_0000020
+all x (SpecificallyDependentContinuant(x) -> Continuant(x)). 
+
+%  realizable entity is subclass of specifically dependent continuant
+%  entity: BFO_0000019
+all x (RealizableEntity(x) -> SpecificallyDependentContinuant(x)). 
+
+%  quality is subclass of specifically dependent continuant
+%  entity: BFO_0000019
+all x (Quality(x) -> SpecificallyDependentContinuant(x)). 
+
+%  two-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000018
+all x (Two-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  zero-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000018
+all x (Zero-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  three-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000018
+all x (Three-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  one-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000018
+all x (One-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  realizable entity is subclass of specifically dependent continuant
+%  entity: BFO_0000017
+all x (RealizableEntity(x) -> SpecificallyDependentContinuant(x)). 
+
+%  quality is subclass of specifically dependent continuant
+%  entity: BFO_0000017
+all x (Quality(x) -> SpecificallyDependentContinuant(x)). 
+
+%  role is subclass of realizable entity
+%  entity: BFO_0000016
+all x (Role(x) -> RealizableEntity(x)). 
+
+%  disposition is subclass of realizable entity
+%  entity: BFO_0000016
+all x (Disposition(x) -> RealizableEntity(x)). 
+
+%  temporal region is subclass of occurrent
+%  entity: BFO_0000015
+all x (TemporalRegion(x) -> Occurrent(x)). 
+
+%  process is subclass of occurrent
+%  entity: BFO_0000015
+all x (Process(x) -> Occurrent(x)). 
+
+%  process boundary is subclass of occurrent
+%  entity: BFO_0000015
+all x (ProcessBoundary(x) -> Occurrent(x)). 
+
+%  spatiotemporal region is subclass of occurrent
+%  entity: BFO_0000015
+all x (SpatiotemporalRegion(x) -> Occurrent(x)). 
+
+%  temporal region is subclass of occurrent
+%  entity: BFO_0000011
+all x (TemporalRegion(x) -> Occurrent(x)). 
+
+%  process is subclass of occurrent
+%  entity: BFO_0000011
+all x (Process(x) -> Occurrent(x)). 
+
+%  process boundary is subclass of occurrent
+%  entity: BFO_0000011
+all x (ProcessBoundary(x) -> Occurrent(x)). 
+
+%  spatiotemporal region is subclass of occurrent
+%  entity: BFO_0000011
+all x (SpatiotemporalRegion(x) -> Occurrent(x)). 
+
+%  two-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000009
+all x (Two-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  zero-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000009
+all x (Zero-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  three-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000009
+all x (Three-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  one-dimensional spatial region is subclass of spatial region
+%  entity: BFO_0000009
+all x (One-DimensionalSpatialRegion(x) -> SpatialRegion(x)). 
+
+%  temporal region is subclass of occurrent
+%  entity: BFO_0000008
+all x (TemporalRegion(x) -> Occurrent(x)). 
+
+%  process is subclass of occurrent
+%  entity: BFO_0000008
+all x (Process(x) -> Occurrent(x)). 
+
+%  process boundary is subclass of occurrent
+%  entity: BFO_0000008
+all x (ProcessBoundary(x) -> Occurrent(x)). 
+
+%  spatiotemporal region is subclass of occurrent
+%  entity: BFO_0000008
+all x (SpatiotemporalRegion(x) -> Occurrent(x)). 
+
+%  spatial region is subclass of immaterial entity
+%  entity: BFO_0000006
+all x (SpatialRegion(x) -> ImmaterialEntity(x)). 
+
+%  site is subclass of immaterial entity
+%  entity: BFO_0000006
+all x (Site(x) -> ImmaterialEntity(x)). 
+
+%  continuant fiat boundary is subclass of immaterial entity
+%  entity: BFO_0000006
+all x (ContinuantFiatBoundary(x) -> ImmaterialEntity(x)). 
+
+%  generically dependent continuant is subclass of continuant
+%  entity: BFO_0000004
+all x (GenericallyDependentContinuant(x) -> Continuant(x)). 
+
+%  independent continuant is subclass of continuant
+%  entity: BFO_0000004
+all x (IndependentContinuant(x) -> Continuant(x)). 
+
+%  specifically dependent continuant is subclass of continuant
+%  entity: BFO_0000004
+all x (SpecificallyDependentContinuant(x) -> Continuant(x)). 
+
+%  occurrent is subclass of entity
+%  entity: BFO_0000003
+all x (Occurrent(x) -> Entity(x)). 
+
+%  continuant is subclass of entity
+%  entity: BFO_0000003
+all x (Continuant(x) -> Entity(x)). 
+
+%  occurrent is subclass of entity
+%  entity: BFO_0000002
+all x (Occurrent(x) -> Entity(x)). 
+
+%  continuant is subclass of entity
+%  entity: BFO_0000002
+all x (Continuant(x) -> Entity(x)). 
 

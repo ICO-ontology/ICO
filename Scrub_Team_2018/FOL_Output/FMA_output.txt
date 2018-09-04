@@ -1,209 +1,86 @@
-%  http://purl.obolibrary.org/obo/FMA_67165
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_67165
-%  label: Material anatomical entity
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  population is subclass of material entity
+%  entity: FMA_67165
+all x (Population(x) -> MaterialEntity(x)). 
 
-all x (Material_anatomical_entity(x) -> material_entity(x)). 
+%  collection of organisms is subclass of material entity
+%  entity: FMA_67165
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (CollectionOfOrganisms(x) -> MaterialEntity(x)). 
 
-%  http://purl.obolibrary.org/obo/FMA_67165
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_67165
-%  label: aggregate of organizations
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: N0221c3e9a91f46ce8cbb698834f04a35
-%  SubclassAxiom: N0221c3e9a91f46ce8cbb698834f04a35
+%  specimen is subclass of material entity
+%  entity: FMA_67165
+all x (Specimen(x) -> MaterialEntity(x)). 
 
-all x (aggregate_of_organizations(x) -> material_entity(x)). 
+%  document act target is subclass of material entity
+%  entity: FMA_67165
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (DocumentActTarget(x) -> MaterialEntity(x)). 
 
-%  http://purl.obolibrary.org/obo/FMA_67165
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_67165
-%  label: document act target
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: N8d6effe8ab6e4374b3206070ce62f5f9
-%  SubclassAxiom: N8d6effe8ab6e4374b3206070ce62f5f9
+%  disorder is subclass of material entity
+%  entity: FMA_67165
+all x (Disorder(x) -> MaterialEntity(x)). 
 
-all x (document_act_target(x) -> material_entity(x)). 
+%  Material anatomical entity is subclass of material entity
+%  entity: FMA_67165
+all x (MaterialAnatomicalEntity(x) -> MaterialEntity(x)). 
 
-%  http://purl.obolibrary.org/obo/FMA_67165
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_67165
-%  label: specimen
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  organization is subclass of material entity
+%  entity: FMA_67165
+all x (Organization(x) -> MaterialEntity(x)). 
 
-all x (specimen(x) -> material_entity(x)). 
+%  material information bearer is subclass of material entity
+%  entity: FMA_67165
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (MaterialInformationBearer(x) -> MaterialEntity(x)). 
 
-%  http://purl.obolibrary.org/obo/FMA_67165
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_67165
-%  label: fiat object
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  fiat object is subclass of material entity
+%  entity: FMA_67165
+all x (FiatObject(x) -> MaterialEntity(x)). 
 
-all x (fiat_object(x) -> material_entity(x)). 
+%  object is subclass of material entity
+%  entity: FMA_67165
+all x (Object(x) -> MaterialEntity(x)). 
 
-%  http://purl.obolibrary.org/obo/FMA_67165
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_67165
-%  label: population
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  object aggregate is subclass of material entity
+%  entity: FMA_67165
+all x (ObjectAggregate(x) -> MaterialEntity(x)). 
 
-all x (population(x) -> material_entity(x)). 
+%  agent is subclass of material entity
+%  entity: FMA_67165
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (Agent(x) -> MaterialEntity(x)). 
 
-%  http://purl.obolibrary.org/obo/FMA_67165
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_67165
-%  label: organization
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  organism is subclass of material entity
+%  entity: FMA_67165
+all x (Organism(x) -> MaterialEntity(x)). 
 
-all x (organization(x) -> material_entity(x)). 
+%  aggregate of organizations is subclass of material entity
+%  entity: FMA_67165
+% Has EquivalenceAxiom! 
+% Check FOL_output/AXIOMS_output.txt for EquivalenceAxiom
+all x (AggregateOfOrganizations(x) -> MaterialEntity(x)). 
 
-%  http://purl.obolibrary.org/obo/FMA_67165
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_67165
-%  label: object aggregate
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  Anatomical structure is subclass of Material anatomical entity
+%  entity: FMA_67135
+all x (AnatomicalStructure(x) -> MaterialAnatomicalEntity(x)). 
 
-all x (object_aggregate(x) -> material_entity(x)). 
+%  Heterogeneous cluster is subclass of Anatomical cluster
+%  entity: FMA_64989
+all x (HeterogeneousCluster(x) -> AnatomicalCluster(x)). 
 
-%  http://purl.obolibrary.org/obo/FMA_67165
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_67165
-%  label: object
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
+%  Subdivision of larynx is subclass of Heterogeneous cluster
+%  entity: FMA_64854
+all x (SubdivisionOfLarynx(x) -> HeterogeneousCluster(x)). 
 
-all x (object(x) -> material_entity(x)). 
+%  vocal fold is subclass of Subdivision of larynx
+%  entity: FMA_55457
+all x (VocalFold(x) -> SubdivisionOfLarynx(x)). 
 
-%  http://purl.obolibrary.org/obo/FMA_67165
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_67165
-%  label: disorder
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (disorder(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/FMA_67165
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_67165
-%  label: agent
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: Nadf41d156c904047a4196ee5f3c34d3a
-%  SubclassAxiom: Nadf41d156c904047a4196ee5f3c34d3a
-
-all x (agent(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/FMA_67165
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_67165
-%  label: collection of organisms
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: Nb31af1832ff9445c915f3af4bd45d6e4
-%  SubclassAxiom: Nb31af1832ff9445c915f3af4bd45d6e4
-
-all x (collection_of_organisms(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/FMA_67165
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_67165
-%  label: material information bearer
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: N7218132e9d664685b281f7bb7d73f294
-%  SubclassAxiom: N7218132e9d664685b281f7bb7d73f294
-
-all x (material_information_bearer(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/FMA_67165
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_67165
-%  label: organism
-%  parent: http://purl.obolibrary.org/obo/BFO_0000040
-%  parentLabel: material entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (organism(x) -> material_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/FMA_67135
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_67135
-%  label: Anatomical structure
-%  parent: http://purl.obolibrary.org/obo/FMA_67165
-%  parentLabel: Material anatomical entity
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (Anatomical_structure(x) -> Material_anatomical_entity(x)). 
-
-%  http://purl.obolibrary.org/obo/FMA_64989
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_64989
-%  label: Heterogeneous cluster
-%  parent: http://purl.obolibrary.org/obo/FMA_49443
-%  parentLabel: Anatomical cluster
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (Heterogeneous_cluster(x) -> Anatomical_cluster(x)). 
-
-%  http://purl.obolibrary.org/obo/FMA_64854
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_64854
-%  label: Subdivision of larynx
-%  parent: http://purl.obolibrary.org/obo/FMA_64989
-%  parentLabel: Heterogeneous cluster
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (Subdivision_of_larynx(x) -> Heterogeneous_cluster(x)). 
-
-%  http://purl.obolibrary.org/obo/FMA_55457
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_55457
-%  label: vocal fold
-%  parent: http://purl.obolibrary.org/obo/FMA_64854
-%  parentLabel: Subdivision of larynx
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (vocal_fold(x) -> Subdivision_of_larynx(x)). 
-
-%  http://purl.obolibrary.org/obo/FMA_49443
-%  source ontology: FMA
-%  entity: http://purl.obolibrary.org/obo/FMA_49443
-%  label: Anatomical cluster
-%  parent: http://purl.obolibrary.org/obo/FMA_67135
-%  parentLabel: Anatomical structure
-%  EquivalenceAxiom: None
-%  SubclassAxiom: None
-
-all x (Anatomical_cluster(x) -> Anatomical_structure(x)). 
+%  Anatomical cluster is subclass of Anatomical structure
+%  entity: FMA_49443
+all x (AnatomicalCluster(x) -> AnatomicalStructure(x)). 
 
