@@ -1,0 +1,16 @@
+%  Homo sapiens is subclass of Homo sapiens
+%  entity: NCBITaxon_9606
+all x (HomoSapiens(x) -> HomoSapiens(x)). 
+
+%  Homo sapiens is subclass of Homo sapiens
+%  entity: NCBITaxon_9606
+all x (HomoSapiens(x) -> HomoSapiens(x)). 
+
+%  Homo sapiens is subclass of organism
+%  entity: NCBITaxon_9606
+all x (HomoSapiens(x) -> Organism(x)). 
+
+%  Homo sapiens is subclass of organism
+%  entity: NCBITaxon_9606
+all x (HomoSapiens(x) -> Organism(x)). 
+

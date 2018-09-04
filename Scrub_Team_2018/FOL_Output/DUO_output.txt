@@ -1,0 +1,36 @@
+%  data about an ontology part is subclass of data item
+%  entity: DUO_0000001
+all x (DataAboutAnOntologyPart(x) -> DataItem(x)). 
+
+%  informed consent identification code is subclass of data item
+%  entity: DUO_0000001
+all x (InformedConsentIdentificationCode(x) -> DataItem(x)). 
+
+%  measurement datum is subclass of data item
+%  entity: DUO_0000001
+all x (MeasurementDatum(x) -> DataItem(x)). 
+
+%  data set is subclass of data item
+%  entity: DUO_0000001
+all x (DataSet(x) -> DataItem(x)). 
+
+%  setting datum is subclass of data item
+%  entity: DUO_0000001
+all x (SettingDatum(x) -> DataItem(x)). 
+
+%  consent code is subclass of data item
+%  entity: DUO_0000001
+all x (ConsentCode(x) -> DataItem(x)). 
+
+%  cartesian spatial coordinate datum is subclass of data item
+%  entity: DUO_0000001
+all x (CartesianSpatialCoordinateDatum(x) -> DataItem(x)). 
+
+%  cartesian spatial coordinate datum is subclass of data item
+%  entity: DUO_0000001
+all x (CartesianSpatialCoordinateDatum(x) -> DataItem(x)). 
+
+%  cartesian spatial coordinate datum is subclass of data item
+%  entity: DUO_0000001
+all x (CartesianSpatialCoordinateDatum(x) -> DataItem(x)). 
+
