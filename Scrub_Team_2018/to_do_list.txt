@@ -23,7 +23,8 @@ Terms to add:
 
 Up Next:
 - SEE OBI DICEs
-- 'vunerable individual role' and 'vunerabilty' need annotation properties
+- 'vunerable individual role' and 'vunerabilty' need annotation properties explaining usage
+- ICO or RUBRIC needs to have 'material transfer agreements' and perhaps processes of material transfer
 - RUBRIC: 'Answer directive' label to 'user-input'
 - RUBRIC: Every conditional will have a trigger condition description ('if') and a consequent directive ('then').
 - Medical procedure should be 'research procedure' and 'clinical procedure'
