@@ -2407,7 +2407,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A deontic role, which may be realized in an Act of Consent, where the bearer of the legal representative role consents on behalf of a person who lacks the capability to provide consent.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">Hypothesis: it is a requirement of bearing a legal representative role in some jurisdiction(J) that one also bears a competency to consent in (J).</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">It is a requirement of bearing a legal representative role in some jurisdiction(J) that one also bears a competency to consent in (J).</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">Mathias says this shouldn&apos;t mention &apos;act of consent&apos;. I think the idea is that our definition is narrower than the class label indicates.</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">Note: Consent roles are created by Acts of Consent. It follows that one can’t be a consenter and bear a consenter role just because one participated in an informed consent process. Here, one would be a mere research candidate or human subject or...etc, who participated in an informed consent process. Assenter Role, likewise, is the output of an Act of Communicating Assent. Both these roles are backward looking--i.e. They are created by the processes of assent and consent and do not pre-date them. By contrast, ‘Legal Representative Role’ and ‘Permission Role’ are not, by definition, tied to Acts of Consenting and Acts of Assenting. Such roles are the output of other processes, including ‘Act of Permitting’ in the latter case, and perhaps ‘Act of Legal Representative Authorization’ in the former.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">legal representative role</rdfs:label>
@@ -2418,10 +2418,10 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000188">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0561614"/>
         <obo:IAO_0000115 xml:lang="en">A role borne by a human being who is part of a group of individuals and acts as a contact person for the group.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">contact role</rdfs:label>
+        <rdfs:label xml:lang="en">organization-specified contact role</rdfs:label>
     </owl:Class>
     
 
@@ -2511,7 +2511,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Axiom: Every ‘Act of permitting’ has process part some (‘Speech Act’ or ‘Document Act’).
 Note: This class is very general, and doesn’t only apply to consent and healthcare contexts.</obo:IAO_0000232>
-        <obo:IAO_0000232 xml:lang="en">Note: This will eventually live in D-acts, along with Deontic Role and Permission Role.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">In contrast to the &apos;authentication&apos; (see OMRSE), an act of permitting always involves a flow of power, in which one who grants permission has a power, and the agent to whom permission is granted gains access to a power that flows from that of the granter.</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">Note: ‘Act of permitting’, ‘act of consenting’, and ‘act of communicating assent’ are all success terms, which is to say that no ‘act of permitting’ does not issue a permission, no ‘act of consenting’ does not issue a consent, and no ‘act of communicating assent’ does not issue an assent.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">act of permitting</rdfs:label>
     </owl:Class>
@@ -2558,9 +2558,15 @@ Also, 6/28: Mathias writes: This definition is probably incorrect. I assume we d
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000198">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role that inheres in an agent and which is externally grounded in the personal normative expectations of other agents within a social context.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000220"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in an agent and which is externally grounded in the normative expectations that other agents within a social context have concerning how that agent should behave.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">This may be a D-acts term. TBD.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">This class should be removed.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">deontic role</rdfs:label>
     </owl:Class>
     
@@ -3012,6 +3018,31 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Check against &apos;act of communication&apos; in RUBRIC.</rdfs:comment>
         <rdfs:label xml:lang="en">act of data sharing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0561613 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0561613">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0561614"/>
+        <obo:IAO_0000115 xml:lang="en">A contact person role that is the output of either a human subject or patient assigning that person as their point of contact.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">emergency contact role</obo:IAO_0000118>
+        <dc:creator xml:lang="en">J. Neil Otte</dc:creator>
+        <rdfs:label xml:lang="en">human subject-specified contact person role</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">organization-specified contact role</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0561614 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0561614">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role inhering in a person who is a designated contact for some other agent.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">The subclasses of &apos;contact person role&apos; distinguish two types: a contact person who has been designated by an organization for others (primarily patients and human research subjects in clinical settings) to contact, and a contact person whom an agent has specified for an organization to contact in the event that the organization needs to contact the patient. Examples of the latter include &apos;emergency contact&apos; persons, who are frequently specified in a form.</rdfs:comment>
+        <rdfs:label xml:lang="en">contact person role</rdfs:label>
     </owl:Class>
     
 
