@@ -196,8 +196,8 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000224">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000225"/>
+        <obo:IAO_0000115 xml:lang="en">A relation between an instance of Process and an instance of Continuant, where the continuant is a causal participant in the process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">A relation between an instance of Process and an instance of Continuant, where the continuant is a causal participant in the process.</rdfs:comment>
         <rdfs:label xml:lang="en">has agent</rdfs:label>
     </owl:ObjectProperty>
     
@@ -2511,7 +2511,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Axiom: Every ‘Act of permitting’ has process part some (‘Speech Act’ or ‘Document Act’).
 Note: This class is very general, and doesn’t only apply to consent and healthcare contexts.</obo:IAO_0000232>
-        <obo:IAO_0000232 xml:lang="en">In contrast to the &apos;authentication&apos; (see OMRSE), an act of permitting always involves a flow of power, in which one who grants permission has a power, and the agent to whom permission is granted gains access to a power that flows from that of the granter.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">In contrast to the &apos;authentication&apos; (see OMRSE), an act of permitting always involves a flow of power, in which one who grants permission has a power, and the agent to whom permission is granted gains access to a power that flows from that of the granter. By contrast, although it may be the case that a person who authenticates has power, this power is only the power to authenticate or verify, and this power does not flow to the authenticated document or identity.</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">Note: ‘Act of permitting’, ‘act of consenting’, and ‘act of communicating assent’ are all success terms, which is to say that no ‘act of permitting’ does not issue a permission, no ‘act of consenting’ does not issue a consent, and no ‘act of communicating assent’ does not issue an assent.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">act of permitting</rdfs:label>
     </owl:Class>
@@ -2554,28 +2554,10 @@ Also, 6/28: Mathias writes: This definition is probably incorrect. I assume we d
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_0000198 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000198">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000220"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A role that inheres in an agent and which is externally grounded in the normative expectations that other agents within a social context have concerning how that agent should behave.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">This class should be removed.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">deontic role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ICO_0000199 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000199">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000198"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021008"/>
         <obo:IAO_0000115 xml:lang="en">A deontic role that inheres in an agent and which permits certain actions.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">Important Note: When we use ‘consent’ to talk about the thing provided to an investigator then what we are referring to is a permission role, that was the output of an Act of Consent. This is all consent is, per this representation.</obo:IAO_0000232>
@@ -2740,7 +2722,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ICO_0000215 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000215">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000198"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021008"/>
         <obo:IAO_0000115 xml:lang="en">A deontic role that, if realized, is realized in the creation, modification, or revoking of other deontic roles.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">deontic power role</rdfs:label>
@@ -2753,7 +2735,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that involves altering an information content entity that is associated with an individual, such that such association is lost or inaccessible.</obo:IAO_0000115>
-        <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of anonymizing</rdfs:label>
     </owl:Class>
     
@@ -2764,7 +2746,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000218">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000217"/>
         <obo:IAO_0000115 xml:lang="en">An act of anonymization that alters an information content entity by removing information content which identifies that individual.</obo:IAO_0000115>
-        <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of removing identifiable information</rdfs:label>
     </owl:Class>
     
@@ -2783,7 +2765,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 xml:lang="en">A material entity (either a human being or an aggregate of humans such as an organization) which is active in a process or has the relevant capabilities of intentionality.</obo:IAO_0000115>
-        <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">agent</rdfs:label>
     </owl:Class>
     
@@ -2992,8 +2974,8 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000223">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000215"/>
         <obo:IAO_0000115 xml:lang="en">A deontic power role that may be realized in an act of consent that is a process part of an informed consent process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">a consent power role is a legal right that holds within a jurisdiction and is a necessary requirement to bear a competency to consent.</obo:IAO_0000232>
-        <dc:creator xml:lang="en">J. Neil Otte</dc:creator>
         <rdfs:label xml:lang="en">consent power role</rdfs:label>
     </owl:Class>
     
@@ -3027,8 +3009,8 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0561613">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0561614"/>
         <obo:IAO_0000115 xml:lang="en">A contact person role that is the output of either a human subject or patient assigning that person as their point of contact.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">emergency contact role</obo:IAO_0000118>
-        <dc:creator xml:lang="en">J. Neil Otte</dc:creator>
         <rdfs:label xml:lang="en">human subject-specified contact person role</rdfs:label>
         <rdfs:seeAlso xml:lang="en">organization-specified contact role</rdfs:seeAlso>
     </owl:Class>
