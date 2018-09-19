@@ -196,8 +196,8 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000224">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000225"/>
-        <obo:IAO_0000115 xml:lang="en">A relation between an instance of Process and an instance of Continuant, where the continuant is a causal participant in the process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">A relation between an instance of Process and an instance of Continuant, where the continuant is a causal participant in the process.</rdfs:comment>
         <rdfs:label xml:lang="en">has agent</rdfs:label>
     </owl:ObjectProperty>
     
