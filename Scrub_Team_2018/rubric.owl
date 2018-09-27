@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/"
      xml:base="http://purl.obolibrary.org/obo/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -20,6 +21,7 @@
         <dc:contributor xml:lang="en">Barry Smith</dc:contributor>
         <dc:contributor xml:lang="en">Daniel Welch</dc:contributor>
         <dc:creator xml:lang="en">Mohammad &quot;Tuan&quot; Amith</dc:creator>
+        <dc:creator xml:lang="en">J. Neil Otte</dc:creator>
         <dc:contributor xml:lang="en">Alla Karnovsky</dc:contributor>
         <dc:creator xml:lang="en">Cui Tao</dc:creator>
         <dc:title>RUBRIC: the RegUlatory Basis foR Informed Consent</dc:title>
@@ -161,7 +163,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/GO_0007565 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007565">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <IAO_0000115 xml:lang="en">The set of physiological processes that allow an embryo or foetus to develop within the body of a female animal. It covers the time from fertilization of a female ovum by a male spermatozoon until birth. [database_cross_reference: ISBN:0192800825]</IAO_0000115>
         <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/GO_0007565"/>
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
@@ -173,7 +175,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/NCIT_C70800 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C70800">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000163"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
         <IAO_0000115 xml:lang="en">A document containing the determination of the Institutional Review Board (IRB) that the clinical study with human subject participation has been reviewed and may be conducted at a particular study site within the constraints set forth by the IRB and other institutional and federal requirements. The regulations require that an IRB conduct continuing review of research at intervals appropriate to the degree of risk, but not less than once a year. [def-source: NCI]</IAO_0000115>
         <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70800"/>
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
@@ -185,10 +187,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/NCIT_C85521 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C85521">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <IAO_0000115 xml:lang="en">The state of being confined to jail or prison. [def-source: NCI]</IAO_0000115>
         <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85521"/>
         <dc:date xml:lang="en">Imported 8.22.2018</dc:date>
+        <rdfs:comment xml:lang="en">Note from J. Neil Otte: Incarceration can include facilities other than prison or jail. Also, there&apos;s a meaningful distinction between states and processes getting lost here. Review.</rdfs:comment>
         <rdfs:label xml:lang="en">incarceration</rdfs:label>
     </owl:Class>
     
@@ -197,7 +200,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/OBI_0000202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000202">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <IAO_0000115 xml:lang="en">A role borne by an entity and that is realized in a process that is part of an investigation in which an objective is achieved. These processes include, among others: planning, overseeing, funding, reviewing.</IAO_0000115>
         <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
@@ -209,7 +212,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/OBI_0000272 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000272">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000163"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
         <IAO_0000115 xml:lang="en">A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.</IAO_0000115>
         <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
@@ -221,7 +224,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/OBI_0000450 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000450">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <IAO_0000115 xml:lang="en">A regulatory agency is a organization that has responsibility over or for the legislation (acts and regulations) for a given sector of the government.</IAO_0000115>
         <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000450"/>
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
@@ -233,7 +236,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/OBI_0000844 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000844">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001942"/>
         <IAO_0000115 xml:lang="en">A medical organization at which sick or injured people are given clinical care.</IAO_0000115>
         <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000844"/>
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
@@ -245,7 +248,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/OBI_0001942 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001942">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <IAO_0000115 xml:lang="en">An organization that provides funding support for projects such as investigations.</IAO_0000115>
         <IAO_0000118 xml:lang="en">funding organization</IAO_0000118>
         <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OBI_0001942"/>
@@ -258,7 +261,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/OMIABIS_0000017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <IAO_0000115 xml:lang="en">An organization with a specific responsibility that is a part of a larger organization with a specific responsibility.</IAO_0000115>
         <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000017"/>
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
@@ -270,7 +273,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <IAO_0000115 xml:lang="en">A role borne by a human individual or by a collection of humans regarded as possessing rights and duties enforeable at law.</IAO_0000115>
         <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000038"/>
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
@@ -282,7 +285,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000062">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <IAO_0000115 xml:lang="en">A role that inheres in an organization and that, if realized, is realized by its bearer overseeing the overall operation of a hospital.</IAO_0000115>
         <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000062"/>
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
@@ -294,43 +297,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000117">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <IAO_0000115 xml:lang="en">A role that, if realized, is realized in the organization context of a committee.</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <IAO_0000115 xml:lang="en">A role that, if realized, is realized in the organizational context of a committee.</IAO_0000115>
         <IAO_0000412 xml:lang="en">http://purl.obolibrary.org/obo/OOSTT_00000117</IAO_0000412>
         <dc:date xml:lang="en">Imported 8.30.2018.</dc:date>
         <rdfs:label xml:lang="en">committee member role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000271 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000271">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
-        <IAO_0000115 xml:lang="en">An organization that is part of the machinery of government and that is responsible for the oversight and administration of specific functions. The government agencies are given the authority to fulfill those responsibilities by the government.</IAO_0000115>
-        <IAO_0000232 xml:lang="en">Another definition as proposed by the Common Core Ontologies: 
-
-&quot;An Organization that exercises executive, legislative, or judicial authority over a Geopolitical Entity.&quot; 
-
-Copyright (c) 2017, CUBRC, Inc.
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice, this
-  list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright notice,
-  this list of conditions and the following disclaimer in the documentation
-  and/or other materials provided with the distribution.
-
-* Neither the name of the copyright holder nor the names of its
-  contributors may be used to endorse or promote products derived from
-  this software without specific prior written permission.</IAO_0000232>
-        <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000271"/>
-        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
-        <rdfs:label xml:lang="en">government</rdfs:label>
     </owl:Class>
     
 
@@ -559,14 +530,6 @@ modification, are permitted provided that the following conditions are met:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000028 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000028">
-        <rdfs:label xml:lang="en">NEEDS_REVIEW</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000031">
@@ -597,7 +560,6 @@ modification, are permitted provided that the following conditions are met:
         <IAO_0000115 xml:lang="en">A descriptive information content entity that describes some state of affairs such that, if that state of affairs holds, some other prescription follows.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <IAO_0000232 xml:lang="en">An antecedent.</IAO_0000232>
-        <rdfs:label xml:lang="en">IRB member role</rdfs:label>
         <rdfs:label xml:lang="en">description of trigger condition</rdfs:label>
     </owl:Class>
     
@@ -615,35 +577,13 @@ modification, are permitted provided that the following conditions are met:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000036 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
-        <rdfs:label xml:lang="en">BFO:ROLES</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <IAO_0000115 xml:lang="en">A role inhereing in an agent realized in that agent participating passively in a process involing a transaction.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;witness.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
-        <IAO_0000232 xml:lang="en">This needs further discussion because a witness role is perhaps only realized in some process of &apos;contesting&apos; whereby this person is required to provide testimony as evidence. I&apos;m not sure how, or when this role is realized.
-
-Also &apos;passive participation&apos; is horrible.</IAO_0000232>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <IAO_0000115 xml:lang="en">A role inhering in an agent as a result of that agent having observed some process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">witness role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000038 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000058"/>
-        <rdfs:label xml:lang="en">DESCRIPTIVE ICES</rdfs:label>
     </owl:Class>
     
 
@@ -651,19 +591,11 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the permissible processes for withdraw from another process.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">termination of participation directive</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000046 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
-        <rdfs:label xml:lang="en">BFO:PROCESSES</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes some process for withdraw from another planned process.</IAO_0000115>
+        <IAO_0000116 xml:lang="en">Frequently we envision this class being used for directives from a patient who wishes to withdraw from a study process, but it may have broader use as well.</IAO_0000116>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <rdfs:label xml:lang="en">withdrawal from participation directive</rdfs:label>
     </owl:Class>
     
 
@@ -671,11 +603,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000179"/>
-        <IAO_0000115 xml:lang="en">A quality inhereing in a Homo sapiens prescribed by an information content entity in a jursidiction that participates in a stasis of law that is the time of life at which some particular qualification, power, or capacity arises or rests.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;age.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
-        <IAO_0000232 xml:lang="en">This definition was adapted from the Merriam-Webster &apos;age&apos; definition, and reflects a binary notion of age: (1) a person can either &apos;be of legal age&apos; or not. There are no grey areas. (2) The precise defition, i.e., the number of years required to &apos;be of legal age&apos; may be different in different jurisdictions. Driving permits in the United States are an example of this.</IAO_0000232>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <IAO_0000115 xml:lang="en">A temporal region identifier that designates the temporal region during which a living person is alive, and where the temporal region is such that the living person is qualified to exercise a deontic power within a legal jurisdiction.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">legal age</rdfs:label>
     </owl:Class>
     
@@ -684,20 +614,11 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000115 xml:lang="en">A planned process of providing formal or official sanction for some information content entity by an agent with authority in a jursidiction.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;approve.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <IAO_0000115 xml:lang="en">A social act in which formal or official endorsement of some entity is communicated.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
+        <rdfs:comment xml:lang="en">This &apos;act of approving&apos; is distinct from the mental act of approving.</rdfs:comment>
         <rdfs:label xml:lang="en">act of approving</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000053 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000058"/>
-        <rdfs:label xml:lang="en">DIRECTIVE ICES</rdfs:label>
     </owl:Class>
     
 
@@ -705,10 +626,10 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the language that must be used.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">understood language directive</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the language that must be used in an informed consent process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <rdfs:label xml:lang="en">consent language directive</rdfs:label>
     </owl:Class>
     
 
@@ -716,9 +637,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000055">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes other processes that can be substituted or chosen.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes some process that is distinct from a planned process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of alternative</rdfs:label>
     </owl:Class>
     
@@ -727,22 +648,11 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the use of express or implied threats of violence, reprisal  or other behavior that puts a person in immediate fear of the consequences in order to compel that agent to act against its will.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;coercion.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
-        <IAO_0000232 xml:lang="en">Further discussion required</IAO_0000232>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the use of expressed or implied threats that may cause an agent to be compelled to act out of fear against that agent&apos;s will.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <IAO_0000232 xml:lang="en">It may be necessary to define processes of coercion in addition to descriptions of the process.</IAO_0000232>
         <rdfs:label xml:lang="en">description of coercion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000058 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000058">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
-        <rdfs:label xml:lang="en">IAO:ICE</rdfs:label>
     </owl:Class>
     
 
@@ -761,10 +671,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000060">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000115 xml:lang="en">A planned process of making a formal decision or judgement about some course of action.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;decide.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <IAO_0000115 xml:lang="en">A planned process of drawing an inference from a consideration of evidence.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">act of deciding</rdfs:label>
     </owl:Class>
     
@@ -773,8 +682,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000069">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000126"/>
-        <IAO_0000115 xml:lang="en">A disposition to abnormality in the process of thought including the ability to process information.</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <IAO_0000115 xml:lang="en">A disposition to abnormality realized in cognitive processes that are qualitatively below those of individuals belonging to some type, to which the bearer of the disposition also belongs.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte</IAO_0000117>
         <IAO_0000119 rdf:resource="http://purl.obolibrary.org/obo/HP_0100543"/>
         <IAO_0000232 xml:lang="en">Adapted from http://purl.obolibrary.org/obo/HP_0100543</IAO_0000232>
         <dc:date xml:lang="en">Imported and adapted 8.22.2018</dc:date>
@@ -799,6 +709,7 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000071">
         <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
         <IAO_0000115 xml:lang="en">A vulnerability in response to educative, or communicative exposure.</IAO_0000115>
+        <IAO_0000116 xml:lang="en">Concerns raised about the scrutability of this definition 9.27.18 by email from J. Neil Otte. Will revise.</IAO_0000116>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">educational vulnerability</rdfs:label>
     </owl:Class>
@@ -808,8 +719,8 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000072 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000072">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <IAO_0000115 xml:lang="en">A role that is realized in the process of acting for another agent.</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <IAO_0000115 xml:lang="en">A role that, if realized, is realized in some process of acting for another agent.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <IAO_0000232 xml:lang="en">This class may be useful when describing defined classes of roles like &apos;irb representative&apos; or &apos;prisoner representative.&apos; Note here that this is NOT a superclass of legal representative role as defined in ICO.</IAO_0000232>
         <IAO_0000232 xml:lang="en">This may be a good future candidate for relations such as &apos;has organizational context.&apos; Further dicussion here is waranted.</IAO_0000232>
@@ -818,24 +729,13 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000075 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000075">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
-        <rdfs:label xml:lang="en">OBI:ORGANISZATION</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000083">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000115 xml:lang="en">A planned process of archiving, or storing the document output of an &apos;act of consent&apos; for future use or retrieval.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">Further discussion required.</IAO_0000232>
-        <IAO_0000232 xml:lang="en">This may be a defined class with some process parts &apos;act of recording&apos; and some &apos;act of consent.&apos; The reason is that the more generic &apos;act of recording&apos; could apply to the class of &apos;document acts&apos; more broadly. With some work this class could help model the shift of document from a &apos;directive&apos; to a &apos;record of a decision.&apos;</IAO_0000232>
-        <rdfs:label xml:lang="en">act of recording informed consent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <IAO_0000115 xml:lang="en">A planned process of storing the document output of an &apos;act of consent&apos; for future use.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <rdfs:label xml:lang="en">act of archiving informed consent</rdfs:label>
     </owl:Class>
     
 
@@ -843,9 +743,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000085">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000121"/>
-        <IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has particpant some  information content entity, where that information content entity is sanctioned by an agent bearing sufficient a deontic power role in a jurisdiction.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant"/>
+        <IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has particpant some information content entity, where that information content entity is officially recognized by some agent bearing a deontic power role throughout the duration of the stasis.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">stasis of certification</rdfs:label>
     </owl:Class>
     
@@ -854,10 +754,10 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000088 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000088">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes permissible methods for contacting an agent.</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes how to contact some agent.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">contact method directive</rdfs:label>
+        <rdfs:label xml:lang="en">contact method description</rdfs:label>
     </owl:Class>
     
 
@@ -865,9 +765,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000093">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes permissible processes that  populations with a particular disposition can participate in.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes some process that a population with a particular disposition may participate in.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">vulnerable population directive</rdfs:label>
     </owl:Class>
     
@@ -876,10 +776,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000094 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000094">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes information that is cannot be disclosed, or the processes of diclosure that are prohibited.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">Possible that &apos;stasis of anonymization&apos; is important here.</IAO_0000232>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the nondisclosure of information.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">confidentiality directive</rdfs:label>
     </owl:Class>
     
@@ -888,30 +787,13 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000119 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000119">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000115 xml:lang="en">A planned process of conveying information about some entity.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;communicate.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <IAO_0000115 xml:lang="en">A planned process in which some entity provides information to another entity.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <IAO_0000119 xml:lang="en">adapted from &quot;communicate.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
         <IAO_0000232 xml:lang="en">See ICO: &apos;act of informing.&apos; This class is perhaps not needed.</IAO_0000232>
+        <rdfs:comment xml:lang="en">A note: &apos;entity&apos; rather than &apos;agent&apos; is used in this definition in order to allow that software can communicate with other software. However, it should be noted that this definition of communication excludes broader meanings, such as unintentional sharing of information.</rdfs:comment>
         <rdfs:label xml:lang="en">act of communicating</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000121 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000121">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
-        <rdfs:label xml:lang="en">CCO:STASIS</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000126 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000126">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
-        <rdfs:label xml:lang="en">BFO:DISPOSITIONS</rdfs:label>
     </owl:Class>
     
 
@@ -939,8 +821,8 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000131">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000117 xml:lang="en">A descriptive information content entity that describes the expected duration of participation of some entity in an investigation.</IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000117 xml:lang="en">A descriptive information content entity that describes the expected duration of participation of some agent in an investigation.</IAO_0000117>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of expected study participation duration</rdfs:label>
     </owl:Class>
@@ -950,9 +832,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000132 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000132">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes permissible research processes.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes some research process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">research method directive</rdfs:label>
     </owl:Class>
     
@@ -961,9 +843,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000133 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000133">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the trigger condition that require some compensation as a consequent.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the conditions under which compensation is due to some agent.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of conditional compensation</rdfs:label>
     </owl:Class>
     
@@ -972,10 +854,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000134 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000134">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes mental or physical uneasiness.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;discomfort.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes an emotional state of mental or physical uneasiness.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">description of discomfort</rdfs:label>
     </owl:Class>
     
@@ -984,9 +865,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000137 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000137">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115>A descriptive information content entity that describes the biospecimens that may be collected or the processes of biospecimen collection.</IAO_0000115>
-        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes collected biospecimens.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of collection of biospecimens</rdfs:label>
     </owl:Class>
     
@@ -995,8 +876,8 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000138 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000138">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115>A descriptive information content entity that describes the information that may be collected or the processes of information collection.</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes information that may be collected or the processes of information collection.</IAO_0000115>
         <IAO_0000117>Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of collection of information</rdfs:label>
     </owl:Class>
@@ -1007,9 +888,8 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000185"/>
-        <IAO_0000115>A descriptive information content entity that describes how biospecimens will be used in future research.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes how biospecimens will be used in future research.</IAO_0000115>
         <IAO_0000117>Cooper Stansbury</IAO_0000117>
-        <IAO_0000232>This needs to be revisited. The definition is circular.</IAO_0000232>
         <rdfs:label xml:lang="en">description of future biospecimen use</rdfs:label>
     </owl:Class>
     
@@ -1018,11 +898,10 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000144 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000144">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115>A descriptive information content entity that describes the procedures for obtaining further information.</IAO_0000115>
-        <IAO_0000117>Cooper Stansbury</IAO_0000117>
-        <IAO_0000232>Further discussion required, current definition is circular.</IAO_0000232>
-        <rdfs:label xml:lang="en">description of procedure for obtaining futher information</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes some procedure for obtaining information only available at some future time.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <rdfs:label xml:lang="en">description of procedure for obtaining further information</rdfs:label>
     </owl:Class>
     
 
@@ -1041,9 +920,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000148 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000148">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">A descriptive information content entity that describes that conditions that constitue unauthorized disclosure of information.</IAO_0000232>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">A descriptive information content entity that describes some conditions that constitute unauthorized disclosure of information.</IAO_0000232>
         <IAO_0000232 xml:lang="en">It is possible that classes like this will be useful in conjuction with descriptions of risk as in: &apos;description of risk of breach of confidentiality.&apos;</IAO_0000232>
         <rdfs:label xml:lang="en">description of breach of confidentiality</rdfs:label>
     </owl:Class>
@@ -1053,9 +932,10 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000149 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000149">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the nature of liability presribed by some liability directive.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes a liability.</IAO_0000115>
+        <IAO_0000116 xml:lang="en">Definition of liability needed.</IAO_0000116>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">description of liability</rdfs:label>
     </owl:Class>
     
@@ -1064,10 +944,10 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000151 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000151">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A description of risk the magnitude of possible financial loss.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">discription of financial risk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A description of risk that describes the magnitude of potential financial loss.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <rdfs:label xml:lang="en">description of financial risk</rdfs:label>
     </owl:Class>
     
 
@@ -1075,11 +955,10 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000152 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000152">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A description of risk concerning the magnitude of loss, or the probability of such a loss to the overall quality or character of an agent in a social context.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;reputation.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
-        <rdfs:label xml:lang="en">discription of reputational risk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A description of risk that describes the magnitude or probability of damage to the reputation of an agent in a social context.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <rdfs:label xml:lang="en">description of reputational risk</rdfs:label>
     </owl:Class>
     
 
@@ -1087,11 +966,10 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000153 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000153">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <IAO_0000115 xml:lang="en">A role inhereing in an agent or population of agents that is realized in any process.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">This is a defined class of Homo sapiens with some disposition &apos;vulnerability.&apos;</IAO_0000232>
-        <IAO_0000232 xml:lang="en">This needs further discussion.</IAO_0000232>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <IAO_0000115 xml:lang="en">A role that inheres in an agent or group of agents that is the output of a process during which the agent or group of agents is designated as belonging to a vulnerable group.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">Note: It is possible to belong to a vulnerable population and yet not bear a disposition of vulnerability. Typically, when a person is held to be a vulnerable individual, this is a designation that applies by fiat in virtue of their membership to some legally designated group, and not based on a clear investigation of their individual case. Hence, it seems prudent here to use roles for this purpose.</IAO_0000232>
         <rdfs:label xml:lang="en">vulnerable individual role</rdfs:label>
     </owl:Class>
     
@@ -1100,8 +978,8 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000154 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000154">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <IAO_0000115 xml:lang="en">A role that inheres in a regulatory body that is realized in an act of regulatory supervision.</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <IAO_0000115 xml:lang="en">A role that inheres in a regulatory body that, if realized, is realized in some act of regulatory supervision.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">regulatory oversight role</rdfs:label>
     </owl:Class>
@@ -1111,10 +989,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000159 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000159">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <IAO_0000115 xml:lang="en">A role inhereing in a Homo sapiens that is realized in a process of restriction of other deontic roles, as compared with those possible for adults.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">&apos;Minor&apos; will be a defined class of Homo sapiens and has some &apos;minor role.&apos;</IAO_0000232>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens that, if realized, is realized within the organizational context of a legal jurisdiction, when the bearer fails to meet the legal threshold for adulthood.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <IAO_0000232 xml:lang="en">It is possible to create further defined classes here, such as &apos;abused minor role&apos; that is a minor that particpated in a process of abuse.</IAO_0000232>
         <rdfs:label xml:lang="en">minor role</rdfs:label>
     </owl:Class>
@@ -1124,10 +1001,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000160 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000160">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000179"/>
-        <IAO_0000115 xml:lang="en">A female who particpates in the the process of female pregnancy (go).</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <IAO_0000115 xml:lang="en">A woman who is pregnant.</IAO_0000115>
         <IAO_0000232 xml:lang="en">Could reuse: http://purl.obolibrary.org/obo/ontoneo/ONTONEO_00000197</IAO_0000232>
-        <IAO_0000232 xml:lang="en">This is a defined class.</IAO_0000232>
         <rdfs:label xml:lang="en">pregnant woman</rdfs:label>
     </owl:Class>
     
@@ -1136,20 +1012,10 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000161 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000161">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <IAO_0000115 xml:lang="en">A role inhereing in a Homo sapiens that is realized a process of incarceration.</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens that is realized a process of incarceration.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">&apos;Prisoner&apos; may be a useful defined class: &apos;Homo Sapiens&apos; and bearer some &apos;prisoner role&apos;</IAO_0000232>
         <rdfs:label xml:lang="en">prisoner role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000163 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000163">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000058"/>
-        <rdfs:label xml:lang="en">DOCUMENT</rdfs:label>
     </owl:Class>
     
 
@@ -1157,10 +1023,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000164 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000164">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000163"/>
-        <IAO_0000115 xml:lang="en">A document that contains description of waiver and waiver directives.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">This is a defined class.</IAO_0000232>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <IAO_0000115 xml:lang="en">A document designed for the purpose of assisting in a process of waiving, and whcih contains both some description of waiver and some waiver directive.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">waiver document</rdfs:label>
     </owl:Class>
     
@@ -1169,9 +1034,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000165">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes an entity that exerts influence over some other entity.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes an entity that provides positive motivation for some material entity.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <IAO_0000232 xml:lang="en">From NCI Thesaurus OBO Edition: Incentive: A benefit, consideration, or positive motivational influence, financial or otherwise, given to induce a specific action. [def-source: NCI]</IAO_0000232>
         <rdfs:label xml:lang="en">description of incentive</rdfs:label>
     </owl:Class>
@@ -1182,8 +1047,8 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000168">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
-        <IAO_0000115 xml:lang="en">A protocol that is formal plan of an experiment or research activity, including the objective, rationale, design, materials and methods for the conduct of the study.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A protocol that is formal plan of a research activity, including the objective, rationale, design, materials, and methods for the conduct of the activity.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <IAO_0000232 xml:lang="en">This term was adapted from: http://purl.obolibrary.org/obo/NCIT_C70817</IAO_0000232>
         <rdfs:label xml:lang="en">study protocol</rdfs:label>
     </owl:Class>
@@ -1193,7 +1058,7 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000169 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000169">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <IAO_0000115 xml:lang="en">A directive information entity that prescribes the information that is permitted to be shared or the processes for sharing that information.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">data sharing directive</rdfs:label>
@@ -1204,10 +1069,10 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000170 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000170">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the processes of destruction and creation of perission roles governing the same information content entities or processes.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">Requires future discussion.</IAO_0000232>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the process of transferring a permission role from one bearer to another.</IAO_0000115>
+        <IAO_0000116 xml:lang="en">Note: Strictly speaking, of course, roles are not transferred; rather, the transfer of a permission involves the role of one agent ceasing to exist, and the role of a second agent coming into existence.</IAO_0000116>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">permission transfer directive</rdfs:label>
     </owl:Class>
     
@@ -1216,9 +1081,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000171 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000171">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the range of future use of material or information.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the processes that involve some entity as a participant.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">future use directive</rdfs:label>
     </owl:Class>
     
@@ -1227,8 +1092,8 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000173 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000173">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115>A descriptive information content entity that describes the negative impact or harm that result from withdrawing from an investigation.</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the negative impact or harm that may befall an agent who withdraws from an investigation.</IAO_0000115>
         <IAO_0000117>Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of consequences of voluntarily withdraw</rdfs:label>
     </owl:Class>
@@ -1271,23 +1136,12 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000179 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000179">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000028"/>
-        <rdfs:label xml:lang="en">OTHER CLASSES</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000180 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000180">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000115 xml:lang="en">A planned process of a regulatory body directing or monitoring another planned process.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;oversight.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
-        <IAO_0000232 xml:lang="en">This definition is horrible, and I know that.</IAO_0000232>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <IAO_0000115 xml:lang="en">A planned process in which a regulatory body directs or monitors another planned process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">act of regulatory supervision</rdfs:label>
     </owl:Class>
     
@@ -1296,10 +1150,10 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000181 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000181">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000115 xml:lang="en">A process of maltreating an organism.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;abuse.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <IAO_0000115 xml:lang="en">A process of mistreating an entity, often with the result that the entity is harmed.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <IAO_0000119 xml:lang="en">adapted from &quot;abuse.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
         <rdfs:label xml:lang="en">process of abuse</rdfs:label>
     </owl:Class>
     
@@ -1308,10 +1162,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000182 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000182">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000115 xml:lang="en">A planned process of revealing information to an audience.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">Further discussionn required</IAO_0000232>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000119"/>
+        <IAO_0000115 xml:lang="en">An act of communicating in which information is shared, overriding or violating a judgment that the information should not be shared.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
         <IAO_0000232 xml:lang="en">It is possible that there are meaningful defined classes here like: &apos;act of authorized disclosure&apos; and &apos;act of unauthorized disclosure.&apos;</IAO_0000232>
         <rdfs:label xml:lang="en">act of disclosure</rdfs:label>
     </owl:Class>
@@ -1343,8 +1196,8 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000185 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000185">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115>A descriptive information content entity that describes future use of material or information.</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes future use of material or information.</IAO_0000115>
         <IAO_0000117>Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of future use</rdfs:label>
     </owl:Class>
@@ -1354,8 +1207,8 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000186 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000186">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000115 xml:lang="en">A planned process of intentionally relinquishing or abandoning a known right, claim, or privilege.</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <IAO_0000115 xml:lang="en">A planned process of relinquishing a known right, claim, or privilege.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stasnbury</IAO_0000117>
         <IAO_0000119 xml:lang="en">&quot;waiver.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
         <rdfs:label xml:lang="en">act of waiving</rdfs:label>
@@ -1366,7 +1219,7 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000187 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000187">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <IAO_0000115 xml:lang="en">A directive information entity that prescribes an act of waiving.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">waiver directive</rdfs:label>
@@ -1377,10 +1230,10 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000188">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the right, claim, law, or rule that can be ignored.</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes a directive information content entity that can be ignored.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">Loosely adapted from: http://purl.obolibrary.org/obo/NCIT_C113777</IAO_0000232>
+        <IAO_0000232 xml:lang="en">adapted from: http://purl.obolibrary.org/obo/NCIT_C113777</IAO_0000232>
         <rdfs:label xml:lang="en">description of waiver</rdfs:label>
     </owl:Class>
     
@@ -1389,7 +1242,7 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.unep.org/sdg/SDGIO_00000024 -->
 
     <owl:Class rdf:about="http://purl.unep.org/sdg/SDGIO_00000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000126"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
         <IAO_0000115 xml:lang="en">A disposition of an entity to undergo undesirable change in response to some exposure.</IAO_0000115>
         <IAO_0000412 rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
         <dc:date xml:lang="en">Imported 08.22.2018</dc:date>
@@ -1412,6 +1265,22 @@ All rights reserved.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">descriptive information content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Government -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Government">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <IAO_0000115 xml:lang="en">An Organization that exercises executive, legislative, or judicial authority over a Geopolitical Entity.</IAO_0000115>
+        <IAO_0000116 xml:lang="en">https://en.wikipedia.org/wiki/Government</IAO_0000116>
+        <IAO_0000116 xml:lang="en">is curated in ontology: http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology</IAO_0000116>
+        <IAO_0000232 xml:lang="en">Definition from the Common Core Ontologies. Copyright (c) 2017, CUBRC, Inc.
+All rights reserved.</IAO_0000232>
+        <IAO_0000412 rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Government"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">government</rdfs:label>
     </owl:Class>
     
 
