@@ -772,7 +772,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000126"/>
-        <IAO_0000115 xml:lang="en">A disposition to abnormality in the process of thought including the ability to process information.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A disposition to abnormality realized in cognitive processes that are qualitatively below those of individuals belonging to some type, to which the bearer of the disposition also belongs.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte</IAO_0000117>
         <IAO_0000119 rdf:resource="http://purl.obolibrary.org/obo/HP_0100543"/>
         <IAO_0000232 xml:lang="en">Adapted from http://purl.obolibrary.org/obo/HP_0100543</IAO_0000232>
         <dc:date xml:lang="en">Imported and adapted 8.22.2018</dc:date>
@@ -797,6 +798,7 @@ modification, are permitted provided that the following conditions are met:
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000071">
         <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
         <IAO_0000115 xml:lang="en">A vulnerability in response to educative, or communicative exposure.</IAO_0000115>
+        <IAO_0000116 xml:lang="en">Concerns raised about the scrutability of this definition 9.27.18 by email from J. Neil Otte. Will revise.</IAO_0000116>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">educational vulnerability</rdfs:label>
     </owl:Class>
@@ -840,8 +842,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000121"/>
-        <IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has particpant some  information content entity, where that information content entity is sanctioned by an agent bearing sufficient a deontic power role in a jurisdiction.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has particpant some  information content entity, where that information content entity is officially recognized by some agent bearing a deontic power role throughout the duration of the stasis.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">stasis of certification</rdfs:label>
     </owl:Class>
     
