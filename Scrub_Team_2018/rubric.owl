@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/"
      xml:base="http://purl.obolibrary.org/obo/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -20,6 +21,7 @@
         <dc:contributor xml:lang="en">Barry Smith</dc:contributor>
         <dc:contributor xml:lang="en">Daniel Welch</dc:contributor>
         <dc:creator xml:lang="en">Mohammad &quot;Tuan&quot; Amith</dc:creator>
+        <dc:creator xml:lang="en">J. Neil Otte</dc:creator>
         <dc:contributor xml:lang="en">Alla Karnovsky</dc:contributor>
         <dc:creator xml:lang="en">Cui Tao</dc:creator>
         <dc:title>RUBRIC: the RegUlatory Basis foR Informed Consent</dc:title>
@@ -189,6 +191,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <IAO_0000115 xml:lang="en">The state of being confined to jail or prison. [def-source: NCI]</IAO_0000115>
         <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85521"/>
         <dc:date xml:lang="en">Imported 8.22.2018</dc:date>
+        <rdfs:comment xml:lang="en">Note from J. Neil Otte: Incarceration can include facilities other than prison or jail. Also, there&apos;s a meaningful distinction between states and processes getting lost here. Review.</rdfs:comment>
         <rdfs:label xml:lang="en">incarceration</rdfs:label>
     </owl:Class>
     
@@ -685,9 +688,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000115 xml:lang="en">A planned process of providing formal or official sanction for some information content entity by an agent with authority in a jursidiction.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;approve.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <IAO_0000115 xml:lang="en">A social act in which formal or official endorsement of some entity is communicated.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
+        <rdfs:comment xml:lang="en">This &apos;act of approving&apos; is distinct from the mental act of approving.</rdfs:comment>
         <rdfs:label xml:lang="en">act of approving</rdfs:label>
     </owl:Class>
     
@@ -762,9 +765,8 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000115 xml:lang="en">A planned process of making a formal decision or judgement about some course of action.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;decide.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <IAO_0000115 xml:lang="en">A planned process of drawing an inference from a consideration of evidence.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">act of deciding</rdfs:label>
     </owl:Class>
     
@@ -831,11 +833,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000083">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000115 xml:lang="en">A planned process of archiving, or storing the document output of an &apos;act of consent&apos; for future use or retrieval.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">Further discussion required.</IAO_0000232>
-        <IAO_0000232 xml:lang="en">This may be a defined class with some process parts &apos;act of recording&apos; and some &apos;act of consent.&apos; The reason is that the more generic &apos;act of recording&apos; could apply to the class of &apos;document acts&apos; more broadly. With some work this class could help model the shift of document from a &apos;directive&apos; to a &apos;record of a decision.&apos;</IAO_0000232>
-        <rdfs:label xml:lang="en">act of recording informed consent</rdfs:label>
+        <IAO_0000115 xml:lang="en">A planned process of storing the document output of an &apos;act of consent&apos; for future use.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <rdfs:label xml:lang="en">act of archiving informed consent</rdfs:label>
     </owl:Class>
     
 
@@ -889,10 +889,11 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000119">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000115 xml:lang="en">A planned process of conveying information about some entity.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;communicate.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <IAO_0000115 xml:lang="en">A planned process in which some entity provides information to another entity.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <IAO_0000119 xml:lang="en">adapted from &quot;communicate.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
         <IAO_0000232 xml:lang="en">See ICO: &apos;act of informing.&apos; This class is perhaps not needed.</IAO_0000232>
+        <rdfs:comment xml:lang="en">A note: &apos;entity&apos; rather than &apos;agent&apos; is used in this definition in order to allow that software can communicate with other software. However, it should be noted that this definition of communication excludes broader meanings, such as unintentional sharing of information.</rdfs:comment>
         <rdfs:label xml:lang="en">act of communicating</rdfs:label>
     </owl:Class>
     
@@ -1125,9 +1126,8 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000179"/>
-        <IAO_0000115 xml:lang="en">A female who particpates in the the process of female pregnancy (go).</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A woman who is pregnant.</IAO_0000115>
         <IAO_0000232 xml:lang="en">Could reuse: http://purl.obolibrary.org/obo/ontoneo/ONTONEO_00000197</IAO_0000232>
-        <IAO_0000232 xml:lang="en">This is a defined class.</IAO_0000232>
         <rdfs:label xml:lang="en">pregnant woman</rdfs:label>
     </owl:Class>
     
@@ -1284,10 +1284,8 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000180">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000115 xml:lang="en">A planned process of a regulatory body directing or monitoring another planned process.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;oversight.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
-        <IAO_0000232 xml:lang="en">This definition is horrible, and I know that.</IAO_0000232>
+        <IAO_0000115 xml:lang="en">A planned process in which a regulatory body directs or monitors another planned process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">act of regulatory supervision</rdfs:label>
     </owl:Class>
     
@@ -1297,9 +1295,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000115 xml:lang="en">A process of maltreating an organism.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;abuse.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <IAO_0000115 xml:lang="en">A process of mistreating an entity, often with the result that the entity is harmed.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <IAO_0000119 xml:lang="en">adapted from &quot;abuse.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
         <rdfs:label xml:lang="en">process of abuse</rdfs:label>
     </owl:Class>
     
@@ -1308,10 +1306,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000182 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000182">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000115 xml:lang="en">A planned process of revealing information to an audience.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">Further discussionn required</IAO_0000232>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000119"/>
+        <IAO_0000115 xml:lang="en">An act of communicating in which information is shared, overriding or violating a judgment that the information should not be shared.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
         <IAO_0000232 xml:lang="en">It is possible that there are meaningful defined classes here like: &apos;act of authorized disclosure&apos; and &apos;act of unauthorized disclosure.&apos;</IAO_0000232>
         <rdfs:label xml:lang="en">act of disclosure</rdfs:label>
     </owl:Class>
@@ -1355,7 +1352,7 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000046"/>
-        <IAO_0000115 xml:lang="en">A planned process of intentionally relinquishing or abandoning a known right, claim, or privilege.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A planned process of relinquishing a known right, claim, or privilege.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stasnbury</IAO_0000117>
         <IAO_0000119 xml:lang="en">&quot;waiver.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
         <rdfs:label xml:lang="en">act of waiving</rdfs:label>
