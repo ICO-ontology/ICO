@@ -298,7 +298,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000117">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <IAO_0000115 xml:lang="en">A role that, if realized, is realized in the organization context of a committee.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A role that, if realized, is realized in the organizational context of a committee.</IAO_0000115>
         <IAO_0000412 xml:lang="en">http://purl.obolibrary.org/obo/OOSTT_00000117</IAO_0000412>
         <dc:date xml:lang="en">Imported 8.30.2018.</dc:date>
         <rdfs:label xml:lang="en">committee member role</rdfs:label>
@@ -631,12 +631,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <IAO_0000115 xml:lang="en">A role inhereing in an agent realized in that agent participating passively in a process involing a transaction.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;witness.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
-        <IAO_0000232 xml:lang="en">This needs further discussion because a witness role is perhaps only realized in some process of &apos;contesting&apos; whereby this person is required to provide testimony as evidence. I&apos;m not sure how, or when this role is realized.
-
-Also &apos;passive participation&apos; is horrible.</IAO_0000232>
+        <IAO_0000115 xml:lang="en">A role inhering in an agent as a result of that agent having observed some process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">witness role</rdfs:label>
     </owl:Class>
     
@@ -811,7 +807,7 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <IAO_0000115 xml:lang="en">A role that is realized in the process of acting for another agent.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A role that, if realized, is realized in some process of acting for another agent.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <IAO_0000232 xml:lang="en">This class may be useful when describing defined classes of roles like &apos;irb representative&apos; or &apos;prisoner representative.&apos; Note here that this is NOT a superclass of legal representative role as defined in ICO.</IAO_0000232>
         <IAO_0000232 xml:lang="en">This may be a good future candidate for relations such as &apos;has organizational context.&apos; Further dicussion here is waranted.</IAO_0000232>
@@ -1089,10 +1085,9 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000153">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <IAO_0000115 xml:lang="en">A role inhereing in an agent or population of agents that is realized in any process.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">This is a defined class of Homo sapiens with some disposition &apos;vulnerability.&apos;</IAO_0000232>
-        <IAO_0000232 xml:lang="en">This needs further discussion.</IAO_0000232>
+        <IAO_0000115 xml:lang="en">A role that inheres in an agent or group of agents that is the output of a process during which the agent or group of agents is designated as belonging to a vulnerable group.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">Note: It is possible to belong to a vulnerable population and yet not bear a disposition of vulnerability. Typically, when a person is held to be a vulnerable individual, this is a designation that applies by fiat in virtue of their membership to some legally designated group, and not based on a clear investigation of their individual case. Hence, it seems prudent here to use roles for this purpose.</IAO_0000232>
         <rdfs:label xml:lang="en">vulnerable individual role</rdfs:label>
     </owl:Class>
     
@@ -1102,7 +1097,7 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <IAO_0000115 xml:lang="en">A role that inheres in a regulatory body that is realized in an act of regulatory supervision.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A role that inheres in a regulatory body that, if realized, is realized in some act of regulatory supervision.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">regulatory oversight role</rdfs:label>
     </owl:Class>
@@ -1113,9 +1108,8 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000159">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
-        <IAO_0000115 xml:lang="en">A role inhereing in a Homo sapiens that is realized in a process of restriction of other deontic roles, as compared with those possible for adults.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">&apos;Minor&apos; will be a defined class of Homo sapiens and has some &apos;minor role.&apos;</IAO_0000232>
+        <IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens that, if realized, is realized within the organizational context of a legal jurisdiction, when the bearer fails to meet the legal threshold for adulthood.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <IAO_0000232 xml:lang="en">It is possible to create further defined classes here, such as &apos;abused minor role&apos; that is a minor that particpated in a process of abuse.</IAO_0000232>
         <rdfs:label xml:lang="en">minor role</rdfs:label>
     </owl:Class>
@@ -1139,7 +1133,6 @@ Also &apos;passive participation&apos; is horrible.</IAO_0000232>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000036"/>
         <IAO_0000115 xml:lang="en">A role inhereing in a Homo sapiens that is realized a process of incarceration.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">&apos;Prisoner&apos; may be a useful defined class: &apos;Homo Sapiens&apos; and bearer some &apos;prisoner role&apos;</IAO_0000232>
         <rdfs:label xml:lang="en">prisoner role</rdfs:label>
     </owl:Class>
     
