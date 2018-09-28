@@ -67,7 +67,6 @@
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/designated_by -->
 
     <owl:ObjectProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/designated_by">
-        <owl:inverseOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/designates"/>
         <IAO_0000115 xml:lang="en">The inverse of designates, which relates an Entity to some Information Content Entity.</IAO_0000115>
         <IAO_0000232 xml:lang="en">Note on modification: Changed relation to hold between an IAO: Information Content Entity instead of a Designative Information Content Entity.</IAO_0000232>
         <IAO_0000412 rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/designated_by"/>
@@ -79,25 +78,6 @@ All rights reserved.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">designated by</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/designates -->
-
-    <owl:ObjectProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/designates">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-        <IAO_0000115 xml:lang="en">For all types T1 and T2, if T1 designates T2, then there is some instance of T1, t1, by which some instance of T2, t2,  is called, or classified, distinguished from others.</IAO_0000115>
-        <IAO_0000232 xml:lang="en">Note on modification: Changed relation to hold between an IAO: Information Content Entity instead of a Designative Information Content Entity.</IAO_0000232>
-        <IAO_0000412 rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/designates"/>
-        <dc:date xml:lang="en">Imported 08.09.2018</dc:date>
-        <dc:license xml:lang="en">BSD 3-Clause License
-
-Copyright (c) 2017, CUBRC, Inc.
-All rights reserved.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
-        <rdfs:label xml:lang="en">designates</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -744,7 +724,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000085">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant"/>
-        <IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has particpant some information content entity, where that information content entity is officially recognized by some agent bearing a deontic power role throughout the duration of the stasis.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has particpant some  information content entity, where that information content entity is officially recognized by some agent bearing a deontic power role throughout the duration of the stasis.</IAO_0000115>
         <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">stasis of certification</rdfs:label>
     </owl:Class>
@@ -1024,7 +1004,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
-        <IAO_0000115 xml:lang="en">A document designed for the purpose of assisting in a process of waiving, and whcih contains both some description of waiver and some waiver directive.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A document designed for the purpose of assisting in an act of waiving, and which contains both some description of waiver and some waiver directive.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">waiver document</rdfs:label>
     </owl:Class>
