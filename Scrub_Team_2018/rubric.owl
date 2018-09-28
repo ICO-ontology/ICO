@@ -236,7 +236,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/OBI_0000844 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000844">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001942"/>
         <IAO_0000115 xml:lang="en">A medical organization at which sick or injured people are given clinical care.</IAO_0000115>
         <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000844"/>
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
@@ -302,38 +302,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <IAO_0000412 xml:lang="en">http://purl.obolibrary.org/obo/OOSTT_00000117</IAO_0000412>
         <dc:date xml:lang="en">Imported 8.30.2018.</dc:date>
         <rdfs:label xml:lang="en">committee member role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OOSTT_00000271 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000271">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
-        <IAO_0000115 xml:lang="en">An organization that is part of the machinery of government and that is responsible for the oversight and administration of specific functions. The government agencies are given the authority to fulfill those responsibilities by the government.</IAO_0000115>
-        <IAO_0000232 xml:lang="en">Another definition as proposed by the Common Core Ontologies: 
-
-&quot;An Organization that exercises executive, legislative, or judicial authority over a Geopolitical Entity.&quot; 
-
-Copyright (c) 2017, CUBRC, Inc.
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice, this
-  list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright notice,
-  this list of conditions and the following disclaimer in the documentation
-  and/or other materials provided with the distribution.
-
-* Neither the name of the copyright holder nor the names of its
-  contributors may be used to endorse or promote products derived from
-  this software without specific prior written permission.</IAO_0000232>
-        <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000271"/>
-        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
-        <rdfs:label xml:lang="en">government</rdfs:label>
     </owl:Class>
     
 
@@ -651,9 +619,10 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the permissible processes for withdraw from another process.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">termination of participation directive</rdfs:label>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes some process for withdraw from another planned process.</IAO_0000115>
+        <IAO_0000116 xml:lang="en">Frequently we envision this class being used for directives from a patient who wishes to withdraw from a study process, but it may have broader use as well.</IAO_0000116>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <rdfs:label xml:lang="en">withdrawal from participation directive</rdfs:label>
     </owl:Class>
     
 
@@ -671,10 +640,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000179"/>
-        <IAO_0000115 xml:lang="en">A quality inhering in a Homo sapiens prescribed by an information content entity in a jursidiction that participates in a stasis of law that is the time of life at which some particular qualification, power, or capacity arises or rests.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;age.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
-        <IAO_0000232 xml:lang="en">This definition was adapted from the Merriam-Webster &apos;age&apos; definition, and reflects a binary notion of age: (1) a person can either &apos;be of legal age&apos; or not. There are no grey areas. (2) The precise defition, i.e., the number of years required to &apos;be of legal age&apos; may be different in different jurisdictions. Driving permits in the United States are an example of this.</IAO_0000232>
+        <IAO_0000115 xml:lang="en">A temporal region identifier that designates the temporal region during which a living person is alive, and where the temporal region is such that the living person is qualified to exercise a deontic power within a legal jurisdiction.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">legal age</rdfs:label>
     </owl:Class>
     
@@ -705,9 +672,9 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the language that must be used.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">understood language directive</rdfs:label>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the language that must be used in an informed consent process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <rdfs:label xml:lang="en">consent language directive</rdfs:label>
     </owl:Class>
     
 
@@ -850,10 +817,10 @@ modification, are permitted provided that the following conditions are met:
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000088 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000088">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes permissible methods for contacting an agent.</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes how to contact some agent.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">contact method directive</rdfs:label>
+        <rdfs:label xml:lang="en">contact method description</rdfs:label>
     </owl:Class>
     
 
@@ -862,8 +829,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes permissible processes that  populations with a particular disposition can participate in.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes some process that a population with a particular disposition may participate in.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">vulnerable population directive</rdfs:label>
     </owl:Class>
     
@@ -873,9 +840,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes information that is cannot be disclosed, or the processes of diclosure that are prohibited.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">Possible that &apos;stasis of anonymization&apos; is important here.</IAO_0000232>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the nondisclosure of information.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">confidentiality directive</rdfs:label>
     </owl:Class>
     
@@ -948,8 +914,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000132">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes permissible research processes.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes some research process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">research method directive</rdfs:label>
     </owl:Class>
     
@@ -1148,9 +1114,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000163"/>
-        <IAO_0000115 xml:lang="en">A document that contains description of waiver and waiver directives.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">This is a defined class.</IAO_0000232>
+        <IAO_0000115 xml:lang="en">A document designed for the purpose of assisting in a process of waiving, and whcih contains both some description of waiver and some waiver directive.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">waiver document</rdfs:label>
     </owl:Class>
     
@@ -1160,7 +1125,7 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000165">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes an entity that provides motivation for some material entity.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes an entity that provides positive motivation for some material entity.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <IAO_0000232 xml:lang="en">From NCI Thesaurus OBO Edition: Incentive: A benefit, consideration, or positive motivational influence, financial or otherwise, given to induce a specific action. [def-source: NCI]</IAO_0000232>
         <rdfs:label xml:lang="en">description of incentive</rdfs:label>
@@ -1172,8 +1137,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000168">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
-        <IAO_0000115 xml:lang="en">A protocol that is formal plan of an experiment or research activity, including the objective, rationale, design, materials and methods for the conduct of the study.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A protocol that is formal plan of a research activity, including the objective, rationale, design, materials, and methods for the conduct of the activity.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <IAO_0000232 xml:lang="en">This term was adapted from: http://purl.obolibrary.org/obo/NCIT_C70817</IAO_0000232>
         <rdfs:label xml:lang="en">study protocol</rdfs:label>
     </owl:Class>
@@ -1195,9 +1160,9 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000170">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the processes of destruction and creation of perission roles governing the same information content entities or processes.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">Requires future discussion.</IAO_0000232>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the process of transferring a permission role from one bearer to another.</IAO_0000115>
+        <IAO_0000116 xml:lang="en">Note: Strictly speaking, of course, roles are not transferred; rather, the transfer of a permission involves the role of one agent ceasing to exist, and the role of a second agent coming into existence.</IAO_0000116>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">permission transfer directive</rdfs:label>
     </owl:Class>
     
@@ -1207,8 +1172,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000053"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the range of future use of material or information.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the processes that involve some entity as a participant.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">future use directive</rdfs:label>
     </owl:Class>
     
@@ -1331,7 +1296,7 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000185">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115>A descriptive information content entity that describes future use of material or information.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes future use of material or information.</IAO_0000115>
         <IAO_0000117>Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of future use</rdfs:label>
     </owl:Class>
@@ -1399,6 +1364,22 @@ All rights reserved.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">descriptive information content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Government -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Government">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000075"/>
+        <IAO_0000115 xml:lang="en">An Organization that exercises executive, legislative, or judicial authority over a Geopolitical Entity.</IAO_0000115>
+        <IAO_0000116 xml:lang="en">https://en.wikipedia.org/wiki/Government</IAO_0000116>
+        <IAO_0000116 xml:lang="en">is curated in ontology: http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology</IAO_0000116>
+        <IAO_0000232 xml:lang="en">Definition from the Common Core Ontologies. Copyright (c) 2017, CUBRC, Inc.
+All rights reserved.</IAO_0000232>
+        <IAO_0000412 rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Government"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">government</rdfs:label>
     </owl:Class>
     
 
