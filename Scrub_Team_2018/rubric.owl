@@ -716,8 +716,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes other processes that can be substituted or chosen.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes some process that is distinct from a planned process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of alternative</rdfs:label>
     </owl:Class>
     
@@ -727,10 +727,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the use of express or implied threats of violence, reprisal  or other behavior that puts a person in immediate fear of the consequences in order to compel that agent to act against its will.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;coercion.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
-        <IAO_0000232 xml:lang="en">Further discussion required</IAO_0000232>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the use of expressed or implied threats that may cause an agent to be compelled to act out of fear against that agent&apos;s will.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <IAO_0000232 xml:lang="en">It may be necessary to define processes of coercion in addition to descriptions of the process.</IAO_0000232>
         <rdfs:label xml:lang="en">description of coercion</rdfs:label>
     </owl:Class>
@@ -939,7 +937,7 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000117 xml:lang="en">A descriptive information content entity that describes the expected duration of participation of some entity in an investigation.</IAO_0000117>
+        <IAO_0000117 xml:lang="en">A descriptive information content entity that describes the expected duration of participation of some agent in an investigation.</IAO_0000117>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of expected study participation duration</rdfs:label>
     </owl:Class>
@@ -961,8 +959,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000133">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the trigger condition that require some compensation as a consequent.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the conditions under which compensation is due to some agent.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of conditional compensation</rdfs:label>
     </owl:Class>
     
@@ -972,9 +970,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000134">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes mental or physical uneasiness.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;discomfort.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes an emotional state of mental or physical uneasiness.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">description of discomfort</rdfs:label>
     </owl:Class>
     
@@ -984,8 +981,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000137">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115>A descriptive information content entity that describes the biospecimens that may be collected or the processes of biospecimen collection.</IAO_0000115>
-        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes collected biospecimens.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of collection of biospecimens</rdfs:label>
     </owl:Class>
     
@@ -995,7 +992,7 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000138">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115>A descriptive information content entity that describes the information that may be collected or the processes of information collection.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes information that may be collected or the processes of information collection.</IAO_0000115>
         <IAO_0000117>Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of collection of information</rdfs:label>
     </owl:Class>
@@ -1006,9 +1003,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000185"/>
-        <IAO_0000115>A descriptive information content entity that describes how biospecimens will be used in future research.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes how biospecimens will be used in future research.</IAO_0000115>
         <IAO_0000117>Cooper Stansbury</IAO_0000117>
-        <IAO_0000232>This needs to be revisited. The definition is circular.</IAO_0000232>
         <rdfs:label xml:lang="en">description of future biospecimen use</rdfs:label>
     </owl:Class>
     
@@ -1018,10 +1014,9 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000144">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115>A descriptive information content entity that describes the procedures for obtaining further information.</IAO_0000115>
-        <IAO_0000117>Cooper Stansbury</IAO_0000117>
-        <IAO_0000232>Further discussion required, current definition is circular.</IAO_0000232>
-        <rdfs:label xml:lang="en">description of procedure for obtaining futher information</rdfs:label>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes some procedure for obtaining information only available at some future time.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <rdfs:label xml:lang="en">description of procedure for obtaining further information</rdfs:label>
     </owl:Class>
     
 
@@ -1041,8 +1036,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000148">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">A descriptive information content entity that describes that conditions that constitue unauthorized disclosure of information.</IAO_0000232>
+        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
+        <IAO_0000232 xml:lang="en">A descriptive information content entity that describes some conditions that constitute unauthorized disclosure of information.</IAO_0000232>
         <IAO_0000232 xml:lang="en">It is possible that classes like this will be useful in conjuction with descriptions of risk as in: &apos;description of risk of breach of confidentiality.&apos;</IAO_0000232>
         <rdfs:label xml:lang="en">description of breach of confidentiality</rdfs:label>
     </owl:Class>
@@ -1053,8 +1048,9 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the nature of liability presribed by some liability directive.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes a liability.</IAO_0000115>
+        <IAO_0000116 xml:lang="en">Definition of liability needed.</IAO_0000116>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">description of liability</rdfs:label>
     </owl:Class>
     
@@ -1064,9 +1060,9 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000151">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A description of risk the magnitude of possible financial loss.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">discription of financial risk</rdfs:label>
+        <IAO_0000115 xml:lang="en">A description of risk that describes the magnitude of potential financial loss.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <rdfs:label xml:lang="en">description of financial risk</rdfs:label>
     </owl:Class>
     
 
@@ -1075,10 +1071,9 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000152">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A description of risk concerning the magnitude of loss, or the probability of such a loss to the overall quality or character of an agent in a social context.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000119 xml:lang="en">&quot;reputation.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
-        <rdfs:label xml:lang="en">discription of reputational risk</rdfs:label>
+        <IAO_0000115 xml:lang="en">A description of risk that describes the magnitude or probability of damage to the reputation of an agent in a social context.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <rdfs:label xml:lang="en">description of reputational risk</rdfs:label>
     </owl:Class>
     
 
@@ -1165,8 +1160,8 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000165">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes an entity that exerts influence over some other entity.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes an entity that provides motivation for some material entity.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <IAO_0000232 xml:lang="en">From NCI Thesaurus OBO Edition: Incentive: A benefit, consideration, or positive motivational influence, financial or otherwise, given to induce a specific action. [def-source: NCI]</IAO_0000232>
         <rdfs:label xml:lang="en">description of incentive</rdfs:label>
     </owl:Class>
@@ -1223,7 +1218,7 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115>A descriptive information content entity that describes the negative impact or harm that result from withdrawing from an investigation.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the negative impact or harm that may befall an agent who withdraws from an investigation.</IAO_0000115>
         <IAO_0000117>Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of consequences of voluntarily withdraw</rdfs:label>
     </owl:Class>
@@ -1370,9 +1365,9 @@ modification, are permitted provided that the following conditions are met:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000188">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000038"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the right, claim, law, or rule that can be ignored.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes a directive information content entity that can be ignored.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">Loosely adapted from: http://purl.obolibrary.org/obo/NCIT_C113777</IAO_0000232>
+        <IAO_0000232 xml:lang="en">adapted from: http://purl.obolibrary.org/obo/NCIT_C113777</IAO_0000232>
         <rdfs:label xml:lang="en">description of waiver</rdfs:label>
     </owl:Class>
     
