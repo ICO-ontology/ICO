@@ -18,8 +18,15 @@ Terms to add:
 5e. 'male gender identity datum' OMRSE_00000141 (optional)
 5f. 'racial identity datum' OMRSE_00000098
 6. I see you have 'health information entity' (ICO_0000101) and 'medical record' (OMIABIS_0001026), but I don't see 'electronic health record'
+7. http://purl.obolibrary.org/obo/OBI_0500028
+8. http://purl.obolibrary.org/obo/OBI_0001755
 
 Up Next:
+- SEE OBI DICEs
+- Accreditation?
+- 'act of exemption'
+- 'vunerable individual role' and 'vunerabilty' need annotation properties explaining usage
+- ICO or RUBRIC needs to have 'material transfer agreements' and perhaps processes of material transfer
 - RUBRIC: 'Answer directive' label to 'user-input'
 - RUBRIC: Every conditional will have a trigger condition description ('if') and a consequent directive ('then').
 - Medical procedure should be 'research procedure' and 'clinical procedure'
@@ -42,12 +49,6 @@ Up Next:
 - genetic testing procedure?
 - excess material?
 - datetime of consent?
-
-FOL script
-- remove comments and rerun
-- single comment: human readable comment for each axiom
-- run query in protege and retrieve (1 hour)
-- camelcase instead of underscore
 
 Final:
 - RUBRIC: For all CCO terms, add the license info in an annotation property
