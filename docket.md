@@ -8,6 +8,7 @@
 1. RUBRIC: 'Answer directive' label to 'user-input'
 1. RUBRIC: Every conditional will have a trigger condition description ('if') and a consequent directive ('then').
 1. RUBRIC: For all CCO terms, add the license info in an annotation property
+1. Import RO - d-acts no longer does
 
 ## Possible New Terms
 1. pre-approval vs approved vs filled out (where does each class fall?)
@@ -40,8 +41,6 @@
 1. ['selection criterion' - http://purl.obolibrary.org/obo/OBI_0001755](http://purl.obolibrary.org/obo/OBI_0001755)
 
 ## Development Items
-1. Import RO temporal relations
-1. add RO to imports
 1. Add tooling to spell check all annotations
 1. Add tooling to detect definitions have 'genus - differentia' form
 1. Robot reasoner to check axiomatic consistency
