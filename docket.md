@@ -17,9 +17,9 @@
 1. 'female gender identity datum' OMRSE_00000138 (optional)
 1. 'male gender identity datum' OMRSE_00000141 (optional)
 1. 'racial identity datum' OMRSE_00000098
-6. I see you have 'health information entity' (ICO_0000101) and 'medical record' (OMIABIS_0001026), but I don't see 'electronic health record'
-7. http://purl.obolibrary.org/obo/OBI_0500028
-8. http://purl.obolibrary.org/obo/OBI_0001755
+1. I see you have 'health information entity' (ICO_0000101) and 'medical record' (OMIABIS_0001026), but I don't see 'electronic health record'
+1. http://purl.obolibrary.org/obo/OBI_0500028
+1. http://purl.obolibrary.org/obo/OBI_0001755
 
 ## Future Goals:
 1. SEE OBI DICEs
@@ -34,8 +34,6 @@
 1. Different states for informed consent forms
 1. pre-approval vs approved vs filled out (where does each class fall?)
 1. Informing does not have to be human-human. I can learn from a book. New class?
-1. Import RO temporal relations
-1. add RO to imports
 1. RUBRIC: specimen use/data use
 1. Are these social acts?
 1. 'canceling a permission'
@@ -51,6 +49,8 @@
 1. datetime of consent?
 
 ## Development Items
+1. Import RO temporal relations
+1. add RO to imports
 1. RUBRIC: For all CCO terms, add the license info in an annotation property
 1. robot testing process
 1. Add tooling to spell check all annotations
