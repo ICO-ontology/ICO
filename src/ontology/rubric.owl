@@ -408,11 +408,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <IAO_0000115 xml:lang="en">A directive information entity that prescribes the limits of disclosure regarding an agent’s identity.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <IAO_0000232 xml:lang="en">May need ‘Conditional Confidentiality Directive&apos; in the future.</IAO_0000232>
-        <rdfs:label xml:lang="en">confidentiality directive</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete confidentiality directive</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -536,11 +537,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000033">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes some state of affairs such that, if that state of affairs holds, some other prescription follows.</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <IAO_0000115 xml:lang="en">A directive information entity that describes some state of affairs such that, if that state of affairs holds, some other prescription follows.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <IAO_0000232 xml:lang="en">An antecedent.</IAO_0000232>
-        <rdfs:label xml:lang="en">description of trigger condition</rdfs:label>
+        <rdfs:label xml:lang="en">trigger condition directive</rdfs:label>
     </owl:Class>
     
 
@@ -618,8 +619,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000055">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes some process that is distinct from a planned process.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes some process that may be elected.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte, Cooper Stansbury, Jonathan Vajda</IAO_0000117>
         <rdfs:label xml:lang="en">description of alternative</rdfs:label>
     </owl:Class>
     
@@ -629,9 +630,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000056">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the use of expressed or implied threats that may cause an agent to be compelled to act out of fear against that agent&apos;s will.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes expressions or implications of threat that may compel an agent to act out of fear against the agent&apos;s will.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <IAO_0000232 xml:lang="en">It may be necessary to define processes of coercion in addition to descriptions of the process.</IAO_0000232>
+        <IAO_0000600 xml:lang="en">An international review board (IRB) may require a research proposal to identify ways in which a participant may be under undue influence. For example, a prisoner may feel compelled, given their vulnerability, to provide more information or cooperation in a study than they would normally consent to, because of the benefits they might receive.</IAO_0000600>
         <rdfs:label xml:lang="en">description of coercion</rdfs:label>
     </owl:Class>
     
@@ -735,8 +737,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000088">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes how to contact some agent.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes a method of some act of communicating.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</IAO_0000117>
         <rdfs:label xml:lang="en">contact method description</rdfs:label>
     </owl:Class>
     
@@ -846,9 +848,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000137">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes collected biospecimens.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">description of collection of biospecimens</rdfs:label>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes biospecimens that have been collected.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte, Cooper Stansbury, Jonathan Vajda</IAO_0000117>
+        <rdfs:label xml:lang="en">description of collected biospecimens</rdfs:label>
     </owl:Class>
     
 
@@ -859,7 +861,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <IAO_0000115 xml:lang="en">A descriptive information content entity that describes information that may be collected or the processes of information collection.</IAO_0000115>
         <IAO_0000117>Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">description of collection of information</rdfs:label>
+        <rdfs:label xml:lang="en">description of collected information</rdfs:label>
     </owl:Class>
     
 
@@ -868,8 +870,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000185"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes how biospecimens will be used in future research.</IAO_0000115>
-        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes how biospecimens will be used.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</IAO_0000117>
         <rdfs:label xml:lang="en">description of future biospecimen use</rdfs:label>
     </owl:Class>
     
@@ -889,10 +891,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000146 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000146">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000088"/>
-        <IAO_0000115 xml:lang="en">A contact method directive that prescribes methods for recontacting an agent.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">recontact method directive</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <IAO_0000112 xml:lang="en">For instance, a patient may assert a preferred mode of communication for contact in the future. This may be given in terms of permitting a communication via email, phone call, etc. and it may mention the address or number to be used.</IAO_0000112>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes methods for contacting an agent.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte, Cooper Stansbury, Jonathan Vajda</IAO_0000117>
+        <rdfs:label xml:lang="en">contact method directive</rdfs:label>
     </owl:Class>
     
 
@@ -913,10 +916,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000149">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
-        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes a liability.</IAO_0000115>
-        <IAO_0000116 xml:lang="en">Definition of liability needed.</IAO_0000116>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
-        <rdfs:label xml:lang="en">description of liability</rdfs:label>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes legal responsibility that an entity has due to some risk.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury, J. Neil Otte</IAO_0000117>
+        <IAO_0000118 xml:lang="en">description of liability</IAO_0000118>
+        <rdfs:label xml:lang="en">description of legal responsibility</rdfs:label>
     </owl:Class>
     
 
@@ -1074,8 +1077,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000173">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <IAO_0000115 xml:lang="en">A descriptive information content entity that describes the negative impact or harm that may befall an agent who withdraws from an investigation.</IAO_0000115>
-        <IAO_0000117>Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">description of consequences of voluntarily withdraw</rdfs:label>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</IAO_0000117>
+        <rdfs:label xml:lang="en">description of consequences of voluntarily withdrawal</rdfs:label>
     </owl:Class>
     
 
@@ -1108,10 +1111,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000176">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000033"/>
-        <IAO_0000115 xml:lang="en">A trigger condition description describing some person or group of people who either a) bear a disposition of vulnerability or b) are of a type whose instances are known to frequently bear a disposition of vulnerability.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A trigger condition directive that prescribes conditions for which a individual bears a vulnerability role or disposition of vulnerability, or a population of such individuals.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte, Jonathan Vajda, Cooper Stansbury</IAO_0000117>
         <IAO_0000232 xml:lang="en">See http://purl.unep.org/sdg/SDGIO_00000024 (Vulnerability):  A disposition of an entity to undergo undesirable change in response to some exposure.</IAO_0000232>
-        <rdfs:label xml:lang="en">description of protection</rdfs:label>
+        <rdfs:label xml:lang="en">protection directive</rdfs:label>
     </owl:Class>
     
 
@@ -1157,7 +1160,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <IAO_0000115 xml:lang="en">A descriptive information content entity that describes a research procedure.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">desciption of research procedure</rdfs:label>
+        <rdfs:label xml:lang="en">description of research procedure</rdfs:label>
     </owl:Class>
     
 
@@ -1166,8 +1169,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000184">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000185"/>
-        <IAO_0000115>A descriptive information content entity that describes how data will be used in future research.</IAO_0000115>
-        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A descriptive information content entity that describes how data will be used.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</IAO_0000117>
         <rdfs:label xml:lang="en">description of future data use</rdfs:label>
     </owl:Class>
     
@@ -1178,7 +1181,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000185">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <IAO_0000115 xml:lang="en">A descriptive information content entity that describes future use of material or information.</IAO_0000115>
-        <IAO_0000117>Cooper Stansbury</IAO_0000117>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of future use</rdfs:label>
     </owl:Class>
     
