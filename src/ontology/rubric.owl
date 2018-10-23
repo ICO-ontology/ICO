@@ -171,7 +171,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <IAO_0000115 xml:lang="en">The state of being confined to jail or prison. [def-source: NCI]</IAO_0000115>
         <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85521"/>
         <dc:date xml:lang="en">Imported 8.22.2018</dc:date>
-        <rdfs:comment xml:lang="en">Note from J. Neil Otte: Incarceration can include facilities other than prison or jail. Also, there&apos;s a meaningful distinction between states and processes getting lost here. Review.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Note from J. Neil Otte: Incarceration can include facilities other than prison or jail. Also, there&apos;s a meaningful distinction between states and processes getting lost here. Review.
+
+Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confinement issued by a legal authority on the basis of a criminal act&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">incarceration</rdfs:label>
     </owl:Class>
     
@@ -255,6 +257,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <IAO_0000115 xml:lang="en">A role borne by a human individual or by a collection of humans regarded as possessing rights and duties enforeable at law.</IAO_0000115>
+        <IAO_0000232 xml:lang="en">Note: Typo (should be &apos;enforceable&apos;) is in the original at time of import.</IAO_0000232>
         <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000038"/>
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">legal person role</rdfs:label>
@@ -595,7 +598,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
         <IAO_0000115 xml:lang="en">A social act in which formal or official endorsement of some entity is communicated.</IAO_0000115>
         <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
         <rdfs:comment xml:lang="en">This &apos;act of approving&apos; is distinct from the mental act of approving.</rdfs:comment>
@@ -653,9 +656,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000060">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <IAO_0000115 xml:lang="en">A planned process of drawing an inference from a consideration of evidence.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <IAO_0000232 xml:lang="en">Note from Jonathan Vajda: Is this term necessary? It seems more fine-grained than we need or want to represent.</IAO_0000232>
         <rdfs:label xml:lang="en">act of deciding</rdfs:label>
     </owl:Class>
     
@@ -691,7 +695,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000071">
         <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
         <IAO_0000115 xml:lang="en">A vulnerability in response to educative, or communicative exposure.</IAO_0000115>
-        <IAO_0000116 xml:lang="en">Concerns raised about the scrutability of this definition 9.27.18 by email from J. Neil Otte. Will revise.</IAO_0000116>
+        <IAO_0000116 xml:lang="en">Concerns raised about the scrutability of this definition 9.27.18 by email from J. Neil Otte. Will revise.
+
+Note from Jonathan Vajda: A vulnerability due to exposure to a harsh learning environment.</IAO_0000116>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">educational vulnerability</rdfs:label>
     </owl:Class>
@@ -714,7 +720,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000083">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <IAO_0000115 xml:lang="en">A planned process of storing the document output of an &apos;act of consent&apos; for future use.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">act of archiving informed consent</rdfs:label>
@@ -769,7 +775,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000119 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000119">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
         <IAO_0000115 xml:lang="en">A planned process in which some entity provides information to another entity.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <IAO_0000119 xml:lang="en">adapted from &quot;communicate.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
@@ -996,8 +1002,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000161">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens that is realized a process of incarceration.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens that is realized in a process of incarceration.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</IAO_0000117>
+        <IAO_0000232 xml:lang="en">Note from Jonathan Vajda: Depending on the level of granluarity, we could have prisoner role, incarcerated role, etc. and these roles would differentiated by what kind of stasis of incarceration necessary.</IAO_0000232>
         <rdfs:label xml:lang="en">prisoner role</rdfs:label>
     </owl:Class>
     
@@ -1122,7 +1129,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000180 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000180">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <IAO_0000115 xml:lang="en">A planned process in which a regulatory body directs or monitors another planned process.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">act of regulatory supervision</rdfs:label>
@@ -1134,8 +1141,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <IAO_0000115 xml:lang="en">A process of mistreating an entity, often with the result that the entity is harmed.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A process of mistreating an entity with the intent or result that the mistreated entity is harmed.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte, and Jonathan Vajda</IAO_0000117>
         <IAO_0000119 xml:lang="en">adapted from &quot;abuse.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
         <rdfs:label xml:lang="en">process of abuse</rdfs:label>
     </owl:Class>
@@ -1190,9 +1197,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000186 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000186">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <IAO_0000115 xml:lang="en">A planned process of relinquishing a known right, claim, or privilege.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stasnbury</IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
+        <IAO_0000115 xml:lang="en">A social act of relinquishing a right, claim, or privilege.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</IAO_0000117>
         <IAO_0000119 xml:lang="en">&quot;waiver.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
         <rdfs:label xml:lang="en">act of waiving</rdfs:label>
     </owl:Class>
@@ -1271,7 +1278,7 @@ All rights reserved.</IAO_0000232>
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Stasis -->
 
     <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Stasis">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
         <IAO_0000115 xml:lang="en">A process in which some independent continuant endures and one or more of the dependent entities it bears does not change in kind or intensity.</IAO_0000115>
         <IAO_0000119 xml:lang="en">https://github.com/CommonCoreOntology/CommonCoreOntologies</IAO_0000119>
         <dc:date xml:lang="en">Retrieved from Common Core Ontologies 7/17/2018</dc:date>
