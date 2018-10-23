@@ -1240,10 +1240,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <IAO_0000115 xml:lang="en">An Organization that exercises executive, legislative, or judicial authority over a Geopolitical Entity.</IAO_0000115>
         <IAO_0000116 xml:lang="en">https://en.wikipedia.org/wiki/Government</IAO_0000116>
         <IAO_0000116 xml:lang="en">is curated in ontology: http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology</IAO_0000116>
-        <IAO_0000232 xml:lang="en">Definition from the Common Core Ontologies. Copyright (c) 2017, CUBRC, Inc.
-All rights reserved.</IAO_0000232>
         <IAO_0000412 rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Government"/>
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <dc:license xml:lang="en">BSD 3-Clause License
+
+Copyright (c) 2017, CUBRC, Inc.
+All rights reserved.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">government</rdfs:label>
     </owl:Class>
     
