@@ -295,7 +295,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
         <IAO_0000115 xml:lang="en">A site within which a deontic power may be realized, where that deontic power inheres in a formally created regulatory body.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:comment xml:lang="en">&apos;Jurisdiction&apos; is often defined in two senses: (1) a geopolitical context (BFO site), or (2)  a power. RUBRIC defines jurisdiction as a BFO site, identifiable through shared context of other entities, like a country or state border, or the grounds of an institution. The term ‘deontic power role’ reflects the sense of ‘power’ sometimes used to describe jurisdiction.</rdfs:comment>
+        <rdfs:comment xml:lang="en">&apos;Jurisdiction&apos; is often defined in two senses: (1) a geopolitical context (BFO site), or (2) a power. RUBRIC defines jurisdiction as a BFO site, identifiable through shared context of other entities, like a country or state border, or the grounds of an institution. The term ‘deontic power role’ reflects the sense of ‘power’ sometimes used to describe jurisdiction.</rdfs:comment>
         <rdfs:label xml:lang="en">jurisdiction</rdfs:label>
     </owl:Class>
     
@@ -567,6 +567,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <IAO_0000115 xml:lang="en">A role inhering in an agent as a result of that agent having observed some process.</IAO_0000115>
         <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
+        <IAO_0000600 xml:lang="en">Typically, someone who bears a witness role has observed some history, such that one may attest to what has occurred.</IAO_0000600>
         <rdfs:label xml:lang="en">witness role</rdfs:label>
     </owl:Class>
     
@@ -653,18 +654,6 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000060 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000060">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <IAO_0000115 xml:lang="en">A planned process of drawing an inference from a consideration of evidence.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
-        <IAO_0000232 xml:lang="en">Note from Jonathan Vajda: Is this term necessary? It seems more fine-grained than we need or want to represent.</IAO_0000232>
-        <rdfs:label xml:lang="en">act of deciding</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000069">
@@ -683,8 +672,8 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000070">
         <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
-        <IAO_0000115 xml:lang="en">A vulnerability in response to economic exposure.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A vulnerability due to exposure to a depressed or impoverished economic environment.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</IAO_0000117>
         <rdfs:label xml:lang="en">economic vulnerability</rdfs:label>
     </owl:Class>
     
@@ -694,25 +683,9 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000071">
         <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
-        <IAO_0000115 xml:lang="en">A vulnerability in response to educative, or communicative exposure.</IAO_0000115>
-        <IAO_0000116 xml:lang="en">Concerns raised about the scrutability of this definition 9.27.18 by email from J. Neil Otte. Will revise.
-
-Note from Jonathan Vajda: A vulnerability due to exposure to a harsh learning environment.</IAO_0000116>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A vulnerability due to exposure to a harsh learning environment.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</IAO_0000117>
         <rdfs:label xml:lang="en">educational vulnerability</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000072 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000072">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <IAO_0000115 xml:lang="en">A role that, if realized, is realized in some process of acting for another agent.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <IAO_0000232 xml:lang="en">This class may be useful when describing defined classes of roles like &apos;irb representative&apos; or &apos;prisoner representative.&apos; Note here that this is NOT a superclass of legal representative role as defined in ICO.</IAO_0000232>
-        <IAO_0000232 xml:lang="en">This may be a good future candidate for relations such as &apos;has organizational context.&apos; Further dicussion here is waranted.</IAO_0000232>
-        <rdfs:label xml:lang="en">representative role</rdfs:label>
     </owl:Class>
     
 
@@ -724,17 +697,6 @@ Note from Jonathan Vajda: A vulnerability due to exposure to a harsh learning en
         <IAO_0000115 xml:lang="en">A planned process of storing the document output of an &apos;act of consent&apos; for future use.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">act of archiving informed consent</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000085 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000085">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant"/>
-        <IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has particpant some  information content entity, where that information content entity is officially recognized by some agent bearing a deontic power role throughout the duration of the stasis.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">stasis of certification</rdfs:label>
     </owl:Class>
     
 
@@ -981,7 +943,7 @@ Note from Jonathan Vajda: A vulnerability due to exposure to a harsh learning en
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens that, if realized, is realized within the organizational context of a legal jurisdiction, when the bearer fails to meet the legal threshold for adulthood.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
-        <IAO_0000232 xml:lang="en">It is possible to create further defined classes here, such as &apos;abused minor role&apos; that is a minor that particpated in a process of abuse.</IAO_0000232>
+        <IAO_0000232 xml:lang="en">It is possible to create further defined classes here, such as &apos;abused minor role&apos; that is a minor that participated in a process of abuse.</IAO_0000232>
         <rdfs:label xml:lang="en">minor role</rdfs:label>
     </owl:Class>
     
@@ -1141,10 +1103,10 @@ Note from Jonathan Vajda: A vulnerability due to exposure to a harsh learning en
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <IAO_0000115 xml:lang="en">A process of mistreating an entity with the intent or result that the mistreated entity is harmed.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A process of mistreating an entity such that the mistreated entity is harmed.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte, and Jonathan Vajda</IAO_0000117>
         <IAO_0000119 xml:lang="en">adapted from &quot;abuse.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
-        <rdfs:label xml:lang="en">process of abuse</rdfs:label>
+        <rdfs:label xml:lang="en">act of abuse</rdfs:label>
     </owl:Class>
     
 
@@ -1229,6 +1191,18 @@ Note from Jonathan Vajda: A vulnerability due to exposure to a harsh learning en
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens that, if realized, is realized in being a passive participant in some act of abuse process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Jonathan Vajda</IAO_0000117>
+        <IAO_0000600 xml:lang="en">A passive participant in such a process would mean that the act of abuse has this entity as its target; i.e., the bearer of this role is entity that is mistreated.</IAO_0000600>
+        <rdfs:label xml:lang="en">abused person role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.unep.org/sdg/SDGIO_00000024 -->
 
     <owl:Class rdf:about="http://purl.unep.org/sdg/SDGIO_00000024">
@@ -1278,7 +1252,7 @@ All rights reserved.</IAO_0000232>
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Stasis -->
 
     <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Stasis">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <IAO_0000115 xml:lang="en">A process in which some independent continuant endures and one or more of the dependent entities it bears does not change in kind or intensity.</IAO_0000115>
         <IAO_0000119 xml:lang="en">https://github.com/CommonCoreOntology/CommonCoreOntologies</IAO_0000119>
         <dc:date xml:lang="en">Retrieved from Common Core Ontologies 7/17/2018</dc:date>
