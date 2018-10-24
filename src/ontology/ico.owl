@@ -20,6 +20,7 @@
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ico.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
         <dc:contributor xml:lang="en">William Duncan</dc:contributor>
         <dc:contributor xml:lang="en">Jian Guan</dc:contributor>
@@ -1584,7 +1585,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that revokes a permission role inhering in some agent.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">canceling a permission</rdfs:label>
+        <rdfs:label xml:lang="en">act of canceling a permission</rdfs:label>
     </owl:Class>
     
 
@@ -2118,7 +2119,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process in which a person decides not to provide consent.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">declining to provide consent</rdfs:label>
+        <rdfs:label xml:lang="en">act of declining to provide consent</rdfs:label>
     </owl:Class>
     
 
