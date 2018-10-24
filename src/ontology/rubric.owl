@@ -24,6 +24,7 @@
         <dc:creator xml:lang="en">J. Neil Otte</dc:creator>
         <dc:contributor xml:lang="en">Alla Karnovsky</dc:contributor>
         <dc:creator xml:lang="en">Cui Tao</dc:creator>
+        <dc:creator xml:lang="en">Cooper Stansbury</dc:creator>
         <dc:title>RUBRIC: the RegUlatory Basis foR Informed Consent</dc:title>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
         <dc:contributor xml:lang="en">Darren Natale</dc:contributor>
@@ -32,6 +33,7 @@
         <dc:creator xml:lang="en">Marcy Harris</dc:creator>
         <dc:contributor xml:lang="en">Chris Stoeckert</dc:contributor>
         <dc:contributor xml:lang="en">Jihad Obeid</dc:contributor>
+        <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
     </owl:Ontology>
     
 
@@ -918,6 +920,9 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000153">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <IAO_0000112 xml:lang="en">E.g., &quot;There are several definitions available for the term &apos;vulnerable population&apos;, the words simply imply the disadvantaged sub-segment of the community requiring utmost care, specific ancillary considerations and augmented protections in research. The vulnerable individuals’ freedom and capability to protect one-self from intended or inherent risks is variably abbreviated, from decreased freewill to inability to make informed choices.&quot;
+
+Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard. Perspectives in clinical research, 4(1), 53-7.</IAO_0000112>
         <IAO_0000115 xml:lang="en">A role that inheres in an agent or group of agents that is the output of a process during which the agent or group of agents is designated as belonging to a vulnerable group.</IAO_0000115>
         <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
         <IAO_0000232 xml:lang="en">Note: It is possible to belong to a vulnerable population and yet not bear a disposition of vulnerability. Typically, when a person is held to be a vulnerable individual, this is a designation that applies by fiat in virtue of their membership to some legally designated group, and not based on a clear investigation of their individual case. Hence, it seems prudent here to use roles for this purpose.</IAO_0000232>
@@ -1207,6 +1212,9 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
 
     <owl:Class rdf:about="http://purl.unep.org/sdg/SDGIO_00000024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <IAO_0000112 xml:lang="en">Editors of RUBRIC Note: E.g., &quot;There are several definitions available for the term &apos;vulnerable population&apos;, the words simply imply the disadvantaged sub-segment of the community requiring utmost care, specific ancillary considerations and augmented protections in research. The vulnerable individuals’ freedom and capability to protect one-self from intended or inherent risks is variably abbreviated, from decreased freewill to inability to make informed choices.&quot;
+
+Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard. Perspectives in clinical research, 4(1), 53-7.</IAO_0000112>
         <IAO_0000115 xml:lang="en">A disposition of an entity to undergo undesirable change in response to some exposure.</IAO_0000115>
         <IAO_0000412 rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
         <dc:date xml:lang="en">Imported 08.22.2018</dc:date>
