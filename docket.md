@@ -3,12 +3,9 @@
 ## Suggested Edits
 1. 'research study' should be replaced by OBI: investigation
 1. Medical procedure should be 'research procedure' and 'clinical procedure'
-1. 'vunerable individual role' and 'vunerabilty' need annotation properties explaining usage
 1. ICO or RUBRIC needs to have 'material transfer agreements' and perhaps processes of material transfer
 1. RUBRIC: 'Answer directive' label to 'user-input'
 1. RUBRIC: Every conditional will have a trigger condition description ('if') and a consequent directive ('then').
-1. RUBRIC: For all CCO terms, add the license info in an annotation property
-1. Import RO - d-acts no longer does
 
 ## Possible New Terms
 1. pre-approval vs approved vs filled out (where does each class fall?)
