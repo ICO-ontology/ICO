@@ -10,16 +10,12 @@
 ## Possible New Terms
 1. pre-approval vs approved vs filled out (where does each class fall?)
 1. 'genetic testing directive'
-1. 'short form consent'
 1. directive regarding research of biospecimens
 1. 'genetic testing directive'
 1. 'genetic testing procedure'
-1. 'datetime of consent'
 1. 'excess material'
 1. 'act of exemption'
 1. 'act of Accreditation'
-1. 'act of declining to provide consent'
-1. 'act of canceling a permission'
 1. Different states for informed consent forms
 
 ## Possible Useful Term Imports:
