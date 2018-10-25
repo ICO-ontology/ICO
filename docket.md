@@ -7,16 +7,22 @@
 1. RUBRIC: 'Answer directive' label to 'user-input'
 1. RUBRIC: Every conditional will have a trigger condition description ('if') and a consequent directive ('then').
 
-## Possible New Terms
+## Possible New Terms and Neil Comments
 1. pre-approval vs approved vs filled out (where does each class fall?)
-1. 'genetic testing directive'
-1. directive regarding research of biospecimens
-1. 'genetic testing directive'
+
+Neil comment: This is a more general issue, not a new term. 
+
 1. 'genetic testing procedure'
-1. 'excess material'
+
+Neil comment: I've added 'act of genetic testing'. The term 'procedure' is ambiguous between the recipe and the action of carrying out the recipe. 
+
 1. 'act of exemption'
-1. 'act of Accreditation'
+
+Neil comment: We already have 'act of waiver'
+
 1. Different states for informed consent forms
+
+Neil comment: See the first issue in this list. 
 
 ## Possible Useful Term Imports:
 1. ['principal investigator role' - http://purl.obolibrary.org/obo/OBI_0000103](http://purl.obolibrary.org/obo/OBI_0000103)
