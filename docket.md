@@ -1,28 +1,14 @@
 # List of to-dos for ICO and RUBRIC
 
+## General Issues
+1. pre-approval vs approved vs filled out (where does each class fall?). Different states for informed consent forms...
+
 ## Suggested Edits
 1. 'research study' should be replaced by OBI: investigation
 1. Medical procedure should be 'research procedure' and 'clinical procedure'
 1. ICO or RUBRIC needs to have 'material transfer agreements' and perhaps processes of material transfer
 1. RUBRIC: 'Answer directive' label to 'user-input'
 1. RUBRIC: Every conditional will have a trigger condition description ('if') and a consequent directive ('then').
-
-## Possible New Terms and Neil Comments
-1. pre-approval vs approved vs filled out (where does each class fall?)
-
-Neil comment: This is a more general issue, not a new term. 
-
-1. 'genetic testing procedure'
-
-Neil comment: I've added 'act of genetic testing'. The term 'procedure' is ambiguous between the recipe and the action of carrying out the recipe. 
-
-1. 'act of exemption'
-
-Neil comment: We already have 'act of waiver'
-
-1. Different states for informed consent forms
-
-Neil comment: See the first issue in this list. 
 
 ## Possible Useful Term Imports:
 1. ['principal investigator role' - http://purl.obolibrary.org/obo/OBI_0000103](http://purl.obolibrary.org/obo/OBI_0000103)
