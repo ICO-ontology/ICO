@@ -247,6 +247,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <IAO_0000115 xml:lang="en">An organization with a specific responsibility that is a part of a larger organization with a specific responsibility.</IAO_0000115>
+        <IAO_0000232>Change request was made for this definition: https://github.com/biobanking/biobanking/issues/53</IAO_0000232>
         <IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000017"/>
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">department</rdfs:label>
@@ -405,7 +406,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000112 xml:lang="en">A description of who can consent (but not the conditions required to be realizable).</IAO_0000112>
         <IAO_0000115 xml:lang="en">A directive information entity that prescribes a deontic power role or the process that realizes it.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">deontic role directive</rdfs:label>
+        <rdfs:label xml:lang="en">deontic power role directive</rdfs:label>
     </owl:Class>
     
 
@@ -462,7 +463,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes a deontic role that permits some action that has part trigger condition description.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A conditional specification that prescirbes a permission, should some trigger condition obtain.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <IAO_0000600 xml:lang="en">Permission to do (x), if condition (y).</IAO_0000600>
         <rdfs:label xml:lang="en">conditional permission directive</rdfs:label>
@@ -486,8 +487,8 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes actions that are impermissible that has part trigger condition description.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A conditional specification that prescirbes an impermissibility, should some trigger condition obtain.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <IAO_0000600 xml:lang="en">When particpating in an informed consent process (a), if conditon (x) do not do action (y).</IAO_0000600>
         <rdfs:label xml:lang="en">conditional restriction directive</rdfs:label>
     </owl:Class>
@@ -509,8 +510,8 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes an obligation that is realized a deontic role that is the output of a document act and that has part trigger condition description.</IAO_0000115>
-        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <IAO_0000115 xml:lang="en">A conditional specification that prescirbes an obligation, should some trigger condition obtain.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">conditional obligation directive</rdfs:label>
     </owl:Class>
     
@@ -580,7 +581,6 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <IAO_0000115 xml:lang="en">A directive information entity that prescribes some process for withdraw from another planned process.</IAO_0000115>
-        <IAO_0000116 xml:lang="en">Frequently we envision this class being used for directives from a patient who wishes to withdraw from a study process, but it may have broader use as well.</IAO_0000116>
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">withdrawal from participation directive</rdfs:label>
     </owl:Class>
@@ -718,7 +718,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes some process that a population with a particular disposition may participate in.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes some process in which vulnerable individuals participate.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">vulnerable population directive</rdfs:label>
     </owl:Class>
@@ -1204,6 +1204,56 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000117 xml:lang="en">Jonathan Vajda</IAO_0000117>
         <IAO_0000600 xml:lang="en">A passive participant in such a process would mean that the act of abuse has this entity as its target; i.e., the bearer of this role is entity that is mistreated.</IAO_0000600>
         <rdfs:label xml:lang="en">abused person role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <IAO_0000115 xml:lang="en">a directive information entity that prescribes some investigation of biospecimens.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte</IAO_0000117>
+        <rdfs:label xml:lang="en">directive about research of biospecimens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <IAO_0000115 xml:lang="en">a planned process that involves the investigation of some sequence of DNA.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte</IAO_0000117>
+        <rdfs:label xml:lang="en">act of genetic testing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000192"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes some act of genetic testing.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte</IAO_0000117>
+        <rdfs:label xml:lang="en">genetic testing directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0000195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <IAO_0000115 xml:lang="en">a role inhering in some material entity that is realized in an act of artifact modification.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">J. Neil Otte</IAO_0000117>
+        <rdfs:label xml:lang="en">excess material role</rdfs:label>
     </owl:Class>
     
 
