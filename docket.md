@@ -26,10 +26,10 @@
 1. ['selection criterion' - http://purl.obolibrary.org/obo/OBI_0001755](http://purl.obolibrary.org/obo/OBI_0001755)
 
 ## Development Items
-1. Add tooling to spell check all annotations
-1. Add tooling to detect definitions have 'genus - differentia' form
+1. Spell check.
+1. Check 'genus - differentia' form
 1. Robot reasoner to check axiomatic consistency
-1. Tooling tooling resolve synonyms:
 1. FOL is consistent (Neil)
-1. new PURLS resolve in OBO
-1. create ontology publishing process
+1. New PURLS resolve in OBO
+  1. RUBRIC PURL request
+1. Create ontology publishing process (ODK)
