@@ -14,6 +14,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts.owl"/>
+        <dc:description xml:lang="en">RUBRUIC stands for the Regulatory Basis for Informed Consent. RUBRIC is a BFO-based ontology that contains classes representing regulatory artifacts and mechanisms necessary for modeling informed consent and the  regluatory frameworks that mandate informed consent. RUBRIC is intended to be internationally compatible and extendable at the application level.</dc:description>
         <dc:contributor xml:lang="en">Asiyah Yu Lin</dc:contributor>
         <dc:contributor xml:lang="en">Elizabeth Eisenhauer</dc:contributor>
         <dc:contributor xml:lang="en">Jie Zheng</dc:contributor>
@@ -34,11 +35,12 @@
         <dc:contributor xml:lang="en">Chris Stoeckert</dc:contributor>
         <dc:contributor xml:lang="en">Jihad Obeid</dc:contributor>
         <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
+        <terms:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/</terms:license>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -46,16 +48,9 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
 
 
-    <!-- http://purl.org/dc/elements/1.1/license -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
-    
-
-
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -63,7 +58,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/designated_by -->
@@ -81,7 +76,7 @@ All rights reserved.
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">designated by</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by -->
@@ -99,7 +94,7 @@ All rights reserved.
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">prescribed by</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/prescribes -->
@@ -116,10 +111,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:comment xml:lang="en">For all types T1 and T2, if T1 prescribes T2, then there is some instance of T1, t1, that serves as a rule or guide to some instance of T2, t2 (if T2 is a type of bfo:Occurrent) or that serves as a model for some instance of T2, t2 (if T2 is a type of bfo:Continuant).</rdfs:comment>
         <rdfs:label xml:lang="en">prescribes</rdfs:label>
     </owl:ObjectProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -127,7 +122,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/DUO_0000001 -->
@@ -139,7 +134,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <dc:date xml:lang="en">Imported 08.09.2018</dc:date>
         <rdfs:label xml:lang="en">consent code</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0007565 -->
@@ -151,7 +146,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">female pregnancy</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C70800 -->
@@ -163,7 +158,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">institutional review board approval</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C85521 -->
@@ -178,7 +173,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confinement issued by a legal authority on the basis of a criminal act&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">incarceration</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000202 -->
@@ -190,7 +185,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">investigation agent role</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000272 -->
@@ -202,7 +197,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">protocol</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000450 -->
@@ -214,7 +209,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">regulatory agency</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000844 -->
@@ -226,7 +221,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">hospital</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001942 -->
@@ -239,7 +234,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">grant agency</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/OMIABIS_0000017 -->
@@ -252,7 +247,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">department</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000038 -->
@@ -265,7 +260,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">legal person role</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000062 -->
@@ -277,7 +272,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">hospital governing body role</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000117 -->
@@ -289,7 +284,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018.</dc:date>
         <rdfs:label xml:lang="en">committee member role</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000001 -->
@@ -301,7 +296,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <rdfs:comment xml:lang="en">&apos;Jurisdiction&apos; is often defined in two senses: (1) a geopolitical context (BFO site), or (2) a power. RUBRIC defines jurisdiction as a BFO site, identifiable through shared context of other entities, like a country or state border, or the grounds of an institution. The term ‘deontic power role’ reflects the sense of ‘power’ sometimes used to describe jurisdiction.</rdfs:comment>
         <rdfs:label xml:lang="en">jurisdiction</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000005 -->
@@ -312,7 +307,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">regulatory body</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000006 -->
@@ -325,7 +320,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000232 xml:lang="en">The clause ‘permissions, obligations, restrictions, or protections’ will be replaced with more general superclass, likely from d-acts, when that infrastructure becomes available. IOU Code.</IAO_0000232>
         <rdfs:label xml:lang="en">regulatory document</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000007 -->
@@ -337,7 +332,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">human subject research regulatory document</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000008 -->
@@ -349,7 +344,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000425 xml:lang="en">‘Informed Consent Waivers,’ ‘Informed Consent Exemptions.’</IAO_0000425>
         <rdfs:label xml:lang="en">informed consent regulatory document</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000010 -->
@@ -361,7 +356,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">informed consent rule</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000011 -->
@@ -374,7 +369,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000600 xml:lang="en">The logical form of a conditional rule is as follows: if condition (y) obtains, then perform action (x).</IAO_0000600>
         <rdfs:label xml:lang="en">conditional informed consent rule</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000012 -->
@@ -385,7 +380,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">broad consent rule</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000013 -->
@@ -396,7 +391,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">disclosure directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000014 -->
@@ -408,7 +403,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">deontic power role directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000015 -->
@@ -421,7 +416,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete confidentiality directive</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000016 -->
@@ -433,7 +428,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">answer directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000017 -->
@@ -444,7 +439,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte, Jonathan Vajda</IAO_0000117>
         <rdfs:label xml:lang="en">consequent directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000018 -->
@@ -456,7 +451,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000600 xml:lang="en">Permission to do (x).</IAO_0000600>
         <rdfs:label xml:lang="en">permission directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000019 -->
@@ -468,7 +463,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000600 xml:lang="en">Permission to do (x), if condition (y).</IAO_0000600>
         <rdfs:label xml:lang="en">conditional permission directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000020 -->
@@ -480,7 +475,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000600 xml:lang="en">When particpating in an informed consent process (a), do not do action (y).</IAO_0000600>
         <rdfs:label xml:lang="en">restriction directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000021 -->
@@ -492,7 +487,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000600 xml:lang="en">When particpating in an informed consent process (a), if conditon (x) do not do action (y).</IAO_0000600>
         <rdfs:label xml:lang="en">conditional restriction directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000022 -->
@@ -503,7 +498,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">obligation directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000023 -->
@@ -514,7 +509,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">conditional obligation directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000031 -->
@@ -525,7 +520,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">liability directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000032 -->
@@ -537,7 +532,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of medical procedure</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000033 -->
@@ -549,7 +544,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000232 xml:lang="en">An antecedent.</IAO_0000232>
         <rdfs:label xml:lang="en">trigger condition directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000034 -->
@@ -559,9 +554,8 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">A descriptive information content entity that reports that participation in the procedures described elsewhere in the document are voluntary.</IAO_0000117>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of voluntary participation</rdfs:label>
-        <rdfs:label xml:lang="en">legally authorized representative role</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000037 -->
@@ -573,7 +567,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000600 xml:lang="en">Typically, someone who bears a witness role has observed some history, such that one may attest to what has occurred.</IAO_0000600>
         <rdfs:label xml:lang="en">witness role</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000041 -->
@@ -584,7 +578,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">withdrawal from participation directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000049 -->
@@ -595,7 +589,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">legal age</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000051 -->
@@ -607,7 +601,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <rdfs:comment xml:lang="en">This &apos;act of approving&apos; is distinct from the mental act of approving.</rdfs:comment>
         <rdfs:label xml:lang="en">act of approving</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000054 -->
@@ -618,7 +612,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">consent language directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000055 -->
@@ -629,7 +623,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">J. Neil Otte, Cooper Stansbury, Jonathan Vajda</IAO_0000117>
         <rdfs:label xml:lang="en">description of alternative</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000056 -->
@@ -642,7 +636,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000600 xml:lang="en">An international review board (IRB) may require a research proposal to identify ways in which a participant may be under undue influence. For example, a prisoner may feel compelled, given their vulnerability, to provide more information or cooperation in a study than they would normally consent to, because of the benefits they might receive.</IAO_0000600>
         <rdfs:label xml:lang="en">description of coercion</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000059 -->
@@ -653,7 +647,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete information about participant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000069 -->
@@ -667,7 +661,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported and adapted 8.22.2018</dc:date>
         <rdfs:label xml:lang="en">cognitive impairment</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000070 -->
@@ -678,7 +672,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</IAO_0000117>
         <rdfs:label xml:lang="en">economic vulnerability</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000071 -->
@@ -689,7 +683,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</IAO_0000117>
         <rdfs:label xml:lang="en">educational vulnerability</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000083 -->
@@ -700,7 +694,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">act of archiving informed consent</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000088 -->
@@ -711,7 +705,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</IAO_0000117>
         <rdfs:label xml:lang="en">contact method description</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000093 -->
@@ -722,7 +716,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">vulnerable population directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000094 -->
@@ -733,7 +727,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">confidentiality directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000119 -->
@@ -747,7 +741,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <rdfs:comment xml:lang="en">A note: &apos;entity&apos; rather than &apos;agent&apos; is used in this definition in order to allow that software can communicate with other software. However, it should be noted that this definition of communication excludes broader meanings, such as unintentional sharing of information.</rdfs:comment>
         <rdfs:label xml:lang="en">act of communicating</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000128 -->
@@ -757,7 +751,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete benefit</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000129 -->
@@ -767,7 +761,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete risk</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000131 -->
@@ -778,7 +772,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of expected study participation duration</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000132 -->
@@ -789,7 +783,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">research method directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000133 -->
@@ -800,7 +794,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of conditional compensation</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000134 -->
@@ -811,7 +805,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">description of discomfort</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000137 -->
@@ -822,7 +816,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">J. Neil Otte, Cooper Stansbury, Jonathan Vajda</IAO_0000117>
         <rdfs:label xml:lang="en">description of collected biospecimens</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000138 -->
@@ -833,7 +827,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117>Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of collected information</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000141 -->
@@ -844,7 +838,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</IAO_0000117>
         <rdfs:label xml:lang="en">description of future biospecimen use</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000144 -->
@@ -855,7 +849,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">description of procedure for obtaining further information</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000146 -->
@@ -867,7 +861,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">J. Neil Otte, Cooper Stansbury, Jonathan Vajda</IAO_0000117>
         <rdfs:label xml:lang="en">contact method directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000148 -->
@@ -879,7 +873,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000232 xml:lang="en">It is possible that classes like this will be useful in conjuction with descriptions of risk as in: &apos;description of risk of breach of confidentiality.&apos;</IAO_0000232>
         <rdfs:label xml:lang="en">description of breach of confidentiality</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000149 -->
@@ -891,7 +885,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000118 xml:lang="en">description of liability</IAO_0000118>
         <rdfs:label xml:lang="en">description of legal responsibility</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000151 -->
@@ -902,7 +896,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">description of financial risk</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000152 -->
@@ -913,7 +907,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">description of reputational risk</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000153 -->
@@ -928,7 +922,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000232 xml:lang="en">Note: It is possible to belong to a vulnerable population and yet not bear a disposition of vulnerability. Typically, when a person is held to be a vulnerable individual, this is a designation that applies by fiat in virtue of their membership to some legally designated group, and not based on a clear investigation of their individual case. Hence, it seems prudent here to use roles for this purpose.</IAO_0000232>
         <rdfs:label xml:lang="en">vulnerable individual role</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000154 -->
@@ -939,7 +933,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">regulatory oversight role</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000159 -->
@@ -951,7 +945,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000232 xml:lang="en">It is possible to create further defined classes here, such as &apos;abused minor role&apos; that is a minor that participated in a process of abuse.</IAO_0000232>
         <rdfs:label xml:lang="en">minor role</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000160 -->
@@ -962,7 +956,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000232 xml:lang="en">Could reuse: http://purl.obolibrary.org/obo/ontoneo/ONTONEO_00000197</IAO_0000232>
         <rdfs:label xml:lang="en">pregnant woman</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000161 -->
@@ -974,7 +968,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000232 xml:lang="en">Note from Jonathan Vajda: Depending on the level of granluarity, we could have prisoner role, incarcerated role, etc. and these roles would differentiated by what kind of stasis of incarceration necessary.</IAO_0000232>
         <rdfs:label xml:lang="en">prisoner role</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000164 -->
@@ -985,7 +979,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">waiver document</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000165 -->
@@ -997,7 +991,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000232 xml:lang="en">From NCI Thesaurus OBO Edition: Incentive: A benefit, consideration, or positive motivational influence, financial or otherwise, given to induce a specific action. [def-source: NCI]</IAO_0000232>
         <rdfs:label xml:lang="en">description of incentive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000168 -->
@@ -1009,7 +1003,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000232 xml:lang="en">This term was adapted from: http://purl.obolibrary.org/obo/NCIT_C70817</IAO_0000232>
         <rdfs:label xml:lang="en">study protocol</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000169 -->
@@ -1020,7 +1014,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">data sharing directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000170 -->
@@ -1032,7 +1026,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">permission transfer directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000171 -->
@@ -1043,7 +1037,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">future use directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000173 -->
@@ -1054,7 +1048,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</IAO_0000117>
         <rdfs:label xml:lang="en">description of consequences of voluntarily withdrawal</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000174 -->
@@ -1065,7 +1059,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">stasis of regulation</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000175 -->
@@ -1078,7 +1072,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000232 xml:lang="en">There are many definitions and conceptions of law, which can be elaborated in further work. There is a concern not to define law in such a way that we narrow the scope beyond an international context.</IAO_0000232>
         <rdfs:label xml:lang="en">stasis of law</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000176 -->
@@ -1090,7 +1084,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000232 xml:lang="en">See http://purl.unep.org/sdg/SDGIO_00000024 (Vulnerability):  A disposition of an entity to undergo undesirable change in response to some exposure.</IAO_0000232>
         <rdfs:label xml:lang="en">protection directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000180 -->
@@ -1101,7 +1095,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">act of regulatory supervision</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000181 -->
@@ -1113,7 +1107,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000119 xml:lang="en">adapted from &quot;abuse.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
         <rdfs:label xml:lang="en">act of abuse</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000182 -->
@@ -1125,7 +1119,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000232 xml:lang="en">It is possible that there are meaningful defined classes here like: &apos;act of authorized disclosure&apos; and &apos;act of unauthorized disclosure.&apos;</IAO_0000232>
         <rdfs:label xml:lang="en">act of disclosure</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000183 -->
@@ -1136,7 +1130,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of research procedure</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000184 -->
@@ -1147,7 +1141,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</IAO_0000117>
         <rdfs:label xml:lang="en">description of future data use</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000185 -->
@@ -1158,7 +1152,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">description of future use</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000186 -->
@@ -1170,7 +1164,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000119 xml:lang="en">&quot;waiver.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</IAO_0000119>
         <rdfs:label xml:lang="en">act of waiving</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000187 -->
@@ -1181,7 +1175,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">waiver directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000188 -->
@@ -1193,7 +1187,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000232 xml:lang="en">adapted from: http://purl.obolibrary.org/obo/NCIT_C113777</IAO_0000232>
         <rdfs:label xml:lang="en">description of waiver</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000189 -->
@@ -1205,29 +1199,29 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000600 xml:lang="en">A passive participant in such a process would mean that the act of abuse has this entity as its target; i.e., the bearer of this role is entity that is mistreated.</IAO_0000600>
         <rdfs:label xml:lang="en">abused person role</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000191 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <IAO_0000115 xml:lang="en">a directive information entity that prescribes some investigation of biospecimens.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes some investigation of biospecimens.</IAO_0000115>
         <IAO_0000117 xml:lang="en">J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">directive about research of biospecimens</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000192 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000192">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <IAO_0000115 xml:lang="en">a planned process that involves the investigation of some sequence of DNA.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A planned process that involves the investigation of some sequence of DNA.</IAO_0000115>
         <IAO_0000117 xml:lang="en">J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">act of genetic testing</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000193 -->
@@ -1244,18 +1238,18 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000117 xml:lang="en">J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">genetic testing directive</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0000195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000195">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <IAO_0000115 xml:lang="en">a role inhering in some material entity that is realized in an act of artifact modification.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A role inhering in some material entity that is realized in an act of artifact modification.</IAO_0000115>
         <IAO_0000117 xml:lang="en">J. Neil Otte</IAO_0000117>
         <rdfs:label xml:lang="en">excess material role</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.unep.org/sdg/SDGIO_00000024 -->
@@ -1270,7 +1264,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <dc:date xml:lang="en">Imported 08.22.2018</dc:date>
         <rdfs:label xml:lang="en">vulnerability</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity -->
@@ -1288,7 +1282,7 @@ All rights reserved.
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">descriptive information content entity</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Government -->
@@ -1308,7 +1302,7 @@ All rights reserved.
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">government</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Stasis -->
@@ -1326,7 +1320,7 @@ All rights reserved.
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">stasis</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant -->
@@ -1350,4 +1344,3 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
 
 <!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
-
