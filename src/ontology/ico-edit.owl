@@ -307,8 +307,8 @@
         <obo:IAO_0000118 xml:lang="en">informed consent document</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">NCIt C16468</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">See curator note for &apos;incomplete informed consent form&apos;.</obo:IAO_0000232>
-        <obo:ICO_0000091 xml:lang="en">C0009797 </obo:ICO_0000091>
-        <obo:ICO_0000092 xml:lang="en">C16468 </obo:ICO_0000092>
+        <obo:ICO_0000091 xml:lang="en">C0009797</obo:ICO_0000091>
+        <obo:ICO_0000092 xml:lang="en">C16468</obo:ICO_0000092>
         <rdfs:label xml:lang="en">informed consent form</rdfs:label>
     </owl:Class>
 
@@ -746,7 +746,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000022"/>
         <obo:IAO_0000115 xml:lang="en">A date specification that designates when an informed consent form was signed.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">5/7/2014 Asiyah Yu Lin:  look at the OBI example of sample collection date http://purl.obolibrary.org/obo/OBI_0001619 </obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">5/7/2014 Asiyah Yu Lin: look at the OBI example of sample collection date http://purl.obolibrary.org/obo/OBI_0001619</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Yongqun He, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">informed consent form signing date</rdfs:label>
     </owl:Class>
@@ -1285,9 +1285,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000081">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in an individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">Yongqun He: Based on the definition, may be better to label it as &apos;consent legal guardian role&apos;</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Yongqun He: Based on the definition, may be better to label it as consent legal guardian role</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en"> legally authorized representative role</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">legally authorized representative role</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">NCTI C51828</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete legal guardian role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1299,9 +1299,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000082">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000116 xml:lang="en">Yongqun He: Based on the definition of &apos;legal guardian role&apos;, it may be better to label the term as &apos;consent legal guardian&apos; of &apos;legal guardian of consent&apos;. </obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Yongqun He: Based on the definition of &apos;legal guardian role&apos;, it may be better to label the term as &apos;consent legal guardian&apos; of &apos;legal guardian of consent&apos;.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en"> legally authorized representative</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">legally authorized representative</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete legal guardian</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1425,7 +1425,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000078"/>
         <obo:IAO_0000115 xml:lang="en">A risk that is equal or lesser than those ordinarily encountered in daily life or during the performance of routine physical or psychological examinations or tests.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, J. Neil Otte, Cooper Stansbury</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en"> (45 CFR 46.102(i)).  Available online from: http://www.hhs.gov/ohrp/humansubjects/guidance/45cfr46.html#46.102 Accessed 7/31/13.</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">(45 CFR 46.102(i)).  Available online from: http://www.hhs.gov/ohrp/humansubjects/guidance/45cfr46.html#46.102 Accessed 7/31/13.</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">Definition varies slightly for research on prisoners; see (45 CFR 46.303(d)).</obo:IAO_0000232>
         <rdfs:label xml:lang="en">minimal risk</rdfs:label>
     </owl:Class>
@@ -1769,7 +1769,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000127">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A participation time that is the total length of time of subject&apos;s participation in a research study; from the time of enrollment to the completion of follow-up.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">The term definition is adapted from NCIt definition of &quot;Planned Duration of Study Subject Participation&quot; (C70707) with modification. Compared to the NCIt definition, the ICO definition specifies research research study instead of a clinical study.  </obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">The term definition is adapted from NCIt definition of &quot;Planned Duration of Study Subject Participation&quot; (C70707) with modification. Compared to the NCIt definition, the ICO definition specifies research research study instead of a clinical study.</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">This duration is different with the &apos;planned duration of study subject participation&apos;</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
         <obo:ICO_0000091>C2347527</obo:ICO_0000091>
