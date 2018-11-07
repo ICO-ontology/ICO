@@ -433,7 +433,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <IAO_0000112 xml:lang="en">A ‘signature section,’ an ‘I understand’ clause, or a ‘checkbox.’</IAO_0000112>
         <IAO_0000115 xml:lang="en">A directive information entity that, when signed, stamped, or initialed realizes a deontic role as described by the document specifications, or specifications in another related document.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
-        <rdfs:label xml:lang="en">answer directive</rdfs:label>
+        <rdfs:label xml:lang="en">user input directive</rdfs:label>
     </owl:Class>
     
 
@@ -1279,6 +1279,61 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <IAO_0000119 xml:lang="en">Adapted from: “Secondary Use of Data - FAQs - Research Ethics Office - Sunnybrook Research Institute.” [Online]. Available: https://sunnybrook.ca/research/content/?page=sri-crs-reo-faq-secondaryusedata. [Accessed: 07-Nov-2018].</IAO_0000119>
         <rdfs:label xml:lang="en">secondary use objective specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the bearer, the role and the conditions for realization between two specific instances of a bearer and a role in a process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">role directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0002004"/>
+        <IAO_0000115 xml:lang="en">A role directive that prescribes the bearer of a patient role in a process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">patient role directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0002004"/>
+        <IAO_0000115 xml:lang="en">A role directive that prescirbes the bearer of a regulatory oversight role in a process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">regulatory oversight role directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0002004"/>
+        <IAO_0000115 xml:lang="en">A role directive that prescribes the bearer of an investigator role in a process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">investigator role directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0002004"/>
+        <IAO_0000115 xml:lang="en">A role directive that prescribes the bearer of a legally authorized representative role in process.</IAO_0000115>
+        <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
+        <rdfs:label xml:lang="en">legally authorized representative role directive</rdfs:label>
     </owl:Class>
     
 
