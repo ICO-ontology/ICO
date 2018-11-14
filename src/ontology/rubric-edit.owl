@@ -453,7 +453,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes a deontic role that permits some action or an action that realizes a deontic role.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes a deontic role that permits some action.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <IAO_0000600 xml:lang="en">Permission to do (x).</IAO_0000600>
         <rdfs:label xml:lang="en">permission directive</rdfs:label>
@@ -1286,8 +1286,14 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
     <!-- http://purl.obolibrary.org/obo/RUBRIC_0002004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002004">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <IAO_0000115 xml:lang="en">A directive information entity that prescribes the bearer, the role and the conditions for realization between two specific instances of a bearer and a role in a process.</IAO_0000115>
+        <IAO_0000115 xml:lang="en">A directive information entity that prescribes some role.</IAO_0000115>
         <IAO_0000117 xml:lang="en">Cooper Stansbury</IAO_0000117>
         <rdfs:label xml:lang="en">role directive</rdfs:label>
     </owl:Class>
