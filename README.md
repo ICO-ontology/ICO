@@ -1,7 +1,6 @@
 # WARNING: This is a Development Version
 For the current working list please see the [docket](docket.md)
 
-
 ## (Original README)
 ### Informed Consent Ontology (ICO)
 
