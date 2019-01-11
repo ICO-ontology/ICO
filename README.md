@@ -1,6 +1,8 @@
 # WARNING: This is a Development Version
 For the current working list please see the [docket](docket.md)
 
+**NOTE** PURL RANGES ARE IMPORTANT
+
 ## (Original README)
 ### Informed Consent Ontology (ICO)
 

@@ -11,8 +11,6 @@
 1. RUBRIC: Every conditional will have a trigger condition description ('if') and a consequent directive ('then').
 
 ## Possible Useful Term Imports:
-1. ['principal investigator role' - http://purl.obolibrary.org/obo/OBI_0000103](http://purl.obolibrary.org/obo/OBI_0000103)
-1. ['biological specimen' - http://purl.obolibrary.org/obo/ERO_0000020](http://purl.obolibrary.org/obo/ERO_0000020)
 1. ['biorepository' - http://purl.obolibrary.org/obo/ERO_0001844](http://purl.obolibrary.org/obo/ERO_0001844)
 1. ['medical procedure' - http://purl.obolibrary.org/obo/OAE_0002807](http://purl.obolibrary.org/obo/OAE_0002807)
 1. ['age measurement datum' - http://purl.obolibrary.org/obo/OMRSE_00000088](http://purl.obolibrary.org/obo/OMRSE_00000088)
