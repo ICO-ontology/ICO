@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ico.owl/"
-     xml:base="http://purl.obolibrary.org/obo/ico.owl/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ico.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ico.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="ttp://www.geneontology.org/formats/oboInOwl#"
-     xmlns:rdfs1="rdfs:"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdfs2="rdfs:"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -11,15 +11,14 @@
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:oboInOwl1="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:oboInOwl1="ttp://www.geneontology.org/formats/oboInOwl#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ico.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
         <dc:contributor xml:lang="en">William Duncan</dc:contributor>
@@ -48,10 +47,10 @@
         <dc:contributor xml:lang="en">Jihad Obeid</dc:contributor>
         <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
     </owl:Ontology>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -59,7 +58,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
@@ -68,7 +67,7 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </rdf:Description>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
@@ -76,7 +75,7 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </rdf:Description>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000091 -->
@@ -85,7 +84,7 @@
         <rdfs:label xml:lang="en">term_mapping_to_UMLS</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="rdfs:seeAlso"/>
     </owl:AnnotationProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000092 -->
@@ -94,7 +93,7 @@
         <rdfs:label xml:lang="en">term_mapping_to_NCIT</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="rdfs:seeAlso"/>
     </owl:AnnotationProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000093 -->
@@ -103,16 +102,32 @@
         <rdfs:label xml:lang="en">term_mapping_to_HL7v3</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="rdfs:seeAlso"/>
     </owl:AnnotationProperty>
+    
 
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000231 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000231">
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This annotation property specifies classes that were developed as part of an alignment effort between the Common Rule Ontology and the Informed Consent Ontology in the Summer of 2018. These classes represent entities that are necessary for understanding the regularatory frameworks that influence informed consent, often at a different level of granularity than individual consent processes. These classes were created to be compatible with regulatory frameworks outside the Unitied States, hence they are general.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">Regulatory Basis for Informed Consent</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
+    
 
 
     <!-- rdfs:seeAlso -->
 
     <owl:AnnotationProperty rdf:about="rdfs:seeAlso"/>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -120,7 +135,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000108 -->
@@ -130,7 +145,7 @@
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <rdfs:label xml:lang="en">exists at</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000155 -->
@@ -141,7 +156,7 @@
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <rdfs:label xml:lang="en">occupies temporal region</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000067 -->
@@ -153,7 +168,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete form signed by</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000130 -->
@@ -167,7 +182,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete is associated with review board approval number</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000132 -->
@@ -179,7 +194,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete is assigned by organization</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000216 -->
@@ -189,7 +204,7 @@
         <obo:IAO_0000115 xml:lang="en">A relation holding between an instance of a deontic role and an instance of an intentional action when the deontic role bearer participates in the intentional action and is allowed to do so.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">permits</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000224 -->
@@ -201,7 +216,7 @@
         <rdfs:comment xml:lang="en">A relation between an instance of Process and an instance of Continuant, where the continuant is a causal participant in the process.</rdfs:comment>
         <rdfs:label xml:lang="en">has agent</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000225 -->
@@ -212,16 +227,69 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">agent in</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty -->
 
     <owl:ObjectProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+    
 
 
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/designated_by -->
 
-    <!--
+    <owl:ObjectProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/designated_by">
+        <obo:IAO_0000115 xml:lang="en">The inverse of designates, which relates an Entity to some Information Content Entity.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">Note on modification: Changed relation to hold between an IAO: Information Content Entity instead of a Designative Information Content Entity.</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/designated_by"/>
+        <dc:date xml:lang="en">Imported 08.09.2018</dc:date>
+        <dc:license xml:lang="en">BSD 3-Clause License
+
+Copyright (c) 2017, CUBRC, Inc.
+All rights reserved.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
+        <rdfs:label xml:lang="en">designated by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by">
+        <owl:inverseOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+        <obo:IAO_0000115 xml:lang="en">The inverse of presecribes, which relates an Entity to some Directive Information Content Entity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by"/>
+        <dc:date xml:lang="en">Imported 08.09.2018</dc:date>
+        <dc:license xml:lang="en">BSD 3-Clause License
+
+Copyright (c) 2017, CUBRC, Inc.
+All rights reserved.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
+        <rdfs:label xml:lang="en">prescribed by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/prescribes -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <obo:IAO_0000412 xml:lang="en">http://www.ontologyrepository.com/CommonCoreOntologies/prescribes</obo:IAO_0000412>
+        <dc:license xml:lang="en">BSD 3-Clause License
+
+Copyright (c) 2017, CUBRC, Inc.
+All rights reserved.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
+        <rdfs:comment xml:lang="en">For all types T1 and T2, if T1 prescribes T2, then there is some instance of T1, t1, that serves as a rule or guide to some instance of T2, t2 (if T2 is a type of bfo:Occurrent) or that serves as a model for some instance of T2, t2 (if T2 is a type of bfo:Continuant).</rdfs:comment>
+        <rdfs:label xml:lang="en">prescribes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -229,7 +297,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000008 -->
@@ -237,7 +305,15 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000008">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
     </rdf:Description>
+    
 
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000030">
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+    </rdf:Description>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000034 -->
@@ -246,7 +322,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
     </rdf:Description>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
@@ -255,7 +331,41 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
     </rdf:Description>
+    
 
+
+    <!-- http://purl.obolibrary.org/obo/DUO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be removed, stored or used.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/DUO_0000001"/>
+        <dc:date xml:lang="en">Imported 08.09.2018</dc:date>
+        <rdfs:label xml:lang="en">consent code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007565">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">The set of physiological processes that allow an embryo or foetus to develop within the body of a female animal. It covers the time from fertilization of a female ovum by a male spermatozoon until birth. [database_cross_reference: ISBN:0192800825]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/GO_0007565"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">female pregnancy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000005 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000005">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
@@ -264,7 +374,7 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICODEV_0000065 -->
@@ -274,7 +384,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete NEEDS_REVIEW</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICODEV_0000066 -->
@@ -285,7 +395,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete Proposed RUBRIC Classes</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000001 -->
@@ -311,7 +421,7 @@
         <obo:ICO_0000092 xml:lang="en">C16468</obo:ICO_0000092>
         <rdfs:label xml:lang="en">informed consent form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000002 -->
@@ -323,7 +433,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete designing an informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000003 -->
@@ -334,7 +444,7 @@
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">validating an informed consent form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000004 -->
@@ -345,7 +455,7 @@
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">approving an informed consent form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000005 -->
@@ -358,7 +468,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete signing an informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000006 -->
@@ -370,7 +480,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent regulatory body</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000007 -->
@@ -383,7 +493,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete part of informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000008 -->
@@ -395,7 +505,7 @@
         <obo:IAO_0000232 xml:lang="en">This class may move to RUBRIC.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">description of participation risk</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000009 -->
@@ -406,18 +516,18 @@
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">recontact method directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_100016"/>
         <obo:IAO_0000115 xml:lang="en">An answer directive that is part of a document and whose filling in or leaving blank is incidental to the completion of the form.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">option to check</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000011 -->
@@ -429,7 +539,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete required informed consent element</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000012 -->
@@ -441,7 +551,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete optional informed consent element</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000013 -->
@@ -455,7 +565,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for human biospecimen collection</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000014 -->
@@ -466,7 +576,7 @@
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">informed consent form for human blood sample collection</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000015 -->
@@ -489,7 +599,7 @@
         <obo:IAO_0000232 xml:lang="en">Note from J. Neil Otte (7.24.18): &apos;signed informed consent form&apos; is not a synonym nor subclass of &apos;complete informed consent form indicating consent&apos;. A signed informed consent form may bear the signature of a witness or doctor, but not yet be complete. Also, a complete informed consent form may need only have been stamped or witnessed by checking a box in an electronic form, and may not require a signature.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">signed informed consent form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000016 -->
@@ -501,7 +611,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete allowed research scope in informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000017 -->
@@ -513,7 +623,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete fully signed informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000018 -->
@@ -525,7 +635,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form signed by human subject</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000019 -->
@@ -537,7 +647,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete signature section</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000020 -->
@@ -549,7 +659,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete human subject signature section in informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000021 -->
@@ -561,7 +671,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete investigator signature section in informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000022 -->
@@ -578,7 +688,7 @@
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">temporal region identifier</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000023 -->
@@ -590,7 +700,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete completely filled informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000024 -->
@@ -602,7 +712,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete partially filled informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000025 -->
@@ -614,7 +724,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete effective date specification in informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000026 -->
@@ -626,7 +736,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete expiration date specification in informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000027 -->
@@ -638,7 +748,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete starting date specification in informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000028 -->
@@ -650,7 +760,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete human blood sample collection section</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000029 -->
@@ -663,7 +773,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for clinical study</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000030 -->
@@ -676,7 +786,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for storage and future use of unused samples</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000031 -->
@@ -689,7 +799,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for qualitative study</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000032 -->
@@ -701,7 +811,7 @@
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed assent form for child or minor</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000033 -->
@@ -713,7 +823,7 @@
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed consent form for qualitative research involving children</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000034 -->
@@ -725,7 +835,7 @@
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed consent form for clinical research involving children</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000035 -->
@@ -738,7 +848,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete date specification in informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000036 -->
@@ -750,7 +860,7 @@
         <obo:IAO_0000117 xml:lang="en">Yongqun He, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">informed consent form signing date</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000037 -->
@@ -761,7 +871,7 @@
         <obo:IAO_0000117 xml:lang="en">Yongqun He, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project duration specification</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000038 -->
@@ -772,7 +882,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">project starting date specification</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000039 -->
@@ -783,7 +893,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">project end date specification</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000040 -->
@@ -795,7 +905,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete human subject consenter</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000041 -->
@@ -807,7 +917,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent rule specification</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000042 -->
@@ -820,7 +930,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obligation informed consent rule specification</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000043 -->
@@ -833,7 +943,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete permission informed consent rule specification</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000044 -->
@@ -844,7 +954,7 @@
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">informed consent identification code</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000045 -->
@@ -855,7 +965,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">investigator role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000047 -->
@@ -866,7 +976,7 @@
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">human population</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000048 -->
@@ -877,7 +987,7 @@
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">nonprofit organization</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000049 -->
@@ -888,7 +998,7 @@
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">profit organization</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000050 -->
@@ -900,7 +1010,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete animal research investigation</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000051 -->
@@ -911,7 +1021,7 @@
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">cancer research investigation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000052 -->
@@ -923,7 +1033,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete metastatic melanoma research investigation</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000053 -->
@@ -934,7 +1044,7 @@
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">drug testing investigation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000054 -->
@@ -945,7 +1055,7 @@
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">human research investigation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000055 -->
@@ -957,7 +1067,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete genetic study</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000056 -->
@@ -974,7 +1084,7 @@
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">nonprofit research investigation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000057 -->
@@ -991,7 +1101,7 @@
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">for-profit research investigation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000058 -->
@@ -1002,7 +1112,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">investigation period</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000059 -->
@@ -1013,13 +1123,13 @@
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">ethics directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000060">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0037261"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000227"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
@@ -1030,7 +1140,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of storing a specimen</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000061 -->
@@ -1042,7 +1152,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for genetic study</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000062 -->
@@ -1054,7 +1164,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete human subject unable to give informed consent</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000063 -->
@@ -1065,7 +1175,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for quantitative study</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000064 -->
@@ -1077,7 +1187,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete study requiring informed consent</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000065 -->
@@ -1091,7 +1201,7 @@
         <rdfs:label xml:lang="en">clinical trial</rdfs:label>
         <rdfs:seeAlso xml:lang="en">UMLS: C0008976</rdfs:seeAlso>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000066 -->
@@ -1108,7 +1218,7 @@
         <obo:IAO_0000117 xml:lang="en">Elizabeth Eisenhauer, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">clinical trial title</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000068 -->
@@ -1119,7 +1229,7 @@
         <rdfs:seeAlso xml:lang="en">§46.116 General requirements for informed consent</rdfs:seeAlso>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000069 -->
@@ -1131,7 +1241,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete contact person for questions about research</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000070 -->
@@ -1143,7 +1253,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete contact person for questions about research subject rights</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000071 -->
@@ -1155,7 +1265,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete contact person in the event of a research-related injury to the subject</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000072 -->
@@ -1167,7 +1277,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete contact person in informed consent process</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000073 -->
@@ -1182,7 +1292,7 @@
         <obo:ICO_0000092 xml:lang="en">C70665</obo:ICO_0000092>
         <rdfs:label xml:lang="en">research subject role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000074 -->
@@ -1195,7 +1305,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete authorization for release of confidential health information</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000075 -->
@@ -1208,7 +1318,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete authorization document</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000076 -->
@@ -1221,7 +1331,7 @@
         <rdfs:seeAlso xml:lang="en">UMLS CUI: C2921556</rdfs:seeAlso>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000077 -->
@@ -1236,7 +1346,7 @@
         <rdfs:comment xml:lang="en">Note that a payment is not a benefit of a study.</rdfs:comment>
         <rdfs:label xml:lang="en">benefit</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000078 -->
@@ -1251,7 +1361,7 @@
         <obo:ICO_0000092 xml:lang="en">C17102</obo:ICO_0000092>
         <rdfs:label xml:lang="en">risk</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000079 -->
@@ -1266,7 +1376,7 @@
         <rdfs:label xml:lang="en">institutional review board</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;code=C16741&amp;ns=NCI_Thesaurus</rdfs:seeAlso>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000080 -->
@@ -1277,7 +1387,7 @@
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research assistant role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000081 -->
@@ -1292,7 +1402,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete legal guardian role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000082 -->
@@ -1305,7 +1415,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete legal guardian</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000083 -->
@@ -1318,7 +1428,7 @@
         <obo:IAO_0000232 xml:lang="en">This is adapted from HIPAA.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">individually identifiable health information entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000084 -->
@@ -1343,7 +1453,7 @@
         <obo:IAO_0000119 xml:lang="en">https://www.cancer.gov/about-cancer/treatment/clinical-trials/patient-safety/childrens-assent</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed consent process with assent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000085 -->
@@ -1354,7 +1464,7 @@
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">informed assent form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000087 -->
@@ -1365,7 +1475,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">study duration measurement</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000088 -->
@@ -1376,7 +1486,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">participation duration</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000089 -->
@@ -1389,7 +1499,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete actual duration of study subject participation</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000090 -->
@@ -1401,7 +1511,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete credential letter</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000094 -->
@@ -1416,7 +1526,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete follow-up visit</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000095 -->
@@ -1429,7 +1539,7 @@
         <obo:IAO_0000232 xml:lang="en">Definition varies slightly for research on prisoners; see (45 CFR 46.303(d)).</obo:IAO_0000232>
         <rdfs:label xml:lang="en">minimal risk</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000096 -->
@@ -1441,7 +1551,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete alcohol abuse treatment record</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000097 -->
@@ -1454,7 +1564,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete mental health care record</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000098 -->
@@ -1466,7 +1576,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining to participant candidate about the study participating information</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000099 -->
@@ -1478,7 +1588,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for human urine biospecimen collection</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000100 -->
@@ -1492,7 +1602,7 @@
 2) Resnik, (2006)“A research-related injury is an injury that occurs to a subject as a result of research participation. Injuries may range from relatively minor harms (such as bruises or infected wounds) to major injuries (such as organ damage or temporary disability) to catastrophic injuries (such as permanent disability or death). An injury may require only acute or emergency care, or it may require continuing care. Injuries can be physical or psychological, or emotional.”p. 264</obo:IAO_0000119>
         <rdfs:label xml:lang="en">research-related injury</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000101 -->
@@ -1504,7 +1614,7 @@
         <obo:IAO_0000232 xml:lang="en">This is adapted from HIPAA.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">health information entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000102 -->
@@ -1517,7 +1627,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete information sharing process</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000103 -->
@@ -1529,7 +1639,7 @@
         <obo:IAO_0000232 xml:lang="en">This is adapted from HIPAA.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">protected health information entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000104 -->
@@ -1541,7 +1651,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form containing questionnaire</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000105 -->
@@ -1553,7 +1663,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining study purpose to participant candidate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000107 -->
@@ -1565,7 +1675,7 @@
         <obo:IAO_0000232 xml:lang="en">Note from J. Neil Otte (7.24.18): This class is not to be confused with the terminal process boundary of a study process.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">study termination</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000108 -->
@@ -1576,7 +1686,7 @@
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">withdrawing participation in study</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000109 -->
@@ -1587,7 +1697,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of canceling a permission</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000110 -->
@@ -1599,7 +1709,7 @@
         <obo:IAO_0000119 xml:lang="en">CDISC</obo:IAO_0000119>
         <rdfs:label xml:lang="en">standard medical treatment</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000111 -->
@@ -1614,7 +1724,7 @@
         <obo:ICO_0000092 xml:lang="en">C93662</obo:ICO_0000092>
         <rdfs:label xml:lang="en">review board approval number</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000112 -->
@@ -1626,7 +1736,7 @@
         <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Data_administration</obo:IAO_0000119>
         <rdfs:label xml:lang="en">data administration function</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000113 -->
@@ -1638,7 +1748,7 @@
         <rdfs:comment xml:lang="en">Anonymized data is applicable particularly for secondary use of health data.</rdfs:comment>
         <rdfs:label xml:lang="en">anonymized information content entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000114 -->
@@ -1651,7 +1761,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete anonymized genomic data</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000115 -->
@@ -1663,7 +1773,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete anonymized genomic sample</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000116 -->
@@ -1674,7 +1784,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of using participant data</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000117 -->
@@ -1686,7 +1796,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining study protocol to participant candidate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000118 -->
@@ -1699,7 +1809,7 @@
         <rdfs:label xml:lang="en">repository of documents</rdfs:label>
         <rdfs:seeAlso xml:lang="en">UMLS: C0003738</rdfs:seeAlso>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000119 -->
@@ -1711,7 +1821,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete storage duration of signed informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000121 -->
@@ -1722,7 +1832,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining benefits of participation to participant candidate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000122 -->
@@ -1736,19 +1846,19 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete US federal policy for the protection of human subjects</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000123 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000123">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0037261"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000227"/>
         <obo:IAO_0000115 xml:lang="en">An act of storing a complete informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Elizabeth Eisenhauer, Alla Karnovsky, Marcy Harris, J. Neil Otte</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Note: there were previously some related classes that distinguished the format of the informed consent form (e.g. electronic vs. paper). These distinctions are collapsed here. If making this distinction is necessary, the outputs of an instance of this class may be distinguished in their formatting. For instance, storing in an electronic format would entail an instance of an act of storing signed informed consent form bearing an &apos;has output&apos; relation to an instance of an informed consent form that is in an electronic format.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">act of storing signed informed consent form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000126 -->
@@ -1761,7 +1871,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete storage duration of signed informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000127 -->
@@ -1777,7 +1887,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete planned duration of study subject participation</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000128 -->
@@ -1789,7 +1899,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining risks of participation to participant candidate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000129 -->
@@ -1803,7 +1913,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for human saliva sample collection</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000131 -->
@@ -1815,7 +1925,7 @@
         <obo:IAO_0000118 xml:lang="en">institutional review board approval number</obo:IAO_0000118>
         <rdfs:label xml:lang="en">institutional review board approval number</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000133 -->
@@ -1828,7 +1938,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining sample process and usage to participant candidate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000134 -->
@@ -1841,7 +1951,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining study derived data usage to participant candidate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000135 -->
@@ -1854,7 +1964,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining record confidentiality to participant candidate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000136 -->
@@ -1867,7 +1977,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete participant candidate making voluntary decision of acceptance</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000137 -->
@@ -1880,7 +1990,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete assessment of participant candidate understanding</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000138 -->
@@ -1892,7 +2002,7 @@
         <obo:IAO_0000118 xml:lang="en">immunization consent form</obo:IAO_0000118>
         <rdfs:label xml:lang="en">informed consent form for vaccination</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000139 -->
@@ -1905,7 +2015,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete Walgreens vaccine informed consent form&apos;</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000140 -->
@@ -1916,7 +2026,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">eligibility questionnaire</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000141 -->
@@ -1927,7 +2037,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">question textual entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000142 -->
@@ -1939,7 +2049,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete legally effective consenting</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000143 -->
@@ -1958,7 +2068,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete assent process</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000144 -->
@@ -1970,7 +2080,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete legally effective consented participant role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000145 -->
@@ -1981,7 +2091,7 @@
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">postmortem donation of biological specimen</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000146 -->
@@ -1993,7 +2103,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete eligibility of candidate participation</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000147 -->
@@ -2004,7 +2114,7 @@
         <obo:IAO_0000119 xml:lang="en">NCI BBRB: Biorepositories and Biospecimen Research Branch</obo:IAO_0000119>
         <rdfs:label xml:lang="en">candidate eligible for study role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000148 -->
@@ -2015,7 +2125,7 @@
         <obo:IAO_0000119 xml:lang="en">NCI BBRB: Biorepositories and Biospecimen Research Branch</obo:IAO_0000119>
         <rdfs:label xml:lang="en">candidate ineligible for study role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000149 -->
@@ -2028,7 +2138,7 @@
         <obo:IAO_0000119 xml:lang="en">https://sbsirb.uchicago.edu/page/consent-form-templates-and-examples</obo:IAO_0000119>
         <rdfs:label xml:lang="en">act of contact for future research</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000150 -->
@@ -2039,7 +2149,7 @@
         <obo:IAO_0000117 xml:lang="en">Frank Manion, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">eligibility screening process</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000151 -->
@@ -2050,7 +2160,7 @@
         <obo:IAO_0000117 xml:lang="en">Frank Manion, Yongqun He, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eligibility screening role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000152 -->
@@ -2061,7 +2171,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete eligibility screening person</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000153 -->
@@ -2071,7 +2181,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consenting to be contacted for tissue research</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000154 -->
@@ -2082,7 +2192,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining to participant candidate in informed consent process</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000156 -->
@@ -2095,7 +2205,7 @@
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">adult consent process</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000157 -->
@@ -2110,7 +2220,7 @@
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">parental informed consent process</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000158 -->
@@ -2121,7 +2231,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of declining to provide consent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000159 -->
@@ -2134,7 +2244,7 @@
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed verbal consent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000160 -->
@@ -2147,7 +2257,7 @@
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">consenting in short form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000161 -->
@@ -2159,7 +2269,7 @@
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/books/NBK110047/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">biological sample collecting</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000162 -->
@@ -2171,7 +2281,7 @@
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/books/NBK110047/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">tissue sample collecting</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000163 -->
@@ -2183,7 +2293,7 @@
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/books/NBK110047/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">blood sample collecting</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000164 -->
@@ -2195,7 +2305,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete subject withdrawal with sample stored for unlimited time</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000165 -->
@@ -2207,7 +2317,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete subject withdrawal with sample stored for limited time</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000168 -->
@@ -2220,7 +2330,7 @@
 &apos;has specified output&apos; some &apos;permittee deontic role in genetic research&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">genetic research permission deontic declaration</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000170 -->
@@ -2232,7 +2342,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete filled questionnaire</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000171 -->
@@ -2243,7 +2353,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">filled multiple choice text entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000172 -->
@@ -2254,7 +2364,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">yes answer text entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000173 -->
@@ -2265,7 +2375,7 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">no answer text entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000174 -->
@@ -2277,7 +2387,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete filling informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000175 -->
@@ -2289,7 +2399,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete filling questionnaire</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000177 -->
@@ -2300,7 +2410,7 @@
         <obo:IAO_0000117 xml:lang="en">Christoph Brochhausen, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">consenting not to have financial benefit</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000178 -->
@@ -2312,7 +2422,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consenting to not to be informed about incidental finding</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000179 -->
@@ -2326,7 +2436,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete broad consent process</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000180 -->
@@ -2339,7 +2449,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete process of providing broad consent for research with biological sample</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000181 -->
@@ -2354,7 +2464,7 @@
         <obo:IAO_0000232 xml:lang="en">This definition is provisional, as &apos;secondary use&apos; may apply to non-specimen entities. Adapted from the defintion found here:  https://sunnybrook.ca/research/content/?page=sri-crs-reo-faq-secondaryusedata</obo:IAO_0000232>
         <rdfs:label xml:lang="en">secondary use</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000182 -->
@@ -2365,7 +2475,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consenting to the secondary use of EHR</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000184 -->
@@ -2376,7 +2486,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete NEW_CLASSES</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000185 -->
@@ -2387,7 +2497,7 @@
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">informed assent form for cognitively impaired</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000186 -->
@@ -2399,7 +2509,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete permission temporal region</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000187 -->
@@ -2413,18 +2523,18 @@
         <obo:IAO_0000232 xml:lang="en">Note: Consent roles are created by Acts of Consent. It follows that one can’t be a consenter and bear a consenter role just because one participated in an informed consent process. Here, one would be a mere research candidate or human subject or...etc, who participated in an informed consent process. Assenter Role, likewise, is the output of an Act of Communicating Assent. Both these roles are backward looking--i.e. They are created by the processes of assent and consent and do not pre-date them. By contrast, ‘Legal Representative Role’ and ‘Permission Role’ are not, by definition, tied to Acts of Consenting and Acts of Assenting. Such roles are the output of other processes, including ‘Act of Permitting’ in the latter case, and perhaps ‘Act of Legal Representative Authorization’ in the former.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">legal representative role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000188">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0561614"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000230"/>
         <obo:IAO_0000115 xml:lang="en">A role borne by a human being who is part of a group of individuals and acts as a contact person for the group.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">organization-specified contact role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000189 -->
@@ -2435,7 +2545,7 @@
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">contact directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000190 -->
@@ -2448,7 +2558,7 @@
         <obo:IAO_0000232 xml:lang="en">This is circulular. &apos;Benefit&apos; and &apos;risk&apos; definitions forthcoming.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">description of participation benefit</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000191 -->
@@ -2461,7 +2571,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete description of allowed action types</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000192 -->
@@ -2472,7 +2582,7 @@
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">description of broad consent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000193 -->
@@ -2483,7 +2593,7 @@
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of filling out form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000194 -->
@@ -2495,7 +2605,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete social act (placeholder)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000195 -->
@@ -2516,7 +2626,7 @@ Note: This class is very general, and doesn’t only apply to consent and health
         <obo:IAO_0000232 xml:lang="en">Note: ‘Act of permitting’, ‘act of consenting’, and ‘act of communicating assent’ are all success terms, which is to say that no ‘act of permitting’ does not issue a permission, no ‘act of consenting’ does not issue a consent, and no ‘act of communicating assent’ does not issue an assent.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">act of permitting</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000196 -->
@@ -2541,7 +2651,7 @@ Note: This class is very general, and doesn’t only apply to consent and health
 Also, 6/28: Mathias writes: This definition is probably incorrect. I assume we don&apos;t want to affirm that only within informed consent we do find acts of consenting.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">act of informed consenting</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000197 -->
@@ -2552,7 +2662,7 @@ Also, 6/28: Mathias writes: This definition is probably incorrect. I assume we d
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of communicating assent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000199 -->
@@ -2566,7 +2676,7 @@ Also, 6/28: Mathias writes: This definition is probably incorrect. I assume we d
         <obo:IAO_0000232 xml:lang="en">Note: Typically, in the context of consent, a permission role will inhere in a clinician or investigator as a result of an act of permitting, but possibly an act of authorizing. Authorizing is different from permitting, but this needs to be worked out. Perhaps one has provided permission, but the process and the documentation need to be authorized by some authority prior to a clinician acquiring a permission role. There is also the case Chris Stockert raised, where an organization authorizes some data or specimens to be used, despite no consent or assent having been provided.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">permission role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000200 -->
@@ -2579,7 +2689,7 @@ Also, 6/28: Mathias writes: This definition is probably incorrect. I assume we d
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consent power role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000201 -->
@@ -2603,7 +2713,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 	In addition as of this writing (July 2018): There is work on capabilities occurring presently within the National Center for Ontological Research (NCOR), so this reading of capabilities may need revising as that work moves forward.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">capability to consent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000202 -->
@@ -2618,7 +2728,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000232 xml:lang="en">One may have the same capability to consent, but whether that capability to consent amounts to a competency might vary between jurisdictions that impose different requirements upon the bearer.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">competency to consent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000203 -->
@@ -2629,7 +2739,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">assenter role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000204 -->
@@ -2650,7 +2760,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">assenter</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000205 -->
@@ -2681,7 +2791,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">consenter</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000206 -->
@@ -2694,7 +2804,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consenter role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000213 -->
@@ -2706,7 +2816,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:comment xml:lang="en">Note: instances of &apos;incomplete informed consent form&apos; include both blank informed consent forms that are waiting to be used in a process of informed consent, as well as those that have been left blank by a patient, whether on purpose or in error. Those that have been left blank on purpose have been used in a process of informed consent, where the patient must have reached a decision.</rdfs:comment>
         <rdfs:label xml:lang="en">incomplete informed consent form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000214 -->
@@ -2717,7 +2827,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">complete informed consent form indicating consent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000215 -->
@@ -2728,7 +2838,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">deontic power role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000217 -->
@@ -2739,7 +2849,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of anonymizing</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000218 -->
@@ -2750,7 +2860,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of removing identifiable information</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000220 -->
@@ -2769,7 +2879,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">agent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000221 -->
@@ -2781,7 +2891,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000232 xml:lang="en">If I communicate falsehoods, I do not inform--I mis-inform.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">act of informing</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000222 -->
@@ -2792,7 +2902,19 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury, J. Neil Otte.</obo:IAO_0000117>
         <rdfs:label xml:lang="en">signature</rdfs:label>
     </owl:Class>
+    
 
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000215"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic power role that may be realized in an act of consent that is a process part of an informed consent process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">a consent power role is a legal right that holds within a jurisdiction and is a necessary requirement to bear a competency to consent.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">consent power role</rdfs:label>
+    </owl:Class>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000226 -->
@@ -2805,7 +2927,1127 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000232 xml:lang="en">We expect to add a subclass axiom: &apos;preceded by&apos; some &apos;Act of Anonymizing&apos;</obo:IAO_0000232>
         <rdfs:label xml:lang="en">stasis of anonymization</rdfs:label>
     </owl:Class>
+    
 
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process that involves placing a material entity in some location in order to maintain possession of it.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">act of storing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000228">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">a planned process in which data possessed by one person or organization is shared with one or more other persons or organizations.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Check against &apos;act of communication&apos; in RUBRIC.</rdfs:comment>
+        <rdfs:label xml:lang="en">act of data sharing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000230"/>
+        <obo:IAO_0000115 xml:lang="en">A contact person role that is the output of either a human subject or patient assigning that person as their point of contact.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">emergency contact role</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">human subject-specified contact person role</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">organization-specified contact role</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role inhering in a person who is a designated contact for some other agent.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">The subclasses of &apos;contact person role&apos; distinguish two types: a contact person who has been designated by an organization for others (primarily patients and human research subjects in clinical settings) to contact, and a contact person whom an agent has specified for an organization to contact in the event that the organization needs to contact the patient. Examples of the latter include &apos;emergency contact&apos; persons, who are frequently specified in a form.</rdfs:comment>
+        <rdfs:label xml:lang="en">contact person role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <obo:IAO_0000115 xml:lang="en">A site within which a deontic power may be realized, where that deontic power inheres in a formally created regulatory body.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:comment xml:lang="en">&apos;Jurisdiction&apos; is often defined in two senses: (1) a geopolitical context (BFO site), or (2) a power. RUBRIC defines jurisdiction as a BFO site, identifiable through shared context of other entities, like a country or state border, or the grounds of an institution. The term ‘deontic power role’ reflects the sense of ‘power’ sometimes used to describe jurisdiction.</rdfs:comment>
+        <rdfs:label xml:lang="en">jurisdiction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">An organization that has a deontic power role prescribed by some regulatory document that occurs in a stasis of regulation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">regulatory body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <obo:IAO_0000115 xml:lang="en">A document that either prescribes actions or prescribes the permissions, obligations, restrictions, or protections relating to public or legal policy.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">Rules, legal specifications, guidelines (both categorical and hypothetical), that exist together in one regulatory document. Regulations may contain a single, or multiple rules.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">The clause ‘permissions, obligations, restrictions, or protections’ will be replaced with more general superclass, likely from d-acts, when that infrastructure becomes available. IOU Code.</obo:IAO_0000232>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">regulatory document</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_100006"/>
+        <obo:IAO_0000112 xml:lang="en">‘HIPAA documents,’ ‘The Common Rule,’ an ‘Informed Consent Regulatory Document.’</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A regulatory document designed to prescribe research involving human subjects.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">human subject research regulatory document</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_100006"/>
+        <obo:IAO_0000115 xml:lang="en">A regulatory document designed to prescribe an informed consent process or inputs in an informed consent process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000425 xml:lang="en">‘Informed Consent Waivers,’ ‘Informed Consent Exemptions.’</obo:IAO_0000425>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">informed consent regulatory document</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000055"/>
+        <obo:IAO_0000112 xml:lang="en">Do action (x).</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A rule in an informed consent regulatory document that prescribes either an informed consent process or deontic roles inhering in agents that participate in an informed consent process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">informed consent rule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000055"/>
+        <obo:IAO_0000115 xml:lang="en">A rule in an informed consent regulatory document that prescribes an informed consent process and has part trigger condition description.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">Those conditions that have important implications are enumerated in a specification of condition.</obo:IAO_0000232>
+        <obo:IAO_0000600 xml:lang="en">The logical form of a conditional rule is as follows: if condition (y) obtains, then perform action (x).</obo:IAO_0000600>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">conditional informed consent rule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000055"/>
+        <obo:IAO_0000115 xml:lang="en">A rule in an informed consent regulatory document that prescribes deontic roles that may be realized in an unspecified range of activities, or which is subject to few restrictions.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">broad consent rule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes information that must be revealed and prescribes to whom that information must be revealed.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">disclosure directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000112 xml:lang="en">A description of who can consent (but not the conditions required to be realizable).</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes a deontic power role or the process that realizes it.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">deontic power role directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100015">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the limits of disclosure regarding an agent’s identity.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">May need ‘Conditional Confidentiality Directive&apos; in the future.</obo:IAO_0000232>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete confidentiality directive</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000112 xml:lang="en">A ‘signature section,’ an ‘I understand’ clause, or a ‘checkbox.’</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that, when signed, stamped, or initialed realizes a deontic role as described by the document specifications, or specifications in another related document.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">user input directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that enumerates the results if a trigger condition describing failure to comply with a rule is met.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte, Jonathan Vajda</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">consequent directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes a deontic role that permits some action.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000600 xml:lang="en">Permission to do (x).</obo:IAO_0000600>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">permission directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">A conditional specification that prescirbes a permission, should some trigger condition obtain.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000600 xml:lang="en">Permission to do (x), if condition (y).</obo:IAO_0000600>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">conditional permission directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes actions that are impermissible.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000600 xml:lang="en">When particpating in an informed consent process (a), do not do action (y).</obo:IAO_0000600>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">restriction directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">A conditional specification that prescirbes an impermissibility, should some trigger condition obtain.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000600 xml:lang="en">When particpating in an informed consent process (a), if conditon (x) do not do action (y).</obo:IAO_0000600>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">conditional restriction directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes an obligation that is realized a deontic role that is the output of a document act.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">obligation directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">A conditional specification that prescirbes an obligation, should some trigger condition obtain.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">conditional obligation directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the agent that is liable if a trigger condition is met.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">liability directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100032">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000112 xml:lang="en">The section of an informed consent document that describes a clinical procedure that the agent is consenting to.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes a medical procedure.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of medical procedure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that describes some state of affairs such that, if that state of affairs holds, some other prescription follows.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">An antecedent.</obo:IAO_0000232>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">trigger condition directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100034">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000117 xml:lang="en">A descriptive information content entity that reports that participation in the procedures described elsewhere in the document are voluntary.</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of voluntary participation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role inhering in an agent as a result of that agent having observed some process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000600 xml:lang="en">Typically, someone who bears a witness role has observed some history, such that one may attest to what has occurred.</obo:IAO_0000600>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">witness role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some process for withdraw from another planned process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">withdrawal from participation directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A temporal region identifier that designates the temporal region during which a living person is alive, and where the temporal region is such that the living person is qualified to exercise a deontic power within a legal jurisdiction.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">legal age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
+        <obo:IAO_0000115 xml:lang="en">A social act in which formal or official endorsement of some entity is communicated.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:comment xml:lang="en">This &apos;act of approving&apos; is distinct from the mental act of approving.</rdfs:comment>
+        <rdfs:label xml:lang="en">act of approving</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the language that must be used in an informed consent process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">consent language directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100055">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes some process that may be elected.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of alternative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100056">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes expressions or implications of threat that may compel an agent to act out of fear against the agent&apos;s will.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">It may be necessary to define processes of coercion in addition to descriptions of the process.</obo:IAO_0000232>
+        <obo:IAO_0000600 xml:lang="en">An international review board (IRB) may require a research proposal to identify ways in which a participant may be under undue influence. For example, a prisoner may feel compelled, given their vulnerability, to provide more information or cooperation in a study than they would normally consent to, because of the benefits they might receive.</obo:IAO_0000600>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of coercion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100059">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000232 xml:lang="en">&quot;§46.102(f) Human subject means a living individual about whom an investigator (whether professional or student) conducting research obtains (1) Data through intervention or interaction with the individual, or 2) Identifiable private information. Intervention includes both physical procedures by which data are gathered (for example, venipuncture) and manipulations of the subject or the subject&apos;s environment that are performed for research purposes. Interaction includes communication or interpersonal contact between investigator and subject. Private information includes information about behavior that occurs in a context in which an individual can reasonably expect that no observation or recording is taking place, and information which has been provided for specific purposes by an individual and which the individual can reasonably expect will not be made public (for example, a medical record). Private information must be individually identifiable (i.e., the identity of the subject is or may readily be ascertained by the investigator or associated with the information) in order for obtaining the information to constitute research involving human subjects.&quot;</obo:IAO_0000232>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete information about participant</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115 xml:lang="en">A disposition to abnormality realized in cognitive processes that are qualitatively below those of individuals belonging to some type, to which the bearer of the disposition also belongs.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:resource="http://purl.obolibrary.org/obo/HP_0100543"/>
+        <obo:IAO_0000232 xml:lang="en">Adapted from http://purl.obolibrary.org/obo/HP_0100543</obo:IAO_0000232>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <dc:date xml:lang="en">Imported and adapted 8.22.2018</dc:date>
+        <rdfs:label xml:lang="en">cognitive impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100070">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
+        <obo:IAO_0000115 xml:lang="en">A vulnerability due to exposure to a depressed or impoverished economic environment.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">economic vulnerability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100071">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
+        <obo:IAO_0000115 xml:lang="en">A vulnerability due to exposure to a harsh learning environment.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">educational vulnerability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process of storing the document output of an &apos;act of consent&apos; for future use.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">act of archiving informed consent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100088">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes a method of some act of communicating.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">contact method description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some process in which vulnerable individuals participate.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">vulnerable population directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the nondisclosure of information.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">confidentiality directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process in which some entity provides information to another entity.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">adapted from &quot;communicate.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">See ICO: &apos;act of informing.&apos; This class is perhaps not needed.</obo:IAO_0000232>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:comment xml:lang="en">A note: &apos;entity&apos; rather than &apos;agent&apos; is used in this definition in order to allow that software can communicate with other software. However, it should be noted that this definition of communication excludes broader meanings, such as unintentional sharing of information.</rdfs:comment>
+        <rdfs:label xml:lang="en">act of communicating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100128">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete benefit</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100129">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete risk</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100131">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000117 xml:lang="en">A descriptive information content entity that describes the expected duration of participation of some agent in an investigation.</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of expected study participation duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some research process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">research method directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100133">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes the conditions under which compensation is due to some agent.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of conditional compensation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100134">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes an emotional state of mental or physical uneasiness.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of discomfort</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100137">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes biospecimens that have been collected.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of collected biospecimens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100138">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes information that may be collected or the processes of information collection.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of collected information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_100185"/>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes how biospecimens will be used.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of future biospecimen use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100144">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes some procedure for obtaining information only available at some future time.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of procedure for obtaining further information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000112 xml:lang="en">For instance, a patient may assert a preferred mode of communication for contact in the future. This may be given in terms of permitting a communication via email, phone call, etc. and it may mention the address or number to be used.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes methods for contacting an agent.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">contact method directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100148">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">A descriptive information content entity that describes some conditions that constitute unauthorized disclosure of information.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">It is possible that classes like this will be useful in conjuction with descriptions of risk as in: &apos;description of risk of breach of confidentiality.&apos;</obo:IAO_0000232>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of breach of confidentiality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100149">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes legal responsibility that an entity has due to some risk.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury, J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">description of liability</obo:IAO_0000118>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of legal responsibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100151">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A description of risk that describes the magnitude of potential financial loss.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of financial risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100152">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A description of risk that describes the magnitude or probability of damage to the reputation of an agent in a social context.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of reputational risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000112 xml:lang="en">E.g., &quot;There are several definitions available for the term &apos;vulnerable population&apos;, the words simply imply the disadvantaged sub-segment of the community requiring utmost care, specific ancillary considerations and augmented protections in research. The vulnerable individuals’ freedom and capability to protect one-self from intended or inherent risks is variably abbreviated, from decreased freewill to inability to make informed choices.&quot;
+
+Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard. Perspectives in clinical research, 4(1), 53-7.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in an agent or group of agents that is the output of a process during which the agent or group of agents is designated as belonging to a vulnerable group.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">Note: It is possible to belong to a vulnerable population and yet not bear a disposition of vulnerability. Typically, when a person is held to be a vulnerable individual, this is a designation that applies by fiat in virtue of their membership to some legally designated group, and not based on a clear investigation of their individual case. Hence, it seems prudent here to use roles for this purpose.</obo:IAO_0000232>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">vulnerable individual role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in a regulatory body that, if realized, is realized in some act of regulatory supervision.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">regulatory oversight role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens that, if realized, is realized within the organizational context of a legal jurisdiction, when the bearer fails to meet the legal threshold for adulthood.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">It is possible to create further defined classes here, such as &apos;abused minor role&apos; that is a minor that participated in a process of abuse.</obo:IAO_0000232>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">minor role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A woman who is pregnant.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">Could reuse: http://purl.obolibrary.org/obo/ontoneo/ONTONEO_00000197</obo:IAO_0000232>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">pregnant woman</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens that is realized in a process of incarceration.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">Note from Jonathan Vajda: Depending on the level of granluarity, we could have prisoner role, incarcerated role, etc. and these roles would differentiated by what kind of stasis of incarceration necessary.</obo:IAO_0000232>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">prisoner role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <obo:IAO_0000115 xml:lang="en">A document designed for the purpose of assisting in an act of waiving, and which contains both some description of waiver and some waiver directive.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">waiver document</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100165">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes an entity that provides positive motivation for some material entity.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">From NCI Thesaurus OBO Edition: Incentive: A benefit, consideration, or positive motivational influence, financial or otherwise, given to induce a specific action. [def-source: NCI]</obo:IAO_0000232>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of incentive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <obo:IAO_0000115 xml:lang="en">A protocol that is formal plan of a research activity, including the objective, rationale, design, materials, and methods for the conduct of the activity.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This term was adapted from: http://purl.obolibrary.org/obo/NCIT_C70817</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">study protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the information that is permitted to be shared or the processes for sharing that information.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">data sharing directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100170">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the process of transferring a permission role from one bearer to another.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Note: Strictly speaking, of course, roles are not transferred; rather, the transfer of a permission involves the role of one agent ceasing to exist, and the role of a second agent coming into existence.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">permission transfer directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the processes that involve some entity as a participant.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">future use directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100173">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes the negative impact or harm that may befall an agent who withdraws from an investigation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of consequences of voluntarily withdrawal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100174">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant"/>
+        <obo:IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has participant some information content entity and during which that information content entity is recognized within that jurisdiction and directs governance within that jurisdiction.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">stasis of regulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_100174"/>
+        <obo:IAO_0000115 xml:lang="en">A stasis of regulation that has participant some information content entity and during which that information content entity is recognized as a law within the jurisdiction in which the stasis of regulation is occurring.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">The  ‘stasis of law’ designates the spatial and temporal conditions that need to be met in order for a regulatory document to be a ‘law’ or a ‘policy.’ This is necessary because laws, or other regulations are overturned, made obsolete, ect..., but material entities concretizing them persist.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">There are many definitions and conceptions of law, which can be elaborated in further work. There is a concern not to define law in such a way that we narrow the scope beyond an international context.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">stasis of law</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_100033"/>
+        <obo:IAO_0000115 xml:lang="en">A trigger condition directive that prescribes conditions for which a individual bears a vulnerability role or disposition of vulnerability, or a population of such individuals.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">See http://purl.unep.org/sdg/SDGIO_00000024 (Vulnerability):  A disposition of an entity to undergo undesirable change in response to some exposure.</obo:IAO_0000232>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">protection directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process in which a regulatory body directs or monitors another planned process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">act of regulatory supervision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">A process of mistreating an entity such that the mistreated entity is harmed.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte, and Jonathan Vajda</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">adapted from &quot;abuse.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</obo:IAO_0000119>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">act of abuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_100119"/>
+        <obo:IAO_0000115 xml:lang="en">An act of communicating in which information is shared, overriding or violating a judgment that the information should not be shared.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">It is possible that there are meaningful defined classes here like: &apos;act of authorized disclosure&apos; and &apos;act of unauthorized disclosure.&apos;</obo:IAO_0000232>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">act of disclosure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100183">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes a research procedure.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of research procedure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_100185"/>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes how data will be used.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of future data use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100185">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes future use of material or information.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of future use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
+        <obo:IAO_0000115 xml:lang="en">A social act of relinquishing a right, claim, or privilege.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">&quot;waiver.&quot; Merriam-Webster.com. 2011. https://www.merriam-webster.com (30 August 2018).</obo:IAO_0000119>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">act of waiving</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes an act of waiving.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">waiver directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100188">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes a directive information content entity that can be ignored.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">adapted from: http://purl.obolibrary.org/obo/NCIT_C113777</obo:IAO_0000232>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">description of waiver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens that, if realized, is realized in being a passive participant in some act of abuse process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
+        <obo:IAO_0000600 xml:lang="en">A passive participant in such a process would mean that the act of abuse has this entity as its target; i.e., the bearer of this role is entity that is mistreated.</obo:IAO_0000600>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">abused person role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some investigation of biospecimens.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">directive about research of biospecimens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process that involves the investigation of some sequence of DNA.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">act of genetic testing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_100192"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some act of genetic testing.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">genetic testing directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_100195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role inhering in some material entity that is realized in an act of artifact modification.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">excess material role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C70800 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C70800">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <obo:IAO_0000115 xml:lang="en">A document containing the determination of the Institutional Review Board (IRB) that the clinical study with human subject participation has been reviewed and may be conducted at a particular study site within the constraints set forth by the IRB and other institutional and federal requirements. The regulations require that an IRB conduct continuing review of research at intervals appropriate to the degree of risk, but not less than once a year. [def-source: NCI]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70800"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">institutional review board approval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C85521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C85521">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">The state of being confined to jail or prison. [def-source: NCI]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85521"/>
+        <dc:date xml:lang="en">Imported 8.22.2018</dc:date>
+        <rdfs:comment xml:lang="en">Note from J. Neil Otte: Incarceration can include facilities other than prison or jail. Also, there&apos;s a meaningful distinction between states and processes getting lost here. Review.
+
+Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confinement issued by a legal authority on the basis of a criminal act&apos;</rdfs:comment>
+        <rdfs:label xml:lang="en">incarceration</rdfs:label>
+    </owl:Class>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000093 -->
@@ -2817,7 +4059,21 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <dc:date xml:lang="en">Imported from OBI 08.01.2018</dc:date>
         <rdfs:label xml:lang="en">patient role</rdfs:label>
     </owl:Class>
+    
 
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000118 xml:lang="en">principal investigator</obo:IAO_0000118>
+        <obo:IAO_0000232 xml:lang="en">curator note: CDISC definition: A person responsible for the conduct of the clinical trial at a trial site. If a trial is conducted by a team of individuals at a trial site, the investigator is the responsible leader of the team and may be called the principal investigator. 2. The individual principal investigator. 2. The individual under whose immediate direction the test article is administered or dispensed to, or used involving, a subject, or, in the event of an investigation conducted by a team of individuals, is See also sponsor-investigator.; Leiter der klinischen Prufung.Under the German Drug Law, the physician who is head of the clinical investigation (CDISC): coordinating investigator (CDISC) (also study coordinator, MUSC); sponsor-investigator. An individual who both initiates and conducts, alone or with others, a clinical trial, and under whose immediate direction the investigational product is administered to, dispensed to, or used by a subject.NOTE: The term does not include any person other than an individual, hence not a corporation, agency (CDISC)</obo:IAO_0000232>
+        <obo:IAO_0000412 xml:lang="en">http://purl.obolibrary.org/obo/OBI_0000103</obo:IAO_0000412>
+        <dc:date xml:lang="en">Import Date 01/11/2019</dc:date>
+        <rdfs:label xml:lang="en">principal investigator role</rdfs:label>
+    </owl:Class>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000112 -->
@@ -2831,7 +4087,57 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <dc:date xml:lang="en">Imported from OBI 08.01.2018</dc:date>
         <rdfs:label xml:lang="en">specimen role</rdfs:label>
     </owl:Class>
+    
 
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 xml:lang="en">A population is a collection of individuals from the same taxonomic class living, counted or sampled at a particular site or in a particular area.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <dc:date xml:lang="en">Added from OBI 07.25.2018</dc:date>
+        <rdfs:label xml:lang="en">population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role borne by an entity and that is realized in a process that is part of an investigation in which an objective is achieved. These processes include, among others: planning, overseeing, funding, reviewing.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">investigation agent role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000450">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">A regulatory agency is a organization that has responsibility over or for the legislation (acts and regulations) for a given sector of the government.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000450"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">regulatory agency</rdfs:label>
+    </owl:Class>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000655 -->
@@ -2844,7 +4150,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <dc:date xml:lang="en">Added from OBI 11.07.2018</dc:date>
         <rdfs:label xml:lang="en">blood specimen</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000810 -->
@@ -2855,7 +4161,19 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000232 xml:lang="en">Note: This is an OBI term.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">informed consent process</rdfs:label>
     </owl:Class>
+    
 
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000844 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000844">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001942"/>
+        <obo:IAO_0000115 xml:lang="en">A medical organization at which sick or injured people are given clinical care.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000844"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">hospital</rdfs:label>
+    </owl:Class>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001000 -->
@@ -2870,7 +4188,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <dc:date xml:lang="en">Retrieved from OBI on July 16, 2018.</dc:date>
         <rdfs:label xml:lang="en">questionnaire</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001479 -->
@@ -2884,7 +4202,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <dc:date xml:lang="en">Added from OBI 11.7.2018</dc:date>
         <rdfs:label xml:lang="en">specimen from organism</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001622 -->
@@ -2904,7 +4222,20 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <dc:date xml:lang="en">Retrieved from OBI on July 16, 2018.</dc:date>
         <rdfs:label xml:lang="en">investigation title</rdfs:label>
     </owl:Class>
+    
 
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001942 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001942">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">An organization that provides funding support for projects such as investigations.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">funding organization</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OBI_0001942"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">grant agency</rdfs:label>
+    </owl:Class>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0100051 -->
@@ -2917,7 +4248,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <dc:date xml:lang="en">Imported from OBI 08.01.2018</dc:date>
         <rdfs:label xml:lang="en">specimen</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OGMS_0000045 -->
@@ -2931,7 +4262,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <dc:date xml:lang="en">Retrieved from OGMS on July 16, 2018.</dc:date>
         <rdfs:label xml:lang="en">disorder</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->
@@ -2945,7 +4276,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <dc:date xml:lang="en">Retrieved from OGMS on July 16, 2018</dc:date>
         <rdfs:label xml:lang="en">treatment</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OGMS_0000102 -->
@@ -2960,101 +4291,20 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <dc:date xml:lang="en">Retrieved from OGMS on July 16, 2018.</dc:date>
         <rdfs:label xml:lang="en">injury</rdfs:label>
     </owl:Class>
+    
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIABIS_0000017 -->
 
-    <!-- http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <rdfs:comment xml:lang="en">This is a dummy class to be deprecated after it has fulfilled its organization purposes</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ICO Classes to Move to RUBRIC</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">An organization with a specific responsibility that is a part of a larger organization with a specific responsibility.</obo:IAO_0000115>
+        <obo:IAO_0000232>Change request was made for this definition: https://github.com/biobanking/biobanking/issues/53</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000017"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">department</rdfs:label>
     </owl:Class>
-
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl#Belongs_in_D-Acts -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_D-Acts">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <rdfs:comment xml:lang="en">This is a dummy class to be deprecated after it has fulfilled its organization purposes</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ICO Classes to Move to D-Acts</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000181">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115 xml:lang="en">A population is a collection of individuals from the same taxonomic class living, counted or sampled at a particular site or in a particular area.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
-        <dc:date xml:lang="en">Added from OBI 07.25.2018</dc:date>
-        <rdfs:label xml:lang="en">population</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- http://purl.obolibrary.org/obo/ICO_0000223 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000223">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000215"/>
-        <obo:IAO_0000115 xml:lang="en">A deontic power role that may be realized in an act of consent that is a process part of an informed consent process.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">a consent power role is a legal right that holds within a jurisdiction and is a necessary requirement to bear a competency to consent.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">consent power role</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- http://purl.obolibrary.org/obo/ICO_0037261 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0037261">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A planned process that involves placing a material entity in some location in order to maintain possession of it.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">act of storing</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- http://purl.obolibrary.org/obo/ICO_0037262 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0037262">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">a planned process in which data possessed by one person or organization is shared with one or more other persons or organizations.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">Check against &apos;act of communication&apos; in RUBRIC.</rdfs:comment>
-        <rdfs:label xml:lang="en">act of data sharing</rdfs:label>
-    </owl:Class>
-
-
-
-    <!-- http://purl.obolibrary.org/obo/ICO_0561613 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0561613">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0561614"/>
-        <obo:IAO_0000115 xml:lang="en">A contact person role that is the output of either a human subject or patient assigning that person as their point of contact.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">emergency contact role</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">human subject-specified contact person role</rdfs:label>
-        <rdfs:seeAlso xml:lang="en">organization-specified contact role</rdfs:seeAlso>
-    </owl:Class>
-
-
-
-    <!-- http://purl.obolibrary.org/obo/ICO_0561614 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0561614">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role inhering in a person who is a designated contact for some other agent.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">The subclasses of &apos;contact person role&apos; distinguish two types: a contact person who has been designated by an organization for others (primarily patients and human research subjects in clinical settings) to contact, and a contact person whom an agent has specified for an organization to contact in the event that the organization needs to contact the patient. Examples of the latter include &apos;emergency contact&apos; persons, who are frequently specified in a form.</rdfs:comment>
-        <rdfs:label xml:lang="en">contact person role</rdfs:label>
-    </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OMIABIS_0001026 -->
@@ -3066,7 +4316,173 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000119 xml:lang="en">It is a chronological written account of examination, treatment, medical history or complaints.; It is used interchangeably with health record and medical chart. https://en.wikipedia.org/wiki/Medical_record</obo:IAO_0000119>
         <rdfs:label xml:lang="en">medical record</rdfs:label>
     </owl:Class>
+    
 
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role borne by a human individual or by a collection of humans regarded as possessing rights and duties enforeable at law.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">Note: Typo (should be &apos;enforceable&apos;) is in the original at time of import.</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000038"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">legal person role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in an organization and that, if realized, is realized by its bearer overseeing the overall operation of a hospital.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OOSTT_00000062"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <rdfs:label xml:lang="en">hospital governing body role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOSTT_00000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOSTT_00000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role that, if realized, is realized in the organizational context of a committee.</obo:IAO_0000115>
+        <obo:IAO_0000412 xml:lang="en">http://purl.obolibrary.org/obo/OOSTT_00000117</obo:IAO_0000412>
+        <dc:date xml:lang="en">Imported 8.30.2018.</dc:date>
+        <rdfs:label xml:lang="en">committee member role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">An objective specification whose intended process endpoint is an investigation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">investigation objective specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">An objective specification that prescribes the participation of an information content entity or a material entity in a process prescirbed by a future invesitgation objective specification.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">&quot;The use in research of information or human biological materials originally collected for a purpose other than the current research purpose.&quot;</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Adapted from: “Secondary Use of Data - FAQs - Research Ethics Office - Sunnybrook Research Institute.” [Online]. Available: https://sunnybrook.ca/research/content/?page=sri-crs-reo-faq-secondaryusedata. [Accessed: 07-Nov-2018].</obo:IAO_0000119>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">secondary use objective specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002004">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">role directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0002004"/>
+        <obo:IAO_0000115 xml:lang="en">A role directive that prescribes the bearer of a patient role in a process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">patient role directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0002004"/>
+        <obo:IAO_0000115 xml:lang="en">A role directive that prescirbes the bearer of a regulatory oversight role in a process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">regulatory oversight role directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0002004"/>
+        <obo:IAO_0000115 xml:lang="en">A role directive that prescribes the bearer of an investigator role in a process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">investigator role directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0002004"/>
+        <obo:IAO_0000115 xml:lang="en">A role directive that prescribes the bearer of a legally authorized representative role in process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <rdfs:label xml:lang="en">legally authorized representative role directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:comment xml:lang="en">This is a dummy class to be deprecated after it has fulfilled its organization purposes</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ICO Classes to Move to RUBRIC</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ico.owl#Belongs_in_D-Acts -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_D-Acts">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:comment xml:lang="en">This is a dummy class to be deprecated after it has fulfilled its organization purposes</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ICO Classes to Move to D-Acts</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/SDGIO_00000024 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/SDGIO_00000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000112 xml:lang="en">Editors of RUBRIC Note: E.g., &quot;There are several definitions available for the term &apos;vulnerable population&apos;, the words simply imply the disadvantaged sub-segment of the community requiring utmost care, specific ancillary considerations and augmented protections in research. The vulnerable individuals’ freedom and capability to protect one-self from intended or inherent risks is variably abbreviated, from decreased freewill to inability to make informed choices.&quot;
+
+Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard. Perspectives in clinical research, 4(1), 53-7.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A disposition of an entity to undergo undesirable change in response to some exposure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
+        <dc:date xml:lang="en">Imported 08.22.2018</dc:date>
+        <rdfs:label xml:lang="en">vulnerability</rdfs:label>
+    </owl:Class>
+    
 
 
     <!-- http://semanticscience.org/resource/SIO_000184 -->
@@ -3077,10 +4493,85 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000232 xml:lang="en">from http://semanticscience.org/resource/SIO_000184</obo:IAO_0000232>
         <rdfs:label xml:lang="en">legal name</rdfs:label>
     </owl:Class>
+    
 
 
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity -->
 
-    <!--
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that consists of a set of propositions that describe some entity.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/CommonCoreOntology/CommonCoreOntologies</obo:IAO_0000119>
+        <dc:date xml:lang="en">Retrieved from Common Core Ontologies 7/17/2018</dc:date>
+        <dc:license xml:lang="en">BSD 3-Clause License
+
+Copyright (c) 2017, CUBRC, Inc.
+All rights reserved.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
+        <rdfs:label xml:lang="en">descriptive information content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Government -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Government">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">An Organization that exercises executive, legislative, or judicial authority over a Geopolitical Entity.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">https://en.wikipedia.org/wiki/Government</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">is curated in ontology: http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Government"/>
+        <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
+        <dc:license xml:lang="en">BSD 3-Clause License
+
+Copyright (c) 2017, CUBRC, Inc.
+All rights reserved.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
+        <rdfs:label xml:lang="en">government</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Stasis -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Stasis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">A process in which some independent continuant endures and one or more of the dependent entities it bears does not change in kind or intensity.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/CommonCoreOntology/CommonCoreOntologies</obo:IAO_0000119>
+        <dc:date xml:lang="en">Retrieved from Common Core Ontologies 7/17/2018</dc:date>
+        <dc:license xml:lang="en">BSD 3-Clause License
+
+Copyright (c) 2017, CUBRC, Inc.
+All rights reserved.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
+        <rdfs:label xml:lang="en">stasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Stasis"/>
+        <obo:IAO_0000115 xml:lang="en">A stasis in which some independent continuant bears some generically dependent continuant that remains unchanged during a temporal interval.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/CommonCoreOntology/CommonCoreOntologies</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">At this time only stasis of genetically dependent continuant will be represented in RUBRIC, leaving open the possibility of modeling other types of stasis as represented in the Common Core Ontologies. An example use case would be the transition of law enumerated by one document to a new iteration of the document for the same law. In this case, the old document would no longer be ‘legally effective’ and the corresponding stasis would cease.</obo:IAO_0000232>
+        <dc:date xml:lang="en">Retrieved from Common Core Ontologies 7/17/2018</dc:date>
+        <dc:license xml:lang="en">BSD 3-Clause License
+
+Copyright (c) 2017, CUBRC, Inc.
+All rights reserved.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
+        <rdfs:label xml:lang="en">stasis of generically dependent continuant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotations
@@ -3139,9 +4630,6 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000028">
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000030">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
@@ -3449,11 +4937,6 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000005">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000007">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -3625,9 +5108,6 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000102">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000103">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000115">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
     </rdf:Description>
@@ -3648,10 +5128,6 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000257">
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000272">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000274">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -4236,3 +5712,4 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 <!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
