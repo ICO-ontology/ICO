@@ -18995,7 +18995,7 @@ Is part_of the appropriate relation to use for data items and documented identit
     <!-- http://purl.obolibrary.org/obo/ICO_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl#http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
         <obo:IAO_0000115 xml:lang="en">A population of human beings.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">human population</rdfs:label>
@@ -19153,7 +19153,7 @@ Is part_of the appropriate relation to use for data items and documented identit
     <!-- http://purl.obolibrary.org/obo/ICO_0000060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000060">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0037261"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0037261"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
@@ -19876,7 +19876,7 @@ Is part_of the appropriate relation to use for data items and documented identit
     <!-- http://purl.obolibrary.org/obo/ICO_0000123 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000123">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0037261"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0037261"/>
         <obo:IAO_0000115 xml:lang="en">An act of storing a complete informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Elizabeth Eisenhauer, Alla Karnovsky, Marcy Harris, J. Neil Otte</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Note: there were previously some related classes that distinguished the format of the informed consent form (e.g. electronic vs. paper). These distinctions are collapsed here. If making this distinction is necessary, the outputs of an instance of this class may be distinguished in their formatting. For instance, storing in an electronic format would entail an instance of an act of storing signed informed consent form bearing an &apos;has output&apos; relation to an instance of an informed consent form that is in an electronic format.</rdfs:comment>
@@ -20553,7 +20553,7 @@ Is part_of the appropriate relation to use for data items and documented identit
     <!-- http://purl.obolibrary.org/obo/ICO_0000188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000188">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0561614"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0561614"/>
         <obo:IAO_0000115 xml:lang="en">A role borne by a human being who is part of a group of individuals and acts as a contact person for the group.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">organization-specified contact role</rdfs:label>
@@ -20799,7 +20799,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000223"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ICO_0000223"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
                                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000196"/>
@@ -20929,6 +20929,18 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000215"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic power role that may be realized in an act of consent that is a process part of an informed consent process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">a consent power role is a legal right that holds within a jurisdiction and is a necessary requirement to bear a competency to consent.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">consent power role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ICO_0000226 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000226">
@@ -20938,6 +20950,54 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000232 xml:lang="en">An information content entity that has previously undergone the process &apos;act of anonymization&apos; participates in this stasis.</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">We expect to add a subclass axiom: &apos;preceded by&apos; some &apos;Act of Anonymizing&apos;</obo:IAO_0000232>
         <rdfs:label xml:lang="en">stasis of anonymization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0037261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0037261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process that involves placing a material entity in some location in order to maintain possession of it.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">act of storing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0037262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0037262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">a planned process in which data possessed by one person or organization is shared with one or more other persons or organizations.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Check against &apos;act of communication&apos; in RUBRIC.</rdfs:comment>
+        <rdfs:label xml:lang="en">act of data sharing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0561613 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0561613">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0561614"/>
+        <obo:IAO_0000115 xml:lang="en">A contact person role that is the output of either a human subject or patient assigning that person as their point of contact.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">emergency contact role</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">human subject-specified contact person role</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">organization-specified contact role</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0561614 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0561614">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role inhering in a person who is a designated contact for some other agent.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">The subclasses of &apos;contact person role&apos; distinguish two types: a contact person who has been designated by an organization for others (primarily patients and human research subjects in clinical settings) to contact, and a contact person whom an agent has specified for an organization to contact in the event that the organization needs to contact the patient. Examples of the latter include &apos;emergency contact&apos; persons, who are frequently specified in a form.</rdfs:comment>
+        <rdfs:label xml:lang="en">contact person role</rdfs:label>
     </owl:Class>
     
 
@@ -21028,6 +21088,18 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <obo:IAO_0000412 xml:lang="en">http://purl.obolibrary.org/obo/OBI_0000112</obo:IAO_0000412>
         <dc:date xml:lang="en">Imported from OBI 08.01.2018</dc:date>
         <rdfs:label xml:lang="en">specimen role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 xml:lang="en">A population is a collection of individuals from the same taxonomic class living, counted or sampled at a particular site or in a particular area.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <dc:date xml:lang="en">Added from OBI 07.25.2018</dc:date>
+        <rdfs:label xml:lang="en">population</rdfs:label>
     </owl:Class>
     
 
@@ -21128,6 +21200,19 @@ for now.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000655">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">a material entity derived from a portion of blood collected from an organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <dc:date xml:lang="en">Added from OBI 11.07.2018</dc:date>
+        <rdfs:label xml:lang="en">blood specimen</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000810 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000810">
@@ -21162,6 +21247,20 @@ for now.</obo:IAO_0000116>
         <obo:IAO_0000119 xml:lang="en">Merriam-Webster</obo:IAO_0000119>
         <dc:date xml:lang="en">Retrieved from OBI on July 16, 2018.</dc:date>
         <rdfs:label xml:lang="en">questionnaire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001479">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A specimen that derives from an anatomical part or substance arising from an organism. Examples of tissue specimen include tissue, organ, physiological system, blood, or body location (arm).</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">tissue specimen</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <dc:date xml:lang="en">Added from OBI 11.7.2018</dc:date>
+        <rdfs:label xml:lang="en">specimen from organism</rdfs:label>
     </owl:Class>
     
 
@@ -21311,6 +21410,18 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000017"/>
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">department</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIABIS_0001026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <obo:IAO_0000115 xml:lang="en">A document that contains information representing health-relevant qualities of a patient written in a chronological manner and that is primarily used for patient care in a clinical setting.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Martin Fransson</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">It is a chronological written account of examination, treatment, medical history or complaints.; It is used interchangeably with health record and medical chart. https://en.wikipedia.org/wiki/Medical_record</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">medical record</rdfs:label>
     </owl:Class>
     
 
@@ -21725,7 +21836,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <obo:IAO_0000112 xml:lang="en">A ‘signature section,’ an ‘I understand’ clause, or a ‘checkbox.’</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that, when signed, stamped, or initialed realizes a deontic role as described by the document specifications, or specifications in another related document.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">answer directive</rdfs:label>
+        <rdfs:label xml:lang="en">user input directive</rdfs:label>
     </owl:Class>
     
 
@@ -21745,7 +21856,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes a deontic role that permits some action or an action that realizes a deontic role.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes a deontic role that permits some action.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000600 xml:lang="en">Permission to do (x).</obo:IAO_0000600>
         <rdfs:label xml:lang="en">permission directive</rdfs:label>
@@ -22551,6 +22662,91 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">An objective specification whose intended process endpoint is an investigation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">investigation objective specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">An objective specification that prescribes the participation of an information content entity or a material entity in a process prescirbed by a future invesitgation objective specification.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">&quot;The use in research of information or human biological materials originally collected for a purpose other than the current research purpose.&quot;</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Adapted from: “Secondary Use of Data - FAQs - Research Ethics Office - Sunnybrook Research Institute.” [Online]. Available: https://sunnybrook.ca/research/content/?page=sri-crs-reo-faq-secondaryusedata. [Accessed: 07-Nov-2018].</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">secondary use objective specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002004">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">role directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0002004"/>
+        <obo:IAO_0000115 xml:lang="en">A role directive that prescribes the bearer of a patient role in a process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">patient role directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0002004"/>
+        <obo:IAO_0000115 xml:lang="en">A role directive that prescirbes the bearer of a regulatory oversight role in a process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">regulatory oversight role directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0002004"/>
+        <obo:IAO_0000115 xml:lang="en">A role directive that prescribes the bearer of an investigator role in a process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">investigator role directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RUBRIC_0002018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RUBRIC_0002018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RUBRIC_0002004"/>
+        <obo:IAO_0000115 xml:lang="en">A role directive that prescribes the bearer of a legally authorized representative role in process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">legally authorized representative role directive</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000001">
@@ -22645,90 +22841,6 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <rdfs:comment xml:lang="en">This is a dummy class to be deprecated after it has fulfilled its organization purposes</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ICO Classes to Move to D-Acts</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl#http://purl.obolibrary.org/obo/OBI_0000181 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#http://purl.obolibrary.org/obo/OBI_0000181">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115 xml:lang="en">A population is a collection of individuals from the same taxonomic class living, counted or sampled at a particular site or in a particular area.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
-        <dc:date xml:lang="en">Added from OBI 07.25.2018</dc:date>
-        <rdfs:label xml:lang="en">population</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000223 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000223">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000215"/>
-        <obo:IAO_0000115 xml:lang="en">A deontic power role that may be realized in an act of consent that is a process part of an informed consent process.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">a consent power role is a legal right that holds within a jurisdiction and is a necessary requirement to bear a competency to consent.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">consent power role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0037261 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0037261">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A planned process that involves placing a material entity in some location in order to maintain possession of it.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">act of storing</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0037262 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0037262">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">a planned process in which data possessed by one person or organization is shared with one or more other persons or organizations.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">Check against &apos;act of communication&apos; in RUBRIC.</rdfs:comment>
-        <rdfs:label xml:lang="en">act of data sharing</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0561613 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0561613">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ico.owl/ICO_0561614"/>
-        <obo:IAO_0000115 xml:lang="en">A contact person role that is the output of either a human subject or patient assigning that person as their point of contact.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">emergency contact role</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">human subject-specified contact person role</rdfs:label>
-        <rdfs:seeAlso xml:lang="en">organization-specified contact role</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0561614 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0561614">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role inhering in a person who is a designated contact for some other agent.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">The subclasses of &apos;contact person role&apos; distinguish two types: a contact person who has been designated by an organization for others (primarily patients and human research subjects in clinical settings) to contact, and a contact person whom an agent has specified for an organization to contact in the event that the organization needs to contact the patient. Examples of the latter include &apos;emergency contact&apos; persons, who are frequently specified in a form.</rdfs:comment>
-        <rdfs:label xml:lang="en">contact person role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/http://purl.obolibrary.org/obo/OMIABIS_0001026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
-        <obo:IAO_0000115 xml:lang="en">A document that contains information representing health-relevant qualities of a patient written in a chronological manner and that is primarily used for patient care in a clinical setting.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Martin Fransson</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">It is a chronological written account of examination, treatment, medical history or complaints.; It is used interchangeably with health record and medical chart. https://en.wikipedia.org/wiki/Medical_record</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">medical record</rdfs:label>
     </owl:Class>
     
 
@@ -23682,10 +23794,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000655">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000671">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000002"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -23899,11 +24007,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001472">
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001479">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001506">
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -24292,6 +24395,65 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     </rdf:Description>
     <rdf:Description rdf:about="urn:swrl#mf2">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment>GP(X)-enables-&gt;MF(Y)-has_part-&gt;MF(Z) =&gt; GP(X) enables MF(Z),
+e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase coupled transporter activity&apos; has_part &apos;ATPase activity&apos; then GP(X) enables &apos;ATPase activity&apos;</rdfs:comment>
+        <rdfs:label>enabling an MF enables its parts</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002327"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002327"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
@@ -25133,65 +25295,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
                         <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
                         <swrl:argument1 rdf:resource="http://purl.obolibrary.org/obo/ro.owl#x"/>
                         <swrl:argument2 rdf:resource="http://purl.obolibrary.org/obo/ro.owl#z"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <rdfs:comment>GP(X)-enables-&gt;MF(Y)-has_part-&gt;MF(Z) =&gt; GP(X) enables MF(Z),
-e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase coupled transporter activity&apos; has_part &apos;ATPase activity&apos; then GP(X) enables &apos;ATPase activity&apos;</rdfs:comment>
-        <rdfs:label>enabling an MF enables its parts</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002327"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                                <swrl:argument2 rdf:resource="urn:swrl#y"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
-                                        <swrl:argument2 rdf:resource="urn:swrl#z"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002327"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#z"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
