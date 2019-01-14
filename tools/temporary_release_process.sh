@@ -26,7 +26,7 @@ done
 # Get path, set variables
 SCRIPT_DIR=$(dirname "${THIS_SCRIPT}")
 ICO="${SCRIPT_DIR}/../src/ontology/ico-edit.owl"
-LOG="${SCRIPT_DIR}/ICO-update-log-`date '+%Y-%m-%d'`.txt"
+LOG="${SCRIPT_DIR}/release_notes/ICO-update-log-`date '+%Y-%m-%d'`.txt"
 
 # merge
 robot merge \
