@@ -1,8 +1,0 @@
-%  cognitive impairment is subclass of BFO:DISPOSITIONS
-%  entity: SDGIO_00000024
-all x (CognitiveImpairment(x) -> Bfo:Dispositions(x)). 
-
-%  vulnerability is subclass of BFO:DISPOSITIONS
-%  entity: SDGIO_00000024
-all x (Vulnerability(x) -> Bfo:Dispositions(x)). 
-
