@@ -48,7 +48,7 @@ echo "VERSION IRI DONE."
 # include reasoned triples
 robot reason \
 	--input ICO-updated-`date '+%Y-%m-%d'`.owl \
-  --reasoner HermiT \
+  --reasoner ELK \
   --annotate-inferred-axioms true \
   --output ICO-release-`date '+%Y-%m-%d'`.owl >> ${LOG}
 
