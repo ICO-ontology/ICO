@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-echo "NOTE: This is a temporary release process."
-
 # Requires robot to be installed
 command -v robot 1> /dev/null 2>&1 || \
   { echo >&2 "robot required but it's not installed.  Aborting."; exit 1; }
@@ -26,37 +24,58 @@ done
 # Get path, set variables
 SCRIPT_DIR=$(dirname "${THIS_SCRIPT}")
 ICO="${SCRIPT_DIR}/../src/ontology/ico-edit.owl"
-LOG="${SCRIPT_DIR}/release_notes/ICO-update-log-`date '+%Y-%m-%d'`.txt"
+LOG="${SCRIPT_DIR}/release_notes/`date '+%Y-%m-%d'`.txt"
+
+MERGED="${SCRIPT_DIR}/intermediate_owl_artifacts/ICO-MERGED-`date '+%Y-%m-%d'`.owl"
+VERSIONED="${SCRIPT_DIR}/intermediate_owl_artifacts/ICO-VERSIONED-`date '+%Y-%m-%d'`.owl"
+RELEASE="ICO-RELEASE-`date '+%Y-%m-%d'`.owl"
 
 # merge
 robot merge \
   --input ${ICO} \
   --include-annotations true \
-  --output ICO-merged-`date '+%Y-%m-%d'`.owl
+  --output ${MERGED}
 
 echo "MERGE DONE."
+echo ""
 
 # add date to IRI version
 robot annotate \
-  --input ICO-merged-`date '+%Y-%m-%d'`.owl \
+  --input ${MERGED} \
   --ontology-iri "http://purl.obolibrary.org/obo/ICO.owl" \
   --version-iri "http://purl.obolibrary.org/obo/`date '+%Y-%m-%d'`/ico.owl" \
-  --output ICO-updated-`date '+%Y-%m-%d'`.owl
+  --output ${VERSIONED}
 
-echo "VERSION IRI DONE."
+echo "VERSIONING DONE."
+echo ""
 
 # include reasoned triples
 robot reason \
-	--input ICO-updated-`date '+%Y-%m-%d'`.owl \
+	--input ${VERSIONED} \
   --reasoner ELK \
   --annotate-inferred-axioms true \
-  --output ICO-release-`date '+%Y-%m-%d'`.owl >> ${LOG}
+  --output ${RELEASE} >> ${LOG}
 
 echo "REASONING DONE."
-
-echo "RELEASE DONE."
-echo "Please examine intermediate file outputs and replace the OWL file in the root directory"
+echo ""
 
 # run robot report, topsheet to stdout and details to file
-robot report --input ICO-release-`date '+%Y-%m-%d'`.owl --output ${LOG} | head -n 5
+robot report --input ${RELEASE} --output ${LOG} | head -n 5
+
+echo ""
+echo "REPORTING DONE."
 echo "Release notes can be found here: ${LOG}"
+
+echo ""
+
+# clean up
+while true; do
+    read -p "Would you like to remove intermediate artifacts (y/n)?" yn
+    case $yn in
+        [Yy]* ) rm ${MERGED}; rm ${VERSIONED} break;;
+        [Nn]* ) break;;
+        * ) echo "Please answer yes (y) or no (n).";;
+    esac
+done
+
+echo "RELEASE DONE."
