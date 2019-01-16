@@ -10,7 +10,7 @@ For new term requests, please provide the following information:
 
 ## Textual definition
 
-the definition should be understandable even for non-specialists. Include a PubMed ID to refer to any relevant article that provides additional information about the suggested term.
+The definition should be understandable even for non-specialists. Include a PubMed ID to refer to any relevant article that provides additional information about the suggested term.
 
 ## Suggested parent term
 
@@ -18,4 +18,4 @@ Please look in the hierarchy in a browser such as [ONTOBEE](http://www.ontobee.o
 
 ## Attribution
 
-If you would like a nanoattribution, please indicate your ORCID id
+If you would like a nano-attribution, please indicate your ORCID id
