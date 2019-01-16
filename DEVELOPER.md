@@ -2,7 +2,7 @@
 This readme is intended for those intending to make contributions to ICO. The primary purpose of this document is to justify development decisions and provide information regarding the release process and repository structure. For content contributions, please see the [Contributing Guidelines](CONTRIBUTING.md).
 
 ## Temporary Release Process
-- ODK
+ICO is not implementwed
 
 ## PURL Ranges
 

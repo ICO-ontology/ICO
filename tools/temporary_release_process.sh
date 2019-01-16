@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
-## TODO: add developer comments
+# This release process is a number of shortcuts used to create a
+# stable owl representation of ICO.
 
-# Requires robot to be installed
+# Check to see if robot installed
 command -v robot 1> /dev/null 2>&1 || \
-  { echo >&2 "robot required but it's not installed.  Aborting."; exit 1; }
+  { printf >&2 "robot (http://robot.obolibrary.org/) required. Aborting."; exit 1; }
 
 # Start by assuming it was the path invoked.
 THIS_SCRIPT="$0"
@@ -23,62 +24,67 @@ while [ -h "$THIS_SCRIPT" ] ; do
   fi
 done
 
-# Get path, set variables
+# Get path
 SCRIPT_DIR=$(dirname "${THIS_SCRIPT}")
+
+# parameters
+# TODO: make repository paths more robust
 ICO="${SCRIPT_DIR}/../src/ontology/ico-edit.owl"
 LOG="${SCRIPT_DIR}/release_notes/`date '+%Y-%m-%d'`.txt"
 
+# ELK is chosen because ICO does not have strict logical
+# requirements. Needs to be updated as requirements change.
 REASONER='ELK'
-
 MERGED="${SCRIPT_DIR}/intermediate_owl_artifacts/ICO-MERGED-`date '+%Y-%m-%d'`.owl"
 VERSIONED="${SCRIPT_DIR}/intermediate_owl_artifacts/ICO-VERSIONED-`date '+%Y-%m-%d'`.owl"
 RELEASE="ICO-RELEASE-`date '+%Y-%m-%d'`.owl"
 
-# merge
+# Gather ontology imports to single file.
 robot merge \
   --input ${ICO} \
   --include-annotations true \
   --output ${MERGED} &> ${LOG}
 
-echo "MERGE DONE."
+printf "Merging ontologies ... DONE\n"
 
-# add date to IRI version
+# add date to IRI version (per OBO best-practices)
 robot annotate \
   --input ${MERGED} \
   --ontology-iri "http://purl.obolibrary.org/obo/ICO.owl" \
   --version-iri "http://purl.obolibrary.org/obo/`date '+%Y-%m-%d'`/ico.owl" \
   --output ${VERSIONED} &> ${LOG}
 
-echo "VERSIONING DONE."
+printf "Versioning ... DONE\n"
 
-# include reasoned triples
+# include inferred axioms in reasoning check
+# TODO: handle errors caused by improperly specificied axioms
 robot reason \
 	--input ${VERSIONED} \
   --reasoner ${REASONER} \
   --annotate-inferred-axioms true \
   --output ${RELEASE} &> ${LOG}
 
-echo "REASONING DONE."
+printf "Reasoning using ${REASONER} ... DONE\n"
 
-# run robot report, topsheet to stdout and details to file
+# report based on standard robot QA parameters
 robot report \
   --input ${RELEASE} \
   --output ${LOG} &> ${LOG} | head -n 5
 
-echo "REPORTING DONE."
-echo "Release notes can be found here: ${LOG}"
+printf "Reporting ... DONE - Release notes can be found here: ${LOG}\n"
+printf "\n***** USER INPUT NEEDED *****\n"
 
-# clean up, demand user input
+# clean up option, demand user input
 while true; do
-    read -p "Would you like to remove intermediate artifacts (y/n)?" yn
+    read -p "Would you like to remove intermediate artifacts and EXIT the release process (y/n)?" yn
     case $yn in
-        [Yy]* ) rm ${MERGED}; rm ${VERSIONED}; break;;
-        [Nn]* ) break;;
-        * ) echo "Please answer yes (y) or no (n).";;
+        [Yy]* ) printf "Intermediate artifacts removed"; rm ${MERGED}; rm ${VERSIONED}; break;;
+        [Nn]* ) printf "Intermediate artifacts not removed"; break;;
+        * ) printf "Please answer yes (y) or no (n).";;
     esac
 done
 
-echo "RELEASE DONE."
-echo ""
-echo "##### IMPORTANT NOTE:"
-echo "Please rename and move ${RELEASE} in the root directory to 'src/ontology/ico_merged.owl'"
+# ICO's purls resolve to src/ontology/ico_merged.owl, so it is
+# necessary to place the updated owl file in this location.
+printf "Release .. DONE\n \n***** IMPORTANT NOTE *****"
+printf "\nPlease rename and move ${RELEASE} in the root directory to 'src/ontology/ico_merged.owl'\n"
