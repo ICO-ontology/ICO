@@ -5,7 +5,7 @@ ERROR	duplicate_definition	obo:RO_0002406	obo:IAO_0000115
 ERROR	duplicate_definition	obo:IAO_0100001	obo:IAO_0000115		
 ERROR	duplicate_definition	obo:RO_0002407	obo:IAO_0000115		
 ERROR	duplicate_definition	obo:RO_0008508	obo:IAO_0000115		
-ERROR	duplicate_definition	obo:RO_0008507	2019-01-16 11:50:36,644 ERROR org.obolibrary.robot.ReportCommand - Report failed!
+ERROR	duplicate_definition	obo:RO_0008507	2019-01-16 12:01:16,770 ERROR org.obolibrary.robot.ReportCommand - Report failed!
 OR	duplicate_definition	obo:OBI_0000299	obo:IAO_0000115		
 ERROR	duplicate_definition	obo:RO_0002583	obo:IAO_0000115		
 ERROR	duplicate_definition	obo:OBI_0000312	obo:IAO_0000115		
