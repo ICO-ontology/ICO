@@ -1,4 +1,0 @@
-%  stasis of generically dependent continuant is subclass of stasis
-%  entity: StasisOfGenericallyDependentContinuant
-all x (StasisOfGenericallyDependentContinuant(x) -> Stasis(x)). 
-

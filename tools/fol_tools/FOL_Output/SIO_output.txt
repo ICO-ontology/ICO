@@ -1,4 +1,0 @@
-%  legal name is subclass of author identification
-%  entity: SIO_000184
-all x (LegalName(x) -> AuthorIdentification(x)). 
-

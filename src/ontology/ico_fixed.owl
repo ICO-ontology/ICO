@@ -521,7 +521,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_100016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000242"/>
         <obo:IAO_0000115 xml:lang="en">An answer directive that is part of a document and whose filling in or leaving blank is incidental to the completion of the form.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">option to check</rdfs:label>
@@ -2974,9 +2974,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100001 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000231 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100001">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000231">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
         <obo:IAO_0000115 xml:lang="en">A site within which a deontic power may be realized, where that deontic power inheres in a formally created regulatory body.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -2987,9 +2987,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100005 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000232 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100005">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000232">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000115 xml:lang="en">An organization that has a deontic power role prescribed by some regulatory document that occurs in a stasis of regulation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -2999,9 +2999,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100006 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000233 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100006">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000233">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
         <obo:IAO_0000115 xml:lang="en">A document that either prescribes actions or prescribes the permissions, obligations, restrictions, or protections relating to public or legal policy.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3013,10 +3013,10 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100007 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000234 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_100006"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000233"/>
         <obo:IAO_0000112 xml:lang="en">‘HIPAA documents,’ ‘The Common Rule,’ an ‘Informed Consent Regulatory Document.’</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A regulatory document designed to prescribe research involving human subjects.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3026,10 +3026,10 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100008 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000235 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_100006"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000233"/>
         <obo:IAO_0000115 xml:lang="en">A regulatory document designed to prescribe an informed consent process or inputs in an informed consent process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000425 xml:lang="en">‘Informed Consent Waivers,’ ‘Informed Consent Exemptions.’</obo:IAO_0000425>
@@ -3039,9 +3039,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100010 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000236 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100010">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000236">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000055"/>
         <obo:IAO_0000112 xml:lang="en">Do action (x).</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A rule in an informed consent regulatory document that prescribes either an informed consent process or deontic roles inhering in agents that participate in an informed consent process.</obo:IAO_0000115>
@@ -3052,9 +3052,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100011 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000237 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100011">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000055"/>
         <obo:IAO_0000115 xml:lang="en">A rule in an informed consent regulatory document that prescribes an informed consent process and has part trigger condition description.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3066,9 +3066,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100012 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000238 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100012">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000238">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000055"/>
         <obo:IAO_0000115 xml:lang="en">A rule in an informed consent regulatory document that prescribes deontic roles that may be realized in an unspecified range of activities, or which is subject to few restrictions.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3078,9 +3078,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100013 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000239 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100013">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes information that must be revealed and prescribes to whom that information must be revealed.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3090,9 +3090,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100014 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000240 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100014">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000240">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000112 xml:lang="en">A description of who can consent (but not the conditions required to be realizable).</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes a deontic power role or the process that realizes it.</obo:IAO_0000115>
@@ -3103,9 +3103,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100015 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000241 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100015">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000241">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the limits of disclosure regarding an agent’s identity.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3117,9 +3117,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100016 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000242 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100016">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000242">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000112 xml:lang="en">A ‘signature section,’ an ‘I understand’ clause, or a ‘checkbox.’</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that, when signed, stamped, or initialed realizes a deontic role as described by the document specifications, or specifications in another related document.</obo:IAO_0000115>
@@ -3130,9 +3130,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100017 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000243 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100017">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000243">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that enumerates the results if a trigger condition describing failure to comply with a rule is met.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte, Jonathan Vajda</obo:IAO_0000117>
@@ -3142,9 +3142,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100018 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000244 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100018">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000244">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes a deontic role that permits some action.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3155,9 +3155,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100019 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000245 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100019">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">A conditional specification that prescirbes a permission, should some trigger condition obtain.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3168,9 +3168,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100020 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000246 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100020">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000246">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes actions that are impermissible.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3181,9 +3181,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100021 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000247 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100021">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000247">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">A conditional specification that prescirbes an impermissibility, should some trigger condition obtain.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3194,9 +3194,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100022 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000248 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100022">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000248">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes an obligation that is realized a deontic role that is the output of a document act.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3206,9 +3206,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100023 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000249 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100023">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000249">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">A conditional specification that prescirbes an obligation, should some trigger condition obtain.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3218,9 +3218,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100031 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000250 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100031">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000250">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the agent that is liable if a trigger condition is met.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3230,9 +3230,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100032 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000251 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100032">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000251">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000112 xml:lang="en">The section of an informed consent document that describes a clinical procedure that the agent is consenting to.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes a medical procedure.</obo:IAO_0000115>
@@ -3243,9 +3243,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100033 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000252 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100033">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000252">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that describes some state of affairs such that, if that state of affairs holds, some other prescription follows.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3256,9 +3256,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100034 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000253 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100034">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000253">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000117 xml:lang="en">A descriptive information content entity that reports that participation in the procedures described elsewhere in the document are voluntary.</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3268,9 +3268,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100037 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000254 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100037">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000254">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role inhering in an agent as a result of that agent having observed some process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
@@ -3281,9 +3281,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100041 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000255 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100041">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000255">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some process for withdraw from another planned process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3293,9 +3293,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100049 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000256 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100049">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000256">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">A temporal region identifier that designates the temporal region during which a living person is alive, and where the temporal region is such that the living person is qualified to exercise a deontic power within a legal jurisdiction.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
@@ -3305,9 +3305,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100051 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000257 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100051">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000257">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
         <obo:IAO_0000115 xml:lang="en">A social act in which formal or official endorsement of some entity is communicated.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
@@ -3318,9 +3318,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100054 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000258 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100054">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000258">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the language that must be used in an informed consent process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3330,9 +3330,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100055 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000259 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100055">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000259">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes some process that may be elected.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
@@ -3342,9 +3342,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100056 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000260 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100056">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000260">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes expressions or implications of threat that may compel an agent to act out of fear against the agent&apos;s will.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3356,9 +3356,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100059 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000261 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100059">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000261">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000232 xml:lang="en">&quot;§46.102(f) Human subject means a living individual about whom an investigator (whether professional or student) conducting research obtains (1) Data through intervention or interaction with the individual, or 2) Identifiable private information. Intervention includes both physical procedures by which data are gathered (for example, venipuncture) and manipulations of the subject or the subject&apos;s environment that are performed for research purposes. Interaction includes communication or interpersonal contact between investigator and subject. Private information includes information about behavior that occurs in a context in which an individual can reasonably expect that no observation or recording is taking place, and information which has been provided for specific purposes by an individual and which the individual can reasonably expect will not be made public (for example, a medical record). Private information must be individually identifiable (i.e., the identity of the subject is or may readily be ascertained by the investigator or associated with the information) in order for obtaining the information to constitute research involving human subjects.&quot;</obo:IAO_0000232>
         <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
@@ -3368,9 +3368,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100069 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000262 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100069">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000262">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
         <obo:IAO_0000115 xml:lang="en">A disposition to abnormality realized in cognitive processes that are qualitatively below those of individuals belonging to some type, to which the bearer of the disposition also belongs.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
@@ -3383,9 +3383,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100070 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000263 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100070">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000263">
         <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
         <obo:IAO_0000115 xml:lang="en">A vulnerability due to exposure to a depressed or impoverished economic environment.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
@@ -3395,9 +3395,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100071 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000264 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100071">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000264">
         <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00000024"/>
         <obo:IAO_0000115 xml:lang="en">A vulnerability due to exposure to a harsh learning environment.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
@@ -3407,9 +3407,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100083 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000265 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100083">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000265">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process of storing the document output of an &apos;act of consent&apos; for future use.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3419,9 +3419,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100088 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000266 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100088">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000266">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes a method of some act of communicating.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
@@ -3431,9 +3431,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100093 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000267 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100093">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000267">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some process in which vulnerable individuals participate.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3443,9 +3443,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100094 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000268 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100094">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000268">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the nondisclosure of information.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3455,9 +3455,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100119 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000269 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100119">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000269">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
         <obo:IAO_0000115 xml:lang="en">A planned process in which some entity provides information to another entity.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3470,9 +3470,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100128 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000270 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100128">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000270">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete benefit</rdfs:label>
@@ -3481,9 +3481,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100129 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000271 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100129">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000271">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete risk</rdfs:label>
@@ -3492,9 +3492,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100131 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000272 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100131">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000272">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000117 xml:lang="en">A descriptive information content entity that describes the expected duration of participation of some agent in an investigation.</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3504,9 +3504,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100132 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000273 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100132">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000273">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some research process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3516,9 +3516,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100133 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000274 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100133">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000274">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes the conditions under which compensation is due to some agent.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
@@ -3528,9 +3528,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100134 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000275 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100134">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000275">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes an emotional state of mental or physical uneasiness.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3540,9 +3540,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100137 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000276 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100137">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000276">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes biospecimens that have been collected.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
@@ -3552,9 +3552,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100138 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000277 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100138">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000277">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes information that may be collected or the processes of information collection.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3564,10 +3564,10 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100141 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000278 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100141">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_100185"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000305"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes how biospecimens will be used.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
         <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
@@ -3576,9 +3576,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100144 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000279 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100144">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000279">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes some procedure for obtaining information only available at some future time.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3588,9 +3588,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100146 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000280 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100146">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000280">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000112 xml:lang="en">For instance, a patient may assert a preferred mode of communication for contact in the future. This may be given in terms of permitting a communication via email, phone call, etc. and it may mention the address or number to be used.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes methods for contacting an agent.</obo:IAO_0000115>
@@ -3601,9 +3601,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100148 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000281 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100148">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000281">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">A descriptive information content entity that describes some conditions that constitute unauthorized disclosure of information.</obo:IAO_0000232>
@@ -3614,9 +3614,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100149 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000282 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100149">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000282">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes legal responsibility that an entity has due to some risk.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury, J. Neil Otte</obo:IAO_0000117>
@@ -3627,9 +3627,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100151 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000283 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100151">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000283">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A description of risk that describes the magnitude of potential financial loss.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3639,9 +3639,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100152 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000284 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100152">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000284">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A description of risk that describes the magnitude or probability of damage to the reputation of an agent in a social context.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3651,9 +3651,9 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100153 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000285 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100153">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000285">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000112 xml:lang="en">E.g., &quot;There are several definitions available for the term &apos;vulnerable population&apos;, the words simply imply the disadvantaged sub-segment of the community requiring utmost care, specific ancillary considerations and augmented protections in research. The vulnerable individuals’ freedom and capability to protect one-self from intended or inherent risks is variably abbreviated, from decreased freewill to inability to make informed choices.&quot;
 
@@ -3667,9 +3667,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100154 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000286 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100154">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000286">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in a regulatory body that, if realized, is realized in some act of regulatory supervision.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3679,9 +3679,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100159 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000287 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100159">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000287">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens that, if realized, is realized within the organizational context of a legal jurisdiction, when the bearer fails to meet the legal threshold for adulthood.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3692,9 +3692,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100160 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000288 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100160">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000288">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">A woman who is pregnant.</obo:IAO_0000115>
         <obo:IAO_0000232 xml:lang="en">Could reuse: http://purl.obolibrary.org/obo/ontoneo/ONTONEO_00000197</obo:IAO_0000232>
@@ -3704,9 +3704,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100161 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000289 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100161">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000289">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens that is realized in a process of incarceration.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
@@ -3717,9 +3717,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100164 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000290 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100164">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000290">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
         <obo:IAO_0000115 xml:lang="en">A document designed for the purpose of assisting in an act of waiving, and which contains both some description of waiver and some waiver directive.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3729,9 +3729,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100165 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000291 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100165">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000291">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes an entity that provides positive motivation for some material entity.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3742,9 +3742,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100168 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000292 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100168">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000292">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
         <obo:IAO_0000115 xml:lang="en">A protocol that is formal plan of a research activity, including the objective, rationale, design, materials, and methods for the conduct of the activity.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3754,9 +3754,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100169 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000293 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100169">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000293">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the information that is permitted to be shared or the processes for sharing that information.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3766,9 +3766,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100170 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000294 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100170">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000294">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the process of transferring a permission role from one bearer to another.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">Note: Strictly speaking, of course, roles are not transferred; rather, the transfer of a permission involves the role of one agent ceasing to exist, and the role of a second agent coming into existence.</obo:IAO_0000116>
@@ -3779,9 +3779,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100171 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000295 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100171">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000295">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the processes that involve some entity as a participant.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3791,9 +3791,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100173 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000296 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100173">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000296">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes the negative impact or harm that may befall an agent who withdraws from an investigation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
@@ -3803,9 +3803,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100174 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000297 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100174">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000297">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant"/>
         <obo:IAO_0000115 xml:lang="en">A stasis of generically dependent continuant that has participant some information content entity and during which that information content entity is recognized within that jurisdiction and directs governance within that jurisdiction.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3814,10 +3814,10 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100175 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000298 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100175">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_100174"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000297"/>
         <obo:IAO_0000115 xml:lang="en">A stasis of regulation that has participant some information content entity and during which that information content entity is recognized as a law within the jurisdiction in which the stasis of regulation is occurring.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">The  ‘stasis of law’ designates the spatial and temporal conditions that need to be met in order for a regulatory document to be a ‘law’ or a ‘policy.’ This is necessary because laws, or other regulations are overturned, made obsolete, ect..., but material entities concretizing them persist.</obo:IAO_0000232>
@@ -3827,10 +3827,10 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100176 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000299 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100176">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_100033"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000252"/>
         <obo:IAO_0000115 xml:lang="en">A trigger condition directive that prescribes conditions for which a individual bears a vulnerability role or disposition of vulnerability, or a population of such individuals.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">See http://purl.unep.org/sdg/SDGIO_00000024 (Vulnerability):  A disposition of an entity to undergo undesirable change in response to some exposure.</obo:IAO_0000232>
@@ -3840,9 +3840,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100180 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000300 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100180">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000300">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process in which a regulatory body directs or monitors another planned process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury and J. Neil Otte</obo:IAO_0000117>
@@ -3852,9 +3852,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100181 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000301 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100181">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000301">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115 xml:lang="en">A process of mistreating an entity such that the mistreated entity is harmed.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte, and Jonathan Vajda</obo:IAO_0000117>
@@ -3865,10 +3865,10 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100182 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000302 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100182">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_100119"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000269"/>
         <obo:IAO_0000115 xml:lang="en">An act of communicating in which information is shared, overriding or violating a judgment that the information should not be shared.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte and Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">It is possible that there are meaningful defined classes here like: &apos;act of authorized disclosure&apos; and &apos;act of unauthorized disclosure.&apos;</obo:IAO_0000232>
@@ -3878,9 +3878,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100183 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000303 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100183">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000303">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes a research procedure.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3890,10 +3890,10 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100184 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000304 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100184">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_100185"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000305"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes how data will be used.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
         <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
@@ -3902,9 +3902,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100185 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000305 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100185">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000305">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes future use of material or information.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3914,9 +3914,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100186 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000306 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100186">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000306">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
         <obo:IAO_0000115 xml:lang="en">A social act of relinquishing a right, claim, or privilege.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Jonathan Vajda</obo:IAO_0000117>
@@ -3927,9 +3927,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100187 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000307 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100187">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000307">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes an act of waiving.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3939,9 +3939,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100188 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000308 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100188">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000308">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115 xml:lang="en">A descriptive information content entity that describes a directive information content entity that can be ignored.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -3952,9 +3952,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100189 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000309 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100189">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000309">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role inhering in a Homo sapiens that, if realized, is realized in being a passive participant in some act of abuse process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
@@ -3965,9 +3965,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100191 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000310 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100191">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000310">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some investigation of biospecimens.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
@@ -3977,9 +3977,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100192 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000311 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100192">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000311">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that involves the investigation of some sequence of DNA.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
@@ -3989,14 +3989,14 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100193 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000312 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100193">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000312">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_100192"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ICO_0000311"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes some act of genetic testing.</obo:IAO_0000115>
@@ -4007,9 +4007,9 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_100195 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000313 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_100195">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000313">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role inhering in some material entity that is realized in an act of artifact modification.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
@@ -4352,9 +4352,9 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_1002001 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000314 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_1002001">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000314">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <obo:IAO_0000115 xml:lang="en">An objective specification whose intended process endpoint is an investigation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
@@ -4364,9 +4364,9 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_1002002 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000315 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_1002002">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000315">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <obo:IAO_0000115 xml:lang="en">An objective specification that prescribes the participation of an information content entity or a material entity in a process prescirbed by a future invesitgation objective specification.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">&quot;The use in research of information or human biological materials originally collected for a purpose other than the current research purpose.&quot;</obo:IAO_0000116>
@@ -4378,9 +4378,9 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_1002004 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000316 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_1002004">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000316">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
@@ -4396,10 +4396,10 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_1002005 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000317 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_1002005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_1002004"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000316"/>
         <obo:IAO_0000115 xml:lang="en">A role directive that prescribes the bearer of a patient role in a process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
@@ -4408,10 +4408,10 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_1002007 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000318 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_1002007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_1002004"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000316"/>
         <obo:IAO_0000115 xml:lang="en">A role directive that prescirbes the bearer of a regulatory oversight role in a process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
@@ -4420,10 +4420,10 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_1002008 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000319 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_1002008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_1002004"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000319">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000316"/>
         <obo:IAO_0000115 xml:lang="en">A role directive that prescribes the bearer of an investigator role in a process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
@@ -4432,10 +4432,10 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
 
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_1002018 -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000320 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_1002018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_1002004"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000320">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000316"/>
         <obo:IAO_0000115 xml:lang="en">A role directive that prescribes the bearer of a legally authorized representative role in process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
