@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1549301803309" name="http://purl.obolibrary.org/obo/ICO.owl" uri="ICO-RELEASE-2019-02-04.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1549301803309" name="duplicate:http://purl.obolibrary.org/obo/ico.owl" uri="tools/intermediate_owl_artifacts/ICO-MERGED-2019-02-04.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1549301803309" name="duplicate:http://purl.obolibrary.org/obo/ico.owl" uri="tools/intermediate_owl_artifacts/ICO-MERGED-2019-01-16.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1549301803309" name="http://purl.obolibrary.org/obo/ico.owl/" uri="src/ontology/ico-edit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1549301803309" name="shadowed:http://purl.obolibrary.org/obo/ICO.owl" uri="tools/intermediate_owl_artifacts/ICO-VERSIONED-2019-02-04.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1549301803309" name="shadowed:http://purl.obolibrary.org/obo/ICO.owl" uri="tools/intermediate_owl_artifacts/ICO-VERSIONED-2019-01-16.owl"/>
+    </group>
+</catalog>
