@@ -19,7 +19,7 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ico.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
         <dc:contributor xml:lang="en">William Duncan</dc:contributor>
         <dc:contributor xml:lang="en">Jian Guan</dc:contributor>
@@ -2982,11 +2982,12 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     <!-- http://purl.obolibrary.org/obo/ICO_0000232 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000232">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">An organization that has a deontic power role prescribed by some regulatory document that occurs in a stasis of regulation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
-        <rdfs:label xml:lang="en">regulatory body</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete regulatory body</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -5061,9 +5062,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ICO_0000231">
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Regulatory Basis for Informed Consent</rdfs:label>
         <obo:IAO_0000232 xml:lang="en">This annotation property specifies classes that were developed as part of an alignment effort between the Common Rule Ontology and the Informed Consent Ontology in the Summer of 2018. These classes represent entities that are necessary for understanding the regularatory frameworks that influence informed consent, often at a different level of granularity than individual consent processes. These classes were created to be compatible with regulatory frameworks outside the Unitied States, hence they are general.</obo:IAO_0000232>
         <obo:ICO_0000231 xml:lang="en"></obo:ICO_0000231>
+        <obo:ICO_0000231 xml:lang="en">Regulatory Basis for Informed Consent</obo:ICO_0000231>
         <obo:IAO_0000115 xml:lang="en">A site within which a deontic power may be realized, where that deontic power inheres in a formally created regulatory body.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">jurisdiction</rdfs:label>
         <rdfs:comment xml:lang="en">&apos;Jurisdiction&apos; is often defined in two senses: (1) a geopolitical context (BFO site), or (2) a power. We define jurisdiction as a BFO site, identifiable through shared context of other entities, like a country or state border, or the grounds of an institution. The term ‘deontic power role’ reflects the sense of ‘power’ sometimes used to describe jurisdiction.</rdfs:comment>
