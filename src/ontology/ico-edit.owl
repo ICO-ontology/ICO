@@ -251,6 +251,23 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     
 
 
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/has_familial_relationship_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/has_familial_relationship_to">
+        <obo:IAO_0000115 xml:lang="en">A relationship between persons by virtue of ancestry or legal union.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/CommonCoreOntology/CommonCoreOntologies/blob/master/AgentOntology.ttl</obo:IAO_0000119>
+        <dc:date xml:lang="en">Retrieved from Common Core Ontologies 2/06/2019</dc:date>
+        <dc:license xml:lang="en">BSD 3-Clause License
+
+Copyright (c) 2017, CUBRC, Inc.
+All rights reserved.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
+        <rdfs:label xml:lang="en">has familial relationship to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by -->
 
     <owl:ObjectProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by">
