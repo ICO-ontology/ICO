@@ -11,13 +11,10 @@ In 2018, much of the [The Common Rule Ontology](https://github.com/CRO-ontology/
 ### Funding
 This project was supported by a a number of mechanisms. The content is solely the responsibility of the authors and does not necessarily represent the official views of the funding parties.
 
-- 2UL1TR000433-06
-- U2C-DK114886
-- NIH/NHGRI 5U01HG009454-03
-- [MCubed](https://mcubed.umich.edu/)
-- [MIDAS](https://midas.umich.edu/)
-- [MiCHAMP](https://michamp.med.umich.edu/)
-- Robert Wood Johnson Foundation Future of Nursing Scholarship
+- University of Michigan [MCubed](https://mcubed.umich.edu/) interdisciplinary research award (Harris, He, and Karnovsky co-PIs)
+- NIH National Human Genome Research Institute,  (U01 HG009454, Tao PI)
+- Michigan Institute for Data Science ([MIDAS](https://midas.umich.edu/)) Challenge Award (Harris, co-PI)
+- NIH-NIDDK, Kidney Precision Medicine Project (NIH/U2C-DK114886-02-5516, Kretzler PI)
 
 ## Contributing
 We encourage collaboration. For those looking to make contributions to the ontology content, or to propose aternative defintions or design patterns, please visit the [Contributing Guidelines](CONTRIBUTING.md). For developers new to ICO please see the [Developer Readme](DEVELOPER.md).
