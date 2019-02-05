@@ -8,8 +8,19 @@ ICO was initiated in 2012 with the support of the MCubed project at the Universi
 
 In 2018, much of the [The Common Rule Ontology](https://github.com/CRO-ontology/CRO), developed by Frank J. Manion was merged into ICO. Details on The Common Rule Ontology can be found in the [Common Rule Readme](COMMON_RULE_README.md).
 
+### Funding
+This project was supported by a a number of mechanisms. The content is solely the responsibility of the authors and does not necessarily represent the official views of the funding parties.
+
+- 2UL1TR000433-06
+- U2C-DK114886
+- NIH/NHGRI 5U01HG009454-03
+- [MCubed](https://mcubed.umich.edu/)
+- [MIDAS](https://midas.umich.edu/)
+- [MiCHAMP](https://michamp.med.umich.edu/)
+- Robert Wood Johnson Foundation Future of Nursing Scholarship
+
 ## Contributing
 We encourage collaboration. For those looking to make contributions to the ontology content, or to propose aternative defintions or design patterns, please visit the [Contributing Guidelines](CONTRIBUTING.md). For developers new to ICO please see the [Developer Readme](DEVELOPER.md).
 
-## License and Attribution:
-ICO is licensed under the [Creative Commons Attribution 4.0 International Public License\(CC BY 4.0\)](https://creativecommons.org/licenses/by/4.0/legalcode). You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. Users are also requested to attribute the support of the National Human Genome Research Institute (NHGRI) in this effort, as described below.
+## License
+ICO is licensed under the [Creative Commons Attribution 4.0 International Public License\(CC BY 4.0\)](https://creativecommons.org/licenses/by/4.0/legalcode). Please see the [License File](LICENSE.txt) for more information.
