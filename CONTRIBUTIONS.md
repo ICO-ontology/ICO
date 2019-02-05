@@ -2,9 +2,9 @@
 
 
 ## ICO Team
+- Oliver He
 - Cui Tao
 - Marcelline Harris
-- Oliver He
 - Frank J. Manion
 - Jihad Obeid
 - Asiyah Yu Lin
