@@ -58,20 +58,18 @@ printf "Versioning ... DONE\n"
 
 # include inferred axioms in reasoning check
 # TODO: handle errors caused by improperly specificied axioms
-robot reason \
-	--input ${VERSIONED} \
-  --reasoner ${REASONER} \
-  --annotate-inferred-axioms true \
-  --output ${RELEASE} &> ${LOG}
+robot \
+  reason --input ${VERSIONED} --reasoner ${REASONER} --annotate-inferred-axioms true &> ${LOG}
+  reduce --reasoner ${REASONER} --output ${RELEASE} &> ${LOG}
 
-printf "Reasoning using ${REASONER} ... DONE\n"
+printf "Reason and Reduce using ${REASONER} ... DONE\n"
 
 # report based on standard robot QA parameters
 robot report \
   --input ${RELEASE} \
   --output ${LOG} &> ${LOG} | head -n 5
 
-printf "Reporting ... DONE - Release notes can be found here: ${LOG}\n"
+printf "\nReporting ... DONE - Release notes can be found here: ${LOG}\n"
 printf "\n***** USER INPUT NEEDED *****\n"
 
 # clean up option, demand user input
