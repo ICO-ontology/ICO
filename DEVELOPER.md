@@ -1,8 +1,8 @@
 # Developer Readme
-This readme is intended for those intending to make contributions to ICO. The primary purpose of this document is to justify development decisions and provide information regarding the release process and repository structure. For content contributions, please see the [Contributing Guidelines](CONTRIBUTING.md).
+This readme is designed for those intending to make contributions to ICO. The primary purpose of this document is to justify development decisions and provide information regarding the release process and repository structure. For content contributions, please see the [Contributing Guidelines](CONTRIBUTING.md).
 
 ## Temporary Release Process
-Please see the [developer tools](tools/) for more details regarding specific development process. At the time of this writing (early 2019) there is not a need for a high development bar for ICO. As ICO moves towards an application space this will need to change.
+Please see the [developer tools](tools/) for more details regarding specific development process. At the time of this writing (early 2019) there is not a need for a high development bar for ICO. As ICO moves toward an application space, this will need to change.
 
 ## PURL Ranges
 

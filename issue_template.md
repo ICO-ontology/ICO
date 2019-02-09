@@ -18,4 +18,4 @@ Please look in the hierarchy in a browser such as [ONTOBEE](http://www.ontobee.o
 
 ## Attribution
 
-If you would like a nano-attribution, please indicate your ORCID id
+If you would like a nano-attribution, please indicate your ORCID id. 

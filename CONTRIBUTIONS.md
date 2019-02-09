@@ -26,11 +26,12 @@
 - Jian Guan
 - Christoph Brochhausen
 
+
 ## ICO Products
-### Presentations:
-- February 26-27 2018 workshop at Little Rock introduce the collaborative development background may be found here:   [http://ncorwiki.buffalo.edu/index.php/Ontology_of_Informed_Consent:_An_Approach_to_Specimen_and_Data_Sharing](http://ncorwiki.buffalo.edu/index.php/Ontology_of_Informed_Consent:_An_Approach_to_Specimen_and_Data_Sharing)
-- August 7 2018 Workshop at International Conference on Biological Ontology, Corvallis OR may be found here: http://icbo2018.cgrb.oregonstate.edu/node/24
-- November 2018, Podium presentation at the American Medical Informatics Association Annual Symposium, San Francisco CA may be found here:
+### Presentations
+- Introductory materials presented by Oliver He at the 2018 Ontology of Informed Consent Workshop may be found here: [https://github.com/ICO-ontology/ICO/blob/master/docs/ICO_introduction.pdf](https://github.com/ICO-ontology/ICO/blob/master/docs/ICO_introduction.pdf).
+- Additional materials from the February 26-27 2018 workshop at Little Rock introduce the collaborative development background may be found here:   [http://ncorwiki.buffalo.edu/index.php/Ontology_of_Informed_Consent:_An_Approach_to_Specimen_and_Data_Sharing](http://ncorwiki.buffalo.edu/index.php/Ontology_of_Informed_Consent:_An_Approach_to_Specimen_and_Data_Sharing)
+- A poster presentation titled “Coordinated Evolution of Ontologies of Informed Consent” was presented at the International Conference on Biological Ontology and BioCreative, August 7-9, 2018. This work concerned the alignment of ontologies related to informed consent, including the Informed Consent Ontology (ICO), the Common Rule Ontology (CRO), and the Data Use Ontology (DUO). A digital copy is available upon request.  
 
 ### Publications:
 - Lin Y, Harris MR, Manion FJ, Eisenhauer E, Zhao B, Shi W, Karnovsky A, He Y: Development of a BFO-based Informed Consent Ontology (ICO). In: The 5th International Conference on Biomedical Ontologies (ICBO): 2014; Houston, Texas, USA, October 8-9, 2014. CEUR Workshop Proceedings; 2013: Page 84-86. [http://ceur-ws.org/Vol-1327/icbo2014_paper_54.pdf]
