@@ -20,7 +20,7 @@ This project was supported by a a number of mechanisms. The content is solely th
 - Robert Wood Johnson Foundation Future of Nursing Scholarship
 
 ## Contributing
-We encourage collaboration. For those looking to make contributions to the ontology content, or to propose aternative defintions or design patterns, please visit the [Contributing Guidelines](CONTRIBUTING.md). For developers new to ICO please see the [Developer Readme](DEVELOPER.md).
+We encourage collaboration. For those looking to make contributions to the ontology content, or to propose aternative defintions or design patterns, please visit the [Contributing Guidelines](CONTRIBUTING.md). For developers new to ICO, please see the [Developer Readme](DEVELOPER.md).
 
 ## License
 ICO is licensed under the [Creative Commons Attribution 4.0 International Public License\(CC BY 4.0\)](https://creativecommons.org/licenses/by/4.0/legalcode). Please see the [License File](LICENSE.txt) for more information.
