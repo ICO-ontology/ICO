@@ -58,9 +58,18 @@ printf "Versioning ... DONE\n"
 
 # include inferred axioms in reasoning check
 # TODO: handle errors caused by improperly specificied axioms
-robot \
-  reason --input ${VERSIONED} --reasoner ${REASONER} --annotate-inferred-axioms true &> ${LOG}
-  reduce --reasoner ${REASONER} --output ${RELEASE} &> ${LOG}
+robot reason \
+    --input ${VERSIONED} \
+    --reasoner ${REASONER}\
+    --annotate-inferred-axioms true \
+    --exclude-duplicate-axioms true \
+    --remove-redundant-subclass-axioms true \
+    --output ${RELEASE} &> ${LOG}
+
+robot reduce \
+    --input ${RELEASE} \
+    --reasoner ${REASONER}\
+    --output ${RELEASE} &> ${LOG}
 
 printf "Reason and Reduce using ${REASONER} ... DONE\n"
 
@@ -85,4 +94,4 @@ done
 # ICO's purls resolve to src/ontology/ico_merged.owl, so it is
 # necessary to place the updated owl file in this location.
 printf "Release .. DONE\n \n***** IMPORTANT NOTE *****"
-printf "\nPlease rename and move ${RELEASE} in the root directory to 'src/ontology/ico_merged.owl'\n"
+printf "\nPlease rename and move ${RELEASE} to the appropriate place in the repository\n"

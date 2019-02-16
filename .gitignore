@@ -1,6 +1,2 @@
 # ignore catalog
-src/ontology/*.xml
-
-src/metadata/*
-src/patterns/*
-src/sparql/*
+catalog-v001.xml

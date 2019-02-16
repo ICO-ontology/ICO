@@ -987,6 +987,21 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000046">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">The process of making the decision of the competent authorities in form of a letter, document, or verbal or electronic form, that confirms that somebody has permission to do something or be somewhere, e.g. to realize a given project.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">The alternative term of &apos;permission&apos; has semantic similarity with authorization in the sense of &apos;approval to do something&apos; and &apos;the act of giving a formal (usualy written) authorization. The semnatic similarity measuremment of permission and authorization is done using WordNet::Similarity (http://marimba.d.umn.edu/cgi-bin/similarity/)</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">permission</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">NCIt C41192</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete authorization</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ICO_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000047">
@@ -1488,6 +1503,18 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000086">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">a role that inheres in a patient or the legal guadian when he/she participates the consenting process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consenter role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ICO_0000087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000087">
@@ -1688,6 +1715,19 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000106">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">Legal name is the person name that identifies a person for legal, administrative and other official purposes. A person&amp;apos;s first legal name generally is the name of the person that was given for the purpose of registration of the birth and which then appears on a birth certificate (see birth name), but may change subsequently.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Legal_name</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete legal name</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ICO_0000107 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000107">
@@ -1846,6 +1886,20 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000120">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">a planned process that collect a signed  informed consent form. During this process, the information is systematically kept in a repository.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">We can put this axiom: inform... &apos;s located in&apos; some &apos;archive reposigtory of signed informed consent&apos;</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">YL, EE, MH, YH, AK</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">storage of signed informed consent form</obo:IAO_0000118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete archiving signed informed consent form</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ICO_0000121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000121">
@@ -1879,6 +1933,32 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Elizabeth Eisenhauer, Alla Karnovsky, Marcy Harris, J. Neil Otte</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Note: there were previously some related classes that distinguished the format of the informed consent form (e.g. electronic vs. paper). These distinctions are collapsed here. If making this distinction is necessary, the outputs of an instance of this class may be distinguished in their formatting. For instance, storing in an electronic format would entail an instance of an act of storing signed informed consent form bearing an &apos;has output&apos; relation to an instance of an informed consent form that is in an electronic format.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">act of storing signed informed consent form</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000124">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">a process of storage of signed informed consent form when the form is in digital format.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH, EE, AK, MH</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">storage of signed electronic informed consent form</obo:IAO_0000118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete archiving signed electronic informed consent form</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000125">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">a process of storage of signed informed consent form when the form is in digital format.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH, EE, AK, MH</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">storage of signed scanned paper informed consent form</obo:IAO_0000118>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete archiving signed scanned paper informed consent form</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -2217,6 +2297,19 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000155">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process that a person agrees to participate in a research project, which is a part of an informed consent process.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ICO_0000156 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000156">
@@ -2342,6 +2435,29 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000166">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000232 xml:lang="en">Moved to d-acts</obo:IAO_0000232>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete deontic role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000167">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic role that if realized is realized by its bearer conducting or overseeing genetic research on the genome of a human donor.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Note: this term wll be transferred to d-acts. - CTSOG ontology workshop 2018 Little Rock</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete permittee deontic role in genetic research</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ICO_0000168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000168">
@@ -2351,6 +2467,18 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:comment xml:lang="en">will add an equivalent class axiom
 &apos;has specified output&apos; some &apos;permittee deontic role in genetic research&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">genetic research permission deontic declaration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000169">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">a role that inheres in a human subject who participates in an assending process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">YH, NO</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete assenter role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -2419,6 +2547,18 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000115 xml:lang="en">A planned process that involves the filling of a questionnaire form that includes a list of questions.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Asiyah Yu Lin</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete filling questionnaire</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000176">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A deontic role that if realized is realized by its bearer conducting or overseeing genetic research on the genome of a human donor.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Note: this term wll be transferred to d-acts. - CTSOG ontology workshop 2018 Little Rock</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete permittee deontic role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
