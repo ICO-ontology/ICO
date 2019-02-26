@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1551197430706" name="duplicate:http://purl.obolibrary.org/obo/bfo.owl" uri="imports/RO_temporal_intervals_local.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1551197430706" name="duplicate:http://purl.obolibrary.org/obo/bfo.owl" uri="imports/BFO2_OntoFox_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1551197430706" name="duplicate:http://purl.obolibrary.org/obo/bfo.owl" uri="imports/RO_core_local.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1551197430706" name="http://purl.obolibrary.org/obo/duo.owl" uri="imports/DUO_local.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1551197430706" name="http://purl.obolibrary.org/obo/iao.owl" uri="imports/IAO_OntoFox_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1551197430706" name="http://purl.obolibrary.org/obo/iao/d-acts.owl/" uri="imports/IAO_d-acts_local.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1551197430706" name="http://purl.obolibrary.org/obo/ico.owl/" uri="ico-edit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1551197430706" name="http://purl.obolibrary.org/obo/ico/OAE_OntoFox_import.owl" uri="imports/OAE_OntoFox_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1551197430706" name="http://purl.obolibrary.org/obo/ico/OGMS_OntoFox_import.owl" uri="imports/OGMS_OntoFox_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1551197430706" name="http://purl.obolibrary.org/obo/obi.owl" uri="imports/OBI_OntoFox_import.owl"/>
+    </group>
+</catalog>
