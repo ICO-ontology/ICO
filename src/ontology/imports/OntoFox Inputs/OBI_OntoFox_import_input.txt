@@ -1,0 +1,57 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ico/OBI_OntoFox_import.owl
+
+[Source ontology]
+OBI
+
+[Low level source term URIs]
+
+http://purl.obolibrary.org/obo/OBI_0100051 #specimen
+includeAllChildren
+
+http://purl.obolibrary.org/obo/OBI_0500026 #eligibility criterion
+includeAllChildren
+
+http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+http://purl.obolibrary.org/obo/OBI_0000339 #planning
+http://purl.obolibrary.org/obo/IAO_0000413 #is duration of
+http://purl.obolibrary.org/obo/OBI_0001000 #questionnaire
+http://purl.obolibrary.org/obo/OBI_0000066 #investigation
+http://purl.obolibrary.org/obo/OBI_0000810 #informed consent process
+http://purl.obolibrary.org/obo/NCBITaxon_9606 #homo sapiens
+http://purl.obolibrary.org/obo/IAO_0000314 #document part
+http://purl.obolibrary.org/obo/OBI_0000202 #investigation agent role
+http://purl.obolibrary.org/obo/OBI_0001622 #investigation title
+http://purl.obolibrary.org/obo/OBI_0000245 #organization
+http://purl.obolibrary.org/obo/OBI_0000181 #population
+http://purl.obolibrary.org/obo/OBI_0000097 #study subject role
+http://purl.obolibrary.org/obo/IAO_0000028 #symbol
+http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+
+
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+
+http://purl.obolibrary.org/obo/OBI_0500026 #eligibility criterion
+subClassOf http://purl.obolibrary.org/obo/IAO_0000033
+
+http://purl.obolibrary.org/obo/OBI_0000011
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+
+http://purl.obolibrary.org/obo/OBI_0000339
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+
+http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+[Source term retrieval setting]
+includeAllIntermediates 
+
+[Source annotation URIs]
+# includeAllAnnotationProperties
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]
+http://purl.obolibrary.org/obo/GO_0008150

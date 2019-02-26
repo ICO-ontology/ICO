@@ -11,6 +11,18 @@ Please see the [developer tools](../../tools/) for more details regarding specif
 1. Move previous OWL file to `releases/` as appropriate.   
 1. Create a new release via GitHub releases.
 
+## Imports
+ICO makes use of terms from other ontologies according to the **the Minimum Information to Reference an External Ontology Term** principals:
+
+`M. Courtot et al., “MIREOT: the Minimum Information to Reference an External Ontology Term,” Nature Precedings, Aug. 2009.`
+
+We maintain local versions of ontologies in the `imports/` folder and rely on the `catalog-v001.xml` to resolve `owl:imports` statements to local file versions rather than the full ontology specified by the purl namespace. In order to develop and maintain these files we use [OntoFox](http://ontofox.hegroup.org/). Each file has an OntoFox input specification in `imports/OntoFox\ Inputs/`.
+
+`Z. Xiang, M. Courtot, R. R. Brinkman, A. Ruttenberg, and Y. He, “OntoFox: web-based support for ontology reuse,” BMC Research Notes, vol. 3, no. 1, p. 175, Jun. 2010.
+`
+
+Where we import the entire ontology we maintain a local copy of the file and rely on the `catalog-v001.xml` to resolve `owl:imports` statements to local file. These files all have the suffix `*_local.owl`.
+
 ##### Download:
 * [http://purl.obolibrary.org/obo/ico.owl](http://purl.obolibrary.org/obo/ico.owl)
 * This should point to: [https://raw.githubusercontent.com/ICO-ontology/ICO/master/src/ontology/ico_merged.owl](https://raw.githubusercontent.com/ICO-ontology/ICO/master/src/ontology/ico_merged.owl)

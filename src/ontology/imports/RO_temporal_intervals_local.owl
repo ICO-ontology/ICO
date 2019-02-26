@@ -12,10 +12,10 @@
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ro/temporal-intervals.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -23,16 +23,16 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -40,7 +40,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000060 -->
@@ -51,7 +51,7 @@
         - should have been BFO_0000062</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete preceded by</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000062 -->
@@ -78,7 +78,7 @@
         <dc:source>http://www.obofoundry.org/ro/#OBO_REL:preceded_by</dc:source>
         <rdfs:label xml:lang="en">preceded by</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000063 -->
@@ -91,7 +91,7 @@
         <obo:IAO_0000115 xml:lang="en">x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) &lt;= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">precedes</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002081 -->
@@ -103,7 +103,7 @@
         <rdfs:comment>Primitive instance level timing relation between events</rdfs:comment>
         <rdfs:label xml:lang="en">before or simultaneous with</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002082 -->
@@ -115,7 +115,7 @@
         <rdfs:comment xml:lang="en">t1 simultaneous_with t2 iff:=  t1 before_or_simultaneous_with t2  and not (t1 before t2)</rdfs:comment>
         <rdfs:label xml:lang="en">simultaneous with</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002083 -->
@@ -127,7 +127,7 @@
         <rdfs:comment xml:lang="en">t1 before t2 iff:=  t1 before_or_simulataneous_with t2  and not (t1 simultaeous_with t2)</rdfs:comment>
         <rdfs:label xml:lang="en">before</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002084 -->
@@ -139,7 +139,7 @@
         <rdfs:comment>Previously had ID  http://purl.obolibrary.org/obo/RO_0002122 in test files in sandpit - but this seems to have been dropped from ro-edit.owl at some point.  No re-use under this ID AFAIK, but leaving note here in case we run in to clashes down the line.  Official ID now chosen from DOS ID range.</rdfs:comment>
         <rdfs:label xml:lang="en">during which ends</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002086 -->
@@ -155,7 +155,7 @@
         <rdfs:comment xml:lang="en">X ends_after Y iff: end(Y) before_or_simultaneous_with end(X)</rdfs:comment>
         <rdfs:label xml:lang="en">ends after</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002087 -->
@@ -168,7 +168,7 @@
         <rdfs:comment xml:lang="en">X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)</rdfs:comment>
         <rdfs:label xml:lang="en">immediately preceded by</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002088 -->
@@ -180,7 +180,7 @@
         <rdfs:comment>Previously had ID  http://purl.obolibrary.org/obo/RO_0002123 in test files in sandpit - but this seems to have been dropped from ro-edit.owl at some point.  No re-use under this ID AFAIK, but leaving note here in case we run in to clashes down the line.  Official ID now chosen from DOS ID range.</rdfs:comment>
         <rdfs:label xml:lang="en">during which starts</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002089 -->
@@ -195,7 +195,7 @@
         <obo:IAO_0000117>David Osumi-Sutherland</obo:IAO_0000117>
         <rdfs:label xml:lang="en">starts before</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002090 -->
@@ -208,7 +208,7 @@
         <rdfs:comment xml:lang="en">X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)</rdfs:comment>
         <rdfs:label xml:lang="en">immediately precedes</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002091 -->
@@ -222,7 +222,7 @@
         <rdfs:comment xml:lang="en">X starts_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (start(X) before_or_simultaneous_with end(Y))</rdfs:comment>
         <rdfs:label xml:lang="en">starts during</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002092 -->
@@ -236,7 +236,7 @@
         <rdfs:comment xml:lang="en">X happens_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (end(X) before_or_simultaneous_with end(Y))</rdfs:comment>
         <rdfs:label xml:lang="en">happens during</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002093 -->
@@ -249,7 +249,7 @@
         <rdfs:comment xml:lang="en">X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y). </rdfs:comment>
         <rdfs:label xml:lang="en">ends during</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002222 -->
@@ -262,7 +262,7 @@
         <rdfs:comment>A relation that holds between two occurrents. This is a grouping relation that collects together all the Allen relations.</rdfs:comment>
         <rdfs:label xml:lang="en">temporally related to</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002223 -->
@@ -276,7 +276,7 @@
         <obo:IAO_0000119>Allen</obo:IAO_0000119>
         <rdfs:label xml:lang="en">starts</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002224 -->
@@ -291,7 +291,7 @@
         <obo:IAO_0000118>started by</obo:IAO_0000118>
         <rdfs:label xml:lang="en">starts with</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002229 -->
@@ -304,7 +304,7 @@
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <rdfs:label xml:lang="en">ends</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002230 -->
@@ -323,4 +323,3 @@
 
 
 <!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
-
