@@ -24,9 +24,9 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/temporal-intervals.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/OGMS_OntoFox_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/BFO2_OntoFox_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
         <dc:contributor xml:lang="en">William Duncan</dc:contributor>
         <dc:contributor xml:lang="en">Jian Guan</dc:contributor>
