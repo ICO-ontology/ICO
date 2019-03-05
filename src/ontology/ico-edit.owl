@@ -10,6 +10,7 @@
      xmlns:cito="http://purl.org/spar/cito/"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:oboInOwl1="ttp://www.geneontology.org/formats/oboInOwl#"
@@ -18,15 +19,15 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ico.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/duo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/OAE_OntoFox_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/duo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/temporal-intervals.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/OGMS_OntoFox_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
         <dc:contributor xml:lang="en">William Duncan</dc:contributor>
         <dc:contributor xml:lang="en">Jian Guan</dc:contributor>
@@ -54,10 +55,10 @@
         <dc:contributor xml:lang="en">Jihad Obeid</dc:contributor>
         <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
     </owl:Ontology>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -65,7 +66,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
@@ -74,7 +75,7 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </rdf:Description>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
@@ -82,7 +83,7 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </rdf:Description>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000091 -->
@@ -91,7 +92,7 @@
         <rdfs:label xml:lang="en">term_mapping_to_UMLS</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="rdfs:seeAlso"/>
     </owl:AnnotationProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000092 -->
@@ -100,7 +101,7 @@
         <rdfs:label xml:lang="en">term_mapping_to_NCIT</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="rdfs:seeAlso"/>
     </owl:AnnotationProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000093 -->
@@ -109,7 +110,7 @@
         <rdfs:label xml:lang="en">term_mapping_to_HL7v3</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="rdfs:seeAlso"/>
     </owl:AnnotationProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000321 -->
@@ -119,22 +120,22 @@
         <obo:IAO_0000232 xml:lang="en">This annotation property specifies classes that were developed as part of an alignment effort between the Common Rule Ontology and the Informed Consent Ontology in the Summer of 2018. These classes represent entities that are necessary for understanding the regularatory frameworks that influence informed consent, often at a different level of granularity than individual consent processes. These classes were created to be compatible with regulatory frameworks outside the Unitied States, hence they are general.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">RUBRIC</rdfs:label>
     </owl:AnnotationProperty>
-
+    
 
 
     <!-- http://purl.org/dc/elements/1.1/license -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
-
+    
 
 
     <!-- rdfs:seeAlso -->
 
     <owl:AnnotationProperty rdf:about="rdfs:seeAlso"/>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -142,7 +143,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000108 -->
@@ -152,7 +153,7 @@
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <rdfs:label xml:lang="en">exists at</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000155 -->
@@ -163,7 +164,7 @@
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <rdfs:label xml:lang="en">occupies temporal region</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000067 -->
@@ -175,7 +176,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete form signed by</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000130 -->
@@ -189,7 +190,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete is associated with review board approval number</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000132 -->
@@ -201,7 +202,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete is assigned by organization</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000216 -->
@@ -211,7 +212,7 @@
         <obo:IAO_0000115 xml:lang="en">A relation holding between an instance of a deontic role and an instance of an intentional action when the deontic role bearer participates in the intentional action and is allowed to do so.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">permits</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000224 -->
@@ -223,7 +224,7 @@
         <rdfs:comment xml:lang="en">A relation between an instance of Process and an instance of Continuant, where the continuant is a causal participant in the process.</rdfs:comment>
         <rdfs:label xml:lang="en">has agent</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000225 -->
@@ -234,13 +235,13 @@
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">agent in</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty -->
 
     <owl:ObjectProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
-
+    
 
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/designated_by -->
@@ -258,7 +259,7 @@ All rights reserved.
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">designated by</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/has_familial_relationship_to -->
@@ -275,7 +276,7 @@ All rights reserved.
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">has familial relationship to</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by -->
@@ -293,7 +294,7 @@ All rights reserved.
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">prescribed by</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/prescribes -->
@@ -310,10 +311,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:comment xml:lang="en">For all types T1 and T2, if T1 prescribes T2, then there is some instance of T1, t1, that serves as a rule or guide to some instance of T2, t2 (if T2 is a type of bfo:Occurrent) or that serves as a model for some instance of T2, t2 (if T2 is a type of bfo:Continuant).</rdfs:comment>
         <rdfs:label xml:lang="en">prescribes</rdfs:label>
     </owl:ObjectProperty>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -321,7 +322,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000008 -->
@@ -329,7 +330,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000008">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
     </rdf:Description>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
@@ -337,7 +338,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000030">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
     </rdf:Description>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000034 -->
@@ -346,7 +347,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
     </rdf:Description>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
@@ -355,7 +356,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
     </rdf:Description>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/DUO_0000001 -->
@@ -367,7 +368,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <dc:date xml:lang="en">Imported 08.09.2018</dc:date>
         <rdfs:label xml:lang="en">consent code</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0007565 -->
@@ -379,7 +380,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">female pregnancy</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000005 -->
@@ -389,7 +390,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
@@ -398,7 +399,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICODEV_0000065 -->
@@ -408,7 +409,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete NEEDS_REVIEW</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICODEV_0000066 -->
@@ -419,7 +420,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete Proposed RUBRIC Classes</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000001 -->
@@ -445,7 +446,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:ICO_0000092 xml:lang="en">C16468</obo:ICO_0000092>
         <rdfs:label xml:lang="en">informed consent form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000002 -->
@@ -457,7 +458,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete designing an informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000003 -->
@@ -468,7 +469,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">validating an informed consent form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000004 -->
@@ -479,7 +480,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">approving an informed consent form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000005 -->
@@ -492,7 +493,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete signing an informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000006 -->
@@ -504,7 +505,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent regulatory body</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000007 -->
@@ -517,7 +518,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete part of informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000008 -->
@@ -528,7 +529,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">description of participation risk</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000009 -->
@@ -539,7 +540,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">recontact method directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000010 -->
@@ -550,7 +551,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">option to check</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000011 -->
@@ -562,7 +563,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete required informed consent element</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000012 -->
@@ -574,7 +575,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete optional informed consent element</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000013 -->
@@ -588,7 +589,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for human biospecimen collection</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000014 -->
@@ -599,7 +600,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">informed consent form for human blood sample collection</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000015 -->
@@ -622,7 +623,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000232 xml:lang="en">Note from J. Neil Otte (7.24.18): &apos;signed informed consent form&apos; is not a synonym nor subclass of &apos;complete informed consent form indicating consent&apos;. A signed informed consent form may bear the signature of a witness or doctor, but not yet be complete. Also, a complete informed consent form may need only have been stamped or witnessed by checking a box in an electronic form, and may not require a signature.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">signed informed consent form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000016 -->
@@ -634,7 +635,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete allowed research scope in informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000017 -->
@@ -646,7 +647,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete fully signed informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000018 -->
@@ -658,7 +659,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form signed by human subject</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000019 -->
@@ -670,7 +671,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete signature section</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000020 -->
@@ -682,7 +683,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete human subject signature section in informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000021 -->
@@ -694,7 +695,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete investigator signature section in informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000022 -->
@@ -711,31 +712,29 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">temporal region identifier</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000023">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form that has been filled with all required contents.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete completely filled informed consent form</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label xml:lang="en">completely filled informed consent form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000024">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form that has been partially filled with required contents.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete partially filled informed consent form</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label xml:lang="en">partially filled informed consent form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000025 -->
@@ -747,7 +746,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete effective date specification in informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000026 -->
@@ -759,7 +758,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete expiration date specification in informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000027 -->
@@ -771,7 +770,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete starting date specification in informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000028 -->
@@ -783,7 +782,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete human blood sample collection section</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000029 -->
@@ -796,7 +795,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for clinical study</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000030 -->
@@ -809,7 +808,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for storage and future use of unused samples</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000031 -->
@@ -822,7 +821,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for qualitative study</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000032 -->
@@ -834,7 +833,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed assent form for child or minor</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000033 -->
@@ -846,7 +845,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed consent form for qualitative research involving children</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000034 -->
@@ -858,7 +857,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed consent form for clinical research involving children</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000035 -->
@@ -871,7 +870,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete date specification in informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000036 -->
@@ -883,7 +882,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Yongqun He, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">informed consent form signing date</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000037 -->
@@ -894,7 +893,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Yongqun He, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project duration specification</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000038 -->
@@ -905,7 +904,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">project starting date specification</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000039 -->
@@ -916,7 +915,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">project end date specification</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000040 -->
@@ -928,7 +927,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete human subject consenter</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000041 -->
@@ -940,7 +939,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent rule specification</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000042 -->
@@ -953,7 +952,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obligation informed consent rule specification</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000043 -->
@@ -966,7 +965,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete permission informed consent rule specification</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000044 -->
@@ -977,7 +976,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">informed consent identification code</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000045 -->
@@ -988,7 +987,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">investigator role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000046 -->
@@ -1003,7 +1002,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete authorization</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000047 -->
@@ -1014,7 +1013,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">human population</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000048 -->
@@ -1025,7 +1024,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">nonprofit organization</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000049 -->
@@ -1036,7 +1035,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">profit organization</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000050 -->
@@ -1048,7 +1047,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete animal research investigation</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000051 -->
@@ -1059,7 +1058,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">cancer research investigation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000052 -->
@@ -1071,7 +1070,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete metastatic melanoma research investigation</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000053 -->
@@ -1082,7 +1081,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">drug testing investigation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000054 -->
@@ -1093,7 +1092,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">human research investigation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000055 -->
@@ -1105,7 +1104,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete genetic study</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000056 -->
@@ -1122,7 +1121,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">nonprofit research investigation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000057 -->
@@ -1139,7 +1138,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">for-profit research investigation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000058 -->
@@ -1150,7 +1149,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">investigation period</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000059 -->
@@ -1161,7 +1160,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">ethics directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000060 -->
@@ -1178,7 +1177,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of storing a specimen</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000061 -->
@@ -1190,7 +1189,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for genetic study</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000062 -->
@@ -1202,7 +1201,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete human subject unable to give informed consent</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000063 -->
@@ -1213,7 +1212,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for quantitative study</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000064 -->
@@ -1225,7 +1224,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete study requiring informed consent</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000065 -->
@@ -1239,7 +1238,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label xml:lang="en">clinical trial</rdfs:label>
         <rdfs:seeAlso xml:lang="en">UMLS: C0008976</rdfs:seeAlso>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000066 -->
@@ -1256,7 +1255,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Elizabeth Eisenhauer, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">clinical trial title</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000068 -->
@@ -1267,7 +1266,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:seeAlso xml:lang="en">§46.116 General requirements for informed consent</rdfs:seeAlso>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000069 -->
@@ -1279,7 +1278,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete contact person for questions about research</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000070 -->
@@ -1291,7 +1290,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete contact person for questions about research subject rights</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000071 -->
@@ -1303,7 +1302,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete contact person in the event of a research-related injury to the subject</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000072 -->
@@ -1315,7 +1314,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete contact person in informed consent process</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000073 -->
@@ -1330,7 +1329,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:ICO_0000092 xml:lang="en">C70665</obo:ICO_0000092>
         <rdfs:label xml:lang="en">research subject role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000074 -->
@@ -1343,7 +1342,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete authorization for release of confidential health information</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000075 -->
@@ -1356,7 +1355,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete authorization document</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000076 -->
@@ -1369,7 +1368,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:seeAlso xml:lang="en">UMLS CUI: C2921556</rdfs:seeAlso>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000077 -->
@@ -1385,7 +1384,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete benefit</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000078 -->
@@ -1401,7 +1400,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete risk</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000079 -->
@@ -1416,7 +1415,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label xml:lang="en">institutional review board</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;code=C16741&amp;ns=NCI_Thesaurus</rdfs:seeAlso>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000080 -->
@@ -1427,7 +1426,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research assistant role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000081 -->
@@ -1442,7 +1441,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete legal guardian role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000082 -->
@@ -1455,7 +1454,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete legal guardian</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000083 -->
@@ -1468,7 +1467,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000232 xml:lang="en">This is adapted from HIPAA.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">individually identifiable health information entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000084 -->
@@ -1493,7 +1492,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000119 xml:lang="en">https://www.cancer.gov/about-cancer/treatment/clinical-trials/patient-safety/childrens-assent</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed consent process with assent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000085 -->
@@ -1504,7 +1503,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">informed assent form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000086 -->
@@ -1516,7 +1515,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consenter role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000087 -->
@@ -1527,7 +1526,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">study duration measurement</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000088 -->
@@ -1538,7 +1537,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">participation duration</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000089 -->
@@ -1551,7 +1550,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete actual duration of study subject participation</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000090 -->
@@ -1563,7 +1562,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete credential letter</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000094 -->
@@ -1578,13 +1577,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete follow-up visit</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000095 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000095">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000078"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A risk that is equal or lesser than those ordinarily encountered in daily life or during the performance of routine physical or psychological examinations or tests.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, J. Neil Otte, Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">(45 CFR 46.102(i)).  Available online from: http://www.hhs.gov/ohrp/humansubjects/guidance/45cfr46.html#46.102 Accessed 7/31/13.</obo:IAO_0000119>
@@ -1592,7 +1591,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete minimal risk</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000096 -->
@@ -1604,7 +1603,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete alcohol abuse treatment record</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000097 -->
@@ -1617,7 +1616,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete mental health care record</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000098 -->
@@ -1629,7 +1628,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining to participant candidate about the study participating information</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000099 -->
@@ -1641,7 +1640,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for human urine biospecimen collection</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000100 -->
@@ -1655,7 +1654,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 2) Resnik, (2006)“A research-related injury is an injury that occurs to a subject as a result of research participation. Injuries may range from relatively minor harms (such as bruises or infected wounds) to major injuries (such as organ damage or temporary disability) to catastrophic injuries (such as permanent disability or death). An injury may require only acute or emergency care, or it may require continuing care. Injuries can be physical or psychological, or emotional.”p. 264</obo:IAO_0000119>
         <rdfs:label xml:lang="en">research-related injury</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000101 -->
@@ -1667,7 +1666,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000232 xml:lang="en">This is adapted from HIPAA.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">health information entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000102 -->
@@ -1680,7 +1679,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete information sharing process</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000103 -->
@@ -1692,7 +1691,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000232 xml:lang="en">This is adapted from HIPAA.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">protected health information entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000104 -->
@@ -1704,7 +1703,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form containing questionnaire</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000105 -->
@@ -1716,7 +1715,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining study purpose to participant candidate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000106 -->
@@ -1729,7 +1728,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete legal name</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000107 -->
@@ -1741,7 +1740,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000232 xml:lang="en">Note from J. Neil Otte (7.24.18): This class is not to be confused with the terminal process boundary of a study process.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">study termination</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000108 -->
@@ -1752,7 +1751,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">withdrawing participation in study</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000109 -->
@@ -1763,7 +1762,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of canceling a permission</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000110 -->
@@ -1775,7 +1774,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000119 xml:lang="en">CDISC</obo:IAO_0000119>
         <rdfs:label xml:lang="en">standard medical treatment</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000111 -->
@@ -1790,7 +1789,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:ICO_0000092 xml:lang="en">C93662</obo:ICO_0000092>
         <rdfs:label xml:lang="en">review board approval number</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000112 -->
@@ -1802,7 +1801,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Data_administration</obo:IAO_0000119>
         <rdfs:label xml:lang="en">data administration function</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000113 -->
@@ -1814,7 +1813,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:comment xml:lang="en">Anonymized data is applicable particularly for secondary use of health data.</rdfs:comment>
         <rdfs:label xml:lang="en">anonymized information content entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000114 -->
@@ -1827,7 +1826,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete anonymized genomic data</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000115 -->
@@ -1839,7 +1838,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete anonymized genomic sample</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000116 -->
@@ -1850,7 +1849,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of using participant data</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000117 -->
@@ -1862,7 +1861,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining study protocol to participant candidate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000118 -->
@@ -1875,7 +1874,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label xml:lang="en">repository of documents</rdfs:label>
         <rdfs:seeAlso xml:lang="en">UMLS: C0003738</rdfs:seeAlso>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000119 -->
@@ -1887,7 +1886,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete storage duration of signed informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000120 -->
@@ -1901,7 +1900,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete archiving signed informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000121 -->
@@ -1912,7 +1911,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining benefits of participation to participant candidate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000122 -->
@@ -1926,7 +1925,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete US federal policy for the protection of human subjects</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000123 -->
@@ -1938,7 +1937,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:comment xml:lang="en">Note: there were previously some related classes that distinguished the format of the informed consent form (e.g. electronic vs. paper). These distinctions are collapsed here. If making this distinction is necessary, the outputs of an instance of this class may be distinguished in their formatting. For instance, storing in an electronic format would entail an instance of an act of storing signed informed consent form bearing an &apos;has output&apos; relation to an instance of an informed consent form that is in an electronic format.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">act of storing signed informed consent form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000124 -->
@@ -1951,7 +1950,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete archiving signed electronic informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000125 -->
@@ -1964,7 +1963,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete archiving signed scanned paper informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000126 -->
@@ -1977,7 +1976,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete storage duration of signed informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000127 -->
@@ -1993,7 +1992,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete planned duration of study subject participation</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000128 -->
@@ -2005,7 +2004,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining risks of participation to participant candidate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000129 -->
@@ -2019,7 +2018,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for human saliva sample collection</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000131 -->
@@ -2031,7 +2030,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000118 xml:lang="en">institutional review board approval number</obo:IAO_0000118>
         <rdfs:label xml:lang="en">institutional review board approval number</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000133 -->
@@ -2044,7 +2043,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining sample process and usage to participant candidate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000134 -->
@@ -2057,7 +2056,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining study derived data usage to participant candidate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000135 -->
@@ -2070,7 +2069,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining record confidentiality to participant candidate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000136 -->
@@ -2083,7 +2082,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete participant candidate making voluntary decision of acceptance</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000137 -->
@@ -2096,7 +2095,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete assessment of participant candidate understanding</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000138 -->
@@ -2108,7 +2107,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000118 xml:lang="en">immunization consent form</obo:IAO_0000118>
         <rdfs:label xml:lang="en">informed consent form for vaccination</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000139 -->
@@ -2121,7 +2120,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete Walgreens vaccine informed consent form&apos;</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000140 -->
@@ -2132,7 +2131,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">eligibility questionnaire</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000141 -->
@@ -2143,7 +2142,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">question textual entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000142 -->
@@ -2155,7 +2154,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete legally effective consenting</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000143 -->
@@ -2174,7 +2173,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete assent process</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000144 -->
@@ -2186,7 +2185,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete legally effective consented participant role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000145 -->
@@ -2197,7 +2196,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">postmortem donation of biological specimen</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000146 -->
@@ -2209,7 +2208,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete eligibility of candidate participation</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000147 -->
@@ -2220,7 +2219,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000119 xml:lang="en">NCI BBRB: Biorepositories and Biospecimen Research Branch</obo:IAO_0000119>
         <rdfs:label xml:lang="en">candidate eligible for study role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000148 -->
@@ -2231,7 +2230,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000119 xml:lang="en">NCI BBRB: Biorepositories and Biospecimen Research Branch</obo:IAO_0000119>
         <rdfs:label xml:lang="en">candidate ineligible for study role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000149 -->
@@ -2244,7 +2243,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000119 xml:lang="en">https://sbsirb.uchicago.edu/page/consent-form-templates-and-examples</obo:IAO_0000119>
         <rdfs:label xml:lang="en">act of contact for future research</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000150 -->
@@ -2255,7 +2254,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Frank Manion, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">eligibility screening process</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000151 -->
@@ -2266,7 +2265,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Frank Manion, Yongqun He, J. Neil Otte</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eligibility screening role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000152 -->
@@ -2277,7 +2276,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete eligibility screening person</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000153 -->
@@ -2287,7 +2286,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consenting to be contacted for tissue research</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000154 -->
@@ -2298,7 +2297,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining to participant candidate in informed consent process</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000155 -->
@@ -2311,7 +2310,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000156 -->
@@ -2324,7 +2323,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">adult consent process</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000157 -->
@@ -2339,7 +2338,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">parental informed consent process</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000158 -->
@@ -2350,7 +2349,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of declining to provide consent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000159 -->
@@ -2363,7 +2362,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">informed verbal consent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000160 -->
@@ -2376,7 +2375,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">consenting in short form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000161 -->
@@ -2388,7 +2387,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/books/NBK110047/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">biological sample collecting</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000162 -->
@@ -2400,7 +2399,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/books/NBK110047/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">tissue sample collecting</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000163 -->
@@ -2412,7 +2411,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/books/NBK110047/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">blood sample collecting</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000164 -->
@@ -2424,7 +2423,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete subject withdrawal with sample stored for unlimited time</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000165 -->
@@ -2436,7 +2435,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete subject withdrawal with sample stored for limited time</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000166 -->
@@ -2447,7 +2446,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete deontic role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000167 -->
@@ -2459,7 +2458,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete permittee deontic role in genetic research</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000168 -->
@@ -2473,7 +2472,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete genetic research permission deontic declaration</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000169 -->
@@ -2485,7 +2484,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete assenter role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000170 -->
@@ -2497,7 +2496,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete filled questionnaire</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000171 -->
@@ -2508,7 +2507,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">filled multiple choice text entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000172 -->
@@ -2519,7 +2518,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">yes answer text entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000173 -->
@@ -2530,7 +2529,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">no answer text entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000174 -->
@@ -2542,7 +2541,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete filling informed consent form</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000175 -->
@@ -2554,7 +2553,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete filling questionnaire</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000176 -->
@@ -2566,7 +2565,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete permittee deontic role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000177 -->
@@ -2577,7 +2576,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Christoph Brochhausen, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">consenting not to have financial benefit</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000178 -->
@@ -2589,7 +2588,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consenting to not to be informed about incidental finding</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000179 -->
@@ -2603,7 +2602,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete broad consent process</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000180 -->
@@ -2616,7 +2615,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete process of providing broad consent for research with biological sample</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000181 -->
@@ -2631,7 +2630,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000232 xml:lang="en">This definition is provisional, as &apos;secondary use&apos; may apply to non-specimen entities. Adapted from the defintion found here:  https://sunnybrook.ca/research/content/?page=sri-crs-reo-faq-secondaryusedata</obo:IAO_0000232>
         <rdfs:label xml:lang="en">secondary use</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000182 -->
@@ -2642,7 +2641,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consenting to the secondary use of EHR</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000184 -->
@@ -2653,7 +2652,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete NEW_CLASSES</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000185 -->
@@ -2664,7 +2663,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">informed assent form for cognitively impaired</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000186 -->
@@ -2676,7 +2675,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete permission temporal region</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000187 -->
@@ -2690,7 +2689,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000232 xml:lang="en">Note: Consent roles are created by Acts of Consent. It follows that one can’t be a consenter and bear a consenter role just because one participated in an informed consent process. Here, one would be a mere research candidate or human subject or...etc, who participated in an informed consent process. Assenter Role, likewise, is the output of an Act of Communicating Assent. Both these roles are backward looking--i.e. They are created by the processes of assent and consent and do not pre-date them. By contrast, ‘Legal Representative Role’ and ‘Permission Role’ are not, by definition, tied to Acts of Consenting and Acts of Assenting. Such roles are the output of other processes, including ‘Act of Permitting’ in the latter case, and perhaps ‘Act of Legal Representative Authorization’ in the former.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">legal representative role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000188 -->
@@ -2701,7 +2700,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">organization-specified contact role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000189 -->
@@ -2712,7 +2711,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">contact directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000190 -->
@@ -2724,7 +2723,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000232 xml:lang="en">This is circulular. &apos;Benefit&apos; and &apos;risk&apos; definitions forthcoming.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">description of participation benefit</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000191 -->
@@ -2736,7 +2735,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete description of allowed action types</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000192 -->
@@ -2747,7 +2746,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">description of broad consent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000193 -->
@@ -2758,7 +2757,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of filling out form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000194 -->
@@ -2770,7 +2769,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete social act (placeholder)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000195 -->
@@ -2791,7 +2790,7 @@ Note: This class is very general, and doesn’t only apply to consent and health
         <obo:IAO_0000232 xml:lang="en">Note: ‘Act of permitting’, ‘act of consenting’, and ‘act of communicating assent’ are all success terms, which is to say that no ‘act of permitting’ does not issue a permission, no ‘act of consenting’ does not issue a consent, and no ‘act of communicating assent’ does not issue an assent.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">act of permitting</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000196 -->
@@ -2816,7 +2815,7 @@ Note: This class is very general, and doesn’t only apply to consent and health
 Also, 6/28: Mathias writes: This definition is probably incorrect. I assume we don&apos;t want to affirm that only within informed consent we do find acts of consenting.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">act of informed consenting</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000197 -->
@@ -2827,7 +2826,7 @@ Also, 6/28: Mathias writes: This definition is probably incorrect. I assume we d
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of communicating assent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000199 -->
@@ -2841,7 +2840,7 @@ Also, 6/28: Mathias writes: This definition is probably incorrect. I assume we d
         <obo:IAO_0000232 xml:lang="en">Note: Typically, in the context of consent, a permission role will inhere in a clinician or investigator as a result of an act of permitting, but possibly an act of authorizing. Authorizing is different from permitting, but this needs to be worked out. Perhaps one has provided permission, but the process and the documentation need to be authorized by some authority prior to a clinician acquiring a permission role. There is also the case Chris Stockert raised, where an organization authorizes some data or specimens to be used, despite no consent or assent having been provided.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">permission role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000200 -->
@@ -2854,7 +2853,7 @@ Also, 6/28: Mathias writes: This definition is probably incorrect. I assume we d
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consent power role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000201 -->
@@ -2878,7 +2877,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 	In addition as of this writing (July 2018): There is work on capabilities occurring presently within the National Center for Ontological Research (NCOR), so this reading of capabilities may need revising as that work moves forward.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">capability to consent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000202 -->
@@ -2893,18 +2892,19 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000232 xml:lang="en">One may have the same capability to consent, but whether that capability to consent amounts to a competency might vary between jurisdictions that impose different requirements upon the bearer.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">competency to consent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000203 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000203">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A role that is the output of an act of assent and which inheres in a human being, who, because they fail to satisfy certain criteria for consent, is thereby allowed the aid of a legal representative who aids them in an Act of Consent, and, in some contexts, may be realized in revoking or modifying the permission role that was output of the informed consent process of which the the Act of Assent was a process part.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">assenter role</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete assenter role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000204 -->
@@ -2925,7 +2925,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">assenter</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000205 -->
@@ -2957,7 +2957,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">consenter</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000206 -->
@@ -2970,7 +2970,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consenter role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000213 -->
@@ -2982,7 +2982,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:comment xml:lang="en">Note: instances of &apos;incomplete informed consent form&apos; include both blank informed consent forms that are waiting to be used in a process of informed consent, as well as those that have been left blank by a patient, whether on purpose or in error. Those that have been left blank on purpose have been used in a process of informed consent, where the patient must have reached a decision.</rdfs:comment>
         <rdfs:label xml:lang="en">incomplete informed consent form</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000214 -->
@@ -2993,7 +2993,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">complete informed consent form indicating consent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000215 -->
@@ -3004,7 +3004,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">deontic power role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000217 -->
@@ -3015,7 +3015,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of anonymizing</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000218 -->
@@ -3026,7 +3026,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of removing identifiable information</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000220 -->
@@ -3045,7 +3045,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
         <rdfs:label xml:lang="en">agent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000221 -->
@@ -3057,7 +3057,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000232 xml:lang="en">If I communicate falsehoods, I do not inform--I mis-inform.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">act of informing</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000222 -->
@@ -3068,7 +3068,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">Jonathan Vajda, Cooper Stansbury, J. Neil Otte.</obo:IAO_0000117>
         <rdfs:label xml:lang="en">signature</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000223 -->
@@ -3080,7 +3080,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000232 xml:lang="en">a consent power role is a legal right that holds within a jurisdiction and is a necessary requirement to bear a competency to consent.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">consent power role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000226 -->
@@ -3093,7 +3093,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000232 xml:lang="en">We expect to add a subclass axiom: &apos;preceded by&apos; some &apos;Act of Anonymizing&apos;</obo:IAO_0000232>
         <rdfs:label xml:lang="en">stasis of anonymization</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000227 -->
@@ -3104,7 +3104,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of storing</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000228 -->
@@ -3115,7 +3115,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of data sharing</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000229 -->
@@ -3128,7 +3128,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:label xml:lang="en">human subject-specified contact person role</rdfs:label>
         <rdfs:seeAlso xml:lang="en">organization-specified contact role</rdfs:seeAlso>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000230 -->
@@ -3140,7 +3140,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:comment xml:lang="en">The subclasses of &apos;contact person role&apos; distinguish two types: a contact person who has been designated by an organization for others (primarily patients and human research subjects in clinical settings) to contact, and a contact person whom an agent has specified for an organization to contact in the event that the organization needs to contact the patient. Examples of the latter include &apos;emergency contact&apos; persons, who are frequently specified in a form.</rdfs:comment>
         <rdfs:label xml:lang="en">contact person role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000231 -->
@@ -3154,7 +3154,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000232 xml:lang="en">&apos;Jurisdiction&apos; is often defined in two senses: (1) a geopolitical context (BFO site), or (2) a power. We define jurisdiction as a BFO site, identifiable through shared context of other entities, like a country or state border, or the grounds of an institution. The term ‘deontic power role’ reflects the sense of ‘power’ sometimes used to describe jurisdiction.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">jurisdiction</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000232 -->
@@ -3167,7 +3167,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete regulatory body</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000233 -->
@@ -3181,7 +3181,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">regulatory document</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000234 -->
@@ -3194,7 +3194,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">human subject research regulatory document</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000235 -->
@@ -3207,7 +3207,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">informed consent regulatory document</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000236 -->
@@ -3220,7 +3220,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">informed consent rule</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000237 -->
@@ -3234,7 +3234,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">conditional informed consent rule</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000238 -->
@@ -3246,7 +3246,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">broad consent rule</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000239 -->
@@ -3258,7 +3258,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">disclosure directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000240 -->
@@ -3271,7 +3271,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">deontic power role directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000241 -->
@@ -3285,7 +3285,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete confidentiality directive</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000242 -->
@@ -3298,7 +3298,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">user input directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000243 -->
@@ -3310,7 +3310,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">consequent directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000244 -->
@@ -3323,7 +3323,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">permission directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000245 -->
@@ -3336,7 +3336,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">conditional permission directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000246 -->
@@ -3349,7 +3349,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">restriction directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000247 -->
@@ -3362,7 +3362,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">conditional restriction directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000248 -->
@@ -3374,7 +3374,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">obligation directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000249 -->
@@ -3386,7 +3386,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">conditional obligation directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000250 -->
@@ -3398,7 +3398,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">liability directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000251 -->
@@ -3411,7 +3411,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of medical procedure</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000252 -->
@@ -3424,7 +3424,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">trigger condition directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000253 -->
@@ -3436,7 +3436,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of voluntary participation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000254 -->
@@ -3449,7 +3449,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">witness role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000255 -->
@@ -3461,7 +3461,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">withdrawal from participation directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000256 -->
@@ -3473,7 +3473,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">legal age</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000257 -->
@@ -3486,7 +3486,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:comment xml:lang="en">This &apos;act of approving&apos; is distinct from the mental act of approving.</rdfs:comment>
         <rdfs:label xml:lang="en">act of approving</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000258 -->
@@ -3498,7 +3498,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">consent language directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000259 -->
@@ -3510,7 +3510,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of alternative</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000260 -->
@@ -3524,7 +3524,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of coercion</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000261 -->
@@ -3536,7 +3536,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete information about participant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000262 -->
@@ -3551,7 +3551,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <dc:date xml:lang="en">Imported and adapted 8.22.2018</dc:date>
         <rdfs:label xml:lang="en">cognitive impairment</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000263 -->
@@ -3563,7 +3563,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">economic vulnerability</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000264 -->
@@ -3575,7 +3575,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">educational vulnerability</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000265 -->
@@ -3587,7 +3587,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">act of archiving informed consent</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000266 -->
@@ -3599,7 +3599,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">contact method description</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000267 -->
@@ -3611,7 +3611,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">vulnerable population directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000268 -->
@@ -3623,7 +3623,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">confidentiality directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000269 -->
@@ -3638,7 +3638,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:comment xml:lang="en">A note: &apos;entity&apos; rather than &apos;agent&apos; is used in this definition in order to allow that software can communicate with other software. However, it should be noted that this definition of communication excludes broader meanings, such as unintentional sharing of information.</rdfs:comment>
         <rdfs:label xml:lang="en">act of communicating</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000270 -->
@@ -3649,7 +3649,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete benefit</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000271 -->
@@ -3660,7 +3660,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete risk</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000272 -->
@@ -3672,7 +3672,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of expected study participation duration</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000273 -->
@@ -3684,7 +3684,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">research method directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000274 -->
@@ -3696,7 +3696,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of conditional compensation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000275 -->
@@ -3708,7 +3708,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of discomfort</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000276 -->
@@ -3720,7 +3720,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of collected biospecimens</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000277 -->
@@ -3732,7 +3732,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of collected information</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000278 -->
@@ -3744,7 +3744,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of future biospecimen use</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000279 -->
@@ -3756,7 +3756,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of procedure for obtaining further information</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000280 -->
@@ -3769,7 +3769,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">contact method directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000281 -->
@@ -3782,7 +3782,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of breach of confidentiality</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000282 -->
@@ -3795,7 +3795,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of legal responsibility</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000283 -->
@@ -3807,7 +3807,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of financial risk</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000284 -->
@@ -3819,7 +3819,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of reputational risk</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000285 -->
@@ -3835,7 +3835,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">vulnerable individual role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000286 -->
@@ -3847,7 +3847,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">regulatory oversight role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000287 -->
@@ -3860,7 +3860,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">minor role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000288 -->
@@ -3872,7 +3872,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">pregnant woman</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000289 -->
@@ -3885,7 +3885,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">prisoner role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000290 -->
@@ -3897,7 +3897,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">waiver document</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000291 -->
@@ -3910,7 +3910,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of incentive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000292 -->
@@ -3922,7 +3922,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:IAO_0000232 xml:lang="en">This term was adapted from: http://purl.obolibrary.org/obo/NCIT_C70817</obo:IAO_0000232>
         <rdfs:label xml:lang="en">study protocol</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000293 -->
@@ -3934,7 +3934,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">data sharing directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000294 -->
@@ -3947,7 +3947,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">permission transfer directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000295 -->
@@ -3959,7 +3959,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">future use directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000296 -->
@@ -3971,7 +3971,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of consequences of voluntarily withdrawal</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000297 -->
@@ -3982,7 +3982,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <rdfs:label xml:lang="en">stasis of regulation</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000298 -->
@@ -3995,7 +3995,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:IAO_0000232 xml:lang="en">There are many definitions and conceptions of law, which can be elaborated in further work. There is a concern not to define law in such a way that we narrow the scope beyond an international context.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">stasis of law</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000299 -->
@@ -4008,7 +4008,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">protection directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000300 -->
@@ -4020,7 +4020,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">act of regulatory supervision</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000301 -->
@@ -4033,7 +4033,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">act of abuse</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000302 -->
@@ -4046,7 +4046,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">act of disclosure</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000303 -->
@@ -4058,7 +4058,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of research procedure</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000304 -->
@@ -4070,7 +4070,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of future data use</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000305 -->
@@ -4082,7 +4082,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of future use</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000306 -->
@@ -4095,7 +4095,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">act of waiving</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000307 -->
@@ -4107,7 +4107,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">waiver directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000308 -->
@@ -4120,7 +4120,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">description of waiver</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000309 -->
@@ -4133,7 +4133,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">abused person role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000310 -->
@@ -4145,7 +4145,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">directive about research of biospecimens</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000311 -->
@@ -4157,7 +4157,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">act of genetic testing</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000312 -->
@@ -4175,7 +4175,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">genetic testing directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000313 -->
@@ -4187,7 +4187,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">excess material role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000314 -->
@@ -4199,7 +4199,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">investigation objective specification</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000315 -->
@@ -4213,7 +4213,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">secondary use objective specification</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000316 -->
@@ -4231,7 +4231,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">role directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000317 -->
@@ -4243,7 +4243,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">patient role directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000318 -->
@@ -4255,7 +4255,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">regulatory oversight role directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000319 -->
@@ -4267,7 +4267,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">investigator role directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000320 -->
@@ -4279,7 +4279,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">legally authorized representative role directive</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C70800 -->
@@ -4291,7 +4291,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">institutional review board approval</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C85521 -->
@@ -4306,7 +4306,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confinement issued by a legal authority on the basis of a criminal act&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">incarceration</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000093 -->
@@ -4318,7 +4318,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported from OBI 08.01.2018</dc:date>
         <rdfs:label xml:lang="en">patient role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000103 -->
@@ -4332,7 +4332,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Import Date 01/11/2019</dc:date>
         <rdfs:label xml:lang="en">principal investigator role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000112 -->
@@ -4346,7 +4346,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported from OBI 08.01.2018</dc:date>
         <rdfs:label xml:lang="en">specimen role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
@@ -4358,7 +4358,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Added from OBI 07.25.2018</dc:date>
         <rdfs:label xml:lang="en">population</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000202 -->
@@ -4370,7 +4370,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">investigation agent role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000272 -->
@@ -4384,7 +4384,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">protocol</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000450 -->
@@ -4396,7 +4396,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">regulatory agency</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000810 -->
@@ -4407,7 +4407,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <obo:IAO_0000232 xml:lang="en">Note: This is an OBI term.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">informed consent process</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000844 -->
@@ -4419,7 +4419,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">hospital</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001000 -->
@@ -4434,7 +4434,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Retrieved from OBI on July 16, 2018.</dc:date>
         <rdfs:label xml:lang="en">questionnaire</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001622 -->
@@ -4454,7 +4454,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Retrieved from OBI on July 16, 2018.</dc:date>
         <rdfs:label xml:lang="en">investigation title</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001942 -->
@@ -4467,7 +4467,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">grant agency</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0100051 -->
@@ -4480,7 +4480,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported from OBI 08.01.2018</dc:date>
         <rdfs:label xml:lang="en">specimen</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OGMS_0000045 -->
@@ -4494,7 +4494,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Retrieved from OGMS on July 16, 2018.</dc:date>
         <rdfs:label xml:lang="en">disorder</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->
@@ -4508,7 +4508,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Retrieved from OGMS on July 16, 2018</dc:date>
         <rdfs:label xml:lang="en">treatment</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OGMS_0000102 -->
@@ -4523,7 +4523,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Retrieved from OGMS on July 16, 2018.</dc:date>
         <rdfs:label xml:lang="en">injury</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OMIABIS_0000017 -->
@@ -4536,7 +4536,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">department</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OMIABIS_0001026 -->
@@ -4548,7 +4548,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <obo:IAO_0000119 xml:lang="en">It is a chronological written account of examination, treatment, medical history or complaints.; It is used interchangeably with health record and medical chart. https://en.wikipedia.org/wiki/Medical_record</obo:IAO_0000119>
         <rdfs:label xml:lang="en">medical record</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000038 -->
@@ -4561,7 +4561,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">legal person role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000062 -->
@@ -4573,7 +4573,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">hospital governing body role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OOSTT_00000117 -->
@@ -4585,7 +4585,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <dc:date xml:lang="en">Imported 8.30.2018.</dc:date>
         <rdfs:label xml:lang="en">committee member role</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO -->
@@ -4596,7 +4596,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ICO Classes to Move to RUBRIC</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ico.owl#Belongs_in_D-Acts -->
@@ -4607,7 +4607,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ICO Classes to Move to D-Acts</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000321 -->
@@ -4629,7 +4629,7 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">patient</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.unep.org/sdg/SDGIO_00000024 -->
@@ -4644,7 +4644,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <dc:date xml:lang="en">Imported 08.22.2018</dc:date>
         <rdfs:label xml:lang="en">vulnerability</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://semanticscience.org/resource/SIO_000184 -->
@@ -4655,7 +4655,7 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
         <obo:IAO_0000232 xml:lang="en">from http://semanticscience.org/resource/SIO_000184</obo:IAO_0000232>
         <rdfs:label xml:lang="en">legal name</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity -->
@@ -4673,7 +4673,7 @@ All rights reserved.
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">descriptive information content entity</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Government -->
@@ -4693,7 +4693,7 @@ All rights reserved.
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">government</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Stasis -->
@@ -4711,7 +4711,7 @@ All rights reserved.
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">stasis</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant -->
@@ -4730,10 +4730,10 @@ All rights reserved.
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</dc:license>
         <rdfs:label xml:lang="en">stasis of generically dependent continuant</rdfs:label>
     </owl:Class>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotations
@@ -5874,3 +5874,4 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
 
 <!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
