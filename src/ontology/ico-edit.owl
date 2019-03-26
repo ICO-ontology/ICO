@@ -452,11 +452,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000002">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that involves the design of an informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete designing an informed consent form</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">designing an informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -486,12 +486,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000005">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">A document act that is a part of an informed consent process and has output of a signed informed consent form. The signing process leads to a legal obligation.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
+        <obo:IAO_0000115 xml:lang="en">A social act that is a part of an informed consent process and has output of a signed informed consent form. The signing process leads to a legal obligation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, Jihad Obeid, Chris Stoeckert, and Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:comment>Signing here does not mean that we have to sign with a pen. It may happen in terms of signing a piece of a paper or an electronic form.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete signing an informed consent form</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:comment xml:lang="en">Signing here does not mean that we have to sign with a pen. It may happen in terms of signing a piece of a paper or an electronic form.</rdfs:comment>
+        <rdfs:label xml:lang="en">signing an informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -499,11 +499,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000006">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000115 xml:lang="en">An organization charged with approving clinical study protocols and ensuring that applicable governing rules and laws are upheld.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent regulatory body</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">informed consent regulatory body</rdfs:label>
     </owl:Class>
     
 
@@ -511,12 +511,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000007">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
         <obo:IAO_0000115 xml:lang="en">A document that is a part of an informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
-        <obo:IAO_0000118>informed consent form element</obo:IAO_0000118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete part of informed consent form</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000118 xml:lang="en">informed consent form element</obo:IAO_0000118>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">part of informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -557,11 +557,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000011">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">A part of an informed consent form for which an answer is required in order to complete the form.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+        <obo:IAO_0000115 xml:lang="en">A document part of an informed consent form for which an answer is required in order to complete the form.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete required informed consent element</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">required informed consent element</rdfs:label>
     </owl:Class>
     
 
@@ -569,11 +569,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000012">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">A part of an informed consent form for which an answer is not required in order to complete the form.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+        <obo:IAO_0000115 xml:lang="en">A document part of an informed consent form for which an answer is not required in order to complete the form.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete optional informed consent element</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">optional informed consent element</rdfs:label>
     </owl:Class>
     
 
@@ -581,13 +581,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000013">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form that documents a voluntary decision to deposit a human biospecimen.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.irb.umich.edu/policies/consent/</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for human biospecimen collection</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">informed consent form for human biospecimen collection</rdfs:label>
     </owl:Class>
     
 
@@ -629,11 +629,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000016">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">A part of informed consent form that specifies the scope of allowed research and is derived from a research protocol.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that specifies the scope of allowed research and is derived from a research protocol.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete allowed research scope in informed consent form</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">allowed research scope in informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -653,11 +653,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000018">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form that has been signed by a human subject</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form signed by human subject</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">informed consent form signed by human subject</rdfs:label>
     </owl:Class>
     
 
@@ -665,11 +665,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000019">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
         <obo:IAO_0000115 xml:lang="en">A document part that is specified as a place to receive a signature.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete signature section</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">signature section</rdfs:label>
     </owl:Class>
     
 
@@ -677,11 +677,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000020">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000019"/>
         <obo:IAO_0000115 xml:lang="en">A signature section in informed consent element that that is specified as a place to receive a signature from a human subject.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete human subject signature section in informed consent form</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">human subject signature section in informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -689,11 +689,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000021">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000019"/>
         <obo:IAO_0000115 xml:lang="en">A signature section in an informed consent form that is specified as a place to receive a signature from an investigator.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete investigator signature section in informed consent form</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">investigator signature section in informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -740,11 +740,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000025">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000022"/>
         <obo:IAO_0000115 xml:lang="en">A date specification in an informed consent form that specifies an effective date of an investigation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete effective date specification in informed consent form</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">effective date specification in informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -764,11 +764,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000027">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000022"/>
         <obo:IAO_0000115 xml:lang="en">A date specification in an informed consent form that specifies the starting date of an investigation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete starting date specification in informed consent form</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">starting date specification in informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -788,12 +788,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000029">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form that is used for a clinical study.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for clinical study</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">informed consent form for clinical study</rdfs:label>
     </owl:Class>
     
 
@@ -801,12 +801,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000030">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form that is used for a storage and future use of unused samples.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for storage and future use of unused samples</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">informed consent form for storage and future use of unused samples</rdfs:label>
     </owl:Class>
     
 
@@ -814,12 +814,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000031">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form that is used for a qualitative study.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.who.int/rpc/research_ethics/informed_consent/en/</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for qualitative study</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">informed consent form for qualitative study</rdfs:label>
     </owl:Class>
     
 
@@ -863,12 +863,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000035">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115 xml:lang="en">A data item that indicates a date that specified on an informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">5/7/2014 Asiyah Yu Lin: It is the date specification that appears on the informed consent form, which is may different with the actual date.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Asiyah Yu Lin, J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete date specification in informed consent form</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">date specification in informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -921,11 +921,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000040">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <obo:IAO_0000115 xml:lang="en">A human subject who provides informed consent without a legal guardian.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete human subject consenter</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">human subject consenter</rdfs:label>
     </owl:Class>
     
 
@@ -933,11 +933,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000041">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <obo:IAO_0000115 xml:lang="en">A directive information entity that specifies the deontic roles that are produced, revoked, or modified following a process of informed consent, where those deontic roles inhere in the human subject consenter signing an informed consent form, and the investigator or organization leading a research study or providing health care.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent rule specification</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">informed consent rule specification</rdfs:label>
     </owl:Class>
     
 
@@ -945,12 +945,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000042">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000041"/>
         <obo:IAO_0000112 xml:lang="en">An example is that the organization leading a study may be obliged to destroy a patient&apos;s biospecimens after 10 years as required in an informed consent form.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An informed consent rule specification that specifies a course of action legally required to be taken.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obligation informed consent rule specification</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">obligation informed consent rule specification</rdfs:label>
     </owl:Class>
     
 
@@ -958,12 +958,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000043">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000041"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent rule specification that specifies an optional course of action that is an option for a participant to take.</obo:IAO_0000115>
-        <obo:IAO_0000116>An example is that a human subject consenter is given the option to withdraw from a consented study any time as specified in an informed consent form.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">An example is that a human subject consenter is given the option to withdraw from a consented study any time as specified in an informed consent form.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete permission informed consent rule specification</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">permission informed consent rule specification</rdfs:label>
     </owl:Class>
     
 
@@ -993,14 +993,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000046">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">The process of making the decision of the competent authorities in form of a letter, document, or verbal or electronic form, that confirms that somebody has permission to do something or be somewhere, e.g. to realize a given project.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process of making the decision of the competent authorities in form of a letter, document, or verbal or electronic form, that confirms that somebody has permission to do something or be somewhere, e.g. to realize a given project.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">The alternative term of &apos;permission&apos; has semantic similarity with authorization in the sense of &apos;approval to do something&apos; and &apos;the act of giving a formal (usualy written) authorization. The semnatic similarity measuremment of permission and authorization is done using WordNet::Similarity (http://marimba.d.umn.edu/cgi-bin/similarity/)</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">permission</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">NCIt C41192</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete authorization</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label xml:lang="en">act of authorizing</rdfs:label>
     </owl:Class>
     
 
@@ -1183,11 +1182,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000061">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form that is designed for use in genetic studies.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Marcy Harris, Alla Karnovsky, Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for genetic study</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">informed consent form for genetic study</rdfs:label>
     </owl:Class>
     
 
@@ -1195,11 +1194,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000062">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <obo:IAO_0000115 xml:lang="en">A human subject who is unable to give informed consent. In this case, another person is generally authorized to give consent on his behalf, e.g., parents or legal guardians of a child, though in this circumstance the child may be required to provide informed assent, and conservators for the mentally ill.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">web: http://en.wikipedia.org/wiki/informed_consent</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete human subject unable to give informed consent</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">human subject unable to give informed consent</rdfs:label>
     </owl:Class>
     
 
@@ -1218,11 +1218,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000064">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000066"/>
         <obo:IAO_0000115 xml:lang="en">An investigation that requires an informed consent process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete study requiring informed consent</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">study requiring informed consent</rdfs:label>
     </owl:Class>
     
 
@@ -1272,11 +1272,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000069">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">a person who is the contact for questions about research.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000115 xml:lang="en">A person who is the contact for questions about research.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Marcy Harris, Alla Karnovsky, Frank Manion, Asiyah Yu Lin, Elizabeth Eisenhauer, Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete contact person for questions about research</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">contact person for questions about research</rdfs:label>
     </owl:Class>
     
 
@@ -1284,11 +1284,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000070 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000070">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <obo:IAO_0000115 xml:lang="en">A person who is the contact for questions about research subject right.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Marcy Harris, Alla Karnovsky, Frank Manion, Asiyah Yu Lin, Elizabeth Eisenhauer, Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete contact person for questions about research subject rights</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">contact person for questions about research subject rights</rdfs:label>
     </owl:Class>
     
 
@@ -1308,11 +1308,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000072 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000072">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <obo:IAO_0000115 xml:lang="en">A person who can be contacted during an informed consent process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Marcy Harris, Alla Karnovsky, Frank Manion, Asiyah Yu Lin, Elizabeth Eisenhauer, Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete contact person in informed consent process</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">contact person in informed consent process</rdfs:label>
     </owl:Class>
     
 
@@ -1335,12 +1335,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000074 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000074">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000046"/>
         <obo:IAO_0000115 xml:lang="en">An act of authorizing that is signed by a patient, or his legal representative, or clinical study participant for the use or disclosure of oral, written, or electronic form of confidential health information that identifies the individual and relates to the medical history, diagnosis, treatment, or prognosis of his condition.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">NCIt C70679</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete authorization for release of confidential health information</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">authorization for release of confidential health information</rdfs:label>
     </owl:Class>
     
 
@@ -1390,15 +1390,15 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000078 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000078">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
         <obo:IAO_0000115 xml:lang="en">A risk is a disposition or the potential future harm that may arise from some present action. It is often combined or confused with the probability of an event which is seen as undesirable.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">This term definition is adapted from the NCIt definiton of &quot;Risk&quot; (C17102) . The following source is alos referenced: BMEO(Biomedical Ethics Ontology) http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2725426/</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Marcy Harris, Yongqun He, Elizabeth Eisenhauer, Alla Karnovsky, Frank Manion, J. Neil Otte, Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Marcy Harris, Yongqun He, Elizabeth Eisenhauer, Alla Karnovsky, Frank Manion</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">NCIt: C17102</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
         <obo:ICO_0000091 xml:lang="en">C0035647</obo:ICO_0000091>
         <obo:ICO_0000092 xml:lang="en">C17102</obo:ICO_0000092>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete risk</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label xml:lang="en">risk</rdfs:label>
     </owl:Class>
     
 
@@ -1432,14 +1432,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000081 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000081">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in an individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">Yongqun He: Based on the definition, may be better to label it as consent legal guardian role</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">legally authorized representative role</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">NCTI C51828</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete legal guardian role</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">legal guardian role</rdfs:label>
     </owl:Class>
     
 
@@ -1509,11 +1509,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000086">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">a role that inheres in a patient or the legal guadian when he/she participates the consenting process.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consenter role</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in a patient or the legal guadian when he/she participates the consenting process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">consenter role</rdfs:label>
     </owl:Class>
     
 
@@ -1543,12 +1543,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000089 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000089">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
         <obo:IAO_0000115 xml:lang="en">Total length of time of subject&apos;s participation in a clinical study; from the time of enrollment to the completion of follow-up.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">This duration is different with the &apos;planned duration of study subject participation&apos;</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete actual duration of study subject participation</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">actual duration of study subject participation</rdfs:label>
     </owl:Class>
     
 
@@ -1583,13 +1583,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000095 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000095">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000078"/>
         <obo:IAO_0000115 xml:lang="en">A risk that is equal or lesser than those ordinarily encountered in daily life or during the performance of routine physical or psychological examinations or tests.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, J. Neil Otte, Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">(45 CFR 46.102(i)).  Available online from: http://www.hhs.gov/ohrp/humansubjects/guidance/45cfr46.html#46.102 Accessed 7/31/13.</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">Definition varies slightly for research on prisoners; see (45 CFR 46.303(d)).</obo:IAO_0000232>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete minimal risk</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">minimal risk</rdfs:label>
     </owl:Class>
     
 
@@ -1622,11 +1622,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000098 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000098">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that involves explanation to a human subject candidate with relevant study information, including study purpose, protocol, and human subject benefits and risks, that indicated in an informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining to participant candidate about the study participating information</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">explaining to participant candidate about the study participating information</rdfs:label>
     </owl:Class>
     
 
@@ -1634,11 +1634,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000099 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000099">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form designed for use in human urine collection.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for human urine biospecimen collection</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">informed consent form for human urine biospecimen collection</rdfs:label>
     </owl:Class>
     
 
@@ -1697,11 +1697,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000104 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000104">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form that contains a questionnaire section.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form containing questionnaire</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">informed consent form containing questionnaire</rdfs:label>
     </owl:Class>
     
 
@@ -1709,11 +1709,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000105 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000105">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000154"/>
         <obo:IAO_0000115 xml:lang="en">As a partial process of inform the candidate about the study participating information, the purpose of the study will be explained to make sure that the candidate is informed adequately from his/her perspective.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining study purpose to participant candidate</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">explaining study purpose to participant candidate</rdfs:label>
     </owl:Class>
     
 
@@ -1855,11 +1855,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000117">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000154"/>
         <obo:IAO_0000115 xml:lang="en">In order to make sure that the candidate is informed adequately from his or her perspective, the protocol of the study including the protocol of participating, for example, what kind of procedure the participant will be involved, how many scheduled visits will be explained.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining study protocol to participant candidate</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">explaining study protocol to participant candidate</rdfs:label>
     </owl:Class>
     
 
@@ -1892,13 +1892,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000120 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000120">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">a planned process that collect a signed  informed consent form. During this process, the information is systematically kept in a repository.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process that collect a signed  informed consent form. During this process, the information is systematically kept in a repository.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">We can put this axiom: inform... &apos;s located in&apos; some &apos;archive reposigtory of signed informed consent&apos;</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">YL, EE, MH, YH, AK</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Marcy Harris, Alla Karnovsky, Asiyah Yu Lin, Elizabeth Eisenhauer, Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">storage of signed informed consent form</obo:IAO_0000118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete archiving signed informed consent form</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">archiving signed informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -1906,10 +1906,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000121">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000154"/>
         <obo:IAO_0000115 xml:lang="en">The potential benefit to the study subject that may arise from participating the study research is to be explained to candidate</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining benefits of participation to participant candidate</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">explaining benefits of participation to participant candidate</rdfs:label>
     </owl:Class>
     
 
@@ -1943,12 +1944,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000124 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000124">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">a process of storage of signed informed consent form when the form is in digital format.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">YH, EE, AK, MH</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process of storage of signed informed consent form when the form is in digital format.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Marcy Harris, Alla Karnovsky, Elizabeth Eisenhauer, Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">storage of signed electronic informed consent form</obo:IAO_0000118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete archiving signed electronic informed consent form</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">archiving signed electronic informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -1956,12 +1957,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000125">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">a process of storage of signed informed consent form when the form is in digital format.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">YH, EE, AK, MH</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A process of storage of signed informed consent form when the form is in digital format.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Marcy Harris, Alla Karnovsky, Elizabeth Eisenhauer, Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">storage of signed scanned paper informed consent form</obo:IAO_0000118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete archiving signed scanned paper informed consent form</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">archiving signed scanned paper informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -1969,12 +1970,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000126 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000126">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
         <obo:IAO_0000115 xml:lang="en">A temporal interval that represents a period of time during which a signed informed consent form is stored.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Elizabeth Eisenhauer, Asiyah Yu Lin, Alla Karnovsky, Marcy Harris</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">WEB: http://answers.hhs.gov/ohrp/questions/7223</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete storage duration of signed informed consent form</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">storage duration of signed informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -1982,15 +1983,15 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000127 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000127">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <obo:IAO_0000115 xml:lang="en">A participation time that is the total length of time of subject&apos;s participation in a research study; from the time of enrollment to the completion of follow-up.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">The term definition is adapted from NCIt definition of &quot;Planned Duration of Study Subject Participation&quot; (C70707) with modification. Compared to the NCIt definition, the ICO definition specifies research research study instead of a clinical study.</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">This duration is different with the &apos;planned duration of study subject participation&apos;</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
-        <obo:ICO_0000091>C2347527</obo:ICO_0000091>
-        <obo:ICO_0000092>C70707</obo:ICO_0000092>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete planned duration of study subject participation</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <obo:ICO_0000091 xml:lang="en">C2347527</obo:ICO_0000091>
+        <obo:ICO_0000092 xml:lang="en">C70707</obo:ICO_0000092>
+        <rdfs:label xml:lang="en">planned duration of study subject participation</rdfs:label>
     </owl:Class>
     
 
@@ -1998,11 +1999,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000128 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000128">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000154"/>
         <obo:IAO_0000115 xml:lang="en">The potential future harm that may arise from participating the study research is to be explained to candidate</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining risks of participation to participant candidate</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">explaining risks of participation to participant candidate</rdfs:label>
     </owl:Class>
     
 
@@ -2010,13 +2011,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000129 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000129">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">An informed consent form for human sample collection that is specifically for human saliva sample collection.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, Elizabeth Eisenhauer, Marcy Harris, Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.irb.umich.edu/policies/consent/</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.irb.umich.edu/policies/consent/samples/Sample_SalivaCollection.pdf</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete informed consent form for human saliva sample collection</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">informed consent form for human saliva sample collection</rdfs:label>
     </owl:Class>
     
 
@@ -2036,12 +2037,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000133 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000133">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000154"/>
         <obo:IAO_0000115 xml:lang="en">In order to make sure that the candidate is informed adequately from his or her perspective, the process of collecting, storing or destroying the sample collected from the study subject is to be explained.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">In the case of biobanking,collected tissue will be frozen and stored in a biorepository system. Other researchers will search and use the tissue for different purpose. The researchers may come from different organization and may need to access some of the personal information or may need to contact the study subject.</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining sample process and usage to participant candidate</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">explaining sample process and usage to participant candidate</rdfs:label>
     </owl:Class>
     
 
@@ -2049,12 +2050,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000134 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000134">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000154"/>
         <obo:IAO_0000115 xml:lang="en">In the case of promoting future data sharing, the usage of the data derived from a study is to be explained to the candidate.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">For example, in the genomic data projects, the study subject&apos;s sequence data maybe used outside of the original organization. In this case, the study subject&apos;s privacy need to be protected.</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin.</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining study derived data usage to participant candidate</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">explaining study derived data usage to participant candidate</rdfs:label>
     </owl:Class>
     
 
@@ -2062,12 +2063,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000135 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000135">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000154"/>
         <obo:IAO_0000115 xml:lang="en">In order to enable the candidate to make voluntary decision, the options for enhancing the protection of confidentiality for participants who have contributed personal information to a study is to be explained.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.qualitative-research.net/index.php/fqs/article/view/1024/2207.#g42</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining record confidentiality to participant candidate</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">explaining record confidentiality to participant candidate</rdfs:label>
     </owl:Class>
     
 
@@ -2075,12 +2076,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000136 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000136">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115 xml:lang="en">A process in which a candidate makes a voluntary decision to join a study, following their consideration of adequate information presented to them regarding the study and their participation in it.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://depts.washington.edu/bioethx/topics/consent.html</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete participant candidate making voluntary decision of acceptance</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">participant candidate making voluntary decision of acceptance</rdfs:label>
     </owl:Class>
     
 
@@ -2148,11 +2149,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000142 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000142">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that results in a legally effective consent status.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Frank Manion, Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete legally effective consenting</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">legally effective consenting</rdfs:label>
     </owl:Class>
     
 
@@ -2179,11 +2180,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000144 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000144">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in a human being who participates in a consenting process and eventually becomes legally effectively consented.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Frank Manion, Yongqun He, Mathias Bronchhausen, Chris Stoeckert, Jie Zheng, Jihad Obeid, Helena Ellis</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete legally effective consented participant role</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">legally effective consented participant role</rdfs:label>
     </owl:Class>
     
 
@@ -2202,11 +2203,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000146 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000146">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role that represents the eligibility of a candidate according to a study protocol.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Frank Manion, Yongqun He, Mathias Brochhausen, William Duncan,</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete eligibility of candidate participation</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000117 xml:lang="en">Frank Manion, Yongqun He, Mathias Brochhausen, William Duncan</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">eligibility of candidate participation</rdfs:label>
     </owl:Class>
     
 
@@ -2292,10 +2293,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000154 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000154">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 xml:lang="en">Yongqun He, Neil Otte</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete explaining to participant candidate in informed consent process</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process of communicating information about an informed consent process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He, Cooper Stansbury</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">explaining to participant candidate in informed consent process</rdfs:label>
     </owl:Class>
     
 
@@ -2417,11 +2418,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000164 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000164">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that represents a study participant withdrawing from the study and agreeing to have the participant sample stored for unlimited time.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">2018 CTSOG informed consent ontology workshop in Little Rock (http://ncorwiki.buffalo.edu/index.php/Ontology_of_Informed_Consent:_An_Approach_to_Specimen_and_Data_Sharing)</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete subject withdrawal with sample stored for unlimited time</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">subject withdrawal with sample stored for unlimited time</rdfs:label>
     </owl:Class>
     
 
@@ -2429,11 +2431,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000165">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that represents a study participant withdrawing from the study and agreeing to have the participant sample stored for a limited time period.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">2018 CTSOG informed consent ontology workshop in Little Rock (http://ncorwiki.buffalo.edu/index.php/Ontology_of_Informed_Consent:_An_Approach_to_Specimen_and_Data_Sharing)</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete subject withdrawal with sample stored for limited time</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">subject withdrawal with sample stored for limited time</rdfs:label>
     </owl:Class>
     
 
@@ -2478,11 +2481,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000169 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000169">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">a role that inheres in a human subject who participates in an assending process.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">YH, NO</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete assenter role</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">assenter role</rdfs:label>
     </owl:Class>
     
 
@@ -2490,11 +2493,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000170 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000170">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001000"/>
         <obo:IAO_0000115 xml:lang="en">A questionnaire that is filled up with answers.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Asiyah Yu Lin</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete filled questionnaire</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">filled questionnaire</rdfs:label>
     </owl:Class>
     
 
@@ -2535,11 +2538,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000174 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000174">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that involves the filling of an informed consent form.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Asiyah Yu Lin</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete filling informed consent form</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">filling informed consent form</rdfs:label>
     </owl:Class>
     
 
@@ -2547,11 +2550,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000175 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000175">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that involves the filling of a questionnaire form that includes a list of questions.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Asiyah Yu Lin</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete filling questionnaire</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">filling questionnaire</rdfs:label>
     </owl:Class>
     
 
@@ -2582,11 +2585,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000178 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000178">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">An informed consent for a subject agrees not to be informed about any incidental finding.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process for a subject agrees not to be informed about any incidental finding.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Christoph Brochhausen, Yongqun He</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete consenting to not to be informed about incidental finding</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">consenting to not to be informed about incidental finding</rdfs:label>
     </owl:Class>
     
 
@@ -2594,13 +2597,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000179 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000179">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">An informed consent for an unspecified range of future research subject to a few content or process restrictions.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process for an unspecified range of future research subject to a few content or process restrictions.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Frank Manion, Yongqun He, 2018 Little Rock CTSOG ontology workshop</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">https://www.hhs.gov/ohrp/sachrp-committee/recommendations/attachment-c-august-2-2017/index.html</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4791589/</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete broad consent process</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">broad consent process</rdfs:label>
     </owl:Class>
     
 
@@ -2669,11 +2672,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000186 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000186">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
         <obo:IAO_0000115 xml:lang="en">A temporal region during which some act is permitted.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Jonathan Vajda</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete permission temporal region</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He, Jonathan Vajda</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">permission temporal region</rdfs:label>
     </owl:Class>
     
 
