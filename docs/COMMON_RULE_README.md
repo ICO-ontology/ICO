@@ -1,0 +1,15 @@
+# The Common Rule Ontology (CRO)
+The motivation for CRO was to create an ontological representation of the US "Common Rule" also known as the Federal Policy for the Protection of Human Subjects. The regulatory source for the Common Rule is Health and Human Services regulation 45 C.F.R. 46 sub-parts A-D. We have not included subpart E, which covers the make-up and operations of the required Institutional Review Boards (IRBs). Technically, the Common Rule is 45 C.F.R. 46 subpart A; however, that subpart makes forward references to subparts B-D and consequently cannot stand by itself. 
+
+The Common Rule is a major part of the regulations governing the the use of human subjects in research in the United States, and is copied verbatim into the regulations of fifteen federal departments and agencies.  It is the principal regulatory framework governing the requirements for participation of humans in federally funded research studies, and it is grounded in research ethics frameworks developed from the Declaration of Helsinki and the Belmont Report, among others. It is also the regulations that spell out the requirements for informed consent of human subjects. Thus, CRO provides classes and relationships that are central to the representation of informed consent and knowledge about this domain.
+
+Note that other US federal regulations cover the participation of human subjects in research. Both HIPAA and FDA regulations have parts involved either directly or indirectly in covering research participation, so the CRO is not a complete coverage of regulatory frameworks for research involving human subjects. Note that by 'human subjects' the regulations cover not just medical interventions (procedures) performed on human beings, but also use of data and specimens obtained from humans. The Common Rule also covers the use of observational studies, where no intervention is performed on a human, but rather observations of behavior take place. Note also that in research, specimens and data may be collected without a clinical intent to treat. For example, collection of DNA through the use of a buccal swab of the inside of the cheek for ancestry research often has no curative or interventional intent.
+
+## Links
+- The original Common Rule Ontology can be found here: [The Common Rule Ontology](https://github.com/CRO-ontology/CRO)
+- A refactored effort that was merged in ICO during 2018 can be found here: [RUBRIC](https://github.com/RUBRIC-ontology/RUBRIC)
+
+## Creators and Contributors to CRO
+Many people, including many colleagues from the OBO Foundry, have contributed to the development and validation of RUBRIC. A full list of people involved in this effort can be found in the annotation properties in the OWL file.
+
+This work was partially supported by the National Human Genome Research Institute (NHGRI) of the United States National Institutes of Health under award number U01HG009454. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
