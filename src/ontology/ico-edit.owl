@@ -28,6 +28,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pico.owl"/>
         <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
         <dc:contributor xml:lang="en">William Duncan</dc:contributor>
         <dc:contributor xml:lang="en">Jian Guan</dc:contributor>
@@ -36,6 +37,7 @@
         <dc:creator xml:lang="en">Frank Manion</dc:creator>
         <dc:contributor xml:lang="en">Chris Stoeckert</dc:contributor>
         <dc:contributor xml:lang="en">Cui Tao</dc:contributor>
+        <dc:creator xml:lang="en">Elizabeth Umberfield</dc:creator>
         <dc:creator xml:lang="en">Jie Zheng</dc:creator>
         <dc:contributor xml:lang="en">Helena Ellis</dc:contributor>
         <owl:versionInfo xml:lang="en">Arbor version; 1.0.100</owl:versionInfo>
@@ -52,6 +54,7 @@
         <dc:creator xml:lang="en">Elizabeth Eisenhauer</dc:creator>
         <dc:creator xml:lang="en">Marcy Harris</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He</dc:creator>
+        <dc:creator xml:lang="en">Kathleen Ford</dc:creator>
         <dc:contributor xml:lang="en">Jihad Obeid</dc:contributor>
         <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
     </owl:Ontology>
@@ -359,6 +362,26 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002832 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002832">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002845"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process in which materials for an experiment are removed permanently from the laboratory. [database_cross_reference: https://orcid.org/0000-0001-5985-7429]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">material disposal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002845">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process that involves all aspects of dealing with the waste produced in experiments. [database_cross_reference: https://orcid.org/0000-0001-5985-7429]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">waste management</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DUO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000001">
@@ -367,6 +390,26 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/DUO_0000001"/>
         <dc:date xml:lang="en">Imported 08.09.2018</dc:date>
         <rdfs:label xml:lang="en">consent code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0000333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000098"/>
+        <obo:IAO_0000115 xml:lang="en">Data containing moving pictures stored in digital and analog formats.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">video</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GEO_000000400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">An organization that governs the people living in a particular geographical region or aggregate of geographical regions. The geographical region it governs can change over time (such as the westward expansion of the United States and the addition of Hawaii). Note: this definition was taken over from &quot;geopolitical organization&quot;.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">governmental organization</rdfs:label>
     </owl:Class>
     
 
@@ -993,10 +1036,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
         <obo:IAO_0000115 xml:lang="en">A planned process of making the decision of the competent authorities in form of a letter, document, or verbal or electronic form, that confirms that somebody has permission to do something or be somewhere, e.g. to realize a given project.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">The alternative term of &apos;permission&apos; has semantic similarity with authorization in the sense of &apos;approval to do something&apos; and &apos;the act of giving a formal (usualy written) authorization. The semnatic similarity measuremment of permission and authorization is done using WordNet::Similarity (http://marimba.d.umn.edu/cgi-bin/similarity/)</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He, Elizabeth Umberfield</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">permission</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">NCIt C41192</obo:IAO_0000119>
         <rdfs:label xml:lang="en">act of authorizing</rdfs:label>
@@ -1844,10 +1887,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <!-- http://purl.obolibrary.org/obo/ICO_0000116 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000116">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000421"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that involves using data which was an output of a human being&apos;s participation in a study and which is about that human being.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">act of using participant data</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Elizabeth Umberfield</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">act of using study participant data</rdfs:label>
     </owl:Class>
     
 
@@ -3114,7 +3157,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000228">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">a planned process in which data possessed by one person or organization is shared with one or more other persons or organizations.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process in which data possessed by one person or organization is shared with one or more other persons or organizations.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of data sharing</rdfs:label>
     </owl:Class>
@@ -3316,28 +3359,16 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ICO_0000244 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000244">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes a deontic role that permits some action.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
-        <obo:IAO_0000600 xml:lang="en">Permission to do (x).</obo:IAO_0000600>
-        <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
-        <rdfs:label xml:lang="en">permission directive</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ICO_0000245 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000245">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A conditional specification that prescirbes a permission, should some trigger condition obtain.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury</obo:IAO_0000117>
         <obo:IAO_0000600 xml:lang="en">Permission to do (x), if condition (y).</obo:IAO_0000600>
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
-        <rdfs:label xml:lang="en">conditional permission directive</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete conditional permission directive</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -4185,8 +4216,8 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000313">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role inhering in some material entity that is realized in an act of artifact modification.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A role inhering in some material entity that is realized in an act of artifact modification where the material entity is separated from another portion of material.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte, Elizabeth Umberfield</obo:IAO_0000117>
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">excess material role</rdfs:label>
     </owl:Class>
@@ -4285,6 +4316,121 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000421">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process in which data is put to some use by an entity.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">act of data use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000422">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000093"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000115 xml:lang="en">An agent who bears a patient role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">patient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000423">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process in which goods or services are exachanged for money.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Elizabeth Umberfield, Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://www.merriam-webster.com/dictionary/sell</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">From definition of &apos;sell&apos; from Merriam-Webster: To give up (property) to another for something of value (such as money).&apos;</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">act of selling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000424">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role based on the Health Insurance Portability and Accountability Act that inheres in individuals, organizations, and agencies that are also health care providers, health plans, or health care clearinghouse.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Elizabeth Umberfield, Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">Adapted from HIPAA.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">covered entity role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000425">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role which is realized in processes of data disclosure.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Elizabeth Umberfield, Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">Definition from adapted from GDPR Article 4(9): A natural or legal person, public authority, agency or another body, to which the data are disclosed.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">data recipient role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000426">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000103"/>
+        <obo:IAO_0000115 xml:lang="en">Protected health information that excludes HIPAA-specified identifiers of the individual or of relatives, employers, or household members of the individual.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Elizabeth Umberfield, Cooper Stansbury</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">Definition adapted from HIPAA.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">limited data set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000427 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000427">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that prescribes the owner role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Elizabeth Umberfield, Cooper Stansbury</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">owner role directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000428">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Stasis"/>
+        <obo:IAO_0000115 xml:lang="en">A stasis in which an entity bears an ownership role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Elizabeth Umberfield, Cooper Stansbury</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">ownership statis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000429 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000429">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 xml:lang="en">A material entity, collected during some health care process, that bears both a specimen role and an excess material role following some act of artifact modification.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Elizabeth Umberfield, Cooper Stansbury</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">residual clinical biospecimen</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C70800 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C70800">
@@ -4308,6 +4454,16 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
 
 Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confinement issued by a legal authority on the basis of a criminal act&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">incarceration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000655"/>
+        <obo:IAO_0000115 xml:lang="en">A blood specimen that is located on a blood spot card.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">blood specimen on blood spot card</rdfs:label>
     </owl:Class>
     
 
@@ -4440,6 +4596,26 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0001305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001404"/>
+        <obo:IAO_0000115 xml:lang="en">A genetic characteristics information that is about the genetic material of an organism and minimally includes information about the genetic background and can in addition contain information about specific alleles, genetic modifications, etc.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">genotype information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001404">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that is about genetic material including polymorphisms, disease alleles, and haplotypes.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">genetic characteristics information</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0001622 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001622">
@@ -4514,6 +4690,16 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process with the objective to improve the health status of a patient that directly involves the treatment, diagnosis, or prevention of disease or injury of a patient</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">health care process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGMS_0000102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000102">
@@ -4525,6 +4711,26 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <obo:IAO_0000232 xml:lang="en">creation date: 2011-09-20T09:57:44Z edited date: 30 SEPT 2015</obo:IAO_0000232>
         <dc:date xml:lang="en">Retrieved from OGMS on July 16, 2018.</dc:date>
         <rdfs:label xml:lang="en">injury</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000096"/>
+        <obo:IAO_0000115 xml:lang="en">A health care process that involves the interpretation of a clinical picture from a given patient (input) and the assertion to the effect that the patient has a disease, disorder, or syndrome of a certain type, or none of these (output).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">diagnostic process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIABIS_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">An organization bearing legal personality that ownes or adminstrates a biobank.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">biobank organization</rdfs:label>
     </owl:Class>
     
 
@@ -4554,6 +4760,46 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000027"/>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in an organization and that is realized by the providing of services in a health care encounter.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">health care provider organization role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role inhering in an entity realized by social interactions in human society.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">role in human social processes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
+        <obo:IAO_0000115 xml:lang="en">A role in human social processes that inheres in an organization.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">organization social role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000025"/>
+        <obo:IAO_0000115 xml:lang="en">An organization social role that is realized by a health care process.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">organization health care role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000038">
@@ -4563,6 +4809,66 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000038"/>
         <dc:date xml:lang="en">Imported 8.30.2018</dc:date>
         <rdfs:label xml:lang="en">legal person role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000015"/>
+        <obo:IAO_0000115 xml:lang="en">A healthcare provider role that inheres in an organization and is realized by providing inpatient and outpatient care.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">hospital role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">An organization that is the bearer of a hospital role.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">hospital organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
+        <obo:IAO_0000115 xml:lang="en">A role in human social processes that is realized when the bearer provides a wage or salary in exchange for some labour or services as specified by some declaration.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">employer role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">A process in which some participant shares some information content entity about some state of that participant with some other participant.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">communication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000192"/>
+        <obo:IAO_0000115 xml:lang="en">A communication in which some participant requests of some other participant an information content entity about some portion of reality</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">information content entity-request process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00002029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00002029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process with an active participant who acquires mental representations of information content entities (ICEs), which had no previous mental representation in the cognitive system, and through repeated use or application of these ICEs becomes the bearer of a new instance of some type of capability, and the participant was not previously the bearer of that instance of that type of capability.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">education process</rdfs:label>
     </owl:Class>
     
 
@@ -4609,28 +4915,6 @@ Note from Jonathan Vajda: A better definition might be, &apos;A stasis of confin
         <rdfs:comment xml:lang="en">This is a dummy class to be deprecated after it has fulfilled its organization purposes</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ICO Classes to Move to D-Acts</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ico.owl/ICO_0000321 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl/ICO_0000321">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000093"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <obo:IAO_0000115 xml:lang="en">An agent who bears a patient role.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">patient</rdfs:label>
     </owl:Class>
     
 

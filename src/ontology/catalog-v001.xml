@@ -9,4 +9,5 @@
   <uri name="http://purl.obolibrary.org/obo/bfo.owl" uri="imports/BFO2_OntoFox_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/iao.owl" uri="imports/IAO_OntoFox_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/obi.owl" uri="imports/OBI_OntoFox_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/pico.owl" uri="imports/pico.owl"/>
 </catalog>
