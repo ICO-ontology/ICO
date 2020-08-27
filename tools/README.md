@@ -1,14 +1,14 @@
 # Tools
 This directory contains a number of tools that can be used to work with local `.owl` files and directories for organizing temporary intermediate release artifacts. **Note:** each tool has dependencies. Please look under the each header for more details.
 
-## Temporary Release Process
+## Release Process
 The root directory is structured loosely based on the [Ontology Development Kit](https://github.com/INCATools/ontology-development-kit) (ODK). However, full testing and continuous integration have not been set up to release ICO per ODK (as this is not needed at the time of this writing). The reason this process is labeled temporary is that a simple shell script performs the necessary tasks using ROBOT, the OBO Foundry tool set. **This process assumes that the current release of [ROBOT](http://robot.obolibrary.org/) is installed on the machine that is releasing ICO**. Please visit [http://robot.obolibrary.org/](http://robot.obolibrary.org/) for more information.
 
 ### Running the Release Script
 The script can be invoked as follows:
 
 ```
-./temporary_release_process.sh
+./release_process.sh
 ```
 
 The script performs the following actions:
