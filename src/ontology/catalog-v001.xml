@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-  <uri name="http://purl.obolibrary.org/obo/duo.owl" uri="imports/DUO_local.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/ico/OAE_OntoFox_import.owl" uri="imports/OAE_OntoFox_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/iao/d-acts.owl" uri="imports/IAO_d-acts_local.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/ro/temporal-intervals.owl" uri="imports/RO_temporal_intervals_local.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/ico/OGMS_OntoFox_import.owl" uri="imports/OGMS_OntoFox_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/ro/core.owl" uri="imports/RO_core_local.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/bfo.owl" uri="imports/BFO2_OntoFox_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/iao.owl" uri="imports/IAO_OntoFox_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/obi.owl" uri="imports/OBI_OntoFox_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/pico.owl" uri="imports/pico.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/duo/releases/2019-01-07/duo.owl" uri="imports/DUO_local.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/duo/releases/2021-02-23/duo.owl" uri="https://raw.githubusercontent.com/EBISPOT/DUO/master/duo.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/duo.owl" uri="imports/DUO_local.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/ico/OAE_OntoFox_import.owl" uri="imports/OAE_OntoFox_import.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/iao/d-acts.owl" uri="imports/IAO_d-acts_local.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/ro/temporal-intervals.owl" uri="imports/RO_temporal_intervals_local.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/ico/OGMS_OntoFox_import.owl" uri="imports/OGMS_OntoFox_import.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/ro/core.owl" uri="imports/RO_core_local.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/bfo.owl" uri="imports/BFO2_OntoFox_import.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/iao.owl" uri="imports/IAO_OntoFox_import.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obi.owl" uri="imports/OBI_OntoFox_import.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/pico.owl" uri="imports/pico.owl"/>
 </catalog>

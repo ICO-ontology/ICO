@@ -1,62 +1,62 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/ico.owl/"
      xml:base="http://purl.obolibrary.org/obo/ico.owl/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:rdfs2="rdfs:"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:cito="http://purl.org/spar/cito/"
-     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:doap="http://usefulinc.com/ns/doap#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:oboInOwl1="ttp://www.geneontology.org/formats/oboInOwl#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:cito="http://purl.org/spar/cito/"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdfs2="rdfs:"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:oboInOwl1="ttp://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ico.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/OAE_OntoFox_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/duo.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/temporal-intervals.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/OGMS_OntoFox_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pico.owl"/>
-        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
-        <dc:contributor xml:lang="en">William Duncan</dc:contributor>
-        <dc:contributor xml:lang="en">Jian Guan</dc:contributor>
-        <dc:description xml:lang="en">The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.</dc:description>
-        <dc:creator xml:lang="en">Asiyah Yu Lin</dc:creator>
-        <dc:creator xml:lang="en">Frank Manion</dc:creator>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/duo/releases/2019-01-07/duo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/OAE_OntoFox_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/OGMS_OntoFox_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/temporal-intervals.owl"/>
+        <dc:contributor xml:lang="en">Anna Maria Masci</dc:contributor>
         <dc:contributor xml:lang="en">Chris Stoeckert</dc:contributor>
         <dc:contributor xml:lang="en">Cui Tao</dc:contributor>
-        <dc:creator xml:lang="en">Elizabeth Umberfield</dc:creator>
-        <dc:creator xml:lang="en">Jie Zheng</dc:creator>
         <dc:contributor xml:lang="en">Helena Ellis</dc:contributor>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.100</owl:versionInfo>
-        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
-        <rdfs:comment xml:lang="en">Terms were identified from a sample of informed consent templates, and definitions were selected based on concordance between the defintion and the use of the term in the source informed consent template document.  We preferentially selected defintioins from the NCI thesuarus.</rdfs:comment>
-        <dc:creator xml:lang="en">Alla Karnovsky</dc:creator>
-        <dc:creator xml:lang="en">Christoph Brochhausen</dc:creator>
-        <dc:creator xml:lang="en">J. Neil Otte</dc:creator>
-        <dc:contributor xml:lang="en">Anna Maria Masci</dc:contributor>
-        <dc:creator xml:lang="en">Cooper Stansbury</dc:creator>
+        <dc:contributor xml:lang="en">Jian Guan</dc:contributor>
+        <dc:contributor xml:lang="en">Jihad Obeid</dc:contributor>
         <dc:contributor xml:lang="en">Jonathan Bona</dc:contributor>
-        <rdfs:seeAlso rdf:resource="https://github.com/ICO-ontology/ICO"/>
-        <dc:date xml:lang="en">2018-03-22</dc:date>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">William Duncan</dc:contributor>
+        <dc:creator xml:lang="en">Alla Karnovsky</dc:creator>
+        <dc:creator xml:lang="en">Asiyah Yu Lin</dc:creator>
+        <dc:creator xml:lang="en">Christoph Brochhausen</dc:creator>
+        <dc:creator xml:lang="en">Cooper Stansbury</dc:creator>
         <dc:creator xml:lang="en">Elizabeth Eisenhauer</dc:creator>
+        <dc:creator xml:lang="en">Elizabeth Umberfield</dc:creator>
+        <dc:creator xml:lang="en">Frank Manion</dc:creator>
+        <dc:creator xml:lang="en">J. Neil Otte</dc:creator>
+        <dc:creator xml:lang="en">Jie Zheng</dc:creator>
+        <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
+        <dc:creator xml:lang="en">Kathleen Ford</dc:creator>
         <dc:creator xml:lang="en">Marcy Harris</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He</dc:creator>
-        <dc:creator xml:lang="en">Kathleen Ford</dc:creator>
-        <dc:contributor xml:lang="en">Jihad Obeid</dc:contributor>
-        <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
+        <dc:date xml:lang="en">2021-04-21</dc:date>
+        <dc:description xml:lang="en">The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.</dc:description>
+        <dc:title xml:lang="en">Informed Consent Ontology (ICO)</dc:title>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+        <rdfs:comment xml:lang="en">Terms were identified from a sample of informed consent templates, and definitions were selected based on concordance between the defintion and the use of the term in the source informed consent template document.  We preferentially selected defintioins from the NCI thesuarus.</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="https://github.com/ICO-ontology/ICO"/>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.184</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -78,6 +78,12 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000425 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000425"/>
     
 
 
@@ -129,6 +135,14 @@
     <!-- http://purl.org/dc/elements/1.1/license -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/title">
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    </rdf:Description>
     
 
 
@@ -338,9 +352,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000030">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000030">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -426,6 +440,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000001"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000005 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000005">
@@ -436,12 +456,30 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000055"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000098"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000109">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000302"/>
     
 
 
@@ -6132,8 +6170,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001088">
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -6153,12 +6191,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/subject">
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/title">
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
