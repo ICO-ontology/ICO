@@ -57,7 +57,7 @@
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <rdfs:comment xml:lang="en">Terms were identified from a sample of informed consent templates, and definitions were selected based on concordance between the defintion and the use of the term in the source informed consent template document.  We preferentially selected defintioins from the NCI thesuarus.</rdfs:comment>
         <rdfs:seeAlso rdf:resource="https://github.com/ICO-ontology/ICO"/>
-        <owl:versionInfo xml:lang="en">Arbor version; 1.0.185</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.186</owl:versionInfo>
     </owl:Ontology>
     
 
