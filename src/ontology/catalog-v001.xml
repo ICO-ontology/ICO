@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/duo/releases/2019-01-07/duo.owl" uri="imports/DUO_local.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/duo/releases/2021-02-23/duo.owl" uri="https://raw.githubusercontent.com/EBISPOT/DUO/master/duo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/duo/releases/2021-02-23/duo.owl" uri="imports/DUO_local.owl"/>
     <uri name="http://purl.obolibrary.org/obo/duo.owl" uri="imports/DUO_local.owl"/>
     <uri name="http://purl.obolibrary.org/obo/ico/OAE_OntoFox_import.owl" uri="imports/OAE_OntoFox_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/iao/d-acts.owl" uri="imports/IAO_d-acts_local.owl"/>
