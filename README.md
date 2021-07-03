@@ -48,3 +48,8 @@ We encourage collaboration. For those looking to make contributions to the ontol
 
 ## License
 ICO is licensed under the [Creative Commons Attribution 4.0 International Public License\(CC BY 4.0\)](https://creativecommons.org/licenses/by/4.0/legalcode). Please see the [License File](LICENSE.txt) for more information.
+
+## Related publications
+- Otte JN, Stansbury C, Vajda J, Manion F, Umberfield E, He Y, Harris M, Obeid J, Brochhausen M, Duncan W, Tao C. Coordinated evolution of Ontologies of Informed Consent (http://ceur-ws.org/Vol-2285/ICBO_2018_paper_59.pdf). International Conference on Biomedical Ontology 2018 (ICBO-2018), August 7-10, 2018, Corvallis, Oregon, USA. Pages 1-2.
+- Lin Y, Zheng J, He Y. [VICO: Ontology-based representation and integrative analysis of vaccination informed consent forms](https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-016-0062-4). J Biomed Semantics. 2016 Apr 19;7:20. doi: 10.1186/s13326-016-0062-4. PMID: 27099700. PMCID: PMC4837519.
+- Lin Y, Harris MR, Manion FJ, Eisenhauer E, Zhao B, Shi W, Karnovsky, He Y. Development of a BFO-based Informed Consent Ontology (ICO). Proceedings of the 5th International Conference on Biomedical Ontologies (ICBO), Houston, Texas, USA. October 8-9, 2014. Page 84-86. [http://ceur-ws.org/Vol-1327/icbo2014_paper_54.pdf]
