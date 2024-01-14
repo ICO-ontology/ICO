@@ -18,7 +18,7 @@ In 2018, much of the [The Common Rule Ontology](https://github.com/CRO-ontology/
 - Helena Ellis
 - Jian Guan
 - Marcelline Harris
-- Oliver He
+- Yongqun "Oliver" He
 - Alla Karnovsky
 - Asiyah Yu Lin
 - Frank J. Manion
@@ -29,6 +29,7 @@ In 2018, much of the [The Common Rule Ontology](https://github.com/CRO-ontology/
 - Cooper Stansbury
 - Chris Stoeckert
 - Cui Tao
+- Muhammad "Tuan" Amith
 - Elizabeth Umberfield
 - Jonathan Vajda
 - Jie Zheng
@@ -53,3 +54,4 @@ ICO is licensed under the [Creative Commons Attribution 4.0 International Public
 - Otte JN, Stansbury C, Vajda J, Manion F, Umberfield E, He Y, Harris M, Obeid J, Brochhausen M, Duncan W, Tao C. Coordinated evolution of Ontologies of Informed Consent (http://ceur-ws.org/Vol-2285/ICBO_2018_paper_59.pdf). International Conference on Biomedical Ontology 2018 (ICBO-2018), August 7-10, 2018, Corvallis, Oregon, USA. Pages 1-2.
 - Lin Y, Zheng J, He Y. [VICO: Ontology-based representation and integrative analysis of vaccination informed consent forms](https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-016-0062-4). J Biomed Semantics. 2016 Apr 19;7:20. doi: 10.1186/s13326-016-0062-4. PMID: 27099700. PMCID: PMC4837519.
 - Lin Y, Harris MR, Manion FJ, Eisenhauer E, Zhao B, Shi W, Karnovsky, He Y. Development of a BFO-based Informed Consent Ontology (ICO). Proceedings of the 5th International Conference on Biomedical Ontologies (ICBO), Houston, Texas, USA. October 8-9, 2014. Page 84-86. [http://ceur-ws.org/Vol-1327/icbo2014_paper_54.pdf]
+- Muhammad Amith, Marcelline R Harris, Cooper Stansbury, Kathleen Ford, Frank J Manion, Cui Tao. Expressing and Executing Informed Consent Permissions Using SWRL: The All of Us Use Case. AMIA Annu Symp Proc. 2021; 2021: 197–206. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8861693/. 
