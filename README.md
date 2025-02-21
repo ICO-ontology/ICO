@@ -1,4 +1,9 @@
 # Informed Consent Ontology (ICO)
+
+[![Powered by the ROBOT](https://img.shields.io/static/v1?label=Powered%20by&message=ROBOT&color=green&style=flat)](http://robot.obolibrary.org/)
+<a href="http://dashboard.obofoundry.org/dashboard/ico/dashboard.html"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FOBOFoundry%2Fobo-dash.github.io%2Fgh-pages%2Fdashboard%2Fico%2Fdashboard-qc-badge.json" /></a>
+<a href="http://dashboard.obofoundry.org/dashboard/ico/dashboard.html"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FOBOFoundry%2Fobo-dash.github.io%2Fgh-pages%2Fdashboard%2Fico%2Fdashboard-score-badge.json" /></a>
+
 Informed Consent Ontology (ICO) represents the domain of informed consent, including: consent forms, policies governing informed consent, agents working with patients and biospecimens accompanied by consent, and the process of informed consent itself. ICO aims to support informed consent data integration and reasoning in the clinical research space.
 
 As part of the consent process in human subjects research, potential participants receive information about the purpose of a study, potential risks and benefits of participation, their rights, and the procedures to be undergone as part of the study. If the individual decides to participate, an informed consent document is signed and preserved as a record of voluntary participation in the research study. Following OBO Foundry principles and extending from the top-level ontology Basic Formal Ontology (BFO), ICO represents universals and relations in the domain of informed consent.
