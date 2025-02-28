@@ -1,0 +1,23 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ico/NCIT_OntoFox_import.owl
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C70800 #institutional review board approval
+http://purl.obolibrary.org/obo/NCIT_C85521 #incarceration
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCIT_C70800 #institutional review board approval
+subClassOf http://purl.obolibrary.org/obo/IAO_0000310
+http://purl.obolibrary.org/obo/NCIT_C85521 #incarceration
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

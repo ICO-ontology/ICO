@@ -1,0 +1,30 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ico/OBIB_OntoFox_import.owl
+
+[Source ontology]
+OBIB
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBIB_0000039 #blood specimen on blood spot card
+http://purl.obolibrary.org/obo/OBIB_0000623 #biobank organization
+http://purl.obolibrary.org/obo/OBIB_0000630 #department
+http://purl.obolibrary.org/obo/OBIB_0000702 #medical record
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OBIB_0000039 #blood specimen on blood spot card
+subClassOf http://purl.obolibrary.org/obo/OBI_0000655
+http://purl.obolibrary.org/obo/OBIB_0000623 #biobank organization
+subClassOf http://purl.obolibrary.org/obo/OBI_0000245
+http://purl.obolibrary.org/obo/OBIB_0000630 #department
+subClassOf http://purl.obolibrary.org/obo/OBI_0000245
+http://purl.obolibrary.org/obo/OBIB_0000702 #medical record
+subClassOf http://purl.obolibrary.org/obo/IAO_0000310
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
