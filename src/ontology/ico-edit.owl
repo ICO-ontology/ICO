@@ -513,6 +513,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A information content entity that designates a temporal region.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/ICO-ontology/ICO/issues/36</obo:IAO_0000233>
         <rdfs:label xml:lang="en">temporal region identifier</rdfs:label>
     </owl:Class>
     
@@ -1056,6 +1057,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An investigation title that designates a clinical trial study, briefly identifying the purpose or design of the investigation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Elizabeth Eisenhauer, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/ICO-ontology/ICO/issues/36</obo:IAO_0000233>
         <rdfs:label xml:lang="en">clinical trial title</rdfs:label>
     </owl:Class>
     
@@ -1786,12 +1788,12 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000127 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000127">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
         <obo:IAO_0000115 xml:lang="en">A participation time that is the total length of time of subject&apos;s participation in a research study; from the time of enrollment to the completion of follow-up.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">The term definition is adapted from NCIt definition of &quot;Planned Duration of Study Subject Participation&quot; (C70707) with modification. Compared to the NCIt definition, the ICO definition specifies research research study instead of a clinical study.</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">This duration is different with the &apos;planned duration of study subject participation&apos;</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000232 xml:lang="en">This class is under group discussion as of 03/26/2019.</obo:IAO_0000232>
+        <obo:IAO_0000233>https://github.com/ICO-ontology/ICO/issues/35</obo:IAO_0000233>
         <obo:ICO_0000091 xml:lang="en">C2347527</obo:ICO_0000091>
         <obo:ICO_0000092 xml:lang="en">C70707</obo:ICO_0000092>
         <rdfs:label xml:lang="en">planned duration of study subject participation</rdfs:label>
