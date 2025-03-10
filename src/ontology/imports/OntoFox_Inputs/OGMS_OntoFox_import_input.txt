@@ -9,19 +9,28 @@ http://purl.obolibrary.org/obo/OGMS_0000056 #laboratory test
 http://purl.obolibrary.org/obo/OGMS_0000018 #laboratory finding
 http://purl.obolibrary.org/obo/OGMS_0000014 #clinical finding
 http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/OGMS_0000045 #disorder
+http://purl.obolibrary.org/obo/OGMS_0000096 #health care process
+http://purl.obolibrary.org/obo/OGMS_0000102 #injury
+http://purl.obolibrary.org/obo/OGMS_0000104 #diagnostic process
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OGMS_0000056 #laboratory test
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011
-
 http://purl.obolibrary.org/obo/OGMS_0000018 #laboratory finding
 subClassOf http://purl.obolibrary.org/obo/OGMS_0000014
-
 http://purl.obolibrary.org/obo/OGMS_0000014 #clinical finding
 subClassOf http://purl.obolibrary.org/obo/IAO_0000027
-
 http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011
+http://purl.obolibrary.org/obo/OGMS_0000045 #disorder
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+http://purl.obolibrary.org/obo/OGMS_0000096 #health care process
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011
+http://purl.obolibrary.org/obo/OGMS_0000102 #injury
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000045
+http://purl.obolibrary.org/obo/OGMS_0000104 #diagnostic process
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000096
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -30,3 +39,4 @@ includeNoIntermediates
 includeAllAxioms
 
 [Source annotation URIs to be excluded]
+

@@ -1,0 +1,51 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ico/OMRSE_OntoFox_import.owl
+
+[Source ontology]
+OMRSE
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OMRSE_00000015 #health care provider organization role
+http://purl.obolibrary.org/obo/OMRSE_00000024 #role in human social processes
+http://purl.obolibrary.org/obo/OMRSE_00000025 #organization social role
+http://purl.obolibrary.org/obo/OMRSE_00000027 #organization health care role
+http://purl.obolibrary.org/obo/OMRSE_00000038 #legal person role
+http://purl.obolibrary.org/obo/OMRSE_00000054 #hospital role
+http://purl.obolibrary.org/obo/OMRSE_00000056 #hospital organization
+http://purl.obolibrary.org/obo/OMRSE_00000087 #employer role
+http://purl.obolibrary.org/obo/OMRSE_00000192 #communication
+http://purl.obolibrary.org/obo/OMRSE_00000198 #information content entity-request process
+http://purl.obolibrary.org/obo/OMRSE_00002029 #education process
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OMRSE_00000015 #health care provider organization role
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000027
+http://purl.obolibrary.org/obo/OMRSE_00000024 #role in human social processes
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/OMRSE_00000025 #organization social role
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000024
+http://purl.obolibrary.org/obo/OMRSE_00000027 #organization health care role
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000025
+http://purl.obolibrary.org/obo/OMRSE_00000038 #legal person role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/OMRSE_00000054 #hospital role
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000015
+http://purl.obolibrary.org/obo/OMRSE_00000056 #hospital organization
+subClassOf http://purl.obolibrary.org/obo/OBI_0000245
+http://purl.obolibrary.org/obo/OMRSE_00000087 #employer role
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000024
+http://purl.obolibrary.org/obo/OMRSE_00000192 #communication
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+http://purl.obolibrary.org/obo/OMRSE_00000198 #information content entity-request process
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000192
+http://purl.obolibrary.org/obo/OMRSE_00002029 #education process
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]
+

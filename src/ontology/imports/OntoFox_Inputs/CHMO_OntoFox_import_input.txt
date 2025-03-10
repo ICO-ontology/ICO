@@ -1,0 +1,23 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ico/CHMO_OntoFox_import.owl
+
+[Source ontology]
+CHMO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CHMO_0002832 #material disposal
+http://purl.obolibrary.org/obo/CHMO_0002845 #waste management
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CHMO_0002832 #material disposal
+subClassOf http://purl.obolibrary.org/obo/CHMO_0002845 #waste management
+http://purl.obolibrary.org/obo/CHMO_0002845 #waste management
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

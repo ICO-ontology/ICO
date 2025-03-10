@@ -14,7 +14,6 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/iao/d-acts.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts/release/2019-01-30/d-acts.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/pno.owl"/>
         <dc:contributor>Cooper Stansbury</dc:contributor>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <owl:versionInfo>release version 2019-01-30</owl:versionInfo>
