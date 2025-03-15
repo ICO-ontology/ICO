@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ico.owl/"
-     xml:base="http://purl.obolibrary.org/obo/ico.owl/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ico.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ico.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -12,28 +12,16 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:rdfs1="rdfs:"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ico.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/duo.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/d-acts.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/BFO2_OntoFox_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/CHMO_OntoFox_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/GO_OntoFox_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/IAO_OntoFox_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/NCIT_OntoFox_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/OAE_OntoFox_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/OBIB_OntoFox_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/OBI_OntoFox_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/OGMS_OntoFox_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/OMRSE_OntoFox_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/externalByHand.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ico/pico.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ico/releases/2025-03-15/ico.owl"/>
         <dc:contributor xml:lang="en">Anna Maria Masci</dc:contributor>
         <dc:contributor xml:lang="en">Chris Stoeckert</dc:contributor>
         <dc:contributor xml:lang="en">Cui Tao</dc:contributor>
@@ -61,6 +49,7 @@
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">Terms were identified from a sample of informed consent templates, and definitions were selected based on concordance between the defintion and the use of the term in the source informed consent template document.  We preferentially selected defintioins from the NCI thesuarus.</rdfs:comment>
         <rdfs:seeAlso rdf:resource="https://github.com/ICO-ontology/ICO"/>
+        <owl:versionInfo>2025-03-15</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -73,6 +62,66 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000425 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000425"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600"/>
     
 
 
@@ -113,23 +162,56 @@
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/license -->
+    <!-- http://purl.obolibrary.org/obo/ICO_0000404 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000404">
+        <rdfs:comment xml:lang="en">All classes and properties with this annotation are members of the PICO grammar.</rdfs:comment>
+        <rdfs:label xml:lang="en">PICO CLASS</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000420 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000420">
+        <rdfs:label xml:lang="en">Merriam-Webster Definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/title -->
 
-    <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/title">
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-    </rdf:Description>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
     
 
 
-    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+    <!-- http://purl.org/dc/terms/license -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -141,6 +223,30 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000054 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000054"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000219 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000219"/>
     
 
 
@@ -215,6 +321,48 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/prescribes -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -223,6 +371,156 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000008"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000029"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000034"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000038"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000005"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000028"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000055"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000310"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021003"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021007"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021008"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021009"/>
     
 
 
@@ -2583,7 +2881,7 @@
     <!-- http://purl.obolibrary.org/obo/ICO_0000195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000195">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021009"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -2729,6 +3027,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000220"/>
         <obo:IAO_0000115 xml:lang="en">An agent who has communicated their assent.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">assenter</rdfs:label>
@@ -2760,6 +3059,7 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <obo:IAO_0000115 xml:lang="en">An agent who, at some time, was the bearer of a consent power role, which was, in fact, realized in an act of informed consenting, and who, as a result of this act of informed consenting, now bears a consenter role.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">A consenter role may be realized, for example, in the withdraw of consent.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
@@ -3117,6 +3417,19 @@ Fifth: A capability that is so low on the scale as to not pass any tests is no l
         <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, J. Neil Otte, Jonathan Vajda</obo:IAO_0000117>
         <obo:ICO_0000321 xml:lang="en"></obo:ICO_0000321>
         <rdfs:label xml:lang="en">consequent directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;directive information entity&apos; that prescribes an allowable action,  where that action is otherwise impermissible.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) There is some ambiguity regarding process repition. This distinction may point to the central question of whether or not we permit &apos;universals&apos; or . Take the following example: In the case of &apos;permission to destroy excess tissue&apos; the instance of a &apos;process of destruction&apos; is permitted only once.  However, in the case of &apos;pemission to share data&apos; this process may be performed multiple times.</rdfs:comment>
+        <rdfs:label xml:lang="en">permission directive</rdfs:label>
     </owl:Class>
     
 
@@ -4078,6 +4391,1301 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ICO_0000322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000244"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission directive&apos; that prescribes some action that is made allowable by a consenting entity.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) We indend instances of &apos;consent directive&apos; to be stated positively with repect to the act of permitting. A &apos;consent directive&apos; may only allow for different actions, not forbid them. However, since &apos;consent directives&apos; may simultaneously create new duties or obligations, we define &apos;designated consent condition&apos; in order to help manage these nested deontic statements. 
+
+(2) Another, less formal definition: &apos;A statement that guides action that is made allowable by a consenting entity, where that action is otherwise impermissible.&apos;
+
+(3) The definition from HL7: &quot;The legal record of a healthcare consumer&apos;s agreement with a party responsible for enforcing the consumer’s choices, which permits or denies identified actors or roles to perform actions affecting the consumer within a given context for specific purposes and periods of time.&quot; https://www.hl7.org/fhir/consent.html</rdfs:comment>
+        <rdfs:label xml:lang="en">consent directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000244"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission directive&apos; that prescribes some action that is made allowable by an assenting entity.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) We indend instances of &apos;assent directive&apos; to be stated positively with repect to the act of permitting. A &apos;assent directive&apos; may only allow for different actions, not forbid them. However, since &apos;assent directives&apos; may simultaneously create new duties or obligations, we define &apos;designated consent condition&apos; in order to help manage these nested deontic statements.</rdfs:comment>
+        <rdfs:label xml:lang="en">assent directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000324">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;Directive Information Content Entity&apos; that designates a process as permissable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) It is critical that these classes not be mistaken for processes themselves. If you intend to build logical axioms within the BFO framework it will be necessary to create realtions between instances of &apos;designated actions&apos; and &apos;processes.&apos; We leave this mapping undone in order to accomodate various non-BFO process value sets. 
+
+(2) We believe it is important to separate &apos;processes&apos; from their inputs, outputs, or participants in action designatation. For example: instead of a &apos;designated process of blood extraction&apos; we would advocate for creation of a designated action such as &apos;designated process of extraction&apos; so that this class may also be used with different objects, like teeth. This is of course, application dependent. This is only a guide.
+
+(3) It is our intent that all instances of &apos;designated actions&apos; that are related to instances of &apos;permission directive&apos; be processes or events in which deontic roles of some kind may be realized. Stated another way, a &apos;designated action&apos; should be an action that is not allowable unless a process makes it so: for example, a &apos;process of informed consent&apos; with a subprocess &apos;act of permitting.&apos;</rdfs:comment>
+        <rdfs:label xml:lang="en">designated action</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000325">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;Designative Information Content Entity&apos; that designates an entity which can bear deontic roles.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) In the general sense, &apos;designated actors&apos; should designate entities which perform, or participate in an action. While the notion of &apos;agency&apos; is important for some entiites, at some times, involved in processes of informed consent, we do not define actors in terms of their agency.
+
+(2) Within the greater BFO, D-acts, and ICO frameworks, we believe that a &apos;designated actor&apos; has some capability to bear deontic roles.</rdfs:comment>
+        <rdfs:label xml:lang="en">designated actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000326">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;Designative Information Content Entity&apos; that designates the object of a &apos;designated action&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) In English, this is typically the &apos;object&apos; of the clause where the &apos;designated action&apos; is the verb. We may also refer to this as the &apos;designated target&apos; of the action. However, we choose &apos;object&apos; to more clearly separate the objects of the actions from the ends.</rdfs:comment>
+        <rdfs:label xml:lang="en">designated object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;directive information entity&apos; that directs the conditions of &apos;allowability&apos; for a &apos;consent directive&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) A &apos;designated consent condition&apos; defines or delimits the scope, boundaries, requirements, attributes, antecendents, or limitations the &apos;designated action&apos; which may be permitted.  As such, it is specifically tied to  permissions to avoid complex nested impertives as much as possible. The central question to ask is: &apos;what does permission to undertake this action depend on?&apos;
+
+(2) Our intent is to focus on conditionals related to &apos;obtaining permission&apos; rather than all possible conditionals.</rdfs:comment>
+        <rdfs:label xml:lang="en">permission condition directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000328">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000357"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission condition directive&apos; that directs the purpose for a &apos;permission directive&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <obo:ICO_0000420 xml:lang="en">purpose: https://www.merriam-webster.com/dictionary/purpose
+
+(1) to propose as an aim to oneself
+
+&apos;means to an end&apos;: https://www.merriam-webster.com/dictionary/a%20means%20to%20an%20end
+
+(1) something done only to produce a desired result</obo:ICO_0000420>
+        <rdfs:comment xml:lang="en">(1) We refer to &apos;designated purpose&apos; as the specific end, outcome, or target of some designated action. We note that this necessarily involves the notion of &apos;intentionality.&apos; Because this may be regarded as problematic in a realist ontology, please tread with caution.</rdfs:comment>
+        <rdfs:label xml:lang="en">permission purpose directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a process of access as permissable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <obo:ICO_0000420 xml:lang="en">access: https://www.merriam-webster.com/dictionary/access
+
+(1) to get at
+(2) to gain access to
+(3) to be able to use, enter, or get near (something)
+(4) to open or load (a computer file, an Internet site, etc.)
+(5) permission, liberty, or ability to enter, approach, or pass to and from a place or to approach or communicate with a person or thing
+(6) freedom or ability to obtain or make use of something</obo:ICO_0000420>
+        <rdfs:comment xml:lang="en">(1) Access is a complex issue. We intend this class to cover instances whereby an entity may gain the ability to act upon an object whereby they previously were not able to do so. Examples may include: accessing PHI in a database, linking sensitive information to a biospecimen repository, ect.</rdfs:comment>
+        <rdfs:label xml:lang="en">designated process of access</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a process of analysis as permissable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <obo:ICO_0000420 xml:lang="en">analyze: https://www.merriam-webster.com/dictionary/collect
+
+(1) to study or determine the nature and relationship of the parts of (something) by analysis</obo:ICO_0000420>
+        <rdfs:label xml:lang="en">designated process of analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a procedure as permissable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) It is our intent for this term to serve as a blanket class for all types of clinical procedures. If an application demands specificity of procedures, for example administration of anesthetic, this would be a good parent class for such a list or subtree of procedures.</rdfs:comment>
+        <rdfs:label xml:lang="en">designated procedure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000332">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a process of collection as permissable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <obo:ICO_0000420 xml:lang="en">collect: https://www.merriam-webster.com/dictionary/collect
+
+(1) to bring together into one body or place
+(2) to gather or exact from a number of persons or sources
+(3) to gain or regain control of</obo:ICO_0000420>
+        <rdfs:comment xml:lang="en">(1) It is our intent that this class includes instances of collection of material and of information. We note that the actual processes of &apos;retention&apos; (read: &apos;storage&apos;) and &apos;collection&apos; may be ambigously differentiated.  
+
+(2) We intend this class to primarily cover de novo collection.</rdfs:comment>
+        <rdfs:label xml:lang="en">designated process of collection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a process of destruction as permissable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <obo:ICO_0000420 xml:lang="en">destroy: https://www.merriam-webster.com/dictionary/destroy
+
+(1) to put out of existence</obo:ICO_0000420>
+        <rdfs:label xml:lang="en">designated process of destruction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000334">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a process of disclosure as permissable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <obo:ICO_0000420 xml:lang="en">disclose: https://www.merriam-webster.com/dictionary/disclose
+
+(1) to make known or public
+(2) to expose to view</obo:ICO_0000420>
+        <rdfs:label xml:lang="en">designated process of disclosure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000335">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a process of duplication as permissable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <obo:ICO_0000420 xml:lang="en">duplicate: https://www.merriam-webster.com/dictionary/duplicate
+
+(1) to make double or twofold
+(2) to make a copy of</obo:ICO_0000420>
+        <rdfs:comment xml:lang="en">(1) We intend this designation to include processes of &apos;copying.&apos;</rdfs:comment>
+        <rdfs:label xml:lang="en">designated process of duplication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a process unspecified use as permissable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <obo:ICO_0000420 xml:lang="en">&apos;use&apos;
+
+(1) to put into action or service
+(2) to carry out a purpose or action by means of</obo:ICO_0000420>
+        <obo:ICO_0000420 xml:lang="en">unspecified: https://www.merriam-webster.com/dictionary/unspecified
+
+(1) not named or stated explicitly</obo:ICO_0000420>
+        <rdfs:comment xml:lang="en">(1) this is a &apos;catch-all&apos; bucket to define those &apos;designated action&apos;(s) that are not explicit.
+
+(2) does this require a &apos;designated purpose&apos; specification? (this is boarderline rule enforcement that may be appropriate at implmentation, but not here).</rdfs:comment>
+        <rdfs:label xml:lang="en">designated process of unspecified use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000337">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a process of modifcation as permissable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <obo:ICO_0000420 xml:lang="en">modify: https://www.merriam-webster.com/dictionary/modify
+
+(1) to make basic or fundamental changes in often to give a new orientation to or to serve a new end</obo:ICO_0000420>
+        <rdfs:label xml:lang="en">designated process of modification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a process of contact permissable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) This includes instances of recontact.</rdfs:comment>
+        <rdfs:label xml:lang="en">designated process of contact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a process of retention as permissable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <obo:ICO_0000420 xml:lang="en">retain: https://www.merriam-webster.com/dictionary/retain
+
+(1) to keep in possession or use
+(2) to keep in one&apos;s pay or service
+(3) to hold secure or intact</obo:ICO_0000420>
+        <rdfs:comment xml:lang="en">(1) these may often be accompanied by a &apos;designated temporal conditon&apos;.
+
+(2) if these are do not follow (1), they may be more approproately labeled &apos;stases&apos; instead of &apos;process.&apos;
+
+(3) we believe this includes storage, should it be re-labeled &apos;storage?&apos;</rdfs:comment>
+        <rdfs:label xml:lang="en">designated process of retention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a process of sharing permissable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <obo:ICO_0000420 xml:lang="en">share: https://www.merriam-webster.com/dictionary/share
+
+(1) to partake of, use, experience, occupy, or enjoy with others</obo:ICO_0000420>
+        <rdfs:comment xml:lang="en">(1) this, along with &apos;transfer&apos; need to be properly fleshed out. Perhaps the difference is &apos;ownership.&apos; When you share, you may retain the right to ownership, but when you transfer, you yield this right....
+
+(2) does sharing including publishing PHI? De-anonymizing?
+
+(3) what about &apos;release?&apos;</rdfs:comment>
+        <rdfs:label xml:lang="en">designated process of sharing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a process of study as permissable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) require link to a &apos;Descriptive Information Content Entity&apos; like: &apos;STUDY DETAILS?&apos;
+
+(2) STUDY PRTICIPATION</rdfs:comment>
+        <rdfs:label xml:lang="en">designated process of study</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000342">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a process of surveillance.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <obo:ICO_0000420 xml:lang="en">surveil: https://www.merriam-webster.com/dictionary/surveil
+
+(1) to subject to surveillance</obo:ICO_0000420>
+        <rdfs:comment xml:lang="en">(1) our usage more closely resembles the use in NCIT.</rdfs:comment>
+        <rdfs:label>designated process of surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000343">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a process of transferral of ownership permissable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <obo:ICO_0000420 xml:lang="en">transfer: https://www.merriam-webster.com/dictionary/transfer
+
+(1) to convey from one person, place, or situation to another 
+(2) to make over the possession or control of
+(3) to move to a different place, region, or situation</obo:ICO_0000420>
+        <rdfs:comment xml:lang="en">(1) is collection a tranfer of ownership?</rdfs:comment>
+        <rdfs:label xml:lang="en">designated process of transfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000344 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000344">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000328"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission purpose directive&apos; that designates a research process as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) This is a pointer to ADAM Matrix.
+
+(2) covers future</rdfs:comment>
+        <rdfs:label xml:lang="en">designated research purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000345">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000344"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated research purpose&apos; that designates a biomedical research process as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">designated biomedical research purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000346">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000345"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated research purpose&apos; that designates a process of genetic research as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">designated genetic research purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000328"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission purpose directive&apos; that designates a process relating to the management of an organization as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <obo:ICO_0000420 xml:lang="en">administrative: https://www.merriam-webster.com/dictionary/administrative
+
+(1) relating to the management of a company, school, or other organization
+administrative tasks/duties/responsibilities</obo:ICO_0000420>
+        <rdfs:comment xml:lang="en">(1) actions undertaken support system processing</rdfs:comment>
+        <rdfs:label xml:lang="en">designated administrative purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000348">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000328"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission purpose directive&apos; that designates a process of diagnosis as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) related to, but perhaps not limited to the following classes in OGMS:
+
+(2) diagnosis (http://purl.obolibrary.org/obo/OGMS_0000073)
+
+(3) diagnostic process (http://purl.obolibrary.org/obo/OGMS_0000104)</rdfs:comment>
+        <rdfs:label xml:lang="en">designated diagnostic purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000349">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000328"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission purpose directive&apos;  that designates an educational process as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated educational purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000350">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000328"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission purpose directive&apos;  that designates a process of evaluation as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated evaluation purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000328"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ICO_0000353"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission purpose directive&apos; that designates a for-profit activity as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated commercial purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000328"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission purpose directive&apos; that designates a healthcare operation process as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) quality and safety purposes</rdfs:comment>
+        <rdfs:label xml:lang="en">designated healthcare operation purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000353">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000328"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission purpose directive&apos; that designates a nonprofit activity as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated non-commercial purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000328"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission purpose directive&apos; that designates a process related to healing a disease as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated therapeutic purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000355">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000328"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission purpose directive&apos; that designates an unspecified process as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated unspecified purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000356">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000327"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission condition directive&apos; which states a preceding event or condition.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) &apos;antecedent&apos;
+
+(2) may need to specific &apos;post-cendents&apos; also.</rdfs:comment>
+        <rdfs:label xml:lang="en">permission precondition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000357">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000327"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission requirement directive&apos; that directs a &apos;permissable&apos; limit of a &apos;consent directive&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) Restrictions narrow the scope of the &apos;designated action&apos;. They operate on the &apos;allowability&apos; conditionally.
+
+(2) &quot;Allowable IF NOT &lt;&apos;designated restriction&apos;&gt;&quot;
+
+(3) Alternatively: &apos;A LIMIT ON THE SCOPE OF THE ACTION&apos;
+
+(4) up until the point of.
+
+(5) RESTRAINNING</rdfs:comment>
+        <rdfs:label xml:lang="en">permission restriction directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000359">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000357"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission restriction directive&apos; that designates an actor.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">permitted actor restriction directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000360">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000357"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission restriction directive&apos; that defines the spatial boundaries of a &apos;designated action&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) &apos;Jurisdiction&apos; is often defined in two senses: (1) a geopolitical context (BFO site), or (2) a power. We define jurisdiction as a BFO site, identifiable through shared context of other entities, like a country or state border. The term ‘deontic power role’ reflects the sense of ‘power’ sometimes used to describe jurisdiction.</rdfs:comment>
+        <rdfs:label xml:lang="en">jurisdiction restriction directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000363">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000357"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission restriction directive&apos; that designates the temporal boundaries of the &apos;designated action&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">temporal restriction directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000364">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000327"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission condition directive&apos; that states an additional requirement.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) NOTE: this is an imperitive - it is not strictly part of a permission but is inextricably tied to it.
+
+(2) these are obligations that are dependent on a permission (conditioned on a permission)
+
+(3) MUST BE FULLFILLED
+
+(4) allowability is necessarily dependent on this being fulfilled</rdfs:comment>
+        <rdfs:label xml:lang="en">permission requirement directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000365">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000327"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission condition directive&apos; that directs another &apos;consent directive&apos; as a requirement of a primary &apos;consent directive&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) This permission is dependent on another permission
+
+(2) a good example of this are data use agreements that must be signed in addition to an informed consent form to allow for PHI data sharingor disclosure.</rdfs:comment>
+        <rdfs:label xml:lang="en">permission sub-directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000364"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission requirement directive&apos; that directs the possibility of withdraw.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) typically from &apos;study participation.&apos;</rdfs:comment>
+        <rdfs:label xml:lang="en">possibility of withdraw directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000326"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated object&apos; that designates data or information.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) This is really saying that this is information that designates other information content entities (in BFO-speak).</rdfs:comment>
+        <rdfs:comment xml:lang="en">See: http://purl.obolibrary.org/obo/IAO_0000030</rdfs:comment>
+        <rdfs:label xml:lang="en">designated data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000368">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000367"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated data&apos; that designates waveform data.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated waveform data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000369">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000367"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated data&apos; that designates genetic data.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated genetic data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000367"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated data&apos; that designates data about health.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated health information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000371">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000367"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated data&apos; that designates information that may identify an entity.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) How broad is this notion of &apos;entity&apos; here?
+
+(2) NOTE: this not nested under &apos;designated health information&apos; because information does not need to be health information to be identifiable.
+
+(3) HIPAA Identifiers
+
+(4) Includes fully and partially identifiable information.</rdfs:comment>
+        <rdfs:label xml:lang="en">designated identifiable information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000367"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated data&apos; that designates image data.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated image data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000373">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000367"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated data&apos; that designates video data.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated video data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000374">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000326"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated object&apos; that designates a person, or part of a person, as the target of a &apos;designated action.&apos;</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) for when the permitting party is the target of the &apos;designated action&apos;
+
+(2) you may operate on my leg
+
+(3) this includes &apos;study participant&apos; as the target of an action. May also include patient.</rdfs:comment>
+        <rdfs:label xml:lang="en">designated human object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000375">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000326"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated object&apos; that designates a biospecimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) this should be mapped to robust specimen heirarchies such as: http://purl.obolibrary.org/obo/OBI_0100051</rdfs:comment>
+        <rdfs:comment xml:lang="en">A &apos;designated object&apos; that designates a specimen.</rdfs:comment>
+        <rdfs:label xml:lang="en">designated biospecimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000375"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated biospecimen&apos; that designates a portion of excess tissue.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated residual tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000326"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated object&apos; that designates an unspecified object.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated unspecified object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000325"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated actor&apos; that designates an actor that may bear a permission role that may be realized in the process prescribed by the process designated by the &apos;designated action.&apos;</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) This designation points towards deontic roles and social processes.
+
+(2) This can be read as: &apos;the actor TO BE permitted.&apos; It is not intended to create a permission the same way the creation of an ICO:permission role might. However, we leave this somewhat open to implementation interpretation.</rdfs:comment>
+        <rdfs:label xml:lang="en">designated permitted actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000325"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated actor&apos; that designates an actor with an affilitation to an organization or institution.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) actor with a designated affiliation to an organization/institution.
+
+(2) intended for single individuals rather than groups, but as a way to relate groups and actors performing on the group&apos;s behalf.</rdfs:comment>
+        <rdfs:label xml:lang="en">designated affiliated actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000380">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000325"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated actor&apos; that designates a corporation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated corporation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000381">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000325"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated actor&apos; that designates an institution.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) established organization
+
+(2) an entity that has independent financial, legal, interests or identity.</rdfs:comment>
+        <rdfs:label xml:lang="en">designated institution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000382">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000325"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated actor&apos; that designates a principal investigator.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated principal investigator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000383">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000325"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated actor&apos; that designates an information system.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated information system actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000384">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000325"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated actor&apos; that designates an organization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) where does surgical team fit in?
+
+(2) how do we define aggregates of people?
+
+(3) possible mapping to (OBI: organization) http://purl.obolibrary.org/obo/OBI_0000245</rdfs:comment>
+        <rdfs:label xml:lang="en">designated organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000385">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000384"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated organization&apos; that desginates an educational organization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated educational organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000386">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000384"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated organization&apos; that designates a biobank organization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated biobank organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000387">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000384"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated organization&apos; that designates a for-profit organization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated for-profit organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000384"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated organization&apos; that designates a funding organization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated funding organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000389">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000384"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated organization&apos; that designates a government organization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated government organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000390">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000384"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated organization&apos; that designates a healthcare organization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated healthcare organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000391">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000384"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated organization&apos; that designates a regulatory organization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated regulatory organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000392">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000384"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated organization&apos; that designates a media organization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated media organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000393">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000384"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated organization&apos; that designated a non-profit organization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated non-profit organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000394">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000384"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated organization&apos; that designates a public health organization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) groups that may have the ability to override specific norms?</rdfs:comment>
+        <rdfs:label xml:lang="en">designated public health organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000395">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000384"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated organization&apos; that desginates a research organization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated research organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000396">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000325"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated actor&apos; that designates a team.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) this is useful in defining things like &apos;research team&apos; or &apos;clinical team.&apos;</rdfs:comment>
+        <rdfs:label xml:lang="en">designated team</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000397">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000384"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated organization&apos; that designates an unspecified organization.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated unspecified organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000398">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000325"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated actor&apos; that designates an actor that may permit some &apos;designated action&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) This designation points towards deontic roles and social processes.</rdfs:comment>
+        <rdfs:label xml:lang="en">designated permitting actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000399">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000325"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated actor&apos; that designates the entity that is permitting some &apos;designated action&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) not to be confused with &apos;designated consenting actor&apos;.
+
+(2) this definition is currently the same as the definition for &apos;designated consenting actor&apos;. We need to remedy this without appealing to U.S. specific legislative definitions.</rdfs:comment>
+        <rdfs:label xml:lang="en">designated assenting actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000325"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated actor&apos; that designates the actor that is permitting some &apos;designated action&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) Not to be confused with &apos;designed assenting actor&apos;
+
+(2) By &apos;permitting&apos; we mean &apos;making the otherwise impermissable action permissable&apos; or &apos;making allowable.&apos;</rdfs:comment>
+        <rdfs:label xml:lang="en">designated consenting actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000401">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000325"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated actor&apos; that designates an authorized representative.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) legally authorized representative (LAR): has the ability to act on behalf of another person (under the rule of law).
+
+(2) not sure if this should be under the &apos;designated permitting actor&apos;.
+
+(3) surrogates are included here.</rdfs:comment>
+        <rdfs:label xml:lang="en">designated authorized representative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000403">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000325"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated actor&apos; that designates an unspecified actor.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated unspecified actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000344"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated research purpose&apos; that designates a health services research process as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">designated health services research purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000406">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000344"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated research purpose&apos; that designates a process of methods development research as it&apos;s end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">designated methods development purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000407">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000344"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated research purpose&apos; that designates reference control material research processes as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">designated control material research purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000408">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000344"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated research purpose&apos; that designates a process of population research as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">designated populations research purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000409">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000344"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated research purpose&apos; that designates ancestry research as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">designated ancestry research purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000345"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated biomedical research purpose&apos; that designates a process of drug research as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">designated drug research purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000411">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000345"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated biomedical research purpose&apos; that designates a process of disease specific research as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">designated disease research purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000412">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000345"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated biomedical research purpose&apos; that designates a process of age category research as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">designated age category research purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000345"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated biomedical research purpose&apos; that designates a process of gender category research as its end.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">designated gender research purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a process of administration as permissable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) This class is intended for actions such as &apos;drug administration.&apos;</rdfs:comment>
+        <rdfs:label xml:lang="en">designated process of administration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000415">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000326"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated object&apos; that designates a pharmaceutical object</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated pharmaceutical object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000416">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000328"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission purpose directive&apos; that designates a process of recruitment.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:label xml:lang="en">designated recruitment purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000417">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000328"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission purpose directive&apos; that designates a return of results.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) This is intended to cover communication from a healthcare organization to a patient or study participant regarding their health.</rdfs:comment>
+        <rdfs:label xml:lang="en">designated return of results purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000418">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000364"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;permission requirement directive&apos; that directs sensitive infotmation proctection.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <obo:ICO_0000404 xml:lang="en"></obo:ICO_0000404>
+        <rdfs:comment xml:lang="en">(1) This definition is left purposefully broad to cover a wide range of use cases including processes or methods.</rdfs:comment>
+        <rdfs:label xml:lang="en">sensitive information protection directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000419">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000324"/>
+        <obo:IAO_0000115 xml:lang="en">A &apos;designated action&apos; that designates a process fo treament.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Cooper Stansbury, Elizabeth Umberfield, Kathleen Ford, Marcy Harris</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">(1) consent to treat</rdfs:comment>
+        <rdfs:label xml:lang="en">designated process of treatment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ICO_0000421 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000421">
@@ -4193,52 +5801,120 @@ Preethi Shivayogi (2013). Vulnerable population and methods for their safeguard.
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_CRO">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <rdfs:comment xml:lang="en">This is a dummy class to be deprecated after it has fulfilled its organization purposes</rdfs:comment>
-        <rdfs:label>obsolete ICO Classes to Move to RUBRIC</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ico.owl#Belongs_in_D-Acts -->
+    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ico.owl#Belongs_in_D-Acts">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <rdfs:comment xml:lang="en">This is a dummy class to be deprecated after it has fulfilled its organization purposes</rdfs:comment>
-        <rdfs:label>obsolete ICO Classes to Move to D-Acts</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/OBI_0000066 -->
 
-    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70958">
-        <obo:ICO_0000091>C2348583</obo:ICO_0000091>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000572">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:ICO_0000091 xml:lang="en">C1548385</obo:ICO_0000091>
-        <obo:ICO_0000093 xml:lang="en">11609</obo:ICO_0000093>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000018">
-        <obo:ICO_0000091 xml:lang="en">C0456984</obo:ICO_0000091>
-        <obo:ICO_0000092 xml:lang="en">C77140</obo:ICO_0000092>
-    </rdf:Description>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000066"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000093"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000181"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000272"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000810 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000810"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001622"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000102"/>
+    
+
+
+    <!-- http://purl.unep.org/sdg/SDGIO_00000024 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/SDGIO_00000024"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -->
+
+    <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity"/>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Stasis -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Stasis"/>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfGenericallyDependentContinuant"/>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 

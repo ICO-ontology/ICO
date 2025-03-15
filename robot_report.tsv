@@ -1,0 +1,16 @@
+Level	Rule Name	Subject	Property	Value
+WARN	duplicate_label_synonym	ICO:0000131	IAO:0000118	institutional review board approval number@en
+WARN	equivalent_class_axiom_no_genus	ICO:0000316	http://www.ontologyrepository.com/CommonCoreOntologies/prescribes	BFO:0000023
+WARN	missing_definition	ICO:0000091	IAO:0000115	
+WARN	missing_definition	ICO:0000092	IAO:0000115	
+WARN	missing_definition	ICO:0000093	IAO:0000115	
+WARN	missing_definition	ICO:0000224	IAO:0000115	
+WARN	missing_definition	ICO:0000253	IAO:0000115	
+WARN	missing_definition	ICO:0000272	IAO:0000115	
+WARN	missing_definition	ICO:0000281	IAO:0000115	
+WARN	missing_definition	ICO:0000321	IAO:0000115	
+WARN	missing_definition	ICO:0000404	IAO:0000115	
+WARN	missing_definition	ICO:0000420	IAO:0000115	
+INFO	lowercase_definition	ICO:0000080	IAO:0000115	a role inhering in a homo sapiens that, if realized, is realized in assisting with a research process.@en
+INFO	lowercase_definition	ICO:0000155	IAO:0000115	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777303/@en
+INFO	lowercase_definition	ICO:0000169	IAO:0000115	a role that inheres in a human subject who participates in an assending process.@en
