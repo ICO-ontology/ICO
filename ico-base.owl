@@ -21,7 +21,7 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ico.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ico/releases/2025-03-15/ico.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ico/releases/2026-02-28/ico.owl"/>
         <dc:contributor xml:lang="en">Anna Maria Masci</dc:contributor>
         <dc:contributor xml:lang="en">Chris Stoeckert</dc:contributor>
         <dc:contributor xml:lang="en">Cui Tao</dc:contributor>
@@ -43,13 +43,15 @@
         <dc:creator xml:lang="en">Jonathan Vajda</dc:creator>
         <dc:creator xml:lang="en">Kathleen Ford</dc:creator>
         <dc:creator xml:lang="en">Marcy Harris</dc:creator>
+        <dc:creator>Rahma Alifia</dc:creator>
+        <dc:creator>Tuan Amith</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He</dc:creator>
         <dc:description xml:lang="en">The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.</dc:description>
         <dc:title xml:lang="en">Informed Consent Ontology (ICO)</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">Terms were identified from a sample of informed consent templates, and definitions were selected based on concordance between the defintion and the use of the term in the source informed consent template document.  We preferentially selected defintioins from the NCI thesuarus.</rdfs:comment>
         <rdfs:seeAlso rdf:resource="https://github.com/ICO-ontology/ICO"/>
-        <owl:versionInfo>2025-03-15</owl:versionInfo>
+        <owl:versionInfo>2026-02-28</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -284,6 +286,32 @@
         <obo:IAO_0000117 xml:lang="en">Yongqun He, Elizabeth Eisenhauer, Asiyah Yu Lin, Alla Karnovsky, Marcy Harris</obo:IAO_0000117>
         <rdfs:label>obsolete is assigned by organization</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000183 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000183">
+        <obo:IAO_0000115>Relates a process to a time-measurement-datum that represents the duration of the process</obo:IAO_0000115>
+        <obo:IAO_0000116>BCGO is obsolete, and so here we add a new term to replace the term originally defined in BCGO. In long term, we will need to submit this term to RO.</obo:IAO_0000116>
+        <obo:IAO_0000117>Jie Zheng, Rahma Alifia, Tuan Amith, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>http://purl.obolibrary.org/obo/BCGO_0000182</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/ICO-ontology/ICO/issues/38</obo:IAO_0000233>
+        <rdfs:label xml:lang="en">has duration</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000208 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000208">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000066"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An object property that represents a relation between a research project and its associated permission type under the categery of &apos;information content entity&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng, Rahma Alifia, Tuan Amith, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>has_permission</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">has permission</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2931,6 +2959,20 @@ Also, 6/28: Mathias writes: This definition is probably incorrect. I assume we d
         <obo:IAO_0000115 xml:lang="en">An act of communicating one’s agreement.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">J. Neil Otte</obo:IAO_0000117>
         <rdfs:label xml:lang="en">act of communicating assent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ICO_0000198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115>A directive information entity that prescribes whether, under what conditions, and with which recipients biospecimens (including human biological materials and their derivatives) may be shared beyond the original study team or repository.</obo:IAO_0000115>
+        <obo:IAO_0000117>Rahma Alifia, Jie Zheng, Tuan Amith, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>directive about specimen sharing</obo:IAO_0000118>
+        <obo:IAO_0000118>directive information entity about specimen sharing</obo:IAO_0000118>
+        <obo:IAO_0000233>https://github.com/ICO-ontology/ICO/issues/39</obo:IAO_0000233>
+        <rdfs:label xml:lang="en">specimen sharing directive</rdfs:label>
     </owl:Class>
     
 
