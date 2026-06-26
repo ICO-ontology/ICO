@@ -9,13 +9,15 @@ Informed Consent Ontology (ICO) represents the domain of informed consent, inclu
 As part of the consent process in human subjects research, potential participants receive information about the purpose of a study, potential risks and benefits of participation, their rights, and the procedures to be undergone as part of the study. If the individual decides to participate, an informed consent document is signed and preserved as a record of voluntary participation in the research study. Following OBO Foundry principles and extending from the top-level ontology Basic Formal Ontology (BFO), ICO represents universals and relations in the domain of informed consent.
 
 ## Contributions
-The ICO development was initiated in 2012 with the support of a MCubed project (awarded to Drs. Marcelline Harris, Yongqun "Oliver" He, and Alla Karnovsky) at the University of Michigan. Since then, many researchers and funding resources have helped to advance the development and application of ICO. Details of contributions to ICO can be found below. If you feel you have made a significant contribution, but do not see your name, please submit an issue using the GitHub Issue Tracker.
+The ICO development was initiated in 2012 with the support of a MCubed project (awarded to Drs. [Marcelline Harris](https://nursing.umich.edu/directory/marcelline-harris), [Yongqun "Oliver" He](https://hegroup.org), and [Alla Karnovsky](https://medschool.umich.edu/profile/156/alla-karnovsky)) at the University of Michigan. The University of Michigan teams have been a major force for the continuous ICO development and applications. 
 
 In 2018, much of the [The Common Rule Ontology](https://github.com/CRO-ontology/CRO), developed by [Frank J. Manion](https://www.linkedin.com/in/frankmanion/) in his PhD thesis research (his PhD mentor: Dr. Cui Tao), was merged into ICO. Details on The Common Rule Ontology can be found in the [Common Rule Readme](docs/COMMON_RULE_README.md).
 
 Dr. [Tuan Amith](https://scholar.google.com/citations?user=VTaxBZgAAAAJ&hl=en) has utilized ICO to experiment with applied usage for software integration using SWRL since 2022.
 
 Ms. Rahma Alifia and her mentor Dr. [Adela Grando](https://search.asu.edu/profile/2320996) from the College of Health Solutions in the Arizona State University have joined our ICO development team since 2025. They have helped further develop ICO and applied ICO for different applications. 
+
+Since 2012, many researchers and funding resources have helped to advance the development and application of ICO. Details of contributions to ICO can be found below. If you feel you have made a significant contribution, but do not see your name, please submit an issue using the GitHub Issue Tracker. We also appreciate more collaborations from the community. Thanks! 
 
 ### ICO Contributors (Alphabetically)
 - Rahma Alifia
