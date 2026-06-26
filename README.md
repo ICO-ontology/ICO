@@ -13,6 +13,10 @@ ICO was initiated in 2012 with the support of the MCubed project at the Universi
 
 In 2018, much of the [The Common Rule Ontology](https://github.com/CRO-ontology/CRO), developed by Frank J. Manion was merged into ICO. Details on The Common Rule Ontology can be found in the [Common Rule Readme](docs/COMMON_RULE_README.md).
 
+Dr. Tuan Amith has utilized ICO to experiment with applied usage for software integration using SWRL since 2022.
+
+Ms. Rahma Alifia and her mentor Dr. Adela Grando from the College of Health Solutions in the Arizona State University have joined our ICO development team since 2025. They have helped further develop ICO and applied ICO for different applications. 
+
 ### ICO Contributors (Alphabetically)
 - Rahma Alifia
 - Jonathan Bona
